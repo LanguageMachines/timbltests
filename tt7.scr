@@ -1,0 +1,18 @@
+new exp -aIB1 -mO:I2 +vf
+exp.train ./tests/klein_2.train
+exp.expand ./tests/klein_3.train
+exp.expand ./tests/klein_4.train
+exp.expand ./tests/klein_5.train
+exp.test ./tests/klein_1.train
+exp.expand ./tests/klein_1.train
+exp.remove ./tests/klein_2.train
+exp.test ./tests/klein_2.train
+exp.expand ./tests/klein_2.train
+exp.remove ./tests/klein_3.train
+exp.test ./tests/klein_3.train
+exp.expand ./tests/klein_3.train
+exp.remove ./tests/klein_4.train
+exp.test ./tests/klein_4.train
+exp.expand ./tests/klein_4.train
+exp.remove ./tests/klein_5.train
+exp.test ./tests/klein_5.train

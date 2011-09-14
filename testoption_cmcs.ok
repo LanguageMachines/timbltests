@@ -1,0 +1,352 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:06:48 2011
+
+Examine datafile './tests/big.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/big.train
+Start:          0 @ Tue Jan 25 17:06:48 2011
+Finished:   24474 @ Tue Jan 25 17:06:48 2011
+Calculating Entropy         Tue Jan 25 17:06:48 2011
+Lines of data     : 24474
+DB Entropy        : 1.1174908
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1   4991	0.57247187	0.059315890
+    2   4991	0.94209705	0.097617685
+    3   4804	0.64662006	0.069242832
+    4   4845	0.32228317	0.034330429
+    5     42	0.24568779	0.057496604
+    6     42	0.83436099	0.19526349
+    7     42	0.33206154	0.077459835
+    8     42	0.051069063	0.011935177
+
+Preparation took 0 seconds, 295 milliseconds and 466 microseconds
+Feature Permutation based on GainRatio/Values :
+< 6, 7, 5, 8, 2, 3, 1, 4 >
+Phase 2: Building multi index on Datafile: ./tests/big.train
+Start:          0 @ Tue Jan 25 17:06:48 2011
+Finished:   24474 @ Tue Jan 25 17:06:49 2011
+
+Phase 3: Learning from Datafile: ./tests/big.train
+Start:          0 @ Tue Jan 25 17:06:49 2011
+Finished:   24474 @ Tue Jan 25 17:06:49 2011
+
+Size of InstanceBase = 123834 Nodes, (4953360 bytes), 41.94 % compression
+Learning took 0 seconds, 769 milliseconds and 199 microseconds
+Examine datafile './tests/big.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/big.test
+Writing output in:          out1
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 5208 Bytes 
+Size of value-matrix[2] = 5208 Bytes 
+Size of value-matrix[3] = 4920 Bytes 
+Size of value-matrix[4] = 5208 Bytes 
+Size of value-matrix[5] = 5208 Bytes 
+Size of value-matrix[6] = 5208 Bytes 
+Size of value-matrix[7] = 5208 Bytes 
+Size of value-matrix[8] = 5208 Bytes 
+Total Size of value-matrices 41376 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.059315890169689
+Feature 2	 : 0.097617685379483
+Feature 3	 : 0.069242831842625
+Feature 4	 : 0.034330429496841
+Feature 5	 : 0.057496603620740
+Feature 6	 : 0.195263485848034
+Feature 7	 : 0.077459834970599
+Feature 8	 : 0.011935176670302
+
+Tested:      1 @ Tue Jan 25 17:06:49 2011
+Tested:      2 @ Tue Jan 25 17:06:49 2011
+Tested:      3 @ Tue Jan 25 17:06:49 2011
+Tested:      4 @ Tue Jan 25 17:06:49 2011
+Tested:      5 @ Tue Jan 25 17:06:49 2011
+Tested:      6 @ Tue Jan 25 17:06:49 2011
+Tested:      7 @ Tue Jan 25 17:06:49 2011
+Tested:      8 @ Tue Jan 25 17:06:49 2011
+Tested:      9 @ Tue Jan 25 17:06:49 2011
+Tested:     10 @ Tue Jan 25 17:06:49 2011
+Ready:      50 @ Tue Jan 25 17:06:49 2011
+Seconds taken: 0.1612 (310.20 p/s)
+
+Scores per Value Class:
+class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
+     I |    	27   	5   	15   	3 	0.84375 	0.90000 	0.25000 	0.87097 	0.82500
+     O |    	14   	3   	29   	4 	0.82353 	0.77778 	0.09375 	0.80000 	0.84201
+     B |    	1   	0   	48   	1 	1.00000 	0.50000 	0.00000 	0.66667 	0.75000
+F-Score beta=1, microav: 0.835684
+F-Score beta=1, macroav: 0.779211
+AUC, microav:            0.830865
+AUC, macroav:            0.805671
+overall accuracy:        0.840000  (42/50), of which 1 exact matches 
+
+Confusion Matrix:
+             I      O      B 
+        ---------------------
+     I |     27      3      0 
+     O |      4     14      0 
+     B |      1      0      1 
+   -*- |      0      0      0 
+
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,O { O 4.00000 }        0.069242831842625
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I { I 1.00000 }        0.036213473629212
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I { I 1.00000 }        0.0082917384209619
+for,calls,agreement,the,IN,VBZ,NN,DT,O,O { O 1.00000 }        0.0083303630806188
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O { O 1.00000 }        0.010013986046450
+to,it,for,calls,TO,PRP,IN,VBZ,I,I { I 1.00000 }        0.022043816885628
+supply,to,it,for,VB,TO,PRP,IN,O,O { O 1.00000 }        0.031626955286820
+200,supply,to,it,CD,VB,TO,PRP,O,I { I 1.00000 }        0.0086567065927440
+additional,200,supply,to,JJ,CD,VB,TO,I,O { O 1.00000 }        0.048683734015949
+so-called,additional,200,supply,JJ,JJ,CD,VB,I,I { I 1.00000 }        0.046410956850992
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I { I 1.00000 }        0.065613867580410
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I { I 1.00000 }        0.099107727295090
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O { O 1.00000 }        0.078029002865531
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I { I 1.00000 }        0.094595817573807
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I { I 5.00000 }        0.098333687519524
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O { O 14.0000 }        0.034330429496841
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 5.00000 }        0.0051700124950066
+KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I { I 2.00000 }        0.031611976872135
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { O 1.00000 }        0.025661551443415
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { O 1.00000 }        0.018611892516076
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:06:49 2011
+
+Examine datafile './tests/big.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/big.train
+Start:          0 @ Tue Jan 25 17:06:50 2011
+Finished:   24474 @ Tue Jan 25 17:06:50 2011
+Calculating Entropy         Tue Jan 25 17:06:50 2011
+Lines of data     : 24474
+DB Entropy        : 1.1174908
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1   4991	0.57247187	0.059315890
+    2   4991	0.94209705	0.097617685
+    3   4804	0.64662006	0.069242832
+    4   4845	0.32228317	0.034330429
+    5     42	0.24568779	0.057496604
+    6     42	0.83436099	0.19526349
+    7     42	0.33206154	0.077459835
+    8     42	0.051069063	0.011935177
+
+Preparation took 0 seconds, 303 milliseconds and 153 microseconds
+Feature Permutation based on GainRatio/Values :
+< 6, 7, 5, 8, 2, 3, 1, 4 >
+Phase 2: Building multi index on Datafile: ./tests/big.train
+Start:          0 @ Tue Jan 25 17:06:50 2011
+Finished:   24474 @ Tue Jan 25 17:06:50 2011
+
+Phase 3: Learning from Datafile: ./tests/big.train
+Start:          0 @ Tue Jan 25 17:06:50 2011
+Finished:   24474 @ Tue Jan 25 17:06:51 2011
+
+Size of InstanceBase = 123834 Nodes, (4953360 bytes), 41.94 % compression
+Learning took 0 seconds, 764 milliseconds and 478 microseconds
+Examine datafile './tests/big.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/big.test
+Writing output in:          out2
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 5208 Bytes 
+Size of value-matrix[2] = 5208 Bytes 
+Size of value-matrix[3] = 4920 Bytes 
+Size of value-matrix[4] = 5208 Bytes 
+Size of value-matrix[5] = 5208 Bytes 
+Size of value-matrix[6] = 5208 Bytes 
+Size of value-matrix[7] = 5208 Bytes 
+Size of value-matrix[8] = 5208 Bytes 
+Total Size of value-matrices 41376 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.059315890169689
+Feature 2	 : 0.097617685379483
+Feature 3	 : 0.069242831842625
+Feature 4	 : 0.034330429496841
+Feature 5	 : 0.057496603620740
+Feature 6	 : 0.195263485848034
+Feature 7	 : 0.077459834970599
+Feature 8	 : 0.011935176670302
+
+Tested:      1 @ Tue Jan 25 17:06:51 2011
+Tested:      2 @ Tue Jan 25 17:06:51 2011
+Tested:      3 @ Tue Jan 25 17:06:51 2011
+Tested:      4 @ Tue Jan 25 17:06:51 2011
+Tested:      5 @ Tue Jan 25 17:06:51 2011
+Tested:      6 @ Tue Jan 25 17:06:51 2011
+Tested:      7 @ Tue Jan 25 17:06:51 2011
+Tested:      8 @ Tue Jan 25 17:06:51 2011
+Tested:      9 @ Tue Jan 25 17:06:51 2011
+Tested:     10 @ Tue Jan 25 17:06:51 2011
+Ready:      50 @ Tue Jan 25 17:06:52 2011
+Seconds taken: 1.0802 (46.29 p/s)
+
+F-Score beta=1, microav: 0.835684
+F-Score beta=1, macroav: 0.779211
+AUC, microav:            0.830865
+AUC, macroav:            0.805671
+overall accuracy:        0.840000  (42/50), of which 1 exact matches 
+
+Confusion Matrix:
+             I      O      B 
+        ---------------------
+     I |     27      3      0 
+     O |      4     14      0 
+     B |      1      0      1 
+   -*- |      0      0      0 
+
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,O { O 4.00000 }
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I { I 1.00000 }
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I { I 1.00000 }
+for,calls,agreement,the,IN,VBZ,NN,DT,O,O { O 1.00000 }
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O { O 1.00000 }
+to,it,for,calls,TO,PRP,IN,VBZ,I,I { I 1.00000 }
+supply,to,it,for,VB,TO,PRP,IN,O,O { O 1.00000 }
+200,supply,to,it,CD,VB,TO,PRP,O,I { I 1.00000 }
+additional,200,supply,to,JJ,CD,VB,TO,I,O { O 1.00000 }
+so-called,additional,200,supply,JJ,JJ,CD,VB,I,I { I 1.00000 }
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I { I 1.00000 }
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I { I 1.00000 }
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O { O 1.00000 }
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I { I 1.00000 }
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I { I 5.00000 }
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O { O 14.0000 }
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 5.00000 }
+KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I { I 2.00000 }
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { O 1.00000 }
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { O 1.00000 }
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:06:52 2011
+
+Examine datafile './tests/big.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/big.train
+Start:          0 @ Tue Jan 25 17:06:52 2011
+Finished:   24474 @ Tue Jan 25 17:06:52 2011
+Calculating Entropy         Tue Jan 25 17:06:52 2011
+Lines of data     : 24474
+DB Entropy        : 1.1174908
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1   4991	0.57247187	0.059315890
+    2   4991	0.94209705	0.097617685
+    3   4804	0.64662006	0.069242832
+    4   4845	0.32228317	0.034330429
+    5     42	0.24568779	0.057496604
+    6     42	0.83436099	0.19526349
+    7     42	0.33206154	0.077459835
+    8     42	0.051069063	0.011935177
+
+Preparation took 0 seconds, 302 milliseconds and 648 microseconds
+Feature Permutation based on GainRatio :
+< 6, 2, 7, 3, 1, 5, 4, 8 >
+Phase 2: Building multi index on Datafile: ./tests/big.train
+Start:          0 @ Tue Jan 25 17:06:52 2011
+Finished:   24474 @ Tue Jan 25 17:06:53 2011
+
+Phase 3: Learning from Datafile: ./tests/big.train
+Start:          0 @ Tue Jan 25 17:06:53 2011
+Finished:   24474 @ Tue Jan 25 17:06:53 2011
+
+Size of InstanceBase = 1456 Nodes, (58240 bytes), 99.32 % compression
+Learning took 0 seconds, 878 milliseconds and 951 microseconds
+Examine datafile './tests/big.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/big.test
+Writing output in:          out3
+Algorithm     : IGTree
+Weighting     : GainRatio
+Feature 1	 : 0.059315890169689
+Feature 2	 : 0.097617685379483
+Feature 3	 : 0.069242831842625
+Feature 4	 : 0.034330429496841
+Feature 5	 : 0.057496603620740
+Feature 6	 : 0.195263485848034
+Feature 7	 : 0.077459834970599
+Feature 8	 : 0.011935176670302
+
+Tested:      1 @ Tue Jan 25 17:06:53 2011
+Tested:      2 @ Tue Jan 25 17:06:53 2011
+Tested:      3 @ Tue Jan 25 17:06:53 2011
+Tested:      4 @ Tue Jan 25 17:06:53 2011
+Tested:      5 @ Tue Jan 25 17:06:53 2011
+Tested:      6 @ Tue Jan 25 17:06:53 2011
+Tested:      7 @ Tue Jan 25 17:06:53 2011
+Tested:      8 @ Tue Jan 25 17:06:53 2011
+Tested:      9 @ Tue Jan 25 17:06:53 2011
+Tested:     10 @ Tue Jan 25 17:06:53 2011
+Ready:      50 @ Tue Jan 25 17:06:53 2011
+Seconds taken: 0.0018 (28089.89 p/s)
+
+Scores per Value Class:
+class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
+     I |    	29   	0   	20   	1 	1.00000 	0.96667 	0.00000 	0.98305 	0.98333
+     O |    	18   	1   	31   	0 	0.94737 	1.00000 	0.03125 	0.97297 	0.98438
+     B |    	2   	0   	48   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
+F-Score beta=1, microav: 0.979002
+F-Score beta=1, macroav: 0.985341
+AUC, microav:            0.984137
+AUC, macroav:            0.989236
+overall accuracy:        0.980000  (49/50)
+
+Confusion Matrix:
+             I      O      B 
+        ---------------------
+     I |     29      1      0 
+     O |      0     18      0 
+     B |      0      0      2 
+   -*- |      0      0      0 
+
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,O { I 8.00000, O 747.000 }
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I { I 1072.00, O 3.00000, B 20.0000 }
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I { I 3580.00, O 61.0000, B 7.00000 }
+for,calls,agreement,the,IN,VBZ,NN,DT,O,O { I 17.0000, O 544.000 }
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O { I 65.0000, O 2594.00, B 5.00000 }
+to,it,for,calls,TO,PRP,IN,VBZ,I,I { I 29.0000, B 1.00000 }
+supply,to,it,for,VB,TO,PRP,IN,O,O { I 16.0000, O 592.000 }
+200,supply,to,it,CD,VB,TO,PRP,O,O { I 20.0000, O 718.000 }
+additional,200,supply,to,JJ,CD,VB,TO,I,I { I 856.000, O 13.0000, B 15.0000 }
+so-called,additional,200,supply,JJ,JJ,CD,VB,I,I { I 1357.00, O 209.000, B 24.0000 }
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I { I 1357.00, O 209.000, B 24.0000 }
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I { I 1534.00, O 27.0000, B 8.00000 }
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O { I 65.0000, O 2594.00, B 5.00000 }
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I { I 617.000, O 2.00000 }
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I { I 1534.00, O 27.0000, B 8.00000 }
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O { I 1.00000, O 958.000 }
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 2021.00, O 24.0000, B 101.000 }
+KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,O { I 8.00000, O 296.000, B 1.00000 }
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { I 57.0000, O 1167.00 }
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { I 65.0000, O 2594.00, B 5.00000 }

@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+
+$comm -f ./tests/example.train -mM -U /tmp/matrices
+cat < /tmp/matrices 
+$comm -f ./tests/example.train -mM -u /tmp/matrices -t ./tests/example.test +vdi+db -oout1 
+cat < out1

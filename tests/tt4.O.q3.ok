@@ -1,0 +1,50 @@
+Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,I { I 1.00000 }        0.23710535639701
+International,Rockwell,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,I { I 21.0000, O 3.00000 }        0.80421549557776
+CorpPUNT,International,Rockwell,PUNT,NNP,NNP,NNP,PUNT,I,I { I 21.0000, O 3.00000 }        0.80421549557776
+'s,CorpPUNT,International,Rockwell,POS,NNP,NNP,NNP,I,I { I 21.0000, O 3.00000 }        0.80421549557776
+Tulsa,'s,CorpPUNT,International,NNP,POS,NNP,NNP,B,B {}        0.64825609190317
+unit,Tulsa,'s,CorpPUNT,NN,NNP,POS,NNP,I,I { I 21.0000, O 3.00000 }        0.80421549557776
+said,unit,Tulsa,'s,VBD,NN,NNP,POS,I,I {}        0.64825609190317
+it,said,unit,Tulsa,PRP,VBD,NN,NNP,O,O {}        0.64825609190317
+signed,it,said,unit,VBD,PRP,VBD,NN,I,I { I 124.000, O 92.0000, B 4.00000 }        1.0206541647276
+a,signed,it,said,DT,VBD,PRP,VBD,O,O { O 2.00000 }        0.80421549557776
+tentative,a,signed,it,JJ,DT,VBD,PRP,I,I {}        0.64825609190317
+agreement,tentative,a,signed,NN,JJ,DT,VBD,I,I { I 14.0000, O 1.00000, B 1.00000 }        0.80421549557776
+extending,agreement,tentative,a,VBG,NN,JJ,DT,I,I { I 40.0000, B 1.00000 }        0.80421549557776
+its,extending,agreement,tentative,PRP$,VBG,NN,JJ,O,I { I 1.00000, O 1.00000 }        0.80421549557776
+contract,its,extending,agreement,NN,PRP$,VBG,NN,I,I { I 2.00000 }        0.80421549557776
+with,contract,its,extending,IN,NN,PRP$,VBG,I,I { I 40.0000, B 1.00000 }        0.80421549557776
+Boeing,with,contract,its,NNP,IN,NN,PRP$,O,O { O 23.0000 }        0.80421549557776
+CoPUNT,Boeing,with,contract,NNP,NNP,IN,NN,I,I { I 21.0000, O 3.00000 }        0.80421549557776
+to,CoPUNT,Boeing,with,TO,NNP,NNP,IN,I,I { I 21.0000, O 3.00000 }        0.80421549557776
+provide,to,CoPUNT,Boeing,VB,TO,NNP,NNP,O,O {}        0.64825609190317
+structural,provide,to,CoPUNT,JJ,VB,TO,NNP,O,O { O 9.00000 }        0.80421549557776
+parts,structural,provide,to,NNS,JJ,VB,TO,I,I { I 14.0000, O 1.00000, B 1.00000 }        0.80421549557776
+for,parts,structural,provide,IN,NNS,JJ,VB,I,I { I 12.0000 }        0.80421549557776
+Boeing,for,parts,structural,NNP,IN,NNS,JJ,O,O {}        0.64825609190317
+'s,Boeing,for,parts,POS,NNP,IN,NNS,I,I { I 21.0000, O 3.00000 }        0.80421549557776
+747,'s,Boeing,for,CD,POS,NNP,IN,B,B {}        0.64825609190317
+jetliners,747,'s,Boeing,NNS,CD,POS,NNP,I,I { I 2.00000 }        0.80421549557776
+PUNT,jetliners,747,'s,PUNT,NNS,CD,POS,I,I { I 12.0000 }        0.80421549557776
+Rockwell,PUNT,PUNT,jetliners,NNP,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.24365779119366
+said,Rockwell,PUNT,PUNT,VBD,NNP,PUNT,PUNT,I,I { I 21.0000, O 3.00000 }        0.80421549557776
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,O {}        0.64825609190317
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I {}        0.64825609190317
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I { I 40.0000, B 1.00000 }        0.80421549557776
+for,calls,agreement,the,IN,VBZ,NN,DT,O,O { O 5.00000 }        0.80421549557776
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O {}        0.64825609190317
+to,it,for,calls,TO,PRP,IN,VBZ,I,I { I 124.000, O 92.0000, B 4.00000 }        1.0206541647276
+supply,to,it,for,VB,TO,PRP,IN,O,O {}        0.64825609190317
+200,supply,to,it,CD,VB,TO,PRP,O,O { O 9.00000 }        0.80421549557776
+additional,200,supply,to,JJ,CD,VB,TO,I,I { I 2.00000 }        0.80421549557776
+so-called,additional,200,supply,JJ,JJ,CD,VB,I,I { I 14.0000, O 1.00000, B 1.00000 }        0.80421549557776
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I { I 14.0000, O 1.00000, B 1.00000 }        0.80421549557776
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I { I 12.0000 }        0.80421549557776
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O {}        0.64825609190317
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I { I 1.00000 }        0.34726939631105
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I { I 12.0000 }        0.80421549557776
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.28654696745959
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 23.0000 }        0.80421549557776
+KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,O { O 5.00000 }        0.80421549557776
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O {}        0.64825609190317
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { O 23.0000 }        0.80421549557776

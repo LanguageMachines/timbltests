@@ -1,0 +1,259 @@
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Oct 28 18:16:10 2010
+
+Starting Cross validation test on files:
+./test_cv/dummy_data.dat_1
+./test_cv/dummy_data.dat_2
+./test_cv/dummy_data.dat_3
+Preparation took 0 seconds, 0 milliseconds and 100 microseconds
+Reading weights from test_cv/test_weights
+Examine datafile './test_cv/dummy_data.dat_1' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+DB Entropy        : 1.9056391
+Number of Classes : 4
+
+Feats	Vals	InfoGain	GainRatio
+    1      2	0.73806465	0.73806465
+    2      3	0.82214495	0.82214495
+    3      3	0.61502776	0.61502776
+
+
+Starting to test, Testfile: ./test_cv/dummy_data.dat_1
+Writing output in:          ./test_cv/dummy_data.dat_1.cv
+Algorithm     : CV
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : User Defined  (test_cv/test_weights)
+Feature 1	 : 0.738064654828046
+Feature 2	 : 0.822144954051390
+Feature 3	 : 0.615027758167667
+
+Tested:      1 @ Thu Oct 28 18:16:10 2010
+Tested:      2 @ Thu Oct 28 18:16:10 2010
+Tested:      3 @ Thu Oct 28 18:16:10 2010
+Tested:      4 @ Thu Oct 28 18:16:10 2010
+Ready:       4 @ Thu Oct 28 18:16:10 2010
+Seconds taken: 0.0002 (18181.82 p/s)
+
+overall accuracy:        0.000000  (0/4)
+There were 2 ties of which 0 (0.00%) were correctly resolved
+Reading weights from test_cv/test_weights
+Examine datafile './test_cv/dummy_data.dat_2' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+DB Entropy        : 2.25000000
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      2	0.73806465	0.73806465
+    2      3	0.82214495	0.82214495
+    3      3	0.61502776	0.61502776
+
+
+Starting to test, Testfile: ./test_cv/dummy_data.dat_2
+Writing output in:          ./test_cv/dummy_data.dat_2.cv
+Algorithm     : CV
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : User Defined  (test_cv/test_weights)
+Feature 1	 : 0.738064654828046
+Feature 2	 : 0.822144954051390
+Feature 3	 : 0.615027758167667
+
+Tested:      1 @ Thu Oct 28 18:16:10 2010
+Tested:      2 @ Thu Oct 28 18:16:10 2010
+Tested:      3 @ Thu Oct 28 18:16:10 2010
+Tested:      4 @ Thu Oct 28 18:16:10 2010
+Ready:       4 @ Thu Oct 28 18:16:10 2010
+Seconds taken: 0.0003 (11764.71 p/s)
+
+overall accuracy:        0.000000  (0/4), of which 1 exact matches 
+There was 1 tie of which 0 (0.00%) was correctly resolved
+Reading weights from test_cv/test_weights
+Examine datafile './test_cv/dummy_data.dat_3' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+DB Entropy        : 2.25000000
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      2	0.73806465	0.73806465
+    2      3	0.82214495	0.82214495
+    3      3	0.61502776	0.61502776
+
+
+Starting to test, Testfile: ./test_cv/dummy_data.dat_3
+Writing output in:          ./test_cv/dummy_data.dat_3.cv
+Algorithm     : CV
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : User Defined  (test_cv/test_weights)
+Feature 1	 : 0.738064654828046
+Feature 2	 : 0.822144954051390
+Feature 3	 : 0.615027758167667
+
+Tested:      1 @ Thu Oct 28 18:16:10 2010
+Tested:      2 @ Thu Oct 28 18:16:10 2010
+Tested:      3 @ Thu Oct 28 18:16:10 2010
+Tested:      4 @ Thu Oct 28 18:16:10 2010
+Ready:       4 @ Thu Oct 28 18:16:10 2010
+Seconds taken: 0.0003 (11730.21 p/s)
+
+overall accuracy:        0.000000  (0/4), of which 2 exact matches 
+There were 4 ties of which 0 (0.00%) were correctly resolved
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Oct 28 18:16:10 2010
+
+Starting Cross validation test on files:
+./test_cv/dummy_data.dat_1
+./test_cv/dummy_data.dat_2
+./test_cv/dummy_data.dat_3
+Preparation took 0 seconds, 0 milliseconds and 86 microseconds
+Reading Probability Arrays from test_cv/bug20.probs
+Examine datafile './test_cv/dummy_data.dat_1' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+DB Entropy        : 1.9056391
+Number of Classes : 4
+
+Feats	Vals	InfoGain	GainRatio
+    1      2	0.70443400	0.73806465
+    2      3	1.1556391	0.82214495
+    3      3	0.79879494	0.61502776
+
+
+Starting to test, Testfile: ./test_cv/dummy_data.dat_1
+Writing output in:          ./test_cv/dummy_data.dat_1.cv
+Algorithm     : CV
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.738064654828046
+Feature 2	 : 0.822144954051390
+Feature 3	 : 0.615027758167667
+
+Tested:      1 @ Thu Oct 28 18:16:10 2010
+Tested:      2 @ Thu Oct 28 18:16:10 2010
+Tested:      3 @ Thu Oct 28 18:16:10 2010
+Tested:      4 @ Thu Oct 28 18:16:10 2010
+Ready:       4 @ Thu Oct 28 18:16:10 2010
+Seconds taken: 0.0002 (19138.76 p/s)
+
+overall accuracy:        0.000000  (0/4), of which 1 exact matches 
+There were 3 ties of which 0 (0.00%) were correctly resolved
+Reading Probability Arrays from test_cv/bug20.probs
+Examine datafile './test_cv/dummy_data.dat_2' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+DB Entropy        : 2.25000000
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      2	0.75000000	0.75000000
+    2      3	1.04879494	0.80751388
+    3      3	1.29879494	1.00000000
+
+
+Starting to test, Testfile: ./test_cv/dummy_data.dat_2
+Writing output in:          ./test_cv/dummy_data.dat_2.cv
+Algorithm     : CV
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.750000000000000
+Feature 2	 : 0.807513879083833
+Feature 3	 : 1.000000000000000
+
+Tested:      1 @ Thu Oct 28 18:16:10 2010
+Tested:      2 @ Thu Oct 28 18:16:10 2010
+Tested:      3 @ Thu Oct 28 18:16:10 2010
+Tested:      4 @ Thu Oct 28 18:16:10 2010
+Ready:       4 @ Thu Oct 28 18:16:10 2010
+Seconds taken: 0.0003 (13157.89 p/s)
+
+overall accuracy:        0.250000  (1/4), of which 2 exact matches 
+Reading Probability Arrays from test_cv/bug20.probs
+Examine datafile './test_cv/dummy_data.dat_3' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+DB Entropy        : 2.25000000
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      2	0.95443400	1.00000000
+    2      3	0.75000000	0.50000000
+    3      3	1.31127812	0.83987478
+
+
+Starting to test, Testfile: ./test_cv/dummy_data.dat_3
+Writing output in:          ./test_cv/dummy_data.dat_3.cv
+Algorithm     : CV
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 1.000000000000000
+Feature 2	 : 0.500000000000000
+Feature 3	 : 0.839874782024115
+
+Tested:      1 @ Thu Oct 28 18:16:10 2010
+Tested:      2 @ Thu Oct 28 18:16:10 2010
+Tested:      3 @ Thu Oct 28 18:16:10 2010
+Tested:      4 @ Thu Oct 28 18:16:10 2010
+Ready:       4 @ Thu Oct 28 18:16:10 2010
+Seconds taken: 0.0003 (13071.90 p/s)
+
+overall accuracy:        0.000000  (0/4), of which 2 exact matches 
+There were 2 ties of which 0 (0.00%) were correctly resolved
+1,4c1,4
+< small,compact,none,screw,nut { screw 1.00000, nut 2.00000, scissors 1.00000 }        0.50000000000000
+< small,other,2,key,nut { screw 1.00000, key 1.00000, nut 2.00000, scissors 1.00000 }        0.40375693954192
+< large,long,none,pen,scissors { key 1.00000, pen 1.00000, scissors 2.00000 }        0.0000000000000
+< small,compact,1,nut,nut { screw 1.00000, key 1.00000, nut 2.00000 }        0.0000000000000
+---
+> small,compact,none,screw,nut { screw 1.00000, key 1.00000, nut 2.00000 }        0.61502775816767
+> small,other,2,key,scissors { screw 1.00000, key 1.00000, scissors 2.00000 }        0.55354849112103
+> large,long,none,pen,key { screw 1.00000, key 2.00000, pen 1.00000, scissors 1.00000 }        0.55354849112103
+> small,compact,1,nut,key { key 2.00000, pen 1.00000, nut 2.00000 }        0.0000000000000

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+$comm -f ./tests/example.train -W /tmp/test.wgths -t @./tests/indirect.test
+cat < /tmp/indirect.out

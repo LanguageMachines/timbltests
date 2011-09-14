@@ -1,0 +1,36 @@
+new exp
+exp.train ./tests/klein.train
+exp.set weighting now
+exp.savew no.w
+exp.set weighting gainratio
+exp.savew gr.w
+exp.set weighting infogain
+exp.savew ig.w
+exp.set global_metric overlap
+exp.getw no.w
+exp.test ./tests/klein.test
+exp.getw gr.w
+exp.test ./tests/klein.test
+exp.getw ig.w
+exp.test ./tests/klein.test
+exp.set global_metric vd
+exp.getw no.w
+exp.test ./tests/klein.test
+exp.getw gr.w
+exp.test ./tests/klein.test
+exp.getw ig.w
+exp.test ./tests/klein.test
+exp.getw no.w
+exp.test ./tests/klein.test
+exp.getw gr.w
+exp.test ./tests/klein.test
+exp.getw ig.w
+exp.test ./tests/klein.test
+exp.set global_metric overlap
+exp.set use_inverted false
+exp.getw no.w
+exp.test ./tests/klein.test
+exp.getw gr.w
+exp.test ./tests/klein.test
+exp.getw ig.w
+exp.test ./tests/klein.test

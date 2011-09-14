@@ -1,0 +1,526 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:15:48 2011
+
+Examine datafile './tests/n.train' gave the following results:
+Number of Features: 4
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/n.train
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:       4 @ Tue Jan 25 17:15:48 2011
+Calculating Entropy         Tue Jan 25 17:15:48 2011
+Lines of data     : 4
+Warning:a Non Numeric value 'a' in Numeric Feature!
+Warning:a Non Numeric value '=' in Numeric Feature!
+Warning:The following feature(s) have only 1 value: 3
+Warning:The following feature(s) contained non-numeric values and
+will be treated as NON-Numeric: 1-2
+DB Entropy        : 1.0000000
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      2	1.0000000	1.0000000
+    2      3	0.50000000	0.33333333
+    3      1	0.0000000	0.0000000
+    4      2	0.0000000	0.0000000 NUMERIC
+
+Preparation took 0 seconds, 0 milliseconds and 368 microseconds
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:15:48 2011
+
+Examine datafile './tests/num.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/num.train
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:      29 @ Tue Jan 25 17:15:48 2011
+Calculating Entropy         Tue Jan 25 17:15:48 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646 NUMERIC
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575 NUMERIC
+
+Preparation took 0 seconds, 0 milliseconds and 348 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/num.train
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:      29 @ Tue Jan 25 17:15:48 2011
+
+Phase 3: Learning from Datafile: ./tests/num.train
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:      29 @ Tue Jan 25 17:15:48 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 433 microseconds
+Writing Instance-Base in: ./tests/num.tree
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:15:48 2011
+
+Reading Instance-Base from: ./tests/num.tree
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Feature Permutation based on Data File Ordering :
+< 1, 3, 2 >
+Examine datafile './tests/num.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/num.test
+Writing output in:          num1
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:
+   Feature[1] : Numeric
+   Feature[3] : Numeric
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Tue Jan 25 17:15:48 2011
+Tested:      2 @ Tue Jan 25 17:15:48 2011
+Tested:      3 @ Tue Jan 25 17:15:48 2011
+Ready:       3 @ Tue Jan 25 17:15:48 2011
+Seconds taken: 0.0002 (12765.96 p/s)
+
+overall accuracy:        0.333333  (1/3)
+# Status: complete
+# Permutation: < 1, 3, 2 >
+# Numeric: 1, 3.
+# Ranges: 1 [-0.357-3.14195] , 3 [1-4] .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	+
+2	-
+Features
+1	2.45
+2	geel
+3	2
+4	rood
+5	3
+6	3.14195
+7	-0.357
+8	wit
+9	4
+10	1
+
+(1{ 1 17, 2 12 }[1(1[3(1[2(1{ 1 2, 2 1 })
+,4(1{ 1 2, 2 1 })
+]
+)
+,5(1[2(1{ 1 1 })
+,4(1{ 1 3 })
+]
+)
+,9(1[2(1{ 1 2 })
+,4(2{ 2 1 })
+]
+)
+,10(1[4(1{ 1 3, 2 2 })
+]
+)
+]
+)
+,6(2[3(2[2(2{ 2 1 })
+,8(2{ 2 2 })
+]
+)
+,9(2[2(2{ 2 1 })
+]
+)
+]
+)
+,7(1[5(1[4(2{ 1 1, 2 2 })
+,8(1{ 1 3, 2 1 })
+]
+)
+]
+)
+]
+)
+20.45,geel,2,+,- { - 1.00000 }        0.79505613763716
+-0.257,groen,3,+,+ { + 4.00000, - 3.00000 }        0.0086923823765927
+2.14195,wit,2,-,+ { + 4.00000, - 2.00000 }        0.018249289678999
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:15:48 2011
+
+Examine datafile './tests/num.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/num.train
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:      29 @ Tue Jan 25 17:15:48 2011
+Calculating Entropy         Tue Jan 25 17:15:48 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 261 microseconds
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:15:48 2011
+
+Examine datafile './tests/num.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/num.train
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:      29 @ Tue Jan 25 17:15:48 2011
+Calculating Entropy         Tue Jan 25 17:15:48 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646 NUMERIC
+    2      3	0.0060448141	0.0040988196
+    3 (ignored) 
+
+Preparation took 0 seconds, 0 milliseconds and 288 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 2, 3 >
+Phase 2: Building multi index on Datafile: ./tests/num.train
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:      29 @ Tue Jan 25 17:15:48 2011
+
+Phase 3: Learning from Datafile: ./tests/num.train
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:      29 @ Tue Jan 25 17:15:48 2011
+
+Size of InstanceBase = 15 Nodes, (600 bytes), 16.67 % compression
+Learning took 0 seconds, 0 milliseconds and 447 microseconds
+Writing Instance-Base in: ./tests/num.tree
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:15:48 2011
+
+Reading Instance-Base from: ./tests/num.tree
+
+Size of InstanceBase = 15 Nodes, (600 bytes), 16.67 % compression
+Feature Permutation based on Data File Ordering :
+< 1, 2, 3 >
+Examine datafile './tests/num.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/num.test
+Writing output in:          num2
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:
+   Feature[1] : Numeric
+Ignored features : { 3 } 
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.000000000000000
+
+Tested:      1 @ Tue Jan 25 17:15:48 2011
+Tested:      2 @ Tue Jan 25 17:15:48 2011
+Tested:      3 @ Tue Jan 25 17:15:48 2011
+Ready:       3 @ Tue Jan 25 17:15:48 2011
+Seconds taken: 0.0002 (13215.86 p/s)
+
+overall accuracy:        0.333333  (1/3)
+20.45,geel,2,+,- { - 2.00000 }        0.79505613763716
+-0.257,groen,3,+,+ { + 4.00000, - 3.00000 }        0.0086923823765927
+2.14195,wit,2,-,+ { + 13.0000, - 5.00000 }        0.018249289678999
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:15:48 2011
+
+Examine datafile './tests/num.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/num.train
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:      29 @ Tue Jan 25 17:15:48 2011
+Calculating Entropy         Tue Jan 25 17:15:48 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 274 microseconds
+Feature Permutation based on GainRatio :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/num.train
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:      29 @ Tue Jan 25 17:15:48 2011
+
+Phase 3: Learning from Datafile: ./tests/num.train
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:      29 @ Tue Jan 25 17:15:48 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 427 microseconds
+Writing Instance-Base in: ./tests/num.tree
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:15:48 2011
+
+Reading Instance-Base from: ./tests/num.tree
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Feature Permutation based on Data File Ordering :
+< 1, 3, 2 >
+Examine datafile './tests/num.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/num.test
+Writing output in:          num3
+Algorithm     : TRIBL, q = 2
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Tue Jan 25 17:15:48 2011
+Tested:      2 @ Tue Jan 25 17:15:48 2011
+Tested:      3 @ Tue Jan 25 17:15:48 2011
+Ready:       3 @ Tue Jan 25 17:15:48 2011
+Seconds taken: 0.0002 (19736.84 p/s)
+
+overall accuracy:        0.666667  (2/3)
+20.45,geel,2,+,+ { + 17.0000, - 12.0000 }        0.18862785857881
+-0.257,groen,3,+,+ { + 17.0000, - 12.0000 }        0.18862785857881
+2.14195,wit,2,-,+ { + 17.0000, - 12.0000 }        0.18862785857881
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:15:48 2011
+
+Examine datafile './tests/data.expand' gave the following results:
+Number of Features: 12
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/data.expand
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:       9 @ Tue Jan 25 17:15:48 2011
+Calculating Entropy         Tue Jan 25 17:15:48 2011
+Lines of data     : 9
+Warning:The following feature(s) have only 1 value: 1-2, 6
+DB Entropy        : 0.91829583
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      1	0.0000000	0.0000000
+    2      1	0.0000000	0.0000000
+    3      3	0.30609861	0.19312672 NUMERIC
+    4      2	0.25162917	0.27401754 NUMERIC
+    5      2	0.15200728	0.19890917 NUMERIC
+    6      1	0.0000000	0.0000000
+    7      3	0.24697984	0.25037829 NUMERIC
+    8      2	0.19715972	0.39176643 NUMERIC
+    9      2	0.0000000	0.0000000 NUMERIC
+   10      2	0.17884894	0.19476179 NUMERIC
+   11      3	0.30609861	0.19312672 NUMERIC
+   12      2	0.17884894	0.19476179 NUMERIC
+
+Preparation took 0 seconds, 0 milliseconds and 413 microseconds
+Feature Permutation based on GainRatio/Values :
+< 8, 4, 5, 10, 12, 7, 3, 11, 1, 2, 6, 9 >
+Phase 2: Building multi index on Datafile: ./tests/data.expand
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:       9 @ Tue Jan 25 17:15:48 2011
+
+Phase 3: Learning from Datafile: ./tests/data.expand
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:       9 @ Tue Jan 25 17:15:48 2011
+
+Size of InstanceBase = 78 Nodes, (3120 bytes), 14.29 % compression
+Learning took 0 seconds, 0 milliseconds and 258 microseconds
+Examine datafile './tests/data.test.expand' gave the following results:
+Number of Features: 12
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/data.test.expand
+Writing output in:          num4
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:
+   Feature[3] : Numeric
+   Feature[4] : Numeric
+   Feature[5] : Numeric
+   Feature[7] : Numeric
+   Feature[8] : Numeric
+   Feature[9] : Numeric
+   Feature[10] : Numeric
+   Feature[11] : Numeric
+   Feature[12] : Numeric
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.000000000000000
+Feature 3	 : 0.193126721428565
+Feature 4	 : 0.274017542121281
+Feature 5	 : 0.198909169614943
+Feature 6	 : 0.000000000000000
+Feature 7	 : 0.250378288713053
+Feature 8	 : 0.391766434453676
+Feature 9	 : 0.000000000000000
+Feature 10	 : 0.194761791322118
+Feature 11	 : 0.193126721428565
+Feature 12	 : 0.194761791322118
+
+Tested:      1 @ Tue Jan 25 17:15:48 2011
+Tested:      2 @ Tue Jan 25 17:15:48 2011
+Tested:      3 @ Tue Jan 25 17:15:48 2011
+Tested:      4 @ Tue Jan 25 17:15:48 2011
+Tested:      5 @ Tue Jan 25 17:15:48 2011
+Ready:       5 @ Tue Jan 25 17:15:48 2011
+Seconds taken: 0.0004 (12853.47 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 1 exact matches 
+There were 2 ties of which 1 (50.00%) were correctly resolved
+0.5 0.6 0.8 0.1 0.5 0.6 0.8 0.1 0.5 0.6 0.8 0.1 y y
+0.5 0.6 0.8 0.1 0.2 0.6 0.7 0.8 0.5 0.1 0.1 0.8 x x
+0.5 0.6 0.7 0.8 0.5 0.1 0.1 0.8 0.2 0.1 0.7 0.8 y x
+0.5 0.6 0.7 0.8 0.5 0.6 0.7 0.8 0.5 0.6 0.8 0.1 x y
+0.5 0.6 0.8 0.1 0.5 0.6 0.7 0.8 0.5 0.6 0.8 0.1 x x
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:15:48 2011
+
+Examine datafile './tests/data.expand' gave the following results:
+Number of Features: 12
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/data.expand
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:       9 @ Tue Jan 25 17:15:48 2011
+Calculating Entropy         Tue Jan 25 17:15:48 2011
+Lines of data     : 9
+Warning:The following feature(s) have only 1 value: 1-2, 6
+DB Entropy        : 0.91829583
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      1	0.0000000	0.0000000
+    2      1	0.0000000	0.0000000
+    3      3	0.30609861	0.19312672
+    4      2	0.25162917	0.27401754
+    5      2	0.15200728	0.19890917
+    6      1	0.0000000	0.0000000
+    7      3	0.24697984	0.25037829
+    8      2	0.19715972	0.39176643 NUMERIC
+    9      2	0.0000000	0.0000000 NUMERIC
+   10      2	0.17884894	0.19476179 NUMERIC
+   11      3	0.30609861	0.19312672 NUMERIC
+   12      2	0.17884894	0.19476179 NUMERIC
+
+Preparation took 0 seconds, 0 milliseconds and 369 microseconds
+Feature Permutation based on GainRatio/Values :
+< 8, 4, 5, 10, 12, 7, 3, 11, 1, 2, 6, 9 >
+Phase 2: Building multi index on Datafile: ./tests/data.expand
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:       9 @ Tue Jan 25 17:15:48 2011
+
+Phase 3: Learning from Datafile: ./tests/data.expand
+Start:          0 @ Tue Jan 25 17:15:48 2011
+Finished:       9 @ Tue Jan 25 17:15:48 2011
+
+Size of InstanceBase = 78 Nodes, (3120 bytes), 14.29 % compression
+Learning took 0 seconds, 0 milliseconds and 243 microseconds
+Examine datafile './tests/data.test.expand' gave the following results:
+Number of Features: 12
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/data.test.expand
+Writing output in:          num5
+Algorithm     : IB1
+Global metric : Numeric
+Deviant Feature Metrics:
+   Feature[1] : Overlap
+   Feature[2] : Overlap
+   Feature[3] : Value Difference (Prestored)
+   Feature[4] : Value Difference (Prestored)
+   Feature[5] : Value Difference (Prestored)
+   Feature[6] : Value Difference (Prestored)
+   Feature[7] : Value Difference (Prestored)
+Size of value-matrix[3] = 48 Bytes 
+Size of value-matrix[4] = 48 Bytes 
+Size of value-matrix[5] = 48 Bytes 
+Size of value-matrix[6] = 48 Bytes 
+Size of value-matrix[7] = 48 Bytes 
+Total Size of value-matrices 240 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.000000000000000
+Feature 3	 : 0.193126721428565
+Feature 4	 : 0.274017542121281
+Feature 5	 : 0.198909169614943
+Feature 6	 : 0.000000000000000
+Feature 7	 : 0.250378288713053
+Feature 8	 : 0.391766434453676
+Feature 9	 : 0.000000000000000
+Feature 10	 : 0.194761791322118
+Feature 11	 : 0.193126721428565
+Feature 12	 : 0.194761791322118
+
+Tested:      1 @ Tue Jan 25 17:15:48 2011
+Tested:      2 @ Tue Jan 25 17:15:48 2011
+Tested:      3 @ Tue Jan 25 17:15:48 2011
+Tested:      4 @ Tue Jan 25 17:15:48 2011
+Tested:      5 @ Tue Jan 25 17:15:48 2011
+Ready:       5 @ Tue Jan 25 17:15:48 2011
+Seconds taken: 0.0004 (13550.14 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 1 exact matches 
+There were 3 ties of which 1 (33.33%) were correctly resolved
+0.5 0.6 0.8 0.1 0.5 0.6 0.8 0.1 0.5 0.6 0.8 0.1 y y
+0.5 0.6 0.8 0.1 0.2 0.6 0.7 0.8 0.5 0.1 0.1 0.8 x x
+0.5 0.6 0.7 0.8 0.5 0.1 0.1 0.8 0.2 0.1 0.7 0.8 y x
+0.5 0.6 0.7 0.8 0.5 0.6 0.7 0.8 0.5 0.6 0.8 0.1 x y
+0.5 0.6 0.8 0.1 0.5 0.6 0.7 0.8 0.5 0.6 0.8 0.1 x x

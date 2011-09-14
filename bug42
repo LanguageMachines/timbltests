@@ -1,0 +1,15 @@
+#!/bin/sh
+
+server="$VG $timbl_bin/timblserver"
+
+$server -f tests/bug42.train -S 7000 -F Sparse -N 996 --logfile=/tmp/bug42.log --pidfile=/tmp/bug42.pid
+sleep 5
+
+./client42 &
+
+sleep 4
+
+kill `cat /tmp/bug42.pid`
+
+cat < /tmp/bug42.log 
+

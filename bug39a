@@ -1,0 +1,14 @@
+#!/bin/sh +x
+
+$comm -f tests/bug39a.train -mO +D -I tree0
+cat tree0
+$comm -f tests/bug39a.train -mO +D -a1 -I tree1
+cat tree1
+$comm -f tests/bug39a.train -mO +D -a2 -q2 -I tree2
+cat tree2
+$comm -f tests/bug39a.train -mO +D -a3 -b4 -I tree3
+cat tree3
+$comm -f tests/bug39a.train -mO +D -a4 -I tree4
+cat tree4
+diff tree2 tree4
+

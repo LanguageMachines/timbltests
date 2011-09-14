@@ -1,0 +1,328 @@
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Feb 28 15:33:02 2011
+
+Examine datafile './tests/align.data' gave the following results:
+Number of Features: 7
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/align.data
+Start:          0 @ Mon Feb 28 15:33:02 2011
+Finished:   50000 @ Mon Feb 28 15:33:03 2011
+Calculating Entropy         Mon Feb 28 15:33:03 2011
+Lines of data     : 50000
+DB Entropy        : 14.797393
+Number of Classes : 36941
+
+Feats	Vals	InfoGain	GainRatio
+    1   4949	7.5925412	0.93089602
+    2   5018	7.7611087	0.93347331
+    3   5619	8.3343097	0.94931118
+    4   6000	9.2517630	0.97295050
+    5   5404	8.2485455	0.95015830
+    6   5296	7.7859356	0.93097480
+    7   5319	7.5803945	0.92715345
+
+Preparation took 0 seconds, 934 milliseconds and 152 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 2, 5, 6, 7, 3, 4 >
+Phase 2: Building multi index on Datafile: ./tests/align.data
+Start:          0 @ Mon Feb 28 15:33:03 2011
+Finished:   50000 @ Mon Feb 28 15:33:03 2011
+
+Phase 3: Learning from Datafile: ./tests/align.data
+Start:          0 @ Mon Feb 28 15:33:03 2011
+Finished:   50000 @ Mon Feb 28 15:33:04 2011
+
+Size of InstanceBase = 287204 Nodes, (11488160 bytes), 20.72 % compression
+Learning took 1 seconds, 695 milliseconds and 994 microseconds
+Examine datafile './tests/align.test' gave the following results:
+Number of Features: 7
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/align.test
+Writing output in:          testclones.out1
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.930896019140459
+Feature 2	 : 0.933473311154203
+Feature 3	 : 0.949311180778598
+Feature 4	 : 0.972950499656608
+Feature 5	 : 0.950158299294629
+Feature 6	 : 0.930974803272551
+Feature 7	 : 0.927153449509075
+
+Tested:      1 @ Mon Feb 28 15:33:05 2011
+Tested:      2 @ Mon Feb 28 15:33:05 2011
+Tested:      3 @ Mon Feb 28 15:33:05 2011
+Tested:      4 @ Mon Feb 28 15:33:05 2011
+Tested:      5 @ Mon Feb 28 15:33:05 2011
+Tested:      6 @ Mon Feb 28 15:33:05 2011
+Tested:      7 @ Mon Feb 28 15:33:05 2011
+Tested:      8 @ Mon Feb 28 15:33:05 2011
+Tested:      9 @ Mon Feb 28 15:33:05 2011
+Tested:     10 @ Mon Feb 28 15:33:05 2011
+Tested:    100 @ Mon Feb 28 15:33:07 2011
+Tested:   1000 @ Mon Feb 28 15:33:28 2011
+Ready:    1000 @ Mon Feb 28 15:33:28 2011
+Seconds taken: 23.4359 (42.67 p/s)
+
+overall accuracy:        0.000000  (0/1000), of which 13 exact matches 
+There were 439 ties of which 0 (0.00%) were correctly resolved
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Feb 28 15:33:28 2011
+
+Examine datafile './tests/align.data' gave the following results:
+Number of Features: 7
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/align.data
+Start:          0 @ Mon Feb 28 15:33:28 2011
+Finished:   50000 @ Mon Feb 28 15:33:29 2011
+Calculating Entropy         Mon Feb 28 15:33:29 2011
+Lines of data     : 50000
+DB Entropy        : 14.797393
+Number of Classes : 36941
+
+Feats	Vals	InfoGain	GainRatio
+    1   4949	7.5925412	0.93089602
+    2   5018	7.7611087	0.93347331
+    3   5619	8.3343097	0.94931118
+    4   6000	9.2517630	0.97295050
+    5   5404	8.2485455	0.95015830
+    6   5296	7.7859356	0.93097480
+    7   5319	7.5803945	0.92715345
+
+Preparation took 0 seconds, 936 milliseconds and 749 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 2, 5, 6, 7, 3, 4 >
+Phase 2: Building multi index on Datafile: ./tests/align.data
+Start:          0 @ Mon Feb 28 15:33:29 2011
+Finished:   50000 @ Mon Feb 28 15:33:30 2011
+
+Phase 3: Learning from Datafile: ./tests/align.data
+Start:          0 @ Mon Feb 28 15:33:30 2011
+Finished:   50000 @ Mon Feb 28 15:33:31 2011
+
+Size of InstanceBase = 287204 Nodes, (11488160 bytes), 20.72 % compression
+Learning took 1 seconds, 706 milliseconds and 611 microseconds
+Examine datafile './tests/align.test' gave the following results:
+Number of Features: 7
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/align.test
+Writing output in:          testclones.out3
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.930896019140459
+Feature 2	 : 0.933473311154203
+Feature 3	 : 0.949311180778598
+Feature 4	 : 0.972950499656608
+Feature 5	 : 0.950158299294629
+Feature 6	 : 0.930974803272551
+Feature 7	 : 0.927153449509075
+
+Tested:      1 @ Mon Feb 28 15:33:31 2011
+Tested:      2 @ Mon Feb 28 15:33:31 2011
+Tested:      3 @ Mon Feb 28 15:33:31 2011
+Tested:      4 @ Mon Feb 28 15:33:32 2011
+Tested:      5 @ Mon Feb 28 15:33:32 2011
+Tested:      6 @ Mon Feb 28 15:33:32 2011
+Tested:      7 @ Mon Feb 28 15:33:32 2011
+Tested:      8 @ Mon Feb 28 15:33:32 2011
+Tested:      9 @ Mon Feb 28 15:33:32 2011
+Tested:     10 @ Mon Feb 28 15:33:32 2011
+Tested:    100 @ Mon Feb 28 15:33:33 2011
+Tested:   1000 @ Mon Feb 28 15:33:46 2011
+Ready:    1000 @ Mon Feb 28 15:33:46 2011
+Seconds taken: 14.7711 (67.70 p/s)
+
+overall accuracy:        0.000000  (0/1000), of which 13 exact matches 
+There were 439 ties of which 0 (0.00%) were correctly resolved
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Feb 28 15:33:47 2011
+
+Examine datafile './tests/align.data' gave the following results:
+Number of Features: 7
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/align.data
+Start:          0 @ Mon Feb 28 15:33:47 2011
+Finished:   50000 @ Mon Feb 28 15:33:48 2011
+Calculating Entropy         Mon Feb 28 15:33:48 2011
+Lines of data     : 50000
+DB Entropy        : 14.797393
+Number of Classes : 36941
+
+Feats	Vals	InfoGain	GainRatio
+    1   4949	7.5925412	0.93089602
+    2   5018	7.7611087	0.93347331
+    3   5619	8.3343097	0.94931118
+    4   6000	9.2517630	0.97295050
+    5   5404	8.2485455	0.95015830
+    6   5296	7.7859356	0.93097480
+    7   5319	7.5803945	0.92715345
+
+Preparation took 0 seconds, 955 milliseconds and 923 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 2, 5, 6, 7, 3, 4 >
+Phase 2: Building multi index on Datafile: ./tests/align.data
+Start:          0 @ Mon Feb 28 15:33:48 2011
+Finished:   50000 @ Mon Feb 28 15:33:49 2011
+
+Phase 3: Learning from Datafile: ./tests/align.data
+Start:          0 @ Mon Feb 28 15:33:49 2011
+Finished:   50000 @ Mon Feb 28 15:33:50 2011
+
+Size of InstanceBase = 287204 Nodes, (11488160 bytes), 20.72 % compression
+Learning took 1 seconds, 705 milliseconds and 980 microseconds
+Examine datafile './tests/align.test' gave the following results:
+Number of Features: 7
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/align.test
+Writing output in:          testclones.out7
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.930896019140459
+Feature 2	 : 0.933473311154203
+Feature 3	 : 0.949311180778598
+Feature 4	 : 0.972950499656608
+Feature 5	 : 0.950158299294629
+Feature 6	 : 0.930974803272551
+Feature 7	 : 0.927153449509075
+
+Tested:      1 @ Mon Feb 28 15:33:50 2011
+Tested:      2 @ Mon Feb 28 15:33:50 2011
+Tested:      3 @ Mon Feb 28 15:33:50 2011
+Tested:      4 @ Mon Feb 28 15:33:50 2011
+Tested:      5 @ Mon Feb 28 15:33:50 2011
+Tested:      6 @ Mon Feb 28 15:33:50 2011
+Tested:      7 @ Mon Feb 28 15:33:50 2011
+Tested:      8 @ Mon Feb 28 15:33:50 2011
+Tested:      9 @ Mon Feb 28 15:33:50 2011
+Tested:     10 @ Mon Feb 28 15:33:50 2011
+Tested:    100 @ Mon Feb 28 15:33:52 2011
+Tested:   1000 @ Mon Feb 28 15:34:04 2011
+Ready:    1000 @ Mon Feb 28 15:34:04 2011
+Seconds taken: 13.5282 (73.92 p/s)
+
+overall accuracy:        0.000000  (0/1000), of which 13 exact matches 
+There were 439 ties of which 0 (0.00%) were correctly resolved
+== == == het product mag echter ? ,^it^must { ,^it^must 1.00000 }        0.95015829929463
+== == het product mag echter alleen ? is^important^, { is^important^, 1.00000, the^system^has 1.00000 }        2.8502622484603
+== het product mag echter alleen maar ? would^like^to { would^like^to 1.00000, system^has^hardly 1.00000 }        3.7803899332168
+het product mag echter alleen maar uitgevoerd ? ,^however^, { ,^however^, 2.00000, ==^however^, 1.00000, however^,^that 1.00000, establishes^,^however 1.00000, ==^but^the 1.00000, however^,^it 1.00000, ,^though^, 1.00000, though^,^that 1.00000, say^,^though 1.00000, however^,^is 1.00000, important^,^however 1.00000 }        3.7417598632305
+product mag echter alleen maar uitgevoerd worden ? can^only^accept { opportunity^just^to 1.00000, we^only^have 1.00000, cities^alone^. 1.00000, can^only^accept 1.00000, can^only^welcome 1.00000, is^only^to 1.00000, am^only^too 1.00000 }        4.6718087638549
+mag echter alleen maar uitgevoerd worden naar ? can^only^accept { opportunity^just^to 1.00000, we^only^have 1.00000, cities^alone^. 1.00000, can^only^accept 1.00000, can^only^welcome 1.00000, is^only^to 1.00000, am^only^too 1.00000 }        4.6726558823709
+echter alleen maar uitgevoerd worden naar derde ? take^place^in { take^place^in 1.00000 }        4.6718087638549
+alleen maar uitgevoerd worden naar derde landen ? also^be^considered { also^be^considered 1.00000 }        4.6718087638549
+maar uitgevoerd worden naar derde landen en ? particularly^in^third { particularly^in^third 1.00000 }        4.7137844602389
+uitgevoerd worden naar derde landen en mag ? in^third^countries { in^third^countries 1.00000 }        4.6718087638549
+worden naar derde landen en mag niet ? must^continue^to { must^continue^to 1.00000 }        3.7866310107299
+naar derde landen en mag niet verkocht ? importance^and^will { importance^and^will 1.00000 }        3.7408339605823
+derde landen en mag niet verkocht worden ? and^will^not { and^will^not 1.00000 }        2.7953441335672
+landen en mag niet verkocht worden in ? will^not^be { will^not^be 1.00000 }        2.8082077679442
+en mag niet verkocht worden in de ? be^renationalised^because { be^renationalised^because 1.00000 }        2.8310787524382
+mag niet verkocht worden in de europese ? must^be^sought { must^be^sought 1.00000 }        3.7408339605823
+niet verkocht worden in de europese unie ? arrangement^within^the { arrangement^within^the 1.00000, regions^within^the 1.00000, want^in^the 1.00000, agreement^within^the 1.00000, citizens^of^the 1.00000, technology^in^any 1.00000, consumers^in^the 1.00000 }        2.8136805110733
+verkocht worden in de europese unie == ? of^the^european { of^the^european 3.00000, within^the^european 3.00000, in^the^european 2.00000 }        2.7915227798037
+worden in de europese unie == == ? the^european^union { the^european^union 2.00000 }        1.8618708224130
+in de europese unie == == == ? european^union^. { european^union^. 2.00000 }        0.95015829929463
+== == == ik wil er nog ? ==^i^would { ==^i^would 1.00000 }        0.92715344950908
+== == ik wil er nog aan ? i^shall^only { i^shall^only 1.00000 }        0.95015829929463
+== ik wil er nog aan toevoegen ? when^there^are { when^there^are 1.00000 }        3.7409127447144
+ik wil er nog aan toevoegen dat ? would^also^point { would^also^point 1.00000 }        2.8540836022238
+wil er nog aan toevoegen dat elke ? only^add^that { only^add^that 1.00000 }        1.8606267606633
+er nog aan toevoegen dat elke rechtsgrond ? only^add^that { only^add^that 1.00000, might^add^that 1.00000 }        2.7890242719221
+nog aan toevoegen dat elke rechtsgrond voor ? add^that^it { add^that^it 1.00000, add^that^the 1.00000 }        2.8082865520763
+aan toevoegen dat elke rechtsgrond voor verdere ? that^the^commission { that^the^commission 1.00000, that^total^could 1.00000, total^could^do 1.00000 }        3.7812370517329
+toevoegen dat elke rechtsgrond voor verdere stappen ? legal^certainty^for { consider^safety^in 1.00000, the^special^interest 1.00000, ,^both^with 1.00000, ,^both^private 1.00000, which^has^enabled 1.00000, equal^conditions^for 1.00000, legal^certainty^for 1.00000, improves^legal^certainty 1.00000, that^taxpayers^paid 1.00000, safety^agency^will 1.00000, this^also^applies 1.00000, are^specifically^intended 1.00000, is^now^on 1.00000, this^commission^should 1.00000 }        4.7112859523573
+dat elke rechtsgrond voor verdere stappen om ? certainty^for^smes { safety^in^all 1.00000, regard^to^agriculture 1.00000, conditions^for^aid 1.00000, certainty^for^smes 1.00000, apply^to^all 1.00000, safety^agency^will 1.00000, intended^for^this 1.00000, now^on^the 1.00000, live^forever^in 1.00000 }        4.6910710440091
+elke rechtsgrond voor verdere stappen om de ? europe^to^propose { europe^to^propose 1.00000 }        3.7874781292459
+rechtsgrond voor verdere stappen om de productie ? to^propose^priority { to^propose^priority 1.00000 }        3.7803111490847
+voor verdere stappen om de productie voor ? in^order^to { request^that^the 1.00000, strategies^for^revitalising 1.00000, ask^if^the 1.00000, both^to^the 1.00000, expansion^for^the 1.00000, chance^at^all 1.00000, in^order^to 4.00000, proposal^for^debureaucratisation 1.00000, must^help^to 1.00000, to^propose^an 1.00000, this^attempt^to 1.00000, report^proposes^. 1.00000, sufficient^simply^to 1.00000, comes^to^maritime 1.00000, are^designed^to 1.00000, mission^to^have 1.00000, just^about^bureaucratic 1.00000, process^for^tying 1.00000 }        4.6718087638549
+verdere stappen om de productie voor verkoop ? if^the^commission { of^the^party 1.00000, that^the^oral 1.00000, thank^the^rapporteur 1.00000, amend^the^directive 1.00000, if^the^commission 1.00000, for^the^most 1.00000, improving^the^social 1.00000, situation^'s^effects 1.00000, of^the^outcome 1.00000, of^the^euro 1.00000, to^the^responsibility 1.00000, safeguard^its^operational 1.00000, deleting^the^detail 1.00000, support^the^inquiries 1.00000, employ^our^finances 1.00000, what^the^report 1.00000, ==^the^members 1.00000, improve^the^quality 1.00000, provide^the^necessary 1.00000, combat^these^consequences 1.00000, in^the^combating 1.00000, undertake^the^controls 1.00000, have^the^highest 1.00000, with^the^adopted 1.00000, support^the^consolidation 1.00000, improve^the^palestinian 1.00000, heal^the^serious 1.00000, to^the^interim 1.00000, keep^the^two 1.00000, with^the^un' 1.00000 }        4.6726558823709
+stappen om de productie voor verkoop buiten ? the^prerequisites^for { the^prerequisites^for 1.00000, placing^liability^for 1.00000 }        3.7619747715787
+om de productie voor verkoop buiten de ? liability^for^the { prerequisites^for^the 1.00000, liability^for^the 1.00000 }        3.7575977328549
+de productie voor verkoop buiten de europese ? the^anti-fraud^office { the^anti-fraud^office 1.00000, anti-fraud^office^and 1.00000 }        2.8565821101054
+productie voor verkoop buiten de europese unie ? office^and^the { office^and^the 1.00000 }        3.7803111490847
+voor verkoop buiten de europese unie te ? in^the^european { in^the^european 1.00000 }        2.8136805110733
+verkoop buiten de europese unie te verbieden ? the^european^union { the^european^union 1.00000 }        2.7915227798037
+buiten de europese unie te verbieden ontbreekt ? european^union^, { european^union^, 1.00000 }        2.7890242719221
+de europese unie te verbieden ontbreekt en ? them^to^develop { them^to^develop 1.00000 }        3.7639175945000
+europese unie te verbieden ontbreekt en dat ? to^be^at { to^be^at 1.00000, to^make^his 1.00000, too^many^regulations 1.00000, too^little^action 1.00000 }        4.7146315787550
+unie te verbieden ontbreekt en dat dit ? union^,^and { union^,^and 1.00000 }        3.7803899332168
+te verbieden ontbreekt en dat dit niet ? gap^and^that { gap^and^that 1.00000 }        3.7409127447144
+verbieden ontbreekt en dat dit niet onder ? ,^that^this { ,^that^this 1.00000, know^that^this 1.00000, recognise^that^this 1.00000, demonstrate^that^this 1.00000 }        3.7408339605823
+ontbreekt en dat dit niet onder de ? that^this^is { that^this^is 2.00000, that^this^was 1.00000, that^this^will 1.00000 }        3.7224975830763
+en dat dit niet onder de bevoegdheid ? do^not^want { do^not^want 1.00000 }        2.8136805110733
+dat dit niet onder de bevoegdheid van ? not^just^the { not^just^the 1.00000, necessarily^in^order 1.00000 }        2.8373986140834
+dit niet onder de bevoegdheid van de ? remain^the^responsibility { remain^the^responsibility 1.00000, ,^the^mutilation 1.00000 }        2.8136805110733
+niet onder de bevoegdheid van de commissie ? to^undertake^criminal { to^undertake^criminal 1.00000 }        1.8580494686495
+onder de bevoegdheid van de commissie valt ? is^for^the { is^for^the 1.00000 }        1.8581282527816
+de bevoegdheid van de commissie valt == ? by^the^commission { by^the^commission 1.00000, consider^the^commission 1.00000 }        1.8644481144268
+bevoegdheid van de commissie valt == == ? the^commission^. { the^commission^. 4.00000, the^commission^'s 3.00000, the^commission^, 1.00000, of^commission^programmes 1.00000, the^commission^being 1.00000, present^commission^statement 1.00000, all^commission^documents 1.00000 }        1.8810543184351
+van de commissie valt == == == ? commission^.^== { commission^.^== 4.00000, legislature^.^== 1.00000, abstentions^.^== 1.00000, programme^.^== 2.00000, amendment^.^== 1.00000, programmes^.^== 1.00000, proposals^.^== 1.00000, statement^.^== 1.00000, documents^.^== 1.00000 }        0.97295049965661
+== == == mijnheer de commissaris is ? ,^mrs^schreyer { ,^mrs^schreyer 1.00000 }        0.97295049965661
+== == mijnheer de commissaris is het ? ==^the^commissioner { ==^the^commissioner 1.00000 }        1.8764646302877
+== mijnheer de commissaris is het waar ? ==^commissioner^, { ==^commissioner^, 1.00000 }        1.8773117488037
+mijnheer de commissaris is het waar dat ? fischler^is^here { fischler^is^here 1.00000 }        2.8082865520763
+de commissaris is het waar dat deze ? ,^it^is { ,^it^is 3.00000, is^the^sense 1.00000 }        3.7416810790984
+commissaris is het waar dat deze stof ? is^right^to { is^important^that 1.00000, is^right^to 1.00000, as^positive^. 1.00000, the^sense^of 1.00000, sense^of^crisis 1.00000, also^clear^that 1.00000 }        3.7619747715787
+is het waar dat deze stof in ? fact^that^those { fact^that^those 1.00000 }        3.7383354527007
+het waar dat deze stof in oostenrijk ? on^these^points { on^these^points 1.00000 }        3.7416810790984
+waar dat deze stof in oostenrijk wordt ? these^points^in { these^points^in 1.00000 }        3.7619747715787
+dat deze stof in oostenrijk wordt geproduceerd ? points^in^the { points^in^the 1.00000 }        3.7575977328549
+deze stof in oostenrijk wordt geproduceerd dat ? into^consideration^and { into^consideration^and 1.00000, in^the^seventh 1.00000, to^follow^the 1.00000, with^your^political 1.00000, into^its^national 1.00000 }        4.7147103628871
+stof in oostenrijk wordt geproduceerd dat hij ? time^is^being { time^is^being 1.00000 }        4.6909922598770
+in oostenrijk wordt geproduceerd dat hij van ? wasted^and^that { wasted^and^that 1.00000 }        4.6954480827329
+oostenrijk wordt geproduceerd dat hij van daaruit ? ,^that^he { certain^that^they 1.00000, aware^that^they 1.00000, clear^that^peaceful 1.00000, clear^that^his 1.00000, ,^that^he 2.00000, say^that^he 1.00000, work^which^he 1.00000, but^that^fear 1.00000, know^that^they 1.00000 }        4.6718087638549
+wordt geproduceerd dat hij van daaruit naar ? that^they^have { that^they^had 1.00000, that^he^is 1.00000, work^he^has 1.00000, that^they^have 2.00000, what^he^wishes 1.00000, that^his^commitment 1.00000, that^he^did 1.00000, which^he^is 1.00000, said^he^would 1.00000, that^he^preferred 1.00000 }        4.6726558823709
+geproduceerd dat hij van daaruit naar nederland ? parts^of^the { parts^of^the 1.00000, diversification^of^rural 1.00000, quilt^of^competition 1.00000 }        4.6884937519953
+dat hij van daaruit naar nederland wordt ? in^december^1999 { in^december^1999 1.00000, of^public^funds 1.00000, public^funds^to 1.00000, from^3.8^% 1.00000, 3.8^%^to 1.00000 }        4.6954480827329
+hij van daaruit naar nederland wordt vervoerd ? funds^to^private { funds^to^private 1.00000, %^to^2.6 1.00000 }        4.6884937519953
+van daaruit naar nederland wordt vervoerd en ? being^properly^implemented { being^properly^implemented 1.00000 }        4.6954480827329
+daaruit naar nederland wordt vervoerd en vanuit ? properly^implemented^. { properly^implemented^. 1.00000 }        4.6884937519953
+naar nederland wordt vervoerd en vanuit nederland ? better^enforcement^of { better^enforcement^of 1.00000 }        4.6954480827329
+nederland wordt vervoerd en vanuit nederland wordt ? notify^and^retrodisplacement { notify^and^retrodisplacement 1.00000, legislation^and^to 1.00000 }        4.6884937519953
+wordt vervoerd en vanuit nederland wordt ge ? speak^from^the { speak^from^the 1.00000, ,^in^terms 1.00000, unacceptable^in^terms 1.00000, over-regulation^from^brussels 1.00000, travel^from^some 1.00000 }        5.6219670631495
+vervoerd en vanuit nederland wordt ge ?xporteerd ? this^issue^, { this^issue^, 1.00000, is^already^clear 1.00000 }        4.7112859523573
+en vanuit nederland wordt ge ?xporteerd == ? to^be^monitored { to^be^monitored 1.00000 }        4.6718087638549
+vanuit nederland wordt ge ?xporteerd == == ? policy^.^== { the^presentation^of 1.00000, citizens^.^== 1.00000, vote^.^== 1.00000, for^shipment^. 1.00000, be^taken^seriously 1.00000, process^.^== 1.00000, policy^.^== 2.00000, to^introduce^the 1.00000, back^?^== 1.00000, way^.^== 1.00000, described^as^the 1.00000, is^described^as 1.00000, given^.^== 1.00000, be^seriously^conducted 1.00000, seriously^conducted^. 1.00000, has^been^foisted 1.00000, been^foisted^on 1.00000, of^supervision^. 1.00000, properly^implemented^. 1.00000, be^implemented^correctly 1.00000, being^postponed^yet 1.00000, that^follow-through^to 1.00000, is^implemented^. 1.00000, serious^.^== 1.00000, reformed^.^== 1.00000, transition^.^== 1.00000 }        3.7874781292459
+nederland wordt ge ?xporteerd == == == ? commission^.^== { the^session^== 1.00000, period^.^== 5.00000, dreadful^.^== 1.00000, part-session^.^== 3.00000, silence^.^== 1.00000, silence^)^== 1.00000, order^.^== 5.00000, lanka^.^== 1.00000, ago^.^== 2.00000, appropriate^.^== 1.00000, suggested^.^== 1.00000, inadmissibility^.^== 1.00000, again^.^== 9.00000, stability^.^== 1.00000, inadmissible^.^== 1.00000, thursday^.^== 4.00000, report^.^== 40.0000, myself^.^== 3.00000, upheld^.^== 1.00000, gladly^.^== 1.00000, adopted^.^== 3.00000, interest^.^== 2.00000, appealing^.^== 1.00000, letter^.^== 1.00000, met^.^== 1.00000, well^.^== 12.0000, wednesday^.^== 1.00000, light^.^== 1.00000, passes^?^== 1.00000, elected^?^== 1.00000, 1998^?^== 1.00000, buildings^?^== 1.00000, accident^?^== 1.00000, ourselves^.^== 2.00000, done^.^== 8.00000, on^.^== 8.00000, newspaper^.^== 1.00000, case^.^== 8.00000, november^.^== 1.00000, this^.^== 35.0000, confused^.^== 1.00000, be^.^== 6.00000, majority^.^== 2.00000, happening^.^== 2.00000, people^?^== 1.00000, ==^agenda^== 1.00000, procedure^.^== 8.00000, tuesday^.^== 1.00000, wednesday^:^== 1.00000, commission^.^== 43.0000, it^.^== 22.0000, course^.^then 1.00000, years^.^== 11.0000, legislature^.^== 1.00000, citizens^.^== 6.00000, possible^.^== 10.0000, so^.^== 12.0000, group^)^== 1.00000, agenda^.^== 11.0000, them^.^== 16.0000, occasion^.^== 3.00000, discussion^.^== 5.00000, now^.^== 6.00000, vote^.^== 6.00000, members^.^== 4.00000, abstentions^.^== 2.00000, decision^.^== 2.00000, itself^.^== 4.00000, document^!^== 1.00000, path^.^== 4.00000, decide^.^== 1.00000, programme^.^== 6.00000, reinstated^.^== 1.00000, socialists^.^== 1.00000, already^.^== 2.00000, kind^.^== 6.00000, poettering^.^== 1.00000, logic^.^== 2.00000, groups^.^== 3.00000, ask^.^== 1.00000, abstentions^)^== 1.00000, much^.^== 2.00000, counted^?^i 1.00000, card^.^== 1.00000, "^.^== 7.00000, be^....^== 1.00000, amendments^.^== 6.00000, monday^.^== 2.00000, against^.^== 1.00000, cards^.^== 1.00000, understood^.^== 1.00000, happen^.^== 3.00000, group^.^== 5.00000, matter^.^== 11.0000, analysis^.^== 2.00000, motion^.^== 3.00000, either^.^== 3.00000, there^.^== 4.00000, speak^.^== 2.00000, solution^.^== 1.00000, explanations^.^== 1.00000, votes^.^== 1.00000, you^?^== 1.00000, that^.^== 15.0000, reservations^.^== 1.00000, necessary^.^== 4.00000, amended^)^== 1.00000, dangerous^goods^== 1.00000, welcomed^.^== 2.00000, satisfactorily^.^== 1.00000, support^.^== 8.00000, europe^.^== 19.0000, limit^.^== 1.00000, province^.^== 1.00000, safety^.^== 10.0000, afterwards^.^== 1.00000, enforcement^.^== 5.00000, point^.^== 7.00000, waterway^.^== 1.00000, proved^.^== 1.00000, comments^.^== 3.00000, submitted^.^== 4.00000, requirements^.^== 3.00000, sense^.^== 4.00000, entails^.^== 1.00000, shipment^.^== 1.00000, one^.^== 10.0000, year^.^== 12.0000, advisors^.^== 1.00000, problems^.^== 4.00000, analyses^.^== 1.00000, environment^.^== 5.00000, goods^.^== 5.00000, feasible^.^== 2.00000, long^.^== 2.00000, standards^.^== 6.00000, rules^.^== 7.00000, austria^.^== 1.00000, carefully^.^== 2.00000, harmonisation^.^== 1.00000, role^.^== 2.00000, not^.^== 3.00000, end^.^== 3.00000, day^.^== 2.00000, improved^.^== 2.00000, transport^.^== 5.00000, koch^.^== 1.00000, closed^.^== 8.00000, by^road^== 1.00000, directive^.^== 3.00000, developments^.^== 3.00000, job^.^== 2.00000, today^.^== 6.00000, community^.^== 4.00000, powers^.^== 1.00000, own^.^== 2.00000, 1999^.^== 5.00000, out^.^== 7.00000, regions^.^== 10.0000, all^.^== 3.00000, minutes^.^== 4.00000, road^.^== 1.00000, committee^.^== 8.00000, sufficient^.^== 3.00000, previously^.^== 1.00000, debate^.^== 12.0000, superb^.^== 1.00000, nuisance^.^== 1.00000, to^.^== 5.00000, tunnel^.^== 1.00000, passes^.^== 1.00000, changes^.^== 2.00000, nature^.^== 2.00000, sea^.^== 3.00000, states^.^== 21.0000, issue^.^== 7.00000, concerned^.^== 9.00000, vatanen^.^== 1.00000, another^.^== 2.00000, union^.^== 21.0000, flexible^.^== 2.00000, amendment^.^== 2.00000, expeditiously^.^== 1.00000, provisions^.^== 1.00000, ours^.^== 1.00000, four^.^== 1.00000, proposed^.^== 1.00000, cohesion^fund^coordination 1.00000, -^cohesion^fund 1.00000, coming^.^== 1.00000, regions^?^== 1.00000, improvements^.^== 1.00000, money^.^== 4.00000, guidelines^.^== 4.00000, achieved^.^== 4.00000, yourselves^!^== 1.00000, past^.^== 6.00000, se^.^== 1.00000, document^.^== 3.00000, funds^.^== 10.0000, importance^.^== 5.00000, overnight^.^== 1.00000, unscathed^!^== 1.00000, here^.^== 5.00000, implemented^.^== 7.00000, negotiations^.^== 3.00000, position^.^== 2.00000, 1997^.^== 6.00000, widen^.^== 1.00000, principality^.^== 1.00000, government^.^== 1.00000, faces^.^== 2.00000, forefront^.^== 1.00000, additionality^.^== 1.00000, figures^.^== 2.00000, projects^.^== 3.00000, stage^.^== 7.00000, transparent^.^== 4.00000, wales^.^== 1.00000, research^.^== 3.00000, development^.^== 8.00000, livelihood^.^== 1.00000, cohesion^.^== 6.00000, employment^.^== 10.0000, action^.^== 6.00000, needed^.^== 2.00000, constructively^.^== 1.00000, areas^.^== 11.0000, jobs^.^== 3.00000, incomes^.^== 2.00000, set^.^== 1.00000, activities^.^== 2.00000, small^and^medium-sized 1.00000, status^.^== 1.00000, party^.^== 4.00000, regulation^.^== 7.00000, sector^.^== 5.00000, future^.^== 12.0000, about^.^== 4.00000, tape^.^== 2.00000, requirement^.^== 2.00000, service^.^== 2.00000, programmes^.^== 7.00000, implementation^.^== 2.00000, debated^.^== 1.00000, reports^.^== 3.00000, processes^.^== 1.00000, general^.^== 3.00000, the^union^'s 1.00000, process^.^== 17.0000, indicator^.^== 1.00000, population^.^== 1.00000, evolving^.^== 2.00000, strategically^.^== 1.00000, bureaucratic^.^== 1.00000, for^.^== 4.00000, spent^.^== 3.00000, dwellers^.^== 1.00000, alone^.^== 2.00000, networks^.^== 1.00000, date^.^== 4.00000, her^.^== 1.00000, work^.^== 10.0000, deserves^.^== 2.00000, may^.^== 1.00000, schroedter^.^== 1.00000, policies^.^== 3.00000, lacking^.^== 1.00000, development^?^== 3.00000, terms^.^== 3.00000, us^.^== 9.00000, appropriation^.^== 1.00000, want^.^== 2.00000, operations^.^== 2.00000, clear^.^== 1.00000, form^.^== 2.00000, denominator^.^== 1.00000, level^.^== 8.00000, manner^.^== 2.00000, operability^.^== 1.00000, successful^.^== 1.00000, disbursed^.^== 1.00000, life^.^== 5.00000, policy^.^== 26.0000, south^.^== 1.00000, disparities^.^== 2.00000, seriously^.^== 2.00000, objectives^.^== 2.00000, attention^.^== 1.00000, parliament^?^== 2.00000, made^.^== 4.00000, deliberations^.^== 1.00000, problem^.^== 6.00000, require^.^== 1.00000, viable^.^== 1.00000, levels^.^== 2.00000, fund^.^== 1.00000, explanation^.^== 1.00000, time^.^== 13.0000, country^.^== 5.00000, and^monetary^union 1.00000, monetary^union^. 1.00000, consideration^.^== 5.00000, tampere^.^== 1.00000, priority^.^== 3.00000, storms^.^== 3.00000, view^.^== 3.00000, the^union^== 1.00000, continue^.^== 2.00000, considerable^.^== 1.00000, still^considerable^. 1.00000, living^.^== 2.00000, percent^.^== 1.00000, productivity^.^== 2.00000, observation^.^== 1.00000, increase^.^== 1.00000, %^.^== 4.00000, unemployment^.^== 3.00000, further^.^== 3.00000, conclusions^.^== 1.00000, creation^.^== 1.00000, aims^.^== 2.00000, efforts^.^== 6.00000, slowly^.^== 1.00000, conditions^?^== 1.00000, responsibility^.^== 7.00000, increased^.^== 2.00000, produced^.^== 2.00000, place^.^== 8.00000, know-how^.^== 2.00000, fore^.^== 2.00000, passing^.^== 1.00000, answer^.^== 5.00000, rationalisation^.^== 1.00000, effect^.^== 5.00000, questions^.^== 3.00000, remit^.^== 2.00000, goal^.^== 1.00000, anyway^.^== 1.00000, countries^.^== 10.0000, capita^.^== 1.00000, later^.^== 2.00000, part^.^== 1.00000, respect^.^== 2.00000, cases^.^== 3.00000, efficiently^.^== 3.00000, credibility^.^== 1.00000, great^.^== 1.00000, result^?^== 1.00000, crust^.^== 1.00000, over^.^== 3.00000, opportunity^.^== 1.00000, have^.^== 1.00000, entrepreneurship^.^== 1.00000, will^.^== 1.00000, official^.^== 1.00000, society^?^== 2.00000, children^.^== 1.00000, chance^.^== 1.00000, practice^.^== 5.00000, optimism^.^== 1.00000, urgency^.^== 4.00000, yourself^.^== 1.00000, and^medium-sized^businesses 1.00000, abroad^.^== 1.00000, endorsed^.^== 1.00000, properly^.^== 3.00000, inequitably^.^== 1.00000, people^.^== 6.00000, medium-sized^businesses^. 1.00000, points^.^== 5.00000, quickly^.^== 3.00000, concerns^.^== 3.00000, reiterate^.^== 1.00000, commissioner^.^== 4.00000, p.m.^)^== 4.00000, previous^sitting^== 1.00000, distributed^.^== 1.00000, comments^?^== 1.00000, business^.^== 4.00000, advance^.^== 1.00000, relationships^.^== 1.00000, publicly^.^== 1.00000, saying^.^== 1.00000, however^.^== 2.00000, approved^)^== 1.00000, european^competition^policy 1.00000, competition^policy^== 1.00000, reports^:^== 1.00000, 1999/2124(cos)]^;^== 1.00000, public^.^== 7.00000, about^?^== 1.00000, culture^.^== 1.00000, being^.^== 2.00000, far^.^== 3.00000, exemption^.^== 1.00000, retained^.^== 1.00000, positions^.^== 1.00000, clarification^.^== 1.00000, legislation^.^== 10.0000, latter^.^== 1.00000, paper^.^== 7.00000, transparency^.^== 7.00000, upon^.^== 2.00000, question^.^== 9.00000, area^.^== 8.00000, quo^.^== 1.00000, procedures^.^== 1.00000, institutions^.^== 10.0000, solutions^.^== 1.00000, facts^.^== 3.00000, example^.^== 3.00000, earner^.^== 1.00000, aid^.^== 21.0000, list^.^== 2.00000, internet^.^== 1.00000, sitting^.^== 1.00000, important^.^== 4.00000, these^.^== 2.00000, shortly^.^== 2.00000, parliament^.^== 16.0000, industry^.^== 6.00000, germany^.^== 3.00000, 1996^.^== 2.00000, greece^.^== 1.00000, code^.^== 9.00000, regulations^.^== 4.00000, supervision^.^== 5.00000, governments^.^== 2.00000, markets^.^== 5.00000, complete^.^== 2.00000, alike^.^== 2.00000, competition^.^== 7.00000, reluctantly^.^== 1.00000, services^.^== 1.00000, structures^.^== 2.00000, companies^.^== 6.00000, sufficiently^.^== 1.00000, together^.^== 2.00000, dismantled^.^== 1.00000, analysed^.^== 1.00000, authorities^.^== 8.00000, discussed^.^== 1.00000, rapkay^.^== 1.00000, delay^.^== 2.00000, cooperation^.^== 5.00000, rate^.^== 1.00000, course^.^== 3.00000, heart^.^== 1.00000, subsidiarity^.^== 4.00000, g?tesiegel^.^== 1.00000, intervention^.^== 3.00000, fields^.^== 1.00000, speech^.^== 1.00000, commitment^.^== 1.00000, market^.^== 10.0000, failures^.^== 1.00000, world^.^== 4.00000, resources^.^== 5.00000, perfect^.^== 1.00000, profits^.^== 1.00000, workers^.^== 1.00000, society^.^== 5.00000, purpose^.^== 1.00000, condition^.^== 1.00000, fashion^.^== 1.00000, army^.^== 1.00000, economy^.^== 3.00000, interventionism^.^== 1.00000, brazil^.^== 1.00000, judge^.^== 1.00000, boundless^.^== 1.00000, shipyards^.^== 2.00000, unlawful^.^== 2.00000, back^?^== 1.00000, repayment^.^== 2.00000, scoreboard^.^== 1.00000, openness^.^== 1.00000, answered^.^== 1.00000, economy^?^== 1.00000, issue^?^== 1.00000, monopolies^.^== 1.00000, tremendously^.^== 1.00000, that^?^== 1.00000, event^.^== 1.00000, play^.^== 1.00000, direction^.^== 4.00000, control^.^== 13.0000, consumers^.^== 3.00000, in^.^== 1.00000, commission^?^== 3.00000, points^?^== 1.00000, wogau^.^== 2.00000, exhaustion^.^== 1.00000, lawyers^.^== 3.00000, system^.^== 13.0000, )^.^== 4.00000, 1762^.^== 1.00000, unanimous^.^== 1.00000, subject^.^== 3.00000, approach^.^== 4.00000, proposals^.^== 6.00000, weight^.^== 2.00000, modification^?^== 1.00000, favour^.^== 1.00000, way^.^== 5.00000, examined^.^== 1.00000, project^.^== 1.00000, monti^.^== 2.00000, cartels^.^== 1.00000, examination^.^== 1.00000, address^.^== 1.00000, exists^.^== 3.00000, renationalisation^.^== 1.00000, court^.^== 2.00000, thyssen^.^== 1.00000, certainty^.^== 6.00000, recently^.^== 1.00000, kingdom^.^== 1.00000, change^.^== 6.00000, beneficial^.^== 1.00000, authority^.^== 14.0000, began^.^== 1.00000, reality^.^== 3.00000, limits^.^== 1.00000, terror^.^== 1.00000, taken^.^== 2.00000, protection^.^== 2.00000, enlargement^.^== 1.00000, treaty^.^== 4.00000, proportions^.^== 1.00000, need^.^== 5.00000, economics^.^== 2.00000, hand^.^== 1.00000, remained^.^== 1.00000, power^.^== 2.00000, supply^.^== 2.00000, ireland^.^== 2.00000, .^"^== 1.00000, equation^.^== 1.00000, plus^.^== 1.00000, prosper^.^== 1.00000, post-2000^.^== 1.00000, marketplace^.^== 1.00000, disadvantage^.^== 1.00000, reservation^.^== 2.00000, law^.^== 16.0000, unacceptable^.^== 4.00000, exemptions^.^== 1.00000, allow^.^== 1.00000, mind^.^== 3.00000, courts^.^== 2.00000, disturbances^.^== 1.00000, request^.^== 1.00000, modified^.^== 1.00000, issues^.^== 5.00000, asturias^.^== 1.00000, subsidies^.^== 1.00000, increasing^.^== 1.00000, aim^?^== 1.00000, redundancies^.^== 1.00000, worse^.^== 1.00000, survive^?^== 1.00000, particular^.^== 2.00000, circumstances^.^== 2.00000, interventions^.^== 1.00000, concepts^.^== 1.00000, changed^.^== 1.00000, application^.^== 2.00000, sectors^.^== 2.00000, flawlessly^.^== 1.00000, supported^.^== 1.00000, competitiveness^.^== 2.00000, dream^.^== 1.00000, thoughts^.^== 2.00000, italy^.^== 1.00000, adjustment^.^== 1.00000, protected^.^== 2.00000, peripheral^.^== 1.00000, guaranteed^.^== 1.00000, force^.^== 3.00000, changing^.^== 2.00000, decentralisation^.^== 2.00000, ankara^?^== 1.00000, given^.^== 1.00000, experience^.^== 1.00000, infancy^.^== 1.00000, expertise^.^== 1.00000, normal^.^== 1.00000, this^?^== 2.00000, chains^.^== 1.00000, businesses^.^== 1.00000, you^.^== 3.00000, reform^.^== 12.0000, categories^.^== 1.00000, addressed^.^== 4.00000, said^.^== 5.00000, rejections^.^== 1.00000, considered^.^== 1.00000, jurisdiction^.^== 1.00000, others^.^== 1.00000, integration^.^== 2.00000, subjects^.^== 1.00000, construction^.^== 1.00000, voiced^.^== 1.00000, justified^.^== 2.00000, dossiers^.^== 1.00000, same^.^== 2.00000, apply^.^== 1.00000, exaggerated^.^== 1.00000, consultation^.^== 1.00000, up^.^== 4.00000, peijs^.^== 1.00000, conducted^.^== 1.00000, sources^.^== 1.00000, smes^.^== 3.00000, why^?^== 2.00000, gesture^?^== 1.00000, restraints^.^== 1.00000, share^.^== 1.00000, information^.^== 3.00000, affairs^.^== 3.00000, contribution^.^== 1.00000, monitoring^.^== 1.00000, success^.^== 1.00000, measures^.^== 5.00000, office^.^== 5.00000, realised^.^== 1.00000, individuals^.^== 2.00000, proceedings^.^== 1.00000, agency^.^== 2.00000, acts^.^== 1.00000, men^.^== 2.00000, idea^.^== 1.00000, theato^.^== 1.00000, fought^.^== 1.00000, articles^.^== 1.00000, prize^.^== 1.00000, perfectly^.^== 1.00000, mismanagement^.^== 1.00000, is^.^== 1.00000, prosecutes^?^== 1.00000, difficulty^.^== 1.00000, frontiers^?^== 1.00000, discussions^.^== 1.00000, signal^.^== 1.00000, moment^.^== 4.00000, palacio^.^== 1.00000, parties^.^== 4.00000, prosecutor^.^== 5.00000, cooperate^.^== 2.00000, think^.^== 1.00000, traffic^.^== 1.00000, politics^.^== 2.00000, fact^.^== 3.00000, rapporteur^.^== 1.00000, turnout^.^== 1.00000, fraud^.^== 6.00000, fierce^.^== 1.00000, are^.^== 3.00000, treaties^.^== 1.00000, matters^.^== 2.00000, reforms^.^== 3.00000, olaf^.^== 3.00000, network^.^== 1.00000, finances^.^== 2.00000, principle^.^== 1.00000, fine-tuned^.^== 1.00000, shift^.^== 1.00000, wallet^.^== 1.00000, funds^?^== 1.00000, tools^.^== 1.00000, summit^.^== 1.00000, crimes^.^== 2.00000, agreement^.^== 2.00000, instead^.^== 1.00000, incompetence^.^== 1.00000, easily^.^== 2.00000, used^.^== 4.00000, institutions^!^== 1.00000, well^?^== 2.00000, crime^.^== 3.00000, progress^.^== 2.00000, done^?^== 1.00000, positive^.^== 2.00000, europol^.^== 1.00000, forces^.^== 1.00000, juris^.^== 1.00000, participation^.^== 1.00000, budget^.^== 3.00000, norm^.^== 1.00000, digress^.^== 1.00000, basis^.^== 5.00000, offences^.^== 1.00000, overcome^.^== 1.00000, interests^.^== 2.00000, rights^.^== 1.00000, justice^?^== 1.00000, scrutiny^.^== 1.00000, damaged^.^== 1.00000, required^.^== 2.00000, framework^.^== 2.00000, discovered^.^== 1.00000, mix^.^== 1.00000, administration^.^== 3.00000, irregularities^.^== 3.00000, 1995^.^== 1.00000, step^.^== 2.00000, intention^.^== 1.00000, schreyer^.^== 2.00000, ==^vote^== 1.00000, call^.^== 1.00000, first^?^== 1.00000, hands^.^== 1.00000, )^)^== 1.00000, amended^)^) 1.00000, resolution^)^== 3.00000, 2025^.^== 1.00000, a5-0105/1999^)^== 1.00000, accidents^.^== 2.00000, transportation^.^== 2.00000, training^.^== 3.00000, text^.^== 2.00000, a5-0104/1999^)^== 1.00000, rail^.^== 1.00000, then^.^== 1.00000, derogations^.^== 1.00000, allotted^.^== 1.00000, decided^.^== 1.00000, a5-0108/1999^)^== 1.00000, concern^.^== 2.00000, exist^.^== 2.00000, 2000-2006^.^== 1.00000, priorities^.^== 3.00000, funding^.^== 1.00000, altogether^.^== 3.00000, dumping^.^== 1.00000, field^.^== 2.00000, restructure^.^== 1.00000, gained^.^== 1.00000, state^.^== 5.00000, revealed^.^== 1.00000, private^.^== 1.00000, falling^.^== 1.00000, disintegration^.^== 1.00000, strategy^.^== 2.00000, disappointing^.^== 1.00000, a5-0107/1999^)^== 1.00000, proposes^.^== 1.00000, therein^.^== 1.00000, gnp^.^== 1.00000, strengthened^.^== 2.00000, abstained^.^== 1.00000, dismantling^.^== 1.00000, doing^.^== 2.00000, extended^.^== 1.00000, term^.^== 2.00000, superstate^.^== 1.00000, legally^.^== 1.00000, a5-0078/1999^)^== 1.00000, capacity^.^== 2.00000, policy^?^== 1.00000, excessive^.^== 1.00000, efficiency^?^== 1.00000, stubbornness^.^== 1.00000, a5-0087/1999^)^== 1.00000, l?nder^.^== 1.00000, a5-0073/1999^)^== 1.00000, operation^.^== 2.00000, closure^.^== 1.00000, reminders^.^== 1.00000, 2002^.^== 3.00000, demands^.^== 1.00000, the^french^coast 1.00000, coast^.^== 3.00000, disposal^.^== 1.00000, consequences^.^== 1.00000, recur^.^== 1.00000, pollution^.^== 2.00000, disasters^.^== 3.00000, situation^.^== 6.00000, products^.^== 1.00000, waters^.^== 2.00000, issues^:^== 1.00000, ports^.^== 3.00000, still^.^== 1.00000, ship^.^== 1.00000, occurred^.^== 2.00000, liability^.^== 7.00000, recognition^?^== 1.00000, reliability^?^== 1.00000, mission^.^== 2.00000, not^?^== 2.00000, draw^?^== 1.00000, company^.^== 1.00000, team^.^== 2.00000, disaster^.^== 5.00000, it^?^== 1.00000, holds^?^== 1.00000, decisively^.^== 1.00000, did^.^== 1.00000, passed^.^== 2.00000, died^.^== 1.00000, tragic^.^== 1.00000, flying^.^== 1.00000, wonderfully^.^== 1.00000, tar^.^== 1.00000, ?^"^== 1.00000, available^.^== 4.00000, many^.^== 1.00000, recognised^?^== 1.00000, wish^?^== 1.00000, scale^.^== 1.00000, habitats^.^== 1.00000, responsible^.^== 3.00000, tankers^.^== 1.00000, more^.^== 2.00000, tolerable^.^== 3.00000, convenience^.^== 2.00000, vessels^.^== 3.00000, caused^.^== 1.00000, instance^.^== 1.00000, organisation^.^== 2.00000, confusion^.^== 1.00000, reviewed^.^== 2.00000, inspectors^.^== 2.00000, shortcomings^.^== 1.00000, forward^.^== 2.00000, strict^.^== 1.00000, unequivocally^.^== 1.00000, indefinitely^.^== 1.00000, age^.^== 1.00000, down^.^== 1.00000, horror^.^== 1.00000, erika^.^== 2.00000, next^?^== 1.00000, rulers^.^== 1.00000, multinationals^.^== 1.00000, result^.^== 1.00000, fate^.^== 1.00000, thoughtlessness^.^== 1.00000, series^.^== 1.00000, shipwreck^.^== 1.00000, transported^.^== 1.00000, happened^.^== 1.00000, old^.^== 1.00000, millennium^.^== 3.00000, mentioning^.^== 1.00000, suffice^.^these 1.00000, response^.^== 2.00000, second-best^.^== 1.00000, commissioner^?^== 1.00000, inspection^.^== 3.00000, double-hulled^.^== 1.00000, closely^.^== 1.00000, livelihoods^.^== 1.00000, now^?^== 1.00000, do^.^== 4.00000, immediately^?^== 1.00000, ships^.^== 1.00000, charges^.^== 1.00000, anchor^.^== 1.00000, theme^.^== 1.00000, gentlemen^.^== 1.00000, movement^.^== 1.00000, time^!^== 1.00000, led^?^== 1.00000, had^?^== 1.00000, societies^.^== 2.00000, slick^.^== 1.00000, reacting^?^== 1.00000, actions^.^== 3.00000, damage^.^== 2.00000, controls^.^== 2.00000, rigorous^.^== 1.00000, testing^.^== 1.00000, suit^.^== 1.00000, too^.^== 3.00000, discover^.^== 1.00000, anywhere^.^== 1.00000, lives^.^== 1.00000, away^.^== 3.00000, saved^.^== 1.00000, ones^.^== 1.00000, background^.^== 1.00000, owners^?^== 1.00000, tan^.^== 1.00000, crews^.^== 1.00000, fleet^.^== 1.00000, whatsoever^.^== 1.00000, ways^.^== 1.00000, flag^.^== 2.00000, essential^.^== 2.00000, situations^.^== 1.00000, stocks^.^== 1.00000, applied^.^== 1.00000, hypocrisy^.^== 1.00000, surprise^.^== 1.00000, ports^?^== 1.00000, colleagues^.^== 1.00000, tanks^.^== 1.00000, regard^.^== 3.00000, subsidiary^.^== 1.00000, opinion^.^== 2.00000, peninsula^.^== 1.00000, deterrent^.^== 1.00000, hearing^.^== 1.00000, enormous^.^== 1.00000, tanker^.^== 1.00000, connection^.^== 1.00000, inspections^.^== 1.00000, right^.^== 2.00000, states^?^== 2.00000, monitored^?^== 1.00000, single-hulled^.^== 1.00000, present^.^== 2.00000, high^.^== 1.00000, happen^?^== 1.00000, town^.^== 1.00000, occur^?^== 1.00000, unintentional^.^== 1.00000, off^)^== 2.00000, media^.^== 1.00000, affected^.^== 5.00000, outside^.^== 1.00000, answers^.^== 1.00000, through^.^== 4.00000, jobs^?^== 1.00000, arms^.^== 1.00000, help^.^== 3.00000, before^.^== 3.00000, equilibrium^.^== 1.00000, occasions^.^== 2.00000, ministers^.^== 1.00000, intentions^.^== 2.00000, statement^.^== 4.00000, in^europe^== 1.00000, shores^.^== 1.00000, human^.^== 1.00000, shown^.^== 1.00000, million^.^== 6.00000, wood^.^== 1.00000, baden-w?rttemberg^.^== 1.00000, switzerland^.^== 1.00000, france^.^== 1.00000, beyond^.^== 1.00000, task^.^== 2.00000, so^?^== 1.00000, matter^?^== 1.00000, unpredictable^.^== 1.00000, immediately^.^== 1.00000, explain^.^== 1.00000, forest^.^== 1.00000, loss^.^== 3.00000, revenues^.^== 1.00000, depreciate^.^== 1.00000, could^.^== 1.00000, come^.^== 1.00000, privatisation^.^== 1.00000, disaster^?^== 1.00000, fellow-citizens^.^== 1.00000, strictly^.^== 1.00000, hit^.^== 1.00000, 2000^.^== 5.00000, december^.^== 1.00000, forests^.^== 2.00000, destruction^.^== 1.00000, announced^.^== 1.00000, forestry^.^== 1.00000, measure^.^== 1.00000, windfalls^.^== 1.00000, economies^.^== 1.00000, calamity^.^== 1.00000, kyoto^.^== 1.00000, gases^.^== 1.00000, inadequate^!^== 1.00000, notoriety^.^== 1.00000, wake^.^== 1.00000, estimate^.^== 1.00000, region^?^== 1.00000, freedom^.^== 1.00000, solidarity^.^== 2.00000, comment^.^== 1.00000, machinations^.^== 1.00000, apart^.^== 2.00000, dossier^.^== 1.00000, again^!^== 1.00000, can^.^== 1.00000, monocultures^.^== 1.00000, stuff^.^== 1.00000, go^.^== 1.00000, stream^.^== 1.00000, calculations^.^== 1.00000, conference^.^== 1.00000, faring^.^== 1.00000, victims^.^== 1.00000, resolution^.^== 3.00000, century^.^== 2.00000, body^.^== 1.00000, tragedy^.^== 1.00000, major^.^== 1.00000, constituencies^.^== 1.00000, abolished^.^== 2.00000, line^.^== 4.00000, greeks^.^== 1.00000, instrument^.^== 1.00000, atlantic^.^== 1.00000, lines^.^== 1.00000, around^.^== 1.00000, paul^.^== 1.00000, spirit^.^== 1.00000, lightly^.^== 1.00000, tomorrow^.^== 3.00000, arrives^.^== 1.00000, grow^.^== 1.00000, prepared^.....^== 1.00000, sank^.^== 1.00000, water^.^== 3.00000, destroyed^.^== 1.00000, catastrophe^.^== 2.00000, humanism^.^== 1.00000, months^.^== 2.00000, operate^.^i 1.00000, specification^.^== 1.00000, suffering^.^== 1.00000, ==^food^safety 1.00000, food^safety^== 1.00000, published^.^== 1.00000, crisis^.^== 3.00000, appointed^.^== 1.00000, earth^.^== 1.00000, decisions^.^== 2.00000, generally^.^== 1.00000, effects^.^== 1.00000, employees^.^== 2.00000, systems^.^== 1.00000, best^.^== 1.00000, food^.^== 1.00000, schedule^.^== 1.00000, stakeholders^.^== 2.00000, envisaged^.^== 1.00000, moments^.^== 1.00000, change^?^== 1.00000, independence^.^== 1.00000, assessment^.^== 2.00000, establishment^.^== 1.00000, enough^.^== 4.00000, structure^.^== 1.00000, crises^.^== 1.00000, council^.^== 3.00000, passion^.^== 1.00000, accountability^.^== 1.00000, argument^.^== 1.00000, safety^?^== 1.00000, citizens^?^== 1.00000, science^.^== 1.00000, arena^.^== 1.00000, dublin^.^== 2.00000, irradiation^.^== 1.00000, soon^.^== 4.00000, constructive^.^== 1.00000, timeframe^.^== 1.00000, ahead^.^== 1.00000, tonight^.^== 1.00000, wrong^.^== 2.00000, liable^.^== 1.00000, feed^.^== 2.00000, feedingstuffs^.^== 1.00000, raised^.^== 1.00000, traceability^.^== 1.00000, involved^.^== 1.00000, material^.^== 2.00000, over-regulation^.^== 1.00000, verheugen^.^== 1.00000, ban^?^== 1.00000, acting^.^== 2.00000, moment^?^== 1.00000, location^?^== 1.00000, board^.^== 2.00000, september^.^== 4.00000, advice^.^== 1.00000, investigated^.^== 1.00000, profile^.^== 1.00000, visible^.^== 3.00000, known^.^== 1.00000, circumstance^.^== 1.00000, periphery^.^== 2.00000, europe^!^== 1.00000, different^.^== 2.00000, identified^.^== 1.00000, located^.^== 1.00000, presidents^.^== 2.00000, session^.^== 2.00000, commission^)^== 1.00000, )^.^we 1.00000, first^part^== 1.00000, )^:^== 15.0000, yet^.^== 1.00000, option^.^== 1.00000, site^.^== 2.00000, reply^.^== 4.00000, india^.^== 1.00000, technology^.^== 2.00000, aspect^.^== 1.00000, twenty^.^== 1.00000, energy^.^== 1.00000, upgradable^.^== 1.00000, turkey^.^== 1.00000, bulgaria^.^== 1.00000, fears^.^== 1.00000, conflict^?^== 1.00000, study^.^== 1.00000, net^.^== 1.00000, conflict^.^== 2.00000, uranium^.^== 2.00000, target^.^== 1.00000, developed^.^== 1.00000, war^.^== 1.00000, weapons^?^== 1.00000, kosovo^.^== 1.00000, yugoslavia^.^== 1.00000, restricted^.^== 2.00000, weapons^.^== 1.00000, holiday^.^== 1.00000, respect^?^== 1.00000, dangerous^.^== 1.00000, exercise^.^== 1.00000, limb^.^== 1.00000, tibet^?^== 1.00000, shared^.^== 1.00000, tibet^.^== 2.00000, lama^.^== 3.00000, exile^.^== 1.00000, cause^.^== 1.00000, infinitum^.^== 1.00000, appointment^.^== 1.00000, happiness^.^== 1.00000, affair^?^== 1.00000, tradition^.^== 1.00000, dialogue^.^== 2.00000, wishes^.^== 1.00000, accurate^?^== 1.00000, administration^?^== 1.00000, weeks^.^== 1.00000, reading^.^== 1.00000, ombudsman^.^== 2.00000, communities^.^== 1.00000, misleading^.^== 1.00000, member^.^== 1.00000, approved^?^== 1.00000, ground^.^== 1.00000, lapses^.^== 2.00000, discourtesy^.^== 1.00000, sorry^.^== 1.00000, evening^.^== 3.00000, africa^.^== 1.00000, entirety^.^== 1.00000, measures^?^== 1.00000, compulsory^.^== 1.00000, management^.^== 2.00000, reflected^.^== 1.00000, strategies^.^== 1.00000, managers^.^== 1.00000, organised^.^== 1.00000, training^?^== 1.00000, times^.^== 1.00000, seniority^.^== 1.00000, themselves^.^== 2.00000, aid^?^== 1.00000, mrs^diamantopoulou^== 1.00000, asia^.^== 2.00000, tajikistan^.^== 1.00000, kyrgyzstan^.^== 1.00000, sanitation^.^== 1.00000, republics^.^== 2.00000, side^.^== 1.00000, impact^.^== 1.00000, alleviation^.^== 1.00000, land^.^== 1.00000, (h-0778/99^)^: 1.00000, recommendations^.^== 2.00000, trainees^?^== 1.00000, figures^?^== 1.00000, greece^?^== 1.00000, evaluated^.^== 1.00000, unemployed^.^== 1.00000, 2006^.^== 1.00000, retire^.^== 2.00000, denmark^.^== 2.00000, say^.^== 2.00000, lies^.^== 1.00000, doctors^.^== 1.00000, hours^.^== 1.00000, 13^.^== 2.00000, group^?^== 1.00000, date^?^== 1.00000, discussed^?^== 1.00000, equality^.^== 1.00000, women^.^== 1.00000, intentions^...^== 1.00000, programmes^?^== 1.00000, correctly^?^== 1.00000, to^?^== 1.00000, workplace^.^== 2.00000, initiative^.^== 1.00000, month^.^== 4.00000, auditors^.^== 5.00000, granted^.^== 1.00000, symbolic^.^== 1.00000, discrimination^.^== 4.00000, exemption^?^== 1.00000, qualification^.^== 2.00000, belongs^.^== 1.00000, lesbian^.^== 1.00000, oppression^.^== 1.00000, reason^.^== 1.00000, catholic^.^== 1.00000, acceptable^.^== 2.00000, well-argued^.^== 1.00000, programme^?^== 1.00000, summer^.^== 1.00000, organisations^.^== 1.00000, lisbon^.^== 1.00000, agreements^.^== 5.00000, entirely^.^== 1.00000, mentioned^.^== 1.00000, area^?^== 2.00000, persons^.^== 1.00000, plan^.^== 1.00000, disability^.^== 1.00000, pending^.^== 1.00000, move^.^== 1.00000, dedication^.^== 1.00000, writing^.^== 1.00000, ==^1997^discharge 1.00000, otherwise^.^== 1.00000, plans^.^== 1.00000, pledges^.^== 1.00000, separated^.^== 1.00000, cabinets^.^== 2.00000, privileges^.^== 1.00000, offices^.^== 2.00000, citizen^.^== 1.00000, documents^.^== 9.00000, counterparts^.^== 1.00000, unused^.^== 1.00000, significance^.^== 2.00000, care^.^== 1.00000, democratic^.^== 1.00000, resourcing^.^== 1.00000, contracts^.^== 1.00000, across^.^== 1.00000, kinnock^.^== 1.00000, details^.^== 2.00000, europe^.^we 1.00000, mechanisms^.^== 1.00000, spending^.^== 2.00000, overdue^.^== 3.00000, restored^.^== 2.00000, been^?^== 1.00000, today^?^== 1.00000, little^.^== 1.00000, confidence^.^== 2.00000, rosy^.^== 1.00000, corruption^.^== 1.00000, see^.^== 1.00000, had^.^== 1.00000, confidential^.^== 1.00000, hospital^.^== 1.00000, laan^.^== 1.00000, thanks^.^== 1.00000, desks^.^== 1.00000, placed^.^== 1.00000, concerned^?^== 1.00000, discharge^.^== 3.00000, struggled^.^== 1.00000, listed^.^== 1.00000, results^.^== 1.00000, whistle-blowers^.^== 3.00000, type^.^== 1.00000, introduced^.^== 3.00000, promised^.^== 2.00000, accounts^.^== 1.00000, institution^.^== 2.00000, better^.^== 1.00000, incriminating^.^== 1.00000, mistaken^!^== 1.00000, unanswered^.^== 1.00000, 1998^.^== 1.00000, succeed^.^== 1.00000, echo^.^== 1.00000, hide^.^== 1.00000, affirmative^.^== 1.00000, instruments^.^== 1.00000, ambitious^.^== 1.00000, tasks^.^== 1.00000, package^.^== 3.00000, thereafter^.^== 1.00000, morning^.^== 1.00000, independent^experts^== 1.00000, scandal^.^== 1.00000, function^.^== 1.00000, officials^.^== 3.00000, reduced^.^== 1.00000, congratulated^.^== 1.00000, inertia^.^== 1.00000, thrive^.^== 1.00000, conduct^.^== 1.00000, binding^.^== 1.00000, practices^.^== 1.00000, modernised^.^== 1.00000, attractive^.^== 1.00000, grade^.^== 1.00000, conditions^.^== 1.00000, timetable^.^== 1.00000, nepotism^.^== 2.00000, stories^.^== 1.00000, else^.^== 1.00000, reverse^.^== 1.00000, in^1957.^== 1.00000, mode^.^== 2.00000, learnt^?^== 1.00000, like^.^== 1.00000, nomination^.^== 1.00000, presentation^.^== 1.00000, horse^.^== 1.00000, dismissal^.^== 1.00000, miscalculation^?^== 1.00000, merit^.^== 1.00000, outdated^.^== 1.00000, stones^.^== 1.00000, history^.^== 1.00000, re-assured^.^== 1.00000, randomly^.^== 1.00000, desired^.^== 1.00000, bad^.^== 1.00000, expenditure^.^== 1.00000, possible^?^== 1.00000, first^.^== 1.00000, hulten^.^== 2.00000, plenary^.^== 1.00000, tongue^.^== 1.00000, late^.^== 2.00000, honest^.^== 1.00000, round^.^== 2.00000, evening^?^== 1.00000, readable^.^== 1.00000, february^.^== 1.00000, nowhere^.^== 1.00000, flow^.^== 1.00000, negotiating^.^== 1.00000, pronounced^.^== 1.00000, detour^.^== 1.00000, democracy^.^== 2.00000, differently^.^== 1.00000, incomplete^.^== 1.00000, sovereignty^.^== 1.00000, receive^.^== 1.00000, arise^.^== 1.00000, discipline^.^== 1.00000, tackled^.^== 1.00000, vague^.^== 1.00000, cracked^.^== 1.00000, him^.^== 1.00000, bureaucracy^.^== 2.00000, indeed^.^== 2.00000, the^igc.^== 1.00000, experts^.^== 2.00000, deserve^.^== 1.00000, house^.^== 4.00000, serious^.^== 1.00000, imprecise^.^== 1.00000, committed^.^== 1.00000, visa^.^== 2.00000, effective^.^== 1.00000, stamp^.^== 1.00000, risk^.^== 1.00000, independently^.^== 1.00000, checks^.^== 1.00000, compromise^.^== 1.00000, air^.^== 1.00000, leadership^.^== 1.00000, beef^?^== 1.00000, british^.^== 1.00000, revolution^.^== 1.00000, hurts^!^== 1.00000, tool^.^== 2.00000, confirmed^.^== 1.00000, with^.^== 1.00000, duty-free^.^== 1.00000, airports^.^== 1.00000, of^gdp^, 1.00000, trust^.^== 1.00000, were^.^== 1.00000, accountable^.^== 1.00000, amended^.^== 1.00000, how^.^== 1.00000, staff^.^== 1.00000, needs^.^== 1.00000, rigid^.^== 1.00000, hierarchy^.^== 1.00000, reformed^.^== 1.00000, worrying^.^== 1.00000, resolved^.^== 1.00000, roles^.^== 2.00000, missing^.^== 1.00000, topic^.^== 1.00000, perspective^.^== 1.00000, rationale^.^== 1.00000, unnecessary^.^== 1.00000, inadequately^.^== 1.00000, emphasised^.^== 1.00000, improvement^.^== 1.00000, table^.^== 1.00000, accept^.^== 1.00000, '^.^== 2.00000, does^.^== 1.00000, stop^.^== 1.00000, accuracy^.^== 1.00000, expectations^.^== 1.00000, representative^.^== 1.00000, transmission^.^== 1.00000, observations^.^== 1.00000, april^.^== 1.00000, vital^.^== 1.00000, fundamental^.^== 1.00000, audits^.^== 1.00000, outcomes^.^== 1.00000, adequate^.^== 1.00000, uncovered^.^== 1.00000, directorates-general^.^" 1.00000, transition^.^== 1.00000, wrong-doing^.^== 1.00000, allegations^.^== 1.00000, professionalism^.^== 1.00000, thors^.^== 1.00000, capabilities^.^== 1.00000, welcome^.^== 2.00000, relevant^.^== 1.00000, stretched^.^== 1.00000, availability^.^== 1.00000, continuation^)^== 1.00000, of^.^== 1.00000, track^.^== 2.00000, east^.^== 3.00000, memorandum^.^== 1.00000, acknowledged^.^== 1.00000, banker^.^== 1.00000, region^.^== 2.00000, tag^.^== 1.00000, palestinians^.^== 2.00000, egypt^.^== 1.00000, together^contributed^another 1.00000, week^.^== 1.00000, arabs^.^== 1.00000, understanding^.^== 1.00000, attitude^.^== 1.00000, account^.^== 1.00000, syria^.^== 2.00000, central^.^== 1.00000, know^.^== 1.00000, begun^.^== 1.00000, lebanon^.^== 1.00000, refugees^.^== 1.00000, contribute^.^== 1.00000, integrity^.^== 1.00000, approaching^.^== 1.00000, 1967^?^== 1.00000, compensation^?^== 1.00000, jordan^?^== 1.00000, peace^?^== 1.00000, law^?^== 1.00000 }        2.8531576995757
+== == == de woorden van de ? ==^the^commission { ==^the^amendment 1.00000, ==^the^commission 1.00000, ==^the^operation 1.00000, ==^the^implementation 1.00000, ==^the^key 1.00000, ==^the^minutes 1.00000, ==^the^reactions 1.00000, ==^its^legislation 1.00000, ==^the^advent 1.00000, ==^safeguarding^the 1.00000, ,^the^sinking 1.00000, ==^the^cause 1.00000, ==^the^reforms 1.00000, commission^'s^dgs 1.00000, commission^'s^records 1.00000, ,^the^future 1.00000, ==^the^beginning 1.00000 }        0.95015829929463
+== == de woorden van de commissaris ? the^beginning^of { the^amendment^to 1.00000, the^operation^of 1.00000, the^implementation^and 1.00000, key^goal^of 1.00000, the^key^goal 1.00000, the^minutes^of 1.00000, the^reactions^from 1.00000, its^legislation^is 1.00000, the^beginning^of 1.00000, the^advent^of 1.00000, ==^safeguarding^the 1.00000, the^future^of 1.00000, union^member^states 1.00000, the^sinking^of 1.00000, to^reform^the 1.00000, the^cause^of 1.00000, commission^services^set 1.00000, the^reforms^of 1.00000, socialist^group^will 1.00000, 's^dgs^must 1.00000, ==^enlargement^of 1.00000, 's^records^leave 1.00000, member^states^together 1.00000, share^commissioner^patten' 1.00000, commissioner^patten'^s 1.00000 }        1.9001039491657
+== de woorden van de commissaris bevestigen ? statement^from^the { statement^from^the 1.00000 }        2.8073606494281
+de woorden van de commissaris bevestigen eigenlijk ? from^the^commissioner { from^the^commissioner 1.00000 }        2.7916015639358
+woorden van de commissaris bevestigen eigenlijk al ? the^commissioner^'s { the^commissioner^'s 2.00000, the^commissioner^. 1.00000, the^commissioner^, 1.00000 }        3.7391825712167
+van de commissaris bevestigen eigenlijk al dat ? commissioner^.^== { commissioner^.^== 1.00000, commissioner^,^and 1.00000 }        3.7812370517329
+de commissaris bevestigen eigenlijk al dat wij ? expressly^to^confirm { expressly^to^confirm 1.00000 }        3.7995734292389
+commissaris bevestigen eigenlijk al dat wij deze ? can^assure^you { can^assure^you 1.00000 }        3.7866310107299
+bevestigen eigenlijk al dat wij deze stof ? you^that^we { you^that^we 1.00000 }        3.7408339605823
+eigenlijk al dat wij deze stof inderdaad ? that^we^do { that^we^do 1.00000 }        3.7224975830763
+al dat wij deze stof inderdaad binnen ? establish^this^link { establish^this^link 1.00000, take^these^rules 1.00000, regards^these^points 1.00000, of^these^proposals 1.00000 }        4.6726558823709
+dat wij deze stof inderdaad binnen de ? severely^less-favoured^regions { severely^less-favoured^regions 1.00000, these^severely^less-favoured 1.00000 }        2.8540836022238
+wij deze stof inderdaad binnen de europese ? new^culture^in { new^culture^in 1.00000 }        3.7828884410985
+deze stof inderdaad binnen de europese unie ? regions^within^europe { regions^within^europe 1.00000 }        2.8136805110733
+stof inderdaad binnen de europese unie maken ? of^the^european { of^the^european 12.0000, for^the^eu 1.00000, within^the^european 4.00000, that^the^european 6.00000, ==^the^european 4.00000, via^the^union 1.00000, ,^the^european 5.00000, that^the^eu 1.00000, ==^the^eu 1.00000, obligation^the^eu 1.00000, about^the^european 1.00000, weaken^the^european 1.00000, debating^the^european 1.00000, in^the^european 4.00000, :^the^european 1.00000, at^the^european 1.00000, against^the^european 1.00000, is^the^european 1.00000, of^the^eu 1.00000, which^the^european 1.00000, for^the^european 2.00000, when^the^european 1.00000 }        3.7224975830763
+inderdaad binnen de europese unie maken en ? within^europe^. { within^europe^. 1.00000, different^eu^governments 1.00000 }        2.7890242719221
+binnen de europese unie maken en verhandelen ? european^union^is { european^union^is 1.00000 }        2.8082077679442
+de europese unie maken en verhandelen == ? is^incoherent^and { is^incoherent^and 1.00000 }        2.8310787524382

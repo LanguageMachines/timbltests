@@ -1,0 +1,9 @@
+#!/usr/bin/expect -f
+#
+spawn telnet localhost 7000
+expect "Trying 127.0.0.1..."
+expect "Connected to localhost."
+expect "Escape character is '^]'."
+expect "Welcome to the Timbl server.\r"
+send "c (159,2)(340,1)(877,3)?\r"
+expect "CATEGORY {False}\r"

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+$comm --Treeorder=DO -f ./tests/cv_1.train -I ib2test1.tree
+$comm -a3 -p1 -f ./tests/cv_2.train -i ib2test1.tree -I ib2test2.tree
+cat  ib2test2.tree
+
+$comm --Treeorder=DO -a3 -b38 -p 1 -f ./tests/cv_12.train -I ib2test12.tree
+cat ib2test12.tree
+
+$comm -a3 -p1 -f ./tests/cv_3.train -i ib2test12.tree -I ib2test123.tree -t tests/cv_4.train
+
+$comm -a3 -p1 -f ./tests/cv_4.train -i ib2test123.tree -t tests/cv_5.train

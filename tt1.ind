@@ -1,0 +1,8 @@
+-t ./tests/klein.test -m O -w ./tests/no.w +x
+-t ./tests/klein.test -m O -w ./tests/tt1.wgt:gr +x
+-t ./tests/klein.test -m O -w ./tests/tt1.wgt +x
+-t ./tests/klein.test -mM -w ./tests/no.w +x
+-t ./tests/klein.test -mM -w ./tests/tt1.wgt:gr +x
+-t ./tests/klein.test -mM -w ./tests/ig_1.w:x2 +x
+-t ./tests/klein.test -mM -w ./tests/no.w:nw +x
+

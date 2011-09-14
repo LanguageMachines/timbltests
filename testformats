@@ -1,0 +1,18 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+$comm -f ./tests/compact.train -l1 -t ./tests/compact.test +vdi+db -o test.out1
+cat < test.out1
+$comm -f ./tests/ARFF.train -t ./tests/ARFF.test +vdi+db -o test.out2
+cat < test.out2
+$comm -f ./tests/ARFF.train -t ./tests/ARFF.test -FARFF +vdi+db -o test.out3
+cat < test.out3
+$comm -f ./tests/c45example.train -t ./tests/c45example.test +vdi+DB -o test.out4
+cat < test.out4 
+$comm -f ./tests/columns.train -t ./tests/columns.test +vdi+db -o test.out5
+cat < test.out5
+
+
+

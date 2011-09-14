@@ -1,0 +1,12 @@
+#!/bin/sh
+
+trainfile=tests/dot_product.train
+testfile=tests/dot_product.test
+
+$comm -f $trainfile -t $testfile +v di+db+cm+cs -o test.out1
+cat  test.out1
+$comm -f $trainfile -t $testfile +v di+db+cm+cs -mD -o test.out2
+cat  test.out2
+
+
+

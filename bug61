@@ -1,0 +1,6 @@
+#!/bin/sh
+
+$comm -f ./tests/oneclass.train1 -t ./tests/klein.test
+$comm -a1 -f ./tests/oneclass.train2 -t ./tests/klein.test
+$comm -a3 -b5 -f ./tests/oneclass.train3 -t ./tests/klein.test
+$comm -f ./tests/oneclass.cvtrain -tcross_validate

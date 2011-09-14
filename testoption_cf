@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+
+$comm -f ./tests/example.train -t ./tests/example.test +vdi+db+cf -oout1 
+
+$comm -f ./tests/example.train -t ./tests/example.test +vdi+db+cf -G0 -oout2
+cat out2
+$comm -f ./tests/example.train -t ./tests/example.test +vdi+db+cf -G1 -oout3 
+cat out3
+$comm -f ./tests/example.train -t ./tests/example.test +vdi+db+cf -G1:0.25 -oout4
+cat out4
+$comm -f ./tests/example.train -t ./tests/example.test +vdi+db+cf -G2 -oout5
+cat out5
+

@@ -1,0 +1,4 @@
+small,compact,none,screw,nut { screw 1.00000, key 1.00000, nut 2.00000 }        0.61502775816767
+small,other,2,key,scissors { screw 1.00000, key 1.00000, scissors 2.00000 }        0.55354849112103
+large,long,none,pen,key { screw 1.00000, key 2.00000, pen 1.00000, scissors 1.00000 }        0.55354849112103
+small,compact,1,nut,key { key 2.00000, pen 1.00000, nut 2.00000 }        0.0000000000000

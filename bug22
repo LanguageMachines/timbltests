@@ -1,0 +1,6 @@
+#!/bin/sh
+
+$comm -f ./tests/cv_test -t cross_validate +vcs 
+
+
+

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+$comm -f ./tests/align.data -t ./tests/align.test +vdi+db -o test.out1 
+head -100 test.out1

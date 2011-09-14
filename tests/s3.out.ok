@@ -1,0 +1,13 @@
+spawn telnet localhost 2345
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Welcome to the Mbt server.
+Wie weet waar Willem Wever woont?
+Wie/Pron weet/V waar/Adv Willem/N Wever//N woont?//N <utt>
+Willem Wever woont wijd weg,
+Willem/N Wever//N woont/V wijd//N weg,//V <utt>
+geloof ik.
+geloof/V ik.//Punc <utt>
+
+Connection closed by foreign host.

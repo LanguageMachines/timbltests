@@ -1,0 +1,9 @@
+#!/bin/sh
+
+trainfile=tests/example.train
+testfile=tests/example.test
+
+$comm -f $trainfile -a1 -I bug17.tree
+$comm -i bug17.tree -a1 +D -t $testfile 
+
+

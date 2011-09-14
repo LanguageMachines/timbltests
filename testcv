@@ -1,0 +1,8 @@
+#!/bin/sh
+
+$comm -f ./tests/cv_test -t cross_validate +vdi+db -O /tmp
+cat < /tmp/klein_1.train.cv
+cat < /tmp/klein_2.train.cv
+cat < /tmp/klein_3.train.cv
+cat < /tmp/klein_4.train.cv
+cat < /tmp/klein_5.train.cv

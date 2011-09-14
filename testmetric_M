@@ -1,0 +1,6 @@
+#! /bin/sh
+
+$comm -f ./tests/dimin.train -t ./tests/dimin.test -mM +vDI+db -o test.out1
+cat < test.out1
+
+

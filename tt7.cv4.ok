@@ -1,0 +1,10 @@
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,I { I 1.00000 }        0.71921418719313
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I { I 1.00000 }        0.99733400032105
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I { I 1.00000 }        1.0891918669920
+for,calls,agreement,the,IN,VBZ,NN,DT,O,I { I 2.00000 }        1.0817682114290
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O { O 1.00000 }        1.0817682114290
+to,it,for,calls,TO,PRP,IN,VBZ,I,I { I 1.00000 }        1.0817682114290
+supply,to,it,for,VB,TO,PRP,IN,O,O { O 1.00000 }        1.0087977844023
+200,supply,to,it,CD,VB,TO,PRP,O,O { O 1.00000 }        0.79019265987997
+additional,200,supply,to,JJ,CD,VB,TO,I,I { I 1.00000 }        0.92635552763422
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I { I 1.00000 }        1.0087977844023

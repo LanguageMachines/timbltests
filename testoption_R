@@ -1,0 +1,4 @@
+#!/bin/sh
+
+$comm -f tests/hapax.smalltrain -t tests/hapax.smalltest -o testR.out1
+$comm -f tests/hapax.smalltrain -t tests/hapax.smalltest -R14 -o testR.out2

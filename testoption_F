@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+trainfile=tests/example.train
+
+$comm -f $trainfile -F Compact
+$comm -f $trainfile -F Compact -l1
+$comm -f $trainfile -F ARFF 
+$comm -f $trainfile -F C45 
+$comm -f $trainfile -F Columns
+$comm -f $trainfile -F Wrong 
+
+
+

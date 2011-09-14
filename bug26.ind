@@ -1,0 +1,7 @@
+-t ./tests/bug26.test -mO +vdi+db
+-t ./tests/bug26.test -mO:N3 +vdi+db
+-t ./tests/bug26.test -mM +vdi+db
+-t ./tests/bug26.test -mM:N3:DC2 +vdi+db
+-t ./tests/bug26.test -mM +vdi+db
+-t ./tests/bug26.test -mM:S2:DC1 +vdi+db
+

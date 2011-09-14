@@ -1,0 +1,205 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 15:13:06 2011
+
+Error:Invalid option +vdb, while +D is missing!
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 15:13:06 2011
+
+Examine datafile './tests/c45example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/c45example.train
+Start:          0 @ Mon Jan 24 15:13:06 2011
+Warning:datafile, skipped line #5
+dit,is,te,lang,4.
+Warning:datafile, skipped line #7
+te,kort,6.
+Finished:       7 @ Mon Jan 24 15:13:06 2011
+Calculating Entropy         Mon Jan 24 15:13:06 2011
+Lines of data     : 5
+SkippedLines      : 2
+DB Entropy        : 2.3219281
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      5	2.3219281	1.0000000
+    2      4	1.9219281	1.0000000
+    3      5	2.3219281	1.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 201 microseconds
+Feature Permutation based on GainRatio :
+< 1, 2, 3 >
+Phase 2: Building multi index on Datafile: ./tests/c45example.train
+Start:          0 @ Mon Jan 24 15:13:06 2011
+Warning:datafile, skipped line #5
+dit,is,te,lang,4.
+Warning:datafile, skipped line #7
+te,kort,6.
+Finished:       5 @ Mon Jan 24 15:13:06 2011
+
+Phase 3: Learning from Datafile: ./tests/c45example.train
+Start:          0 @ Mon Jan 24 15:13:06 2011
+Finished:       5 @ Mon Jan 24 15:13:06 2011
+
+Size of InstanceBase = 4 Nodes, (160 bytes), 80.00 % compression
+Learning took 0 seconds, 0 milliseconds and 235 microseconds
+Examine datafile './tests/c45example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/c45example.test
+Writing output in:          ./tests/DDB2.out
+Algorithm     : IGTree
+Weighting     : GainRatio
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+
+Tested:      1 @ Mon Jan 24 15:13:06 2011
+Tested:      2 @ Mon Jan 24 15:13:06 2011
+Ready:       2 @ Mon Jan 24 15:13:06 2011
+Seconds taken: 0.0001 (19607.84 p/s)
+
+overall accuracy:        0.500000  (1/2)
+aap,noot,moose,1,1 { 1 1.00000 }
+ok,o.k.,goed,6,5 { 5 1.00000 }
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 15:13:06 2011
+
+Examine datafile './tests/c45example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/c45example.train
+Start:          0 @ Mon Jan 24 15:13:06 2011
+Warning:datafile, skipped line #5
+dit,is,te,lang,4.
+Warning:datafile, skipped line #7
+te,kort,6.
+Finished:       7 @ Mon Jan 24 15:13:06 2011
+Calculating Entropy         Mon Jan 24 15:13:06 2011
+Lines of data     : 5
+SkippedLines      : 2
+DB Entropy        : 2.3219281
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      5	2.3219281	1.0000000
+    2      4	1.9219281	1.0000000
+    3      5	2.3219281	1.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 213 microseconds
+Feature Permutation based on GainRatio :
+< 1, 2, 3 >
+Phase 2: Building multi index on Datafile: ./tests/c45example.train
+Start:          0 @ Mon Jan 24 15:13:06 2011
+Warning:datafile, skipped line #5
+dit,is,te,lang,4.
+Warning:datafile, skipped line #7
+te,kort,6.
+Finished:       5 @ Mon Jan 24 15:13:06 2011
+
+Phase 3: Learning from Datafile: ./tests/c45example.train
+Start:          0 @ Mon Jan 24 15:13:06 2011
+Finished:       5 @ Mon Jan 24 15:13:06 2011
+
+Size of InstanceBase = 4 Nodes, (160 bytes), 80.00 % compression
+Learning took 0 seconds, 0 milliseconds and 235 microseconds
+Writing Instance-Base in: tree
+Saving Weights in tree.wgt
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 15:13:06 2011
+
+Error:Invalid option +vdb, while +D is missing!
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 15:13:06 2011
+
+Examine datafile './tests/c45example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/c45example.train
+Start:          0 @ Mon Jan 24 15:13:06 2011
+Warning:datafile, skipped line #5
+dit,is,te,lang,4.
+Warning:datafile, skipped line #7
+te,kort,6.
+Finished:       7 @ Mon Jan 24 15:13:06 2011
+Calculating Entropy         Mon Jan 24 15:13:06 2011
+Lines of data     : 5
+SkippedLines      : 2
+DB Entropy        : 2.3219281
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      5	2.3219281	1.0000000
+    2      4	1.9219281	1.0000000
+    3      5	2.3219281	1.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 198 microseconds
+Feature Permutation based on GainRatio :
+< 1, 2, 3 >
+Phase 2: Building multi index on Datafile: ./tests/c45example.train
+Start:          0 @ Mon Jan 24 15:13:06 2011
+Warning:datafile, skipped line #5
+dit,is,te,lang,4.
+Warning:datafile, skipped line #7
+te,kort,6.
+Finished:       5 @ Mon Jan 24 15:13:06 2011
+
+Phase 3: Learning from Datafile: ./tests/c45example.train
+Start:          0 @ Mon Jan 24 15:13:06 2011
+Finished:       5 @ Mon Jan 24 15:13:06 2011
+
+Size of InstanceBase = 4 Nodes, (160 bytes), 80.00 % compression
+Learning took 0 seconds, 0 milliseconds and 233 microseconds
+Writing Instance-Base in: tree
+Saving Weights in tree.wgt
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 15:13:06 2011
+
+Reading Instance-Base from: tree
+Feature Permutation based on Data File Ordering :
+< 1, 2, 3 >
+Reading weights from tree.wgt
+Examine datafile './tests/c45example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/c45example.test
+Writing output in:          ./tests/DDB4.out
+Algorithm     : IGTree
+Weighting     : User Defined  (tree.wgt)
+Feature 1	 : 1
+Feature 2	 : 1
+Feature 3	 : 1
+
+Tested:      1 @ Mon Jan 24 15:13:06 2011
+Tested:      2 @ Mon Jan 24 15:13:06 2011
+Ready:       2 @ Mon Jan 24 15:13:06 2011
+Seconds taken: 0.0001 (15873.02 p/s)
+
+overall accuracy:        0.500000  (1/2)
+aap,noot,moose,1,1 { 1 1.00000 }
+ok,o.k.,goed,6,5 { 5 1.00000 }

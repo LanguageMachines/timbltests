@@ -1,0 +1,26 @@
+#!/bin/sh
+
+$comm -f ./tests/example.train --Treeorder=DO -t ./tests/example.test -I tree.DO
+cat < tree.DO
+$comm -f ./tests/example.train --Treeorder=GRO -t ./tests/example.test -I tree.GR 
+cat < tree.GR
+$comm -f ./tests/example.train --Treeorder=IGO -t ./tests/example.test -I tree.IG 
+cat < tree.IG
+$comm -f ./tests/example.train --Treeorder=X2O -t ./tests/example.test -I tree.X2 
+cat < tree.X2
+$comm -f ./tests/example.train --Treeorder=SVO -t ./tests/example.test -I tree.VO 
+cat < tree.VO
+$comm -f ./tests/example.train --Treeorder=1/V -t ./tests/example.test -I tree.1V 
+cat < tree.1V
+$comm -f ./tests/example.train --Treeorder=G/V -t ./tests/example.test -I tree.GV 
+cat < tree.GV
+$comm -f ./tests/example.train --Treeorder=I/V -t ./tests/example.test -I tree.IV 
+cat < tree.IV
+$comm -f ./tests/example.train --Treeorder=X/V -t ./tests/example.test -I tree.SX 
+cat < tree.SX
+$comm -f ./tests/example.train --Treeorder=S/V -t ./tests/example.test -I tree.SV 
+cat < tree.SV
+$comm -f ./tests/example.train --Treeorder=1/S -t ./tests/example.test -I tree.1S 
+cat < tree.1S
+
+

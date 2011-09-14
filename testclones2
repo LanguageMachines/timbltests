@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# defaults:
+#
+comm="$VG $timbl_bin/Timbl"
+
+$comm -f ./tests/example.train -t ./tests/example.test +vdi+db+cs+cm -o testclones.out1
+$comm -f ./tests/example.train -t ./tests/example.test +vdi+db+cs+cm --clones=3 -o testclones.out3
+$comm -f ./tests/example.train -t ./tests/example.test +vdi+db+cs+cm --clones=7 -o testclones.out7
+diff testclones.out1 testclones.out3
+diff testclones.out1 testclones.out7
+head -100 testclones.out3

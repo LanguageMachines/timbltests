@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+
+$comm -f ./tests/example.train -t ./tests/example.test -w0 -Z +vdi+db -k3 -mM -oout1 
+cat < out1 
+

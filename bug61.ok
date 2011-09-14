@@ -1,0 +1,403 @@
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar  7 15:00:27 2011
+
+Examine datafile './tests/oneclass.train1' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/oneclass.train1
+Start:          0 @ Mon Mar  7 15:00:27 2011
+Finished:      19 @ Mon Mar  7 15:00:27 2011
+Calculating Entropy         Mon Mar  7 15:00:27 2011
+Lines of data     : 19
+DB Entropy        : 0.0000000
+Number of Classes : 1
+
+Feats	Vals	InfoGain	GainRatio
+    1     18	0.0000000	0.0000000
+    2     18	0.0000000	0.0000000
+    3     17	0.0000000	0.0000000
+    4     16	0.0000000	0.0000000
+    5     10	0.0000000	0.0000000
+    6      9	0.0000000	0.0000000
+    7     11	0.0000000	0.0000000
+    8     12	0.0000000	0.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 441 microseconds
+Warning:Training file contains only 1 class.
+Feature Permutation based on GainRatio/Values :
+< 1, 2, 3, 4, 5, 6, 7, 8 >
+Phase 2: Building multi index on Datafile: ./tests/oneclass.train1
+Start:          0 @ Mon Mar  7 15:00:27 2011
+Finished:      19 @ Mon Mar  7 15:00:27 2011
+
+Phase 3: Learning from Datafile: ./tests/oneclass.train1
+Start:          0 @ Mon Mar  7 15:00:27 2011
+Finished:      19 @ Mon Mar  7 15:00:27 2011
+
+Size of InstanceBase = 170 Nodes, (6800 bytes), 0.58 % compression
+Learning took 0 seconds, 0 milliseconds and 571 microseconds
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          ./tests/klein.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.000000000000000
+Feature 3	 : 0.000000000000000
+Feature 4	 : 0.000000000000000
+Feature 5	 : 0.000000000000000
+Feature 6	 : 0.000000000000000
+Feature 7	 : 0.000000000000000
+Feature 8	 : 0.000000000000000
+
+Tested:      1 @ Mon Mar  7 15:00:27 2011
+Tested:      2 @ Mon Mar  7 15:00:27 2011
+Tested:      3 @ Mon Mar  7 15:00:27 2011
+Tested:      4 @ Mon Mar  7 15:00:27 2011
+Tested:      5 @ Mon Mar  7 15:00:27 2011
+Tested:      6 @ Mon Mar  7 15:00:27 2011
+Tested:      7 @ Mon Mar  7 15:00:27 2011
+Tested:      8 @ Mon Mar  7 15:00:27 2011
+Tested:      9 @ Mon Mar  7 15:00:27 2011
+Tested:     10 @ Mon Mar  7 15:00:27 2011
+Ready:      50 @ Mon Mar  7 15:00:27 2011
+Seconds taken: 0.0017 (30284.68 p/s)
+
+overall accuracy:        0.600000  (30/50), of which 50 exact matches 
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar  7 15:00:27 2011
+
+Examine datafile './tests/oneclass.train2' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/oneclass.train2
+Start:          0 @ Mon Mar  7 15:00:27 2011
+Finished:      18 @ Mon Mar  7 15:00:27 2011
+Calculating Entropy         Mon Mar  7 15:00:27 2011
+Lines of data     : 18
+DB Entropy        : 0.0000000
+Number of Classes : 1
+
+Feats	Vals	InfoGain	GainRatio
+    1     15	0.0000000	0.0000000
+    2     13	0.0000000	0.0000000
+    3     14	0.0000000	0.0000000
+    4     17	0.0000000	0.0000000
+    5      9	0.0000000	0.0000000
+    6      9	0.0000000	0.0000000
+    7     10	0.0000000	0.0000000
+    8     11	0.0000000	0.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 409 microseconds
+Warning:Training file contains only 1 class.
+Feature Permutation based on GainRatio :
+< 1, 2, 3, 4, 5, 6, 7, 8 >
+Phase 2: Building multi index on Datafile: ./tests/oneclass.train2
+Start:          0 @ Mon Mar  7 15:00:27 2011
+Finished:      18 @ Mon Mar  7 15:00:27 2011
+
+Phase 3: Learning from Datafile: ./tests/oneclass.train2
+Start:          0 @ Mon Mar  7 15:00:27 2011
+Finished:      18 @ Mon Mar  7 15:00:27 2011
+
+Size of InstanceBase = 0 Nodes, (0 bytes), 100.00 % compression
+Learning took 0 seconds, 0 milliseconds and 571 microseconds
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          ./tests/klein.test.IGTree.gr.out
+Algorithm     : IGTree
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.000000000000000
+Feature 3	 : 0.000000000000000
+Feature 4	 : 0.000000000000000
+Feature 5	 : 0.000000000000000
+Feature 6	 : 0.000000000000000
+Feature 7	 : 0.000000000000000
+Feature 8	 : 0.000000000000000
+
+Tested:      1 @ Mon Mar  7 15:00:27 2011
+Tested:      2 @ Mon Mar  7 15:00:27 2011
+Tested:      3 @ Mon Mar  7 15:00:27 2011
+Tested:      4 @ Mon Mar  7 15:00:27 2011
+Tested:      5 @ Mon Mar  7 15:00:27 2011
+Tested:      6 @ Mon Mar  7 15:00:27 2011
+Tested:      7 @ Mon Mar  7 15:00:27 2011
+Tested:      8 @ Mon Mar  7 15:00:27 2011
+Tested:      9 @ Mon Mar  7 15:00:27 2011
+Tested:     10 @ Mon Mar  7 15:00:27 2011
+Ready:      50 @ Mon Mar  7 15:00:27 2011
+Seconds taken: 0.0009 (54229.93 p/s)
+
+overall accuracy:        0.360000  (18/50)
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar  7 15:00:27 2011
+
+Examine datafile './tests/oneclass.train3' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/oneclass.train3
+Start:          0 @ Mon Mar  7 15:00:27 2011
+Finished:      19 @ Mon Mar  7 15:00:27 2011
+Calculating Entropy         Mon Mar  7 15:00:27 2011
+Lines of data     : 19
+DB Entropy        : 0.0000000
+Number of Classes : 1
+
+Feats	Vals	InfoGain	GainRatio
+    1     18	0.0000000	0.0000000
+    2     17	0.0000000	0.0000000
+    3     18	0.0000000	0.0000000
+    4     18	0.0000000	0.0000000
+    5     14	0.0000000	0.0000000
+    6     14	0.0000000	0.0000000
+    7     12	0.0000000	0.0000000
+    8     12	0.0000000	0.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 457 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 2, 3, 4, 5, 6, 7, 8 >
+Phase 2: Learning from Datafile: ./tests/oneclass.train3
+Start:          0 @ Mon Mar  7 15:00:27 2011
+Finished:       5 @ Mon Mar  7 15:00:27 2011
+
+Size of InstanceBase = 45 Nodes, (1800 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 89 microseconds
+Phase 2: Appending from Datafile: ./tests/oneclass.train3 (starting at line 6)
+Start:          6 @ Mon Mar  7 15:00:27 2011
+Learning:       5 @ Mon Mar  7 15:00:27 2011	 added:0
+Learning:       6 @ Mon Mar  7 15:00:27 2011	 added:0
+Learning:       7 @ Mon Mar  7 15:00:27 2011	 added:0
+Learning:       8 @ Mon Mar  7 15:00:27 2011	 added:0
+Learning:       9 @ Mon Mar  7 15:00:27 2011	 added:0
+Learning:      10 @ Mon Mar  7 15:00:27 2011	 added:0
+Learning:      11 @ Mon Mar  7 15:00:27 2011	 added:0
+Learning:      12 @ Mon Mar  7 15:00:27 2011	 added:0
+Learning:      13 @ Mon Mar  7 15:00:27 2011	 added:0
+Finished:      13 @ Mon Mar  7 15:00:27 2011
+in total added 0 new entries
+
+Size of InstanceBase = 45 Nodes, (1800 bytes), 0.00 % compression
+DB Entropy        : 0.00000000
+Number of Classes : 1
+
+Feats	Vals	InfoGain	GainRatio
+    1     18	0.00000000	0.00000000
+    2     17	0.00000000	0.00000000
+    3     18	0.00000000	0.00000000
+    4     18	0.00000000	0.00000000
+    5     14	0.00000000	0.00000000
+    6     14	0.00000000	0.00000000
+    7     12	0.00000000	0.00000000
+    8     12	0.00000000	0.00000000
+
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          ./tests/klein.test.IB2.O.gr.k1.out
+Algorithm     : IB2
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.000000000000000
+Feature 3	 : 0.000000000000000
+Feature 4	 : 0.000000000000000
+Feature 5	 : 0.000000000000000
+Feature 6	 : 0.000000000000000
+Feature 7	 : 0.000000000000000
+Feature 8	 : 0.000000000000000
+
+Tested:      1 @ Mon Mar  7 15:00:27 2011
+Tested:      2 @ Mon Mar  7 15:00:27 2011
+Tested:      3 @ Mon Mar  7 15:00:27 2011
+Tested:      4 @ Mon Mar  7 15:00:27 2011
+Tested:      5 @ Mon Mar  7 15:00:27 2011
+Tested:      6 @ Mon Mar  7 15:00:27 2011
+Tested:      7 @ Mon Mar  7 15:00:27 2011
+Tested:      8 @ Mon Mar  7 15:00:27 2011
+Tested:      9 @ Mon Mar  7 15:00:27 2011
+Tested:     10 @ Mon Mar  7 15:00:27 2011
+Ready:      50 @ Mon Mar  7 15:00:27 2011
+Seconds taken: 0.0014 (35161.74 p/s)
+
+overall accuracy:        0.040000  (2/50), of which 50 exact matches 
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar  7 15:00:27 2011
+
+Starting Cross validation test on files:
+tests/oneclass.train1
+tests/oneclass.train2
+tests/oneclass.train3
+Preparation took 0 seconds, 0 milliseconds and 308 microseconds
+Examine datafile 'tests/oneclass.train1' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+DB Entropy        : 0.99947302
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1     30	0.78325680	0.16396344
+    2     28	0.87096255	0.18601717
+    3     30	0.87096255	0.18104798
+    4     33	0.87096255	0.17514407
+    5     16	0.36024371	0.096875944
+    6     18	0.63704303	0.16037107
+    7     15	0.33042201	0.091756337
+    8     16	0.38177699	0.10116531
+
+
+Starting to test, Testfile: tests/oneclass.train1
+Writing output in:          tests/oneclass.train1.cv
+Algorithm     : CV
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.163963443937780
+Feature 2	 : 0.186017168859804
+Feature 3	 : 0.181047977181452
+Feature 4	 : 0.175144074738040
+Feature 5	 : 0.0968759440840052
+Feature 6	 : 0.160371071031225
+Feature 7	 : 0.0917563365986120
+Feature 8	 : 0.101165311546607
+
+Tested:      1 @ Mon Mar  7 15:00:27 2011
+Tested:      2 @ Mon Mar  7 15:00:27 2011
+Tested:      3 @ Mon Mar  7 15:00:27 2011
+Tested:      4 @ Mon Mar  7 15:00:27 2011
+Tested:      5 @ Mon Mar  7 15:00:27 2011
+Tested:      6 @ Mon Mar  7 15:00:27 2011
+Tested:      7 @ Mon Mar  7 15:00:27 2011
+Tested:      8 @ Mon Mar  7 15:00:27 2011
+Tested:      9 @ Mon Mar  7 15:00:27 2011
+Tested:     10 @ Mon Mar  7 15:00:27 2011
+Ready:      19 @ Mon Mar  7 15:00:27 2011
+Seconds taken: 0.0009 (21205.36 p/s)
+
+overall accuracy:        0.000000  (0/19)
+There were 2 ties of which 0 (0.00%) were correctly resolved
+Examine datafile 'tests/oneclass.train2' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+DB Entropy        : 1.00000000
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1     35	0.94736842	0.18612226
+    2     35	1.00000000	0.19646239
+    3     34	0.94736842	0.18806690
+    4     33	0.94736842	0.19081303
+    5     18	0.47436399	0.12184778
+    6     19	0.58921999	0.15398593
+    7     19	0.67461768	0.16832018
+    8     18	0.54618125	0.13730720
+
+
+Starting to test, Testfile: tests/oneclass.train2
+Writing output in:          tests/oneclass.train2.cv
+Algorithm     : CV
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.186122263378660
+Feature 2	 : 0.196462389121919
+Feature 3	 : 0.188066898759983
+Feature 4	 : 0.190813033017478
+Feature 5	 : 0.121847778068856
+Feature 6	 : 0.153985926443700
+Feature 7	 : 0.168320183795545
+Feature 8	 : 0.137307202171698
+
+Tested:      1 @ Mon Mar  7 15:00:27 2011
+Tested:      2 @ Mon Mar  7 15:00:27 2011
+Tested:      3 @ Mon Mar  7 15:00:27 2011
+Tested:      4 @ Mon Mar  7 15:00:27 2011
+Tested:      5 @ Mon Mar  7 15:00:27 2011
+Tested:      6 @ Mon Mar  7 15:00:27 2011
+Tested:      7 @ Mon Mar  7 15:00:27 2011
+Tested:      8 @ Mon Mar  7 15:00:27 2011
+Tested:      9 @ Mon Mar  7 15:00:27 2011
+Tested:     10 @ Mon Mar  7 15:00:27 2011
+Ready:      18 @ Mon Mar  7 15:00:27 2011
+Seconds taken: 0.0016 (11349.31 p/s)
+
+overall accuracy:        0.000000  (0/18)
+Examine datafile 'tests/oneclass.train3' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+DB Entropy        : 0.99947302
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1     31	0.89136491	0.18246497
+    2     30	0.92501660	0.19310322
+    3     29	0.83731086	0.17728493
+    4     29	0.70610132	0.15089366
+    5     16	0.63051398	0.16955643
+    6     17	0.92501660	0.24583130
+    7     18	0.68839802	0.17536992
+    8     15	0.30732057	0.08400105
+
+
+Starting to test, Testfile: tests/oneclass.train3
+Writing output in:          tests/oneclass.train3.cv
+Algorithm     : CV
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.182464967566103
+Feature 2	 : 0.193103217877713
+Feature 3	 : 0.177284931156631
+Feature 4	 : 0.150893661468951
+Feature 5	 : 0.169556429042693
+Feature 6	 : 0.245831303637858
+Feature 7	 : 0.175369917557424
+Feature 8	 : 0.084001054645562
+
+Tested:      1 @ Mon Mar  7 15:00:28 2011
+Tested:      2 @ Mon Mar  7 15:00:28 2011
+Tested:      3 @ Mon Mar  7 15:00:28 2011
+Tested:      4 @ Mon Mar  7 15:00:28 2011
+Tested:      5 @ Mon Mar  7 15:00:28 2011
+Tested:      6 @ Mon Mar  7 15:00:28 2011
+Tested:      7 @ Mon Mar  7 15:00:28 2011
+Tested:      8 @ Mon Mar  7 15:00:28 2011
+Tested:      9 @ Mon Mar  7 15:00:28 2011
+Tested:     10 @ Mon Mar  7 15:00:28 2011
+Ready:      19 @ Mon Mar  7 15:00:28 2011
+Seconds taken: 0.0017 (11156.78 p/s)
+
+overall accuracy:        0.000000  (0/19)
+There was 1 tie of which 0 (0.00%) was correctly resolved

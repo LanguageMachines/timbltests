@@ -1,0 +1,8 @@
+#!/bin/sh
+
+$comm -f ./tests/align.data -t ./tests/align.test +vdi+db -o testclones.out1
+$comm -f ./tests/align.data -t ./tests/align.test +vdi+db --clones=3 -o testclones.out3
+$comm -f ./tests/align.data -t ./tests/align.test +vdi+db --clones=7 -o testclones.out7
+diff testclones.out1 testclones.out7
+diff testclones.out1 testclones.out3
+head -100 testclones.out3

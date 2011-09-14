@@ -1,0 +1,25 @@
+# /bin/sh +x
+
+OK="\033[1;32m OK  \033[0m"
+FAIL="\033[1;31m  FAILED  \033[0m"
+
+if [ "$timbl_bin" = "" ];
+then echo "timbl_bin not set";
+     exit;
+fi
+
+for file in bug*
+do if test -x $file
+   then 
+   	echo -n "testing  $file "
+	./$file > $file.tmp 2>& 1
+	./mydiff.sh $file.tmp $file.ok
+	if [ $? -ne 0 ];
+	then echo -e $FAIL;
+	cp md.tmp $file.diff;
+	echo "differences logged in $file.diff";
+	else echo -e $OK
+	fi
+   fi
+done
+

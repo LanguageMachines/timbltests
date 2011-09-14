@@ -1,0 +1,10 @@
+#!/bin/sh
+
+$comm -f ./tests/klein.train -t ./tests/klein.test -dIL +vDI+DB -k3 -oout1 
+cat < out1
+
+$comm -f ./tests/klein.train -t ./tests/klein.test -d ID +vDI+DB -k3 -o out2
+cat < out2
+
+$comm -f ./tests/klein.train -t ./tests/klein.test -d ED3.14e-2 +vDI+DB -k3 -o out3
+cat < out3

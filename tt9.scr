@@ -1,0 +1,30 @@
+new exp tribl
+exp.set tribl_offset 2
+exp.set verbosity f
+exp.train ./tests/cv_1.train
+exp.test ./tests/klein_1.train
+free exp
+new exp tribl
+exp.set tribl_offset 2
+exp.set verbosity f
+exp.train ./tests/cv_2.train
+exp.test ./tests/klein_2.train
+free exp
+new exp tribl
+exp.set tribl_offset 2
+exp.set verbosity f
+exp.train ./tests/cv_3.train
+exp.test ./tests/klein_3.train
+free exp
+new exp tribl
+exp.set tribl_offset 2
+exp.set verbosity f
+exp.train ./tests/cv_4.train
+exp.test ./tests/klein_4.train
+free exp
+new exp tribl
+exp.set tribl_offset 2
+exp.set verbosity f
+exp.train ./tests/cv_5.train
+exp.test ./tests/klein_5.train
+free exp

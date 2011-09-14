@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+
+
+$comm -f ./tests/dimin.train -I tree +vB  
+$comm -f ./tests/dimin.train -a1 -I tree +vB 
+
+

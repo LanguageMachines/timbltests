@@ -1,0 +1,20 @@
+#!/bin/sh
+
+$comm -f ./tests/example.train -t ./tests/example.test +vDB -o out.def 
+cat < out.def
+$comm -f ./tests/example.train -t ./tests/example.test +vDB -G -o out.norm1 
+cat < out.norm1
+$comm -f ./tests/example.train -t ./tests/example.test +vDB -G 0 -o out.norm2
+cat < out.norm2
+$comm -f ./tests/example.train -t ./tests/example.test +vDB -G Probability -o out.norm3
+cat < out.norm3
+$comm -f ./tests/example.train -t ./tests/example.test +vDB -G 1 -o out.norm4
+cat < out.norm4
+$comm -f ./tests/example.train -t ./tests/example.test +vDB -G addFactor:0.5 -o out.norm5
+cat < out.norm5
+$comm -f ./tests/example.train -t ./tests/example.test +vDB -G 1:0.9 -o out.norm6
+cat < out.norm6
+$comm -f ./tests/example.train -t ./tests/example.test +vDB -G logProbability -o out.norm7
+cat < out.norm7
+$comm -f ./tests/example.train -t ./tests/example.test +vDB -G 2 -o out.norm8
+cat < out.norm8

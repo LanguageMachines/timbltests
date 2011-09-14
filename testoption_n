@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+
+$comm -f ./tests/example.train -t ./tests/example.test -n /tmp/names1 -e 20 
+cat < /tmp/names1 

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+$comm -f test_cv/file_index.train -t cross_validate -k3 -mM -w test_cv/test_weights +v di+db
+diff test_cv/dummy_data.dat_2.cv test_cv/dummy_data.dat_2.cv1.ok
+$comm -f test_cv/file_index.train -t cross_validate -k3 -mM -u test_cv/bug20.probs +v di+db
+diff test_cv/dummy_data.dat_2.cv test_cv/dummy_data.dat_2.cv2.ok 2>1
+
+
+

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+$comm -i ./tests/tree.nonhashed.wrong -t ./tests/c45example.test
+$comm -i ./tests/tree.hashed.wrong -t ./tests/c45example.test 
+
+$comm -f ./tests/num.train -I ./tests/num.tree -a1 
+$comm -t ./tests/num.test -i ./tests/num.tree -a0 
+$comm -t num.test -i num.tree -P ./tests -a1 
+
+$comm -f ./tests/num.train -I ./tests/num.tree -a0 
+$comm -t ./tests/num.test -i ./tests/num.tree -a1  
+
+

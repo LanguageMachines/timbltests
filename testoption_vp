@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+
+$comm -f ./tests/example.train -t ./tests/example.test -w0 +vp -mM -o out1 
+cat  out1
+
+

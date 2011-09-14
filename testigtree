@@ -1,0 +1,17 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+$comm -a1 -f ./tests/c45example.train -t ./tests/c45example.test -D +vDB -o ./tests/DDB1.out 
+
+$comm -a1 -f ./tests/c45example.train -t ./tests/c45example.test +D +vDB -o ./tests/DDB2.out  
+cat < ./tests/DDB2.out 
+
+$comm -a1 -f ./tests/c45example.train -I tree -D 
+$comm -a1 -i tree -t ./tests/c45example.test -D +vDB -o ./tests/DDB3.out 
+#cat < ./tests/DDB3.out
+
+$comm -a1 -f ./tests/c45example.train -I tree +D 
+$comm -a1 -i tree -t ./tests/c45example.test +D +vDB  -o ./tests/DDB4.out 
+cat < ./tests/DDB4.out 

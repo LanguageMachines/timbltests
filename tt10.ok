@@ -1,0 +1,148 @@
+TiMBL 6.3.2 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan  3 16:34:29 2011
+
+Examine datafile 'tests/zestiende.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/zestiende.train
+Start:          0 @ Mon Jan  3 16:34:29 2011
+Finished:      88 @ Mon Jan  3 16:34:29 2011
+Calculating Entropy         Mon Jan  3 16:34:29 2011
+Lines of data     : 88
+DB Entropy        : 1.1756882
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     68	1.0351822	0.17525181
+    2     67	1.1130771	0.18944311
+    3     64	1.0493312	0.18238748
+    4     64	0.88976476	0.15507754
+    5     18	0.46252872	0.12531640
+    6     18	0.86058017	0.23202506
+    7     17	0.60927542	0.16525080
+    8     17	0.31055305	0.084251159
+
+Preparation took 0 seconds, 1 milliseconds and 267 microseconds
+Feature Permutation based on GainRatio/Values :
+< 6, 7, 5, 8, 3, 2, 1, 4 >
+Phase 2: Building multi index on Datafile: tests/zestiende.train
+Start:          0 @ Mon Jan  3 16:34:29 2011
+Finished:      88 @ Mon Jan  3 16:34:29 2011
+
+Phase 3: Learning from Datafile: tests/zestiende.train
+Start:          0 @ Mon Jan  3 16:34:29 2011
+Finished:      88 @ Mon Jan  3 16:34:29 2011
+
+Size of InstanceBase = 660 Nodes, (26400 bytes), 16.67 % compression
+Learning took 0 seconds, 2 milliseconds and 111 microseconds
+Writing Instance-Base in: ib_tree1
+TiMBL 6.3.2 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan  3 16:34:29 2011
+
+Reading Instance-Base from: ib_tree1
+
+Size of InstanceBase = 660 Nodes, (26400 bytes), 16.67 % compression
+Feature Permutation based on Data File Ordering :
+< 6, 7, 5, 8, 3, 2, 1, 4 >
+Examine datafile 'tests/one.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/one.test
+Writing output in:          f1
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.175251811572087
+Feature 2	 : 0.189443108581665
+Feature 3	 : 0.182387480427167
+Feature 4	 : 0.155077536965604
+Feature 5	 : 0.125316403240941
+Feature 6	 : 0.232025058388336
+Feature 7	 : 0.165250804887967
+Feature 8	 : 0.084251158864471
+
+Tested:      1 @ Mon Jan  3 16:34:29 2011
+Tested:      2 @ Mon Jan  3 16:34:29 2011
+Ready:       2 @ Mon Jan  3 16:34:29 2011
+Seconds taken: 0.0003 (7843.14 p/s)
+
+overall accuracy:        1.000000  (2/2)
+There was 1 tie of which 1 (100.00%) was correctly resolved
+TiMBL 6.3.2 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan  3 16:34:29 2011
+
+Examine datafile 'tests/zestiende.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/zestiende.train
+Start:          0 @ Mon Jan  3 16:34:29 2011
+Finished:      88 @ Mon Jan  3 16:34:29 2011
+Calculating Entropy         Mon Jan  3 16:34:29 2011
+Lines of data     : 88
+DB Entropy        : 1.1756882
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     68	1.0351822	0.17525181
+    2     67	1.1130771	0.18944311
+    3     64	1.0493312	0.18238748
+    4     64	0.88976476	0.15507754
+    5     18	0.46252872	0.12531640
+    6     18	0.86058017	0.23202506
+    7     17	0.60927542	0.16525080
+    8     17	0.31055305	0.084251159
+
+Preparation took 0 seconds, 1 milliseconds and 274 microseconds
+Feature Permutation based on GainRatio/Values :
+< 6, 7, 5, 8, 3, 2, 1, 4 >
+Phase 2: Building multi index on Datafile: tests/zestiende.train
+Start:          0 @ Mon Jan  3 16:34:29 2011
+Finished:      88 @ Mon Jan  3 16:34:29 2011
+
+Phase 3: Learning from Datafile: tests/zestiende.train
+Start:          0 @ Mon Jan  3 16:34:29 2011
+Finished:      88 @ Mon Jan  3 16:34:29 2011
+
+Size of InstanceBase = 660 Nodes, (26400 bytes), 16.67 % compression
+Learning took 0 seconds, 2 milliseconds and 99 microseconds
+Examine datafile 'tests/one.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/one.test
+Writing output in:          f2
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.175251811572087
+Feature 2	 : 0.189443108581665
+Feature 3	 : 0.182387480427167
+Feature 4	 : 0.155077536965604
+Feature 5	 : 0.125316403240941
+Feature 6	 : 0.232025058388336
+Feature 7	 : 0.165250804887967
+Feature 8	 : 0.084251158864471
+
+Tested:      1 @ Mon Jan  3 16:34:29 2011
+Tested:      2 @ Mon Jan  3 16:34:29 2011
+Ready:       2 @ Mon Jan  3 16:34:29 2011
+Seconds taken: 0.0002 (8547.01 p/s)
+
+overall accuracy:        1.000000  (2/2)
+There was 1 tie of which 1 (100.00%) was correctly resolved

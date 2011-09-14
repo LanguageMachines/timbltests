@@ -1,0 +1,10 @@
+Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,O { O 1.00000 }        0.26381654777091
+International,Rockwell,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,I { I 1.00000 }        0.41192412409196
+CorpPUNT,International,Rockwell,PUNT,NNP,NNP,NNP,PUNT,I,O { O 1.00000 }        0.70385752613716
+'s,CorpPUNT,International,Rockwell,POS,NNP,NNP,NNP,I,I { I 1.00000 }        0.68748356175385
+Tulsa,'s,CorpPUNT,International,NNP,POS,NNP,NNP,B,B { B 1.00000 }        0.88120963298044
+unit,Tulsa,'s,CorpPUNT,NN,NNP,POS,NNP,I,I { I 1.00000 }        0.86437855255222
+said,unit,Tulsa,'s,VBD,NN,NNP,POS,I,I { I 1.00000 }        0.97941696379905
+it,said,unit,Tulsa,PRP,VBD,NN,NNP,O,O { O 1.00000 }        0.97941696379905
+signed,it,said,unit,VBD,PRP,VBD,NN,I,I { I 1.00000 }        0.96767407390807
+a,signed,it,said,DT,VBD,PRP,VBD,O,O { O 1.00000 }        0.90384946562175

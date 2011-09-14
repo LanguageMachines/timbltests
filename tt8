@@ -1,0 +1,6 @@
+#!/bin/sh
+
+$comm -f ./tests/example.train -t tests/example.test -a3 -b 7 +v di+db 
+
+
+

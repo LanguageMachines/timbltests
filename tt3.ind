@@ -1,0 +1,3 @@
+-t ./tests/klein.test -mO -k3 +v di
+-t ./tests/klein.test -k1 +vdi
+

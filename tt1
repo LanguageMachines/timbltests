@@ -1,0 +1,12 @@
+#!/bin/sh
+
+trainfile=tests/klein.train
+testfile=tt1.ind
+
+$comm -f $trainfile -I tt1.tree -W./tests/tt1.wgt 
+$comm -f $trainfile -w0
+$comm -f $trainfile -w2
+$comm -i tt1.tree -t @$testfile
+
+
+

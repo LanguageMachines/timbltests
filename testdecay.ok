@@ -1,0 +1,375 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 15:23:29 2011
+
+Examine datafile './tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 15:23:29 2011
+Finished:     220 @ Tue Jan 25 15:23:29 2011
+Calculating Entropy         Tue Jan 25 15:23:29 2011
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 779 microseconds
+Feature Permutation based on GainRatio/Values :
+< 6, 7, 5, 8, 2, 3, 1, 4 >
+Phase 2: Building multi index on Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 15:23:29 2011
+Finished:     220 @ Tue Jan 25 15:23:29 2011
+
+Phase 3: Learning from Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 15:23:29 2011
+Finished:     220 @ Tue Jan 25 15:23:29 2011
+
+Size of InstanceBase = 1565 Nodes, (62600 bytes), 20.96 % compression
+Learning took 0 seconds, 5 milliseconds and 709 microseconds
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          out1
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+Decay         : Inverse Linear Distance
+Tested:      1 @ Tue Jan 25 15:23:29 2011
+Tested:      2 @ Tue Jan 25 15:23:29 2011
+Tested:      3 @ Tue Jan 25 15:23:29 2011
+Tested:      4 @ Tue Jan 25 15:23:29 2011
+Tested:      5 @ Tue Jan 25 15:23:29 2011
+Tested:      6 @ Tue Jan 25 15:23:29 2011
+Tested:      7 @ Tue Jan 25 15:23:29 2011
+Tested:      8 @ Tue Jan 25 15:23:29 2011
+Tested:      9 @ Tue Jan 25 15:23:29 2011
+Tested:     10 @ Tue Jan 25 15:23:29 2011
+Ready:      50 @ Tue Jan 25 15:23:29 2011
+Seconds taken: 0.0043 (11737.09 p/s)
+
+overall accuracy:        0.900000  (45/50)
+Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,I { I 1.00000, O 0.676965 }        0.23710535639701
+International,Rockwell,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,O { I 0.743818, O 1.55786 }        0.39306476007160
+CorpPUNT,International,Rockwell,PUNT,NNP,NNP,NNP,PUNT,I,I { I 2.00000, O 1.33894 }        0.58266902796411
+'s,CorpPUNT,International,Rockwell,POS,NNP,NNP,NNP,I,O { I 0.502606, O 1.00000 }        0.40628610041857
+Tulsa,'s,CorpPUNT,International,NNP,POS,NNP,NNP,B,I { I 1.00000, B 0.733316 }        0.48743205314098
+unit,Tulsa,'s,CorpPUNT,NN,NNP,POS,NNP,I,I { I 1.50728 }        0.61605586401813
+said,unit,Tulsa,'s,VBD,NN,NNP,POS,I,I { I 1.92357 }        0.64825609190317
+it,said,unit,Tulsa,PRP,VBD,NN,NNP,O,O { O 1.26711 }        0.64825609190317
+signed,it,said,unit,VBD,PRP,VBD,NN,I,I { I 1.05872 }        0.76255664540145
+a,signed,it,said,DT,VBD,PRP,VBD,O,O { O 7.50824 }        0.78354880833063
+tentative,a,signed,it,JJ,DT,VBD,PRP,I,I { I 3.34260 }        0.54464448678577
+agreement,tentative,a,signed,NN,JJ,DT,VBD,I,I { I 4.74163 }        0.44250637113418
+extending,agreement,tentative,a,VBG,NN,JJ,DT,I,I { I 3.68134 }        0.53322741690153
+its,extending,agreement,tentative,PRP$,VBG,NN,JJ,O,O { O 1.04331 }        0.68628063308150
+contract,its,extending,agreement,NN,PRP$,VBG,NN,I,I { I 1.56459 }        0.76132631931183
+with,contract,its,extending,IN,NN,PRP$,VBG,I,I { I 26.6715, B 0.487364 }        0.70060389046037
+Boeing,with,contract,its,NNP,IN,NN,PRP$,O,O { O 5.21451 }        0.58266902796411
+CoPUNT,Boeing,with,contract,NNP,NNP,IN,NN,I,I { I 3.29276 }        0.53977985169818
+to,CoPUNT,Boeing,with,TO,NNP,NNP,IN,I,I { I 6.18166, O 1.27266 }        0.64339145681557
+provide,to,CoPUNT,Boeing,VB,TO,NNP,NNP,O,O { O 8.34254 }        0.54464448678577
+structural,provide,to,CoPUNT,JJ,VB,TO,NNP,O,O { I 0.322815, O 7.00000 }        0.54611797625158
+parts,structural,provide,to,NNS,JJ,VB,TO,I,I { I 1.94704 }        0.64605448093401
+for,parts,structural,provide,IN,NNS,JJ,VB,I,I { I 3.21459 }        0.56711013918075
+Boeing,for,parts,structural,NNP,IN,NNS,JJ,O,O { O 1.24290 }        0.42670962428952
+'s,Boeing,for,parts,POS,NNP,IN,NNS,I,I { I 1.32861 }        0.50322879998565
+747,'s,Boeing,for,CD,POS,NNP,IN,B,B { I 1.00000, B 1.46233 }        0.53032122940691
+jetliners,747,'s,Boeing,NNS,CD,POS,NNP,I,I { I 1.29276 }        0.61605586401813
+PUNT,jetliners,747,'s,PUNT,NNS,CD,POS,I,I { I 1.21188, O 0.0529700 }        0.41405692300078
+Rockwell,PUNT,PUNT,jetliners,NNP,PUNT,PUNT,NNS,O,O { I 0.717670, O 4.58835 }        0.24365779119366
+said,Rockwell,PUNT,PUNT,VBD,NNP,PUNT,PUNT,I,O { I 1.65690, O 2.24268 }        0.39306476007160
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,O { O 1.26177 }        0.51256072965439
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I { I 6.41394 }        0.54464448678577
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I { I 3.87485 }        0.44250637113418
+for,calls,agreement,the,IN,VBZ,NN,DT,O,O { I 0.135029, O 1.00000 }        0.53322741690153
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O { O 4.62499 }        0.60536691563724
+to,it,for,calls,TO,PRP,IN,VBZ,I,I { I 2.93671, O 1.00000 }        0.74065963206470
+supply,to,it,for,VB,TO,PRP,IN,O,O { O 8.35836 }        0.54464448678577
+200,supply,to,it,CD,VB,TO,PRP,O,O { I 0.322815, O 7.00000 }        0.54611797625158
+additional,200,supply,to,JJ,CD,VB,TO,I,I { I 3.48580 }        0.64605448093401
+so-called,additional,200,supply,JJ,JJ,CD,VB,I,I { I 10.9667, O 0.696667, B 0.696667 }        0.76132631931183
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I { I 2.04930 }        0.70060389046037
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I { I 3.23971 }        0.56711013918075
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O { O 1.26864 }        0.29321587300990
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I { I 1.15605 }        0.34726939631105
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I { I 1.66882 }        0.54611797625158
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O { O 1.41394 }        0.28654696745959
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 1.48422, O 0.645630 }        0.39306476007160
+KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I { I 1.00000, O 0.287300 }        0.66561394583437
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { O 8.56391 }        0.60536691563724
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { I 1.43384, O 2.14707 }        0.65894504028406
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 15:23:29 2011
+
+Examine datafile './tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 15:23:29 2011
+Finished:     220 @ Tue Jan 25 15:23:29 2011
+Calculating Entropy         Tue Jan 25 15:23:29 2011
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 797 microseconds
+Feature Permutation based on GainRatio/Values :
+< 6, 7, 5, 8, 2, 3, 1, 4 >
+Phase 2: Building multi index on Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 15:23:29 2011
+Finished:     220 @ Tue Jan 25 15:23:29 2011
+
+Phase 3: Learning from Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 15:23:29 2011
+Finished:     220 @ Tue Jan 25 15:23:29 2011
+
+Size of InstanceBase = 1565 Nodes, (62600 bytes), 20.96 % compression
+Learning took 0 seconds, 5 milliseconds and 812 microseconds
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          out2
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+Decay         : Inverse Distance
+Tested:      1 @ Tue Jan 25 15:23:29 2011
+Tested:      2 @ Tue Jan 25 15:23:29 2011
+Tested:      3 @ Tue Jan 25 15:23:29 2011
+Tested:      4 @ Tue Jan 25 15:23:29 2011
+Tested:      5 @ Tue Jan 25 15:23:29 2011
+Tested:      6 @ Tue Jan 25 15:23:29 2011
+Tested:      7 @ Tue Jan 25 15:23:29 2011
+Tested:      8 @ Tue Jan 25 15:23:29 2011
+Tested:      9 @ Tue Jan 25 15:23:29 2011
+Tested:     10 @ Tue Jan 25 15:23:29 2011
+Ready:      50 @ Tue Jan 25 15:23:29 2011
+Seconds taken: 0.0041 (12278.98 p/s)
+
+overall accuracy:        0.920000  (46/50)
+Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,O { I 4.21753, O 16.3051 }        0.23710535639701
+International,Rockwell,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,O { I 6.56272, O 8.98373 }        0.39306476007160
+CorpPUNT,International,Rockwell,PUNT,NNP,NNP,NNP,PUNT,I,I { I 12.1753, O 4.70909 }        0.58266902796411
+'s,CorpPUNT,International,Rockwell,POS,NNP,NNP,NNP,I,I { I 5.01612, O 2.46132 }        0.40628610041857
+Tulsa,'s,CorpPUNT,International,NNP,POS,NNP,NNP,B,B { I 2.05157, B 3.42825 }        0.48743205314098
+unit,Tulsa,'s,CorpPUNT,NN,NNP,POS,NNP,I,I { I 5.99833 }        0.61605586401813
+said,unit,Tulsa,'s,VBD,NN,NNP,POS,I,I { I 7.44971 }        0.64825609190317
+it,said,unit,Tulsa,PRP,VBD,NN,NNP,O,O { O 4.09743 }        0.64825609190317
+signed,it,said,unit,VBD,PRP,VBD,NN,I,I { I 2.46398, O 2.28793 }        0.76255664540145
+a,signed,it,said,DT,VBD,PRP,VBD,O,O { I 1.15260, O 10.1444 }        0.78354880833063
+tentative,a,signed,it,JJ,DT,VBD,PRP,I,I { I 18.4066 }        0.54464448678577
+agreement,tentative,a,signed,NN,JJ,DT,VBD,I,I { I 17.6718 }        0.44250637113418
+extending,agreement,tentative,a,VBG,NN,JJ,DT,I,I { I 15.9906 }        0.53322741690153
+its,extending,agreement,tentative,PRP$,VBG,NN,JJ,O,O { I 1.24345, O 2.70853 }        0.68628063308150
+contract,its,extending,agreement,NN,PRP$,VBG,NN,I,I { I 2.55695, O 1.16302 }        0.76132631931183
+with,contract,its,extending,IN,NN,PRP$,VBG,I,I { I 54.5279, B 1.24345 }        0.70060389046037
+Boeing,with,contract,its,NNP,IN,NN,PRP$,O,O { O 22.8636 }        0.58266902796411
+CoPUNT,Boeing,with,contract,NNP,NNP,IN,NN,I,I { I 8.56921 }        0.53977985169818
+to,CoPUNT,Boeing,with,TO,NNP,NNP,IN,I,I { I 14.5754, O 2.91426 }        0.64339145681557
+provide,to,CoPUNT,Boeing,VB,TO,NNP,NNP,O,O { I 4.65208, O 20.5897 }        0.54464448678577
+structural,provide,to,CoPUNT,JJ,VB,TO,NNP,O,O { I 2.62276, O 15.3046 }        0.54611797625158
+parts,structural,provide,to,NNS,JJ,VB,TO,I,I { I 12.4061 }        0.64605448093401
+for,parts,structural,provide,IN,NNS,JJ,VB,I,I { I 9.63158 }        0.56711013918075
+Boeing,for,parts,structural,NNP,IN,NNS,JJ,O,O { O 7.95087 }        0.42670962428952
+'s,Boeing,for,parts,POS,NNP,IN,NNS,I,I { I 5.58160, O 1.76333 }        0.50322879998565
+747,'s,Boeing,for,CD,POS,NNP,IN,B,B { I 3.21958, O 1.33393, B 3.42825 }        0.53032122940691
+jetliners,747,'s,Boeing,NNS,CD,POS,NNP,I,I { I 4.32414 }        0.61605586401813
+PUNT,jetliners,747,'s,PUNT,NNS,CD,POS,I,I { I 21.1980, O 1.27624 }        0.41405692300078
+Rockwell,PUNT,PUNT,jetliners,NNP,PUNT,PUNT,NNS,O,O { I 6.49719, O 22.1649 }        0.24365779119366
+said,Rockwell,PUNT,PUNT,VBD,NNP,PUNT,PUNT,I,O { I 6.56272, O 15.3344 }        0.39306476007160
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,O { O 6.66570 }        0.51256072965439
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I { I 18.8387 }        0.54464448678577
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I { I 15.7868 }        0.44250637113418
+for,calls,agreement,the,IN,VBZ,NN,DT,O,O { I 1.50237, O 4.78963 }        0.53322741690153
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O { O 10.6784 }        0.60536691563724
+to,it,for,calls,TO,PRP,IN,VBZ,I,I { I 14.2495, O 5.17888 }        0.74065963206470
+supply,to,it,for,VB,TO,PRP,IN,O,O { I 2.30521, O 19.3954, B 1.15260 }        0.54464448678577
+200,supply,to,it,CD,VB,TO,PRP,O,O { I 2.62276, O 15.3046 }        0.54611797625158
+additional,200,supply,to,JJ,CD,VB,TO,I,I { I 11.2882 }        0.64605448093401
+so-called,additional,200,supply,JJ,JJ,CD,VB,I,I { I 19.9040, O 1.24345, B 1.24345 }        0.76132631931183
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I { I 19.0274, O 1.24345, B 1.24345 }        0.70060389046037
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I { I 9.72465 }        0.56711013918075
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O { O 19.5250 }        0.29321587300990
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I { I 18.0722 }        0.34726939631105
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I { I 5.23511 }        0.54611797625158
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O { I 2.56306, O 16.6217 }        0.28654696745959
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 9.00187, O 6.56272 }        0.39306476007160
+KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I { I 10.4361, O 2.61017, B 1.27624 }        0.66561394583437
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { I 3.43189, O 15.5353 }        0.60536691563724
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { I 6.55689, O 35.3624 }        0.65894504028406
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 15:23:29 2011
+
+Examine datafile './tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 15:23:29 2011
+Finished:     220 @ Tue Jan 25 15:23:29 2011
+Calculating Entropy         Tue Jan 25 15:23:29 2011
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 813 microseconds
+Feature Permutation based on GainRatio/Values :
+< 6, 7, 5, 8, 2, 3, 1, 4 >
+Phase 2: Building multi index on Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 15:23:29 2011
+Finished:     220 @ Tue Jan 25 15:23:29 2011
+
+Phase 3: Learning from Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 15:23:29 2011
+Finished:     220 @ Tue Jan 25 15:23:29 2011
+
+Size of InstanceBase = 1565 Nodes, (62600 bytes), 20.96 % compression
+Learning took 0 seconds, 5 milliseconds and 620 microseconds
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          out3
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+Decay         : Exponential Decay a=0.031400 b= 1.000000
+Tested:      1 @ Tue Jan 25 15:23:29 2011
+Tested:      2 @ Tue Jan 25 15:23:29 2011
+Tested:      3 @ Tue Jan 25 15:23:29 2011
+Tested:      4 @ Tue Jan 25 15:23:29 2011
+Tested:      5 @ Tue Jan 25 15:23:29 2011
+Tested:      6 @ Tue Jan 25 15:23:29 2011
+Tested:      7 @ Tue Jan 25 15:23:29 2011
+Tested:      8 @ Tue Jan 25 15:23:29 2011
+Tested:      9 @ Tue Jan 25 15:23:29 2011
+Tested:     10 @ Tue Jan 25 15:23:29 2011
+Ready:      50 @ Tue Jan 25 15:23:29 2011
+Seconds taken: 0.0042 (11876.48 p/s)
+
+overall accuracy:        0.920000  (46/50)
+Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,O { I 0.992583, O 5.93016 }        0.23710535639701
+International,Rockwell,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,O { I 3.92417, O 4.91039 }        0.39306476007160
+CorpPUNT,International,Rockwell,PUNT,NNP,NNP,NNP,PUNT,I,I { I 7.83583, O 2.94031 }        0.58266902796411
+'s,CorpPUNT,International,Rockwell,POS,NNP,NNP,NNP,I,I { I 2.94367, O 0.987324 }        0.40628610041857
+Tulsa,'s,CorpPUNT,International,NNP,POS,NNP,NNP,B,B { I 0.984811, B 1.96334 }        0.48743205314098
+unit,Tulsa,'s,CorpPUNT,NN,NNP,POS,NNP,I,I { I 3.91688 }        0.61605586401813
+said,unit,Tulsa,'s,VBD,NN,NNP,POS,I,I { I 4.89566 }        0.64825609190317
+it,said,unit,Tulsa,PRP,VBD,NN,NNP,O,O { O 2.93125 }        0.64825609190317
+signed,it,said,unit,VBD,PRP,VBD,NN,I,I { I 1.94947, O 1.94585 }        0.76255664540145
+a,signed,it,said,DT,VBD,PRP,VBD,O,O { I 0.973125, O 7.80431 }        0.78354880833063
+tentative,a,signed,it,JJ,DT,VBD,PRP,I,I { I 11.7549 }        0.54464448678577
+agreement,tentative,a,signed,NN,JJ,DT,VBD,I,I { I 9.82011 }        0.44250637113418
+extending,agreement,tentative,a,VBG,NN,JJ,DT,I,I { I 9.80416 }        0.53322741690153
+its,extending,agreement,tentative,PRP$,VBG,NN,JJ,O,O { I 0.975064, O 1.95390 }        0.68628063308150
+contract,its,extending,agreement,NN,PRP$,VBG,NN,I,I { I 1.95144, O 0.973363 }        0.76132631931183
+with,contract,its,extending,IN,NN,PRP$,VBG,I,I { I 40.9911, B 0.975064 }        0.70060389046037
+Boeing,with,contract,its,NNP,IN,NN,PRP$,O,O { O 14.6925 }        0.58266902796411
+CoPUNT,Boeing,with,contract,NNP,NNP,IN,NN,I,I { I 4.90826 }        0.53977985169818
+to,CoPUNT,Boeing,with,TO,NNP,NNP,IN,I,I { I 9.78616, O 1.95736 }        0.64339145681557
+provide,to,CoPUNT,Boeing,VB,TO,NNP,NNP,O,O { I 3.89345, O 12.7345 }        0.54464448678577
+structural,provide,to,CoPUNT,JJ,VB,TO,NNP,O,O { I 1.95268, O 8.83111 }        0.54611797625158
+parts,structural,provide,to,NNS,JJ,VB,TO,I,I { I 8.79681 }        0.64605448093401
+for,parts,structural,provide,IN,NNS,JJ,VB,I,I { I 5.88265 }        0.56711013918075
+Boeing,for,parts,structural,NNP,IN,NNS,JJ,O,O { O 3.93671 }        0.42670962428952
+'s,Boeing,for,parts,POS,NNP,IN,NNS,I,I { I 2.94967, O 0.982350 }        0.50322879998565
+747,'s,Boeing,for,CD,POS,NNP,IN,B,B { I 1.96022, O 0.976735, B 1.96334 }        0.53032122940691
+jetliners,747,'s,Boeing,NNS,CD,POS,NNP,I,I { I 2.93484 }        0.61605586401813
+PUNT,jetliners,747,'s,PUNT,NNS,CD,POS,I,I { I 15.6156, O 0.975697 }        0.41405692300078
+Rockwell,PUNT,PUNT,jetliners,NNP,PUNT,PUNT,NNS,O,O { I 3.91684, O 9.83686 }        0.24365779119366
+said,Rockwell,PUNT,PUNT,VBD,NNP,PUNT,PUNT,I,O { I 3.92417, O 9.78890 }        0.39306476007160
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,O { O 3.92468 }        0.51256072965439
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I { I 10.7988 }        0.54464448678577
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I { I 8.83724 }        0.44250637113418
+for,calls,agreement,the,IN,VBZ,NN,DT,O,O { I 0.979317, O 2.94076 }        0.53322741690153
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O { O 6.85680 }        0.60536691563724
+to,it,for,calls,TO,PRP,IN,VBZ,I,I { I 10.7365, O 3.90410 }        0.74065963206470
+supply,to,it,for,VB,TO,PRP,IN,O,O { I 1.94625, O 11.7604, B 0.973125 }        0.54464448678577
+200,supply,to,it,CD,VB,TO,PRP,O,O { I 1.95268, O 8.83111 }        0.54611797625158
+additional,200,supply,to,JJ,CD,VB,TO,I,I { I 7.82299 }        0.64605448093401
+so-called,additional,200,supply,JJ,JJ,CD,VB,I,I { I 15.6003, O 0.975064, B 0.975064 }        0.76132631931183
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I { I 14.6325, O 0.975064, B 0.975064 }        0.70060389046037
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I { I 5.88397 }        0.56711013918075
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O { O 9.83426 }        0.29321587300990
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I { I 8.85792 }        0.34726939631105
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I { I 2.94639 }        0.54611797625158
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O { I 0.987824, O 5.93149 }        0.28654696745959
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 4.91063, O 3.92417 }        0.39306476007160
+KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I { I 7.80919, O 1.95243, B 0.975697 }        0.66561394583437
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { I 2.91877, O 9.79983 }        0.60536691563724
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { I 4.88170, O 27.3113 }        0.65894504028406

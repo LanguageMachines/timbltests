@@ -1,0 +1,260 @@
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Oct 11 18:15:11 2010
+
+Examine datafile 'tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/klein.train
+Start:          0 @ Mon Oct 11 18:15:12 2010
+Finished:     220 @ Mon Oct 11 18:15:12 2010
+Calculating Entropy         Mon Oct 11 18:15:12 2010
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 756 microseconds
+Feature Permutation based on GainRatio :
+< 6, 2, 3, 1, 7, 4, 5, 8 >
+Phase 2: Building multi index on Datafile: tests/klein.train
+Start:          0 @ Mon Oct 11 18:15:12 2010
+Finished:     220 @ Mon Oct 11 18:15:12 2010
+
+Phase 3: Learning from Datafile: tests/klein.train
+Start:          0 @ Mon Oct 11 18:15:12 2010
+Finished:     220 @ Mon Oct 11 18:15:12 2010
+
+Size of InstanceBase = 1684 Nodes, (67360 bytes), 14.95 % compression
+Learning took 0 seconds, 4 milliseconds and 680 microseconds
+Writing Instance-Base in: ib_tree1
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Oct 11 18:15:12 2010
+
+Reading Instance-Base from: ib_tree1
+
+Size of InstanceBase = 1684 Nodes, (67360 bytes), 14.95 % compression
+Feature Permutation based on Data File Ordering :
+< 6, 2, 3, 1, 7, 4, 5, 8 >
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          ./tests/klein.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Mon Oct 11 18:15:12 2010
+Tested:      2 @ Mon Oct 11 18:15:12 2010
+Tested:      3 @ Mon Oct 11 18:15:12 2010
+Tested:      4 @ Mon Oct 11 18:15:12 2010
+Tested:      5 @ Mon Oct 11 18:15:12 2010
+Tested:      6 @ Mon Oct 11 18:15:12 2010
+Tested:      7 @ Mon Oct 11 18:15:12 2010
+Tested:      8 @ Mon Oct 11 18:15:12 2010
+Tested:      9 @ Mon Oct 11 18:15:12 2010
+Tested:     10 @ Mon Oct 11 18:15:12 2010
+Ready:      50 @ Mon Oct 11 18:15:12 2010
+Seconds taken: 0.0034 (14894.25 p/s)
+
+overall accuracy:        0.880000  (44/50)
+There was 1 tie of which 1 (100.00%) was correctly resolved
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          ./tests/klein.test.IB1.M.gr.k1.out
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Size of value-matrix[4] = 48 Bytes 
+Size of value-matrix[5] = 48 Bytes 
+Size of value-matrix[6] = 48 Bytes 
+Size of value-matrix[7] = 48 Bytes 
+Size of value-matrix[8] = 48 Bytes 
+Total Size of value-matrices 384 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Mon Oct 11 18:15:12 2010
+Tested:      2 @ Mon Oct 11 18:15:12 2010
+Tested:      3 @ Mon Oct 11 18:15:12 2010
+Tested:      4 @ Mon Oct 11 18:15:12 2010
+Tested:      5 @ Mon Oct 11 18:15:12 2010
+Tested:      6 @ Mon Oct 11 18:15:12 2010
+Tested:      7 @ Mon Oct 11 18:15:12 2010
+Tested:      8 @ Mon Oct 11 18:15:12 2010
+Tested:      9 @ Mon Oct 11 18:15:12 2010
+Tested:     10 @ Mon Oct 11 18:15:12 2010
+Ready:      50 @ Mon Oct 11 18:15:12 2010
+Seconds taken: 0.0041 (12285.01 p/s)
+
+overall accuracy:        0.900000  (45/50)
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Oct 11 18:15:12 2010
+
+Examine datafile 'tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/klein.train
+Start:          0 @ Mon Oct 11 18:15:12 2010
+Finished:     220 @ Mon Oct 11 18:15:12 2010
+Calculating Entropy         Mon Oct 11 18:15:12 2010
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 326 microseconds
+Feature Permutation based on GainRatio :
+< 6, 2, 3, 1, 7, 4, 5, 8 >
+Phase 2: Building multi index on Datafile: tests/klein.train
+Start:          0 @ Mon Oct 11 18:15:12 2010
+Finished:     220 @ Mon Oct 11 18:15:12 2010
+
+Phase 3: Learning from Datafile: tests/klein.train
+Start:          0 @ Mon Oct 11 18:15:12 2010
+Finished:     220 @ Mon Oct 11 18:15:12 2010
+
+Size of InstanceBase = 1684 Nodes, (67360 bytes), 14.95 % compression
+Learning took 0 seconds, 4 milliseconds and 701 microseconds
+Writing Instance-Base in: ib_tree2
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Oct 11 18:15:12 2010
+
+Reading Instance-Base from: ib_tree2
+
+Size of InstanceBase = 1684 Nodes, (67360 bytes), 14.95 % compression
+Feature Permutation based on Data File Ordering :
+< 6, 2, 3, 1, 7, 4, 5, 8 >
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          ./tests/klein.test.TRIBL-3.O.gr.k1.out
+Algorithm     : TRIBL, q = 3
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Mon Oct 11 18:15:12 2010
+Tested:      2 @ Mon Oct 11 18:15:12 2010
+Tested:      3 @ Mon Oct 11 18:15:12 2010
+Tested:      4 @ Mon Oct 11 18:15:12 2010
+Tested:      5 @ Mon Oct 11 18:15:12 2010
+Tested:      6 @ Mon Oct 11 18:15:12 2010
+Tested:      7 @ Mon Oct 11 18:15:12 2010
+Tested:      8 @ Mon Oct 11 18:15:12 2010
+Tested:      9 @ Mon Oct 11 18:15:12 2010
+Tested:     10 @ Mon Oct 11 18:15:12 2010
+Ready:      50 @ Mon Oct 11 18:15:12 2010
+Seconds taken: 0.0014 (36900.37 p/s)
+
+overall accuracy:        0.980000  (49/50)
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          ./tests/klein.test.TRIBL-3.M.gr.k1.out
+Algorithm     : TRIBL, q = 3
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[4] = 48 Bytes 
+Size of value-matrix[5] = 48 Bytes 
+Size of value-matrix[7] = 48 Bytes 
+Size of value-matrix[8] = 48 Bytes 
+Total Size of value-matrices 240 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Mon Oct 11 18:15:12 2010
+Tested:      2 @ Mon Oct 11 18:15:12 2010
+Tested:      3 @ Mon Oct 11 18:15:12 2010
+Tested:      4 @ Mon Oct 11 18:15:12 2010
+Tested:      5 @ Mon Oct 11 18:15:12 2010
+Tested:      6 @ Mon Oct 11 18:15:12 2010
+Tested:      7 @ Mon Oct 11 18:15:12 2010
+Tested:      8 @ Mon Oct 11 18:15:12 2010
+Tested:      9 @ Mon Oct 11 18:15:12 2010
+Tested:     10 @ Mon Oct 11 18:15:12 2010
+Ready:      50 @ Mon Oct 11 18:15:12 2010
+Seconds taken: 0.0012 (43252.60 p/s)
+
+overall accuracy:        0.980000  (49/50)

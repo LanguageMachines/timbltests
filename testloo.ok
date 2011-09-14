@@ -1,0 +1,712 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:36:36 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 17:36:36 2011
+Finished:      29 @ Tue Jan 25 17:36:36 2011
+Calculating Entropy         Tue Jan 25 17:36:36 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 270 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 17:36:36 2011
+Finished:      29 @ Tue Jan 25 17:36:36 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 17:36:36 2011
+Finished:      29 @ Tue Jan 25 17:36:36 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 405 microseconds
+Writing Instance-Base in: /tmp/dimtree
+
+Starting to test using Leave One Out
+Writing output in:          out1
+Algorithm     : LOO
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Tue Jan 25 17:36:36 2011
+Tested:      2 @ Tue Jan 25 17:36:36 2011
+Tested:      3 @ Tue Jan 25 17:36:36 2011
+Tested:      4 @ Tue Jan 25 17:36:36 2011
+Tested:      5 @ Tue Jan 25 17:36:36 2011
+Tested:      6 @ Tue Jan 25 17:36:36 2011
+Tested:      7 @ Tue Jan 25 17:36:36 2011
+Tested:      8 @ Tue Jan 25 17:36:36 2011
+Tested:      9 @ Tue Jan 25 17:36:36 2011
+Tested:     10 @ Tue Jan 25 17:36:36 2011
+Ready:      29 @ Tue Jan 25 17:36:36 2011
+Seconds taken: 0.0008 (34897.71 p/s)
+
+overall accuracy:        0.689655  (20/29), of which 25 exact matches 
+There were 9 ties of which 7 (77.78%) were correctly resolved
+B,geel,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
+B,rood,2,-,+ { + 2.00000 }        0.0000000000000
+B,geel,3,+,+ { + 3.00000 }        0.0030736504517327
+A,geel,2,-,- { - 2.00000 }        0.011243975978947
+B,rood,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
+B,rood,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
+B,rood,3,+,+ { + 2.00000 }        0.0000000000000
+B,rood,3,+,+ { + 2.00000 }        0.0000000000000
+B,rood,3,+,+ { + 2.00000 }        0.0000000000000
+C,rood,3,+,- { - 2.00000 }        0.0000000000000
+B,geel,2,-,+ { + 2.00000 }        0.0000000000000
+C,wit,3,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+A,wit,2,-,- { - 1.00000 }        0.0000000000000
+A,wit,2,-,- { - 1.00000 }        0.0000000000000
+C,rood,3,-,+ { + 4.00000, - 2.00000 }        0.0000000000000
+C,rood,3,-,+ { + 4.00000, - 2.00000 }        0.0000000000000
+B,geel,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
+C,wit,3,-,+ { + 3.00000 }        0.0000000000000
+C,wit,3,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+C,wit,3,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+B,geel,4,+,+ { + 1.00000 }        0.0000000000000
+B,rood,4,-,+ { + 2.00000 }        0.0063609942605950
+B,geel,4,+,+ { + 1.00000 }        0.0000000000000
+A,geel,4,-,- { - 1.00000 }        0.023948436337932
+B,rood,1,+,+ { + 7.00000, - 4.00000 }        0.0000000000000
+B,rood,1,+,+ { + 7.00000, - 4.00000 }        0.0000000000000
+B,rood,1,-,+ { + 3.00000, - 1.00000 }        0.0000000000000
+B,rood,1,-,+ { + 3.00000, - 1.00000 }        0.0000000000000
+B,rood,1,+,+ { + 7.00000, - 4.00000 }        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:36:36 2011
+
+Error:cannot combine Leave One Out with retrieving an Instancebase 
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:36:36 2011
+
+Missing datafile name for Leave One Out test
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:36:36 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 17:36:36 2011
+Finished:      29 @ Tue Jan 25 17:36:36 2011
+Calculating Entropy         Tue Jan 25 17:36:36 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 260 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 17:36:36 2011
+Finished:      29 @ Tue Jan 25 17:36:36 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 17:36:36 2011
+Finished:      29 @ Tue Jan 25 17:36:36 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 396 microseconds
+
+Starting to test using Leave One Out
+Writing output in:          out2
+Algorithm     : LOO
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Tue Jan 25 17:36:36 2011
+Tested:      2 @ Tue Jan 25 17:36:36 2011
+Tested:      3 @ Tue Jan 25 17:36:36 2011
+Tested:      4 @ Tue Jan 25 17:36:36 2011
+Tested:      5 @ Tue Jan 25 17:36:36 2011
+Tested:      6 @ Tue Jan 25 17:36:36 2011
+Tested:      7 @ Tue Jan 25 17:36:36 2011
+Tested:      8 @ Tue Jan 25 17:36:36 2011
+Tested:      9 @ Tue Jan 25 17:36:36 2011
+Tested:     10 @ Tue Jan 25 17:36:36 2011
+Ready:      29 @ Tue Jan 25 17:36:36 2011
+Seconds taken: 0.0008 (34897.71 p/s)
+
+overall accuracy:        0.689655  (20/29), of which 25 exact matches 
+There were 9 ties of which 7 (77.78%) were correctly resolved
+B,geel,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
+B,rood,2,-,+ { + 2.00000 }        0.0000000000000
+B,geel,3,+,+ { + 3.00000 }        0.0030736504517327
+A,geel,2,-,- { - 2.00000 }        0.011243975978947
+B,rood,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
+B,rood,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
+B,rood,3,+,+ { + 2.00000 }        0.0000000000000
+B,rood,3,+,+ { + 2.00000 }        0.0000000000000
+B,rood,3,+,+ { + 2.00000 }        0.0000000000000
+C,rood,3,+,- { - 2.00000 }        0.0000000000000
+B,geel,2,-,+ { + 2.00000 }        0.0000000000000
+C,wit,3,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+A,wit,2,-,- { - 1.00000 }        0.0000000000000
+A,wit,2,-,- { - 1.00000 }        0.0000000000000
+C,rood,3,-,+ { + 4.00000, - 2.00000 }        0.0000000000000
+C,rood,3,-,+ { + 4.00000, - 2.00000 }        0.0000000000000
+B,geel,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
+C,wit,3,-,+ { + 3.00000 }        0.0000000000000
+C,wit,3,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+C,wit,3,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+B,geel,4,+,+ { + 1.00000 }        0.0000000000000
+B,rood,4,-,+ { + 2.00000 }        0.0063609942605950
+B,geel,4,+,+ { + 1.00000 }        0.0000000000000
+A,geel,4,-,- { - 1.00000 }        0.023948436337932
+B,rood,1,+,+ { + 7.00000, - 4.00000 }        0.0000000000000
+B,rood,1,+,+ { + 7.00000, - 4.00000 }        0.0000000000000
+B,rood,1,-,+ { + 3.00000, - 1.00000 }        0.0000000000000
+B,rood,1,-,+ { + 3.00000, - 1.00000 }        0.0000000000000
+B,rood,1,+,+ { + 7.00000, - 4.00000 }        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:36:36 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 17:36:36 2011
+Finished:      29 @ Tue Jan 25 17:36:36 2011
+Calculating Entropy         Tue Jan 25 17:36:36 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 251 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 17:36:36 2011
+Finished:      29 @ Tue Jan 25 17:36:36 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 17:36:36 2011
+Finished:      29 @ Tue Jan 25 17:36:36 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 407 microseconds
+
+Starting to test using Leave One Out
+Writing output in:          out3
+Algorithm     : LOO
+Global metric : Overlap, prefering exact matches
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Tue Jan 25 17:36:36 2011
+Tested:      2 @ Tue Jan 25 17:36:36 2011
+Tested:      3 @ Tue Jan 25 17:36:36 2011
+Tested:      4 @ Tue Jan 25 17:36:36 2011
+Tested:      5 @ Tue Jan 25 17:36:36 2011
+Tested:      6 @ Tue Jan 25 17:36:36 2011
+Tested:      7 @ Tue Jan 25 17:36:36 2011
+Tested:      8 @ Tue Jan 25 17:36:36 2011
+Tested:      9 @ Tue Jan 25 17:36:36 2011
+Tested:     10 @ Tue Jan 25 17:36:36 2011
+Ready:      29 @ Tue Jan 25 17:36:36 2011
+Seconds taken: 0.0007 (40333.80 p/s)
+
+overall accuracy:        0.689655  (20/29), of which 25 exact matches 
+There were 9 ties of which 7 (77.78%) were correctly resolved
+B,geel,2,+,+ { + 1.00000, - 1.00000 }        0.0000000000000
+B,rood,2,-,+ { + 2.00000 }        0.0000000000000
+B,geel,3,+,+ { + 3.00000 }        0.0030736504517327
+A,geel,2,-,- { - 2.00000 }        0.011243975978947
+B,rood,2,+,+ { + 1.00000, - 1.00000 }        0.0000000000000
+B,rood,2,+,+ { + 1.00000, - 1.00000 }        0.0000000000000
+B,rood,3,+,+ { + 2.00000 }        0.0000000000000
+B,rood,3,+,+ { + 2.00000 }        0.0000000000000
+B,rood,3,+,+ { + 2.00000 }        0.0000000000000
+C,rood,3,+,- { - 2.00000 }        0.0000000000000
+B,geel,2,-,+ { + 2.00000 }        0.0000000000000
+C,wit,3,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+A,wit,2,-,- { - 1.00000 }        0.0000000000000
+A,wit,2,-,- { - 1.00000 }        0.0000000000000
+C,rood,3,-,+ { + 1.00000, - 1.00000 }        0.0000000000000
+C,rood,3,-,+ { + 1.00000, - 1.00000 }        0.0000000000000
+B,geel,2,+,+ { + 1.00000, - 1.00000 }        0.0000000000000
+C,wit,3,-,+ { + 3.00000 }        0.0000000000000
+C,wit,3,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+C,wit,3,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+B,geel,4,+,+ { + 1.00000 }        0.0000000000000
+B,rood,4,-,+ { + 2.00000 }        0.0063609942605950
+B,geel,4,+,+ { + 1.00000 }        0.0000000000000
+A,geel,4,-,- { - 1.00000 }        0.023948436337932
+B,rood,1,+,+ { + 2.00000, - 2.00000 }        0.0000000000000
+B,rood,1,+,+ { + 2.00000, - 2.00000 }        0.0000000000000
+B,rood,1,-,+ { + 3.00000, - 1.00000 }        0.0000000000000
+B,rood,1,-,+ { + 3.00000, - 1.00000 }        0.0000000000000
+B,rood,1,+,+ { + 2.00000, - 2.00000 }        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:36:36 2011
+
+Examine datafile './tests/dimin.train' gave the following results:
+Number of Features: 12
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/dimin.train
+Start:          0 @ Tue Jan 25 17:36:36 2011
+Finished:    2999 @ Tue Jan 25 17:36:36 2011
+Calculating Entropy         Tue Jan 25 17:36:36 2011
+Lines of data     : 2999
+DB Entropy        : 1.6178929
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.030971064	0.024891536
+    2     50	0.060860038	0.027552191
+    3     19	0.039562857	0.018676787
+    4     37	0.052541227	0.052620750
+    5      3	0.074523225	0.047699231
+    6     61	0.10604433	0.024471911
+    7     20	0.12348668	0.034953203
+    8     69	0.097198760	0.043983864
+    9      2	0.045752381	0.046816705
+   10     64	0.21388759	0.042844587
+   11     18	0.66970458	0.18507018
+   12     43	1.2780762	0.32537181
+
+Preparation took 0 seconds, 26 milliseconds and 980 microseconds
+Feature Permutation based on GainRatio/Values :
+< 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
+Phase 2: Building multi index on Datafile: ./tests/dimin.train
+Start:          0 @ Tue Jan 25 17:36:36 2011
+Finished:    2999 @ Tue Jan 25 17:36:36 2011
+
+Phase 3: Learning from Datafile: ./tests/dimin.train
+Start:          0 @ Tue Jan 25 17:36:36 2011
+Finished:    2999 @ Tue Jan 25 17:36:36 2011
+
+Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
+Learning took 0 seconds, 75 milliseconds and 302 microseconds
+
+Starting to test using Leave One Out
+Writing output in:          out4
+Algorithm     : LOO
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.024891535617620
+Feature 2	 : 0.027552191321752
+Feature 3	 : 0.018676787182524
+Feature 4	 : 0.052620750282779
+Feature 5	 : 0.047699230752236
+Feature 6	 : 0.024471910753751
+Feature 7	 : 0.034953203413051
+Feature 8	 : 0.043983864437713
+Feature 9	 : 0.046816704745507
+Feature 10	 : 0.042844587034556
+Feature 11	 : 0.185070180760327
+Feature 12	 : 0.325371814230901
+
+Tested:      1 @ Tue Jan 25 17:36:36 2011
+Tested:      2 @ Tue Jan 25 17:36:36 2011
+Tested:      3 @ Tue Jan 25 17:36:36 2011
+Tested:      4 @ Tue Jan 25 17:36:36 2011
+Tested:      5 @ Tue Jan 25 17:36:36 2011
+Tested:      6 @ Tue Jan 25 17:36:36 2011
+Tested:      7 @ Tue Jan 25 17:36:36 2011
+Tested:      8 @ Tue Jan 25 17:36:36 2011
+Tested:      9 @ Tue Jan 25 17:36:36 2011
+Tested:     10 @ Tue Jan 25 17:36:36 2011
+Tested:    100 @ Tue Jan 25 17:36:36 2011
+Tested:   1000 @ Tue Jan 25 17:36:37 2011, 100: Tue Jan 25 17:36:36 2011
+Ready:    2999 @ Tue Jan 25 17:36:37 2011
+Seconds taken: 0.6909 (4340.76 p/s)
+
+overall accuracy:        0.964655  (2893/2999), of which 106 exact matches 
+There were 20 ties of which 17 (85.00%) were correctly resolved
+=,=,=,=,-,=,o,=,+,p,a,l,T,T { T 1.00000 }        0.042833826649366
+=,=,=,=,+,sxr,a,=,-,p,@,r,T,T { T 1.00000 }        0.024432329872196
+=,=,=,=,-,p,E,n,+,S,O,n,E,E { E 1.00000 }        0.087037055690999
+=,=,=,=,=,=,=,=,+,sl,o,r,T,T { T 5.00000 }        0.042950570183478
+=,=,=,=,=,=,=,=,+,sx,M,w,T,T { T 12.0000 }        0.042902000940960
+=,=,=,=,-,p,O,s,+,t,y,r,T,T { T 3.00000 }        0.10343608331729
+=,=,=,=,+,tr,A,=,-,p,@,r,T,T { T 6.00000 }        0.024447388283841
+=,=,=,=,+,sl,L,=,-,j,@,r,T,T { T 4.00000 }        0.024455530003369
++,tr,e,=,-,m,o,=,-,l,o,=,T,T { T 1.00000 }        0.12401917754716
+=,=,=,=,=,=,=,=,+,x,e,=,T,T { T 14.0000 }        0.042895246351802
+-,t,@,=,-,r,i,=,+,j,|,r,T,T { T 1.00000 }        0.13040522446642
+-,k,a,=,+,l,A,n,-,d,@,r,T,T { T 1.00000 }        0.034939408656392
+-,k,a,=,+,p,a,=,-,d,@,=,T,T { T 2.00000 }        0.052032834538328
+=,=,=,=,-,r,@,=,+,fr,K,n,T,T { T 2.00000 }        0.077970105579845
+=,=,=,=,+,v,E,t,-,kr,K,t,J,J { J 1.00000 }        0.10344171453060
+-,v,@,=,+,r,A,=,-,s,I,N,E,K { K 1.00000 }        0.0000000000000
+-,f,i,=,-,l,i,=,+,j,a,l,T,T { T 1.00000 }        0.051959244251551
+-,v,@,r,+,h,o,=,-,G,I,N,E,K { K 1.00000 }        0.0000000000000
+=,=,=,=,=,=,=,=,+,b,e,k,J,J { J 1.00000 }        0.042824100000631
+=,=,=,=,=,=,=,=,+,h,A,lm,P,P { P 5.00000 }        0.042822852404061
+=,=,=,=,=,=,=,=,+,pl,K,n,T,T { T 11.0000 }        0.042977127449369
+=,=,=,=,+,k,},s,-,h,A,nt,J,J { J 1.00000 }        0.059508416227075
+=,=,=,=,-,k,a,=,+,m,e,l,T,T { T 3.00000 }        0.067297380505281
+=,=,=,=,+,v,i,=,-,l,a,=,T,T { T 13.0000 }        0.10225629022469
+=,=,=,=,=,=,=,=,+,sn,E,p,J,J { E 1.00000, J 2.00000 }        0.042819767720101
+-,k,O,=,-,m,i,=,+,t,e,=,T,T { T 1.00000 }        0.11352236156291
+-,v,@,r,+,h,M,=,-,d,I,N,K,E { E 1.00000 }        0.0000000000000
+=,=,=,=,+,sn,e,w,-,kl,O,k,J,J { J 1.00000 }        0.042792144186591
+=,=,=,=,=,=,=,=,+,d,e,=,T,T { T 14.0000 }        0.042836433585137
+-,l,@,=,+,r,i,=,-,n,@,=,T,T { T 2.00000 }        0.070794227726998
+=,=,=,=,=,=,=,=,+,x,o,t,J,J { J 7.00000 }        0.042878947592610
+=,=,=,=,-,pr,@,=,+,z,E,nt,J,J { J 1.00000 }        0.10228258572791
+=,=,=,=,+,sn,I,=,-,p,@,r,T,T { T 4.00000 }        0.024453050209294
+=,=,=,=,-,b,u,=,+,r,I,n,E,E { E 1.00000 }        0.059485599045809
++,sp,O,n,-,s,@,=,-,z,A,k,J,J { J 3.00000 }        0.12319883982969
+=,=,=,=,=,=,=,=,+,sn,u,p,J,J { T 1.00000, J 2.00000 }        0.042819767720101
+=,=,=,=,+,sn,u,p,-,r,K,s,J,J { J 3.00000 }        0.10346610964227
+=,=,=,=,=,=,=,=,+,xr,u,n,T,T { T 2.00000 }        0.042940812830483
+=,=,=,=,=,=,=,=,+,p,u,p,T,J { J 3.00000 }        0.042833826649366
+=,=,=,=,+,k,A,k,-,t,},s,J,J { J 3.00000 }        0.14645668787778
+=,=,=,=,=,=,=,=,+,sp,K,l,T,T { T 5.00000 }        0.042901366271377
+=,=,=,=,+,st,},t,-,s,@,l,T,T { T 1.00000 }        0.024474865266271
+=,=,=,=,=,=,=,=,+,sn,O,t,J,J { J 9.00000 }        0.042819767720101
+=,=,=,=,-,x,O,r,+,d,K,n,T,T { T 1.00000 }        0.11139461705300
+=,=,=,=,+,kn,i,l,-,b,A,Nk,J,J { J 1.00000 }        0.10235215936799
+=,=,=,=,+,s,},=,-,k,@,l,T,T { T 2.00000 }        0.034947005355473
+=,=,=,=,+,sn,L,=,-,t,@,r,T,T { T 3.00000 }        0.024453050209294
++,h,a,=,-,v,@,m,-,pl,a,ts,J,J { J 1.00000 }        0.16728099756874
+=,=,=,=,=,=,=,=,+,z,e,=,T,T { T 14.0000 }        0.042846276513673
+=,=,=,=,-,k,A,l,+,k,u,n,T,T { T 1.00000 }        0.067305889215143
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:36:37 2011
+
+Examine datafile './tests/dimin.train' gave the following results:
+Number of Features: 12
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/dimin.train
+Start:          0 @ Tue Jan 25 17:36:37 2011
+Finished:    2999 @ Tue Jan 25 17:36:37 2011
+Calculating Entropy         Tue Jan 25 17:36:37 2011
+Lines of data     : 2999
+DB Entropy        : 1.6178929
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.030971064	0.024891536
+    2     50	0.060860038	0.027552191
+    3     19	0.039562857	0.018676787
+    4     37	0.052541227	0.052620750
+    5      3	0.074523225	0.047699231
+    6     61	0.10604433	0.024471911
+    7     20	0.12348668	0.034953203
+    8     69	0.097198760	0.043983864
+    9      2	0.045752381	0.046816705
+   10     64	0.21388759	0.042844587
+   11     18	0.66970458	0.18507018
+   12     43	1.2780762	0.32537181
+
+Preparation took 0 seconds, 27 milliseconds and 132 microseconds
+Feature Permutation based on GainRatio/Values :
+< 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
+Phase 2: Building multi index on Datafile: ./tests/dimin.train
+Start:          0 @ Tue Jan 25 17:36:37 2011
+Finished:    2999 @ Tue Jan 25 17:36:37 2011
+
+Phase 3: Learning from Datafile: ./tests/dimin.train
+Start:          0 @ Tue Jan 25 17:36:37 2011
+Finished:    2999 @ Tue Jan 25 17:36:37 2011
+
+Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
+Learning took 0 seconds, 75 milliseconds and 147 microseconds
+
+Starting to test using Leave One Out
+Writing output in:          out5
+Algorithm     : LOO
+Global metric : Value Difference, Prestored matrix, prefering exact matches
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 168 Bytes 
+Size of value-matrix[2] = 968 Bytes 
+Size of value-matrix[3] = 968 Bytes 
+Size of value-matrix[4] = 168 Bytes 
+Size of value-matrix[5] = 168 Bytes 
+Size of value-matrix[6] = 1904 Bytes 
+Size of value-matrix[7] = 1904 Bytes 
+Size of value-matrix[8] = 504 Bytes 
+Size of value-matrix[9] = 104 Bytes 
+Size of value-matrix[10] = 2904 Bytes 
+Size of value-matrix[11] = 1728 Bytes 
+Size of value-matrix[12] = 1248 Bytes 
+Total Size of value-matrices 12736 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.024891535617620
+Feature 2	 : 0.027552191321752
+Feature 3	 : 0.018676787182524
+Feature 4	 : 0.052620750282779
+Feature 5	 : 0.047699230752236
+Feature 6	 : 0.024471910753751
+Feature 7	 : 0.034953203413051
+Feature 8	 : 0.043983864437713
+Feature 9	 : 0.046816704745507
+Feature 10	 : 0.042844587034556
+Feature 11	 : 0.185070180760327
+Feature 12	 : 0.325371814230901
+
+Tested:      1 @ Tue Jan 25 17:36:37 2011
+Tested:      2 @ Tue Jan 25 17:36:37 2011
+Tested:      3 @ Tue Jan 25 17:36:37 2011
+Tested:      4 @ Tue Jan 25 17:36:37 2011
+Tested:      5 @ Tue Jan 25 17:36:37 2011
+Tested:      6 @ Tue Jan 25 17:36:37 2011
+Tested:      7 @ Tue Jan 25 17:36:37 2011
+Tested:      8 @ Tue Jan 25 17:36:37 2011
+Tested:      9 @ Tue Jan 25 17:36:37 2011
+Tested:     10 @ Tue Jan 25 17:36:37 2011
+Tested:    100 @ Tue Jan 25 17:36:37 2011
+Tested:   1000 @ Tue Jan 25 17:36:38 2011, 100: Tue Jan 25 17:36:37 2011
+Ready:    2999 @ Tue Jan 25 17:36:39 2011
+Seconds taken: 2.2261 (1347.18 p/s)
+
+overall accuracy:        0.961987  (2885/2999), of which 193 exact matches 
+There were 26 ties of which 17 (65.38%) were correctly resolved
+=,=,=,=,-,=,o,=,+,p,a,l,T,T { T 1.00000 }        0.0030580099025624
+=,=,=,=,+,sxr,a,=,-,p,@,r,T,T { T 1.00000 }        0.0028071443913360
+=,=,=,=,-,p,E,n,+,S,O,n,E,E { E 1.00000 }        0.014128206451990
+=,=,=,=,=,=,=,=,+,sl,o,r,T,T { T 1.00000 }        0.0019282530018112
+=,=,=,=,=,=,=,=,+,sx,M,w,T,T { T 1.00000 }        0.0081718097030399
+=,=,=,=,-,p,O,s,+,t,y,r,T,T { T 1.00000 }        0.010955891834022
+=,=,=,=,+,tr,A,=,-,p,@,r,T,T { T 1.00000 }        0.0016298258855894
+=,=,=,=,+,sl,L,=,-,j,@,r,T,T { T 1.00000 }        0.0016231279474232
++,tr,e,=,-,m,o,=,-,l,o,=,T,T { T 1.00000 }        0.015443381151882
+=,=,=,=,=,=,=,=,+,x,e,=,T,T { T 1.00000 }        0.0056973686180085
+-,t,@,=,-,r,i,=,+,j,|,r,T,T { T 1.00000 }        0.015233087091463
+-,k,a,=,+,l,A,n,-,d,@,r,T,T { T 1.00000 }        0.0012740144015568
+-,k,a,=,+,p,a,=,-,d,@,=,T,T { T 1.00000 }        0.0024811597969854
+=,=,=,=,-,r,@,=,+,fr,K,n,T,T { T 1.00000 }        0.024304160416777
+=,=,=,=,+,v,E,t,-,kr,K,t,J,J { J 1.00000 }        0.011895006538504
+-,v,@,=,+,r,A,=,-,s,I,N,E,K { K 1.00000 }        0.0000000000000
+-,f,i,=,-,l,i,=,+,j,a,l,T,T { T 1.00000 }        0.014321982679027
+-,v,@,r,+,h,o,=,-,G,I,N,E,K { K 1.00000 }        0.0000000000000
+=,=,=,=,=,=,=,=,+,b,e,k,J,J { J 2.00000 }        0.0000000000000
+=,=,=,=,=,=,=,=,+,h,A,lm,P,P { P 1.00000 }        0.0086820831091681
+=,=,=,=,=,=,=,=,+,pl,K,n,T,T { T 1.00000 }        0.0049105924574098
+=,=,=,=,+,k,},s,-,h,A,nt,J,J { J 1.00000 }        0.0056790084290781
+=,=,=,=,-,k,a,=,+,m,e,l,T,T { T 1.00000 }        0.0060675466496613
+=,=,=,=,+,v,i,=,-,l,a,=,T,T { T 1.00000 }        0.011007375287987
+=,=,=,=,=,=,=,=,+,sn,E,p,J,J { J 1.00000 }        0.0067714981510858
+-,k,O,=,-,m,i,=,+,t,e,=,T,T { T 1.00000 }        0.0097391961862010
+-,v,@,r,+,h,M,=,-,d,I,N,K,E { E 1.00000 }        0.0000000000000
+=,=,=,=,+,sn,e,w,-,kl,O,k,J,J { J 1.00000 }        0.0089482423281257
+=,=,=,=,=,=,=,=,+,d,e,=,T,T { T 1.00000 }        0.0022067253665071
+-,l,@,=,+,r,i,=,-,n,@,=,T,T { T 1.00000 }        0.011000528829026
+=,=,=,=,=,=,=,=,+,x,o,t,J,J { J 1.00000 }        0.0073963685824082
+=,=,=,=,-,pr,@,=,+,z,E,nt,J,J { J 1.00000 }        0.010631721296427
+=,=,=,=,+,sn,I,=,-,p,@,r,T,T { T 1.00000 }        0.0011115022822406
+=,=,=,=,-,b,u,=,+,r,I,n,E,E { E 1.00000 }        0.0056396259852448
++,sp,O,n,-,s,@,=,-,z,A,k,J,J { J 1.00000 }        0.012187712728853
+=,=,=,=,=,=,=,=,+,sn,u,p,J,J { J 1.00000 }        0.0028546511813401
+=,=,=,=,+,sn,u,p,-,r,K,s,J,J { J 1.00000 }        0.016150967008586
+=,=,=,=,=,=,=,=,+,xr,u,n,T,T { T 1.00000 }        0.0027579871655351
+=,=,=,=,=,=,=,=,+,p,u,p,T,J { J 1.00000 }        0.015156963975466
+=,=,=,=,+,k,A,k,-,t,},s,J,J { J 1.00000 }        0.011368068127770
+=,=,=,=,=,=,=,=,+,sp,K,l,T,T { T 1.00000 }        0.0066970442653676
+=,=,=,=,+,st,},t,-,s,@,l,T,T { T 1.00000 }        0.0046406887387994
+=,=,=,=,=,=,=,=,+,sn,O,t,J,J { J 1.00000 }        0.0036386750973419
+=,=,=,=,-,x,O,r,+,d,K,n,T,T { T 1.00000 }        0.011334106507784
+=,=,=,=,+,kn,i,l,-,b,A,Nk,J,J { J 1.00000 }        0.010393038296323
+=,=,=,=,+,s,},=,-,k,@,l,T,T { T 1.00000 }        0.0033112041625473
+=,=,=,=,+,sn,L,=,-,t,@,r,T,T { T 1.00000 }        0.0020840667792012
++,h,a,=,-,v,@,m,-,pl,a,ts,J,J { J 1.00000 }        0.016393445987366
+=,=,=,=,=,=,=,=,+,z,e,=,T,T { T 1.00000 }        0.0017337795612510
+=,=,=,=,-,k,A,l,+,k,u,n,T,T { T 1.00000 }        0.0084317312278659
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:36:39 2011
+
+Examine datafile './tests/dimin.train' gave the following results:
+Number of Features: 12
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/dimin.train
+Start:          0 @ Tue Jan 25 17:36:39 2011
+Finished:    2999 @ Tue Jan 25 17:36:40 2011
+Calculating Entropy         Tue Jan 25 17:36:40 2011
+Lines of data     : 2999
+DB Entropy        : 1.6178929
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.030971064	0.024891536
+    2     50	0.060860038	0.027552191
+    3     19	0.039562857	0.018676787
+    4     37	0.052541227	0.052620750
+    5      3	0.074523225	0.047699231
+    6     61	0.10604433	0.024471911
+    7     20	0.12348668	0.034953203
+    8     69	0.097198760	0.043983864
+    9      2	0.045752381	0.046816705
+   10     64	0.21388759	0.042844587
+   11     18	0.66970458	0.18507018
+   12     43	1.2780762	0.32537181
+
+Preparation took 0 seconds, 26 milliseconds and 934 microseconds
+Feature Permutation based on GainRatio/Values :
+< 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
+Phase 2: Building multi index on Datafile: ./tests/dimin.train
+Start:          0 @ Tue Jan 25 17:36:40 2011
+Finished:    2999 @ Tue Jan 25 17:36:40 2011
+
+Phase 3: Learning from Datafile: ./tests/dimin.train
+Start:          0 @ Tue Jan 25 17:36:40 2011
+Finished:    2999 @ Tue Jan 25 17:36:40 2011
+
+Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
+Learning took 0 seconds, 73 milliseconds and 899 microseconds
+
+Starting to test using Leave One Out using SLOPPY metric calculations
+Writing output in:          out6
+Algorithm     : LOO
+Global metric : Value Difference, Prestored matrix, prefering exact matches
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 168 Bytes 
+Size of value-matrix[2] = 968 Bytes 
+Size of value-matrix[3] = 968 Bytes 
+Size of value-matrix[4] = 168 Bytes 
+Size of value-matrix[5] = 168 Bytes 
+Size of value-matrix[6] = 1904 Bytes 
+Size of value-matrix[7] = 1904 Bytes 
+Size of value-matrix[8] = 504 Bytes 
+Size of value-matrix[9] = 104 Bytes 
+Size of value-matrix[10] = 2904 Bytes 
+Size of value-matrix[11] = 1728 Bytes 
+Size of value-matrix[12] = 1248 Bytes 
+Total Size of value-matrices 12736 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.024891535617620
+Feature 2	 : 0.027552191321752
+Feature 3	 : 0.018676787182524
+Feature 4	 : 0.052620750282779
+Feature 5	 : 0.047699230752236
+Feature 6	 : 0.024471910753751
+Feature 7	 : 0.034953203413051
+Feature 8	 : 0.043983864437713
+Feature 9	 : 0.046816704745507
+Feature 10	 : 0.042844587034556
+Feature 11	 : 0.185070180760327
+Feature 12	 : 0.325371814230901
+
+Tested:      1 @ Tue Jan 25 17:36:40 2011
+Tested:      2 @ Tue Jan 25 17:36:40 2011
+Tested:      3 @ Tue Jan 25 17:36:40 2011
+Tested:      4 @ Tue Jan 25 17:36:40 2011
+Tested:      5 @ Tue Jan 25 17:36:40 2011
+Tested:      6 @ Tue Jan 25 17:36:40 2011
+Tested:      7 @ Tue Jan 25 17:36:40 2011
+Tested:      8 @ Tue Jan 25 17:36:40 2011
+Tested:      9 @ Tue Jan 25 17:36:40 2011
+Tested:     10 @ Tue Jan 25 17:36:40 2011
+Tested:    100 @ Tue Jan 25 17:36:40 2011
+Tested:   1000 @ Tue Jan 25 17:36:40 2011
+Ready:    2999 @ Tue Jan 25 17:36:40 2011
+Seconds taken: 0.2589 (11584.74 p/s)
+
+overall accuracy:        0.962654  (2887/2999), of which 193 exact matches 
+There were 24 ties of which 16 (66.67%) were correctly resolved
+=,=,=,=,-,=,o,=,+,p,a,l,T,T { T 1.00000 }        0.0030826545639957
+=,=,=,=,+,sxr,a,=,-,p,@,r,T,T { T 1.00000 }        0.0028459386026306
+=,=,=,=,-,p,E,n,+,S,O,n,E,E { E 1.00000 }        0.013133359374325
+=,=,=,=,=,=,=,=,+,sl,o,r,T,T { T 1.00000 }        0.0021408886041902
+=,=,=,=,=,=,=,=,+,sx,M,w,T,T { T 1.00000 }        0.0086353431232438
+=,=,=,=,-,p,O,s,+,t,y,r,T,T { T 1.00000 }        0.010889132813174
+=,=,=,=,+,tr,A,=,-,p,@,r,T,T { T 1.00000 }        0.0016314607169168
+=,=,=,=,+,sl,L,=,-,j,@,r,T,T { T 1.00000 }        0.0017232928203890
++,tr,e,=,-,m,o,=,-,l,o,=,T,T { T 1.00000 }        0.016610048497651
+=,=,=,=,=,=,=,=,+,x,e,=,T,T { T 1.00000 }        0.0051413504441467
+-,t,@,=,-,r,i,=,+,j,|,r,T,T { T 1.00000 }        0.015712366109860
+-,k,a,=,+,l,A,n,-,d,@,r,T,T { T 1.00000 }        0.0012764740352151
+-,k,a,=,+,p,a,=,-,d,@,=,T,T { T 1.00000 }        0.0024931609557250
+=,=,=,=,-,r,@,=,+,fr,K,n,T,T { T 1.00000 }        0.019095742157812
+=,=,=,=,+,v,E,t,-,kr,K,t,J,J { J 1.00000 }        0.012099752521518
+-,v,@,=,+,r,A,=,-,s,I,N,E,K { K 1.00000 }        0.0000000000000
+-,f,i,=,-,l,i,=,+,j,a,l,T,T { T 1.00000 }        0.014373117729210
+-,v,@,r,+,h,o,=,-,G,I,N,E,K { K 1.00000 }        0.0000000000000
+=,=,=,=,=,=,=,=,+,b,e,k,J,J { J 2.00000 }        0.0000000000000
+=,=,=,=,=,=,=,=,+,h,A,lm,P,P { P 1.00000 }        0.0084866238871419
+=,=,=,=,=,=,=,=,+,pl,K,n,T,T { T 1.00000 }        0.0039507952528655
+=,=,=,=,+,k,},s,-,h,A,nt,J,J { J 1.00000 }        0.0051725168576463
+=,=,=,=,-,k,a,=,+,m,e,l,T,T { T 1.00000 }        0.0060526252930711
+=,=,=,=,+,v,i,=,-,l,a,=,T,T { T 1.00000 }        0.010951837744756
+=,=,=,=,=,=,=,=,+,sn,E,p,J,J { J 1.00000 }        0.0083334080490045
+-,k,O,=,-,m,i,=,+,t,e,=,T,T { T 1.00000 }        0.0097308182570800
+-,v,@,r,+,h,M,=,-,d,I,N,K,E { E 1.00000 }        0.0000000000000
+=,=,=,=,+,sn,e,w,-,kl,O,k,J,J { J 1.00000 }        0.0072676225426856
+=,=,=,=,=,=,=,=,+,d,e,=,T,T { T 1.00000 }        0.0022821739827452
+-,l,@,=,+,r,i,=,-,n,@,=,T,T { T 1.00000 }        0.010644538521846
+=,=,=,=,=,=,=,=,+,x,o,t,J,J { J 1.00000 }        0.0074170387415075
+=,=,=,=,-,pr,@,=,+,z,E,nt,J,J { J 1.00000 }        0.011313106600565
+=,=,=,=,+,sn,I,=,-,p,@,r,T,T { T 1.00000 }        0.0016685393695740
+=,=,=,=,-,b,u,=,+,r,I,n,E,E { E 1.00000 }        0.0053885415333992
++,sp,O,n,-,s,@,=,-,z,A,k,J,J { J 1.00000 }        0.012352817201712
+=,=,=,=,=,=,=,=,+,sn,u,p,J,J { J 1.00000 }        0.0014837952219760
+=,=,=,=,+,sn,u,p,-,r,K,s,J,J { J 1.00000 }        0.014520087686345
+=,=,=,=,=,=,=,=,+,xr,u,n,T,T { T 1.00000 }        0.0041799597106884
+=,=,=,=,=,=,=,=,+,p,u,p,T,J { J 1.00000 }        0.015261393780748
+=,=,=,=,+,k,A,k,-,t,},s,J,J { J 1.00000 }        0.011819082105358
+=,=,=,=,=,=,=,=,+,sp,K,l,T,T { T 1.00000 }        0.0060581133835108
+=,=,=,=,+,st,},t,-,s,@,l,T,T { T 1.00000 }        0.0043876405644352
+=,=,=,=,=,=,=,=,+,sn,O,t,J,J { J 2.00000 }        0.0036785756544821
+=,=,=,=,-,x,O,r,+,d,K,n,T,T { T 1.00000 }        0.011165642873462
+=,=,=,=,+,kn,i,l,-,b,A,Nk,J,J { J 1.00000 }        0.011485301531830
+=,=,=,=,+,s,},=,-,k,@,l,T,T { T 1.00000 }        0.0031671721395881
+=,=,=,=,+,sn,L,=,-,t,@,r,T,T { T 1.00000 }        0.0015294944221095
++,h,a,=,-,v,@,m,-,pl,a,ts,J,J { J 1.00000 }        0.016418863383293
+=,=,=,=,=,=,=,=,+,z,e,=,T,T { T 1.00000 }        0.0015561941957379
+=,=,=,=,-,k,A,l,+,k,u,n,T,T { T 1.00000 }        0.0083672701178091

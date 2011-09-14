@@ -1,0 +1,16 @@
+# /bin/sh
+OK="\033[1;32m OK  \033[0m"
+FAIL="\033[1;31m  FAILED  \033[0m"
+
+for file in $1
+do if test -x $file
+   then 
+   	\rm -f $file.diff
+	\rm -f $file.tmp
+	\rm -f test.out*
+   	echo "timing  $file "
+	./$file > $file.tmp 2>&1
+	diff -w $file.tmp $file.ok | grep "Seconds taken:" > td.tmp
+	./timediff td.tmp 5
+   fi
+done

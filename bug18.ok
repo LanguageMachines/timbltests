@@ -1,0 +1,118 @@
+TiMBL 6.3.2 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Dec 21 17:40:37 2010
+
+Examine datafile './tests/kwart.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/kwart.train
+Start:          0 @ Tue Dec 21 17:40:37 2010
+Finished:   50000 @ Tue Dec 21 17:40:38 2010
+Calculating Entropy         Tue Dec 21 17:40:38 2010
+Lines of data     : 50000
+DB Entropy        : 1.1247965
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1   8067	0.52454004	0.053005251
+    2   8067	0.93109789	0.094089873
+    3   7766	0.61039767	0.063779732
+    4   7837	0.27307385	0.028360141
+    5     44	0.24028503	0.055559394
+    6     44	0.83198581	0.19237255
+    7     44	0.32499390	0.074939666
+    8     44	0.048351684	0.011172195
+
+Preparation took 0 seconds, 616 milliseconds and 139 microseconds
+Feature Permutation based on GainRatio/Values :
+< 6, 7, 5, 8, 2, 3, 1, 4 >
+Phase 2: Learning from Datafile: ./tests/kwart.train
+Start:          0 @ Tue Dec 21 17:40:38 2010
+Finished:    5000 @ Tue Dec 21 17:40:38 2010
+
+Size of InstanceBase = 29027 Nodes, (1161080 bytes), 34.87 % compression
+Learning took 0 seconds, 58 milliseconds and 646 microseconds
+Phase 2: Appending from Datafile: ./tests/kwart.train (starting at line 5001)
+Start:       5001 @ Tue Dec 21 17:40:38 2010
+Learning:    5000 @ Tue Dec 21 17:40:40 2010	 added:107
+Learning:    5001 @ Tue Dec 21 17:40:40 2010	 added:1
+Learning:    5002 @ Tue Dec 21 17:40:40 2010	 added:0
+Learning:    5003 @ Tue Dec 21 17:40:40 2010	 added:0
+Learning:    5004 @ Tue Dec 21 17:40:40 2010	 added:0
+Learning:    5005 @ Tue Dec 21 17:40:40 2010	 added:0
+Learning:    5006 @ Tue Dec 21 17:40:40 2010	 added:0
+Learning:    5007 @ Tue Dec 21 17:40:40 2010	 added:0
+Learning:    5008 @ Tue Dec 21 17:40:40 2010	 added:0
+Learning:    5009 @ Tue Dec 21 17:40:40 2010	 added:0
+Learning:    5010 @ Tue Dec 21 17:40:40 2010	 added:0
+Learning:    5100 @ Tue Dec 21 17:40:40 2010	 added:0
+Learning:    6000 @ Tue Dec 21 17:40:40 2010	 added:13
+Learning:   15000 @ Tue Dec 21 17:40:43 2010	 added:185
+Finished:   44999 @ Tue Dec 21 17:40:52 2010
+in total added 1123 new entries
+
+Size of InstanceBase = 35875 Nodes, (1435000 bytes), 34.36 % compression
+DB Entropy        : 1.12479654
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1   8067	0.52454004	0.05300525
+    2   8067	0.93109789	0.09408987
+    3   7766	0.61039767	0.06377973
+    4   7837	0.27307385	0.02836014
+    5     44	0.24028503	0.05555939
+    6     44	0.83198581	0.19237255
+    7     44	0.32499390	0.07493967
+    8     44	0.04835168	0.01117220
+
+Examine datafile 'tests/kwart.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/kwart.test
+Writing output in:          bug18.out
+Algorithm     : IB2
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 17040 Bytes 
+Size of value-matrix[2] = 16520 Bytes 
+Size of value-matrix[3] = 16520 Bytes 
+Size of value-matrix[4] = 14520 Bytes 
+Size of value-matrix[5] = 7104 Bytes 
+Size of value-matrix[6] = 7104 Bytes 
+Size of value-matrix[7] = 7104 Bytes 
+Size of value-matrix[8] = 7104 Bytes 
+Total Size of value-matrices 93016 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.052266449514365
+Feature 2	 : 0.092487125653166
+Feature 3	 : 0.062699527704642
+Feature 4	 : 0.028438925732381
+Feature 5	 : 0.053925165988491
+Feature 6	 : 0.185198463671305
+Feature 7	 : 0.072315399807409
+Feature 8	 : 0.010872317130899
+
+Tested:      1 @ Tue Dec 21 17:40:53 2010
+Tested:      2 @ Tue Dec 21 17:40:53 2010
+Tested:      3 @ Tue Dec 21 17:40:53 2010
+Tested:      4 @ Tue Dec 21 17:40:53 2010
+Tested:      5 @ Tue Dec 21 17:40:53 2010
+Tested:      6 @ Tue Dec 21 17:40:53 2010
+Tested:      7 @ Tue Dec 21 17:40:53 2010
+Tested:      8 @ Tue Dec 21 17:40:53 2010
+Tested:      9 @ Tue Dec 21 17:40:53 2010
+Tested:     10 @ Tue Dec 21 17:40:53 2010
+Tested:    100 @ Tue Dec 21 17:40:53 2010
+Tested:   1000 @ Tue Dec 21 17:40:54 2010
+Tested:  10000 @ Tue Dec 21 17:41:02 2010
+Ready:   10000 @ Tue Dec 21 17:41:02 2010
+Seconds taken: 9.7505 (1025.59 p/s)
+
+overall accuracy:        0.933800  (9338/10000), of which 273 exact matches 
+There were 9 ties of which 8 (88.89%) were correctly resolved

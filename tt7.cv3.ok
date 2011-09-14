@@ -1,0 +1,10 @@
+structural,provide,to,CoPUNT,JJ,VB,TO,NNP,O,O { O 1.00000 }        0.65553646170477
+parts,structural,provide,to,NNS,JJ,VB,TO,I,I { I 1.00000 }        0.87362792765196
+for,parts,structural,provide,IN,NNS,JJ,VB,I,I { I 1.00000 }        0.45764400578906
+Boeing,for,parts,structural,NNP,IN,NNS,JJ,O,O { O 1.00000 }        0.66205529489551
+'s,Boeing,for,parts,POS,NNP,IN,NNS,I,I { I 1.00000 }        0.66205529489551
+747,'s,Boeing,for,CD,POS,NNP,IN,B,I { I 1.00000 }        0.85060361580130
+jetliners,747,'s,Boeing,NNS,CD,POS,NNP,I,I { I 1.00000 }        0.85060361580130
+PUNT,jetliners,747,'s,PUNT,NNS,CD,POS,I,I { I 1.00000 }        0.66205529489551
+Rockwell,PUNT,PUNT,jetliners,NNP,PUNT,PUNT,NNS,O,I { I 1.00000 }        0.25236597971119
+said,Rockwell,PUNT,PUNT,VBD,NNP,PUNT,PUNT,I,I { I 1.00000 }        0.40317048199359

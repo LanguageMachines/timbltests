@@ -1,0 +1,9 @@
+test,voor,bug 39, +
+test,na,bug 39, -
+test,na,bug 39, +
+dit, is, ], -
+dit, was, ], -
+dit, was, ], +
+en, dit, [, -
+en, deze, [, -
+en, dat, een	tab,  -

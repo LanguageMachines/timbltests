@@ -1,0 +1,8 @@
+#!/bin/sh
+
+$comm -f ./tests/utf8.train -t ./tests/utf8.test -o ./tests/utf8.1
+cat < ./tests/utf8.1 
+$comm -f ./tests/utf8.train -I ./tests/utf8.tree 
+cat < ./tests/utf8.tree
+$comm -t ./tests/utf8.test -i ./tests/utf8.tree -o ./tests/utf8.2 
+diff -w ./tests/utf8.1 ./tests/utf8.2 

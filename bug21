@@ -1,0 +1,12 @@
+#!/bin/sh
+
+$comm -f tests/dimin.train -W tests/dimin.wgt -mM -U tests/dimin.prob
+$comm -f tests/dimin.train -t leave_one_out -k3 -mM -w tests/dimin.wgt +v di+db -o bug21.out1
+diff bug21.out1 tests/bug21.out1.ok
+$comm -f tests/dimin.train -t leave_one_out -k3 -mM -u tests/dimin.prob +v di+db -o bug21.out2
+diff bug21.out2 tests/bug21.out2.ok
+ $comm -f tests/dimin.train -t leave_one_out -k3 -mM -u tests/dimin.prob -w tests/dimin.wgt +v di+db -o bug21.out3
+diff bug21.out3 tests/bug21.out3.ok
+
+
+

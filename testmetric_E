@@ -1,0 +1,7 @@
+#! /bin/sh
+
+
+$comm -f ./tests/dot_product.train -t ./tests/dot_product.test +v di+db -mE -o test.out1
+cat < test.out1
+
+

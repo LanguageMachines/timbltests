@@ -1,0 +1,8 @@
+#!/bin/sh
+
+trainfile=./tests/kwart.train
+
+$comm -f $trainfile -t tests/kwart.test -a3 -b 5000 -mM +v di+db -o bug18.out 
+diff bug18.out bug18.out.ok
+
+

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+$comm -f ./tests/example.train -t ./tests/example.test +vDB --Beam=1 -o out.def1
+cat < out.def1 
+$comm -f ./tests/example.train -t ./tests/example.test +vDB --Beam=2 -o out.def2
+cat < out.def2 
+$comm -f ./tests/example.train -t ./tests/example.test +vDB --Beam=1 -G -o out.norm
+cat < out.norm
+

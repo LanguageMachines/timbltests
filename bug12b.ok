@@ -1,0 +1,68 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 11:45:08 2011
+
+Examine datafile 'tests/bug12.train' gave the following results:
+Number of Features: 3
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: tests/bug12.train
+Start:          0 @ Mon Jan 24 11:45:08 2011
+Finished:       5 @ Mon Jan 24 11:45:08 2011
+Calculating Entropy         Mon Jan 24 11:45:08 2011
+Lines of data     : 5
+DB Entropy        : 2.3219281
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      5	2.3219281	1.0000000
+    2      5	2.3219281	1.0000000
+    3      5	2.3219281	1.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 166 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 2, 3 >
+Phase 2: Building multi index on Datafile: tests/bug12.train
+Start:          0 @ Mon Jan 24 11:45:08 2011
+Finished:       5 @ Mon Jan 24 11:45:08 2011
+
+Phase 3: Learning from Datafile: tests/bug12.train
+Start:          0 @ Mon Jan 24 11:45:08 2011
+Finished:       5 @ Mon Jan 24 11:45:08 2011
+
+Size of InstanceBase = 20 Nodes, (800 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 173 microseconds
+Writing Instance-Base in: bug12b.tree
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 11:45:08 2011
+
+Reading Instance-Base from: bug12b.tree
+
+Size of InstanceBase = 20 Nodes, (800 bytes), 0.00 % compression
+Feature Permutation based on Data File Ordering :
+< 1, 2, 3 >
+Examine datafile 'tests/bug12b.test' gave the following results:
+Number of Features: 3
+InputFormat       : Columns
+
+
+Starting to test, Testfile: tests/bug12b.test
+Writing output in:          tests/bug12b.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+
+Tested:      1 @ Mon Jan 24 11:45:08 2011
+Ready:       1 @ Mon Jan 24 11:45:08 2011
+Seconds taken: 0.0001 (10309.28 p/s)
+
+overall accuracy:        1.000000  (1/1), of which 1 exact matches 

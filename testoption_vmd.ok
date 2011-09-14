@@ -1,0 +1,692 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 14:05:56 2011
+
+Examine datafile 'tests/hapax.smalltrain' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: tests/hapax.smalltrain
+Start:          0 @ Mon Jan 24 14:05:56 2011
+Finished:   28405 @ Mon Jan 24 14:05:57 2011
+Calculating Entropy         Mon Jan 24 14:05:57 2011
+Lines of data     : 28405
+DB Entropy        : 9.6917779
+Number of Classes : 4947
+
+Feats	Vals	InfoGain	GainRatio
+    1   4943	5.3886386	0.55604584
+    2   4944	5.4123366	0.55846788
+    3   4945	5.4300984	0.56030756
+    4   4945	5.5036428	0.56790185
+    5   4945	5.5803466	0.57581874
+    6   4945	5.6802580	0.58611484
+    7   4945	6.0163577	0.62081353
+    8   4947	6.0163881	0.62078397
+    9   4947	5.6797307	0.58605344
+   10   4948	5.5804668	0.57579396
+   11   4949	5.5034114	0.56782985
+   12   4949	5.4298957	0.56024530
+   13   4949	5.4111923	0.55835478
+   14   4949	5.3881113	0.55597648
+
+Preparation took 0 seconds, 798 milliseconds and 218 microseconds
+Feature Permutation based on GainRatio/Values :
+< 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
+Phase 2: Building multi index on Datafile: tests/hapax.smalltrain
+Start:          0 @ Mon Jan 24 14:05:57 2011
+Finished:   28405 @ Mon Jan 24 14:05:58 2011
+
+Phase 3: Learning from Datafile: tests/hapax.smalltrain
+Start:          0 @ Mon Jan 24 14:05:58 2011
+Finished:   28405 @ Mon Jan 24 14:05:59 2011
+
+Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
+Learning took 1 seconds, 303 milliseconds and 310 microseconds
+Examine datafile 'tests/hapax.smalltest' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+
+Starting to test, Testfile: tests/hapax.smalltest
+Writing output in:          o1
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.556045835795306
+Feature 2	 : 0.558467880783746
+Feature 3	 : 0.560307560110388
+Feature 4	 : 0.567901848648317
+Feature 5	 : 0.575818740110730
+Feature 6	 : 0.586114841881059
+Feature 7	 : 0.620813532927729
+Feature 8	 : 0.620783965375239
+Feature 9	 : 0.586053441066795
+Feature 10	 : 0.575793958956889
+Feature 11	 : 0.567829845297908
+Feature 12	 : 0.560245296566752
+Feature 13	 : 0.558354776963652
+Feature 14	 : 0.555976477380017
+
+Tested:      1 @ Mon Jan 24 14:05:59 2011
+Tested:      2 @ Mon Jan 24 14:05:59 2011
+Tested:      3 @ Mon Jan 24 14:05:59 2011
+Tested:      4 @ Mon Jan 24 14:05:59 2011
+Tested:      5 @ Mon Jan 24 14:05:59 2011
+Tested:      6 @ Mon Jan 24 14:05:59 2011
+Tested:      7 @ Mon Jan 24 14:05:59 2011
+Tested:      8 @ Mon Jan 24 14:05:59 2011
+Tested:      9 @ Mon Jan 24 14:05:59 2011
+Tested:     10 @ Mon Jan 24 14:05:59 2011
+Ready:      86 @ Mon Jan 24 14:06:00 2011
+Seconds taken: 1.6588 (51.84 p/s)
+
+overall accuracy:        0.081395  (7/86)
+There were 14 ties of which 0 (0.00%) were correctly resolved
+_ _ _ _ _ _ _ _ _ _ _ _ _ CHAPTER _ _ 14:L
+_ _ _ _ _ _ _ _ _ _ _ _ CHAPTER I _ _ 14:L
+_ _ _ _ _ _ _ _ _ _ _ CHAPTER I Down _ _ 14:L
+_ _ _ _ _ _ _ _ _ _ CHAPTER I Down the _ _ 14:L
+_ _ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole _ _ 14:L
+_ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice _ _ 14:L
+_ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice was _ _ 14:L
+_ _ _ _ _ _ _ I Down the Rabbit-Hole Alice was beginning CHAPTER _ 14:L
+_ _ _ _ _ _ CHAPTER Down the Rabbit-Hole Alice was beginning to I MEXICO 14:L
+_ _ _ _ _ CHAPTER I the Rabbit-Hole Alice was beginning to get Down : 14:L
+_ _ _ _ CHAPTER I Down Rabbit-Hole Alice was beginning to get very the Recovery 14:L
+_ _ _ CHAPTER I Down the Alice was beginning to get very tired Rabbit-Hole excitement 14:L
+_ _ CHAPTER I Down the Rabbit-Hole was beginning to get very tired of Alice now 14:L
+_ CHAPTER I Down the Rabbit-Hole Alice beginning to get very tired of sitting was is 14:L
+CHAPTER I Down the Rabbit-Hole Alice was to get very tired of sitting by beginning to 14:L
+I Down the Rabbit-Hole Alice was beginning get very tired of sitting by her to " 14:L
+Down the Rabbit-Hole Alice was beginning to very tired of sitting by her sister get the 14:L
+the Rabbit-Hole Alice was beginning to get tired of sitting by her sister on very the 14:L
+Rabbit-Hole Alice was beginning to get very of sitting by her sister on the tired after 14:L
+Alice was beginning to get very tired sitting by her sister on the bank of growing 14:L
+was beginning to get very tired of by her sister on the bank , sitting the 14:L
+beginning to get very tired of sitting her sister on the bank , and by . 14:L
+to get very tired of sitting by sister on the bank , and of her Investors 14:L
+get very tired of sitting by her on the bank , and of having sister remained 14:L
+very tired of sitting by her sister the bank , and of having nothing on of 14:L
+tired of sitting by her sister on bank , and of having nothing to the new 14:L
+of sitting by her sister on the , and of having nothing to do bank sidelines 14:L
+sitting by her sister on the bank and of having nothing to do : , deposits 14:L
+by her sister on the bank , of having nothing to do : once and which 14:L
+her sister on the bank , and having nothing to do : once or of brokers 14:L
+sister on the bank , and of nothing to do : once or twice having expected 14:L
+on the bank , and of having to do : once or twice she nothing the 14:L
+the bank , and of having nothing do : once or twice she had to , 14:L
+bank , and of having nothing to : once or twice she had peeped do more 14:L
+, and of having nothing to do once or twice she had peeped into : so 14:L
+and of having nothing to do : or twice she had peeped into the once for 14:L
+of having nothing to do : once twice she had peeped into the book or " 14:L
+having nothing to do : once or she had peeped into the book her twice Clinton 14:L
+nothing to do : once or twice had peeped into the book her sister she been 14:L
+to do : once or twice she peeped into the book her sister was had largely 14:L
+do : once or twice she had into the book her sister was reading peeped jumping 14:L
+: once or twice she had peeped the book her sister was reading , into said 14:L
+once or twice she had peeped into book her sister was reading , but the of 14:L
+or twice she had peeped into the her sister was reading , but it book first 14:L
+twice she had peeped into the book sister was reading , but it had her six 14:L
+she had peeped into the book her was reading , but it had no sister months 14:L
+had peeped into the book her sister reading , but it had no pictures was of 14:L
+peeped into the book her sister was , but it had no pictures or reading workers 14:L
+into the book her sister was reading but it had no pictures or conversations , on 14:L
+the book her sister was reading , it had no pictures or conversations in but boosting 14:L
+book her sister was reading , but had no pictures or conversations in it it the 14:L
+her sister was reading , but it no pictures or conversations in it , had has 14:L
+sister was reading , but it had pictures or conversations in it , ` no also 14:L
+was reading , but it had no or conversations in it , ` and pictures minimum 14:L
+reading , but it had no pictures conversations in it , ` and what or of 14:L
+, but it had no pictures or in it , ` and what is conversations maximum 14:L
+but it had no pictures or conversations it , ` and what is the in usage 14:L
+it had no pictures or conversations in , ` and what is the use it circulation 14:L
+had no pictures or conversations in it ` and what is the use of , said 14:L
+no pictures or conversations in it , and what is the use of a ` DAG 14:L
+pictures or conversations in it , ` what is the use of a book and 3.0 14:L
+or conversations in it , ` and is the use of a book , what , 14:L
+conversations in it , ` and what the use of a book , ' is and 14:L
+in it , ` and what is use of a book , ' thought the were 14:L
+it , ` and what is the of a book , ' thought Alice use release 14:L
+, ` and what is the use a book , ' thought Alice ` of be 14:L
+` and what is the use of book , ' thought Alice ` without a the 14:L
+and what is the use of a , ' thought Alice ` without pictures book five-nation 14:L
+what is the use of a book ' thought Alice ` without pictures or , that 14:L
+is the use of a book , thought Alice ` without pictures or conversation ' 10-day 14:L
+the use of a book , ' Alice ` without pictures or conversation ? thought tour 14:L
+use of a book , ' thought ` without pictures or conversation ? ' Alice who 14:L
+of a book , ' thought Alice without pictures or conversation ? ' So ` doubles 14:L
+a book , ' thought Alice ` pictures or conversation ? ' So she without as 14:L
+book , ' thought Alice ` without or conversation ? ' So she was pictures Wassmann 14:L
+, ' thought Alice ` without pictures conversation ? ' So she was considering or told 14:L
+' thought Alice ` without pictures or ? ' So she was considering in conversation exports 14:L
+thought Alice ` without pictures or conversation ' So she was considering in her ? , 14:L
+Alice ` without pictures or conversation ? So she was considering in her own ' can 14:L
+` without pictures or conversation ? ' she was considering in her own mind So of 14:L
+without pictures or conversation ? ' So was considering in her own mind ( she Co 14:L
+pictures or conversation ? ' So she considering in her own mind ( as was or 14:L
+or conversation ? ' So she was in her own mind ( as well considering Nasdaq 14:L
+conversation ? ' So she was considering her own mind ( as well as in and 14:L
+? ' So she was considering in own mind ( as well as she her T 14:L
+' So she was considering in her mind ( as well as she could own and 14:L
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 14:06:01 2011
+
+Examine datafile 'tests/hapax.smalltrain' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: tests/hapax.smalltrain
+Start:          0 @ Mon Jan 24 14:06:01 2011
+Finished:   28405 @ Mon Jan 24 14:06:01 2011
+Calculating Entropy         Mon Jan 24 14:06:01 2011
+Lines of data     : 28405
+DB Entropy        : 9.6917779
+Number of Classes : 4947
+
+Feats	Vals	InfoGain	GainRatio
+    1   4943	5.3886386	0.55604584
+    2   4944	5.4123366	0.55846788
+    3   4945	5.4300984	0.56030756
+    4   4945	5.5036428	0.56790185
+    5   4945	5.5803466	0.57581874
+    6   4945	5.6802580	0.58611484
+    7   4945	6.0163577	0.62081353
+    8   4947	6.0163881	0.62078397
+    9   4947	5.6797307	0.58605344
+   10   4948	5.5804668	0.57579396
+   11   4949	5.5034114	0.56782985
+   12   4949	5.4298957	0.56024530
+   13   4949	5.4111923	0.55835478
+   14   4949	5.3881113	0.55597648
+
+Preparation took 0 seconds, 796 milliseconds and 716 microseconds
+Feature Permutation based on GainRatio :
+< 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
+Phase 2: Building multi index on Datafile: tests/hapax.smalltrain
+Start:          0 @ Mon Jan 24 14:06:02 2011
+Finished:   28405 @ Mon Jan 24 14:06:02 2011
+
+Phase 3: Learning from Datafile: tests/hapax.smalltrain
+Start:          0 @ Mon Jan 24 14:06:02 2011
+Finished:   28405 @ Mon Jan 24 14:06:03 2011
+
+Size of InstanceBase = 20619 Nodes, (824760 bytes), 94.68 % compression
+Learning took 1 seconds, 443 milliseconds and 171 microseconds
+Examine datafile 'tests/hapax.smalltest' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+
+Starting to test, Testfile: tests/hapax.smalltest
+Writing output in:          o2
+Algorithm     : IGTree
+Weighting     : GainRatio
+Feature 1	 : 0.556045835795306
+Feature 2	 : 0.558467880783746
+Feature 3	 : 0.560307560110388
+Feature 4	 : 0.567901848648317
+Feature 5	 : 0.575818740110730
+Feature 6	 : 0.586114841881059
+Feature 7	 : 0.620813532927729
+Feature 8	 : 0.620783965375239
+Feature 9	 : 0.586053441066795
+Feature 10	 : 0.575793958956889
+Feature 11	 : 0.567829845297908
+Feature 12	 : 0.560245296566752
+Feature 13	 : 0.558354776963652
+Feature 14	 : 0.555976477380017
+
+Tested:      1 @ Mon Jan 24 14:06:03 2011
+Tested:      2 @ Mon Jan 24 14:06:03 2011
+Tested:      3 @ Mon Jan 24 14:06:03 2011
+Tested:      4 @ Mon Jan 24 14:06:03 2011
+Tested:      5 @ Mon Jan 24 14:06:03 2011
+Tested:      6 @ Mon Jan 24 14:06:03 2011
+Tested:      7 @ Mon Jan 24 14:06:03 2011
+Tested:      8 @ Mon Jan 24 14:06:03 2011
+Tested:      9 @ Mon Jan 24 14:06:03 2011
+Tested:     10 @ Mon Jan 24 14:06:03 2011
+Ready:      86 @ Mon Jan 24 14:06:03 2011
+Seconds taken: 0.0062 (13924.87 p/s)
+
+overall accuracy:        0.116279  (10/86)
+_ _ _ _ _ _ _ _ _ _ _ _ _ CHAPTER _ _ 1:N
+_ _ _ _ _ _ _ _ _ _ _ _ CHAPTER I _ _ 1:N
+_ _ _ _ _ _ _ _ _ _ _ CHAPTER I Down _ _ 1:N
+_ _ _ _ _ _ _ _ _ _ CHAPTER I Down the _ _ 1:N
+_ _ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole _ _ 1:N
+_ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice _ _ 1:N
+_ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice was _ _ 1:N
+_ _ _ _ _ _ _ I Down the Rabbit-Hole Alice was beginning CHAPTER _ 1:N
+_ _ _ _ _ _ CHAPTER Down the Rabbit-Hole Alice was beginning to I . 0:N
+_ _ _ _ _ CHAPTER I the Rabbit-Hole Alice was beginning to get Down think 1:N
+_ _ _ _ CHAPTER I Down Rabbit-Hole Alice was beginning to get very the . 0:N
+_ _ _ CHAPTER I Down the Alice was beginning to get very tired Rabbit-Hole first 1:N
+_ _ CHAPTER I Down the Rabbit-Hole was beginning to get very tired of Alice . 0:N
+_ CHAPTER I Down the Rabbit-Hole Alice beginning to get very tired of sitting was . 0:N
+CHAPTER I Down the Rabbit-Hole Alice was to get very tired of sitting by beginning expected 2:N
+I Down the Rabbit-Hole Alice was beginning get very tired of sitting by her to to 1:N
+Down the Rabbit-Hole Alice was beginning to very tired of sitting by her sister get the 1:N
+the Rabbit-Hole Alice was beginning to get tired of sitting by her sister on very the 1:N
+Rabbit-Hole Alice was beginning to get very of sitting by her sister on the tired , 1:N
+Alice was beginning to get very tired sitting by her sister on the bank of . 0:N
+was beginning to get very tired of by her sister on the bank , sitting the 1:N
+beginning to get very tired of sitting her sister on the bank , and by in 1:N
+to get very tired of sitting by sister on the bank , and of her the 1:N
+get very tired of sitting by her on the bank , and of having sister state's 1:L
+very tired of sitting by her sister the bank , and of having nothing on . 0:N
+tired of sitting by her sister on bank , and of having nothing to the new 2:L
+of sitting by her sister on the , and of having nothing to do bank sidelines 4:L
+sitting by her sister on the bank and of having nothing to do : , deposits 2:L
+by her sister on the bank , of having nothing to do : once and president 2:N
+her sister on the bank , and having nothing to do : once or of the 1:N
+sister on the bank , and of nothing to do : once or twice having the 1:N
+on the bank , and of having to do : once or twice she nothing an 1:N
+the bank , and of having nothing do : once or twice she had to . 0:N
+bank , and of having nothing to : once or twice she had peeped do the 1:N
+, and of having nothing to do once or twice she had peeped into : it 1:N
+and of having nothing to do : or twice she had peeped into the once Lloyd's 1:N
+of having nothing to do : once twice she had peeped into the book or the 1:N
+having nothing to do : once or she had peeped into the book her twice $ 1:N
+nothing to do : once or twice had peeped into the book her sister she the 1:L
+to do : once or twice she peeped into the book her sister was had would 1:N
+do : once or twice she had into the book her sister was reading peeped been 1:N
+: once or twice she had peeped the book her sister was reading , into . 0:N
+once or twice she had peeped into book her sister was reading , but the the 1:N
+or twice she had peeped into the her sister was reading , but it book first 1:N
+twice she had peeped into the book sister was reading , but it had her . 0:N
+she had peeped into the book her was reading , but it had no sister state's 1:L
+had peeped into the book her sister reading , but it had no pictures was . 0:N
+peeped into the book her sister was , but it had no pictures or reading 334,948,330 2:N
+into the book her sister was reading but it had no pictures or conversations , , 1:L
+the book her sister was reading , it had no pictures or conversations in but said 2:N
+book her sister was reading , but had no pictures or conversations in it it the 1:N
+her sister was reading , but it no pictures or conversations in it , had has 2:N
+sister was reading , but it had pictures or conversations in it , ` no been 1:N
+was reading , but it had no or conversations in it , ` and pictures minimum 1:N
+reading , but it had no pictures conversations in it , ` and what or . 0:N
+, but it had no pictures or in it , ` and what is conversations Thursday 2:N
+but it had no pictures or conversations it , ` and what is the in . 0:N
+it had no pictures or conversations in , ` and what is the use it June 2:N
+had no pictures or conversations in it ` and what is the use of , would 1:N
+no pictures or conversations in it , and what is the use of a ` directory 2:N
+pictures or conversations in it , ` what is the use of a book and . 0:N
+or conversations in it , ` and is the use of a book , what there 2:N
+conversations in it , ` and what the use of a book , ' is nature 2:L
+in it , ` and what is use of a book , ' thought the a 1:N
+it , ` and what is the of a book , ' thought Alice use end 3:N
+, ` and what is the use a book , ' thought Alice ` of in 1:N
+` and what is the use of book , ' thought Alice ` without a the 1:N
+and what is the use of a , ' thought Alice ` without pictures book five-nation 3:L
+what is the use of a book ' thought Alice ` without pictures or , . 0:N
+is the use of a book , thought Alice ` without pictures or conversation ' " 1:N
+the use of a book , ' Alice ` without pictures or conversation ? thought next 1:N
+use of a book , ' thought ` without pictures or conversation ? ' Alice . 0:N
+of a book , ' thought Alice without pictures or conversation ? ' So ` . 0:N
+a book , ' thought Alice ` pictures or conversation ? ' So she without . 0:N
+book , ' thought Alice ` without or conversation ? ' So she was pictures inflation 1:N
+, ' thought Alice ` without pictures conversation ? ' So she was considering or . 0:N
+' thought Alice ` without pictures or ? ' So she was considering in conversation $ 1:N
+thought Alice ` without pictures or conversation ' So she was considering in her ? . 0:N
+Alice ` without pictures or conversation ? So she was considering in her own ' . 1:N
+` without pictures or conversation ? ' she was considering in her own mind So next 1:N
+without pictures or conversation ? ' So was considering in her own mind ( she far 1:L
+pictures or conversation ? ' So she considering in her own mind ( as was would 1:N
+or conversation ? ' So she was in her own mind ( as well considering found 2:N
+conversation ? ' So she was considering her own mind ( as well as in . 0:N
+? ' So she was considering in own mind ( as well as she her the 1:N
+' So she was considering in her mind ( as well as she could own state's 1:L
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 14:06:03 2011
+
+Examine datafile 'tests/hapax.smalltrain' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: tests/hapax.smalltrain
+Start:          0 @ Mon Jan 24 14:06:03 2011
+Finished:   28405 @ Mon Jan 24 14:06:04 2011
+Calculating Entropy         Mon Jan 24 14:06:04 2011
+Lines of data     : 28405
+DB Entropy        : 9.6917779
+Number of Classes : 4947
+
+Feats	Vals	InfoGain	GainRatio
+    1   4943	5.3886386	0.55604584
+    2   4944	5.4123366	0.55846788
+    3   4945	5.4300984	0.56030756
+    4   4945	5.5036428	0.56790185
+    5   4945	5.5803466	0.57581874
+    6   4945	5.6802580	0.58611484
+    7   4945	6.0163577	0.62081353
+    8   4947	6.0163881	0.62078397
+    9   4947	5.6797307	0.58605344
+   10   4948	5.5804668	0.57579396
+   11   4949	5.5034114	0.56782985
+   12   4949	5.4298957	0.56024530
+   13   4949	5.4111923	0.55835478
+   14   4949	5.3881113	0.55597648
+
+Preparation took 0 seconds, 792 milliseconds and 200 microseconds
+Feature Permutation based on GainRatio :
+< 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
+Phase 2: Building multi index on Datafile: tests/hapax.smalltrain
+Start:          0 @ Mon Jan 24 14:06:04 2011
+Finished:   28405 @ Mon Jan 24 14:06:05 2011
+
+Phase 3: Learning from Datafile: tests/hapax.smalltrain
+Start:          0 @ Mon Jan 24 14:06:05 2011
+Finished:   28405 @ Mon Jan 24 14:06:06 2011
+
+Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
+Learning took 1 seconds, 302 milliseconds and 52 microseconds
+Examine datafile 'tests/hapax.smalltest' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+
+Starting to test, Testfile: tests/hapax.smalltest
+Writing output in:          o3
+Algorithm     : TRIBL, q = 5
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.556045835795306
+Feature 2	 : 0.558467880783746
+Feature 3	 : 0.560307560110388
+Feature 4	 : 0.567901848648317
+Feature 5	 : 0.575818740110730
+Feature 6	 : 0.586114841881059
+Feature 7	 : 0.620813532927729
+Feature 8	 : 0.620783965375239
+Feature 9	 : 0.586053441066795
+Feature 10	 : 0.575793958956889
+Feature 11	 : 0.567829845297908
+Feature 12	 : 0.560245296566752
+Feature 13	 : 0.558354776963652
+Feature 14	 : 0.555976477380017
+
+Tested:      1 @ Mon Jan 24 14:06:06 2011
+Tested:      2 @ Mon Jan 24 14:06:06 2011
+Tested:      3 @ Mon Jan 24 14:06:06 2011
+Tested:      4 @ Mon Jan 24 14:06:06 2011
+Tested:      5 @ Mon Jan 24 14:06:06 2011
+Tested:      6 @ Mon Jan 24 14:06:06 2011
+Tested:      7 @ Mon Jan 24 14:06:06 2011
+Tested:      8 @ Mon Jan 24 14:06:06 2011
+Tested:      9 @ Mon Jan 24 14:06:06 2011
+Tested:     10 @ Mon Jan 24 14:06:06 2011
+Ready:      86 @ Mon Jan 24 14:06:06 2011
+Seconds taken: 0.0532 (1616.33 p/s)
+
+overall accuracy:        0.116279  (10/86)
+_ _ _ _ _ _ _ _ _ _ _ _ _ CHAPTER _ _ 14:L
+_ _ _ _ _ _ _ _ _ _ _ _ CHAPTER I _ _ 14:L
+_ _ _ _ _ _ _ _ _ _ _ CHAPTER I Down _ _ 14:L
+_ _ _ _ _ _ _ _ _ _ CHAPTER I Down the _ _ 14:L
+_ _ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole _ _ 14:L
+_ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice _ _ 3:N
+_ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice was _ _ 1:N
+_ _ _ _ _ _ _ I Down the Rabbit-Hole Alice was beginning CHAPTER _ 1:N
+_ _ _ _ _ _ CHAPTER Down the Rabbit-Hole Alice was beginning to I . 0:N
+_ _ _ _ _ CHAPTER I the Rabbit-Hole Alice was beginning to get Down think 2:N
+_ _ _ _ CHAPTER I Down Rabbit-Hole Alice was beginning to get very the . 0:N
+_ _ _ CHAPTER I Down the Alice was beginning to get very tired Rabbit-Hole first 1:N
+_ _ CHAPTER I Down the Rabbit-Hole was beginning to get very tired of Alice . 0:N
+_ CHAPTER I Down the Rabbit-Hole Alice beginning to get very tired of sitting was . 0:N
+CHAPTER I Down the Rabbit-Hole Alice was to get very tired of sitting by beginning expected 2:N
+I Down the Rabbit-Hole Alice was beginning get very tired of sitting by her to to 1:N
+Down the Rabbit-Hole Alice was beginning to very tired of sitting by her sister get the 1:N
+the Rabbit-Hole Alice was beginning to get tired of sitting by her sister on very the 1:N
+Rabbit-Hole Alice was beginning to get very of sitting by her sister on the tired , 1:N
+Alice was beginning to get very tired sitting by her sister on the bank of . 0:N
+was beginning to get very tired of by her sister on the bank , sitting the 1:N
+beginning to get very tired of sitting her sister on the bank , and by in 1:N
+to get very tired of sitting by sister on the bank , and of her the 1:N
+get very tired of sitting by her on the bank , and of having sister state's 1:N
+very tired of sitting by her sister the bank , and of having nothing on . 0:N
+tired of sitting by her sister on bank , and of having nothing to the new 2:N
+of sitting by her sister on the , and of having nothing to do bank sidelines 4:N
+sitting by her sister on the bank and of having nothing to do : , deposits 2:N
+by her sister on the bank , of having nothing to do : once and president 2:N
+her sister on the bank , and having nothing to do : once or of the 1:N
+sister on the bank , and of nothing to do : once or twice having the 1:N
+on the bank , and of having to do : once or twice she nothing an 1:N
+the bank , and of having nothing do : once or twice she had to . 0:N
+bank , and of having nothing to : once or twice she had peeped do the 1:N
+, and of having nothing to do once or twice she had peeped into : it 1:N
+and of having nothing to do : or twice she had peeped into the once Lloyd's 1:N
+of having nothing to do : once twice she had peeped into the book or the 1:N
+having nothing to do : once or she had peeped into the book her twice $ 1:N
+nothing to do : once or twice had peeped into the book her sister she the 1:N
+to do : once or twice she peeped into the book her sister was had would 1:N
+do : once or twice she had into the book her sister was reading peeped been 1:N
+: once or twice she had peeped the book her sister was reading , into . 0:N
+once or twice she had peeped into book her sister was reading , but the the 1:N
+or twice she had peeped into the her sister was reading , but it book first 1:N
+twice she had peeped into the book sister was reading , but it had her . 0:N
+she had peeped into the book her was reading , but it had no sister state's 1:N
+had peeped into the book her sister reading , but it had no pictures was . 0:N
+peeped into the book her sister was , but it had no pictures or reading 334,948,330 2:N
+into the book her sister was reading but it had no pictures or conversations , , 1:N
+the book her sister was reading , it had no pictures or conversations in but said 2:N
+book her sister was reading , but had no pictures or conversations in it it the 1:N
+her sister was reading , but it no pictures or conversations in it , had has 2:N
+sister was reading , but it had pictures or conversations in it , ` no been 1:N
+was reading , but it had no or conversations in it , ` and pictures minimum 2:N
+reading , but it had no pictures conversations in it , ` and what or . 0:N
+, but it had no pictures or in it , ` and what is conversations Thursday 2:N
+but it had no pictures or conversations it , ` and what is the in . 0:N
+it had no pictures or conversations in , ` and what is the use it June 2:N
+had no pictures or conversations in it ` and what is the use of , would 1:N
+no pictures or conversations in it , and what is the use of a ` directory 2:N
+pictures or conversations in it , ` what is the use of a book and . 0:N
+or conversations in it , ` and is the use of a book , what there 2:N
+conversations in it , ` and what the use of a book , ' is nature 2:N
+in it , ` and what is use of a book , ' thought the a 1:N
+it , ` and what is the of a book , ' thought Alice use end 3:N
+, ` and what is the use a book , ' thought Alice ` of in 1:N
+` and what is the use of book , ' thought Alice ` without a the 1:N
+and what is the use of a , ' thought Alice ` without pictures book five-nation 3:N
+what is the use of a book ' thought Alice ` without pictures or , . 0:N
+is the use of a book , thought Alice ` without pictures or conversation ' " 1:N
+the use of a book , ' Alice ` without pictures or conversation ? thought next 1:N
+use of a book , ' thought ` without pictures or conversation ? ' Alice . 0:N
+of a book , ' thought Alice without pictures or conversation ? ' So ` . 0:N
+a book , ' thought Alice ` pictures or conversation ? ' So she without . 0:N
+book , ' thought Alice ` without or conversation ? ' So she was pictures inflation 1:N
+, ' thought Alice ` without pictures conversation ? ' So she was considering or . 0:N
+' thought Alice ` without pictures or ? ' So she was considering in conversation $ 1:N
+thought Alice ` without pictures or conversation ' So she was considering in her ? . 0:N
+Alice ` without pictures or conversation ? So she was considering in her own ' . 1:N
+` without pictures or conversation ? ' she was considering in her own mind So next 1:N
+without pictures or conversation ? ' So was considering in her own mind ( she far 1:N
+pictures or conversation ? ' So she considering in her own mind ( as was would 1:N
+or conversation ? ' So she was in her own mind ( as well considering found 2:N
+conversation ? ' So she was considering her own mind ( as well as in . 0:N
+? ' So she was considering in own mind ( as well as she her the 1:N
+' So she was considering in her mind ( as well as she could own state's 1:N
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 14:06:06 2011
+
+Examine datafile 'tests/hapax.smalltrain' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: tests/hapax.smalltrain
+Start:          0 @ Mon Jan 24 14:06:06 2011
+Finished:   28405 @ Mon Jan 24 14:06:07 2011
+Calculating Entropy         Mon Jan 24 14:06:07 2011
+Lines of data     : 28405
+DB Entropy        : 9.6917779
+Number of Classes : 4947
+
+Feats	Vals	InfoGain	GainRatio
+    1   4943	5.3886386	0.55604584
+    2   4944	5.4123366	0.55846788
+    3   4945	5.4300984	0.56030756
+    4   4945	5.5036428	0.56790185
+    5   4945	5.5803466	0.57581874
+    6   4945	5.6802580	0.58611484
+    7   4945	6.0163577	0.62081353
+    8   4947	6.0163881	0.62078397
+    9   4947	5.6797307	0.58605344
+   10   4948	5.5804668	0.57579396
+   11   4949	5.5034114	0.56782985
+   12   4949	5.4298957	0.56024530
+   13   4949	5.4111923	0.55835478
+   14   4949	5.3881113	0.55597648
+
+Preparation took 0 seconds, 793 milliseconds and 355 microseconds
+Feature Permutation based on GainRatio :
+< 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
+Phase 2: Building multi index on Datafile: tests/hapax.smalltrain
+Start:          0 @ Mon Jan 24 14:06:07 2011
+Finished:   28405 @ Mon Jan 24 14:06:07 2011
+
+Phase 3: Learning from Datafile: tests/hapax.smalltrain
+Start:          0 @ Mon Jan 24 14:06:07 2011
+Finished:   28405 @ Mon Jan 24 14:06:08 2011
+
+Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
+Learning took 1 seconds, 289 milliseconds and 407 microseconds
+Examine datafile 'tests/hapax.smalltest' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+
+Starting to test, Testfile: tests/hapax.smalltest
+Writing output in:          o4
+Algorithm     : TRIBL2
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.556045835795306
+Feature 2	 : 0.558467880783746
+Feature 3	 : 0.560307560110388
+Feature 4	 : 0.567901848648317
+Feature 5	 : 0.575818740110730
+Feature 6	 : 0.586114841881059
+Feature 7	 : 0.620813532927729
+Feature 8	 : 0.620783965375239
+Feature 9	 : 0.586053441066795
+Feature 10	 : 0.575793958956889
+Feature 11	 : 0.567829845297908
+Feature 12	 : 0.560245296566752
+Feature 13	 : 0.558354776963652
+Feature 14	 : 0.555976477380017
+
+Tested:      1 @ Mon Jan 24 14:06:08 2011
+Tested:      2 @ Mon Jan 24 14:06:08 2011
+Tested:      3 @ Mon Jan 24 14:06:08 2011
+Tested:      4 @ Mon Jan 24 14:06:08 2011
+Tested:      5 @ Mon Jan 24 14:06:08 2011
+Tested:      6 @ Mon Jan 24 14:06:08 2011
+Tested:      7 @ Mon Jan 24 14:06:08 2011
+Tested:      8 @ Mon Jan 24 14:06:08 2011
+Tested:      9 @ Mon Jan 24 14:06:08 2011
+Tested:     10 @ Mon Jan 24 14:06:08 2011
+Ready:      86 @ Mon Jan 24 14:06:09 2011
+Seconds taken: 0.4948 (173.81 p/s)
+
+overall accuracy:        0.127907  (11/86)
+There were 24 ties of which 2 (8.33%) were correctly resolved
+_ _ _ _ _ _ _ _ _ _ _ _ _ CHAPTER _ _ 13:L
+_ _ _ _ _ _ _ _ _ _ _ _ CHAPTER I _ _ 11:L
+_ _ _ _ _ _ _ _ _ _ _ CHAPTER I Down _ _ 9:L
+_ _ _ _ _ _ _ _ _ _ CHAPTER I Down the _ _ 7:L
+_ _ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole _ _ 5:L
+_ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice _ _ 3:L
+_ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice was _ _ 1:L
+_ _ _ _ _ _ _ I Down the Rabbit-Hole Alice was beginning CHAPTER _ 1:L
+_ _ _ _ _ _ CHAPTER Down the Rabbit-Hole Alice was beginning to I MEXICO 0:L
+_ _ _ _ _ CHAPTER I the Rabbit-Hole Alice was beginning to get Down think 2:L
+_ _ _ _ CHAPTER I Down Rabbit-Hole Alice was beginning to get very the Recovery 0:L
+_ _ _ CHAPTER I Down the Alice was beginning to get very tired Rabbit-Hole priority 1:L
+_ _ CHAPTER I Down the Rabbit-Hole was beginning to get very tired of Alice now 0:L
+_ CHAPTER I Down the Rabbit-Hole Alice beginning to get very tired of sitting was is 0:L
+CHAPTER I Down the Rabbit-Hole Alice was to get very tired of sitting by beginning expected 2:L
+I Down the Rabbit-Hole Alice was beginning get very tired of sitting by her to to 1:L
+Down the Rabbit-Hole Alice was beginning to very tired of sitting by her sister get the 1:L
+the Rabbit-Hole Alice was beginning to get tired of sitting by her sister on very the 1:L
+Rabbit-Hole Alice was beginning to get very of sitting by her sister on the tired , 1:L
+Alice was beginning to get very tired sitting by her sister on the bank of growing 0:L
+was beginning to get very tired of by her sister on the bank , sitting the 1:L
+beginning to get very tired of sitting her sister on the bank , and by in 1:L
+to get very tired of sitting by sister on the bank , and of her the 1:L
+get very tired of sitting by her on the bank , and of having sister state's 1:L
+very tired of sitting by her sister the bank , and of having nothing on of 0:L
+tired of sitting by her sister on bank , and of having nothing to the new 2:L
+of sitting by her sister on the , and of having nothing to do bank sidelines 4:L
+sitting by her sister on the bank and of having nothing to do : , deposits 2:L
+by her sister on the bank , of having nothing to do : once and president 2:L
+her sister on the bank , and having nothing to do : once or of brokers 1:L
+sister on the bank , and of nothing to do : once or twice having 3 1:L
+on the bank , and of having to do : once or twice she nothing an 1:L
+the bank , and of having nothing do : once or twice she had to , 0:L
+bank , and of having nothing to : once or twice she had peeped do more 1:L
+, and of having nothing to do once or twice she had peeped into : so 1:L
+and of having nothing to do : or twice she had peeped into the once an 1:L
+of having nothing to do : once twice she had peeped into the book or the 1:L
+having nothing to do : once or she had peeped into the book her twice $ 1:L
+nothing to do : once or twice had peeped into the book her sister she the 1:L
+to do : once or twice she peeped into the book her sister was had would 1:L
+do : once or twice she had into the book her sister was reading peeped been 1:L
+: once or twice she had peeped the book her sister was reading , into said 0:L
+once or twice she had peeped into book her sister was reading , but the the 1:L
+or twice she had peeped into the her sister was reading , but it book first 1:L
+twice she had peeped into the book sister was reading , but it had her six 0:L
+she had peeped into the book her was reading , but it had no sister state's 1:L
+had peeped into the book her sister reading , but it had no pictures was of 0:L
+peeped into the book her sister was , but it had no pictures or reading 334,948,330 2:L
+into the book her sister was reading but it had no pictures or conversations , , 1:L
+the book her sister was reading , it had no pictures or conversations in but boosting 2:L
+book her sister was reading , but had no pictures or conversations in it it the 1:L
+her sister was reading , but it no pictures or conversations in it , had has 2:L
+sister was reading , but it had pictures or conversations in it , ` no no 1:L
+was reading , but it had no or conversations in it , ` and pictures minimum 2:L
+reading , but it had no pictures conversations in it , ` and what or of 0:L
+, but it had no pictures or in it , ` and what is conversations Thursday 2:L
+but it had no pictures or conversations it , ` and what is the in usage 0:L
+it had no pictures or conversations in , ` and what is the use it circulation 2:L
+had no pictures or conversations in it ` and what is the use of , expected 1:L
+no pictures or conversations in it , and what is the use of a ` personal 2:L
+pictures or conversations in it , ` what is the use of a book and 3.0 0:L
+or conversations in it , ` and is the use of a book , what there 2:L
+conversations in it , ` and what the use of a book , ' is nature 2:L
+in it , ` and what is use of a book , ' thought the looking 1:L
+it , ` and what is the of a book , ' thought Alice use end 3:L
+, ` and what is the use a book , ' thought Alice ` of in 1:L
+` and what is the use of book , ' thought Alice ` without a the 1:L
+and what is the use of a , ' thought Alice ` without pictures book five-nation 3:L
+what is the use of a book ' thought Alice ` without pictures or , that 0:L
+is the use of a book , thought Alice ` without pictures or conversation ' 10-day 1:L
+the use of a book , ' Alice ` without pictures or conversation ? thought next 1:L
+use of a book , ' thought ` without pictures or conversation ? ' Alice who 0:L
+of a book , ' thought Alice without pictures or conversation ? ' So ` doubles 0:L
+a book , ' thought Alice ` pictures or conversation ? ' So she without as 0:L
+book , ' thought Alice ` without or conversation ? ' So she was pictures inflation 1:L
+, ' thought Alice ` without pictures conversation ? ' So she was considering or told 0:L
+' thought Alice ` without pictures or ? ' So she was considering in conversation exports 1:L
+thought Alice ` without pictures or conversation ' So she was considering in her ? , 0:L
+Alice ` without pictures or conversation ? So she was considering in her own ' . 1:L
+` without pictures or conversation ? ' she was considering in her own mind So next 1:L
+without pictures or conversation ? ' So was considering in her own mind ( she far 1:L
+pictures or conversation ? ' So she considering in her own mind ( as was would 1:L
+or conversation ? ' So she was in her own mind ( as well considering found 2:L
+conversation ? ' So she was considering her own mind ( as well as in and 0:L
+? ' So she was considering in own mind ( as well as she her the 1:L
+' So she was considering in her mind ( as well as she could own state's 1:L

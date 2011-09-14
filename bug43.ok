@@ -1,0 +1,58 @@
+TiMBL 6.3.2 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Dec 14 10:37:46 2010
+
+Examine datafile 'tests/bug43.train' gave the following results:
+Number of Features: 1
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: tests/bug43.train
+Start:          0 @ Tue Dec 14 10:37:46 2010
+Finished:    1490 @ Tue Dec 14 10:37:46 2010
+Calculating Entropy         Tue Dec 14 10:37:46 2010
+Lines of data     : 1490
+DB Entropy        : 8.7463455
+Number of Classes : 779
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	1.0760775	0.90634328
+
+Preparation took 0 seconds, 2 milliseconds and 949 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1 >
+Phase 2: Building index on Datafile: tests/bug43.train
+Start:          0 @ Tue Dec 14 10:37:46 2010
+Finished:    1490 @ Tue Dec 14 10:37:46 2010
+
+Phase 3: Learning from Datafile: tests/bug43.train
+Start:          0 @ Tue Dec 14 10:37:46 2010
+Finished:    1490 @ Tue Dec 14 10:37:46 2010
+
+Size of InstanceBase = 6 Nodes, (240 bytes), 0.00 % compression
+Learning took 0 seconds, 17 milliseconds and 894 microseconds
+Examine datafile 'tests/bug43.test' gave the following results:
+Number of Features: 1
+InputFormat       : Columns
+
+
+Starting to test, Testfile: tests/bug43.test
+Writing output in:          bug43.out
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 168 Bytes 
+Total Size of value-matrices 168 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.906343276439966
+
+Tested:      1 @ Tue Dec 14 10:37:46 2010
+Ready:       1 @ Tue Dec 14 10:37:46 2010
+Seconds taken: 0.0004 (2380.95 p/s)
+
+overall accuracy:        0.000000  (0/1), of which 1 exact matches 
+hoogdravende christelijke teksten { zaken 1.00000, karakter 1.00000, ambities 4.00000, idealen 3.00000, plannen 5.00000, ingewikkeldheid 1.00000, toon 4.00000, soort 1.00000, wereldverbeteraar 1.00000, kritiek 1.00000, journalistieke 1.00000, bezweringen 1.00000, intenties 1.00000, begin 1.00000, redevoeringen 2.00000, beschouwingen 1.00000, epistel 1.00000, taal 8.00000, naam 2.00000, taalgebruik 3.00000, zin 1.00000, religieuze 1.00000, discussies 2.00000, beloftes 1.00000, en 4.00000, rede 1.00000, esthetische 1.00000, mededelingen 1.00000, intellectuele 1.00000, praatjes 3.00000, bewoordingen 3.00000, illusies 2.00000, titel 2.00000, principes 1.00000, verklaringen 2.00000, stukjes 1.00000, mythologische 1.00000, regels 1.00000, prognose 1.00000, oproepen 1.00000, cantates 1.00000, analyses 1.00000, toespraken 1.00000, christelijke 1.00000, doelen 2.00000, Billy 1.00000, teksten 8.00000, variant 1.00000, woorden 7.00000, thema's 2.00000, verwachtingen 2.00000, covers 1.00000, monologen 1.00000, propaganda 1.00000, beginselen 2.00000, poging 1.00000, gezemel 1.00000, hypocrisie 2.00000, argumenten 1.00000, composities 2.00000, gesprekken 1.00000, beschrijvingen 1.00000, maar 2.00000, ontkenningen 1.00000, redes 1.00000, intellectualisme 1.00000, geschrift 1.00000, liefdesbrief 1.00000, discussie 1.00000, speculaties 1.00000, zinnen 1.00000, retoriek 1.00000, rimram 1.00000, kritieken 1.00000, of 2.00000, surrealistische 1.00000, passie 1.00000, beeldspraak 1.00000, redevoering 1.00000, motto 1.00000, programma's 2.00000, burgerlijkheid 1.00000, betogen 1.00000, trivialiteiten 1.00000, traktaten 1.00000, pretenties 1.00000, gezwets 1.00000, onzin 1.00000, kunstwoord 1.00000, staatsrechtelijke 1.00000, odes 1.00000, opvattingen 1.00000, uitingen 1.00000, essays 1.00000, eisen 1.00000, artistieke 1.00000, uitspraken 1.00000, algemeenheden 1.00000, idealisme 1.00000, bespiegelingen 1.00000, termen 2.00000, beloften 1.00000, gepraat 1.00000, verhandelingen 1.00000, beschouwing 1.00000, tekst 2.00000, eis 1.00000, montages 1.00000, dialogen 2.00000, gezwam 1.00000, van 1.00000, protest 1.00000, proza 1.00000, dogma's 1.00000, benamingen 1.00000, kwalificaties 1.00000, conversatie 2.00000, verhalen 2.00000, aanpak 1.00000, wollige 1.00000, ondertitel 1.00000, politieke 1.00000, Engelse 1.00000, mensen 1.00000, suspense 1.00000, gedachtes 1.00000, kretologie 1.00000, diepgang 1.00000, disputen 1.00000, Franse 1.00000, bedoelingen 1.00000, praatjesmaker 1.00000, treurzang 1.00000, geschriften 1.00000 }        0.0000000000000
+# k=1, 195 Neighbor(s) at distance: 	0.0000000000000
+#	hoogdravende { zaken 1.00000, karakter 1.00000, ambities 4.00000, idealen 3.00000, plannen 5.00000, ingewikkeldheid 1.00000, toon 4.00000, soort 1.00000, wereldverbeteraar 1.00000, kritiek 1.00000, journalistieke 1.00000, bezweringen 1.00000, intenties 1.00000, begin 1.00000, redevoeringen 2.00000, beschouwingen 1.00000, epistel 1.00000, taal 8.00000, naam 2.00000, taalgebruik 3.00000, zin 1.00000, religieuze 1.00000, discussies 2.00000, beloftes 1.00000, en 4.00000, rede 1.00000, esthetische 1.00000, mededelingen 1.00000, intellectuele 1.00000, praatjes 3.00000, bewoordingen 3.00000, illusies 2.00000, titel 2.00000, principes 1.00000, verklaringen 2.00000, stukjes 1.00000, mythologische 1.00000, regels 1.00000, prognose 1.00000, oproepen 1.00000, cantates 1.00000, analyses 1.00000, toespraken 1.00000, christelijke 1.00000, doelen 2.00000, Billy 1.00000, teksten 8.00000, variant 1.00000, woorden 7.00000, thema's 2.00000, verwachtingen 2.00000, covers 1.00000, monologen 1.00000, propaganda 1.00000, beginselen 2.00000, poging 1.00000, gezemel 1.00000, hypocrisie 2.00000, argumenten 1.00000, composities 2.00000, gesprekken 1.00000, beschrijvingen 1.00000, maar 2.00000, ontkenningen 1.00000, redes 1.00000, intellectualisme 1.00000, geschrift 1.00000, liefdesbrief 1.00000, discussie 1.00000, speculaties 1.00000, zinnen 1.00000, retoriek 1.00000, rimram 1.00000, kritieken 1.00000, of 2.00000, surrealistische 1.00000, passie 1.00000, beeldspraak 1.00000, redevoering 1.00000, motto 1.00000, programma's 2.00000, burgerlijkheid 1.00000, betogen 1.00000, trivialiteiten 1.00000, traktaten 1.00000, pretenties 1.00000, gezwets 1.00000, onzin 1.00000, kunstwoord 1.00000, staatsrechtelijke 1.00000, odes 1.00000, opvattingen 1.00000, uitingen 1.00000, essays 1.00000, eisen 1.00000, artistieke 1.00000, uitspraken 1.00000, algemeenheden 1.00000, idealisme 1.00000, bespiegelingen 1.00000, termen 2.00000, beloften 1.00000, gepraat 1.00000, verhandelingen 1.00000, beschouwing 1.00000, tekst 2.00000, eis 1.00000, montages 1.00000, dialogen 2.00000, gezwam 1.00000, van 1.00000, protest 1.00000, proza 1.00000, dogma's 1.00000, benamingen 1.00000, kwalificaties 1.00000, conversatie 2.00000, verhalen 2.00000, aanpak 1.00000, wollige 1.00000, ondertitel 1.00000, politieke 1.00000, Engelse 1.00000, mensen 1.00000, suspense 1.00000, gedachtes 1.00000, kretologie 1.00000, diepgang 1.00000, disputen 1.00000, Franse 1.00000, bedoelingen 1.00000, praatjesmaker 1.00000, treurzang 1.00000, geschriften 1.00000 }

@@ -1,0 +1,1314 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 17:08:21 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+Calculating Entropy         Mon Jan 24 17:08:21 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 266 microseconds
+Feature Permutation based on Default Ordering :
+< 1, 2, 3 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Size of InstanceBase = 33 Nodes, (1320 bytes), 31.25 % compression
+Learning took 0 seconds, 0 milliseconds and 407 microseconds
+Writing Instance-Base in: tree.DO
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Mon Jan 24 17:08:21 2011
+Tested:      2 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Mon Jan 24 17:08:21 2011
+Tested:      5 @ Mon Jan 24 17:08:21 2011
+Ready:       5 @ Mon Jan 24 17:08:21 2011
+Seconds taken: 0.0002 (23041.47 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+# Status: complete
+# Permutation: < 1, 2, 3 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	+
+2	-
+Features
+1	B
+2	geel
+3	2
+4	rood
+5	3
+6	A
+7	C
+8	wit
+9	4
+10	1
+
+(1{ 1 17, 2 12 }[1(1[2(1[3(1{ 1 2, 2 1 })
+,5(1{ 1 1 })
+,9(1{ 1 2 })
+]
+)
+,4(1[3(1{ 1 2, 2 1 })
+,5(1{ 1 3 })
+,9(2{ 2 1 })
+,10(1{ 1 3, 2 2 })
+]
+)
+]
+)
+,6(2[2(2[3(2{ 2 1 })
+,9(2{ 2 1 })
+]
+)
+,8(2[3(2{ 2 2 })
+]
+)
+]
+)
+,7(1[4(2[5(2{ 1 1, 2 2 })
+]
+)
+,8(1[5(1{ 1 3, 2 1 })
+]
+)
+]
+)
+]
+)
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 17:08:21 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+Calculating Entropy         Mon Jan 24 17:08:21 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 246 microseconds
+Feature Permutation based on GainRatio :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 410 microseconds
+Writing Instance-Base in: tree.GR
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Mon Jan 24 17:08:21 2011
+Tested:      2 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Mon Jan 24 17:08:21 2011
+Tested:      5 @ Mon Jan 24 17:08:21 2011
+Ready:       5 @ Mon Jan 24 17:08:21 2011
+Seconds taken: 0.0002 (22935.78 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+# Status: complete
+# Permutation: < 1, 3, 2 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	+
+2	-
+Features
+1	B
+2	geel
+3	2
+4	rood
+5	3
+6	A
+7	C
+8	wit
+9	4
+10	1
+
+(1{ 1 17, 2 12 }[1(1[3(1[2(1{ 1 2, 2 1 })
+,4(1{ 1 2, 2 1 })
+]
+)
+,5(1[2(1{ 1 1 })
+,4(1{ 1 3 })
+]
+)
+,9(1[2(1{ 1 2 })
+,4(2{ 2 1 })
+]
+)
+,10(1[4(1{ 1 3, 2 2 })
+]
+)
+]
+)
+,6(2[3(2[2(2{ 2 1 })
+,8(2{ 2 2 })
+]
+)
+,9(2[2(2{ 2 1 })
+]
+)
+]
+)
+,7(1[5(1[4(2{ 1 1, 2 2 })
+,8(1{ 1 3, 2 1 })
+]
+)
+]
+)
+]
+)
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 17:08:21 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+Calculating Entropy         Mon Jan 24 17:08:21 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 241 microseconds
+Feature Permutation based on InformationGain :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 402 microseconds
+Writing Instance-Base in: tree.IG
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Mon Jan 24 17:08:21 2011
+Tested:      2 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Mon Jan 24 17:08:21 2011
+Tested:      5 @ Mon Jan 24 17:08:21 2011
+Ready:       5 @ Mon Jan 24 17:08:21 2011
+Seconds taken: 0.0002 (23474.18 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+# Status: complete
+# Permutation: < 1, 3, 2 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	+
+2	-
+Features
+1	B
+2	geel
+3	2
+4	rood
+5	3
+6	A
+7	C
+8	wit
+9	4
+10	1
+
+(1{ 1 17, 2 12 }[1(1[3(1[2(1{ 1 2, 2 1 })
+,4(1{ 1 2, 2 1 })
+]
+)
+,5(1[2(1{ 1 1 })
+,4(1{ 1 3 })
+]
+)
+,9(1[2(1{ 1 2 })
+,4(2{ 2 1 })
+]
+)
+,10(1[4(1{ 1 3, 2 2 })
+]
+)
+]
+)
+,6(2[3(2[2(2{ 2 1 })
+,8(2{ 2 2 })
+]
+)
+,9(2[2(2{ 2 1 })
+]
+)
+]
+)
+,7(1[5(1[4(2{ 1 1, 2 2 })
+,8(1{ 1 3, 2 1 })
+]
+)
+]
+)
+]
+)
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 17:08:21 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+Calculating Entropy         Mon Jan 24 17:08:21 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 279 microseconds
+Feature Permutation based on Chi-Squared :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 404 microseconds
+Writing Instance-Base in: tree.X2
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Mon Jan 24 17:08:21 2011
+Tested:      2 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Mon Jan 24 17:08:21 2011
+Tested:      5 @ Mon Jan 24 17:08:21 2011
+Ready:       5 @ Mon Jan 24 17:08:21 2011
+Seconds taken: 0.0002 (23255.81 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+# Status: complete
+# Permutation: < 1, 3, 2 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	+
+2	-
+Features
+1	B
+2	geel
+3	2
+4	rood
+5	3
+6	A
+7	C
+8	wit
+9	4
+10	1
+
+(1{ 1 17, 2 12 }[1(1[3(1[2(1{ 1 2, 2 1 })
+,4(1{ 1 2, 2 1 })
+]
+)
+,5(1[2(1{ 1 1 })
+,4(1{ 1 3 })
+]
+)
+,9(1[2(1{ 1 2 })
+,4(2{ 2 1 })
+]
+)
+,10(1[4(1{ 1 3, 2 2 })
+]
+)
+]
+)
+,6(2[3(2[2(2{ 2 1 })
+,8(2{ 2 2 })
+]
+)
+,9(2[2(2{ 2 1 })
+]
+)
+]
+)
+,7(1[5(1[4(2{ 1 1, 2 2 })
+,8(1{ 1 3, 2 1 })
+]
+)
+]
+)
+]
+)
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 17:08:21 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+Calculating Entropy         Mon Jan 24 17:08:21 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 244 microseconds
+Feature Permutation based on Shared Variance :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 399 microseconds
+Writing Instance-Base in: tree.VO
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Mon Jan 24 17:08:21 2011
+Tested:      2 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Mon Jan 24 17:08:21 2011
+Tested:      5 @ Mon Jan 24 17:08:21 2011
+Ready:       5 @ Mon Jan 24 17:08:21 2011
+Seconds taken: 0.0002 (23474.18 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+# Status: complete
+# Permutation: < 1, 3, 2 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	+
+2	-
+Features
+1	B
+2	geel
+3	2
+4	rood
+5	3
+6	A
+7	C
+8	wit
+9	4
+10	1
+
+(1{ 1 17, 2 12 }[1(1[3(1[2(1{ 1 2, 2 1 })
+,4(1{ 1 2, 2 1 })
+]
+)
+,5(1[2(1{ 1 1 })
+,4(1{ 1 3 })
+]
+)
+,9(1[2(1{ 1 2 })
+,4(2{ 2 1 })
+]
+)
+,10(1[4(1{ 1 3, 2 2 })
+]
+)
+]
+)
+,6(2[3(2[2(2{ 2 1 })
+,8(2{ 2 2 })
+]
+)
+,9(2[2(2{ 2 1 })
+]
+)
+]
+)
+,7(1[5(1[4(2{ 1 1, 2 2 })
+,8(1{ 1 3, 2 1 })
+]
+)
+]
+)
+]
+)
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 17:08:21 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+Calculating Entropy         Mon Jan 24 17:08:21 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 234 microseconds
+Feature Permutation based on Inverse Values :
+< 1, 2, 3 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Size of InstanceBase = 33 Nodes, (1320 bytes), 31.25 % compression
+Learning took 0 seconds, 0 milliseconds and 396 microseconds
+Writing Instance-Base in: tree.1V
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Mon Jan 24 17:08:21 2011
+Tested:      2 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Mon Jan 24 17:08:21 2011
+Tested:      5 @ Mon Jan 24 17:08:21 2011
+Ready:       5 @ Mon Jan 24 17:08:21 2011
+Seconds taken: 0.0002 (23696.68 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+# Status: complete
+# Permutation: < 1, 2, 3 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	+
+2	-
+Features
+1	B
+2	geel
+3	2
+4	rood
+5	3
+6	A
+7	C
+8	wit
+9	4
+10	1
+
+(1{ 1 17, 2 12 }[1(1[2(1[3(1{ 1 2, 2 1 })
+,5(1{ 1 1 })
+,9(1{ 1 2 })
+]
+)
+,4(1[3(1{ 1 2, 2 1 })
+,5(1{ 1 3 })
+,9(2{ 2 1 })
+,10(1{ 1 3, 2 2 })
+]
+)
+]
+)
+,6(2[2(2[3(2{ 2 1 })
+,9(2{ 2 1 })
+]
+)
+,8(2[3(2{ 2 2 })
+]
+)
+]
+)
+,7(1[4(2[5(2{ 1 1, 2 2 })
+]
+)
+,8(1[5(1{ 1 3, 2 1 })
+]
+)
+]
+)
+]
+)
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 17:08:21 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+Calculating Entropy         Mon Jan 24 17:08:21 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 238 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 397 microseconds
+Writing Instance-Base in: tree.GV
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Mon Jan 24 17:08:21 2011
+Tested:      2 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Mon Jan 24 17:08:21 2011
+Tested:      5 @ Mon Jan 24 17:08:21 2011
+Ready:       5 @ Mon Jan 24 17:08:21 2011
+Seconds taken: 0.0002 (23255.81 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+# Status: complete
+# Permutation: < 1, 3, 2 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	+
+2	-
+Features
+1	B
+2	geel
+3	2
+4	rood
+5	3
+6	A
+7	C
+8	wit
+9	4
+10	1
+
+(1{ 1 17, 2 12 }[1(1[3(1[2(1{ 1 2, 2 1 })
+,4(1{ 1 2, 2 1 })
+]
+)
+,5(1[2(1{ 1 1 })
+,4(1{ 1 3 })
+]
+)
+,9(1[2(1{ 1 2 })
+,4(2{ 2 1 })
+]
+)
+,10(1[4(1{ 1 3, 2 2 })
+]
+)
+]
+)
+,6(2[3(2[2(2{ 2 1 })
+,8(2{ 2 2 })
+]
+)
+,9(2[2(2{ 2 1 })
+]
+)
+]
+)
+,7(1[5(1[4(2{ 1 1, 2 2 })
+,8(1{ 1 3, 2 1 })
+]
+)
+]
+)
+]
+)
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 17:08:21 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+Calculating Entropy         Mon Jan 24 17:08:21 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 236 microseconds
+Feature Permutation based on InformationGain/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 405 microseconds
+Writing Instance-Base in: tree.IV
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Mon Jan 24 17:08:21 2011
+Tested:      2 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Mon Jan 24 17:08:21 2011
+Tested:      5 @ Mon Jan 24 17:08:21 2011
+Ready:       5 @ Mon Jan 24 17:08:21 2011
+Seconds taken: 0.0002 (23809.52 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+# Status: complete
+# Permutation: < 1, 3, 2 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	+
+2	-
+Features
+1	B
+2	geel
+3	2
+4	rood
+5	3
+6	A
+7	C
+8	wit
+9	4
+10	1
+
+(1{ 1 17, 2 12 }[1(1[3(1[2(1{ 1 2, 2 1 })
+,4(1{ 1 2, 2 1 })
+]
+)
+,5(1[2(1{ 1 1 })
+,4(1{ 1 3 })
+]
+)
+,9(1[2(1{ 1 2 })
+,4(2{ 2 1 })
+]
+)
+,10(1[4(1{ 1 3, 2 2 })
+]
+)
+]
+)
+,6(2[3(2[2(2{ 2 1 })
+,8(2{ 2 2 })
+]
+)
+,9(2[2(2{ 2 1 })
+]
+)
+]
+)
+,7(1[5(1[4(2{ 1 1, 2 2 })
+,8(1{ 1 3, 2 1 })
+]
+)
+]
+)
+]
+)
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 17:08:21 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+Calculating Entropy         Mon Jan 24 17:08:21 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 246 microseconds
+Feature Permutation based on Chi-Squared/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 403 microseconds
+Writing Instance-Base in: tree.SX
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Mon Jan 24 17:08:21 2011
+Tested:      2 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Mon Jan 24 17:08:21 2011
+Tested:      5 @ Mon Jan 24 17:08:21 2011
+Ready:       5 @ Mon Jan 24 17:08:21 2011
+Seconds taken: 0.0002 (23696.68 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+# Status: complete
+# Permutation: < 1, 3, 2 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	+
+2	-
+Features
+1	B
+2	geel
+3	2
+4	rood
+5	3
+6	A
+7	C
+8	wit
+9	4
+10	1
+
+(1{ 1 17, 2 12 }[1(1[3(1[2(1{ 1 2, 2 1 })
+,4(1{ 1 2, 2 1 })
+]
+)
+,5(1[2(1{ 1 1 })
+,4(1{ 1 3 })
+]
+)
+,9(1[2(1{ 1 2 })
+,4(2{ 2 1 })
+]
+)
+,10(1[4(1{ 1 3, 2 2 })
+]
+)
+]
+)
+,6(2[3(2[2(2{ 2 1 })
+,8(2{ 2 2 })
+]
+)
+,9(2[2(2{ 2 1 })
+]
+)
+]
+)
+,7(1[5(1[4(2{ 1 1, 2 2 })
+,8(1{ 1 3, 2 1 })
+]
+)
+]
+)
+]
+)
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 17:08:21 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+Calculating Entropy         Mon Jan 24 17:08:21 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 245 microseconds
+Feature Permutation based on Shared Variance/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 399 microseconds
+Writing Instance-Base in: tree.SV
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Mon Jan 24 17:08:21 2011
+Tested:      2 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Mon Jan 24 17:08:21 2011
+Tested:      5 @ Mon Jan 24 17:08:21 2011
+Ready:       5 @ Mon Jan 24 17:08:21 2011
+Seconds taken: 0.0002 (23041.47 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+# Status: complete
+# Permutation: < 1, 3, 2 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	+
+2	-
+Features
+1	B
+2	geel
+3	2
+4	rood
+5	3
+6	A
+7	C
+8	wit
+9	4
+10	1
+
+(1{ 1 17, 2 12 }[1(1[3(1[2(1{ 1 2, 2 1 })
+,4(1{ 1 2, 2 1 })
+]
+)
+,5(1[2(1{ 1 1 })
+,4(1{ 1 3 })
+]
+)
+,9(1[2(1{ 1 2 })
+,4(2{ 2 1 })
+]
+)
+,10(1[4(1{ 1 3, 2 2 })
+]
+)
+]
+)
+,6(2[3(2[2(2{ 2 1 })
+,8(2{ 2 2 })
+]
+)
+,9(2[2(2{ 2 1 })
+]
+)
+]
+)
+,7(1[5(1[4(2{ 1 1, 2 2 })
+,8(1{ 1 3, 2 1 })
+]
+)
+]
+)
+]
+)
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 17:08:21 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+Calculating Entropy         Mon Jan 24 17:08:21 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 233 microseconds
+Feature Permutation based on Inverse SplitInfo :
+< 1, 2, 3 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Mon Jan 24 17:08:21 2011
+Finished:      29 @ Mon Jan 24 17:08:21 2011
+
+Size of InstanceBase = 33 Nodes, (1320 bytes), 31.25 % compression
+Learning took 0 seconds, 0 milliseconds and 404 microseconds
+Writing Instance-Base in: tree.1S
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Mon Jan 24 17:08:21 2011
+Tested:      2 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Mon Jan 24 17:08:21 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Mon Jan 24 17:08:21 2011
+Tested:      5 @ Mon Jan 24 17:08:21 2011
+Ready:       5 @ Mon Jan 24 17:08:21 2011
+Seconds taken: 0.0002 (23255.81 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+# Status: complete
+# Permutation: < 1, 2, 3 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	+
+2	-
+Features
+1	B
+2	geel
+3	2
+4	rood
+5	3
+6	A
+7	C
+8	wit
+9	4
+10	1
+
+(1{ 1 17, 2 12 }[1(1[2(1[3(1{ 1 2, 2 1 })
+,5(1{ 1 1 })
+,9(1{ 1 2 })
+]
+)
+,4(1[3(1{ 1 2, 2 1 })
+,5(1{ 1 3 })
+,9(2{ 2 1 })
+,10(1{ 1 3, 2 2 })
+]
+)
+]
+)
+,6(2[2(2[3(2{ 2 1 })
+,9(2{ 2 1 })
+]
+)
+,8(2[3(2{ 2 2 })
+]
+)
+]
+)
+,7(1[4(2[5(2{ 1 1, 2 2 })
+]
+)
+,8(1[5(1{ 1 3, 2 1 })
+]
+)
+]
+)
+]
+)

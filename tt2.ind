@@ -1,0 +1,4 @@
+-t ./tests/klein_1.test -mO -k3 -x +v di+cm+as+cs
+-t ./tests/klein_1.test -mM -k3 -x +v di
+-t ./tests/klein_1.test -mM -x -k3 +v di -wtt2.wgt:2
+-t ./tests/klein_1.test -mO -k3 -x +v di -wtt2.wgt:2

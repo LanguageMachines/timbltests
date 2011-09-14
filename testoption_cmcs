@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+
+$comm -f ./tests/big.train -mM -t ./tests/big.test +vdi+db+cm+cs -e 50 -oout1 
+tail -20 < out1 
+$comm -f ./tests/big.train -mM -t ./tests/big.test --silly=YES +vdb+cm -e 50 -oout2
+tail -20 < out2 
+$comm -f ./tests/big.train -a1 -t ./tests/big.test +D +vdb+cm+cs -e 50 -oout3 
+tail -20 < out3 

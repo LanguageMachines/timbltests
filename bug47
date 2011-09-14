@@ -1,0 +1,5 @@
+#!/bin/sh
+
+$comm -f tests/bug47.train -t tests/bug47.test -mD +vdi+db -obug47.out
+cat bug47.out
+

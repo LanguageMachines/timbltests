@@ -1,0 +1,336 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Wed Jan 26 10:53:08 2011
+
+Examine datafile './tests/data.expand' gave the following results:
+Number of Features: 12
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/data.expand
+Start:          0 @ Wed Jan 26 10:53:08 2011
+Finished:       9 @ Wed Jan 26 10:53:08 2011
+Calculating Entropy         Wed Jan 26 10:53:08 2011
+Lines of data     : 9
+Warning:The following feature(s) have only 1 value: 1-2, 6
+DB Entropy        : 0.91829583
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      1	0.0000000	0.0000000
+    2      1	0.0000000	0.0000000
+    3      3	0.30609861	0.19312672 NUMERIC
+    4      2	0.25162917	0.27401754 NUMERIC
+    5      2	0.15200728	0.19890917 NUMERIC
+    6      1	0.0000000	0.0000000
+    7      3	0.24697984	0.25037829 NUMERIC
+    8      2	0.19715972	0.39176643 NUMERIC
+    9      2	0.0000000	0.0000000 NUMERIC
+   10      2	0.17884894	0.19476179 NUMERIC
+   11      3	0.30609861	0.19312672 NUMERIC
+   12      2	0.17884894	0.19476179 NUMERIC
+
+Preparation took 0 seconds, 0 milliseconds and 443 microseconds
+Feature Permutation based on GainRatio/Values :
+< 8, 4, 5, 10, 12, 7, 3, 11, 1, 2, 6, 9 >
+Phase 2: Building multi index on Datafile: ./tests/data.expand
+Start:          0 @ Wed Jan 26 10:53:08 2011
+Finished:       9 @ Wed Jan 26 10:53:08 2011
+
+Phase 3: Learning from Datafile: ./tests/data.expand
+Start:          0 @ Wed Jan 26 10:53:08 2011
+Finished:       9 @ Wed Jan 26 10:53:08 2011
+
+Size of InstanceBase = 78 Nodes, (3120 bytes), 14.29 % compression
+Learning took 0 seconds, 0 milliseconds and 264 microseconds
+Examine datafile './tests/data.test.expand' gave the following results:
+Number of Features: 12
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/data.test.expand
+Writing output in:          test.out1
+Algorithm     : IB1
+Global metric : Cosine metric
+Deviant Feature Metrics:
+   Feature[1] : Overlap
+   Feature[2] : Overlap
+   Feature[6] : Overlap
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.000000000000000
+Feature 3	 : 0.193126721428565
+Feature 4	 : 0.274017542121281
+Feature 5	 : 0.198909169614943
+Feature 6	 : 0.000000000000000
+Feature 7	 : 0.250378288713053
+Feature 8	 : 0.391766434453676
+Feature 9	 : 0.000000000000000
+Feature 10	 : 0.194761791322118
+Feature 11	 : 0.193126721428565
+Feature 12	 : 0.194761791322118
+
+Tested:      1 @ Wed Jan 26 10:53:08 2011
+Tested:      2 @ Wed Jan 26 10:53:08 2011
+Tested:      3 @ Wed Jan 26 10:53:08 2011
+Tested:      4 @ Wed Jan 26 10:53:08 2011
+Tested:      5 @ Wed Jan 26 10:53:08 2011
+Ready:       5 @ Wed Jan 26 10:53:08 2011
+Seconds taken: 0.0039 (1290.99 p/s)
+
+overall accuracy:        0.600000  (3/5)
+There was 1 tie of which 1 (100.00%) was correctly resolved
+0.5 0.6 0.8 0.1 0.5 0.6 0.8 0.1 0.5 0.6 0.8 0.1 y x { x 1.00000 }        0.96973323822021
+0.5 0.6 0.8 0.1 0.2 0.6 0.7 0.8 0.5 0.1 0.1 0.8 x x { x 1.00000 }        1.0000000000000
+0.5 0.6 0.7 0.8 0.5 0.1 0.1 0.8 0.2 0.1 0.7 0.8 y x { x 1.00000 }        0.95027375221252
+0.5 0.6 0.7 0.8 0.5 0.6 0.7 0.8 0.5 0.6 0.8 0.1 x x { x 2.00000, y 1.00000 }        0.99054360389709
+0.5 0.6 0.8 0.1 0.5 0.6 0.7 0.8 0.5 0.6 0.8 0.1 x x { x 1.00000 }        0.98338747024536
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Wed Jan 26 10:53:08 2011
+
+Examine datafile './tests/data.expand' gave the following results:
+Number of Features: 12
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/data.expand
+Start:          0 @ Wed Jan 26 10:53:08 2011
+Finished:       9 @ Wed Jan 26 10:53:08 2011
+Calculating Entropy         Wed Jan 26 10:53:08 2011
+Lines of data     : 9
+Warning:The following feature(s) have only 1 value: 1-2, 6
+DB Entropy        : 0.91829583
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      1	0.0000000	0.0000000
+    2      1	0.0000000	0.0000000
+    3      3	0.30609861	0.19312672 NUMERIC
+    4      2	0.25162917	0.27401754 NUMERIC
+    5      2	0.15200728	0.19890917 NUMERIC
+    6      1	0.0000000	0.0000000
+    7      3	0.24697984	0.25037829 NUMERIC
+    8      2	0.19715972	0.39176643 NUMERIC
+    9      2	0.0000000	0.0000000 NUMERIC
+   10      2	0.17884894	0.19476179 NUMERIC
+   11      3	0.30609861	0.19312672 NUMERIC
+   12      2	0.17884894	0.19476179 NUMERIC
+
+Preparation took 0 seconds, 0 milliseconds and 459 microseconds
+Feature Permutation based on GainRatio/Values :
+< 8, 4, 5, 10, 12, 7, 3, 11, 1, 2, 6, 9 >
+Phase 2: Building multi index on Datafile: ./tests/data.expand
+Start:          0 @ Wed Jan 26 10:53:08 2011
+Finished:       9 @ Wed Jan 26 10:53:08 2011
+
+Phase 3: Learning from Datafile: ./tests/data.expand
+Start:          0 @ Wed Jan 26 10:53:08 2011
+Finished:       9 @ Wed Jan 26 10:53:08 2011
+
+Size of InstanceBase = 78 Nodes, (3120 bytes), 14.29 % compression
+Learning took 0 seconds, 0 milliseconds and 261 microseconds
+Examine datafile './tests/data.test.expand' gave the following results:
+Number of Features: 12
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/data.test.expand
+Writing output in:          test.out2
+Algorithm     : IB1
+Global metric : Dot product
+Deviant Feature Metrics:
+   Feature[1] : Overlap
+   Feature[2] : Overlap
+   Feature[6] : Overlap
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.000000000000000
+Feature 3	 : 0.193126721428565
+Feature 4	 : 0.274017542121281
+Feature 5	 : 0.198909169614943
+Feature 6	 : 0.000000000000000
+Feature 7	 : 0.250378288713053
+Feature 8	 : 0.391766434453676
+Feature 9	 : 0.000000000000000
+Feature 10	 : 0.194761791322118
+Feature 11	 : 0.193126721428565
+Feature 12	 : 0.194761791322118
+
+Tested:      1 @ Wed Jan 26 10:53:08 2011
+Tested:      2 @ Wed Jan 26 10:53:08 2011
+Tested:      3 @ Wed Jan 26 10:53:08 2011
+Tested:      4 @ Wed Jan 26 10:53:08 2011
+Tested:      5 @ Wed Jan 26 10:53:08 2011
+Ready:       5 @ Wed Jan 26 10:53:08 2011
+Seconds taken: 0.0019 (2652.52 p/s)
+
+overall accuracy:        0.400000  (2/5)
+There were 3 ties of which 1 (33.33%) were correctly resolved
+0.5 0.6 0.8 0.1 0.5 0.6 0.8 0.1 0.5 0.6 0.8 0.1 y y { x 1.00000, y 2.00000 }        0.50066542625427
+0.5 0.6 0.8 0.1 0.2 0.6 0.7 0.8 0.5 0.1 0.1 0.8 x y { y 1.00000 }        0.66349315643311
+0.5 0.6 0.7 0.8 0.5 0.1 0.1 0.8 0.2 0.1 0.7 0.8 y y { y 1.00000 }        0.80921483039856
+0.5 0.6 0.7 0.8 0.5 0.6 0.7 0.8 0.5 0.6 0.8 0.1 x y { x 1.00000, y 2.00000 }        0.84825277328491
+0.5 0.6 0.8 0.1 0.5 0.6 0.7 0.8 0.5 0.6 0.8 0.1 x y { x 1.00000, y 2.00000 }        0.70252799987793
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Wed Jan 26 10:53:08 2011
+
+Examine datafile './tests/dot_product.train' gave the following results:
+Number of Features: 4
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/dot_product.train
+Start:          0 @ Wed Jan 26 10:53:08 2011
+Finished:       8 @ Wed Jan 26 10:53:08 2011
+Calculating Entropy         Wed Jan 26 10:53:08 2011
+Lines of data     : 8
+DB Entropy        : 3.0000000
+Number of Classes : 8
+
+Feats	Vals	InfoGain	GainRatio
+    1      2	0.81127812	1.0000000 NUMERIC
+    2      3	1.2987949	1.0000000 NUMERIC
+    3      3	1.2987949	1.0000000 NUMERIC
+    4      2	0.81127812	1.0000000 NUMERIC
+
+Preparation took 0 seconds, 0 milliseconds and 279 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 4, 2, 3 >
+Phase 2: Building multi index on Datafile: ./tests/dot_product.train
+Start:          0 @ Wed Jan 26 10:53:08 2011
+Finished:       8 @ Wed Jan 26 10:53:08 2011
+
+Phase 3: Learning from Datafile: ./tests/dot_product.train
+Start:          0 @ Wed Jan 26 10:53:08 2011
+Finished:       8 @ Wed Jan 26 10:53:08 2011
+
+Size of InstanceBase = 27 Nodes, (1080 bytes), 32.50 % compression
+Learning took 0 seconds, 0 milliseconds and 248 microseconds
+Examine datafile './tests/dot_product.test' gave the following results:
+Number of Features: 4
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/dot_product.test
+Writing output in:          test.out3
+Algorithm     : IB1
+Global metric : Dot product
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+Feature 4	 : 1.000000000000000
+
+Tested:      1 @ Wed Jan 26 10:53:08 2011
+Tested:      2 @ Wed Jan 26 10:53:08 2011
+Tested:      3 @ Wed Jan 26 10:53:08 2011
+Tested:      4 @ Wed Jan 26 10:53:08 2011
+Tested:      5 @ Wed Jan 26 10:53:08 2011
+Tested:      6 @ Wed Jan 26 10:53:08 2011
+Tested:      7 @ Wed Jan 26 10:53:08 2011
+Tested:      8 @ Wed Jan 26 10:53:08 2011
+Tested:      9 @ Wed Jan 26 10:53:08 2011
+Tested:     10 @ Wed Jan 26 10:53:08 2011
+Ready:      12 @ Wed Jan 26 10:53:08 2011
+Seconds taken: 0.0013 (9302.33 p/s)
+
+overall accuracy:        0.416667  (5/12)
+There were 4 ties of which 3 (75.00%) were correctly resolved
+1,0,0,0,p,p { p 1.00000, x 1.00000 }        1.0000000000000
+0,1,0,0,q,raar { raar 1.00000 }        1.0999999046326
+0,0,1,0,r,raar { raar 1.00000 }        2.0000000000000
+0,0,0,1,s,s { s 1.00000, z 1.00000 }        1.0000000000000
+0,0,0,0,null,p { p 1.00000, q 1.00000, r 1.00000, s 1.00000, null 1.00000, x 1.00000, z 1.00000, raar 1.00000 }        0.0000000000000
+1,1,0,0,x,x { x 1.00000 }        2.0000000000000
+0,0,1,1,z,z { z 1.00000, raar 1.00000 }        2.0000000000000
+1,1,1,0,pqr,raar { raar 1.00000 }        3.0999999046326
+1,0,1,0,pr,raar { raar 1.00000 }        2.0000000000000
+1,1,1,1,pqrs,raar { raar 1.00000 }        3.0999999046326
+0,1.1,100000,0,fout,raar { raar 1.00000 }        200001.21000004
+0,1.1,2,0,raar,raar { raar 1.00000 }        5.2100000381470
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Wed Jan 26 10:53:08 2011
+
+Examine datafile './tests/dot_product.train' gave the following results:
+Number of Features: 4
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/dot_product.train
+Start:          0 @ Wed Jan 26 10:53:08 2011
+Finished:       8 @ Wed Jan 26 10:53:08 2011
+Calculating Entropy         Wed Jan 26 10:53:08 2011
+Lines of data     : 8
+DB Entropy        : 3.0000000
+Number of Classes : 8
+
+Feats	Vals	InfoGain	GainRatio
+    1      2	0.81127812	1.0000000 NUMERIC
+    2      3	1.2987949	1.0000000 NUMERIC
+    3      3	1.2987949	1.0000000 NUMERIC
+    4      2	0.81127812	1.0000000 NUMERIC
+
+Preparation took 0 seconds, 0 milliseconds and 286 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 4, 2, 3 >
+Phase 2: Building multi index on Datafile: ./tests/dot_product.train
+Start:          0 @ Wed Jan 26 10:53:08 2011
+Finished:       8 @ Wed Jan 26 10:53:08 2011
+
+Phase 3: Learning from Datafile: ./tests/dot_product.train
+Start:          0 @ Wed Jan 26 10:53:08 2011
+Finished:       8 @ Wed Jan 26 10:53:08 2011
+
+Size of InstanceBase = 27 Nodes, (1080 bytes), 32.50 % compression
+Learning took 0 seconds, 0 milliseconds and 248 microseconds
+Examine datafile './tests/dot_product.test' gave the following results:
+Number of Features: 4
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/dot_product.test
+Writing output in:          test.out4
+Algorithm     : IB1
+Global metric : Cosine metric
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+Feature 4	 : 1.000000000000000
+
+Tested:      1 @ Wed Jan 26 10:53:08 2011
+Tested:      2 @ Wed Jan 26 10:53:08 2011
+Tested:      3 @ Wed Jan 26 10:53:08 2011
+Tested:      4 @ Wed Jan 26 10:53:08 2011
+Tested:      5 @ Wed Jan 26 10:53:08 2011
+Tested:      6 @ Wed Jan 26 10:53:08 2011
+Tested:      7 @ Wed Jan 26 10:53:08 2011
+Tested:      8 @ Wed Jan 26 10:53:08 2011
+Tested:      9 @ Wed Jan 26 10:53:08 2011
+Tested:     10 @ Wed Jan 26 10:53:08 2011
+Ready:      12 @ Wed Jan 26 10:53:08 2011
+Seconds taken: 0.0024 (4971.00 p/s)
+
+overall accuracy:        0.583333  (7/12)
+There was 1 tie of which 0 (0.00%) was correctly resolved
+1,0,0,0,p,p { p 1.00000 }        1.0000000000000
+0,1,0,0,q,q { q 1.00000 }        1.0000000000000
+0,0,1,0,r,r { r 1.00000 }        1.0000000000000
+0,0,0,1,s,s { s 1.00000 }        1.0000000000000
+0,0,0,0,null,p { p 1.00000, q 1.00000, r 1.00000, s 1.00000, null 1.00000, x 1.00000, z 1.00000, raar 1.00000 }        0.0000000000000
+1,1,0,0,x,x { x 1.00000 }        1.0000000000000
+0,0,1,1,z,z { z 1.00000 }        1.0000000000000
+1,1,1,0,pqr,raar { raar 1.00000 }        0.96034622192383
+1,0,1,0,pr,raar { raar 1.00000 }        0.87621593475342
+1,1,1,1,pqrs,raar { raar 1.00000 }        0.96034622192383
+0,1.1,100000,0,fout,r { r 1.00000 }        1.0000000000000
+0,1.1,2,0,raar,raar { raar 1.00000 }        1.0000000000000

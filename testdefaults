@@ -1,0 +1,20 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+$comm -f ./tests/bla.hum -t ./tests/klein.test
+$comm -f ./tests/leeg.train -t ./tests/klein.test
+$comm -f ./tests/example.train -t ./tests/leeg.train
+$comm -f ./tests/useless.train
+$comm -f ./tests/c45example.train -t ./tests/c45example.test +vdi+db
+cat < ./tests/c45example.test.IB1.O.gr.k1.out 
+$comm -f ./tests/c45example.train -t ./tests/c45example.test +vDI+DB +x
+cat < ./tests/c45example.test.IB1.O.gr.k1.X.out 
+$comm -f ./tests/example.train -A -t ./tests/example.test -% +vDI +x
+$comm -t ./tests/example.test -i ./tests/wrong.boom
+$comm -f ./tests/c45wierd.train -t ./tests/c45wierd.train +x 
+cat < ./tests/c45wierd.train.IB1.O.gr.k1.X.out
+$comm -f ./tests/example.train -t ./tests/example.test -k 666666
+
+

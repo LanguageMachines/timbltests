@@ -1,0 +1,8 @@
+new exp
+exp.train ./tests/klein.train
+exp.save tst.tree
+exp.set exact_match false
+exp.set weighting infogain
+exp.test ./tests/klein.test
+exp.set use_inverted false
+exp.test ./tests/klein.test

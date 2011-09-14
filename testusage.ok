@@ -1,0 +1,136 @@
+TiMBL 6.4.2 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Sep  1 15:08:00 2011
+
+usage: timbl -f data-file {-t test-file} [options]
+Algorithm and Metric options:
+-a n      : algorithm
+     0 or IB1   : IB1     (default)
+     1 or IG    : IGTree
+     2 or TRIBL : TRIBL
+     3 or IB2   : IB2
+     4 or TRIBL2 : TRIBL2
+-m s      : use feature metrics as specified in string s:
+            format: GlobalMetric:MetricRange:MetricRange
+            e.g.: mO:N3:I2,5-7
+     C: Cosine distance. (Global only. numeric features implied)
+     D: Dot product. (Global only. numeric features implied)
+     DC: Dice Coefficient
+     O: weighted Overlap (default)
+     L: Levenshtein distance
+     E: Euclidean Distance
+     M: Modified value difference
+     J: Jeffrey Divergence
+     S: Jensen-Shannon Divergence
+     N: numeric values
+     I: Ignore named  values
+-w n      : Weighting
+     0 or nw: No Weighting
+     1 or gr: Weight using GainRatio (default)
+     2 or ig: Weight using InfoGain
+     3 or x2: Weight using Chi-square
+     4 or sv: Weight using Shared Variance
+     5 or sd: Weight using Standard Deviation. (all features must be numeric)
+-w f      : read Weights from file 'f'
+-w f:n    : read Weight n from file 'f'
+-b n      : number of lines used for bootstrapping (IB2 only)
+--clones=<num> : use 'n' threads for parallel testing
+--Diversify: rescale weight (see docs)
+-d val    : weight neighbors as function of their distance:
+     Z      : equal weights to all (default)
+     ID     : Inverse Distance
+     IL     : Inverse Linear
+     ED:a   : Exponential Decay with factor a (no whitespace!)
+     ED:a:b : Exponential Decay with factor a and b (no whitespace!)
+-k n      : k nearest neighbors (default n = 1)
+-q n      : TRIBL treshold at level n
+-L n      : MVDM treshold at level n
+-R n      : solve ties at random with seed n
+-t  f     : test using file 'f'
+-t leave_one_out: test with Leave One Out,using IB1
+ you may add -sloppy to speed up Leave One Out testing (see docs)
+-t cross_validate: Cross Validate Test,using IB1
+   @f     : test using files and options described in file 'f'
+            Supported options: d e F k m o p q R t u v w x % -
+            -t <file> is mandatory
+Input options:
+-f f      : read from Datafile 'f'
+-f f      : OR: use filenames from 'f' for CV test
+-F format : Assume the specified inputformat
+            (Compact, C4.5, ARFF, Columns, Binary, Sparse )
+-l n      : length of Features (Compact format only)
+-i f      : read the InstanceBase from file 'f' (skips phase 1 & 2 )
+--matrixin=<f> read ValueDifference Matrices from file 'f'
+-u f      : read value_class probabilities from file 'f'
+-P d      : read data using path 'd'
+-s        : use exemplar weights from the input file
+-s0       : silently ignore the exemplar weights from the input file
+-T n      : use input field 'n' as the target. (default is: the last field)
+Output options:
+-e n      : estimate time until n patterns tested
+--Beam=<n> : limit +v db output to n highest-vote classes
+-I f      : dump the InstanceBase in file 'f'
+--matrixout=<f> store ValueDifference Matrices in file 'f'
+-X f      : dump the InstanceBase as XML in file 'f'
+-n f      : create names file 'f'
+-p n      : show progress every n lines (default p = 100,000)
+-U f      : save value_class probabilities in file 'f'
+-V        : Show VERSION
++v or -v level : set or unset verbosity level, where level is
+      s:  work silently
+      o:  show all options set
+      b:  show node/branch count and branching factor
+      f:  show Calculated Feature Weights (default)
+      p:  show Value Difference matrices
+      e:  show exact matches
+      as: show advanced statistics (memory consuming)
+      cm: show Confusion Matrix (implies +vas)
+      cs: show per Class Statistics (implies +vas)
+      cf: add confidence to the output file. (needs -G)
+      di: add distance to output file
+      db: add distribution of best matched to output file
+      md: add matching depth to output file.
+      k:  add a summary for all k neigbors to output file (sets -x)
+      n:  add nearest neigbors to output file (sets -x)
+  You may combine levels using '+' e.g. +v p+db or -v o+di
+-G        : normalize distibutions (+vdb option only)
+    Probability    : normalize between 0 and 1
+             O     : does the same 
+    addFactor:<f>  : add f to all possible targets
+                     then normalize between 0 and 1 (default f=1.0)
+             1:<f> : does the same
+    logProbability : Add 1 to the target Weight, take the 10Log and
+                     then normalize between 0 and 1 (default f=1.0)
+             2     : does the same
+-W f      : calculate and save all Weights in file 'f'
++% or -%  : do or don't save test result (%) to file
+-o s      : use s as output filename
+-O d      : save output using path 'd'
+Internal representation options:
+-B n      : number of bins used for discretization of numeric feature values
+-c n      : clipping frequency for prestoring MVDM matrices
++D        : store distributions on all nodes
+            (necessary for using +v db with IGTree, but wastes memory otherwise)
++H or -H  : write hashed trees (default +H)
+-M n      : size of MaxBests Array
+-N n      : Number of features (default 2500)
+--Treeorder=<value>      : ordering of the Tree :
+       DO: none
+       GRO: using GainRatio
+       IGO: using InformationGain
+       1/V: using 1/# of Vals
+       G/V: using GainRatio/# of Vals
+       I/V: using InfoGain/# of Vals
+       X2O: using X-square
+       X/V: using X-square/# of Vals
+       SVO: using Shared Variance
+       S/V: using Shared Variance/# of Vals
+       SDO: using Standard Deviation
+       SD/V: using Standard Deviation/# of Vals
+       GxE: using GainRatio * SplitInfo
+       IxE: using InformationGain * SplitInfo
+       1/S: using 1/SplitInfo
++x or -x  : Do or don't use the exact match shortcut 
+            (IB1 and IB2 only, default is -x)

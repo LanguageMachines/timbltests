@@ -1,0 +1,8 @@
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I { I 1.00000 }        0.48919302829910
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O { O 1.00000 }        0.79030370649246
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I { I 1.00000 }        0.87816644670661
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I { I 1.00000 }        0.70068195691817
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.58154422612178
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 3.00000 }        0.69969280606480
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { O 1.00000 }        1.1121038504692
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { O 3.00000 }        1.1037525423981

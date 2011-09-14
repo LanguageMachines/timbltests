@@ -1,0 +1,12 @@
+#!/bin/sh
+
+$comm -f ./tests/data.expand -t ./tests/data.test.expand -mC +vdi+db -o test.out1
+cat < test.out1 
+
+$comm -f ./tests/data.expand -t ./tests/data.test.expand -mD +vdi+db -o test.out2
+cat < test.out2 
+
+$comm -f ./tests/dot_product.train -t ./tests/dot_product.test +v di+db -mD -o test.out3
+cat < test.out3 
+$comm -f ./tests/dot_product.train -t ./tests/dot_product.test +v di+db -mC -o test.out4
+cat < test.out4 

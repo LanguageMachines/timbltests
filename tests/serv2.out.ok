@@ -1,0 +1,16 @@
+spawn telnet localhost 4567
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Welcome to the Mbt server.
+available bases: eindh wotan 
+base=wotan
+base set to 'wotan'
+Wie weet waar Willem Wever woont?
+Wie/VNW(vb,pron,stan,vol,3p,getal) weet/WW(pv,tgw,ev) waar/VNW(vb,adv-pron,obl,vol,3o,getal) Willem/SPEC(deeleigen) Wever/SPEC(deeleigen) woont?//SPEC(deeleigen) <utt>
+Willem Wever woont wijd weg,
+Willem/SPEC(deeleigen) Wever/SPEC(deeleigen) woont/WW(pv,tgw,met-t) wijd/ADJ(vrij,basis,zonder) weg,//WW(pv,tgw,met-t) <utt>
+geloof ik.
+geloof/WW(pv,tgw,ev) ik.//BW() <utt>
+
+Connection closed by foreign host.

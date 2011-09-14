@@ -1,0 +1,55 @@
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 10 15:10:34 2011
+
+Examine datafile 'tests/bug47.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/bug47.train
+Start:          0 @ Thu Mar 10 15:10:34 2011
+Finished:       2 @ Thu Mar 10 15:10:34 2011
+Calculating Entropy         Thu Mar 10 15:10:34 2011
+Lines of data     : 2
+DB Entropy        : 1.0000000
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      2	1.0000000	1.0000000 NUMERIC
+    2      2	1.0000000	1.0000000 NUMERIC
+    3      2	1.0000000	1.0000000 NUMERIC
+
+Preparation took 0 seconds, 0 milliseconds and 246 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 2, 3 >
+Phase 2: Building multi index on Datafile: tests/bug47.train
+Start:          0 @ Thu Mar 10 15:10:34 2011
+Finished:       2 @ Thu Mar 10 15:10:34 2011
+
+Phase 3: Learning from Datafile: tests/bug47.train
+Start:          0 @ Thu Mar 10 15:10:34 2011
+Finished:       2 @ Thu Mar 10 15:10:34 2011
+
+Size of InstanceBase = 8 Nodes, (320 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 168 microseconds
+Examine datafile 'tests/bug47.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/bug47.test
+Writing output in:          bug47.out
+Algorithm     : IB1
+Global metric : Dot product
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+
+Error: The Dot Product metric fails on your data: intermediate result too big to handle,
+you might consider using the Cosine metric '-mC' 
+FatalError: timbl terminated
+Stopped, sorry

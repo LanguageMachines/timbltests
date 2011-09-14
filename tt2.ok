@@ -1,0 +1,290 @@
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Oct 11 18:14:12 2010
+
+Examine datafile 'tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/klein.train
+Start:          0 @ Mon Oct 11 18:14:12 2010
+Finished:     220 @ Mon Oct 11 18:14:12 2010
+Calculating Entropy         Mon Oct 11 18:14:12 2010
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1    141	351.74544	0.79942146	0.89937373	0.13349375
+    2    140	394.41461	0.89639685	1.0477932	0.15595940
+    3 (ignored) 
+    4    134	241.29547	0.54839878	0.72404026	0.11016404
+    5     25	104.69828	0.23795064	0.41113584	0.10361161
+    6     25	260.55952	0.59218072	0.85747470	0.21643867
+    7     24	117.56486	0.26719286	0.46696345	0.11793486
+    8     24	50.626817	0.11506095	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 473 microseconds
+Saving Weights in tt2.wgt
+Feature Permutation based on GainRatio/Values :
+< 6, 7, 5, 8, 2, 1, 4, 3 >
+Phase 2: Building multi index on Datafile: tests/klein.train
+Start:          0 @ Mon Oct 11 18:14:12 2010
+Finished:     220 @ Mon Oct 11 18:14:12 2010
+
+Phase 3: Learning from Datafile: tests/klein.train
+Start:          0 @ Mon Oct 11 18:14:12 2010
+Finished:     220 @ Mon Oct 11 18:14:12 2010
+
+Size of InstanceBase = 1347 Nodes, (53880 bytes), 23.47 % compression
+Learning took 0 seconds, 4 milliseconds and 505 microseconds
+Writing Instance-Base in: tt2.tree
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Oct 11 18:14:12 2010
+
+Reading Instance-Base from: tt2.tree
+
+Size of InstanceBase = 1347 Nodes, (53880 bytes), 23.47 % compression
+Feature Permutation based on Data File Ordering :
+< 6, 7, 5, 8, 2, 1, 4, 3 >
+Examine datafile './tests/klein_1.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein_1.test
+Writing output in:          ./tests/klein_1.test.IB1.O.gr.k3.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Ignored features : { 3 } 
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.000000000000000
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Mon Oct 11 18:14:12 2010
+Tested:      2 @ Mon Oct 11 18:14:12 2010
+Tested:      3 @ Mon Oct 11 18:14:12 2010
+Tested:      4 @ Mon Oct 11 18:14:12 2010
+Tested:      5 @ Mon Oct 11 18:14:12 2010
+Tested:      6 @ Mon Oct 11 18:14:12 2010
+Tested:      7 @ Mon Oct 11 18:14:12 2010
+Tested:      8 @ Mon Oct 11 18:14:12 2010
+Tested:      9 @ Mon Oct 11 18:14:12 2010
+Tested:     10 @ Mon Oct 11 18:14:12 2010
+Ready:      50 @ Mon Oct 11 18:14:12 2010
+Seconds taken: 0.0036 (13732.49 p/s)
+
+Scores per Value Class:
+class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
+     I |    	28   	2   	18   	2 	0.93333 	0.93333 	0.10000 	0.93333 	0.91667
+     O |    	16   	3   	30   	1 	0.84211 	0.94118 	0.09091 	0.88889 	0.92513
+     B |    	1   	0   	48   	1 	1.00000 	0.50000 	0.00000 	0.66667 	0.75000
+F-Score beta=1, microav: 0.909899
+F-Score beta=1, macroav: 0.829630
+AUC, microav:            0.917177
+AUC, macroav:            0.863933
+overall accuracy:        0.900000  (45/50)
+There was 1 tie of which 0 (0.00%) was correctly resolved
+
+Confusion Matrix:
+             I      O      B 
+        ---------------------
+     I |     28      2      0 
+     O |      1     16      0 
+     B |      1      0      1 
+   -*- |      0      1      0 
+
+Examine datafile './tests/klein_1.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein_1.test
+Writing output in:          ./tests/klein_1.test.IB1.M.gr.k3.out
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[4] = 48 Bytes 
+Size of value-matrix[5] = 48 Bytes 
+Size of value-matrix[6] = 48 Bytes 
+Size of value-matrix[7] = 48 Bytes 
+Size of value-matrix[8] = 48 Bytes 
+Total Size of value-matrices 336 Bytes 
+
+Ignored features : { 3 } 
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.000000000000000
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Mon Oct 11 18:14:12 2010
+Tested:      2 @ Mon Oct 11 18:14:12 2010
+Tested:      3 @ Mon Oct 11 18:14:12 2010
+Tested:      4 @ Mon Oct 11 18:14:12 2010
+Tested:      5 @ Mon Oct 11 18:14:12 2010
+Tested:      6 @ Mon Oct 11 18:14:12 2010
+Tested:      7 @ Mon Oct 11 18:14:12 2010
+Tested:      8 @ Mon Oct 11 18:14:12 2010
+Tested:      9 @ Mon Oct 11 18:14:12 2010
+Tested:     10 @ Mon Oct 11 18:14:12 2010
+Ready:      50 @ Mon Oct 11 18:14:12 2010
+Seconds taken: 0.0049 (10218.68 p/s)
+
+Scores per Value Class:
+class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
+     I |    	28   	0   	20   	2 	1.00000 	0.93333 	0.00000 	0.96552 	0.96667
+     O |    	17   	3   	30   	0 	0.85000 	1.00000 	0.09091 	0.91892 	0.95455
+     B |    	2   	0   	48   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
+F-Score beta=1, microav: 0.946658
+F-Score beta=1, macroav: 0.961479
+AUC, microav:            0.962204
+AUC, macroav:            0.973737
+overall accuracy:        0.940000  (47/50), of which 1 exact matches 
+There was 1 tie of which 1 (100.00%) was correctly resolved
+
+Confusion Matrix:
+             I      O      B 
+        ---------------------
+     I |     28      2      0 
+     O |      0     17      0 
+     B |      0      0      2 
+   -*- |      0      1      0 
+
+Reading weights from tt2.wgt
+Examine datafile './tests/klein_1.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein_1.test
+Writing output in:          ./tests/klein_1.test.IB1.M.ud.k3.out
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[4] = 48 Bytes 
+Size of value-matrix[5] = 48 Bytes 
+Size of value-matrix[6] = 48 Bytes 
+Size of value-matrix[7] = 48 Bytes 
+Size of value-matrix[8] = 48 Bytes 
+Total Size of value-matrices 336 Bytes 
+
+Ignored features : { 3 } 
+Weighting     : User Defined  (tt2.wgt)
+Feature 1	 : 0.899373725038967
+Feature 2	 : 1.047793170808940
+Feature 3	 : 0.000000000000000
+Feature 4	 : 0.724040264713074
+Feature 5	 : 0.411135842419734
+Feature 6	 : 0.857474697673593
+Feature 7	 : 0.466963453214180
+Feature 8	 : 0.169871945230703
+
+Tested:      1 @ Mon Oct 11 18:14:13 2010
+Tested:      2 @ Mon Oct 11 18:14:13 2010
+Tested:      3 @ Mon Oct 11 18:14:13 2010
+Tested:      4 @ Mon Oct 11 18:14:13 2010
+Tested:      5 @ Mon Oct 11 18:14:13 2010
+Tested:      6 @ Mon Oct 11 18:14:13 2010
+Tested:      7 @ Mon Oct 11 18:14:13 2010
+Tested:      8 @ Mon Oct 11 18:14:13 2010
+Tested:      9 @ Mon Oct 11 18:14:13 2010
+Tested:     10 @ Mon Oct 11 18:14:13 2010
+Ready:      50 @ Mon Oct 11 18:14:13 2010
+Seconds taken: 0.0107 (4657.23 p/s)
+
+Scores per Value Class:
+class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
+     I |    	28   	0   	20   	2 	1.00000 	0.93333 	0.00000 	0.96552 	0.96667
+     O |    	17   	3   	30   	0 	0.85000 	1.00000 	0.09091 	0.91892 	0.95455
+     B |    	2   	0   	48   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
+F-Score beta=1, microav: 0.946658
+F-Score beta=1, macroav: 0.961479
+AUC, microav:            0.962204
+AUC, macroav:            0.973737
+overall accuracy:        0.940000  (47/50), of which 1 exact matches 
+There was 1 tie of which 1 (100.00%) was correctly resolved
+
+Confusion Matrix:
+             I      O      B 
+        ---------------------
+     I |     28      2      0 
+     O |      0     17      0 
+     B |      0      0      2 
+   -*- |      0      1      0 
+
+Reading weights from tt2.wgt
+Examine datafile './tests/klein_1.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein_1.test
+Writing output in:          ./tests/klein_1.test.IB1.O.ud.k3.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Ignored features : { 3 } 
+Weighting     : User Defined  (tt2.wgt)
+Feature 1	 : 0.899373725038967
+Feature 2	 : 1.047793170808940
+Feature 3	 : 0.000000000000000
+Feature 4	 : 0.724040264713074
+Feature 5	 : 0.411135842419734
+Feature 6	 : 0.857474697673593
+Feature 7	 : 0.466963453214180
+Feature 8	 : 0.169871945230703
+
+Tested:      1 @ Mon Oct 11 18:14:13 2010
+Tested:      2 @ Mon Oct 11 18:14:13 2010
+Tested:      3 @ Mon Oct 11 18:14:13 2010
+Tested:      4 @ Mon Oct 11 18:14:13 2010
+Tested:      5 @ Mon Oct 11 18:14:13 2010
+Tested:      6 @ Mon Oct 11 18:14:13 2010
+Tested:      7 @ Mon Oct 11 18:14:13 2010
+Tested:      8 @ Mon Oct 11 18:14:13 2010
+Tested:      9 @ Mon Oct 11 18:14:13 2010
+Tested:     10 @ Mon Oct 11 18:14:13 2010
+Ready:      50 @ Mon Oct 11 18:14:13 2010
+Seconds taken: 0.0075 (6711.41 p/s)
+
+Scores per Value Class:
+class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
+     I |    	27   	2   	18   	3 	0.93103 	0.90000 	0.10000 	0.91525 	0.90000
+     O |    	16   	4   	29   	1 	0.80000 	0.94118 	0.12121 	0.86486 	0.90998
+     B |    	1   	0   	48   	1 	1.00000 	0.50000 	0.00000 	0.66667 	0.75000
+F-Score beta=1, microav: 0.889663
+F-Score beta=1, macroav: 0.815595
+AUC, microav:            0.901447
+AUC, macroav:            0.853327
+overall accuracy:        0.880000  (44/50)
+There was 1 tie of which 0 (0.00%) was correctly resolved
+
+Confusion Matrix:
+             I      O      B 
+        ---------------------
+     I |     27      3      0 
+     O |      1     16      0 
+     B |      1      0      1 
+   -*- |      0      1      0 
+

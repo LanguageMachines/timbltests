@@ -1,0 +1,361 @@
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar  7 15:30:54 2011
+
+Examine datafile './tests/compact.train' gave the following results:
+Number of Features: 5
+InputFormat       : Compact, (Feature Length = 1)
+
+Phase 1: Reading Datafile: ./tests/compact.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Warning:datafile, skipped line #4
+klmno04
+Finished:       4 @ Mon Mar  7 15:30:54 2011
+Calculating Entropy         Mon Mar  7 15:30:54 2011
+Lines of data     : 3
+SkippedLines      : 1
+Warning:The following feature(s) have only 1 value: 5
+DB Entropy        : 1.5849625
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	1.5849625	1.0000000
+    2      3	1.5849625	1.0000000
+    3      3	1.5849625	1.0000000
+    4      3	1.5849625	1.0000000
+    5      1	0.0000000	0.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 216 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 2, 3, 4, 5 >
+Phase 2: Building multi index on Datafile: ./tests/compact.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Warning:datafile, skipped line #4
+klmno04
+Finished:       3 @ Mon Mar  7 15:30:54 2011
+
+Phase 3: Learning from Datafile: ./tests/compact.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Finished:       3 @ Mon Mar  7 15:30:54 2011
+
+Size of InstanceBase = 18 Nodes, (720 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 170 microseconds
+Examine datafile './tests/compact.test' gave the following results:
+Number of Features: 5
+InputFormat       : Compact, (Feature Length = 1)
+
+
+Starting to test, Testfile: ./tests/compact.test
+Writing output in:          test.out1
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+Feature 4	 : 1.000000000000000
+Feature 5	 : 0.000000000000000
+
+Tested:      1 @ Mon Mar  7 15:30:54 2011
+Tested:      2 @ Mon Mar  7 15:30:54 2011
+Ready:       2 @ Mon Mar  7 15:30:54 2011
+Seconds taken: 0.0001 (18518.52 p/s)
+
+overall accuracy:        0.500000  (1/2), of which 2 exact matches 
+abcd011 { 1 1.00000 }        0.0000000000000
+ghij023 { 3 1.00000 }        0.0000000000000
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar  7 15:30:54 2011
+
+Examine datafile './tests/ARFF.train' gave the following results:
+Number of Features: 1
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/ARFF.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Warning:datafile, skipped line #2
+@data
+Warning:datafile, skipped line #4
+aap,noot,mies,1
+Warning:datafile, skipped line #5
+wim,zus,Jet,2.
+Warning:datafile, skipped line #6
+teun, kees en piet, schapen,3
+Warning:datafile, skipped line #7
+dit,is,te,lang,4.
+Warning:datafile, skipped line #8
+ok,o.k.,goed,5.
+Warning:datafile, skipped line #9
+te,kort,6.
+Finished:       9 @ Mon Mar  7 15:30:54 2011
+Calculating Entropy         Mon Mar  7 15:30:54 2011
+Lines of data     : 1
+SkippedLines      : 8
+Warning:The following feature(s) have only 1 value: 1
+DB Entropy        : 0.0000000
+Number of Classes : 1
+
+Feats	Vals	InfoGain	GainRatio
+    1      1	0.0000000	0.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 190 microseconds
+Warning:Training file contains only 1 class.
+Feature Permutation based on GainRatio/Values :
+< 1 >
+Phase 2: Building index on Datafile: ./tests/ARFF.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Warning:datafile, skipped line #2
+@data
+Warning:datafile, skipped line #4
+aap,noot,mies,1
+Warning:datafile, skipped line #5
+wim,zus,Jet,2.
+Warning:datafile, skipped line #6
+teun, kees en piet, schapen,3
+Warning:datafile, skipped line #7
+dit,is,te,lang,4.
+Warning:datafile, skipped line #8
+ok,o.k.,goed,5.
+Warning:datafile, skipped line #9
+te,kort,6.
+Finished:       1 @ Mon Mar  7 15:30:54 2011
+
+Phase 3: Learning from Datafile: ./tests/ARFF.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Finished:       1 @ Mon Mar  7 15:30:54 2011
+
+Size of InstanceBase = 2 Nodes, (80 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 212 microseconds
+Examine datafile './tests/ARFF.test' gave the following results:
+Number of Features: 1
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/ARFF.test
+Writing output in:          test.out2
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+
+Tested:      1 @ Mon Mar  7 15:30:54 2011
+Warning:testfile, skipped line #2
+aap,noot,mies,1
+Warning:testfile, skipped line #3
+@data
+Warning:testfile, skipped line #5
+aap,noot,mies,2
+Warning:testfile, skipped line #6
+wim,zus,Jet,3.
+Ready:       1 @ Mon Mar  7 15:30:54 2011
+Seconds taken: 0.0001 (8849.56 p/s)
+
+overall accuracy:        1.000000  (1/1), of which 1 exact matches 
+% bla bla { bla 1.00000 }        0.0000000000000
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar  7 15:30:54 2011
+
+Examine datafile './tests/ARFF.train' gave the following results:
+Number of Features: 3
+InputFormat       : ARFF
+
+Phase 1: Reading Datafile: ./tests/ARFF.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Warning:datafile, skipped line #6
+dit,is,te,lang,4.
+Warning:datafile, skipped line #8
+te,kort,6.
+Finished:       8 @ Mon Mar  7 15:30:54 2011
+Calculating Entropy         Mon Mar  7 15:30:54 2011
+Lines of data     : 4
+SkippedLines      : 4
+DB Entropy        : 2.0000000
+Number of Classes : 4
+
+Feats	Vals	InfoGain	GainRatio
+    1      4	2.0000000	1.0000000
+    2      4	2.0000000	1.0000000
+    3      4	2.0000000	1.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 222 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 2, 3 >
+Phase 2: Building multi index on Datafile: ./tests/ARFF.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Warning:datafile, skipped line #6
+dit,is,te,lang,4.
+Warning:datafile, skipped line #8
+te,kort,6.
+Finished:       4 @ Mon Mar  7 15:30:54 2011
+
+Phase 3: Learning from Datafile: ./tests/ARFF.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Finished:       4 @ Mon Mar  7 15:30:54 2011
+
+Size of InstanceBase = 16 Nodes, (640 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 220 microseconds
+Examine datafile './tests/ARFF.test' gave the following results:
+Number of Features: 3
+InputFormat       : ARFF
+
+
+Starting to test, Testfile: ./tests/ARFF.test
+Writing output in:          test.out3
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+
+Tested:      1 @ Mon Mar  7 15:30:54 2011
+Tested:      2 @ Mon Mar  7 15:30:54 2011
+Ready:       2 @ Mon Mar  7 15:30:54 2011
+Seconds taken: 0.0001 (16000.00 p/s)
+
+overall accuracy:        0.000000  (0/2), of which 2 exact matches 
+aap,noot,mies,2,1 { 1 1.00000 }        0.0000000000000
+wim,zus,Jet,3,2 { 2 1.00000 }        0.0000000000000
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar  7 15:30:54 2011
+
+Examine datafile './tests/c45example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/c45example.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Warning:datafile, skipped line #5
+dit,is,te,lang,4.
+Warning:datafile, skipped line #7
+te,kort,6.
+Finished:       7 @ Mon Mar  7 15:30:54 2011
+Calculating Entropy         Mon Mar  7 15:30:54 2011
+Lines of data     : 5
+SkippedLines      : 2
+DB Entropy        : 2.3219281
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      5	2.3219281	1.0000000
+    2      4	1.9219281	1.0000000
+    3      5	2.3219281	1.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 208 microseconds
+Feature Permutation based on GainRatio/Values :
+< 2, 1, 3 >
+Phase 2: Building multi index on Datafile: ./tests/c45example.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Warning:datafile, skipped line #5
+dit,is,te,lang,4.
+Warning:datafile, skipped line #7
+te,kort,6.
+Finished:       5 @ Mon Mar  7 15:30:54 2011
+
+Phase 3: Learning from Datafile: ./tests/c45example.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Finished:       5 @ Mon Mar  7 15:30:54 2011
+
+Size of InstanceBase = 19 Nodes, (760 bytes), 5.00 % compression
+Learning took 0 seconds, 0 milliseconds and 222 microseconds
+Examine datafile './tests/c45example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/c45example.test
+Writing output in:          test.out4
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+
+Tested:      1 @ Mon Mar  7 15:30:54 2011
+Tested:      2 @ Mon Mar  7 15:30:54 2011
+Ready:       2 @ Mon Mar  7 15:30:54 2011
+Seconds taken: 0.0002 (8403.36 p/s)
+
+overall accuracy:        0.500000  (1/2), of which 1 exact matches 
+aap,noot,moose,1,1 { 1 1.00000 }        1.0000000000000
+ok,o.k.,goed,6,5 { 5 1.00000 }        0.0000000000000
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar  7 15:30:54 2011
+
+Examine datafile './tests/columns.train' gave the following results:
+Number of Features: 4
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/columns.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Finished:       5 @ Mon Mar  7 15:30:54 2011
+Calculating Entropy         Mon Mar  7 15:30:54 2011
+Lines of data     : 5
+DB Entropy        : 1.5219281
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1      4	1.1219281	0.58375134
+    2      4	1.1219281	0.58375134
+    3      4	1.1219281	0.58375134
+    4      3	0.72192809	0.47435099
+
+Preparation took 0 seconds, 0 milliseconds and 169 microseconds
+Feature Permutation based on GainRatio/Values :
+< 4, 1, 2, 3 >
+Phase 2: Building multi index on Datafile: ./tests/columns.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Finished:       5 @ Mon Mar  7 15:30:54 2011
+
+Phase 3: Learning from Datafile: ./tests/columns.train
+Start:          0 @ Mon Mar  7 15:30:54 2011
+Finished:       5 @ Mon Mar  7 15:30:54 2011
+
+Size of InstanceBase = 19 Nodes, (760 bytes), 5.00 % compression
+Learning took 0 seconds, 0 milliseconds and 168 microseconds
+Examine datafile './tests/columns.test' gave the following results:
+Number of Features: 4
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/columns.test
+Writing output in:          test.out5
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.583751336937043
+Feature 2	 : 0.583751336937043
+Feature 3	 : 0.583751336937043
+Feature 4	 : 0.474350987614032
+
+Tested:      1 @ Mon Mar  7 15:30:54 2011
+Warning:testfile, skipped line #2
+!commentaar
+Tested:      2 @ Mon Mar  7 15:30:54 2011
+Ready:       2 @ Mon Mar  7 15:30:54 2011
+Seconds taken: 0.0001 (13888.89 p/s)
+
+overall accuracy:        0.000000  (0/2), of which 2 exact matches 
+There was 1 tie of which 0 (0.00%) was correctly resolved
+a b c d 2 1 { 1 1.00000, . 1.00000 }        0.0000000000000
+d e f j 1 2 { 2 1.00000 }        0.0000000000000

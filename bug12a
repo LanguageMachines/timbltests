@@ -1,0 +1,6 @@
+#!/bin/sh
+
+$comm -f tests/bug12a.train -I bug12a.tree 
+$comm -i bug12a.tree -t tests/bug12a.test
+
+

@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+
+$comm -f ./tests/example.train -X out.xml
+cat < out.xml
+

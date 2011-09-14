@@ -1,0 +1,23 @@
+#!/bin/sh
+
+$comm -f ./tests/n.train -mO:N1-6 
+
+$comm -f ./tests/num.train -I ./tests/num.tree -mO:N1,3  
+$comm -t ./tests/num.test -i ./tests/num.tree -mO:N1,3 +vdi+db -o num1 
+cat < ./tests/num.tree 
+cat < num1
+
+$comm -f ./tests/num.train -mO:N88
+
+$comm -f ./tests/num.train -I ./tests/num.tree -mO:I3:N1 
+$comm -t ./tests/num.test -i ./tests/num.tree -mO:I3:N1 +vdi+db -o num2
+cat < num2
+
+$comm -f ./tests/num.train -I ./tests/num.tree -a2 -q2 
+$comm -t ./tests/num.test -i ./tests/num.tree -a2 -q2 +v di+db -o num3 
+cat < num3
+
+$comm -f ./tests/data.expand -t ./tests/data.test.expand -mO:N1-12 -o num4 
+cat < num4
+$comm -f ./tests/data.expand -t ./tests/data.test.expand -mN:M3,4-7 -o num5
+cat < num5

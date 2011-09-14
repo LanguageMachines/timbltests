@@ -1,0 +1,10 @@
+tentative,a,signed,it,JJ,DT,VBD,PRP,I,I { I 1.00000 }        0.98969277253292
+agreement,tentative,a,signed,NN,JJ,DT,VBD,I,I { I 1.00000 }        1.0883900628879
+extending,agreement,tentative,a,VBG,NN,JJ,DT,I,I { I 2.00000 }        1.2118615163984
+its,extending,agreement,tentative,PRP$,VBG,NN,JJ,O,O { O 1.00000 }        1.0647423145560
+contract,its,extending,agreement,NN,PRP$,VBG,NN,I,O { O 1.00000 }        1.1867262344163
+with,contract,its,extending,IN,NN,PRP$,VBG,I,I { I 2.00000 }        1.2118615163984
+Boeing,with,contract,its,NNP,IN,NN,PRP$,O,O { O 1.00000 }        0.78301153653346
+CoPUNT,Boeing,with,contract,NNP,NNP,IN,NN,I,I { I 1.00000 }        0.98969277253292
+to,CoPUNT,Boeing,with,TO,NNP,NNP,IN,I,B { B 1.00000 }        0.94079817674779
+provide,to,CoPUNT,Boeing,VB,TO,NNP,NNP,O,O { O 1.00000 }        1.0088653496801

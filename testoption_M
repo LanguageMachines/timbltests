@@ -1,0 +1,8 @@
+#!/bin/sh
+
+$comm -f tests/dimin.train -t tests/dimin.test -M5 +v di+db+n -o testM.out1
+$comm -f tests/dimin.train -t tests/dimin.test -M10 +v di+db+n -o testM.out2
+$comm -f tests/dimin.train -t tests/dimin.test -M100 +v di+db+n -o testM.out3
+cat < testM.out2
+cat < testM.out3
+

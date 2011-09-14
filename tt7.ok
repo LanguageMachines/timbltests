@@ -1,0 +1,251 @@
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jul 27 11:23:26 2010
+
+Starting Cross validation test on files:
+./tests/klein_1.train
+./tests/klein_2.train
+./tests/klein_3.train
+./tests/klein_4.train
+./tests/klein_5.train
+Preparation took 0 seconds, 0 milliseconds and 202 microseconds
+Examine datafile './tests/klein_1.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+DB Entropy        : 1.1239577
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     31	1.0514606	0.21636590
+    2 (ignored) 
+    3     29	0.96606292	0.20546896
+    4     30	0.76843726	0.16052103
+    5     17	0.75290857	0.19555822
+    6     17	1.1239577	0.29193340
+    7     18	0.86079976	0.21819805
+    8     17	0.40001621	0.10329552
+
+
+Starting to test, Testfile: ./tests/klein_1.train
+Writing output in:          ./tests/klein_1.train.cv
+Algorithm     : CV
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Ignored features : { 2 } 
+Weighting     : GainRatio
+Feature 1	 : 0.216365903867902
+Feature 2	 : 0.00000000000000
+Feature 3	 : 0.205468961117581
+Feature 4	 : 0.160521026415060
+Feature 5	 : 0.195558220224054
+Feature 6	 : 0.291933402045204
+Feature 7	 : 0.218198052865363
+Feature 8	 : 0.103295521355847
+
+Tested:      1 @ Tue Jul 27 11:23:26 2010
+Tested:      2 @ Tue Jul 27 11:23:26 2010
+Tested:      3 @ Tue Jul 27 11:23:26 2010
+Tested:      4 @ Tue Jul 27 11:23:26 2010
+Tested:      5 @ Tue Jul 27 11:23:26 2010
+Tested:      6 @ Tue Jul 27 11:23:26 2010
+Tested:      7 @ Tue Jul 27 11:23:26 2010
+Tested:      8 @ Tue Jul 27 11:23:26 2010
+Tested:      9 @ Tue Jul 27 11:23:26 2010
+Tested:     10 @ Tue Jul 27 11:23:26 2010
+Ready:      10 @ Tue Jul 27 11:23:26 2010
+Seconds taken: 0.0005 (19801.98 p/s)
+
+overall accuracy:        0.800000  (8/10)
+Examine datafile './tests/klein_2.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+DB Entropy        : 1.21081003
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     30	1.08568141	0.22585381
+    2 (ignored) 
+    3     25	1.01318437	0.23032898
+    4     27	0.93041471	0.20656967
+    5     15	0.75002647	0.20299617
+    6     15	1.13831299	0.30537853
+    7     16	0.83542417	0.22216874
+    8     15	0.44603650	0.12394414
+
+
+Starting to test, Testfile: ./tests/klein_2.train
+Writing output in:          ./tests/klein_2.train.cv
+Algorithm     : CV
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Ignored features : { 2 } 
+Weighting     : GainRatio
+Feature 1	 : 0.225853813146603
+Feature 2	 : 0.000000000000000
+Feature 3	 : 0.230328984331396
+Feature 4	 : 0.206569670528383
+Feature 5	 : 0.202996166718337
+Feature 6	 : 0.305378526354465
+Feature 7	 : 0.222168743865479
+Feature 8	 : 0.123944137808201
+
+Tested:      1 @ Tue Jul 27 11:23:26 2010
+Tested:      2 @ Tue Jul 27 11:23:26 2010
+Tested:      3 @ Tue Jul 27 11:23:26 2010
+Tested:      4 @ Tue Jul 27 11:23:26 2010
+Tested:      5 @ Tue Jul 27 11:23:26 2010
+Tested:      6 @ Tue Jul 27 11:23:26 2010
+Tested:      7 @ Tue Jul 27 11:23:26 2010
+Tested:      8 @ Tue Jul 27 11:23:26 2010
+Tested:      9 @ Tue Jul 27 11:23:26 2010
+Tested:     10 @ Tue Jul 27 11:23:26 2010
+Ready:      10 @ Tue Jul 27 11:23:26 2010
+Seconds taken: 0.0009 (11325.03 p/s)
+
+overall accuracy:        0.800000  (8/10)
+Examine datafile './tests/klein_3.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+DB Entropy        : 1.10727241
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     33	1.05464083	0.21157263
+    2 (ignored) 
+    3     29	0.96924313	0.20527803
+    4     29	0.80175556	0.17134265
+    5     17	0.73188656	0.19159785
+    6     17	1.05464083	0.27609049
+    7     17	0.76788828	0.20441129
+    8     16	0.30124108	0.08102333
+
+
+Starting to test, Testfile: ./tests/klein_3.train
+Writing output in:          ./tests/klein_3.train.cv
+Algorithm     : CV
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Ignored features : { 2 } 
+Weighting     : GainRatio
+Feature 1	 : 0.211572632756454
+Feature 2	 : 0.000000000000000
+Feature 3	 : 0.205278026077873
+Feature 4	 : 0.171342647360174
+Feature 5	 : 0.191597849237134
+Feature 6	 : 0.276090486447543
+Feature 7	 : 0.204411289106452
+Feature 8	 : 0.081023332351012
+
+Tested:      1 @ Tue Jul 27 11:23:27 2010
+Tested:      2 @ Tue Jul 27 11:23:27 2010
+Tested:      3 @ Tue Jul 27 11:23:27 2010
+Tested:      4 @ Tue Jul 27 11:23:27 2010
+Tested:      5 @ Tue Jul 27 11:23:27 2010
+Tested:      6 @ Tue Jul 27 11:23:27 2010
+Tested:      7 @ Tue Jul 27 11:23:27 2010
+Tested:      8 @ Tue Jul 27 11:23:27 2010
+Tested:      9 @ Tue Jul 27 11:23:27 2010
+Tested:     10 @ Tue Jul 27 11:23:27 2010
+Ready:      10 @ Tue Jul 27 11:23:27 2010
+Seconds taken: 0.0008 (12106.54 p/s)
+
+overall accuracy:        0.800000  (8/10)
+Examine datafile './tests/klein_4.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+DB Entropy        : 1.16743672
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     32	1.11480514	0.22602878
+    2 (ignored) 
+    3     30	0.96981107	0.20714134
+    4     31	1.06217357	0.22200231
+    5     16	0.71361797	0.19418620
+    6     16	1.09493968	0.29899921
+    7     17	0.76845621	0.20564998
+    8     15	0.53212858	0.14797537
+
+
+Starting to test, Testfile: ./tests/klein_4.train
+Writing output in:          ./tests/klein_4.train.cv
+Algorithm     : CV
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Ignored features : { 2 } 
+Weighting     : GainRatio
+Feature 1	 : 0.226028780085344
+Feature 2	 : 0.000000000000000
+Feature 3	 : 0.207141340441089
+Feature 4	 : 0.222002305500848
+Feature 5	 : 0.194186199995710
+Feature 6	 : 0.298999207112076
+Feature 7	 : 0.205649984076972
+Feature 8	 : 0.147975374298064
+
+Tested:      1 @ Tue Jul 27 11:23:27 2010
+Tested:      2 @ Tue Jul 27 11:23:27 2010
+Tested:      3 @ Tue Jul 27 11:23:27 2010
+Tested:      4 @ Tue Jul 27 11:23:27 2010
+Tested:      5 @ Tue Jul 27 11:23:27 2010
+Tested:      6 @ Tue Jul 27 11:23:27 2010
+Tested:      7 @ Tue Jul 27 11:23:27 2010
+Tested:      8 @ Tue Jul 27 11:23:27 2010
+Tested:      9 @ Tue Jul 27 11:23:27 2010
+Tested:     10 @ Tue Jul 27 11:23:27 2010
+Ready:      10 @ Tue Jul 27 11:23:27 2010
+Seconds taken: 0.0009 (11682.24 p/s)
+
+overall accuracy:        0.800000  (8/10)
+Examine datafile './tests/klein_5.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+DB Entropy        : 1.16687507
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     32	1.06687507	0.21675958
+    2 (ignored) 
+    3     29	0.98574726	0.20875948
+    4     28	0.82663406	0.17847364
+    5     16	0.69800288	0.18631101
+    6     16	1.11687507	0.29662222
+    7     16	0.78574726	0.21148893
+    8     16	0.37663406	0.10195991
+
+
+Starting to test, Testfile: ./tests/klein_5.train
+Writing output in:          ./tests/klein_5.train.cv
+Algorithm     : CV
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Ignored features : { 2 } 
+Weighting     : GainRatio
+Feature 1	 : 0.216759580252811
+Feature 2	 : 0.000000000000000
+Feature 3	 : 0.208759480370678
+Feature 4	 : 0.178473640641812
+Feature 5	 : 0.186311005227154
+Feature 6	 : 0.296622220584837
+Feature 7	 : 0.211488928619078
+Feature 8	 : 0.101959907286607
+
+Tested:      1 @ Tue Jul 27 11:23:27 2010
+Tested:      2 @ Tue Jul 27 11:23:27 2010
+Tested:      3 @ Tue Jul 27 11:23:27 2010
+Tested:      4 @ Tue Jul 27 11:23:27 2010
+Tested:      5 @ Tue Jul 27 11:23:27 2010
+Tested:      6 @ Tue Jul 27 11:23:27 2010
+Tested:      7 @ Tue Jul 27 11:23:27 2010
+Tested:      8 @ Tue Jul 27 11:23:27 2010
+Ready:       8 @ Tue Jul 27 11:23:27 2010
+Seconds taken: 0.0007 (11544.01 p/s)
+
+overall accuracy:        1.000000  (8/8)

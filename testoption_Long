@@ -1,0 +1,34 @@
+#!/bin/sh
+#
+
+trainfile=tests/example.train
+testfile=tests/example.test
+
+$comm -f $trainfile -t $testfile -silly=yes
+$comm -f $trainfile -t $testfile --silly no
+$comm -f $trainfile -t $testfile --silly yes
+$comm -f $trainfile -t $testfile --silly=no
+$comm -f $trainfile -t $testfile --silly=yes
+$comm -f $trainfile -t leave_one_out -sloppy=yes
+$comm -f $trainfile -t leave_one_out --sloppy yes
+$comm -f $trainfile -t leave_one_out --sloppy no 
+$comm -f $trainfile -t leave_one_out --sloppy noway
+$comm -f $trainfile -t leave_one_out --sloppy=yes
+$comm -f $trainfile -t leave_one_out --sloppy=no 
+$comm -f $trainfile -t leave_one_out --sloppy=noway 
+$comm -f $trainfile -t $testfile -Beam=2 
+$comm -f $trainfile -t $testfile --Beam 2
+$comm -f $trainfile -t $testfile --Beam=2
+$comm -f $trainfile -t $testfile --Beam=-1 
+$comm -f $trainfile -t $testfile --Beam fout
+$comm -f $trainfile -t $testfile --Beam=fout
+$comm -f $trainfile -t $testfile -Diversify 
+$comm -f $trainfile -t $testfile --Diversify
+$comm -f $trainfile -t $testfile -a1 -Threshold=1
+$comm -f $trainfile -t $testfile -a1 --Threshold 1 
+$comm -f $trainfile -t $testfile -a1 --Threshold=-3 
+$comm -f $trainfile -t $testfile -a1 --Threshold mis
+$comm -f $trainfile -t $testfile -logfile=mis 
+$comm -f $trainfile -t $testfile --logfile 
+$comm -f $trainfile -t $testfile -pidfile
+

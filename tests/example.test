@@ -1,0 +1,7 @@
+C,rood,3,+
+C,groen,3,+
+! commentaar
+A,groen,-4,-
+B,fout, raar, rood,a,+
+B,rood,400,-
+C,wit,3,+

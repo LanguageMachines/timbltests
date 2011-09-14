@@ -1,0 +1,9 @@
+test,voor,bug 28, +
+test,na,bug 28, -
+test,na,bug 28, +
+dit, is, ], -
+dit, was, ], -
+dit, was, ], +
+en, dit, [, -
+en, deze, [, -
+en, dat, een	tab,  -

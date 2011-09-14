@@ -1,0 +1,32 @@
+# /bin/sh
+
+\rm -f *.diff
+\rm -f *.tmp
+\rm -f test.out*
+
+if [ "$timbl_bin" = "" ];
+then echo "timbl_bin not set";
+     exit;
+fi
+
+export comm="$VG $timbl_bin/timbl"
+
+./basictests
+./optionstest
+./metrictests
+./testbugs
+./test_ttt
+
+
+for file in testexemplar testencoding testnormalisation testnumerics \
+    	    testbeaming testweighting testdecay testindirect testsimilarity \
+	    testloo testcv testexpand testib2 testbinary testsparse
+do ./testone $file
+done
+
+echo running some long tests!
+
+for file in [ testlong testclones servertests ]
+
+do ./testone $file
+done

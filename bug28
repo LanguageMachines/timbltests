@@ -1,0 +1,14 @@
+#!/bin/sh
+
+$comm -f tests/bug28.train -mO:I1:M3 -c0 --matrixout=bug28.mat1 -I tree
+$comm -t tests/bug28.test -mO:I1:M3 --matrixin=bug28.mat1 -i tree --matrixout=bug28.mat2 +vdi -obug28.out
+cat bug28.out
+diff bug28.mat1 bug28.mat2 
+$comm -f tests/bug28.col.train -mO:I1:M3 -c0 --matrixout=bug28.mat3 -I tree 
+$comm -t tests/bug28.col.test -mO:I1:M3 --matrixin=bug28.mat3 -i tree --matrixout=bug28.mat4 +vdi -obug28.out
+cat bug28.out
+diff bug28.mat3 bug28.mat4 >> bug28.tmp 2>& 1
+# we KNOW that mat3 and mat4 are different. it is ok because [[,,] equals [,,[]
+
+
+

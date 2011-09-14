@@ -1,0 +1,23 @@
+#!/bin/sh
+
+$comm -f ./tests/cv_1.train --Treeorder=DO -I test1.tree
+$comm -f ./tests/cv_2.train -i test1.tree -I test2.tree
+$comm -f ./tests/cv_12.train --Treeorder=DO -I test12.tree
+diff test2.tree test12.tree
+
+$comm -a1 -f ./tests/cv_1.train --Treeorder=DO -I testIG-1.tree
+$comm -a1 -f ./tests/cv_2.train -i testIG-1.tree -I testIG-2.tree
+$comm -a1 -f ./tests/cv_12.train --Treeorder=DO -I testIG-12.tree
+
+$comm -a2 -q2 -f ./tests/cv_1.train --Treeorder=DO -I testTR1-1.tree
+$comm -a2 -q2 -f ./tests/cv_2.train -i testTR1-1.tree -I testTR1-2.tree
+$comm -a2 -q2 -f ./tests/cv_12.train --Treeorder=DO -I testTR1-12.tree
+diff testTR1-2.tree testTR1-12.tree
+
+$comm -a4 -f ./tests/cv_1.train --Treeorder=DO -I testTR2-1.tree
+$comm -a4 -f ./tests/cv_2.train -i testTR2-1.tree -I testTR2-2.tree
+$comm -a4 -f ./tests/cv_12.train --Treeorder=DO -I testTR2-12.tree
+diff testTR2-2.tree testTR2-12.tree
+
+diff test2.tree testTR1-2.tree
+diff test2.tree testTR2-2.tree

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+trainfile=tests/zestiende.train
+
+$comm -f $trainfile -Iib_tree1
+$comm -iib_tree1 -t tests/one.test +vdi+db -of1
+$comm -f $trainfile -t tests/one.test +vdi+db -of2
+diff f1 f2 
+

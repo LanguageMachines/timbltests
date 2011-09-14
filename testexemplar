@@ -1,0 +1,60 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+$comm -f ./tests/compact.train.ex -s -l1 -t ./tests/compact.test.ex -o ex1.out +vDI 
+cat < ex1.out 
+
+$comm -f ./tests/compact.train.ex -s0 -l1 -t ./tests/compact.test.ex  -o ex2.out +vDI
+cat < ex2.out 
+
+$comm -f ./tests/c45example.train.ex -s0 -t ./tests/c45example.test.ex  -o ex3.out +vDI
+cat < ex3.out 
+
+$comm -f ./tests/c45example.train.ex -s -t ./tests/c45example.test.ex -o ex4.out +vDI 
+cat < ex4.out 
+
+$comm -f ./tests/columns.train.ex -s -H -I ./tests/colex.tree 
+cat <  ./tests/colex.tree 
+
+$comm -f ./tests/columns.train.ex -s +H -I ./tests/colex-h.tree 
+cat <  ./tests/colex-h.tree 
+
+$comm -t ./tests/columns.test.ex -s -i ./tests/colex.tree +vDI -o ex7.out
+cat < ex7.out 
+
+$comm -t ./tests/columns.test.ex -s -i ./tests/colex-h.tree +vDI -o ex8.out
+cat < ex8.out 
+
+$comm -f ./tests/test_ex.train.ex -t ./tests/test_ex.test.ex -a0 -w1 -k9 -mM:I1,2 +vDB+DI -s -o ex9.out
+cat < ex9.out 
+
+$comm -f ./tests/test_ex.train.ex -I ./tests/test_ex.tree -a0 -w1 -k9 -mM:I1,2 -s +vDB+DI 
+
+$comm -i ./tests/test_ex.tree -t ./tests/test_ex.test -a0 -w1 -k9 -mM:I1,2 +vDB+DI -o ex11.out 
+cat < ex11.out
+
+$comm -i ./tests/test_ex.tree -t ./tests/test_ex.test.ex -s -a0 -w1 -k9 -mM:I1,2 +vDB+DI -o ex12.out
+cat < ex12.out
+
+$comm -f ./tests/exemplaar.train -s -t ./tests/exemplaar.test +vDI+db -o ex13.out 
+cat < ex13.out
+
+$comm -f ./tests/exemplaar.train -s -t ./tests/exemplaar.test -a2 -q2 -k3 -dIL +vDI+db -o ex14.out 
+cat < ex14.out
+
+$comm -f ./tests/exemplaar.train -s -t ./tests/exemplaar.test -a4 -k3 -dIL +vDI+db -o ex15.out
+cat < ex15.out
+
+$comm -f ./tests/bin.train.ex -t ./tests/bin.test.ex -s0 -F Binary -N10 +vDB+DI -o ex16.out
+cat < ex16.out
+
+$comm -f ./tests/bin.train.ex -t ./tests/bin.test.ex -s -F Binary -N10 +vDB+DI  -o ex17.out 
+cat < ex17.out
+
+$comm -f ./tests/sparse_string.train.ex -t ./tests/sparse_string.test.ex -F Sparse -N10 +vDB+DI -s -o ex18.out 
+cat < ex18.out
+
+$comm -f ./tests/sparse_string_num.train.ex -t ./tests/sparse_string_num.test.ex -F Sparse -N10 +vDB+DI +x -mN -s  -o ex19.out 
+cat < ex19.out

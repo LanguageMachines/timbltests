@@ -1,0 +1,26 @@
+#!/bin/sh
+
+$comm -f tests/bug39.train -mO:I1:M3 +D -I tree0
+cat tree0
+$comm -f tests/bug39.train -mO:I1:M3 +D -a1 -I tree1
+cat tree1
+$comm -f tests/bug39.train -mO:I1:M3 +D -a2 -q2 -I tree2
+cat tree2
+$comm -f tests/bug39.train -mO:I1:M3 +D -a3 -b4 -I tree3
+cat tree3
+$comm -f tests/bug39.train -mO:I1:M3 +D -a4 -I tree4
+cat tree4
+diff tree2 tree4
+$comm -f tests/bug39.train -mO:I1-2:M3 +D -I tree00
+cat tree0
+$comm -f tests/bug39.train -mO:I1-2:M3 +D -a1 -I tree11
+cat tree1
+$comm -f tests/bug39.train -mO:I1-2:M3 +D -a2 -q2 -I tree22
+cat tree2
+$comm -f tests/bug39.train -mO:I1-2:M3 +D -a3 -b4 -I tree33
+cat tree3
+$comm -f tests/bug39.train -mO:I1-2:M3 +D -a4 -I tree44
+cat tree44
+diff tree22 tree44
+
+

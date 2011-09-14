@@ -1,0 +1,9 @@
+new exp IB2
+exp.set verbosity f
+exp.set IB2_offset 10
+exp.train ./tests/klein.train
+exp.set exact_match false
+exp.set weighting infogain
+exp.test ./tests/achtste.test file1
+exp.expand ./tests/achtste.train
+exp.test ./tests/achtste.test file2

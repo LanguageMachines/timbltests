@@ -1,0 +1,7 @@
+#!/bin/sh
+
+trainfile=tests/bug29.train
+testfile=tests/bug29.test
+
+$comm -f $trainfile -t $testfile -mDC --silly=YES +vdi+db+n -o bug29.out
+cat bug29.out

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+$comm -f tests/bug46.train -t tests/bug46.test +vdi+db+n+k -obug46-1.out
+cat bug46-1.out 
+
+$comm -a2 -q1 -f tests/bug46.train -t tests/bug46.test +vdi+db+n+k -obug46-2.out
+cat bug46-2.out 
+
+$comm -a4 -f tests/bug46.train -t tests/bug46.test +vdi+db+n+k -obug46-2.out
+cat bug46-2.out 
+

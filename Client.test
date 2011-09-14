@@ -1,0 +1,26 @@
+c C,rood,3,+
+s -q 2
+s +v n+db+di -x
+c C,rood,3,+
+c C,rood,3,+
+s -mM
+c C,rood,3,+
+s +-
+c C,rood,3,+
+Q 
+c C,groen,3,+
+set +v di
+classif A,groen,-4,-
+set +v db -v di
+clas B,rood,400,-
+v C,wit,3,+
+set +v n+e +k3
+c C,rood,3,+
+set +x
+c C,groen,3,+
+c C,rood,3,+
+se +k1 +mO:n3
+c C,groen,3,+
+c A,groen,-4,-
+c B,rood,400,-
+c C,wit,3,+

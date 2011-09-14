@@ -1,0 +1,338 @@
+TiMBL 6.3.2 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan  3 16:56:25 2011
+
+Examine datafile 'tests/bug44.train' gave the following results:
+Number of Features: 2
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:25 2011
+Finished:       4 @ Mon Jan  3 16:56:25 2011
+Calculating Entropy         Mon Jan  3 16:56:25 2011
+Lines of data     : 4
+Warning:The following feature(s) have only 1 value: 1-2
+DB Entropy        : 1.0000000
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      1	0.0000000	0.0000000
+    2      1	0.0000000	0.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 187 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 2 >
+Phase 2: Building multi index on Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:25 2011
+Finished:       4 @ Mon Jan  3 16:56:25 2011
+
+Phase 3: Learning from Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:25 2011
+Finished:       4 @ Mon Jan  3 16:56:25 2011
+
+Size of InstanceBase = 3 Nodes, (120 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 174 microseconds
+Examine datafile 'tests/bug44.train' gave the following results:
+Number of Features: 2
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/bug44.train
+Writing output in:          bug44-1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.000000000000000
+
+Tested:      1 @ Mon Jan  3 16:56:25 2011
+Tested:      2 @ Mon Jan  3 16:56:25 2011
+Tested:      3 @ Mon Jan  3 16:56:25 2011
+Tested:      4 @ Mon Jan  3 16:56:25 2011
+Ready:       4 @ Mon Jan  3 16:56:25 2011
+Seconds taken: 0.0004 (10389.61 p/s)
+0,0,b,
+# k=1	{ b 2.00000, a 2.00000 }	0.0000000000000
+0,0,a,
+# k=1	{ b 2.00000, a 2.00000 }	0.0000000000000
+0,0,b,
+# k=1	{ b 2.00000, a 2.00000 }	0.0000000000000
+0,0,a,
+# k=1	{ b 2.00000, a 2.00000 }	0.0000000000000
+TiMBL 6.3.2 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan  3 16:56:25 2011
+
+Examine datafile 'tests/bug44.train' gave the following results:
+Number of Features: 2
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:26 2011
+Finished:       4 @ Mon Jan  3 16:56:26 2011
+Calculating Entropy         Mon Jan  3 16:56:26 2011
+Lines of data     : 4
+Warning:The following feature(s) have only 1 value: 1-2
+DB Entropy        : 1.0000000
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      1	0.0000000	0.0000000
+    2      1	0.0000000	0.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 180 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 2 >
+Phase 2: Building multi index on Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:26 2011
+Finished:       4 @ Mon Jan  3 16:56:26 2011
+
+Phase 3: Learning from Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:26 2011
+Finished:       4 @ Mon Jan  3 16:56:26 2011
+
+Size of InstanceBase = 3 Nodes, (120 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 175 microseconds
+Examine datafile 'tests/bug44.train' gave the following results:
+Number of Features: 2
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/bug44.train
+Writing output in:          bug44-2.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.000000000000000
+
+Tested:      1 @ Mon Jan  3 16:56:26 2011
+Tested:      2 @ Mon Jan  3 16:56:26 2011
+Tested:      3 @ Mon Jan  3 16:56:26 2011
+Tested:      4 @ Mon Jan  3 16:56:26 2011
+Ready:       4 @ Mon Jan  3 16:56:26 2011
+Seconds taken: 0.0002 (16528.93 p/s)
+
+overall accuracy:        0.500000  (2/4), of which 4 exact matches 
+There were 4 ties of which 2 (50.00%) were correctly resolved
+0,0,b,b { b 2.00000, a 2.00000 }        0.0000000000000
+# k=1, 4 Neighbor(s) at distance: 	0.0000000000000
+#	0,0,{ b 2.00000, a 2.00000 }
+0,0,a,b { b 2.00000, a 2.00000 }        0.0000000000000
+# k=1, 4 Neighbor(s) at distance: 	0.0000000000000
+#	0,0,{ b 2.00000, a 2.00000 }
+0,0,b,b { b 2.00000, a 2.00000 }        0.0000000000000
+# k=1, 4 Neighbor(s) at distance: 	0.0000000000000
+#	0,0,{ b 2.00000, a 2.00000 }
+0,0,a,b { b 2.00000, a 2.00000 }        0.0000000000000
+# k=1, 4 Neighbor(s) at distance: 	0.0000000000000
+#	0,0,{ b 2.00000, a 2.00000 }
+TiMBL 6.3.2 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan  3 16:56:26 2011
+
+Examine datafile 'tests/bug44.train' gave the following results:
+Number of Features: 2
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:26 2011
+Finished:       4 @ Mon Jan  3 16:56:26 2011
+Calculating Entropy         Mon Jan  3 16:56:26 2011
+Lines of data     : 4
+Warning:The following feature(s) have only 1 value: 1-2
+DB Entropy        : 1.0000000
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      1	0.0000000	0.0000000
+    2      1	0.0000000	0.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 170 microseconds
+Feature Permutation based on GainRatio :
+< 1, 2 >
+Phase 2: Building multi index on Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:26 2011
+Finished:       4 @ Mon Jan  3 16:56:26 2011
+
+Phase 3: Learning from Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:26 2011
+Finished:       4 @ Mon Jan  3 16:56:26 2011
+
+Size of InstanceBase = 0 Nodes, (0 bytes), 100.00 % compression
+Learning took 0 seconds, 0 milliseconds and 183 microseconds
+Examine datafile 'tests/bug44.train' gave the following results:
+Number of Features: 2
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/bug44.train
+Writing output in:          bug44-3.out
+Algorithm     : IGTree
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.000000000000000
+
+Tested:      1 @ Mon Jan  3 16:56:26 2011
+Tested:      2 @ Mon Jan  3 16:56:26 2011
+Tested:      3 @ Mon Jan  3 16:56:26 2011
+Tested:      4 @ Mon Jan  3 16:56:26 2011
+Ready:       4 @ Mon Jan  3 16:56:26 2011
+Seconds taken: 0.0001 (31496.06 p/s)
+
+overall accuracy:        0.500000  (2/4)
+There were 4 ties of which 2 (50.00%) were correctly resolved
+0,0,b,b { b 2.00000, a 2.00000 }        0.0000000000000
+0,0,a,b { b 2.00000, a 2.00000 }        0.0000000000000
+0,0,b,b { b 2.00000, a 2.00000 }        0.0000000000000
+0,0,a,b { b 2.00000, a 2.00000 }        0.0000000000000
+TiMBL 6.3.2 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan  3 16:56:26 2011
+
+Examine datafile 'tests/bug44.train' gave the following results:
+Number of Features: 2
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:26 2011
+Finished:       4 @ Mon Jan  3 16:56:26 2011
+Calculating Entropy         Mon Jan  3 16:56:26 2011
+Lines of data     : 4
+Warning:The following feature(s) have only 1 value: 1-2
+DB Entropy        : 1.0000000
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      1	0.0000000	0.0000000
+    2      1	0.0000000	0.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 167 microseconds
+Feature Permutation based on GainRatio :
+< 1, 2 >
+Phase 2: Building multi index on Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:26 2011
+Finished:       4 @ Mon Jan  3 16:56:26 2011
+
+Phase 3: Learning from Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:26 2011
+Finished:       4 @ Mon Jan  3 16:56:26 2011
+
+Size of InstanceBase = 3 Nodes, (120 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 176 microseconds
+Examine datafile 'tests/bug44.train' gave the following results:
+Number of Features: 2
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/bug44.train
+Writing output in:          bug44-4.out
+Algorithm     : TRIBL, q = 1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.000000000000000
+
+Tested:      1 @ Mon Jan  3 16:56:26 2011
+Tested:      2 @ Mon Jan  3 16:56:26 2011
+Tested:      3 @ Mon Jan  3 16:56:26 2011
+Tested:      4 @ Mon Jan  3 16:56:26 2011
+Ready:       4 @ Mon Jan  3 16:56:26 2011
+Seconds taken: 0.0002 (16666.67 p/s)
+
+overall accuracy:        0.500000  (2/4), of which 4 exact matches 
+There were 4 ties of which 2 (50.00%) were correctly resolved
+0,0,b,b { b 2.00000, a 2.00000 }        0.0000000000000
+# k=1, 4 Neighbor(s) at distance: 	0.0000000000000
+#	0,0,{ b 2.00000, a 2.00000 }
+0,0,a,b { b 2.00000, a 2.00000 }        0.0000000000000
+# k=1, 4 Neighbor(s) at distance: 	0.0000000000000
+#	0,0,{ b 2.00000, a 2.00000 }
+0,0,b,b { b 2.00000, a 2.00000 }        0.0000000000000
+# k=1, 4 Neighbor(s) at distance: 	0.0000000000000
+#	0,0,{ b 2.00000, a 2.00000 }
+0,0,a,b { b 2.00000, a 2.00000 }        0.0000000000000
+# k=1, 4 Neighbor(s) at distance: 	0.0000000000000
+#	0,0,{ b 2.00000, a 2.00000 }
+TiMBL 6.3.2 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan  3 16:56:26 2011
+
+Examine datafile 'tests/bug44.train' gave the following results:
+Number of Features: 2
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:26 2011
+Finished:       4 @ Mon Jan  3 16:56:26 2011
+Calculating Entropy         Mon Jan  3 16:56:26 2011
+Lines of data     : 4
+Warning:The following feature(s) have only 1 value: 1-2
+DB Entropy        : 1.0000000
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      1	0.0000000	0.0000000
+    2      1	0.0000000	0.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 176 microseconds
+Feature Permutation based on GainRatio :
+< 1, 2 >
+Phase 2: Building multi index on Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:26 2011
+Finished:       4 @ Mon Jan  3 16:56:26 2011
+
+Phase 3: Learning from Datafile: tests/bug44.train
+Start:          0 @ Mon Jan  3 16:56:26 2011
+Finished:       4 @ Mon Jan  3 16:56:26 2011
+
+Size of InstanceBase = 3 Nodes, (120 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 174 microseconds
+Examine datafile 'tests/bug44.train' gave the following results:
+Number of Features: 2
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/bug44.train
+Writing output in:          bug44-5.out
+Algorithm     : TRIBL2
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.000000000000000
+
+Tested:      1 @ Mon Jan  3 16:56:26 2011
+Tested:      2 @ Mon Jan  3 16:56:26 2011
+Tested:      3 @ Mon Jan  3 16:56:26 2011
+Tested:      4 @ Mon Jan  3 16:56:26 2011
+Ready:       4 @ Mon Jan  3 16:56:26 2011
+Seconds taken: 0.0002 (19138.76 p/s)
+
+overall accuracy:        0.500000  (2/4), of which 4 exact matches 
+There were 4 ties of which 2 (50.00%) were correctly resolved
+0,0,b,b { b 2.00000, a 2.00000 }        0.0000000000000
+# k=1, 4 Neighbor(s) at distance: 	0.0000000000000
+#	0,0,b,{ b 2.00000, a 2.00000 }
+0,0,a,b { b 2.00000, a 2.00000 }        0.0000000000000
+# k=1, 4 Neighbor(s) at distance: 	0.0000000000000
+#	0,0,a,{ b 2.00000, a 2.00000 }
+0,0,b,b { b 2.00000, a 2.00000 }        0.0000000000000
+# k=1, 4 Neighbor(s) at distance: 	0.0000000000000
+#	0,0,b,{ b 2.00000, a 2.00000 }
+0,0,a,b { b 2.00000, a 2.00000 }        0.0000000000000
+# k=1, 4 Neighbor(s) at distance: 	0.0000000000000
+#	0,0,a,{ b 2.00000, a 2.00000 }

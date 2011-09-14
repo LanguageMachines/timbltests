@@ -1,0 +1,89 @@
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Sep 23 16:06:29 2010
+
+Examine datafile 'tests/kwart.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/kwart.train
+Start:          0 @ Thu Sep 23 16:06:29 2010
+Finished:   50000 @ Thu Sep 23 16:06:29 2010
+Calculating Entropy         Thu Sep 23 16:06:29 2010
+Lines of data     : 50000
+DB Entropy        : 1.1247965
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1   8067	0.52454004	0.053005251
+    2   8067	0.93109789	0.094089873
+    3   7766	0.61039767	0.063779732
+    4   7837	0.27307385	0.028360141
+    5     44	0.24028503	0.055559394
+    6     44	0.83198581	0.19237255
+    7     44	0.32499390	0.074939666
+    8     44	0.048351684	0.011172195
+
+Preparation took 0 seconds, 524 milliseconds and 380 microseconds
+Feature Permutation based on GainRatio :
+< 6, 2, 7, 3, 5, 1, 4, 8 >
+Phase 2: Building multi index on Datafile: tests/kwart.train
+Start:          0 @ Thu Sep 23 16:06:29 2010
+Finished:   50000 @ Thu Sep 23 16:06:30 2010
+
+Phase 3: Learning from Datafile: tests/kwart.train
+Start:          0 @ Thu Sep 23 16:06:30 2010
+Finished:   50000 @ Thu Sep 23 16:06:31 2010
+
+Size of InstanceBase = 284326 Nodes, (11373040 bytes), 34.50 % compression
+Learning took 1 seconds, 461 milliseconds and 210 microseconds
+Examine datafile 'tests/kwart.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/kwart.test
+Writing output in:          /tmp/tt11.out
+Algorithm     : TRIBL2
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 16008 Bytes 
+Size of value-matrix[2] = 16008 Bytes 
+Size of value-matrix[3] = 16008 Bytes 
+Size of value-matrix[4] = 14040 Bytes 
+Size of value-matrix[5] = 7104 Bytes 
+Size of value-matrix[6] = 7104 Bytes 
+Size of value-matrix[7] = 7104 Bytes 
+Size of value-matrix[8] = 7104 Bytes 
+Total Size of value-matrices 90480 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.053005251295110
+Feature 2	 : 0.094089873107254
+Feature 3	 : 0.063779731878369
+Feature 4	 : 0.028360141319983
+Feature 5	 : 0.055559394284176
+Feature 6	 : 0.192372553722376
+Feature 7	 : 0.074939665912809
+Feature 8	 : 0.011172195355527
+
+Tested:      1 @ Thu Sep 23 16:06:32 2010
+Tested:      2 @ Thu Sep 23 16:06:32 2010
+Tested:      3 @ Thu Sep 23 16:06:32 2010
+Tested:      4 @ Thu Sep 23 16:06:32 2010
+Tested:      5 @ Thu Sep 23 16:06:32 2010
+Tested:      6 @ Thu Sep 23 16:06:32 2010
+Tested:      7 @ Thu Sep 23 16:06:32 2010
+Tested:      8 @ Thu Sep 23 16:06:32 2010
+Tested:      9 @ Thu Sep 23 16:06:32 2010
+Tested:     10 @ Thu Sep 23 16:06:32 2010
+Tested:    100 @ Thu Sep 23 16:06:32 2010
+Tested:   1000 @ Thu Sep 23 16:06:32 2010
+Tested:  10000 @ Thu Sep 23 16:06:35 2010
+Ready:   10000 @ Thu Sep 23 16:06:35 2010
+Seconds taken: 3.6804 (2717.09 p/s)
+
+overall accuracy:        0.958700  (9587/10000), of which 653 exact matches 
+There were 3 ties of which 2 (66.67%) were correctly resolved

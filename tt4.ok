@@ -1,0 +1,349 @@
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Sep 23 16:06:55 2010
+
+Examine datafile 'tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/klein.train
+Start:          0 @ Thu Sep 23 16:06:55 2010
+Finished:     220 @ Thu Sep 23 16:06:55 2010
+Calculating Entropy         Thu Sep 23 16:06:55 2010
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 357 microseconds
+Feature Permutation based on GainRatio :
+< 6, 2, 3, 1, 7, 4, 5, 8 >
+Phase 2: Building multi index on Datafile: tests/klein.train
+Start:          0 @ Thu Sep 23 16:06:55 2010
+Finished:     220 @ Thu Sep 23 16:06:55 2010
+
+Phase 3: Learning from Datafile: tests/klein.train
+Start:          0 @ Thu Sep 23 16:06:55 2010
+Finished:     220 @ Thu Sep 23 16:06:55 2010
+
+Size of InstanceBase = 1684 Nodes, (67360 bytes), 14.95 % compression
+Learning took 0 seconds, 4 milliseconds and 752 microseconds
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          /tmp/tt4.O
+Algorithm     : TRIBL, q = 1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Thu Sep 23 16:06:56 2010
+Tested:      2 @ Thu Sep 23 16:06:56 2010
+Tested:      3 @ Thu Sep 23 16:06:56 2010
+Tested:      4 @ Thu Sep 23 16:06:56 2010
+Tested:      5 @ Thu Sep 23 16:06:56 2010
+Tested:      6 @ Thu Sep 23 16:06:56 2010
+Tested:      7 @ Thu Sep 23 16:06:56 2010
+Tested:      8 @ Thu Sep 23 16:06:56 2010
+Tested:      9 @ Thu Sep 23 16:06:56 2010
+Tested:     10 @ Thu Sep 23 16:06:56 2010
+Ready:      50 @ Thu Sep 23 16:06:56 2010
+Seconds taken: 0.0018 (27839.64 p/s)
+
+overall accuracy:        0.920000  (46/50)
+There was 1 tie of which 1 (100.00%) was correctly resolved
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          /tmp/tt4.M
+Algorithm     : TRIBL, q = 1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Size of value-matrix[4] = 48 Bytes 
+Size of value-matrix[5] = 48 Bytes 
+Size of value-matrix[7] = 48 Bytes 
+Size of value-matrix[8] = 48 Bytes 
+Total Size of value-matrices 336 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Thu Sep 23 16:06:56 2010
+Tested:      2 @ Thu Sep 23 16:06:56 2010
+Tested:      3 @ Thu Sep 23 16:06:56 2010
+Tested:      4 @ Thu Sep 23 16:06:56 2010
+Tested:      5 @ Thu Sep 23 16:06:56 2010
+Tested:      6 @ Thu Sep 23 16:06:56 2010
+Tested:      7 @ Thu Sep 23 16:06:56 2010
+Tested:      8 @ Thu Sep 23 16:06:56 2010
+Tested:      9 @ Thu Sep 23 16:06:56 2010
+Tested:     10 @ Thu Sep 23 16:06:56 2010
+Ready:      50 @ Thu Sep 23 16:06:56 2010
+Seconds taken: 0.0034 (14649.87 p/s)
+
+overall accuracy:        0.900000  (45/50)
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Sep 23 16:06:56 2010
+
+Examine datafile 'tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/klein.train
+Start:          0 @ Thu Sep 23 16:06:56 2010
+Finished:     220 @ Thu Sep 23 16:06:56 2010
+Calculating Entropy         Thu Sep 23 16:06:56 2010
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 737 microseconds
+Feature Permutation based on GainRatio :
+< 6, 2, 3, 1, 7, 4, 5, 8 >
+Phase 2: Building multi index on Datafile: tests/klein.train
+Start:          0 @ Thu Sep 23 16:06:56 2010
+Finished:     220 @ Thu Sep 23 16:06:56 2010
+
+Phase 3: Learning from Datafile: tests/klein.train
+Start:          0 @ Thu Sep 23 16:06:56 2010
+Finished:     220 @ Thu Sep 23 16:06:56 2010
+
+Size of InstanceBase = 1684 Nodes, (67360 bytes), 14.95 % compression
+Learning took 0 seconds, 4 milliseconds and 699 microseconds
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          /tmp/tt4.O
+Algorithm     : TRIBL, q = 3
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Thu Sep 23 16:06:56 2010
+Tested:      2 @ Thu Sep 23 16:06:56 2010
+Tested:      3 @ Thu Sep 23 16:06:56 2010
+Tested:      4 @ Thu Sep 23 16:06:56 2010
+Tested:      5 @ Thu Sep 23 16:06:56 2010
+Tested:      6 @ Thu Sep 23 16:06:56 2010
+Tested:      7 @ Thu Sep 23 16:06:56 2010
+Tested:      8 @ Thu Sep 23 16:06:56 2010
+Tested:      9 @ Thu Sep 23 16:06:56 2010
+Tested:     10 @ Thu Sep 23 16:06:56 2010
+Ready:      50 @ Thu Sep 23 16:06:56 2010
+Seconds taken: 0.0014 (36258.16 p/s)
+
+overall accuracy:        0.980000  (49/50)
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          /tmp/tt4.M
+Algorithm     : TRIBL, q = 3
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[4] = 48 Bytes 
+Size of value-matrix[5] = 48 Bytes 
+Size of value-matrix[7] = 48 Bytes 
+Size of value-matrix[8] = 48 Bytes 
+Total Size of value-matrices 240 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Thu Sep 23 16:06:56 2010
+Tested:      2 @ Thu Sep 23 16:06:56 2010
+Tested:      3 @ Thu Sep 23 16:06:56 2010
+Tested:      4 @ Thu Sep 23 16:06:56 2010
+Tested:      5 @ Thu Sep 23 16:06:56 2010
+Tested:      6 @ Thu Sep 23 16:06:56 2010
+Tested:      7 @ Thu Sep 23 16:06:56 2010
+Tested:      8 @ Thu Sep 23 16:06:56 2010
+Tested:      9 @ Thu Sep 23 16:06:56 2010
+Tested:     10 @ Thu Sep 23 16:06:56 2010
+Ready:      50 @ Thu Sep 23 16:06:56 2010
+Seconds taken: 0.0024 (21240.44 p/s)
+
+overall accuracy:        0.980000  (49/50)
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Sep 23 16:06:56 2010
+
+Examine datafile 'tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/klein.train
+Start:          0 @ Thu Sep 23 16:06:56 2010
+Finished:     220 @ Thu Sep 23 16:06:56 2010
+Calculating Entropy         Thu Sep 23 16:06:56 2010
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 323 microseconds
+Feature Permutation based on GainRatio :
+< 6, 2, 3, 1, 7, 4, 5, 8 >
+Phase 2: Building multi index on Datafile: tests/klein.train
+Start:          0 @ Thu Sep 23 16:06:56 2010
+Finished:     220 @ Thu Sep 23 16:06:56 2010
+
+Phase 3: Learning from Datafile: tests/klein.train
+Start:          0 @ Thu Sep 23 16:06:56 2010
+Finished:     220 @ Thu Sep 23 16:06:56 2010
+
+Size of InstanceBase = 1684 Nodes, (67360 bytes), 14.95 % compression
+Learning took 0 seconds, 4 milliseconds and 729 microseconds
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          /tmp/tt4.O
+Algorithm     : TRIBL, q = 5
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Thu Sep 23 16:06:56 2010
+Tested:      2 @ Thu Sep 23 16:06:56 2010
+Tested:      3 @ Thu Sep 23 16:06:56 2010
+Tested:      4 @ Thu Sep 23 16:06:56 2010
+Tested:      5 @ Thu Sep 23 16:06:56 2010
+Tested:      6 @ Thu Sep 23 16:06:56 2010
+Tested:      7 @ Thu Sep 23 16:06:56 2010
+Tested:      8 @ Thu Sep 23 16:06:56 2010
+Tested:      9 @ Thu Sep 23 16:06:56 2010
+Tested:     10 @ Thu Sep 23 16:06:56 2010
+Ready:      50 @ Thu Sep 23 16:06:56 2010
+Seconds taken: 0.0013 (38226.30 p/s)
+
+overall accuracy:        0.960000  (48/50)
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          /tmp/tt4.M
+Algorithm     : TRIBL, q = 5
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[4] = 48 Bytes 
+Size of value-matrix[5] = 48 Bytes 
+Size of value-matrix[8] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Thu Sep 23 16:06:56 2010
+Tested:      2 @ Thu Sep 23 16:06:56 2010
+Tested:      3 @ Thu Sep 23 16:06:56 2010
+Tested:      4 @ Thu Sep 23 16:06:56 2010
+Tested:      5 @ Thu Sep 23 16:06:56 2010
+Tested:      6 @ Thu Sep 23 16:06:56 2010
+Tested:      7 @ Thu Sep 23 16:06:56 2010
+Tested:      8 @ Thu Sep 23 16:06:56 2010
+Tested:      9 @ Thu Sep 23 16:06:56 2010
+Tested:     10 @ Thu Sep 23 16:06:56 2010
+Ready:      50 @ Thu Sep 23 16:06:56 2010
+Seconds taken: 0.0022 (22522.52 p/s)
+
+overall accuracy:        0.960000  (48/50)

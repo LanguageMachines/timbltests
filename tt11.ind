@@ -1,0 +1,3 @@
+-t ./tests/klein.test -mO -x +vdi+db
+-t ./tests/klein.test -mM -x +vdi+db
+

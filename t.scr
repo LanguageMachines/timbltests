@@ -1,0 +1,8 @@
+new exp
+exp.train ./tests/klein.train
+exp.save t1.tree
+new exp1
+exp1.get t1.tree
+exp1.save t11.tree
+
+

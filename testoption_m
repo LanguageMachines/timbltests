@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+$comm -f ./tests/num.train -mO:I0 
+$comm -f ./tests/num.train -mO:I88 
+$comm -f ./tests/num.train -mO:I-3-2 
+$comm -f ./tests/example.train -t ./tests/example.test -mO:I1-3 
+$comm -f ./tests/example.train -t ./tests/example.test -mO:i1,3 

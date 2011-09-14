@@ -1,0 +1,70 @@
+new exp1 tribl
+exp1.train ./datasets/NPChunk.train.noIOB
+#exp1.train ./datasets/kwart.train
+#exp1.train ./datasets/achtste.train
+#exp1.train ./datasets/zestiende.train
+exp1.set exact_match false
+exp1.set use_inverted false
+
+exp1.set tribl_offset 0
+
+exp1.set global_metric overlap
+exp1.test ./datasets/NPChunk.test.noIOB
+exp1.set global_metric vd
+exp1.test ./datasets/NPChunk.test.noIOB
+
+exp1.set tribl_offset 1
+
+exp1.set global_metric overlap
+exp1.test ./datasets/NPChunk.test.noIOB
+exp1.set global_metric vd
+exp1.test ./datasets/NPChunk.test.noIOB
+
+exp1.set tribl_offset 2
+
+exp1.set global_metric overlap
+exp1.test ./datasets/NPChunk.test.noIOB
+exp1.set global_metric vd
+exp1.test ./datasets/NPChunk.test.noIOB
+
+exp1.set tribl_offset 3
+
+exp1.set global_metric overlap
+exp1.test ./datasets/NPChunk.test.noIOB
+exp1.set global_metric vd
+exp1.test ./datasets/NPChunk.test.noIOB
+
+exp1.set tribl_offset 4
+
+exp1.set global_metric overlap
+exp1.test ./datasets/NPChunk.test.noIOB
+exp1.set global_metric vd
+exp1.test ./datasets/NPChunk.test.noIOB
+
+exp1.set tribl_offset 5
+
+exp1.set global_metric overlap
+exp1.test ./datasets/NPChunk.test.noIOB
+exp1.set global_metric vd
+exp1.test ./datasets/NPChunk.test.noIOB
+
+exp1.set tribl_offset 6
+
+exp1.set global_metric overlap
+exp1.test ./datasets/NPChunk.test.noIOB
+exp1.set global_metric vd
+exp1.test ./datasets/NPChunk.test.noIOB
+
+exp1.set tribl_offset 7
+
+exp1.set global_metric overlap
+exp1.test ./datasets/NPChunk.test.noIOB
+exp1.set global_metric vd
+exp1.test ./datasets/NPChunk.test.noIOB
+
+exp1.set tribl_offset 8
+
+exp1.set global_metric overlap
+exp1.test ./datasets/NPChunk.test.noIOB
+exp1.set global_metric vd
+exp1.test ./datasets/NPChunk.test.noIOB

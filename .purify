@@ -1,0 +1,6 @@
+suppress fmr strlen; tzcpy; getzname; _ltzset_u; localtime_u;
+suppress fmw strncpy; tzcpy; getzname; _ltzset_u; localtime_u;
+suppress fmw tzcpy; getzname; _ltzset_u; localtime_u;
+suppress fmr strlen; tzcpy; _ltzset_u; localtime_u;
+suppress fum free; tzcpy; _ltzset_u; localtime_u;
+suppress fum free; tzcpy; getzname; _ltzset_u; localtime_u;

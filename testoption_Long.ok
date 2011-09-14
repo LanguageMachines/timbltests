@@ -1,0 +1,923 @@
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Error:invalid value for -s: 'illy=yes' (maybe you meant --silly=yes ?)
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Examine datafile 'tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+Calculating Entropy         Thu Mar 24 10:09:25 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 272 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Phase 3: Learning from Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 424 microseconds
+Examine datafile 'tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/example.test
+Writing output in:          tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Thu Mar 24 10:09:25 2011
+Tested:      2 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #3
+! commentaar
+Tested:      3 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Thu Mar 24 10:09:25 2011
+Tested:      5 @ Thu Mar 24 10:09:25 2011
+Ready:       5 @ Thu Mar 24 10:09:25 2011
+Seconds taken: 0.0002 (20920.50 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Examine datafile 'tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+Calculating Entropy         Thu Mar 24 10:09:25 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 275 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Phase 3: Learning from Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 413 microseconds
+Examine datafile 'tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/example.test
+Writing output in:          tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Thu Mar 24 10:09:25 2011
+Tested:      2 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #3
+! commentaar
+Tested:      3 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Thu Mar 24 10:09:25 2011
+Tested:      5 @ Thu Mar 24 10:09:25 2011
+Ready:       5 @ Thu Mar 24 10:09:25 2011
+Seconds taken: 0.0002 (21367.52 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Examine datafile 'tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+Calculating Entropy         Thu Mar 24 10:09:25 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 250 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Phase 3: Learning from Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 401 microseconds
+Examine datafile 'tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/example.test
+Writing output in:          tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Thu Mar 24 10:09:25 2011
+Tested:      2 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #3
+! commentaar
+Tested:      3 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Thu Mar 24 10:09:25 2011
+Tested:      5 @ Thu Mar 24 10:09:25 2011
+Ready:       5 @ Thu Mar 24 10:09:25 2011
+Seconds taken: 0.0002 (21551.72 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Examine datafile 'tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+Calculating Entropy         Thu Mar 24 10:09:25 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 242 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Phase 3: Learning from Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 401 microseconds
+Examine datafile 'tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/example.test
+Writing output in:          tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Thu Mar 24 10:09:25 2011
+Tested:      2 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #3
+! commentaar
+Tested:      3 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Thu Mar 24 10:09:25 2011
+Tested:      5 @ Thu Mar 24 10:09:25 2011
+Ready:       5 @ Thu Mar 24 10:09:25 2011
+Seconds taken: 0.0002 (21834.06 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Error:invalid value for -s: 'loppy=yes' (maybe you meant --sloppy=yes ?)
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Examine datafile 'tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+Calculating Entropy         Thu Mar 24 10:09:25 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 246 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Phase 3: Learning from Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 400 microseconds
+
+Starting to test using Leave One Out using SLOPPY metric calculations
+Writing output in:          tests/example.train.LOO.O.gr.k1.out
+Algorithm     : LOO
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Thu Mar 24 10:09:25 2011
+Tested:      2 @ Thu Mar 24 10:09:25 2011
+Tested:      3 @ Thu Mar 24 10:09:25 2011
+Tested:      4 @ Thu Mar 24 10:09:25 2011
+Tested:      5 @ Thu Mar 24 10:09:25 2011
+Tested:      6 @ Thu Mar 24 10:09:25 2011
+Tested:      7 @ Thu Mar 24 10:09:25 2011
+Tested:      8 @ Thu Mar 24 10:09:25 2011
+Tested:      9 @ Thu Mar 24 10:09:25 2011
+Tested:     10 @ Thu Mar 24 10:09:25 2011
+Ready:      29 @ Thu Mar 24 10:09:25 2011
+Seconds taken: 0.0007 (42709.87 p/s)
+
+overall accuracy:        0.689655  (20/29), of which 25 exact matches 
+There were 9 ties of which 7 (77.78%) were correctly resolved
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Examine datafile 'tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+Calculating Entropy         Thu Mar 24 10:09:25 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 253 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Phase 3: Learning from Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 404 microseconds
+
+Starting to test using Leave One Out
+Writing output in:          tests/example.train.LOO.O.gr.k1.out
+Algorithm     : LOO
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Thu Mar 24 10:09:25 2011
+Tested:      2 @ Thu Mar 24 10:09:25 2011
+Tested:      3 @ Thu Mar 24 10:09:25 2011
+Tested:      4 @ Thu Mar 24 10:09:25 2011
+Tested:      5 @ Thu Mar 24 10:09:25 2011
+Tested:      6 @ Thu Mar 24 10:09:25 2011
+Tested:      7 @ Thu Mar 24 10:09:25 2011
+Tested:      8 @ Thu Mar 24 10:09:25 2011
+Tested:      9 @ Thu Mar 24 10:09:25 2011
+Tested:     10 @ Thu Mar 24 10:09:25 2011
+Ready:      29 @ Thu Mar 24 10:09:25 2011
+Seconds taken: 0.0008 (36477.99 p/s)
+
+overall accuracy:        0.689655  (20/29), of which 25 exact matches 
+There were 9 ties of which 7 (77.78%) were correctly resolved
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Error:invalid value for sloppy: 'noway'
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Examine datafile 'tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+Calculating Entropy         Thu Mar 24 10:09:25 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 240 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Phase 3: Learning from Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 398 microseconds
+
+Starting to test using Leave One Out using SLOPPY metric calculations
+Writing output in:          tests/example.train.LOO.O.gr.k1.out
+Algorithm     : LOO
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Thu Mar 24 10:09:25 2011
+Tested:      2 @ Thu Mar 24 10:09:25 2011
+Tested:      3 @ Thu Mar 24 10:09:25 2011
+Tested:      4 @ Thu Mar 24 10:09:25 2011
+Tested:      5 @ Thu Mar 24 10:09:25 2011
+Tested:      6 @ Thu Mar 24 10:09:25 2011
+Tested:      7 @ Thu Mar 24 10:09:25 2011
+Tested:      8 @ Thu Mar 24 10:09:25 2011
+Tested:      9 @ Thu Mar 24 10:09:25 2011
+Tested:     10 @ Thu Mar 24 10:09:25 2011
+Ready:      29 @ Thu Mar 24 10:09:25 2011
+Seconds taken: 0.0007 (42028.99 p/s)
+
+overall accuracy:        0.689655  (20/29), of which 25 exact matches 
+There were 9 ties of which 7 (77.78%) were correctly resolved
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Examine datafile 'tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+Calculating Entropy         Thu Mar 24 10:09:25 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 244 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Phase 3: Learning from Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 395 microseconds
+
+Starting to test using Leave One Out
+Writing output in:          tests/example.train.LOO.O.gr.k1.out
+Algorithm     : LOO
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Thu Mar 24 10:09:25 2011
+Tested:      2 @ Thu Mar 24 10:09:25 2011
+Tested:      3 @ Thu Mar 24 10:09:25 2011
+Tested:      4 @ Thu Mar 24 10:09:25 2011
+Tested:      5 @ Thu Mar 24 10:09:25 2011
+Tested:      6 @ Thu Mar 24 10:09:25 2011
+Tested:      7 @ Thu Mar 24 10:09:25 2011
+Tested:      8 @ Thu Mar 24 10:09:25 2011
+Tested:      9 @ Thu Mar 24 10:09:25 2011
+Tested:     10 @ Thu Mar 24 10:09:25 2011
+Ready:      29 @ Thu Mar 24 10:09:25 2011
+Seconds taken: 0.0008 (36569.99 p/s)
+
+overall accuracy:        0.689655  (20/29), of which 25 exact matches 
+There were 9 ties of which 7 (77.78%) were correctly resolved
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Error:invalid value for sloppy: 'noway'
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Error:invalid option: Did you mean '--Beam=2'?
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Examine datafile 'tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+Calculating Entropy         Thu Mar 24 10:09:25 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 245 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Phase 3: Learning from Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 414 microseconds
+Examine datafile 'tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/example.test
+Writing output in:          tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Thu Mar 24 10:09:25 2011
+Tested:      2 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #3
+! commentaar
+Tested:      3 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Thu Mar 24 10:09:25 2011
+Tested:      5 @ Thu Mar 24 10:09:25 2011
+Ready:       5 @ Thu Mar 24 10:09:25 2011
+Seconds taken: 0.0002 (21551.72 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Examine datafile 'tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+Calculating Entropy         Thu Mar 24 10:09:25 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 250 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Phase 3: Learning from Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 402 microseconds
+Examine datafile 'tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/example.test
+Writing output in:          tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Thu Mar 24 10:09:25 2011
+Tested:      2 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #3
+! commentaar
+Tested:      3 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Thu Mar 24 10:09:25 2011
+Tested:      5 @ Thu Mar 24 10:09:25 2011
+Ready:       5 @ Thu Mar 24 10:09:25 2011
+Seconds taken: 0.0002 (21097.05 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Error:illegal value for -Beam option: -1
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Error:illegal value for -Beam option: fout
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Error:illegal value for -Beam option: fout
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Error:invalid option: Did you mean '--Diversify'?
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:25 2011
+
+Examine datafile 'tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+Calculating Entropy         Thu Mar 24 10:09:25 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 246 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Phase 3: Learning from Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:25 2011
+Finished:      29 @ Thu Mar 24 10:09:25 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 397 microseconds
+Examine datafile 'tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/example.test
+Writing output in:          tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.156627644232369
+Feature 2	 : 0.000000000000000
+Feature 3	 : 0.019703755468154
+
+Tested:      1 @ Thu Mar 24 10:09:25 2011
+Tested:      2 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #3
+! commentaar
+Tested:      3 @ Thu Mar 24 10:09:25 2011
+Warning: testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Thu Mar 24 10:09:25 2011
+Tested:      5 @ Thu Mar 24 10:09:25 2011
+Ready:       5 @ Thu Mar 24 10:09:25 2011
+Seconds taken: 0.0002 (21459.23 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:26 2011
+
+Error:invalid option: Did you mean '--Threshold=1' ?
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:26 2011
+
+Examine datafile 'tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:26 2011
+Finished:      29 @ Thu Mar 24 10:09:26 2011
+Calculating Entropy         Thu Mar 24 10:09:26 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 243 microseconds
+Feature Permutation based on GainRatio :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:26 2011
+Finished:      29 @ Thu Mar 24 10:09:26 2011
+
+Phase 3: Learning from Datafile: tests/example.train
+Start:          0 @ Thu Mar 24 10:09:26 2011
+Finished:      29 @ Thu Mar 24 10:09:26 2011
+
+Size of InstanceBase = 7 Nodes, (280 bytes), 85.42 % compression
+Learning took 0 seconds, 0 milliseconds and 440 microseconds
+Examine datafile 'tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/example.test
+Writing output in:          tests/example.test.IGTree.gr.out
+Algorithm     : IGTree
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Thu Mar 24 10:09:26 2011
+Tested:      2 @ Thu Mar 24 10:09:26 2011
+Warning: testfile, skipped line #3
+! commentaar
+Tested:      3 @ Thu Mar 24 10:09:26 2011
+Warning: testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Thu Mar 24 10:09:26 2011
+Tested:      5 @ Thu Mar 24 10:09:26 2011
+Ready:       5 @ Thu Mar 24 10:09:26 2011
+Seconds taken: 0.0002 (31446.54 p/s)
+
+overall accuracy:        0.600000  (3/5)
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:26 2011
+
+Error:invalid value for Threshold: -3
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:26 2011
+
+Error:invalid value for Threshold: mis
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:26 2011
+
+Error:invalid option: Did you mean '--logfile' ?
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:26 2011
+
+Error:missing filename for '--logfile'
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+
+TiMBL 6.4.0 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 24 10:09:26 2011
+
+Error:invalid option: Did you mean '--pidfile' ?
+usage:  timbl -f data-file {-t test-file}
+or see: timbl -h
+        for all possible options
+

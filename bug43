@@ -1,0 +1,5 @@
+#!/bin/sh
+
+$comm -f tests/bug43.train -t tests/bug43.test -m M -R 1 -k 1 +v db+n+di+k -obug43.out
+cat bug43.out
+

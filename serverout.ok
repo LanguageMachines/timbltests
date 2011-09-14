@@ -1,0 +1,233 @@
++ uname -m
++ MACHINE=x86_64
++ echo Testing on x86_64
+Testing on x86_64
++ mbt= /home/sloot/usr/local/bin//Mbt
++ mbtg= /home/sloot/usr/local/bin//Mbtg
++ mbts= /home/sloot/usr/local/bin//Mbts
++ rm ./tests/mbt.out ./tests/s1.out ./tests/s2.out ./tests/s3.out
++ rm ./tests/*.%
+rm: cannot remove `./tests/*.%': No such file or directory
++ rm ./tests/*.tree
+rm: cannot remove `./tests/*.tree': No such file or directory
++ /home/sloot/usr/local/bin//Mbtg
+Mbtg 3.2.2.99.1 (c) ILK and CLiPS 1998 - 2010.
+Memory Based Tagger Generator
+Induction of Linguistic Knowledge Research Group,Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+
+Based on Timbl version 6.3.1
+
+Usage is : /home/sloot/usr/local/bin//Mbtg option option ...
+	-s settingsfile
+	-% <percentage> Filter Treshold for ambitag construction (default 5%)
+	-E <enriched tagged training corpus file> 
+	-T <tagged training corpus file> 
+	-O"Timbl options" (Note: NO SPACE between O and "!!!)
+	   <options>   options to use for both Known and Unknown Words Case Base
+	   K: <options>   options to use for Known Words Case Base
+	   U: <options>   options to use for Unknown Words Case Base
+	   valid Timl options: a d k m q v w x -
+	-p pattern for known words (default ddfa)
+	-P pattern for unknown words (default dFapsss)
+	-e <sentence delimiter> (default '<utt>')
+	-L <file with list of frequent words>
+	-M <number of most frequent words> (default 100)
+	-n <arity of Npaxes> (default 5)
+	-l <lexiconfile>
+	-r <ambitagfile>
+	-k <known words case base>
+	-u <unknown words case base>
+	-K <known words instances file>
+	-U <unknown words instances file>
+	-X keep intermediate files 
+
++ /home/sloot/usr/local/bin//Mbtg -h
+Mbtg 3.2.2.99.1 (c) ILK and CLiPS 1998 - 2010.
+Memory Based Tagger Generator
+Induction of Linguistic Knowledge Research Group,Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+
+Based on Timbl version 6.3.1
+
+Usage is : /home/sloot/usr/local/bin//Mbtg option option ...
+	-s settingsfile
+	-% <percentage> Filter Treshold for ambitag construction (default 5%)
+	-E <enriched tagged training corpus file> 
+	-T <tagged training corpus file> 
+	-O"Timbl options" (Note: NO SPACE between O and "!!!)
+	   <options>   options to use for both Known and Unknown Words Case Base
+	   K: <options>   options to use for Known Words Case Base
+	   U: <options>   options to use for Unknown Words Case Base
+	   valid Timl options: a d k m q v w x -
+	-p pattern for known words (default ddfa)
+	-P pattern for unknown words (default dFapsss)
+	-e <sentence delimiter> (default '<utt>')
+	-L <file with list of frequent words>
+	-M <number of most frequent words> (default 100)
+	-n <arity of Npaxes> (default 5)
+	-l <lexiconfile>
+	-r <ambitagfile>
+	-k <known words case base>
+	-u <unknown words case base>
+	-K <known words instances file>
+	-U <unknown words instances file>
+	-X keep intermediate files 
+
++ /home/sloot/usr/local/bin//Mbt
+Mbt 3.2.2.99.1 (c) ILK and CLiPS 1998 - 2010.
+Memory Based Tagger 
+Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+
+Based on Timbl version 6.3.1
+
+Usage is : /home/sloot/usr/local/bin//Mbt option option ... 
+	-s settingsfile  ...or:
+
+	-S <portnumber>, run as server on port <portnumber>.
+	-C <max_conn>, maximum # of connections to server.
+	-l <lexiconfile>
+	-logfile <logfile>
+	-r <ambitagfile>
+	-k <known words case base>
+	-u <unknown words case base>
+	-e <sentence delimiter> (default '<utt>')
+	-E <enriched tagged testfile>
+ 	-t <testfile> | -T <tagged testfile> (default is untagged stdin)
+	-o <outputfile> (default stdout)
+	-pidfile <pidfile>
+	-O"Timbl options" (Note: NO SPACE between O and "!!!)
+	  <options>   options to use for Both Known and Unknown Words Case Base
+	  K: <options>   options to use for Known Words Case Base
+	  U: <options>   options to use for Unknown Words Case Base
+	  valid Timbl options: a d k m q v w x -
+	-B <beamsize for search> (default = 1) 
+	-v di add distance to output
+	-v db add distribution to output
+	-L <file with list of frequent words>
+
++ /home/sloot/usr/local/bin//Mbt -h
+Mbt 3.2.2.99.1 (c) ILK and CLiPS 1998 - 2010.
+Memory Based Tagger 
+Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+
+Based on Timbl version 6.3.1
+
+Usage is : /home/sloot/usr/local/bin//Mbt option option ... 
+	-s settingsfile  ...or:
+
+	-S <portnumber>, run as server on port <portnumber>.
+	-C <max_conn>, maximum # of connections to server.
+	-l <lexiconfile>
+	-logfile <logfile>
+	-r <ambitagfile>
+	-k <known words case base>
+	-u <unknown words case base>
+	-e <sentence delimiter> (default '<utt>')
+	-E <enriched tagged testfile>
+ 	-t <testfile> | -T <tagged testfile> (default is untagged stdin)
+	-o <outputfile> (default stdout)
+	-pidfile <pidfile>
+	-O"Timbl options" (Note: NO SPACE between O and "!!!)
+	  <options>   options to use for Both Known and Unknown Words Case Base
+	  K: <options>   options to use for Known Words Case Base
+	  U: <options>   options to use for Unknown Words Case Base
+	  valid Timbl options: a d k m q v w x -
+	-B <beamsize for search> (default = 1) 
+	-v di add distance to output
+	-v db add distribution to output
+	-L <file with list of frequent words>
+
++ /home/sloot/usr/local/bin//Mbtg -T tests/eindh.data -s mbt.settings
+Mbtg 3.2.2.99.1 (c) ILK and CLiPS 1998 - 2010.
+Memory Based Tagger Generator
+Induction of Linguistic Knowledge Research Group,Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+
+Based on Timbl version 6.3.1
+
+options -smbt.settings -Ttests/eindh.data 
+Constructing a tagger from: tests/eindh.data
+  Creating lexicon: tests/eindh.data.lex of 17040 entries.
+  Creating ambitag lexicon: tests/eindh.data.lex.ambi.05
+  Creating list of most frequent words: tests/eindh.data.top100
+
+  Create known words case base
+    Timbl options: ' -a IGTREE +D  -FColumns +vS -FColumns '
+    Algorithm = IGTREE
+
+    Processing data from the file tests/eindh.data................................................
+      ready: 95566 words processed.
+    Creating case base: tests/eindh.data.known.ddfa
+Preparation took 0 seconds, 254 milliseconds and 73 microseconds
+    Deleted intermediate file: tests/eindh.data.known.inst.ddfa
+
+  Create unknown words case base
+    Timbl options: ' -a IB1  -FColumns +vS -FColumns '
+    Algorithm = IB1
+
+    Processing data from the file tests/eindh.data................................................
+      ready: 95566 words processed.
+    Creating case base: tests/eindh.data.unknown.dFapsss
+Preparation took 0 seconds, 107 milliseconds and 119 microseconds
+    Deleted intermediate file: tests/eindh.data.unknown.inst.dFapsss
+
+  Created settings file 'mbt.settings'
+
+Ready:
+  Time used: 3
+  Words/sec: 63710
++ diff mbt.settings tests/mbt.settings.ok
++ /home/sloot/usr/local/bin//Mbt -T tests/eindh.test -s mbt.settings
++ diff tests/mbt.out tests/mbt.out.ok
++ sleep 10
++ /home/sloot/usr/local/bin//Mbts -s mbt.settings --logfile=/tmp/mbtserver.log --pidfile=/tmp/mbtpid -S 2345
+Mbt 3.2.2.99.1 (c) ILK and CLiPS 1998 - 2010.
+Memory Based Tagger Server
+Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+
+Based on Timbl version 6.3.1
+
+  Reading the lexicon from: tests/eindh.data.lex.ambi.05 (17040 words).
+  Read frequent words list from: tests/eindh.data.top100 (100 words).
+  Reading case-base for known words from: tests/eindh.data.known.ddfa... 
+  case-base for known words read.
+  Reading case-base for unknown words from: tests/eindh.data.unknown.dFapsss... 
+  case-base for unknown word read
+  Sentence delimiter set to '<utt>'
+  Beam size = 1
+  Known Tree, Algorithm = IGTREE
+  Unknown Tree, Algorithm = IB1
+
+Trying to Start a Server on port: 2345
+maximum # of simultanious connections: 25
+switching logging to file /tmp/mbtserver.log
++ sleep 8
++ ./mbtserverin
++ ./mbtserverin
++ ./mbtserverin
++ diff tests/s3.out tests/s3.out.ok
++ cat /tmp/mbtpid
++ kill 19629
++ cat /tmp/mbtserver.log
+MbtServer::Started logging 
+MbtServer::Started Server on port: 2345
+MbtServer::maximum # of simultanious connections: 25
+MbtServer::Accepting Connection 5 from remote host: localhost [127.0.0.1]
+MbtServer::Thread 140366426449680, Socket number = 5, started at: Tue Nov  9 13:23:08 2010
+MbtServer::Accepting Connection 6 from remote host: localhost [127.0.0.1]
+MbtServer::Thread 140366418056976, Socket number = 6, started at: Tue Nov  9 13:23:08 2010
+MbtServer::Accepting Connection 7 from remote host: localhost [127.0.0.1]
+MbtServer::Thread 140366409664272, Socket number = 7, started at: Tue Nov  9 13:23:08 2010
+MbtServer::Thread 140366426449680, terminated at: Tue Nov  9 13:23:08 2010
+MbtServer::Total time used in this thread: 0 sec, 13 words processed 
+MbtServer::Socket Total = 2
+MbtServer::Thread 140366418056976, terminated at: Tue Nov  9 13:23:08 2010
+MbtServer::Total time used in this thread: 0 sec, 13 words processed 
+MbtServer::Socket Total = 1
+MbtServer::Thread 140366409664272, terminated at: Tue Nov  9 13:23:08 2010
+MbtServer::Total time used in this thread: 0 sec, 13 words processed 
+MbtServer::Socket Total = 0

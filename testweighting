@@ -1,0 +1,56 @@
+#!/bin/sh
+
+$comm -f ./tests/example.train -w0 
+$comm -f ./tests/example.train -w1 
+$comm -f ./tests/example.train -w2 
+$comm -f ./tests/example.train -w3 
+$comm -f ./tests/example.train -w4 
+
+$comm -f ./tests/example.train -wnw
+$comm -f ./tests/example.train -wgr
+$comm -f ./tests/example.train -wig
+$comm -f ./tests/example.train -wx2
+$comm -f ./tests/example.train -wsv
+
+$comm -f ./tests/example.train -t ./tests/example.test -w0 +vdi -o out1
+cat < out1 
+$comm -f ./tests/example.train -t ./tests/example.test -w1 +vdi -o out2
+cat < out2 
+$comm -f ./tests/example.train -t ./tests/example.test -w2 +vdi -o out3
+cat < out3 
+$comm -f ./tests/example.train -t ./tests/example.test -w3 +vdi -o out4
+cat < out4 
+$comm -f ./tests/example.train -t ./tests/example.test -w4 +vdi -o out5
+cat < out5 
+
+$comm -f ./tests/example.train -t ./tests/example.test -w4 -mM -a2 -q2 +vDI+DB -o out6 
+cat < out6 
+
+$comm -f ./tests/example.train -t ./tests/example.test -w4 -mM -a2 -q2 -k3 -dIL +vDI+DB -o out7 
+cat < out7 
+
+$comm -f ./tests/example.train -t ./tests/example.test -w4 -mM -a4 -k3 -dIL +vDI+DB -o out8 
+cat < out8 
+
+$comm -f ./tests/example.train -t ./tests/example.test -w4 -a1 +D +vDI+DB -o out9 
+cat < out9 
+
+$comm -f ./tests/example.train -t ./tests/example.test -w ./tests/gr.wgts +vdi -o out10 
+cat < out10
+
+$comm -f ./tests/klein.train -t ./tests/klein.test -w ./tests/no.w -o out11
+cat < out11
+
+$comm -f ./tests/klein.train -t ./tests/klein.test -w ./tests/no.w:nw -o out12 
+cat < out12
+
+$comm -f ./tests/klein.train -t ./tests/klein.test -w ./tests/testweighting.wght:gr -o out13 
+cat < out13
+
+$comm -f ./tests/klein.train -t ./tests/klein.test -w ./tests/testweighting.wght -o out14 
+cat < out14
+$comm -f ./tests/klein.train -t ./tests/klein.test -w ./tests/testweighting.wght:ig -o out15 
+cat < out15
+$comm -f ./tests/klein.train -t ./tests/klein.test -w ./tests/testweighting.wght:x2 -o out16
+cat < out16
+$comm -f ./tests/klein.train -t ./tests/klein.test -w ./tests/ig_1.w:x2 

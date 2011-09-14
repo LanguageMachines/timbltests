@@ -1,0 +1,2 @@
+-t ./tests/klein.test -mO +vdi+db -o/tmp/tt4.O
+-t ./tests/klein.test -mM +vdi+db -o/tmp/tt4.M

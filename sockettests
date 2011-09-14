@@ -1,0 +1,25 @@
+#!/bin/sh -x
+#
+# defaults:
+#
+
+echo Testing Sockets
+server="$VG $api_bin/sockettestServer"
+client="$VG $api_bin/sockettestClient"
+
+echo First Blocking Sockets
+$server 5432 &
+pid=$!
+$client 5432
+
+echo Done with blocking sockets
+kill -9 $pid
+sleep 1
+
+echo Now Non-Blocking Sockets
+$server 5432 5&
+pid=$!
+$client 5432 5
+
+echo Done with non-blocking sockets
+kill -9 $pid

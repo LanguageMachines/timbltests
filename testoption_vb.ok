@@ -1,0 +1,124 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Wed Jan 26 11:06:06 2011
+
+Examine datafile './tests/dimin.train' gave the following results:
+Number of Features: 12
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/dimin.train
+Start:          0 @ Wed Jan 26 11:06:06 2011
+Finished:    2999 @ Wed Jan 26 11:06:06 2011
+Calculating Entropy         Wed Jan 26 11:06:06 2011
+Lines of data     : 2999
+DB Entropy        : 1.6178929
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.030971064	0.024891536
+    2     50	0.060860038	0.027552191
+    3     19	0.039562857	0.018676787
+    4     37	0.052541227	0.052620750
+    5      3	0.074523225	0.047699231
+    6     61	0.10604433	0.024471911
+    7     20	0.12348668	0.034953203
+    8     69	0.097198760	0.043983864
+    9      2	0.045752381	0.046816705
+   10     64	0.21388759	0.042844587
+   11     18	0.66970458	0.18507018
+   12     43	1.2780762	0.32537181
+
+Preparation took 0 seconds, 27 milliseconds and 114 microseconds
+Feature Permutation based on GainRatio/Values :
+< 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
+Phase 2: Building multi index on Datafile: ./tests/dimin.train
+Start:          0 @ Wed Jan 26 11:06:06 2011
+Finished:    2999 @ Wed Jan 26 11:06:06 2011
+
+Phase 3: Learning from Datafile: ./tests/dimin.train
+Start:          0 @ Wed Jan 26 11:06:06 2011
+Finished:    2999 @ Wed Jan 26 11:06:06 2011
+
+Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
+branching info:
+   level | feature |     nodes |  nonterms | terminals |  b-factor | b-factor-n
+       0 |     top |         1 |         1 |         0 |      2.00 |      2.00
+       1 |       9 |         2 |         2 |         0 |      2.00 |      2.00
+       2 |       5 |         4 |         4 |         0 |     16.25 |     16.25
+       3 |      11 |        65 |        65 |         0 |      1.66 |      1.66
+       4 |       1 |       108 |       108 |         0 |      6.34 |      6.34
+       5 |      12 |       685 |       685 |         0 |      1.90 |      1.90
+       6 |       7 |      1300 |      1300 |         0 |      1.14 |      1.14
+       7 |       4 |      1478 |      1478 |         0 |      1.12 |      1.12
+       8 |       3 |      1658 |      1658 |         0 |      1.57 |      1.57
+       9 |      10 |      2598 |      2598 |         0 |      1.04 |      1.04
+      10 |       8 |      2710 |      2710 |         0 |      1.01 |      1.01
+      11 |       2 |      2733 |      2733 |         0 |      1.08 |      0.00
+      12 |       6 |      2945 |         0 |      2945 |      0.00 |      0.00
+total: nodes = 16287 endnodes = 2945 factor = 5.53
+Learning took 0 seconds, 73 milliseconds and 843 microseconds
+Writing Instance-Base in: tree
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Wed Jan 26 11:06:06 2011
+
+Examine datafile './tests/dimin.train' gave the following results:
+Number of Features: 12
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/dimin.train
+Start:          0 @ Wed Jan 26 11:06:06 2011
+Finished:    2999 @ Wed Jan 26 11:06:06 2011
+Calculating Entropy         Wed Jan 26 11:06:06 2011
+Lines of data     : 2999
+DB Entropy        : 1.6178929
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.030971064	0.024891536
+    2     50	0.060860038	0.027552191
+    3     19	0.039562857	0.018676787
+    4     37	0.052541227	0.052620750
+    5      3	0.074523225	0.047699231
+    6     61	0.10604433	0.024471911
+    7     20	0.12348668	0.034953203
+    8     69	0.097198760	0.043983864
+    9      2	0.045752381	0.046816705
+   10     64	0.21388759	0.042844587
+   11     18	0.66970458	0.18507018
+   12     43	1.2780762	0.32537181
+
+Preparation took 0 seconds, 26 milliseconds and 924 microseconds
+Feature Permutation based on GainRatio :
+< 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
+Phase 2: Building multi index on Datafile: ./tests/dimin.train
+Start:          0 @ Wed Jan 26 11:06:06 2011
+Finished:    2999 @ Wed Jan 26 11:06:06 2011
+
+Phase 3: Learning from Datafile: ./tests/dimin.train
+Start:          0 @ Wed Jan 26 11:06:06 2011
+Finished:    2999 @ Wed Jan 26 11:06:06 2011
+
+Size of InstanceBase = 191 Nodes, (7640 bytes), 99.50 % compression
+branching info:
+   level | feature |     nodes |  nonterms | terminals |  b-factor | b-factor-n
+       0 |     top |         1 |         1 |         0 |     40.00 |     10.00
+       1 |      12 |        40 |        10 |        30 |      0.82 |      1.80
+       2 |      11 |        33 |        18 |        15 |      0.67 |      1.06
+       3 |       4 |        22 |        19 |         3 |      1.05 |      0.68
+       4 |       5 |        23 |        13 |        10 |      0.57 |      1.00
+       5 |       9 |        13 |        13 |         0 |      1.15 |      0.92
+       6 |       8 |        15 |        12 |         3 |      1.40 |      0.92
+       7 |      10 |        21 |        11 |        10 |      0.62 |      0.55
+       8 |       7 |        13 |         6 |         7 |      0.46 |      0.33
+       9 |       2 |         6 |         2 |         4 |      0.33 |      1.00
+      10 |       1 |         2 |         2 |         0 |      1.50 |      0.00
+      11 |       6 |         3 |         0 |         3 |      0.00 |      0.00
+total: nodes = 192 endnodes = 85 factor = 2.26
+Learning took 0 seconds, 80 milliseconds and 309 microseconds
+Writing Instance-Base in: tree
+Saving Weights in tree.wgt

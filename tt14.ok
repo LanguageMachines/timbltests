@@ -1,0 +1,216 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Wed Jan 26 12:52:08 2011
+
+Examine datafile 'tests/dot_product.train' gave the following results:
+Number of Features: 4
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/dot_product.train
+Start:          0 @ Wed Jan 26 12:52:08 2011
+Finished:       8 @ Wed Jan 26 12:52:08 2011
+Calculating Entropy         Wed Jan 26 12:52:08 2011
+Lines of data     : 8
+DB Entropy        : 3.0000000
+Number of Classes : 8
+
+Feats	Vals	InfoGain	GainRatio
+    1      2	0.81127812	1.0000000
+    2      3	1.2987949	1.0000000
+    3      3	1.2987949	1.0000000
+    4      2	0.81127812	1.0000000
+
+Preparation took 0 seconds, 0 milliseconds and 194 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 4, 2, 3 >
+Phase 2: Building multi index on Datafile: tests/dot_product.train
+Start:          0 @ Wed Jan 26 12:52:08 2011
+Finished:       8 @ Wed Jan 26 12:52:08 2011
+
+Phase 3: Learning from Datafile: tests/dot_product.train
+Start:          0 @ Wed Jan 26 12:52:08 2011
+Finished:       8 @ Wed Jan 26 12:52:08 2011
+
+Size of InstanceBase = 27 Nodes, (1080 bytes), 32.50 % compression
+Learning took 0 seconds, 0 milliseconds and 228 microseconds
+Examine datafile 'tests/dot_product.test' gave the following results:
+Number of Features: 4
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/dot_product.test
+Writing output in:          test.out1
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+Feature 4	 : 1.000000000000000
+
+Tested:      1 @ Wed Jan 26 12:52:08 2011
+Tested:      2 @ Wed Jan 26 12:52:08 2011
+Tested:      3 @ Wed Jan 26 12:52:08 2011
+Tested:      4 @ Wed Jan 26 12:52:08 2011
+Tested:      5 @ Wed Jan 26 12:52:08 2011
+Tested:      6 @ Wed Jan 26 12:52:08 2011
+Tested:      7 @ Wed Jan 26 12:52:08 2011
+Tested:      8 @ Wed Jan 26 12:52:08 2011
+Tested:      9 @ Wed Jan 26 12:52:08 2011
+Tested:     10 @ Wed Jan 26 12:52:08 2011
+Ready:      12 @ Wed Jan 26 12:52:08 2011
+Seconds taken: 0.0004 (30303.03 p/s)
+
+Scores per Value Class:
+class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
+     p |    	1   	1   	10   	0 	0.50000 	1.00000 	0.09091 	0.66667 	0.95455
+     q |    	1   	0   	11   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
+     r |    	1   	0   	11   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
+     s |    	1   	0   	11   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
+  null |    	1   	0   	11   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
+     x |    	1   	2   	9   	0 	0.33333 	1.00000 	0.18182 	0.50000 	0.90909
+     z |    	1   	0   	11   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
+  raar |    	1   	1   	10   	0 	0.50000 	1.00000 	0.09091 	0.66667 	0.95455
+F-Score beta=1, microav: 0.854167
+F-Score beta=1, macroav: 0.854167
+AUC, microav:            0.977273
+AUC, macroav:            0.977273
+overall accuracy:        0.666667  (8/12), of which 8 exact matches 
+There were 2 ties of which 0 (0.00%) were correctly resolved
+
+Confusion Matrix:
+             p      q      r      s   null      x      z   raar 
+        --------------------------------------------------------
+     p |      1      0      0      0      0      0      0      0 
+     q |      0      1      0      0      0      0      0      0 
+     r |      0      0      1      0      0      0      0      0 
+     s |      0      0      0      1      0      0      0      0 
+  null |      0      0      0      0      1      0      0      0 
+     x |      0      0      0      0      0      1      0      0 
+     z |      0      0      0      0      0      0      1      0 
+  raar |      0      0      0      0      0      0      0      1 
+   -*- |      1      0      0      0      0      2      0      1 
+
+1,0,0,0,p,p { p 1.00000 }        0.0000000000000
+0,1,0,0,q,q { q 1.00000 }        0.0000000000000
+0,0,1,0,r,r { r 1.00000 }        0.0000000000000
+0,0,0,1,s,s { s 1.00000 }        0.0000000000000
+0,0,0,0,null,null { null 1.00000 }        0.0000000000000
+1,1,0,0,x,x { x 1.00000 }        0.0000000000000
+0,0,1,1,z,z { z 1.00000 }        0.0000000000000
+1,1,1,0,pqr,x { x 1.00000 }        1.0000000000000
+1,0,1,0,pr,p { p 1.00000, r 1.00000 }        1.0000000000000
+1,1,1,1,pqrs,x { x 1.00000, z 1.00000 }        2.0000000000000
+0,1.1,100000,0,fout,raar { raar 1.00000 }        1.0000000000000
+0,1.1,2,0,raar,raar { raar 1.00000 }        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Wed Jan 26 12:52:08 2011
+
+Examine datafile 'tests/dot_product.train' gave the following results:
+Number of Features: 4
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/dot_product.train
+Start:          0 @ Wed Jan 26 12:52:08 2011
+Finished:       8 @ Wed Jan 26 12:52:08 2011
+Calculating Entropy         Wed Jan 26 12:52:08 2011
+Lines of data     : 8
+DB Entropy        : 3.0000000
+Number of Classes : 8
+
+Feats	Vals	InfoGain	GainRatio
+    1      2	0.81127812	1.0000000 NUMERIC
+    2      3	1.2987949	1.0000000 NUMERIC
+    3      3	1.2987949	1.0000000 NUMERIC
+    4      2	0.81127812	1.0000000 NUMERIC
+
+Preparation took 0 seconds, 0 milliseconds and 299 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 4, 2, 3 >
+Phase 2: Building multi index on Datafile: tests/dot_product.train
+Start:          0 @ Wed Jan 26 12:52:08 2011
+Finished:       8 @ Wed Jan 26 12:52:08 2011
+
+Phase 3: Learning from Datafile: tests/dot_product.train
+Start:          0 @ Wed Jan 26 12:52:08 2011
+Finished:       8 @ Wed Jan 26 12:52:08 2011
+
+Size of InstanceBase = 27 Nodes, (1080 bytes), 32.50 % compression
+Learning took 0 seconds, 0 milliseconds and 246 microseconds
+Examine datafile 'tests/dot_product.test' gave the following results:
+Number of Features: 4
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/dot_product.test
+Writing output in:          test.out2
+Algorithm     : IB1
+Global metric : Dot product
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+Feature 4	 : 1.000000000000000
+
+Tested:      1 @ Wed Jan 26 12:52:08 2011
+Tested:      2 @ Wed Jan 26 12:52:08 2011
+Tested:      3 @ Wed Jan 26 12:52:08 2011
+Tested:      4 @ Wed Jan 26 12:52:08 2011
+Tested:      5 @ Wed Jan 26 12:52:08 2011
+Tested:      6 @ Wed Jan 26 12:52:08 2011
+Tested:      7 @ Wed Jan 26 12:52:08 2011
+Tested:      8 @ Wed Jan 26 12:52:08 2011
+Tested:      9 @ Wed Jan 26 12:52:08 2011
+Tested:     10 @ Wed Jan 26 12:52:08 2011
+Ready:      12 @ Wed Jan 26 12:52:08 2011
+Seconds taken: 0.0013 (9237.88 p/s)
+
+Scores per Value Class:
+class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
+     p |    	1   	1   	10   	0 	0.50000 	1.00000 	0.09091 	0.66667 	0.95455
+     q |    	0   	0   	11   	1 	 (nan)	 	0.00000 	0.00000 	 (nan)	 	0.50000
+     r |    	0   	0   	11   	1 	 (nan)	 	0.00000 	0.00000 	 (nan)	 	0.50000
+     s |    	1   	0   	11   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
+  null |    	0   	0   	11   	1 	 (nan)	 	0.00000 	0.00000 	 (nan)	 	0.50000
+     x |    	1   	0   	11   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
+     z |    	1   	0   	11   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
+  raar |    	1   	6   	5   	0 	0.14286 	1.00000 	0.54545 	0.25000 	0.72727
+F-Score beta=1, microav: 0.783333
+F-Score beta=1, macroav: 0.783333
+AUC, microav:            0.772727
+AUC, macroav:            0.772727
+overall accuracy:        0.416667  (5/12)
+There were 4 ties of which 3 (75.00%) were correctly resolved
+
+Confusion Matrix:
+             p      q      r      s   null      x      z   raar 
+        --------------------------------------------------------
+     p |      1      0      0      0      0      0      0      0 
+     q |      0      0      0      0      0      0      0      1 
+     r |      0      0      0      0      0      0      0      1 
+     s |      0      0      0      1      0      0      0      0 
+  null |      1      0      0      0      0      0      0      0 
+     x |      0      0      0      0      0      1      0      0 
+     z |      0      0      0      0      0      0      1      0 
+  raar |      0      0      0      0      0      0      0      1 
+   -*- |      0      0      0      0      0      0      0      4 
+
+1,0,0,0,p,p { p 1.00000, x 1.00000 }        1.0000000000000
+0,1,0,0,q,raar { raar 1.00000 }        1.0999999046326
+0,0,1,0,r,raar { raar 1.00000 }        2.0000000000000
+0,0,0,1,s,s { s 1.00000, z 1.00000 }        1.0000000000000
+0,0,0,0,null,p { p 1.00000, q 1.00000, r 1.00000, s 1.00000, null 1.00000, x 1.00000, z 1.00000, raar 1.00000 }        0.0000000000000
+1,1,0,0,x,x { x 1.00000 }        2.0000000000000
+0,0,1,1,z,z { z 1.00000, raar 1.00000 }        2.0000000000000
+1,1,1,0,pqr,raar { raar 1.00000 }        3.0999999046326
+1,0,1,0,pr,raar { raar 1.00000 }        2.0000000000000
+1,1,1,1,pqrs,raar { raar 1.00000 }        3.0999999046326
+0,1.1,100000,0,fout,raar { raar 1.00000 }        200001.21000004
+0,1.1,2,0,raar,raar { raar 1.00000 }        5.2100000381470

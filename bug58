@@ -1,0 +1,4 @@
+#!/bin/sh
+
+$comm -f tests/example.train -I tree.tmp
+$comm -i tree.tmp -f tests/example.train

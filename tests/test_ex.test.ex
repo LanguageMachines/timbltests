@@ -1,0 +1,10 @@
+26904 26906 -2 0 citing - - - - - Inc. NNP NP - , , - - 1.2
+26908 26906 1 0 citing - citing VBG VP - improvement NN NP in market NN PNP NP-OBJ 2.3
+26909 26906 2 0 citing - improvement NN NP in market NN PNP - , , - - 3.4
+26914 26906 4 0 citing - , , - - said VBD VP - income NN NP - 4.5
+26909 26914 -2 0 said - improvement NN NP in market NN PNP - , , - - 5.6
+26908 26914 -3 0 said - citing VBG VP - improvement NN NP in market NN PNP - 6.7
+26906 26914 -4 0 said - , , - - citing VBG VP - improvement NN NP VP/S-ADV 7.8
+26904 26914 -6 1 said - - - - - Inc. NNP NP - , , - NP-SBJ 8.9
+26917 26914 1 0 said - said VBD VP - income NN NP - jumped VBD VP - 9.1
+26918 26914 2 0 said - income NN NP - jumped VBD VP - % NN NP VP/S/SBAR-OBJ 1.3

@@ -1,0 +1,390 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:15:44 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:15:44 2011
+Finished:      29 @ Tue Jan 25 16:15:44 2011
+Calculating Entropy         Tue Jan 25 16:15:44 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 277 microseconds
+Saving Weights in /tmp/test.wgths
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:15:44 2011
+Finished:      29 @ Tue Jan 25 16:15:44 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:15:44 2011
+Finished:      29 @ Tue Jan 25 16:15:44 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 411 microseconds
+Reading weights from /tmp/test.wgths
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.M.ud.k1.out
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : User Defined  (/tmp/test.wgths)
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+
+Tested:      1 @ Tue Jan 25 16:15:44 2011
+Tested:      2 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:15:44 2011
+Tested:      5 @ Tue Jan 25 16:15:44 2011
+Ready:       5 @ Tue Jan 25 16:15:44 2011
+Seconds taken: 0.0003 (19841.27 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+Reading weights from /tmp/test.wgths
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.M.ud.k1.out
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : User Defined  (/tmp/test.wgths)
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Tue Jan 25 16:15:44 2011
+Tested:      2 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:15:44 2011
+Tested:      5 @ Tue Jan 25 16:15:44 2011
+Ready:       5 @ Tue Jan 25 16:15:44 2011
+Seconds taken: 0.0002 (25906.74 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+invalid weighting option: 
+Warning: Skipped a line from indirect testfile:
+'-t ./tests/example.test -w -mM:O2'
+Reading weights from /tmp/test.wgths
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.M.ud.k2.out
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : User Defined  (/tmp/test.wgths)
+Feature 1	 : 0.211556564857227
+Feature 2	 : 0.006044814088628
+Feature 3	 : 0.044887335693993
+
+Tested:      1 @ Tue Jan 25 16:15:44 2011
+Tested:      2 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:15:44 2011
+Tested:      5 @ Tue Jan 25 16:15:44 2011
+Ready:       5 @ Tue Jan 25 16:15:44 2011
+Seconds taken: 0.0004 (12658.23 p/s)
+
+overall accuracy:        0.800000  (4/5), of which 2 exact matches 
+Warning: Skipped a line from indirect testfile:
+'-w2 ./tests/example.test -mM'
+missing a Testfile name 
+Reading weights from /tmp/test.wgths
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.ud.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : User Defined  (/tmp/test.wgths)
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Tue Jan 25 16:15:44 2011
+Tested:      2 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:15:44 2011
+Tested:      5 @ Tue Jan 25 16:15:44 2011
+Ready:       5 @ Tue Jan 25 16:15:44 2011
+Seconds taken: 0.0002 (27322.40 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.X.out
+Algorithm     : IB1
+Global metric : Overlap, prefering exact matches
+Deviant Feature Metrics:(none)
+Weighting     : User Defined  (/tmp/test.wgths)
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Tue Jan 25 16:15:44 2011
+Tested:      2 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:15:44 2011
+Tested:      5 @ Tue Jan 25 16:15:44 2011
+Ready:       5 @ Tue Jan 25 16:15:44 2011
+Seconds taken: 0.0002 (26737.97 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Current Experiment Settings :
+FLENGTH              : 0
+MAXBESTS             : 500
+TRIBL_OFFSET         : 0
+IG_THRESHOLD         : 1000
+INPUTFORMAT          : C45
+TREE_ORDER           : G/V
+ALL_WEIGHTS          : true
+WEIGHTING            : ud
+BIN_SIZE             : 20
+IB2_OFFSET           : 0
+KEEP_DISTRIBUTIONS   : false
+DO_SLOPPY_LOO        : false
+TARGET_POS           : 3
+DO_SILLY             : false
+DO_DIVERSIFY         : false
+DECAY                : Z
+SEED                 : 333
+BEAM_SIZE            : 0
+DECAYPARAM_A         : 1.000000
+DECAYPARAM_B         : 1.000000
+NORMALISATION        : None
+NORM_FACTOR          : 1.000000
+EXEMPLAR_WEIGHTS     : false
+IGNORE_EXEMPLAR_WEIGHTS : true
+NO_EXEMPLAR_WEIGHTS_TEST : true
+VERBOSITY            : O+DI
+EXACT_MATCH          : false
+HASHED_TREE          : true
+GLOBAL_METRIC        : O
+METRICS              : 
+MVD_LIMIT            : 1
+NEIGHBORS            : 1
+PROGRESS             : 100000
+CLIP_FACTOR          : 10
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : User Defined  (/tmp/test.wgths)
+
+Tested:      1 @ Tue Jan 25 16:15:44 2011
+Tested:      2 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:15:44 2011
+Tested:      5 @ Tue Jan 25 16:15:44 2011
+Ready:       5 @ Tue Jan 25 16:15:44 2011
+Seconds taken: 0.0004 (12468.83 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Current Experiment Settings :
+FLENGTH              : 0
+MAXBESTS             : 500
+TRIBL_OFFSET         : 0
+IG_THRESHOLD         : 1000
+INPUTFORMAT          : C45
+TREE_ORDER           : G/V
+ALL_WEIGHTS          : true
+WEIGHTING            : ud
+BIN_SIZE             : 20
+IB2_OFFSET           : 0
+KEEP_DISTRIBUTIONS   : false
+DO_SLOPPY_LOO        : false
+TARGET_POS           : 3
+DO_SILLY             : false
+DO_DIVERSIFY         : false
+DECAY                : Z
+SEED                 : -1
+BEAM_SIZE            : 0
+DECAYPARAM_A         : 1.000000
+DECAYPARAM_B         : 1.000000
+NORMALISATION        : None
+NORM_FACTOR          : 1.000000
+EXEMPLAR_WEIGHTS     : false
+IGNORE_EXEMPLAR_WEIGHTS : true
+NO_EXEMPLAR_WEIGHTS_TEST : true
+VERBOSITY            : O+DI
+EXACT_MATCH          : false
+HASHED_TREE          : true
+GLOBAL_METRIC        : O
+METRICS              : 
+MVD_LIMIT            : 1
+NEIGHBORS            : 1
+PROGRESS             : 1
+CLIP_FACTOR          : 10
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          /tmp/indirect.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : User Defined  (/tmp/test.wgths)
+
+Tested:      1 @ Tue Jan 25 16:15:44 2011
+Tested:      2 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:15:44 2011
+Tested:      5 @ Tue Jan 25 16:15:44 2011
+Ready:       5 @ Tue Jan 25 16:15:44 2011
+Seconds taken: 0.0004 (12755.10 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Current Experiment Settings :
+FLENGTH              : 0
+MAXBESTS             : 500
+TRIBL_OFFSET         : 0
+IG_THRESHOLD         : 1000
+INPUTFORMAT          : C45
+TREE_ORDER           : G/V
+ALL_WEIGHTS          : true
+WEIGHTING            : ud
+BIN_SIZE             : 20
+IB2_OFFSET           : 0
+KEEP_DISTRIBUTIONS   : false
+DO_SLOPPY_LOO        : false
+TARGET_POS           : 3
+DO_SILLY             : false
+DO_DIVERSIFY         : false
+DECAY                : Z
+SEED                 : -1
+BEAM_SIZE            : 0
+DECAYPARAM_A         : 1.000000
+DECAYPARAM_B         : 1.000000
+NORMALISATION        : None
+NORM_FACTOR          : 1.000000
+EXEMPLAR_WEIGHTS     : false
+IGNORE_EXEMPLAR_WEIGHTS : true
+NO_EXEMPLAR_WEIGHTS_TEST : true
+VERBOSITY            : O+DI
+EXACT_MATCH          : true
+HASHED_TREE          : true
+GLOBAL_METRIC        : O
+METRICS              : 
+MVD_LIMIT            : 1
+NEIGHBORS            : 1
+PROGRESS             : 100000
+CLIP_FACTOR          : 10
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          ./tests/example.test.IB1.O.gr.k1.X.out
+Algorithm     : IB1
+Global metric : Overlap, prefering exact matches
+Deviant Feature Metrics:(none)
+Weighting     : User Defined  (/tmp/test.wgths)
+
+Tested:      1 @ Tue Jan 25 16:15:44 2011
+Tested:      2 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:15:44 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:15:44 2011
+Tested:      5 @ Tue Jan 25 16:15:44 2011
+Ready:       5 @ Tue Jan 25 16:15:44 2011
+Seconds taken: 0.0002 (23584.91 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+C,rood,3,+,-        0.0000000000000
+C,groen,3,+,+        0.0040988196260971
+A,groen,-4,-,-        0.027901394720348
+B,rood,400,-,+        0.023802575094251
+C,wit,3,+,+        0.0000000000000

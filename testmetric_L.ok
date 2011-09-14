@@ -1,0 +1,304 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Jan 27 10:59:12 2011
+
+Examine datafile './tests/hapax.train' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/hapax.train
+Start:          0 @ Thu Jan 27 10:59:12 2011
+Finished:    4000 @ Thu Jan 27 10:59:12 2011
+Calculating Entropy         Thu Jan 27 10:59:12 2011
+Lines of data     : 4000
+DB Entropy        : 8.6951931
+Number of Classes : 1222
+
+Feats	Vals	InfoGain	GainRatio
+    1   1220	5.9154926	0.68039014
+    2   1221	5.9554402	0.68488249
+    3   1221	5.9821616	0.68800362
+    4   1222	6.0159767	0.69179389
+    5   1222	6.0419153	0.69472003
+    6   1222	6.0982132	0.70125403
+    7   1222	6.3358663	0.72867249
+    8   1223	6.3359784	0.72858923
+    9   1223	6.0949850	0.70098097
+   10   1224	6.0391432	0.69448656
+   11   1224	6.0125925	0.69145523
+   12   1225	5.9797326	0.68762183
+   13   1225	5.9499452	0.68433572
+   14   1224	5.9100747	0.67989149
+
+Preparation took 0 seconds, 85 milliseconds and 227 microseconds
+Feature Permutation based on GainRatio/Values :
+< 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
+Phase 2: Building multi index on Datafile: ./tests/hapax.train
+Start:          0 @ Thu Jan 27 10:59:12 2011
+Finished:    4000 @ Thu Jan 27 10:59:12 2011
+
+Phase 3: Learning from Datafile: ./tests/hapax.train
+Start:          0 @ Thu Jan 27 10:59:12 2011
+Finished:    4000 @ Thu Jan 27 10:59:12 2011
+
+Size of InstanceBase = 47953 Nodes, (1918120 bytes), 6.36 % compression
+Learning took 0 seconds, 141 milliseconds and 39 microseconds
+Examine datafile './tests/hapax.test.small' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/hapax.test.small
+Writing output in:          test.out1
+Algorithm     : IB1
+Global metric : Levenshtein, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 504 Bytes 
+Size of value-matrix[2] = 504 Bytes 
+Size of value-matrix[3] = 504 Bytes 
+Size of value-matrix[4] = 504 Bytes 
+Size of value-matrix[5] = 504 Bytes 
+Size of value-matrix[6] = 504 Bytes 
+Size of value-matrix[7] = 504 Bytes 
+Size of value-matrix[8] = 504 Bytes 
+Size of value-matrix[9] = 504 Bytes 
+Size of value-matrix[10] = 504 Bytes 
+Size of value-matrix[11] = 504 Bytes 
+Size of value-matrix[12] = 504 Bytes 
+Size of value-matrix[13] = 504 Bytes 
+Size of value-matrix[14] = 504 Bytes 
+Total Size of value-matrices 7056 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.680390137410835
+Feature 2	 : 0.684882492824440
+Feature 3	 : 0.688003618597120
+Feature 4	 : 0.691793888834576
+Feature 5	 : 0.694720033488966
+Feature 6	 : 0.701254034219590
+Feature 7	 : 0.728672488559079
+Feature 8	 : 0.728589225693429
+Feature 9	 : 0.700980972627888
+Feature 10	 : 0.694486560028006
+Feature 11	 : 0.691455227339083
+Feature 12	 : 0.687621834992482
+Feature 13	 : 0.684335723012490
+Feature 14	 : 0.679891487432342
+
+Tested:      1 @ Thu Jan 27 10:59:12 2011
+Tested:      2 @ Thu Jan 27 10:59:12 2011
+Tested:      3 @ Thu Jan 27 10:59:12 2011
+Tested:      4 @ Thu Jan 27 10:59:12 2011
+Tested:      5 @ Thu Jan 27 10:59:12 2011
+Tested:      6 @ Thu Jan 27 10:59:12 2011
+Tested:      7 @ Thu Jan 27 10:59:12 2011
+Tested:      8 @ Thu Jan 27 10:59:12 2011
+Tested:      9 @ Thu Jan 27 10:59:12 2011
+Tested:     10 @ Thu Jan 27 10:59:13 2011
+Tested:    100 @ Thu Jan 27 10:59:15 2011, 10: Thu Jan 27 10:59:12 2011
+Ready:     200 @ Thu Jan 27 10:59:17 2011
+Seconds taken: 4.5440 (44.01 p/s)
+
+overall accuracy:        0.045000  (9/200)
+_ _ _ _ _ _ _ _ _ _ _ _ _ CHAPTER _ _ { _ 1.00000 }        4.7592404120264
+_ _ _ _ _ _ _ _ _ _ _ _ CHAPTER I _ _ { _ 1.00000 }        5.4702415485198
+_ _ _ _ _ _ _ _ _ _ _ CHAPTER I Down _ _ { _ 1.00000 }        9.5770374925539
+_ _ _ _ _ _ _ _ _ _ CHAPTER I Down the _ _ { _ 1.00000 }        11.673497226738
+_ _ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole _ _ { _ 1.00000 }        17.835162018298
+_ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice _ _ { _ 1.00000 }        21.357190173056
+_ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice was _ _ { _ 1.00000 }        24.362946459900
+_ _ _ _ _ _ _ I Down the Rabbit-Hole Alice was beginning CHAPTER _ { _ 1.00000 }        24.832120027910
+_ _ _ _ _ _ CHAPTER Down the Rabbit-Hole Alice was beginning to I _ { _ 1.00000 }        30.796305524529
+_ _ _ _ _ CHAPTER I the Rabbit-Hole Alice was beginning to get Down _ { _ 1.00000 }        32.717424471792
+_ _ _ _ CHAPTER I Down Rabbit-Hole Alice was beginning to get very the _ { _ 1.00000 }        35.812527058398
+_ _ _ CHAPTER I Down the Alice was beginning to get very tired Rabbit-Hole company { company 2.00000 }        31.243617380421
+_ _ CHAPTER I Down the Rabbit-Hole was beginning to get very tired of Alice and { and 2.00000 }        35.008688148847
+_ CHAPTER I Down the Rabbit-Hole Alice beginning to get very tired of sitting was came { came 1.00000 }        39.850846548607
+CHAPTER I Down the Rabbit-Hole Alice was to get very tired of sitting by beginning back { back 1.00000 }        35.405328307411
+I Down the Rabbit-Hole Alice was beginning get very tired of sitting by her to seeing { seeing 1.00000 }        37.068950747642
+Down the Rabbit-Hole Alice was beginning to very tired of sitting by her sister get fact { fact 1.00000 }        38.981118625055
+the Rabbit-Hole Alice was beginning to get tired of sitting by her sister on very history { history 1.00000 }        37.530731539529
+Rabbit-Hole Alice was beginning to get very of sitting by her sister on the tired Paraguay { Paraguay 1.00000 }        38.940272500072
+Alice was beginning to get very tired sitting by her sister on the bank of it's { it's 1.00000 }        34.260095270506
+was beginning to get very tired of by her sister on the bank , sitting yen { yen 1.00000 }        32.611394643272
+beginning to get very tired of sitting her sister on the bank , and by into { into 1.00000 }        32.857425318960
+to get very tired of sitting by sister on the bank , and of her political { political 1.00000 }        29.241847419204
+get very tired of sitting by her on the bank , and of having sister the { the 1.00000 }        28.445578841791
+very tired of sitting by her sister the bank , and of having nothing on of { of 1.00000 }        30.549405930472
+tired of sitting by her sister on bank , and of having nothing to the the { the 1.00000 }        29.880163462109
+of sitting by her sister on the , and of having nothing to do bank decade { decade 1.00000 }        24.184012823026
+sitting by her sister on the bank and of having nothing to do : , . { . 1.00000 }        28.541673058516
+by her sister on the bank , of having nothing to do : once and " { " 1.00000 }        27.042862004621
+her sister on the bank , and having nothing to do : once or of barring { barring 1.00000 }        29.164821390451
+sister on the bank , and of nothing to do : once or twice having dollars { dollars 1.00000 }        29.855086353613
+on the bank , and of having to do : once or twice she nothing could { could 1.00000 }        27.108464228989
+the bank , and of having nothing do : once or twice she had to be { be 1.00000 }        29.956611818630
+bank , and of having nothing to : once or twice she had peeped do " { " 1.00000 }        30.498437663097
+, and of having nothing to do once or twice she had peeped into : came { came 1.00000 }        31.920615607618
+and of having nothing to do : or twice she had peeped into the once " { " 1.00000 }        29.278374692336
+of having nothing to do : once twice she had peeped into the book or That { That 1.00000 }        30.773666889298
+having nothing to do : once or she had peeped into the book her twice history { history 1.00000 }        29.236084198751
+nothing to do : once or twice had peeped into the book her sister she seconds { seconds 1.00000 }        31.993444900261
+to do : once or twice she peeped into the book her sister was had fundamentals { fundamentals 1.00000 }        29.932353851713
+do : once or twice she had into the book her sister was reading peeped continue { continue 2.00000 }        31.169725938929
+: once or twice she had peeped the book her sister was reading , into , { , 2.00000 }        31.325220141161
+once or twice she had peeped into book her sister was reading , but the due { due 2.00000 }        33.396301945540
+or twice she had peeped into the her sister was reading , but it book fact { fact 1.00000 }        31.949109735711
+twice she had peeped into the book sister was reading , but it had her market { market 1.00000 }        32.730664940867
+she had peeped into the book her was reading , but it had no sister Dow { Dow 1.00000 }        29.931999567441
+had peeped into the book her sister reading , but it had no pictures was , { , 1.00000 }        33.483151198048
+peeped into the book her sister was , but it had no pictures or reading sell { sell 1.00000 }        30.586533941145
+into the book her sister was reading but it had no pictures or conversations , consumers { consumers 1.00000 }        36.235735171969
+the book her sister was reading , it had no pictures or conversations in but percent { percent 1.00000 }        36.016451879470
+book her sister was reading , but had no pictures or conversations in it it don't { don't 1.00000 }        35.323353391792
+her sister was reading , but it no pictures or conversations in it , had have { have 1.00000 }        34.737791432141
+sister was reading , but it had pictures or conversations in it , ` no Cherokee { Cherokee 1.00000 }        35.592479891906
+was reading , but it had no or conversations in it , ` and pictures wary { wary 1.00000 }        31.961959861817
+reading , but it had no pictures conversations in it , ` and what or 12,000 { 12,000 1.00000 }        36.491855482846
+, but it had no pictures or in it , ` and what is conversations _ { _ 1.00000 }        26.416988839362
+but it had no pictures or conversations it , ` and what is the in . { . 1.00000 }        31.587105570612
+it had no pictures or conversations in , ` and what is the use it Volkswagen { Volkswagen 1.00000 }        33.388763258387
+had no pictures or conversations in it ` and what is the use of , 5,778.00 { 5,778.00 1.00000 }        33.321753458204
+no pictures or conversations in it , and what is the use of a ` Paraguay { Paraguay 1.00000 }        32.469377908467
+pictures or conversations in it , ` what is the use of a book and _ { _ 1.00000 }        34.572960021846
+or conversations in it , ` and is the use of a book , what _ { _ 1.00000 }        29.105858394321
+conversations in it , ` and what the use of a book , ' is _ { _ 1.00000 }        31.879120918338
+in it , ` and what is use of a book , ' thought the _ { _ 1.00000 }        23.636099044117
+it , ` and what is the of a book , ' thought Alice use _ { _ 1.00000 }        25.681443945527
+, ` and what is the use a book , ' thought Alice ` of _ { _ 1.00000 }        26.393392250706
+` and what is the use of book , ' thought Alice ` without a political { political 1.00000 }        30.462101370320
+and what is the use of a , ' thought Alice ` without pictures book percent { percent 2.00000 }        32.480208294622
+what is the use of a book ' thought Alice ` without pictures or , million { million 2.00000 }        32.613988965032
+is the use of a book , thought Alice ` without pictures or conversation ' number { number 1.00000 }        37.341015183504
+the use of a book , ' Alice ` without pictures or conversation ? thought _ { _ 1.00000 }        35.376564347040
+use of a book , ' thought ` without pictures or conversation ? ' Alice a { a 1.00000 }        34.773243967536
+of a book , ' thought Alice without pictures or conversation ? ' So ` have { have 1.00000 }        35.705065115845
+a book , ' thought Alice ` pictures or conversation ? ' So she without of { of 1.00000 }        34.198773600638
+book , ' thought Alice ` without or conversation ? ' So she was pictures Boni { Boni 1.00000 }        34.875536010469
+, ' thought Alice ` without pictures conversation ? ' So she was considering or was { was 1.00000 }        40.034820953152
+' thought Alice ` without pictures or ? ' So she was considering in conversation yen { yen 1.00000 }        35.935574571819
+thought Alice ` without pictures or conversation ' So she was considering in her ? . { . 1.00000 }        39.763655462615
+Alice ` without pictures or conversation ? So she was considering in her own ' play { play 1.00000 }        37.515966326981
+` without pictures or conversation ? ' she was considering in her own mind So stronger-than-expected { stronger-than-expected 1.00000 }        37.425420839885
+without pictures or conversation ? ' So was considering in her own mind ( she a { a 1.00000 }        39.508974503313
+pictures or conversation ? ' So she considering in her own mind ( as was stock { stock 1.00000 }        37.638233063154
+or conversation ? ' So she was in her own mind ( as well considering _ { _ 1.00000 }        31.183431495783
+conversation ? ' So she was considering her own mind ( as well as in Limited { Limited 1.00000 }        35.683953832173
+? ' So she was considering in own mind ( as well as she her its { its 2.00000 }        30.628873021329
+' So she was considering in her mind ( as well as she could own was { was 1.00000 }        30.083783267815
+So she was considering in her own ( as well as she could , mind market { market 1.00000 }        29.860340611369
+she was considering in her own mind as well as she could , for ( wary { wary 1.00000 }        30.607597357473
+was considering in her own mind ( well as she could , for the as would { would 2.00000 }        30.465744032078
+considering in her own mind ( as as she could , for the hot well cents { cents 2.00000 }        30.427680565335
+in her own mind ( as well she could , for the hot day as he { he 1.00000 }        26.415274632173
+her own mind ( as well as could , for the hot day made she said { said 1.00000 }        25.586035978282
+own mind ( as well as she , for the hot day made her could seeing { seeing 1.00000 }        27.003360597935
+mind ( as well as she could for the hot day made her feel , be { be 1.00000 }        26.298683055029
+( as well as she could , the hot day made her feel very for " { " 1.00000 }        25.644777604904
+as well as she could , for hot day made her feel very sleepy the a { a 1.00000 }        28.371661828266
+well as she could , for the day made her feel very sleepy and hot fact { fact 1.00000 }        28.393068014760
+as she could , for the hot made her feel very sleepy and stupid day . { . 1.00000 }        28.507250328875
+she could , for the hot day her feel very sleepy and stupid ) made But { But 1.00000 }        27.796984330610
+could , for the hot day made feel very sleepy and stupid ) , her Volkswagen { Volkswagen 1.00000 }        29.967826870836
+, for the hot day made her very sleepy and stupid ) , whether feel targeting { targeting 1.00000 }        29.817231022057
+for the hot day made her feel sleepy and stupid ) , whether the very its { its 2.00000 }        30.001124047120
+the hot day made her feel very and stupid ) , whether the pleasure sleepy Spry { Spry 2.00000 }        32.003607166364
+hot day made her feel very sleepy stupid ) , whether the pleasure of and could { could 1.00000 }        35.574830377016
+day made her feel very sleepy and ) , whether the pleasure of making stupid share { share 2.00000 }        35.295316543494
+made her feel very sleepy and stupid , whether the pleasure of making a ) , { , 2.00000 }        35.508608687915
+her feel very sleepy and stupid ) whether the pleasure of making a daisy-chain , due { due 2.00000 }        38.131807823825
+feel very sleepy and stupid ) , the pleasure of making a daisy-chain would whether to { to 2.00000 }        37.303827436385
+very sleepy and stupid ) , whether pleasure of making a daisy-chain would be the also { also 1.00000 }        37.040630324626
+sleepy and stupid ) , whether the of making a daisy-chain would be worth pleasure wary { wary 1.00000 }        36.089793390989
+and stupid ) , whether the pleasure making a daisy-chain would be worth the of But { But 1.00000 }        37.807509439193
+stupid ) , whether the pleasure of a daisy-chain would be worth the trouble making what { what 1.00000 }        37.356148510640
+) , whether the pleasure of making daisy-chain would be worth the trouble of a he { he 1.00000 }        36.372103540663
+, whether the pleasure of making a would be worth the trouble of getting daisy-chain said { said 1.00000 }        34.558861626254
+whether the pleasure of making a daisy-chain be worth the trouble of getting up would , { , 2.00000 }        37.579419834698
+the pleasure of making a daisy-chain would worth the trouble of getting up and be be { be 1.00000 }        36.844270828679
+pleasure of making a daisy-chain would be the trouble of getting up and picking worth " { " 1.00000 }        35.272295971118
+of making a daisy-chain would be worth trouble of getting up and picking the the a { a 1.00000 }        38.265934975660
+making a daisy-chain would be worth the of getting up and picking the daisies trouble costs { costs 2.00000 }        37.870001431917
+a daisy-chain would be worth the trouble getting up and picking the daisies , of could { could 1.00000 }        38.397874858230
+daisy-chain would be worth the trouble of up and picking the daisies , when getting Compuserve { Compuserve 2.00000 }        37.409161814298
+would be worth the trouble of getting and picking the daisies , when suddenly up Volkswagen { Volkswagen 1.00000 }        38.974367605828
+be worth the trouble of getting up picking the daisies , when suddenly a and market { market 1.00000 }        37.731223471330
+worth the trouble of getting up and the daisies , when suddenly a White picking . { . 1.00000 }        35.436045750001
+the trouble of getting up and picking daisies , when suddenly a White Rabbit the U.S. { U.S. 1.00000 }        39.668201542462
+trouble of getting up and picking the , when suddenly a White Rabbit with daisies Dow { Dow 1.00000 }        38.114719683464
+of getting up and picking the daisies when suddenly a White Rabbit with pink , came { came 1.00000 }        37.697798953170
+getting up and picking the daisies , suddenly a White Rabbit with pink eyes when back { back 1.00000 }        38.378759995335
+up and picking the daisies , when a White Rabbit with pink eyes ran suddenly . { . 1.00000 }        34.607498629006
+and picking the daisies , when suddenly White Rabbit with pink eyes ran close a said { said 2.00000 }        37.572950307270
+picking the daisies , when suddenly a Rabbit with pink eyes ran close by White also { also 1.00000 }        35.503710612699
+the daisies , when suddenly a White with pink eyes ran close by her Rabbit would { would 2.00000 }        31.976524701916
+daisies , when suddenly a White Rabbit pink eyes ran close by her . with could { could 1.00000 }        33.452325216563
+, when suddenly a White Rabbit with eyes ran close by her . There pink 150 { 150 2.00000 }        33.387065620511
+when suddenly a White Rabbit with pink ran close by her . There was eyes " { " 1.00000 }        33.344276385117
+suddenly a White Rabbit with pink eyes close by her . There was nothing ran to { to 1.00000 }        36.649193641588
+a White Rabbit with pink eyes ran by her . There was nothing so close also { also 1.00000 }        31.965154228574
+White Rabbit with pink eyes ran close her . There was nothing so VERY by wary { wary 1.00000 }        34.028781416732
+Rabbit with pink eyes ran close by . There was nothing so VERY remarkable her " { " 1.00000 }        37.284020607026
+with pink eyes ran close by her There was nothing so VERY remarkable in . what { what 1.00000 }        36.758356160991
+pink eyes ran close by her . was nothing so VERY remarkable in that There CompuServe { CompuServe 2.00000 }        33.888505462417
+eyes ran close by her . There nothing so VERY remarkable in that ; was results { results 2.00000 }        34.794660346175
+ran close by her . There was so VERY remarkable in that ; nor nothing decade { decade 1.00000 }        32.679937526565
+close by her . There was nothing VERY remarkable in that ; nor did so said { said 2.00000 }        34.215957554390
+by her . There was nothing so remarkable in that ; nor did Alice VERY also { also 1.00000 }        33.548563370708
+her . There was nothing so VERY in that ; nor did Alice think remarkable million { million 2.00000 }        30.593639745040
+. There was nothing so VERY remarkable that ; nor did Alice think it in , { , 2.00000 }        34.357735987959
+There was nothing so VERY remarkable in ; nor did Alice think it so that " { " 1.00000 }        34.661615780093
+was nothing so VERY remarkable in that nor did Alice think it so VERY ; decade { decade 1.00000 }        32.623741244477
+nothing so VERY remarkable in that ; did Alice think it so VERY much nor said { said 1.00000 }        34.696779388776
+so VERY remarkable in that ; nor Alice think it so VERY much out did could { could 1.00000 }        33.398885201105
+VERY remarkable in that ; nor did think it so VERY much out of Alice But { But 1.00000 }        32.605123799776
+remarkable in that ; nor did Alice it so VERY much out of the think " { " 1.00000 }        29.897399690818
+in that ; nor did Alice think so VERY much out of the way it the { the 1.00000 }        29.862291518905
+that ; nor did Alice think it VERY much out of the way to so Dow { Dow 1.00000 }        29.262241167316
+; nor did Alice think it so much out of the way to hear VERY came { came 1.00000 }        27.782214269394
+nor did Alice think it so VERY out of the way to hear the much back { back 1.00000 }        28.496136107633
+did Alice think it so VERY much of the way to hear the Rabbit out up { up 1.00000 }        31.232350645668
+Alice think it so VERY much out the way to hear the Rabbit say of was { was 1.00000 }        31.249510598845
+think it so VERY much out of way to hear the Rabbit say to the also { also 1.00000 }        28.414256760905
+it so VERY much out of the to hear the Rabbit say to itself way seeing { seeing 1.00000 }        29.125261348940
+so VERY much out of the way hear the Rabbit say to itself , to of { of 1.00000 }        29.821062153738
+VERY much out of the way to the Rabbit say to itself , ` hear what { what 1.00000 }        29.090677261993
+much out of the way to hear Rabbit say to itself , ` Oh the " { " 1.00000 }        27.934206437510
+out of the way to hear the say to itself , ` Oh dear Rabbit seeing { seeing 1.00000 }        27.776796190285
+of the way to hear the Rabbit to itself , ` Oh dear ! say could { could 1.00000 }        25.776790447386
+the way to hear the Rabbit say itself , ` Oh dear ! Oh to be { be 1.00000 }        27.334423058726
+way to hear the Rabbit say to , ` Oh dear ! Oh dear itself " { " 1.00000 }        24.310640553594
+to hear the Rabbit say to itself ` Oh dear ! Oh dear ! , market { market 1.00000 }        26.467402082348
+hear the Rabbit say to itself , Oh dear ! Oh dear ! I ` Dow { Dow 1.00000 }        29.972993058390
+the Rabbit say to itself , ` dear ! Oh dear ! I shall Oh _ { _ 1.00000 }        28.417749113765
+Rabbit say to itself , ` Oh ! Oh dear ! I shall be dear _ { _ 1.00000 }        26.270449704299
+say to itself , ` Oh dear Oh dear ! I shall be late ! _ { _ 1.00000 }        27.775842729310
+to itself , ` Oh dear ! dear ! I shall be late ! Oh _ { _ 1.00000 }        25.701251499233
+itself , ` Oh dear ! Oh ! I shall be late ! ' dear _ { _ 1.00000 }        25.575379299565
+, ` Oh dear ! Oh dear I shall be late ! ' ( ! Volkswagen { Volkswagen 1.00000 }        23.053776839057
+` Oh dear ! Oh dear ! shall be late ! ' ( when I _ { _ 1.00000 }        24.382708202471
+Oh dear ! Oh dear ! I be late ! ' ( when she shall _ { _ 1.00000 }        22.861063063750
+dear ! Oh dear ! I shall late ! ' ( when she thought be _ { _ 1.00000 }        27.152976929307
+! Oh dear ! I shall be ! ' ( when she thought it late _ { _ 1.00000 }        24.255174876623
+Oh dear ! I shall be late ' ( when she thought it over ! _ { _ 1.00000 }        28.454378304824
+dear ! I shall be late ! ( when she thought it over afterwards ' rolling { rolling 2.00000 }        33.308783163462
+! I shall be late ! ' when she thought it over afterwards , ( _ { _ 1.00000 }        31.933037410683
+I shall be late ! ' ( she thought it over afterwards , it when 19.95 { 19.95 1.00000 }        31.933758303590
+shall be late ! ' ( when thought it over afterwards , it occurred she fact { fact 1.00000 }        33.282662409118
+be late ! ' ( when she it over afterwards , it occurred to thought Dow { Dow 1.00000 }        31.272482960817
+late ! ' ( when she thought over afterwards , it occurred to her it came { came 1.00000 }        33.547928391193
+! ' ( when she thought it afterwards , it occurred to her that over other { other 1.00000 }        34.085951851211
+' ( when she thought it over , it occurred to her that she afterwards seeing { seeing 1.00000 }        27.788561135927
+( when she thought it over afterwards it occurred to her that she ought , . { . 1.00000 }        34.865342108977
+when she thought it over afterwards , occurred to her that she ought to it The { The 1.00000 }        34.145664199459
+she thought it over afterwards , it to her that she ought to have occurred automaker { automaker 1.00000 }        31.882638996142
+thought it over afterwards , it occurred her that she ought to have wondered to quarter { quarter 1.00000 }        36.201388966909
+it over afterwards , it occurred to that she ought to have wondered at her jumping { jumping 1.00000 }        34.736748112555
+over afterwards , it occurred to her she ought to have wondered at this that came { came 1.00000 }        36.824917308068
+afterwards , it occurred to her that ought to have wondered at this , she economy { economy 1.00000 }        36.094019248407
+, it occurred to her that she to have wondered at this , but ought what { what 1.00000 }        31.304036696816
+it occurred to her that she ought have wondered at this , but at to where { where 1.00000 }        33.413928938012
+occurred to her that she ought to wondered at this , but at the have 15 { 15 2.00000 }        32.680587425201
+to her that she ought to have at this , but at the time wondered " { " 1.00000 }        27.775871752486

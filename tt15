@@ -1,0 +1,66 @@
+#!/bin/sh
+
+trainfile=tests/numtest.train
+testfile=tests/numtest.test
+
+$comm -f $trainfile -t $testfile +v di+db -w0 
+cat tests/numtest.test.IB1.O.nw.k1.out
+$comm -f $trainfile -t $testfile +v di+db -w1 
+cat tests/numtest.test.IB1.O.gr.k1.out
+$comm -f $trainfile -t $testfile +v di+db -w2 
+cat tests/numtest.test.IB1.O.ig.k1.out
+$comm -f $trainfile -t $testfile +v di+db -w3 
+cat tests/numtest.test.IB1.O.x2.k1.out
+$comm -f $trainfile -t $testfile +v di+db -w4 
+cat tests/numtest.test.IB1.O.sv.k1.out
+$comm -f $trainfile -t $testfile +v di+db -w5 
+cat tests/numtest.test.IB1.O.sd.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mN -w0
+cat tests/numtest.test.IB1.N.nw.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mN -w1
+cat tests/numtest.test.IB1.N.gr.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mN -w2
+cat tests/numtest.test.IB1.N.ig.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mN -w3
+cat tests/numtest.test.IB1.N.x2.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mN -w4
+cat tests/numtest.test.IB1.N.sv.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mN -w5
+cat tests/numtest.test.IB1.N.sd.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mD -w0
+cat tests/numtest.test.IB1.D.nw.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mD -w1
+cat tests/numtest.test.IB1.D.gr.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mD -w2
+cat tests/numtest.test.IB1.D.ig.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mD -w3
+cat tests/numtest.test.IB1.D.x2.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mD -w4
+cat tests/numtest.test.IB1.D.sv.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mD -w5
+cat tests/numtest.test.IB1.D.sd.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mC -w0
+cat tests/numtest.test.IB1.C.nw.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mC -w1
+cat tests/numtest.test.IB1.C.gr.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mC -w2
+cat tests/numtest.test.IB1.C.ig.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mC -w3
+cat tests/numtest.test.IB1.C.x2.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mC -w4
+cat tests/numtest.test.IB1.C.sv.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mC -w5
+cat tests/numtest.test.IB1.C.sd.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mE -w0
+cat tests/numtest.test.IB1.E.nw.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mE -w1
+cat tests/numtest.test.IB1.E.gr.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mE -w2
+cat tests/numtest.test.IB1.E.ig.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mE -w3
+cat tests/numtest.test.IB1.E.x2.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mE -w4
+cat tests/numtest.test.IB1.E.sv.k1.out
+$comm -f $trainfile -t $testfile +v di+db -mE -w5
+cat tests/numtest.test.IB1.E.sd.k1.out
+

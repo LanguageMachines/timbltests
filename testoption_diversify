@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+
+$comm -f ./tests/hapax.data -t ./tests/hapax.test -e1000 -o test.out1
+head -50 < test.out1 
+$comm -f ./tests/hapax.data -t ./tests/hapax.test -e1000 --Diversify -o test.out2 
+head -50 < test.out2 
+
+
+
+

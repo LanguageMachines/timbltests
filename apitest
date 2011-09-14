@@ -1,0 +1,29 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+exec="$VG $api_bin"
+
+$exec/api_test1
+cat < my_first_test.out
+
+$exec/api_test2
+cat < my_second_test.out
+
+$exec/api_test3
+
+$exec/api_test4
+cat < inc3.out 
+
+$exec/api_test5
+
+$exec/api_test6
+
+$exec/classify
+
+$exec/tse tests/dimin.script
+
+$exec/tse tests/cvstress.script
+
+echo klaar.

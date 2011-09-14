@@ -1,0 +1,294 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 17:40:14 2011
+
+Starting Cross validation test on files:
+./tests/klein_1.train
+./tests/klein_2.train
+./tests/klein_3.train
+./tests/klein_4.train
+./tests/klein_5.train
+Preparation took 0 seconds, 0 milliseconds and 226 microseconds
+Examine datafile './tests/klein_1.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+DB Entropy        : 1.1239577
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     31	1.0514606	0.21636590
+    2     31	1.1239577	0.23128409
+    3     29	0.96606292	0.20546896
+    4     30	0.76843726	0.16052103
+    5     17	0.75290857	0.19555822
+    6     17	1.1239577	0.29193340
+    7     18	0.86079976	0.21819805
+    8     17	0.40001621	0.10329552
+
+
+Starting to test, Testfile: ./tests/klein_1.train
+Writing output in:          /tmp/klein_1.train.cv
+Algorithm     : CV
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.216365903867902
+Feature 2	 : 0.231284092171772
+Feature 3	 : 0.205468961117581
+Feature 4	 : 0.160521026415060
+Feature 5	 : 0.195558220224054
+Feature 6	 : 0.291933402045204
+Feature 7	 : 0.218198052865363
+Feature 8	 : 0.103295521355847
+
+Tested:      1 @ Tue Jan 25 17:40:14 2011
+Tested:      2 @ Tue Jan 25 17:40:14 2011
+Tested:      3 @ Tue Jan 25 17:40:14 2011
+Tested:      4 @ Tue Jan 25 17:40:14 2011
+Tested:      5 @ Tue Jan 25 17:40:14 2011
+Tested:      6 @ Tue Jan 25 17:40:14 2011
+Tested:      7 @ Tue Jan 25 17:40:14 2011
+Tested:      8 @ Tue Jan 25 17:40:14 2011
+Tested:      9 @ Tue Jan 25 17:40:14 2011
+Tested:     10 @ Tue Jan 25 17:40:14 2011
+Ready:      10 @ Tue Jan 25 17:40:14 2011
+Seconds taken: 0.0005 (18552.88 p/s)
+
+overall accuracy:        0.800000  (8/10)
+Examine datafile './tests/klein_2.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+DB Entropy        : 1.21081003
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     30	1.08568141	0.22585381
+    2     29	1.13831299	0.24042877
+    3     25	1.01318437	0.23032898
+    4     27	0.93041471	0.20656967
+    5     15	0.75002647	0.20299617
+    6     15	1.13831299	0.30537853
+    7     16	0.83542417	0.22216874
+    8     15	0.44603650	0.12394414
+
+
+Starting to test, Testfile: ./tests/klein_2.train
+Writing output in:          /tmp/klein_2.train.cv
+Algorithm     : CV
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.225853813146603
+Feature 2	 : 0.240428769594743
+Feature 3	 : 0.230328984331396
+Feature 4	 : 0.206569670528383
+Feature 5	 : 0.202996166718337
+Feature 6	 : 0.305378526354465
+Feature 7	 : 0.222168743865479
+Feature 8	 : 0.123944137808201
+
+Tested:      1 @ Tue Jan 25 17:40:14 2011
+Tested:      2 @ Tue Jan 25 17:40:14 2011
+Tested:      3 @ Tue Jan 25 17:40:14 2011
+Tested:      4 @ Tue Jan 25 17:40:14 2011
+Tested:      5 @ Tue Jan 25 17:40:14 2011
+Tested:      6 @ Tue Jan 25 17:40:14 2011
+Tested:      7 @ Tue Jan 25 17:40:14 2011
+Tested:      8 @ Tue Jan 25 17:40:14 2011
+Tested:      9 @ Tue Jan 25 17:40:14 2011
+Tested:     10 @ Tue Jan 25 17:40:14 2011
+Ready:      10 @ Tue Jan 25 17:40:14 2011
+Seconds taken: 0.0010 (9643.20 p/s)
+
+overall accuracy:        0.800000  (8/10)
+Examine datafile './tests/klein_3.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+DB Entropy        : 1.10727241
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     33	1.05464083	0.21157263
+    2     31	1.05464083	0.21613678
+    3     29	0.96924313	0.20527803
+    4     29	0.80175556	0.17134265
+    5     17	0.73188656	0.19159785
+    6     17	1.05464083	0.27609049
+    7     17	0.76788828	0.20441129
+    8     16	0.30124108	0.08102333
+
+
+Starting to test, Testfile: ./tests/klein_3.train
+Writing output in:          /tmp/klein_3.train.cv
+Algorithm     : CV
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.211572632756454
+Feature 2	 : 0.216136783583368
+Feature 3	 : 0.205278026077873
+Feature 4	 : 0.171342647360174
+Feature 5	 : 0.191597849237134
+Feature 6	 : 0.276090486447543
+Feature 7	 : 0.204411289106452
+Feature 8	 : 0.081023332351012
+
+Tested:      1 @ Tue Jan 25 17:40:14 2011
+Tested:      2 @ Tue Jan 25 17:40:14 2011
+Tested:      3 @ Tue Jan 25 17:40:14 2011
+Tested:      4 @ Tue Jan 25 17:40:14 2011
+Tested:      5 @ Tue Jan 25 17:40:14 2011
+Tested:      6 @ Tue Jan 25 17:40:14 2011
+Tested:      7 @ Tue Jan 25 17:40:14 2011
+Tested:      8 @ Tue Jan 25 17:40:14 2011
+Tested:      9 @ Tue Jan 25 17:40:14 2011
+Tested:     10 @ Tue Jan 25 17:40:14 2011
+Ready:      10 @ Tue Jan 25 17:40:14 2011
+Seconds taken: 0.0010 (10362.69 p/s)
+
+overall accuracy:        0.900000  (9/10)
+Examine datafile './tests/klein_4.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+DB Entropy        : 1.16743672
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     32	1.11480514	0.22602878
+    2     32	1.09493968	0.22289880
+    3     30	0.96981107	0.20714134
+    4     31	1.06217357	0.22200231
+    5     16	0.71361797	0.19418620
+    6     16	1.09493968	0.29899921
+    7     17	0.76845621	0.20564998
+    8     15	0.53212858	0.14797537
+
+
+Starting to test, Testfile: ./tests/klein_4.train
+Writing output in:          /tmp/klein_4.train.cv
+Algorithm     : CV
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.226028780085344
+Feature 2	 : 0.222898804190488
+Feature 3	 : 0.207141340441089
+Feature 4	 : 0.222002305500848
+Feature 5	 : 0.194186199995710
+Feature 6	 : 0.298999207112076
+Feature 7	 : 0.205649984076972
+Feature 8	 : 0.147975374298064
+
+Tested:      1 @ Tue Jan 25 17:40:14 2011
+Tested:      2 @ Tue Jan 25 17:40:14 2011
+Tested:      3 @ Tue Jan 25 17:40:14 2011
+Tested:      4 @ Tue Jan 25 17:40:14 2011
+Tested:      5 @ Tue Jan 25 17:40:14 2011
+Tested:      6 @ Tue Jan 25 17:40:14 2011
+Tested:      7 @ Tue Jan 25 17:40:14 2011
+Tested:      8 @ Tue Jan 25 17:40:14 2011
+Tested:      9 @ Tue Jan 25 17:40:14 2011
+Tested:     10 @ Tue Jan 25 17:40:14 2011
+Ready:      10 @ Tue Jan 25 17:40:14 2011
+Seconds taken: 0.0010 (10395.01 p/s)
+
+overall accuracy:        0.800000  (8/10)
+Examine datafile './tests/klein_5.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+DB Entropy        : 1.16687507
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     32	1.06687507	0.21675958
+    2     31	1.11687507	0.22924703
+    3     29	0.98574726	0.20875948
+    4     28	0.82663406	0.17847364
+    5     16	0.69800288	0.18631101
+    6     16	1.11687507	0.29662222
+    7     16	0.78574726	0.21148893
+    8     16	0.37663406	0.10195991
+
+
+Starting to test, Testfile: ./tests/klein_5.train
+Writing output in:          /tmp/klein_5.train.cv
+Algorithm     : CV
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.216759580252811
+Feature 2	 : 0.229247034465546
+Feature 3	 : 0.208759480370678
+Feature 4	 : 0.178473640641812
+Feature 5	 : 0.186311005227154
+Feature 6	 : 0.296622220584837
+Feature 7	 : 0.211488928619078
+Feature 8	 : 0.101959907286607
+
+Tested:      1 @ Tue Jan 25 17:40:14 2011
+Tested:      2 @ Tue Jan 25 17:40:14 2011
+Tested:      3 @ Tue Jan 25 17:40:14 2011
+Tested:      4 @ Tue Jan 25 17:40:14 2011
+Tested:      5 @ Tue Jan 25 17:40:14 2011
+Tested:      6 @ Tue Jan 25 17:40:14 2011
+Tested:      7 @ Tue Jan 25 17:40:14 2011
+Tested:      8 @ Tue Jan 25 17:40:14 2011
+Ready:       8 @ Tue Jan 25 17:40:14 2011
+Seconds taken: 0.0008 (9673.52 p/s)
+
+overall accuracy:        1.000000  (8/8)
+Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,O { O 1.00000 }        0.26381654777091
+International,Rockwell,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,I { I 1.00000 }        0.41192412409196
+CorpPUNT,International,Rockwell,PUNT,NNP,NNP,NNP,PUNT,I,O { O 1.00000 }        0.93514161830893
+'s,CorpPUNT,International,Rockwell,POS,NNP,NNP,NNP,I,I { I 1.00000 }        0.91876765392562
+Tulsa,'s,CorpPUNT,International,NNP,POS,NNP,NNP,B,B { B 1.00000 }        0.88120963298044
+unit,Tulsa,'s,CorpPUNT,NN,NNP,POS,NNP,I,I { I 1.00000 }        1.0956626447240
+said,unit,Tulsa,'s,VBD,NN,NNP,POS,I,I { I 1.00000 }        1.2107010559708
+it,said,unit,Tulsa,PRP,VBD,NN,NNP,O,O { O 1.00000 }        1.0994076858458
+signed,it,said,unit,VBD,PRP,VBD,NN,I,I { I 1.00000 }        1.0994076858458
+a,signed,it,said,DT,VBD,PRP,VBD,O,O { O 1.00000 }        1.1351335577935
+tentative,a,signed,it,JJ,DT,VBD,PRP,I,I { I 1.00000 }        1.2301215421277
+agreement,tentative,a,signed,NN,JJ,DT,VBD,I,I { I 1.00000 }        1.3288188324827
+extending,agreement,tentative,a,VBG,NN,JJ,DT,I,I { I 1.00000 }        1.2118615163984
+its,extending,agreement,tentative,PRP$,VBG,NN,JJ,O,O { O 1.00000 }        1.3051710841507
+contract,its,extending,agreement,NN,PRP$,VBG,NN,I,O { O 1.00000 }        1.4271550040110
+with,contract,its,extending,IN,NN,PRP$,VBG,I,I { I 2.00000 }        1.4522902859931
+Boeing,with,contract,its,NNP,IN,NN,PRP$,O,O { O 1.00000 }        1.0234403061282
+CoPUNT,Boeing,with,contract,NNP,NNP,IN,NN,I,I { I 1.00000 }        0.98969277253292
+to,CoPUNT,Boeing,with,TO,NNP,NNP,IN,I,B { B 1.00000 }        1.1812269463425
+provide,to,CoPUNT,Boeing,VB,TO,NNP,NNP,O,O { O 1.00000 }        1.0088653496801
+structural,provide,to,CoPUNT,JJ,VB,TO,NNP,O,O { O 1.00000 }        0.87167324528814
+parts,structural,provide,to,NNS,JJ,VB,TO,I,I { I 1.00000 }        1.0897647112353
+for,parts,structural,provide,IN,NNS,JJ,VB,I,I { I 1.00000 }        0.67378078937243
+Boeing,for,parts,structural,NNP,IN,NNS,JJ,O,O { O 1.00000 }        0.77979115543163
+'s,Boeing,for,parts,POS,NNP,IN,NNS,I,I { I 1.00000 }        0.86081448778265
+747,'s,Boeing,for,CD,POS,NNP,IN,B,B { B 1.00000 }        0.86081448778265
+jetliners,747,'s,Boeing,NNS,CD,POS,NNP,I,I { I 1.00000 }        1.0667403993847
+PUNT,jetliners,747,'s,PUNT,NNS,CD,POS,I,I { I 1.00000 }        0.87819207847888
+Rockwell,PUNT,PUNT,jetliners,NNP,PUNT,PUNT,NNS,O,I { I 1.00000 }        0.25236597971119
+said,Rockwell,PUNT,PUNT,VBD,NNP,PUNT,PUNT,I,I { I 1.00000 }        0.40317048199359
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,I { I 1.00000 }        0.94211299138362
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I { I 1.00000 }        1.2029839843980
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I { I 1.00000 }        1.2029839843980
+for,calls,agreement,the,IN,VBZ,NN,DT,O,I { I 2.00000 }        1.3046670156195
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O { O 2.00000 }        1.2029839843980
+to,it,for,calls,TO,PRP,IN,VBZ,I,I { I 1.00000 }        1.2029839843980
+supply,to,it,for,VB,TO,PRP,IN,O,O { O 1.00000 }        1.0087977844023
+200,supply,to,it,CD,VB,TO,PRP,O,O { O 1.00000 }        1.0130914640705
+additional,200,supply,to,JJ,CD,VB,TO,I,I { I 1.00000 }        1.1492543318247
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I { I 1.00000 }        1.2316965885928
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I { I 1.00000 }        0.71844006276464
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O { O 1.00000 }        0.79030370649246
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I { I 1.00000 }        1.1037525423981
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I { I 1.00000 }        0.92992899138372
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.58154422612178
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 3.00000 }        0.92893984053035
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { O 1.00000 }        1.3413508849348
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { O 3.00000 }        1.3329995768637

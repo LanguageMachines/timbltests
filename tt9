@@ -1,0 +1,12 @@
+#!/bin/sh
+
+trainfile=tests/klein.train
+testfile=tt9.ind
+
+$comm -f $trainfile -Iib_tree1 --Treeorder=GRO 
+$comm -iib_tree1 -t @$testfile +vdi+db 
+$comm -f $trainfile -Iib_tree2 -a2 -q3 
+$comm -iib_tree2 -t @$testfile -a2 -q3 +vdi+db 
+diff ib_tree1 ib_tree2
+
+

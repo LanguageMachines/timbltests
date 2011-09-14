@@ -1,0 +1,8 @@
+#!/bin/sh
+
+$comm -f ./tests/example.train -I vptree -U vpfile
+$comm -i vptree -t ./tests/example.test -u vpfile 
+$comm -i vptree -a1 -t ./tests/example.test -u vpfile
+
+
+

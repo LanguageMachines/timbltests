@@ -1,0 +1,6 @@
+*.out
+*.%
+*.w
+*.wgt
+*.tree
+klein*.cv

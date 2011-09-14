@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+
+trainfile=tests/hapax.smalltrain
+testfile=tests/hapax.smalltest
+
+$comm -f $trainfile -t $testfile +vmd -oo1 
+cat o1 
+$comm -f $trainfile -t $testfile -a1 +vmd -oo2 
+cat o2 
+$comm -f $trainfile -t $testfile -a2 -q5 +vmd -oo3
+cat o3 
+$comm -f $trainfile -t $testfile -a4 +vmd -oo4
+cat o4 
+
+

@@ -1,0 +1,2064 @@
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar 14 16:07:05 2011
+
+Examine datafile './tests/cv_1.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/cv_1.train
+Start:          0 @ Mon Mar 14 16:07:05 2011
+Finished:      38 @ Mon Mar 14 16:07:05 2011
+Calculating Entropy         Mon Mar 14 16:07:05 2011
+Lines of data     : 38
+DB Entropy        : 1.1239577
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     31	1.0514606	0.21636590
+    2     31	1.1239577	0.23128409
+    3     29	0.96606292	0.20546896
+    4     30	0.76843726	0.16052103
+    5     17	0.75290857	0.19555822
+    6     17	1.1239577	0.29193340
+    7     18	0.86079976	0.21819805
+    8     17	0.40001621	0.10329552
+
+Preparation took 0 seconds, 0 milliseconds and 715 microseconds
+Feature Permutation based on Default Ordering :
+< 1, 2, 3, 4, 5, 6, 7, 8 >
+Phase 2: Building multi index on Datafile: ./tests/cv_1.train
+Start:          0 @ Mon Mar 14 16:07:05 2011
+Finished:      38 @ Mon Mar 14 16:07:05 2011
+
+Phase 3: Learning from Datafile: ./tests/cv_1.train
+Start:          0 @ Mon Mar 14 16:07:05 2011
+Finished:      38 @ Mon Mar 14 16:07:05 2011
+
+Size of InstanceBase = 335 Nodes, (13400 bytes), 2.05 % compression
+Learning took 0 seconds, 1 milliseconds and 29 microseconds
+Writing Instance-Base in: ib2test1.tree
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar 14 16:07:05 2011
+
+Reading Instance-Base from: ib2test1.tree
+
+Size of InstanceBase = 335 Nodes, (13400 bytes), 2.05 % compression
+Feature Permutation based on Data File Ordering :
+< 1, 2, 3, 4, 5, 6, 7, 8 >
+Examine datafile './tests/cv_2.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/cv_2.train
+Start:          0 @ Mon Mar 14 16:07:05 2011
+Examining:      1 @ Mon Mar 14 16:07:05 2011
+Examining:      2 @ Mon Mar 14 16:07:05 2011
+Examining:      3 @ Mon Mar 14 16:07:05 2011
+Examining:      4 @ Mon Mar 14 16:07:05 2011
+Examining:      5 @ Mon Mar 14 16:07:05 2011
+Examining:      6 @ Mon Mar 14 16:07:05 2011
+Examining:      7 @ Mon Mar 14 16:07:05 2011
+Examining:      8 @ Mon Mar 14 16:07:05 2011
+Examining:      9 @ Mon Mar 14 16:07:05 2011
+Examining:     10 @ Mon Mar 14 16:07:05 2011
+Examining:     11 @ Mon Mar 14 16:07:05 2011
+Examining:     12 @ Mon Mar 14 16:07:05 2011
+Examining:     13 @ Mon Mar 14 16:07:05 2011
+Examining:     14 @ Mon Mar 14 16:07:05 2011
+Examining:     15 @ Mon Mar 14 16:07:05 2011
+Examining:     16 @ Mon Mar 14 16:07:05 2011
+Examining:     17 @ Mon Mar 14 16:07:05 2011
+Examining:     18 @ Mon Mar 14 16:07:05 2011
+Examining:     19 @ Mon Mar 14 16:07:05 2011
+Examining:     20 @ Mon Mar 14 16:07:05 2011
+Examining:     21 @ Mon Mar 14 16:07:05 2011
+Examining:     22 @ Mon Mar 14 16:07:05 2011
+Examining:     23 @ Mon Mar 14 16:07:05 2011
+Examining:     24 @ Mon Mar 14 16:07:05 2011
+Examining:     25 @ Mon Mar 14 16:07:05 2011
+Examining:     26 @ Mon Mar 14 16:07:05 2011
+Examining:     27 @ Mon Mar 14 16:07:05 2011
+Examining:     28 @ Mon Mar 14 16:07:05 2011
+Examining:     29 @ Mon Mar 14 16:07:05 2011
+Examining:     30 @ Mon Mar 14 16:07:05 2011
+Examining:     31 @ Mon Mar 14 16:07:05 2011
+Examining:     32 @ Mon Mar 14 16:07:05 2011
+Examining:     33 @ Mon Mar 14 16:07:05 2011
+Examining:     34 @ Mon Mar 14 16:07:05 2011
+Examining:     35 @ Mon Mar 14 16:07:05 2011
+Examining:     36 @ Mon Mar 14 16:07:05 2011
+Examining:     37 @ Mon Mar 14 16:07:05 2011
+Examining:     38 @ Mon Mar 14 16:07:05 2011
+Finished:      38 @ Mon Mar 14 16:07:05 2011
+Calculating Entropy         Mon Mar 14 16:07:05 2011
+Lines of data     : 38
+DB Entropy        : 1.17093636
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     37	1.06219080	0.21129909
+    2     36	1.12344109	0.22561510
+    3     33	0.97068266	0.20515891
+    4     34	0.81031576	0.16813639
+    5     17	0.73112160	0.19083979
+    6     17	1.12344109	0.29205360
+    7     18	0.83647568	0.21450128
+    8     17	0.37061205	0.09772324
+
+Preparation took 0 seconds, 0 milliseconds and 995 microseconds
+Phase 2: Appending from Datafile: ./tests/cv_2.train (starting at line 1)
+Start:          1 @ Mon Mar 14 16:07:05 2011
+Learning:       0 @ Mon Mar 14 16:07:05 2011	 added:1
+Learning:       1 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       2 @ Mon Mar 14 16:07:05 2011	 added:1
+Learning:       3 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       4 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       5 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       6 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       7 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       8 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       9 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      10 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      11 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      12 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      13 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      14 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      15 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      16 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      17 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      18 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      19 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      20 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      21 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      22 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      23 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      24 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      25 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      26 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      27 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      28 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      29 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      30 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      31 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      32 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      33 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      34 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      35 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      36 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      37 @ Mon Mar 14 16:07:05 2011	 added:0
+Finished:      37 @ Mon Mar 14 16:07:05 2011
+in total added 2 new entries
+
+Size of InstanceBase = 350 Nodes, (14000 bytes), 2.78 % compression
+DB Entropy        : 1.17093636
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     37	1.06219080	0.21129909
+    2     36	1.12344109	0.22561510
+    3     33	0.97068266	0.20515891
+    4     34	0.81031576	0.16813639
+    5     17	0.73112160	0.19083979
+    6     17	1.12344109	0.29205360
+    7     18	0.83647568	0.21450128
+    8     17	0.37061205	0.09772324
+
+Writing Instance-Base in: ib2test2.tree
+# Status: complete
+# Permutation: < 1, 2, 3, 4, 5, 6, 7, 8 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	I
+2	O
+3	B
+Features
+1	tentative
+2	a
+3	signed
+4	it
+5	JJ
+6	DT
+7	VBD
+8	PRP
+9	agreement
+10	NN
+11	extending
+12	VBG
+13	its
+14	PRP$
+15	contract
+16	with
+17	IN
+18	Boeing
+19	NNP
+20	CoPUNT
+21	to
+22	TO
+23	provide
+24	VB
+25	structural
+26	parts
+27	NNS
+28	for
+29	's
+30	POS
+31	747
+32	CD
+33	jetliners
+34	PUNT
+35	Rockwell
+36	said
+37	the
+38	calls
+39	VBZ
+40	supply
+41	200
+42	additional
+43	shipsets
+44	so-called
+45	planes
+46	These
+47	include
+48	VBP
+49	among
+50	KOMMA
+51	other
+52	International
+53	CorpPUNT
+54	Tulsa
+55	unit
+
+(1{ 1 24, 2 15, 3 1 }[1(1[2(1[3(1[4(1[5(1[6(1[7(1[8(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,4(2[28(2[38(2[9(2[8(2[17(2[39(2[10(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,9(1[1(1[2(1[3(1[10(1[5(1[6(1[7(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,37(1[36(1[35(1[10(1[6(1[7(1[19(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,11(1[9(1[1(1[2(1[12(1[10(1[5(1[6(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,13(2[11(2[9(2[1(2[14(2[12(2[10(2[5(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,15(1[13(1[11(1[9(1[10(1[14(1[12(1[10(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,16(1[15(1[13(1[11(1[17(1[10(1[14(1[12(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,18(2[16(2[15(2[13(2[19(2[17(2[10(2[14(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,28(2[26(2[25(2[19(2[17(2[27(2[5(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,20(1[18(1[16(1[15(1[19(1[19(1[17(1[10(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,21(1[4(1[28(1[38(1[22(1[8(1[17(1[39(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,20(1[18(1[16(1[22(1[19(1[19(1[17(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,23(2[21(2[20(2[18(2[24(2[22(2[19(2[19(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,25(2[23(2[21(2[20(2[5(2[24(2[22(2[19(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,26(1[25(1[23(1[21(1[27(1[5(1[24(1[22(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,28(1[26(1[25(1[23(1[17(1[27(1[5(1[24(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,38(2[9(2[37(2[17(2[39(2[10(2[6(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,43(1[44(1[42(1[17(1[27(1[5(1[5(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,29(1[18(1[28(1[26(1[30(1[19(1[17(1[27(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,31(3[29(3[18(3[28(3[32(3[30(3[19(3[17(3{ 3 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,33(1[31(1[29(1[18(1[27(1[32(1[30(1[19(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,34(1[33(1[31(1[29(1[34(1[27(1[32(1[30(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,45(1[37(1[28(1[34(1[27(1[6(1[17(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,35(1[34(1[34(1[33(2[19(2[34(2[34(2[27(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+,34(1[19(1[34(1[34(1[34(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,36(1[35(1[34(1[34(1[7(1[19(1[34(1[34(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,37(2[28(2[43(2[44(2[6(2[17(2[27(2[5(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,36(2[35(2[34(2[6(2[7(2[19(2[34(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,38(1[9(1[37(1[36(1[39(1[10(1[6(1[7(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,40(2[21(2[4(2[28(2[24(2[22(2[8(2[17(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,41(2[40(2[21(2[4(2[32(2[24(2[22(2[8(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,42(1[41(1[40(1[21(1[5(1[32(1[24(1[22(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,43(1[44(1[42(1[41(1[27(1[5(1[5(1[32(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,45(1[37(1[28(1[43(1[27(1[6(1[17(1[27(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,46(2[34(2[34(2[45(2[6(2[34(2[34(2[27(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,47(1[46(1[34(1[34(1[48(1[6(1[34(1[34(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,49(2[50(2[47(2[46(2[17(2[50(2[48(2[6(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,51(2[49(2[50(2[47(2[5(2[17(2[50(2[48(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,53(1[52(1[35(1[34(1[19(1[19(1[19(1[34(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar 14 16:07:05 2011
+
+Examine datafile './tests/cv_12.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/cv_12.train
+Start:          0 @ Mon Mar 14 16:07:05 2011
+Examining:      1 @ Mon Mar 14 16:07:05 2011
+Examining:      2 @ Mon Mar 14 16:07:05 2011
+Examining:      3 @ Mon Mar 14 16:07:05 2011
+Examining:      4 @ Mon Mar 14 16:07:05 2011
+Examining:      5 @ Mon Mar 14 16:07:05 2011
+Examining:      6 @ Mon Mar 14 16:07:05 2011
+Examining:      7 @ Mon Mar 14 16:07:05 2011
+Examining:      8 @ Mon Mar 14 16:07:05 2011
+Examining:      9 @ Mon Mar 14 16:07:05 2011
+Examining:     10 @ Mon Mar 14 16:07:05 2011
+Examining:     11 @ Mon Mar 14 16:07:05 2011
+Examining:     12 @ Mon Mar 14 16:07:05 2011
+Examining:     13 @ Mon Mar 14 16:07:05 2011
+Examining:     14 @ Mon Mar 14 16:07:05 2011
+Examining:     15 @ Mon Mar 14 16:07:05 2011
+Examining:     16 @ Mon Mar 14 16:07:05 2011
+Examining:     17 @ Mon Mar 14 16:07:05 2011
+Examining:     18 @ Mon Mar 14 16:07:05 2011
+Examining:     19 @ Mon Mar 14 16:07:05 2011
+Examining:     20 @ Mon Mar 14 16:07:05 2011
+Examining:     21 @ Mon Mar 14 16:07:05 2011
+Examining:     22 @ Mon Mar 14 16:07:05 2011
+Examining:     23 @ Mon Mar 14 16:07:05 2011
+Examining:     24 @ Mon Mar 14 16:07:05 2011
+Examining:     25 @ Mon Mar 14 16:07:05 2011
+Examining:     26 @ Mon Mar 14 16:07:05 2011
+Examining:     27 @ Mon Mar 14 16:07:05 2011
+Examining:     28 @ Mon Mar 14 16:07:05 2011
+Examining:     29 @ Mon Mar 14 16:07:05 2011
+Examining:     30 @ Mon Mar 14 16:07:05 2011
+Examining:     31 @ Mon Mar 14 16:07:05 2011
+Examining:     32 @ Mon Mar 14 16:07:05 2011
+Examining:     33 @ Mon Mar 14 16:07:05 2011
+Examining:     34 @ Mon Mar 14 16:07:05 2011
+Examining:     35 @ Mon Mar 14 16:07:05 2011
+Examining:     36 @ Mon Mar 14 16:07:05 2011
+Examining:     37 @ Mon Mar 14 16:07:05 2011
+Examining:     38 @ Mon Mar 14 16:07:05 2011
+Examining:     39 @ Mon Mar 14 16:07:05 2011
+Examining:     40 @ Mon Mar 14 16:07:05 2011
+Examining:     41 @ Mon Mar 14 16:07:05 2011
+Examining:     42 @ Mon Mar 14 16:07:05 2011
+Examining:     43 @ Mon Mar 14 16:07:05 2011
+Examining:     44 @ Mon Mar 14 16:07:05 2011
+Examining:     45 @ Mon Mar 14 16:07:05 2011
+Examining:     46 @ Mon Mar 14 16:07:05 2011
+Examining:     47 @ Mon Mar 14 16:07:05 2011
+Examining:     48 @ Mon Mar 14 16:07:05 2011
+Examining:     49 @ Mon Mar 14 16:07:05 2011
+Examining:     50 @ Mon Mar 14 16:07:05 2011
+Examining:     51 @ Mon Mar 14 16:07:05 2011
+Examining:     52 @ Mon Mar 14 16:07:05 2011
+Examining:     53 @ Mon Mar 14 16:07:05 2011
+Examining:     54 @ Mon Mar 14 16:07:05 2011
+Examining:     55 @ Mon Mar 14 16:07:05 2011
+Examining:     56 @ Mon Mar 14 16:07:05 2011
+Examining:     57 @ Mon Mar 14 16:07:05 2011
+Examining:     58 @ Mon Mar 14 16:07:05 2011
+Examining:     59 @ Mon Mar 14 16:07:05 2011
+Examining:     60 @ Mon Mar 14 16:07:05 2011
+Examining:     61 @ Mon Mar 14 16:07:05 2011
+Examining:     62 @ Mon Mar 14 16:07:05 2011
+Examining:     63 @ Mon Mar 14 16:07:05 2011
+Examining:     64 @ Mon Mar 14 16:07:05 2011
+Examining:     65 @ Mon Mar 14 16:07:05 2011
+Examining:     66 @ Mon Mar 14 16:07:05 2011
+Examining:     67 @ Mon Mar 14 16:07:05 2011
+Examining:     68 @ Mon Mar 14 16:07:05 2011
+Examining:     69 @ Mon Mar 14 16:07:05 2011
+Examining:     70 @ Mon Mar 14 16:07:05 2011
+Examining:     71 @ Mon Mar 14 16:07:05 2011
+Examining:     72 @ Mon Mar 14 16:07:05 2011
+Examining:     73 @ Mon Mar 14 16:07:05 2011
+Examining:     74 @ Mon Mar 14 16:07:05 2011
+Examining:     75 @ Mon Mar 14 16:07:05 2011
+Examining:     76 @ Mon Mar 14 16:07:05 2011
+Finished:      76 @ Mon Mar 14 16:07:05 2011
+Calculating Entropy         Mon Mar 14 16:07:05 2011
+Lines of data     : 76
+DB Entropy        : 1.1709364
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     37	1.0621908	0.21129909
+    2     36	1.1234411	0.22561510
+    3     33	0.97068266	0.20515891
+    4     34	0.81031576	0.16813639
+    5     17	0.73112160	0.19083979
+    6     17	1.1234411	0.29205360
+    7     18	0.83647568	0.21450128
+    8     17	0.37061205	0.097723243
+
+Preparation took 0 seconds, 1 milliseconds and 944 microseconds
+Feature Permutation based on Default Ordering :
+< 1, 2, 3, 4, 5, 6, 7, 8 >
+Phase 2: Learning from Datafile: ./tests/cv_12.train
+Start:          0 @ Mon Mar 14 16:07:05 2011
+Learning:       1 @ Mon Mar 14 16:07:05 2011
+Learning:       2 @ Mon Mar 14 16:07:05 2011
+Learning:       3 @ Mon Mar 14 16:07:05 2011
+Learning:       4 @ Mon Mar 14 16:07:05 2011
+Learning:       5 @ Mon Mar 14 16:07:05 2011
+Learning:       6 @ Mon Mar 14 16:07:05 2011
+Learning:       7 @ Mon Mar 14 16:07:05 2011
+Learning:       8 @ Mon Mar 14 16:07:05 2011
+Learning:       9 @ Mon Mar 14 16:07:05 2011
+Learning:      10 @ Mon Mar 14 16:07:05 2011
+Learning:      11 @ Mon Mar 14 16:07:05 2011
+Learning:      12 @ Mon Mar 14 16:07:05 2011
+Learning:      13 @ Mon Mar 14 16:07:05 2011
+Learning:      14 @ Mon Mar 14 16:07:05 2011
+Learning:      15 @ Mon Mar 14 16:07:05 2011
+Learning:      16 @ Mon Mar 14 16:07:05 2011
+Learning:      17 @ Mon Mar 14 16:07:05 2011
+Learning:      18 @ Mon Mar 14 16:07:05 2011
+Learning:      19 @ Mon Mar 14 16:07:05 2011
+Learning:      20 @ Mon Mar 14 16:07:05 2011
+Learning:      21 @ Mon Mar 14 16:07:05 2011
+Learning:      22 @ Mon Mar 14 16:07:05 2011
+Learning:      23 @ Mon Mar 14 16:07:05 2011
+Learning:      24 @ Mon Mar 14 16:07:05 2011
+Learning:      25 @ Mon Mar 14 16:07:05 2011
+Learning:      26 @ Mon Mar 14 16:07:05 2011
+Learning:      27 @ Mon Mar 14 16:07:05 2011
+Learning:      28 @ Mon Mar 14 16:07:05 2011
+Learning:      29 @ Mon Mar 14 16:07:05 2011
+Learning:      30 @ Mon Mar 14 16:07:05 2011
+Learning:      31 @ Mon Mar 14 16:07:05 2011
+Learning:      32 @ Mon Mar 14 16:07:05 2011
+Learning:      33 @ Mon Mar 14 16:07:05 2011
+Learning:      34 @ Mon Mar 14 16:07:05 2011
+Learning:      35 @ Mon Mar 14 16:07:05 2011
+Learning:      36 @ Mon Mar 14 16:07:05 2011
+Learning:      37 @ Mon Mar 14 16:07:05 2011
+Learning:      38 @ Mon Mar 14 16:07:05 2011
+Finished:      38 @ Mon Mar 14 16:07:05 2011
+
+Size of InstanceBase = 335 Nodes, (13400 bytes), 2.05 % compression
+Learning took 0 seconds, 0 milliseconds and 897 microseconds
+Phase 2: Appending from Datafile: ./tests/cv_12.train (starting at line 39)
+Start:         39 @ Mon Mar 14 16:07:05 2011
+Learning:       0 @ Mon Mar 14 16:07:05 2011	 added:1
+Learning:       1 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       2 @ Mon Mar 14 16:07:05 2011	 added:1
+Learning:       3 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       4 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       5 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       6 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       7 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       8 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       9 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      10 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      11 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      12 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      13 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      14 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      15 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      16 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      17 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      18 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      19 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      20 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      21 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      22 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      23 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      24 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      25 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      26 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      27 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      28 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      29 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      30 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      31 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      32 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      33 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      34 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      35 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      36 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      37 @ Mon Mar 14 16:07:05 2011	 added:0
+Finished:      37 @ Mon Mar 14 16:07:05 2011
+in total added 2 new entries
+
+Size of InstanceBase = 350 Nodes, (14000 bytes), 2.78 % compression
+DB Entropy        : 1.17093636
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     37	1.06219080	0.21129909
+    2     36	1.12344109	0.22561510
+    3     33	0.97068266	0.20515891
+    4     34	0.81031576	0.16813639
+    5     17	0.73112160	0.19083979
+    6     17	1.12344109	0.29205360
+    7     18	0.83647568	0.21450128
+    8     17	0.37061205	0.09772324
+
+Writing Instance-Base in: ib2test12.tree
+# Status: complete
+# Permutation: < 1, 2, 3, 4, 5, 6, 7, 8 >
+# Numeric: .
+# Bin_Size: 20
+# Version 4 (Hashed)
+#
+Classes
+1	I
+2	O
+3	B
+Features
+1	tentative
+2	a
+3	signed
+4	it
+5	JJ
+6	DT
+7	VBD
+8	PRP
+9	agreement
+10	NN
+11	extending
+12	VBG
+13	its
+14	PRP$
+15	contract
+16	with
+17	IN
+18	Boeing
+19	NNP
+20	CoPUNT
+21	to
+22	TO
+23	provide
+24	VB
+25	structural
+26	parts
+27	NNS
+28	for
+29	's
+30	POS
+31	747
+32	CD
+33	jetliners
+34	PUNT
+35	Rockwell
+36	said
+37	the
+38	calls
+39	VBZ
+40	supply
+41	200
+42	additional
+43	shipsets
+44	so-called
+45	planes
+46	These
+47	include
+48	VBP
+49	among
+50	KOMMA
+51	other
+52	International
+53	CorpPUNT
+54	Tulsa
+55	unit
+
+(1{ 1 24, 2 15, 3 1 }[1(1[2(1[3(1[4(1[5(1[6(1[7(1[8(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,4(2[28(2[38(2[9(2[8(2[17(2[39(2[10(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,9(1[1(1[2(1[3(1[10(1[5(1[6(1[7(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,37(1[36(1[35(1[10(1[6(1[7(1[19(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,11(1[9(1[1(1[2(1[12(1[10(1[5(1[6(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,13(2[11(2[9(2[1(2[14(2[12(2[10(2[5(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,15(1[13(1[11(1[9(1[10(1[14(1[12(1[10(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,16(1[15(1[13(1[11(1[17(1[10(1[14(1[12(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,18(2[16(2[15(2[13(2[19(2[17(2[10(2[14(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,28(2[26(2[25(2[19(2[17(2[27(2[5(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,20(1[18(1[16(1[15(1[19(1[19(1[17(1[10(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,21(1[4(1[28(1[38(1[22(1[8(1[17(1[39(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,20(1[18(1[16(1[22(1[19(1[19(1[17(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,23(2[21(2[20(2[18(2[24(2[22(2[19(2[19(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,25(2[23(2[21(2[20(2[5(2[24(2[22(2[19(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,26(1[25(1[23(1[21(1[27(1[5(1[24(1[22(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,28(1[26(1[25(1[23(1[17(1[27(1[5(1[24(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,38(2[9(2[37(2[17(2[39(2[10(2[6(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,43(1[44(1[42(1[17(1[27(1[5(1[5(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,29(1[18(1[28(1[26(1[30(1[19(1[17(1[27(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,31(3[29(3[18(3[28(3[32(3[30(3[19(3[17(3{ 3 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,33(1[31(1[29(1[18(1[27(1[32(1[30(1[19(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,34(1[33(1[31(1[29(1[34(1[27(1[32(1[30(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,45(1[37(1[28(1[34(1[27(1[6(1[17(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,35(1[34(1[34(1[33(2[19(2[34(2[34(2[27(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+,34(1[19(1[34(1[34(1[34(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,36(1[35(1[34(1[34(1[7(1[19(1[34(1[34(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,37(2[28(2[43(2[44(2[6(2[17(2[27(2[5(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,36(2[35(2[34(2[6(2[7(2[19(2[34(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,38(1[9(1[37(1[36(1[39(1[10(1[6(1[7(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,40(2[21(2[4(2[28(2[24(2[22(2[8(2[17(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,41(2[40(2[21(2[4(2[32(2[24(2[22(2[8(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,42(1[41(1[40(1[21(1[5(1[32(1[24(1[22(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,43(1[44(1[42(1[41(1[27(1[5(1[5(1[32(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,45(1[37(1[28(1[43(1[27(1[6(1[17(1[27(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,46(2[34(2[34(2[45(2[6(2[34(2[34(2[27(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,47(1[46(1[34(1[34(1[48(1[6(1[34(1[34(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,49(2[50(2[47(2[46(2[17(2[50(2[48(2[6(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,51(2[49(2[50(2[47(2[5(2[17(2[50(2[48(2{ 2 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+,53(1[52(1[35(1[34(1[19(1[19(1[19(1[34(1{ 1 1 })
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+]
+)
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar 14 16:07:05 2011
+
+Reading Instance-Base from: ib2test12.tree
+
+Size of InstanceBase = 350 Nodes, (14000 bytes), 2.78 % compression
+Feature Permutation based on Data File Ordering :
+< 1, 2, 3, 4, 5, 6, 7, 8 >
+Examine datafile './tests/cv_3.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/cv_3.train
+Start:          0 @ Mon Mar 14 16:07:05 2011
+Examining:      1 @ Mon Mar 14 16:07:05 2011
+Examining:      2 @ Mon Mar 14 16:07:05 2011
+Examining:      3 @ Mon Mar 14 16:07:05 2011
+Examining:      4 @ Mon Mar 14 16:07:05 2011
+Examining:      5 @ Mon Mar 14 16:07:05 2011
+Examining:      6 @ Mon Mar 14 16:07:05 2011
+Examining:      7 @ Mon Mar 14 16:07:05 2011
+Examining:      8 @ Mon Mar 14 16:07:05 2011
+Examining:      9 @ Mon Mar 14 16:07:05 2011
+Examining:     10 @ Mon Mar 14 16:07:05 2011
+Examining:     11 @ Mon Mar 14 16:07:05 2011
+Examining:     12 @ Mon Mar 14 16:07:05 2011
+Examining:     13 @ Mon Mar 14 16:07:05 2011
+Examining:     14 @ Mon Mar 14 16:07:05 2011
+Examining:     15 @ Mon Mar 14 16:07:05 2011
+Examining:     16 @ Mon Mar 14 16:07:05 2011
+Examining:     17 @ Mon Mar 14 16:07:05 2011
+Examining:     18 @ Mon Mar 14 16:07:05 2011
+Examining:     19 @ Mon Mar 14 16:07:05 2011
+Examining:     20 @ Mon Mar 14 16:07:05 2011
+Examining:     21 @ Mon Mar 14 16:07:05 2011
+Examining:     22 @ Mon Mar 14 16:07:05 2011
+Examining:     23 @ Mon Mar 14 16:07:05 2011
+Examining:     24 @ Mon Mar 14 16:07:05 2011
+Examining:     25 @ Mon Mar 14 16:07:05 2011
+Examining:     26 @ Mon Mar 14 16:07:05 2011
+Examining:     27 @ Mon Mar 14 16:07:05 2011
+Examining:     28 @ Mon Mar 14 16:07:05 2011
+Examining:     29 @ Mon Mar 14 16:07:05 2011
+Examining:     30 @ Mon Mar 14 16:07:05 2011
+Examining:     31 @ Mon Mar 14 16:07:05 2011
+Examining:     32 @ Mon Mar 14 16:07:05 2011
+Examining:     33 @ Mon Mar 14 16:07:05 2011
+Examining:     34 @ Mon Mar 14 16:07:05 2011
+Examining:     35 @ Mon Mar 14 16:07:05 2011
+Examining:     36 @ Mon Mar 14 16:07:05 2011
+Examining:     37 @ Mon Mar 14 16:07:05 2011
+Examining:     38 @ Mon Mar 14 16:07:05 2011
+Finished:      38 @ Mon Mar 14 16:07:05 2011
+Calculating Entropy         Mon Mar 14 16:07:05 2011
+Lines of data     : 38
+DB Entropy        : 1.10659293
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     37	1.00903343	0.19893379
+    2     36	1.04435250	0.20845496
+    3     33	0.91403459	0.19006706
+    4     34	0.74327630	0.15402116
+    5     17	0.67147453	0.17503338
+    6     17	1.04435250	0.27059980
+    7     18	0.77615142	0.20071612
+    8     17	0.31577870	0.08279677
+
+Preparation took 0 seconds, 0 milliseconds and 991 microseconds
+Phase 2: Appending from Datafile: ./tests/cv_3.train (starting at line 1)
+Start:          1 @ Mon Mar 14 16:07:05 2011
+Learning:       0 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       1 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       2 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       3 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       4 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       5 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       6 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       7 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       8 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       9 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      10 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      11 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      12 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      13 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      14 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      15 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      16 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      17 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      18 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      19 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      20 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      21 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      22 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      23 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      24 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      25 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      26 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      27 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      28 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      29 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      30 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      31 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      32 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      33 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      34 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      35 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      36 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      37 @ Mon Mar 14 16:07:05 2011	 added:0
+Finished:      37 @ Mon Mar 14 16:07:05 2011
+in total added 0 new entries
+
+Size of InstanceBase = 350 Nodes, (14000 bytes), 2.78 % compression
+DB Entropy        : 1.10659293
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     37	1.00903343	0.19893379
+    2     36	1.04435250	0.20845496
+    3     33	0.91403459	0.19006706
+    4     34	0.74327630	0.15402116
+    5     17	0.67147453	0.17503338
+    6     17	1.04435250	0.27059980
+    7     18	0.77615142	0.20071612
+    8     17	0.31577870	0.08279677
+
+Writing Instance-Base in: ib2test123.tree
+Examine datafile 'tests/cv_4.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/cv_4.train
+Writing output in:          tests/cv_4.train.IB2.O.gr.k1.out
+Algorithm     : IB2
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.198933785402382
+Feature 2	 : 0.208454964483243
+Feature 3	 : 0.190067062234424
+Feature 4	 : 0.154021160017587
+Feature 5	 : 0.175033378125167
+Feature 6	 : 0.270599797601837
+Feature 7	 : 0.200716117938111
+Feature 8	 : 0.082796774612031
+
+Tested:      1 @ Mon Mar 14 16:07:05 2011
+Tested:      2 @ Mon Mar 14 16:07:05 2011
+Tested:      3 @ Mon Mar 14 16:07:05 2011
+Tested:      4 @ Mon Mar 14 16:07:05 2011
+Tested:      5 @ Mon Mar 14 16:07:05 2011
+Tested:      6 @ Mon Mar 14 16:07:05 2011
+Tested:      7 @ Mon Mar 14 16:07:05 2011
+Tested:      8 @ Mon Mar 14 16:07:05 2011
+Tested:      9 @ Mon Mar 14 16:07:05 2011
+Tested:     10 @ Mon Mar 14 16:07:05 2011
+Tested:     11 @ Mon Mar 14 16:07:05 2011
+Tested:     12 @ Mon Mar 14 16:07:05 2011
+Tested:     13 @ Mon Mar 14 16:07:05 2011
+Tested:     14 @ Mon Mar 14 16:07:05 2011
+Tested:     15 @ Mon Mar 14 16:07:05 2011
+Tested:     16 @ Mon Mar 14 16:07:05 2011
+Tested:     17 @ Mon Mar 14 16:07:05 2011
+Tested:     18 @ Mon Mar 14 16:07:05 2011
+Tested:     19 @ Mon Mar 14 16:07:05 2011
+Tested:     20 @ Mon Mar 14 16:07:05 2011
+Tested:     21 @ Mon Mar 14 16:07:05 2011
+Tested:     22 @ Mon Mar 14 16:07:05 2011
+Tested:     23 @ Mon Mar 14 16:07:05 2011
+Tested:     24 @ Mon Mar 14 16:07:05 2011
+Tested:     25 @ Mon Mar 14 16:07:05 2011
+Tested:     26 @ Mon Mar 14 16:07:05 2011
+Tested:     27 @ Mon Mar 14 16:07:05 2011
+Tested:     28 @ Mon Mar 14 16:07:05 2011
+Tested:     29 @ Mon Mar 14 16:07:05 2011
+Tested:     30 @ Mon Mar 14 16:07:05 2011
+Tested:     31 @ Mon Mar 14 16:07:05 2011
+Tested:     32 @ Mon Mar 14 16:07:05 2011
+Tested:     33 @ Mon Mar 14 16:07:05 2011
+Tested:     34 @ Mon Mar 14 16:07:05 2011
+Tested:     35 @ Mon Mar 14 16:07:05 2011
+Tested:     36 @ Mon Mar 14 16:07:05 2011
+Tested:     37 @ Mon Mar 14 16:07:05 2011
+Tested:     38 @ Mon Mar 14 16:07:05 2011
+Ready:      38 @ Mon Mar 14 16:07:05 2011
+Seconds taken: 0.0015 (25148.91 p/s)
+
+overall accuracy:        1.000000  (38/38), of which 30 exact matches 
+TiMBL 6.3.4 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Mar 14 16:07:05 2011
+
+Reading Instance-Base from: ib2test123.tree
+
+Size of InstanceBase = 350 Nodes, (14000 bytes), 2.78 % compression
+Feature Permutation based on Data File Ordering :
+< 1, 2, 3, 4, 5, 6, 7, 8 >
+Examine datafile './tests/cv_4.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/cv_4.train
+Start:          0 @ Mon Mar 14 16:07:05 2011
+Examining:      1 @ Mon Mar 14 16:07:05 2011
+Examining:      2 @ Mon Mar 14 16:07:05 2011
+Examining:      3 @ Mon Mar 14 16:07:05 2011
+Examining:      4 @ Mon Mar 14 16:07:05 2011
+Examining:      5 @ Mon Mar 14 16:07:05 2011
+Examining:      6 @ Mon Mar 14 16:07:05 2011
+Examining:      7 @ Mon Mar 14 16:07:05 2011
+Examining:      8 @ Mon Mar 14 16:07:05 2011
+Examining:      9 @ Mon Mar 14 16:07:05 2011
+Examining:     10 @ Mon Mar 14 16:07:05 2011
+Examining:     11 @ Mon Mar 14 16:07:05 2011
+Examining:     12 @ Mon Mar 14 16:07:05 2011
+Examining:     13 @ Mon Mar 14 16:07:05 2011
+Examining:     14 @ Mon Mar 14 16:07:05 2011
+Examining:     15 @ Mon Mar 14 16:07:05 2011
+Examining:     16 @ Mon Mar 14 16:07:05 2011
+Examining:     17 @ Mon Mar 14 16:07:05 2011
+Examining:     18 @ Mon Mar 14 16:07:05 2011
+Examining:     19 @ Mon Mar 14 16:07:05 2011
+Examining:     20 @ Mon Mar 14 16:07:05 2011
+Examining:     21 @ Mon Mar 14 16:07:05 2011
+Examining:     22 @ Mon Mar 14 16:07:05 2011
+Examining:     23 @ Mon Mar 14 16:07:05 2011
+Examining:     24 @ Mon Mar 14 16:07:05 2011
+Examining:     25 @ Mon Mar 14 16:07:05 2011
+Examining:     26 @ Mon Mar 14 16:07:05 2011
+Examining:     27 @ Mon Mar 14 16:07:05 2011
+Examining:     28 @ Mon Mar 14 16:07:05 2011
+Examining:     29 @ Mon Mar 14 16:07:05 2011
+Examining:     30 @ Mon Mar 14 16:07:05 2011
+Examining:     31 @ Mon Mar 14 16:07:05 2011
+Examining:     32 @ Mon Mar 14 16:07:05 2011
+Examining:     33 @ Mon Mar 14 16:07:05 2011
+Examining:     34 @ Mon Mar 14 16:07:05 2011
+Examining:     35 @ Mon Mar 14 16:07:05 2011
+Examining:     36 @ Mon Mar 14 16:07:05 2011
+Examining:     37 @ Mon Mar 14 16:07:05 2011
+Examining:     38 @ Mon Mar 14 16:07:05 2011
+Finished:      38 @ Mon Mar 14 16:07:05 2011
+Calculating Entropy         Mon Mar 14 16:07:05 2011
+Lines of data     : 38
+DB Entropy        : 1.14161953
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     37	1.04406003	0.20623288
+    2     36	1.07098138	0.21344783
+    3     33	0.92165605	0.19282358
+    4     34	0.83637117	0.17239621
+    5     17	0.67933931	0.17956896
+    6     17	1.07098138	0.28262748
+    7     18	0.77748794	0.20180982
+    8     17	0.39263209	0.10418443
+
+Preparation took 0 seconds, 0 milliseconds and 988 microseconds
+Phase 2: Appending from Datafile: ./tests/cv_4.train (starting at line 1)
+Start:          1 @ Mon Mar 14 16:07:05 2011
+Learning:       0 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       1 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       2 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       3 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       4 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       5 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       6 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       7 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       8 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:       9 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      10 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      11 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      12 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      13 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      14 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      15 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      16 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      17 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      18 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      19 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      20 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      21 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      22 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      23 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      24 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      25 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      26 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      27 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      28 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      29 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      30 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      31 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      32 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      33 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      34 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      35 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      36 @ Mon Mar 14 16:07:05 2011	 added:0
+Learning:      37 @ Mon Mar 14 16:07:05 2011	 added:0
+Finished:      37 @ Mon Mar 14 16:07:05 2011
+in total added 0 new entries
+
+Size of InstanceBase = 350 Nodes, (14000 bytes), 2.78 % compression
+DB Entropy        : 1.14161953
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1     37	1.04406003	0.20623288
+    2     36	1.07098138	0.21344783
+    3     33	0.92165605	0.19282358
+    4     34	0.83637117	0.17239621
+    5     17	0.67933931	0.17956896
+    6     17	1.07098138	0.28262748
+    7     18	0.77748794	0.20180982
+    8     17	0.39263209	0.10418443
+
+Examine datafile 'tests/cv_5.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/cv_5.train
+Writing output in:          tests/cv_5.train.IB2.O.gr.k1.out
+Algorithm     : IB2
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.206232881745935
+Feature 2	 : 0.213447830198844
+Feature 3	 : 0.192823582758067
+Feature 4	 : 0.172396213973674
+Feature 5	 : 0.179568956712074
+Feature 6	 : 0.282627476981307
+Feature 7	 : 0.201809823932089
+Feature 8	 : 0.104184430697219
+
+Tested:      1 @ Mon Mar 14 16:07:05 2011
+Tested:      2 @ Mon Mar 14 16:07:05 2011
+Tested:      3 @ Mon Mar 14 16:07:05 2011
+Tested:      4 @ Mon Mar 14 16:07:05 2011
+Tested:      5 @ Mon Mar 14 16:07:05 2011
+Tested:      6 @ Mon Mar 14 16:07:05 2011
+Tested:      7 @ Mon Mar 14 16:07:05 2011
+Tested:      8 @ Mon Mar 14 16:07:05 2011
+Tested:      9 @ Mon Mar 14 16:07:05 2011
+Tested:     10 @ Mon Mar 14 16:07:05 2011
+Tested:     11 @ Mon Mar 14 16:07:05 2011
+Tested:     12 @ Mon Mar 14 16:07:05 2011
+Tested:     13 @ Mon Mar 14 16:07:05 2011
+Tested:     14 @ Mon Mar 14 16:07:05 2011
+Tested:     15 @ Mon Mar 14 16:07:05 2011
+Tested:     16 @ Mon Mar 14 16:07:05 2011
+Tested:     17 @ Mon Mar 14 16:07:05 2011
+Tested:     18 @ Mon Mar 14 16:07:05 2011
+Tested:     19 @ Mon Mar 14 16:07:05 2011
+Tested:     20 @ Mon Mar 14 16:07:05 2011
+Tested:     21 @ Mon Mar 14 16:07:05 2011
+Tested:     22 @ Mon Mar 14 16:07:05 2011
+Tested:     23 @ Mon Mar 14 16:07:05 2011
+Tested:     24 @ Mon Mar 14 16:07:05 2011
+Tested:     25 @ Mon Mar 14 16:07:05 2011
+Tested:     26 @ Mon Mar 14 16:07:05 2011
+Tested:     27 @ Mon Mar 14 16:07:05 2011
+Tested:     28 @ Mon Mar 14 16:07:05 2011
+Tested:     29 @ Mon Mar 14 16:07:05 2011
+Tested:     30 @ Mon Mar 14 16:07:05 2011
+Tested:     31 @ Mon Mar 14 16:07:05 2011
+Tested:     32 @ Mon Mar 14 16:07:05 2011
+Tested:     33 @ Mon Mar 14 16:07:05 2011
+Tested:     34 @ Mon Mar 14 16:07:05 2011
+Tested:     35 @ Mon Mar 14 16:07:05 2011
+Tested:     36 @ Mon Mar 14 16:07:05 2011
+Tested:     37 @ Mon Mar 14 16:07:05 2011
+Tested:     38 @ Mon Mar 14 16:07:05 2011
+Tested:     39 @ Mon Mar 14 16:07:05 2011
+Tested:     40 @ Mon Mar 14 16:07:05 2011
+Ready:      40 @ Mon Mar 14 16:07:05 2011
+Seconds taken: 0.0016 (25412.96 p/s)
+
+overall accuracy:        1.000000  (40/40), of which 32 exact matches 

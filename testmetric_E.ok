@@ -1,0 +1,79 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Wed Jan 26 17:20:51 2011
+
+Examine datafile './tests/dot_product.train' gave the following results:
+Number of Features: 4
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/dot_product.train
+Start:          0 @ Wed Jan 26 17:20:51 2011
+Finished:       8 @ Wed Jan 26 17:20:51 2011
+Calculating Entropy         Wed Jan 26 17:20:51 2011
+Lines of data     : 8
+DB Entropy        : 3.0000000
+Number of Classes : 8
+
+Feats	Vals	InfoGain	GainRatio
+    1      2	0.81127812	1.0000000 NUMERIC
+    2      3	1.2987949	1.0000000 NUMERIC
+    3      3	1.2987949	1.0000000 NUMERIC
+    4      2	0.81127812	1.0000000 NUMERIC
+
+Preparation took 0 seconds, 0 milliseconds and 306 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 4, 2, 3 >
+Phase 2: Building multi index on Datafile: ./tests/dot_product.train
+Start:          0 @ Wed Jan 26 17:20:51 2011
+Finished:       8 @ Wed Jan 26 17:20:51 2011
+
+Phase 3: Learning from Datafile: ./tests/dot_product.train
+Start:          0 @ Wed Jan 26 17:20:51 2011
+Finished:       8 @ Wed Jan 26 17:20:51 2011
+
+Size of InstanceBase = 27 Nodes, (1080 bytes), 32.50 % compression
+Learning took 0 seconds, 0 milliseconds and 249 microseconds
+Examine datafile './tests/dot_product.test' gave the following results:
+Number of Features: 4
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/dot_product.test
+Writing output in:          test.out1
+Algorithm     : IB1
+Global metric : Euclidean Distance
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+Feature 4	 : 1.000000000000000
+
+Tested:      1 @ Wed Jan 26 17:20:51 2011
+Tested:      2 @ Wed Jan 26 17:20:51 2011
+Tested:      3 @ Wed Jan 26 17:20:51 2011
+Tested:      4 @ Wed Jan 26 17:20:51 2011
+Tested:      5 @ Wed Jan 26 17:20:51 2011
+Tested:      6 @ Wed Jan 26 17:20:51 2011
+Tested:      7 @ Wed Jan 26 17:20:51 2011
+Tested:      8 @ Wed Jan 26 17:20:51 2011
+Tested:      9 @ Wed Jan 26 17:20:51 2011
+Tested:     10 @ Wed Jan 26 17:20:51 2011
+Ready:      12 @ Wed Jan 26 17:20:51 2011
+Seconds taken: 0.0005 (25586.35 p/s)
+
+overall accuracy:        0.666667  (8/12), of which 8 exact matches 
+1,0,0,0,p,p { p 1.00000 }        0.0000000000000
+0,1,0,0,q,q { q 1.00000 }        0.0000000000000
+0,0,1,0,r,r { r 1.00000 }        0.0000000000000
+0,0,0,1,s,s { s 1.00000 }        0.0000000000000
+0,0,0,0,null,null { null 1.00000 }        0.0000000000000
+1,1,0,0,x,x { x 1.00000 }        0.0000000000000
+0,0,1,1,z,z { z 1.00000 }        0.0000000000000
+1,1,1,0,pqr,x { x 1.00000 }        0.50000000000000
+1,0,1,0,pr,p { p 1.00000 }        0.50000000000000
+1,1,1,1,pqrs,x { x 1.00000 }        1.5000000000000
+0,1.1,100000,0,fout,raar { raar 1.00000 }        49999.999990000
+0,1.1,2,0,raar,raar { raar 1.00000 }        0.0000000000000

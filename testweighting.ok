@@ -1,0 +1,1798 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 274 microseconds
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 272 microseconds
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 259 microseconds
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 260 microseconds
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 265 microseconds
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 258 microseconds
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 277 microseconds
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 257 microseconds
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 276 microseconds
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 269 microseconds
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 255 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 398 microseconds
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          out1
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : No Weighting
+
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Ready:       5 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0002 (21276.60 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+C,rood,3,+,-        0.0000000000000
+C,groen,3,+,+        1.0000000000000
+A,groen,-4,-,-        2.0000000000000
+B,rood,400,-,+        1.0000000000000
+C,wit,3,+,+        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 269 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 406 microseconds
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          out2
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.160726463858466
+Feature 2	 : 0.004098819626097
+Feature 3	 : 0.023802575094251
+
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Ready:       5 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0002 (21186.44 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+C,rood,3,+,-        0.0000000000000
+C,groen,3,+,+        0.0040988196260971
+A,groen,-4,-,-        0.027901394720348
+B,rood,400,-,+        0.023802575094251
+C,wit,3,+,+        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 255 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 399 microseconds
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          out3
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : InfoGain
+Feature 1	 : 0.211556564857227
+Feature 2	 : 0.006044814088628
+Feature 3	 : 0.044887335693993
+
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Ready:       5 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0002 (21186.44 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+C,rood,3,+,-        0.0000000000000
+C,groen,3,+,+        0.0060448140886277
+A,groen,-4,-,-        0.050932149782621
+B,rood,400,-,+        0.044887335693993
+C,wit,3,+,+        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 255 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 411 microseconds
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          out4
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : Chi-square
+Feature 1	 : 7.045790538437598
+Feature 2	 : 0.245220588235294
+Feature 3	 : 1.774519706872648
+
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Ready:       5 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0002 (21929.82 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+C,rood,3,+,-        0.0000000000000
+C,groen,3,+,+        0.24522058823529
+A,groen,-4,-,-        2.0197402951079
+B,rood,400,-,+        1.7745197068726
+C,wit,3,+,+        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 255 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 402 microseconds
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          out5
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : Shared Variance
+Feature 1	 : 0.242958294428883
+Feature 2	 : 0.008455882352941
+Feature 3	 : 0.061190334719746
+
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Ready:       5 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0002 (21367.52 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+C,rood,3,+,-        0.0000000000000
+C,groen,3,+,+        0.0084558823529412
+A,groen,-4,-,-        0.069646217072688
+B,rood,400,-,+        0.061190334719746
+C,wit,3,+,+        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 265 microseconds
+Feature Permutation based on Shared Variance :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 406 microseconds
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          out6
+Algorithm     : TRIBL, q = 2
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[2] = 48 Bytes 
+Total Size of value-matrices 48 Bytes 
+
+Weighting     : Shared Variance
+Feature 1	 : 0.242958294428883
+Feature 2	 : 0.008455882352941
+Feature 3	 : 0.061190334719746
+
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Ready:       5 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0002 (21551.72 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+C,rood,3,+,- { + 1.00000, - 2.00000 }        0.0000000000000
+C,groen,3,+,+ { + 4.00000, - 3.00000 }        0.0084558823529412
+A,groen,-4,-,- { - 4.00000 }        0.069646217072688
+B,rood,400,-,+ { + 13.0000, - 5.00000 }        0.069646217072688
+C,wit,3,+,+ { + 3.00000, - 1.00000 }        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 261 microseconds
+Feature Permutation based on Shared Variance :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 406 microseconds
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          out7
+Algorithm     : TRIBL, q = 2
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[2] = 48 Bytes 
+Total Size of value-matrices 48 Bytes 
+
+Weighting     : Shared Variance
+Feature 1	 : 0.242958294428883
+Feature 2	 : 0.008455882352941
+Feature 3	 : 0.061190334719746
+Decay         : Inverse Linear Distance
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Ready:       5 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0002 (20661.16 p/s)
+
+overall accuracy:        0.800000  (4/5), of which 2 exact matches 
+C,rood,3,+,+ { + 4.00000, - 3.00000 }        0.0000000000000
+C,groen,3,+,+ { + 4.00000, - 3.00000 }        0.0084558823529412
+A,groen,-4,-,- { - 4.00000 }        0.069646217072688
+B,rood,400,-,+ { + 13.0000, - 5.00000 }        0.069646217072688
+C,wit,3,+,+ { + 4.00000, - 3.00000 }        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 265 microseconds
+Feature Permutation based on Shared Variance :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 408 microseconds
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          out8
+Algorithm     : TRIBL2
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : Shared Variance
+Feature 1	 : 0.242958294428883
+Feature 2	 : 0.008455882352941
+Feature 3	 : 0.061190334719746
+Decay         : Inverse Linear Distance
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Ready:       5 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0003 (19455.25 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+C,rood,3,+,- { + 1.00000, - 2.00000 }        0.0000000000000
+C,groen,3,+,+ { + 4.00000, - 3.00000 }        0.0084558823529412
+A,groen,-4,-,- { - 4.00000 }        0.069646217072688
+B,rood,400,-,+ { + 13.0000, - 5.00000 }        0.061190334719746
+C,wit,3,+,+ { + 3.00000, - 1.00000 }        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1      3	7.0457905	0.24295829	0.21155656	0.16072646
+    2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
+    3      4	1.7745197	0.061190335	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 253 microseconds
+Feature Permutation based on Shared Variance :
+< 1, 3, 2 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 7 Nodes, (280 bytes), 85.42 % compression
+Learning took 0 seconds, 0 milliseconds and 415 microseconds
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          out9
+Algorithm     : IGTree
+Weighting     : Shared Variance
+Feature 1	 : 0.242958294428883
+Feature 2	 : 0.008455882352941
+Feature 3	 : 0.061190334719746
+
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Ready:       5 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0002 (25000.00 p/s)
+
+overall accuracy:        0.600000  (3/5)
+C,rood,3,+,- { + 1.00000, - 2.00000 }        0.0000000000000
+C,groen,3,+,+ { + 4.00000, - 3.00000 }        0.0084558823529412
+A,groen,-4,-,- { - 4.00000 }        0.069646217072688
+B,rood,400,-,+ { + 13.0000, - 5.00000 }        0.069646217072688
+C,wit,3,+,+ { + 4.00000, - 3.00000 }        0.0084558823529412
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/example.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      3	0.21155656	0.16072646
+    2      3	0.0060448141	0.0040988196
+    3      4	0.044887336	0.023802575
+
+Preparation took 0 seconds, 0 milliseconds and 255 microseconds
+Reading weights from ./tests/gr.wgts
+Calculated weights replaced by:
+Feature 1	 : 0.207705
+Feature 2	 : 0.21831
+Feature 3	 : 0.199299
+Feature Permutation based on weightfile :
+< 2, 1, 3 >
+Phase 2: Building multi index on Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/example.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:      29 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 33 Nodes, (1320 bytes), 31.25 % compression
+Learning took 0 seconds, 0 milliseconds and 405 microseconds
+Reading weights from ./tests/gr.wgts
+Examine datafile './tests/example.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/example.test
+Writing output in:          out10
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : User Defined  (./tests/gr.wgts)
+Feature 1	 : 0.207705000000000
+Feature 2	 : 0.218310000000000
+Feature 3	 : 0.199299000000000
+
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #3
+! commentaar
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Warning:testfile, skipped line #5
+B,fout, raar, rood,a,+
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Ready:       5 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0002 (20491.80 p/s)
+
+overall accuracy:        0.600000  (3/5), of which 2 exact matches 
+C,rood,3,+,-        0.0000000000000
+C,groen,3,+,+        0.21831000000000
+A,groen,-4,-,-        0.41760900000000
+B,rood,400,-,+        0.19929900000000
+C,wit,3,+,+        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:     220 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 793 microseconds
+Reading weights from ./tests/no.w
+Calculated weights replaced by:
+Feature 1	 : 1
+Feature 2	 : 1
+Feature 3	 : 1
+Feature 4	 : 1
+Feature 5	 : 1
+Feature 6	 : 1
+Feature 7	 : 1
+Feature 8	 : 1
+Feature Permutation based on weightfile :
+< 7, 8, 5, 6, 3, 4, 2, 1 >
+Phase 2: Building multi index on Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:     220 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:     220 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 1582 Nodes, (63280 bytes), 20.10 % compression
+Learning took 0 seconds, 5 milliseconds and 462 microseconds
+Reading weights from ./tests/no.w
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          out11
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : User Defined  (./tests/no.w)
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+Feature 4	 : 1.000000000000000
+Feature 5	 : 1.000000000000000
+Feature 6	 : 1.000000000000000
+Feature 7	 : 1.000000000000000
+Feature 8	 : 1.000000000000000
+
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Tested:      6 @ Tue Jan 25 16:18:30 2011
+Tested:      7 @ Tue Jan 25 16:18:30 2011
+Tested:      8 @ Tue Jan 25 16:18:30 2011
+Tested:      9 @ Tue Jan 25 16:18:30 2011
+Tested:     10 @ Tue Jan 25 16:18:30 2011
+Ready:      50 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0038 (13199.58 p/s)
+
+overall accuracy:        0.840000  (42/50)
+There were 2 ties of which 1 (50.00%) were correctly resolved
+Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,I
+International,Rockwell,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,O
+CorpPUNT,International,Rockwell,PUNT,NNP,NNP,NNP,PUNT,I,O
+'s,CorpPUNT,International,Rockwell,POS,NNP,NNP,NNP,I,O
+Tulsa,'s,CorpPUNT,International,NNP,POS,NNP,NNP,B,I
+unit,Tulsa,'s,CorpPUNT,NN,NNP,POS,NNP,I,I
+said,unit,Tulsa,'s,VBD,NN,NNP,POS,I,I
+it,said,unit,Tulsa,PRP,VBD,NN,NNP,O,O
+signed,it,said,unit,VBD,PRP,VBD,NN,I,I
+a,signed,it,said,DT,VBD,PRP,VBD,O,O
+tentative,a,signed,it,JJ,DT,VBD,PRP,I,I
+agreement,tentative,a,signed,NN,JJ,DT,VBD,I,I
+extending,agreement,tentative,a,VBG,NN,JJ,DT,I,I
+its,extending,agreement,tentative,PRP$,VBG,NN,JJ,O,O
+contract,its,extending,agreement,NN,PRP$,VBG,NN,I,I
+with,contract,its,extending,IN,NN,PRP$,VBG,I,I
+Boeing,with,contract,its,NNP,IN,NN,PRP$,O,O
+CoPUNT,Boeing,with,contract,NNP,NNP,IN,NN,I,I
+to,CoPUNT,Boeing,with,TO,NNP,NNP,IN,I,I
+provide,to,CoPUNT,Boeing,VB,TO,NNP,NNP,O,O
+structural,provide,to,CoPUNT,JJ,VB,TO,NNP,O,O
+parts,structural,provide,to,NNS,JJ,VB,TO,I,I
+for,parts,structural,provide,IN,NNS,JJ,VB,I,I
+Boeing,for,parts,structural,NNP,IN,NNS,JJ,O,O
+'s,Boeing,for,parts,POS,NNP,IN,NNS,I,I
+747,'s,Boeing,for,CD,POS,NNP,IN,B,I
+jetliners,747,'s,Boeing,NNS,CD,POS,NNP,I,I
+PUNT,jetliners,747,'s,PUNT,NNS,CD,POS,I,I
+Rockwell,PUNT,PUNT,jetliners,NNP,PUNT,PUNT,NNS,O,O
+said,Rockwell,PUNT,PUNT,VBD,NNP,PUNT,PUNT,I,O
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,O
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I
+for,calls,agreement,the,IN,VBZ,NN,DT,O,O
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O
+to,it,for,calls,TO,PRP,IN,VBZ,I,O
+supply,to,it,for,VB,TO,PRP,IN,O,O
+200,supply,to,it,CD,VB,TO,PRP,O,O
+additional,200,supply,to,JJ,CD,VB,TO,I,I
+so-called,additional,200,supply,JJ,JJ,CD,VB,I,I
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I
+KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:     220 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 759 microseconds
+Reading weights from ./tests/no.w
+Calculated weights replaced by:
+Feature 1	 : 1
+Feature 2	 : 1
+Feature 3	 : 1
+Feature 4	 : 1
+Feature 5	 : 1
+Feature 6	 : 1
+Feature 7	 : 1
+Feature 8	 : 1
+Feature Permutation based on weightfile :
+< 7, 8, 5, 6, 3, 4, 2, 1 >
+Phase 2: Building multi index on Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:     220 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:     220 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 1582 Nodes, (63280 bytes), 20.10 % compression
+Learning took 0 seconds, 5 milliseconds and 466 microseconds
+Reading weights from ./tests/no.w
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          out12
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : User Defined  (./tests/no.w)
+Feature 1	 : 1.000000000000000
+Feature 2	 : 1.000000000000000
+Feature 3	 : 1.000000000000000
+Feature 4	 : 1.000000000000000
+Feature 5	 : 1.000000000000000
+Feature 6	 : 1.000000000000000
+Feature 7	 : 1.000000000000000
+Feature 8	 : 1.000000000000000
+
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Tested:      6 @ Tue Jan 25 16:18:30 2011
+Tested:      7 @ Tue Jan 25 16:18:30 2011
+Tested:      8 @ Tue Jan 25 16:18:30 2011
+Tested:      9 @ Tue Jan 25 16:18:30 2011
+Tested:     10 @ Tue Jan 25 16:18:30 2011
+Ready:      50 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0038 (13287.27 p/s)
+
+overall accuracy:        0.840000  (42/50)
+There were 2 ties of which 1 (50.00%) were correctly resolved
+Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,I
+International,Rockwell,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,O
+CorpPUNT,International,Rockwell,PUNT,NNP,NNP,NNP,PUNT,I,O
+'s,CorpPUNT,International,Rockwell,POS,NNP,NNP,NNP,I,O
+Tulsa,'s,CorpPUNT,International,NNP,POS,NNP,NNP,B,I
+unit,Tulsa,'s,CorpPUNT,NN,NNP,POS,NNP,I,I
+said,unit,Tulsa,'s,VBD,NN,NNP,POS,I,I
+it,said,unit,Tulsa,PRP,VBD,NN,NNP,O,O
+signed,it,said,unit,VBD,PRP,VBD,NN,I,I
+a,signed,it,said,DT,VBD,PRP,VBD,O,O
+tentative,a,signed,it,JJ,DT,VBD,PRP,I,I
+agreement,tentative,a,signed,NN,JJ,DT,VBD,I,I
+extending,agreement,tentative,a,VBG,NN,JJ,DT,I,I
+its,extending,agreement,tentative,PRP$,VBG,NN,JJ,O,O
+contract,its,extending,agreement,NN,PRP$,VBG,NN,I,I
+with,contract,its,extending,IN,NN,PRP$,VBG,I,I
+Boeing,with,contract,its,NNP,IN,NN,PRP$,O,O
+CoPUNT,Boeing,with,contract,NNP,NNP,IN,NN,I,I
+to,CoPUNT,Boeing,with,TO,NNP,NNP,IN,I,I
+provide,to,CoPUNT,Boeing,VB,TO,NNP,NNP,O,O
+structural,provide,to,CoPUNT,JJ,VB,TO,NNP,O,O
+parts,structural,provide,to,NNS,JJ,VB,TO,I,I
+for,parts,structural,provide,IN,NNS,JJ,VB,I,I
+Boeing,for,parts,structural,NNP,IN,NNS,JJ,O,O
+'s,Boeing,for,parts,POS,NNP,IN,NNS,I,I
+747,'s,Boeing,for,CD,POS,NNP,IN,B,I
+jetliners,747,'s,Boeing,NNS,CD,POS,NNP,I,I
+PUNT,jetliners,747,'s,PUNT,NNS,CD,POS,I,I
+Rockwell,PUNT,PUNT,jetliners,NNP,PUNT,PUNT,NNS,O,O
+said,Rockwell,PUNT,PUNT,VBD,NNP,PUNT,PUNT,I,O
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,O
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I
+for,calls,agreement,the,IN,VBZ,NN,DT,O,O
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O
+to,it,for,calls,TO,PRP,IN,VBZ,I,O
+supply,to,it,for,VB,TO,PRP,IN,O,O
+200,supply,to,it,CD,VB,TO,PRP,O,O
+additional,200,supply,to,JJ,CD,VB,TO,I,I
+so-called,additional,200,supply,JJ,JJ,CD,VB,I,I
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I
+KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:     220 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 762 microseconds
+Reading weights from ./tests/testweighting.wght
+Calculated weights replaced by:
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.0428891762659315
+Feature Permutation based on weightfile :
+< 6, 7, 5, 8, 2, 3, 1, 4 >
+Phase 2: Building multi index on Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:     220 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:     220 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 1565 Nodes, (62600 bytes), 20.96 % compression
+Learning took 0 seconds, 5 milliseconds and 513 microseconds
+Reading weights from ./tests/testweighting.wght
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          out13
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : User Defined  (./tests/testweighting.wght)
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Tested:      6 @ Tue Jan 25 16:18:30 2011
+Tested:      7 @ Tue Jan 25 16:18:30 2011
+Tested:      8 @ Tue Jan 25 16:18:30 2011
+Tested:      9 @ Tue Jan 25 16:18:30 2011
+Tested:     10 @ Tue Jan 25 16:18:30 2011
+Ready:      50 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0034 (14577.26 p/s)
+
+overall accuracy:        0.880000  (44/50)
+There was 1 tie of which 1 (100.00%) was correctly resolved
+Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,I
+International,Rockwell,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,O
+CorpPUNT,International,Rockwell,PUNT,NNP,NNP,NNP,PUNT,I,I
+'s,CorpPUNT,International,Rockwell,POS,NNP,NNP,NNP,I,O
+Tulsa,'s,CorpPUNT,International,NNP,POS,NNP,NNP,B,I
+unit,Tulsa,'s,CorpPUNT,NN,NNP,POS,NNP,I,I
+said,unit,Tulsa,'s,VBD,NN,NNP,POS,I,I
+it,said,unit,Tulsa,PRP,VBD,NN,NNP,O,O
+signed,it,said,unit,VBD,PRP,VBD,NN,I,I
+a,signed,it,said,DT,VBD,PRP,VBD,O,O
+tentative,a,signed,it,JJ,DT,VBD,PRP,I,I
+agreement,tentative,a,signed,NN,JJ,DT,VBD,I,I
+extending,agreement,tentative,a,VBG,NN,JJ,DT,I,I
+its,extending,agreement,tentative,PRP$,VBG,NN,JJ,O,O
+contract,its,extending,agreement,NN,PRP$,VBG,NN,I,I
+with,contract,its,extending,IN,NN,PRP$,VBG,I,I
+Boeing,with,contract,its,NNP,IN,NN,PRP$,O,O
+CoPUNT,Boeing,with,contract,NNP,NNP,IN,NN,I,I
+to,CoPUNT,Boeing,with,TO,NNP,NNP,IN,I,I
+provide,to,CoPUNT,Boeing,VB,TO,NNP,NNP,O,O
+structural,provide,to,CoPUNT,JJ,VB,TO,NNP,O,O
+parts,structural,provide,to,NNS,JJ,VB,TO,I,I
+for,parts,structural,provide,IN,NNS,JJ,VB,I,I
+Boeing,for,parts,structural,NNP,IN,NNS,JJ,O,O
+'s,Boeing,for,parts,POS,NNP,IN,NNS,I,I
+747,'s,Boeing,for,CD,POS,NNP,IN,B,B
+jetliners,747,'s,Boeing,NNS,CD,POS,NNP,I,I
+PUNT,jetliners,747,'s,PUNT,NNS,CD,POS,I,I
+Rockwell,PUNT,PUNT,jetliners,NNP,PUNT,PUNT,NNS,O,O
+said,Rockwell,PUNT,PUNT,VBD,NNP,PUNT,PUNT,I,O
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,O
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I
+for,calls,agreement,the,IN,VBZ,NN,DT,O,O
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O
+to,it,for,calls,TO,PRP,IN,VBZ,I,O
+supply,to,it,for,VB,TO,PRP,IN,O,O
+200,supply,to,it,CD,VB,TO,PRP,O,O
+additional,200,supply,to,JJ,CD,VB,TO,I,I
+so-called,additional,200,supply,JJ,JJ,CD,VB,I,I
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I
+KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:30 2011
+
+Examine datafile './tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:     220 @ Tue Jan 25 16:18:30 2011
+Calculating Entropy         Tue Jan 25 16:18:30 2011
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 788 microseconds
+Reading weights from ./tests/testweighting.wght
+Calculated weights replaced by:
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.0428891762659315
+Feature Permutation based on weightfile :
+< 6, 7, 5, 8, 2, 3, 1, 4 >
+Phase 2: Building multi index on Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:     220 @ Tue Jan 25 16:18:30 2011
+
+Phase 3: Learning from Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:30 2011
+Finished:     220 @ Tue Jan 25 16:18:30 2011
+
+Size of InstanceBase = 1565 Nodes, (62600 bytes), 20.96 % compression
+Learning took 0 seconds, 5 milliseconds and 568 microseconds
+Reading weights from ./tests/testweighting.wght
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          out14
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : User Defined  (./tests/testweighting.wght)
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.042889176265932
+
+Tested:      1 @ Tue Jan 25 16:18:30 2011
+Tested:      2 @ Tue Jan 25 16:18:30 2011
+Tested:      3 @ Tue Jan 25 16:18:30 2011
+Tested:      4 @ Tue Jan 25 16:18:30 2011
+Tested:      5 @ Tue Jan 25 16:18:30 2011
+Tested:      6 @ Tue Jan 25 16:18:30 2011
+Tested:      7 @ Tue Jan 25 16:18:30 2011
+Tested:      8 @ Tue Jan 25 16:18:30 2011
+Tested:      9 @ Tue Jan 25 16:18:30 2011
+Tested:     10 @ Tue Jan 25 16:18:30 2011
+Ready:      50 @ Tue Jan 25 16:18:30 2011
+Seconds taken: 0.0034 (14736.22 p/s)
+
+overall accuracy:        0.880000  (44/50)
+There was 1 tie of which 1 (100.00%) was correctly resolved
+Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,I
+International,Rockwell,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,O
+CorpPUNT,International,Rockwell,PUNT,NNP,NNP,NNP,PUNT,I,I
+'s,CorpPUNT,International,Rockwell,POS,NNP,NNP,NNP,I,O
+Tulsa,'s,CorpPUNT,International,NNP,POS,NNP,NNP,B,I
+unit,Tulsa,'s,CorpPUNT,NN,NNP,POS,NNP,I,I
+said,unit,Tulsa,'s,VBD,NN,NNP,POS,I,I
+it,said,unit,Tulsa,PRP,VBD,NN,NNP,O,O
+signed,it,said,unit,VBD,PRP,VBD,NN,I,I
+a,signed,it,said,DT,VBD,PRP,VBD,O,O
+tentative,a,signed,it,JJ,DT,VBD,PRP,I,I
+agreement,tentative,a,signed,NN,JJ,DT,VBD,I,I
+extending,agreement,tentative,a,VBG,NN,JJ,DT,I,I
+its,extending,agreement,tentative,PRP$,VBG,NN,JJ,O,O
+contract,its,extending,agreement,NN,PRP$,VBG,NN,I,I
+with,contract,its,extending,IN,NN,PRP$,VBG,I,I
+Boeing,with,contract,its,NNP,IN,NN,PRP$,O,O
+CoPUNT,Boeing,with,contract,NNP,NNP,IN,NN,I,I
+to,CoPUNT,Boeing,with,TO,NNP,NNP,IN,I,I
+provide,to,CoPUNT,Boeing,VB,TO,NNP,NNP,O,O
+structural,provide,to,CoPUNT,JJ,VB,TO,NNP,O,O
+parts,structural,provide,to,NNS,JJ,VB,TO,I,I
+for,parts,structural,provide,IN,NNS,JJ,VB,I,I
+Boeing,for,parts,structural,NNP,IN,NNS,JJ,O,O
+'s,Boeing,for,parts,POS,NNP,IN,NNS,I,I
+747,'s,Boeing,for,CD,POS,NNP,IN,B,B
+jetliners,747,'s,Boeing,NNS,CD,POS,NNP,I,I
+PUNT,jetliners,747,'s,PUNT,NNS,CD,POS,I,I
+Rockwell,PUNT,PUNT,jetliners,NNP,PUNT,PUNT,NNS,O,O
+said,Rockwell,PUNT,PUNT,VBD,NNP,PUNT,PUNT,I,O
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,O
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I
+for,calls,agreement,the,IN,VBZ,NN,DT,O,O
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O
+to,it,for,calls,TO,PRP,IN,VBZ,I,O
+supply,to,it,for,VB,TO,PRP,IN,O,O
+200,supply,to,it,CD,VB,TO,PRP,O,O
+additional,200,supply,to,JJ,CD,VB,TO,I,I
+so-called,additional,200,supply,JJ,JJ,CD,VB,I,I
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I
+KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:31 2011
+
+Examine datafile './tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:31 2011
+Finished:     220 @ Tue Jan 25 16:18:31 2011
+Calculating Entropy         Tue Jan 25 16:18:31 2011
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 746 microseconds
+Reading weights from ./tests/testweighting.wght
+Calculated weights replaced by:
+Feature 1	 : 0.899373725038967
+Feature 2	 : 1.04779317080894
+Feature 3	 : 0.920225300053168
+Feature 4	 : 0.724040264713074
+Feature 5	 : 0.411135842419734
+Feature 6	 : 0.857474697673593
+Feature 7	 : 0.46696345321418
+Feature 8	 : 0.169871945230703
+Feature Permutation based on weightfile :
+< 6, 7, 5, 2, 8, 3, 1, 4 >
+Phase 2: Building multi index on Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:31 2011
+Finished:     220 @ Tue Jan 25 16:18:31 2011
+
+Phase 3: Learning from Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:31 2011
+Finished:     220 @ Tue Jan 25 16:18:31 2011
+
+Size of InstanceBase = 1572 Nodes, (62880 bytes), 20.61 % compression
+Learning took 0 seconds, 5 milliseconds and 517 microseconds
+Reading weights from ./tests/testweighting.wght
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          out15
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : User Defined  (./tests/testweighting.wght)
+Feature 1	 : 0.899373725038967
+Feature 2	 : 1.047793170808940
+Feature 3	 : 0.920225300053168
+Feature 4	 : 0.724040264713074
+Feature 5	 : 0.411135842419734
+Feature 6	 : 0.857474697673593
+Feature 7	 : 0.466963453214180
+Feature 8	 : 0.169871945230703
+
+Tested:      1 @ Tue Jan 25 16:18:31 2011
+Tested:      2 @ Tue Jan 25 16:18:31 2011
+Tested:      3 @ Tue Jan 25 16:18:31 2011
+Tested:      4 @ Tue Jan 25 16:18:31 2011
+Tested:      5 @ Tue Jan 25 16:18:31 2011
+Tested:      6 @ Tue Jan 25 16:18:31 2011
+Tested:      7 @ Tue Jan 25 16:18:31 2011
+Tested:      8 @ Tue Jan 25 16:18:31 2011
+Tested:      9 @ Tue Jan 25 16:18:31 2011
+Tested:     10 @ Tue Jan 25 16:18:31 2011
+Ready:      50 @ Tue Jan 25 16:18:31 2011
+Seconds taken: 0.0036 (13904.34 p/s)
+
+overall accuracy:        0.860000  (43/50)
+There was 1 tie of which 1 (100.00%) was correctly resolved
+Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,I
+International,Rockwell,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,O
+CorpPUNT,International,Rockwell,PUNT,NNP,NNP,NNP,PUNT,I,O
+'s,CorpPUNT,International,Rockwell,POS,NNP,NNP,NNP,I,O
+Tulsa,'s,CorpPUNT,International,NNP,POS,NNP,NNP,B,I
+unit,Tulsa,'s,CorpPUNT,NN,NNP,POS,NNP,I,I
+said,unit,Tulsa,'s,VBD,NN,NNP,POS,I,I
+it,said,unit,Tulsa,PRP,VBD,NN,NNP,O,O
+signed,it,said,unit,VBD,PRP,VBD,NN,I,I
+a,signed,it,said,DT,VBD,PRP,VBD,O,O
+tentative,a,signed,it,JJ,DT,VBD,PRP,I,I
+agreement,tentative,a,signed,NN,JJ,DT,VBD,I,I
+extending,agreement,tentative,a,VBG,NN,JJ,DT,I,I
+its,extending,agreement,tentative,PRP$,VBG,NN,JJ,O,O
+contract,its,extending,agreement,NN,PRP$,VBG,NN,I,I
+with,contract,its,extending,IN,NN,PRP$,VBG,I,I
+Boeing,with,contract,its,NNP,IN,NN,PRP$,O,O
+CoPUNT,Boeing,with,contract,NNP,NNP,IN,NN,I,I
+to,CoPUNT,Boeing,with,TO,NNP,NNP,IN,I,I
+provide,to,CoPUNT,Boeing,VB,TO,NNP,NNP,O,O
+structural,provide,to,CoPUNT,JJ,VB,TO,NNP,O,O
+parts,structural,provide,to,NNS,JJ,VB,TO,I,I
+for,parts,structural,provide,IN,NNS,JJ,VB,I,I
+Boeing,for,parts,structural,NNP,IN,NNS,JJ,O,O
+'s,Boeing,for,parts,POS,NNP,IN,NNS,I,I
+747,'s,Boeing,for,CD,POS,NNP,IN,B,B
+jetliners,747,'s,Boeing,NNS,CD,POS,NNP,I,I
+PUNT,jetliners,747,'s,PUNT,NNS,CD,POS,I,I
+Rockwell,PUNT,PUNT,jetliners,NNP,PUNT,PUNT,NNS,O,O
+said,Rockwell,PUNT,PUNT,VBD,NNP,PUNT,PUNT,I,O
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,O
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I
+for,calls,agreement,the,IN,VBZ,NN,DT,O,O
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O
+to,it,for,calls,TO,PRP,IN,VBZ,I,O
+supply,to,it,for,VB,TO,PRP,IN,O,O
+200,supply,to,it,CD,VB,TO,PRP,O,O
+additional,200,supply,to,JJ,CD,VB,TO,I,I
+so-called,additional,200,supply,JJ,JJ,CD,VB,I,I
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I
+KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:31 2011
+
+Examine datafile './tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:31 2011
+Finished:     220 @ Tue Jan 25 16:18:31 2011
+Calculating Entropy         Tue Jan 25 16:18:31 2011
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 744 microseconds
+Reading weights from ./tests/testweighting.wght
+Calculated weights replaced by:
+Feature 1	 : 351.74544179523
+Feature 2	 : 394.414612970011
+Feature 3	 : 400.791424564214
+Feature 4	 : 241.295465170641
+Feature 5	 : 104.698281473637
+Feature 6	 : 260.559517700967
+Feature 7	 : 117.564857685864
+Feature 8	 : 50.626817381328
+Feature Permutation based on weightfile :
+< 6, 7, 5, 3, 2, 1, 8, 4 >
+Phase 2: Building multi index on Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:31 2011
+Finished:     220 @ Tue Jan 25 16:18:31 2011
+
+Phase 3: Learning from Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:31 2011
+Finished:     220 @ Tue Jan 25 16:18:31 2011
+
+Size of InstanceBase = 1574 Nodes, (62960 bytes), 20.51 % compression
+Learning took 0 seconds, 5 milliseconds and 550 microseconds
+Reading weights from ./tests/testweighting.wght
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          out16
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : User Defined  (./tests/testweighting.wght)
+Feature 1	 : 351.745441795230022
+Feature 2	 : 394.414612970010978
+Feature 3	 : 400.791424564214026
+Feature 4	 : 241.295465170640995
+Feature 5	 : 104.698281473636996
+Feature 6	 : 260.559517700966978
+Feature 7	 : 117.564857685863998
+Feature 8	 : 50.626817381328003
+
+Tested:      1 @ Tue Jan 25 16:18:31 2011
+Tested:      2 @ Tue Jan 25 16:18:31 2011
+Tested:      3 @ Tue Jan 25 16:18:31 2011
+Tested:      4 @ Tue Jan 25 16:18:31 2011
+Tested:      5 @ Tue Jan 25 16:18:31 2011
+Tested:      6 @ Tue Jan 25 16:18:31 2011
+Tested:      7 @ Tue Jan 25 16:18:31 2011
+Tested:      8 @ Tue Jan 25 16:18:31 2011
+Tested:      9 @ Tue Jan 25 16:18:31 2011
+Tested:     10 @ Tue Jan 25 16:18:31 2011
+Ready:      50 @ Tue Jan 25 16:18:31 2011
+Seconds taken: 0.0035 (14314.34 p/s)
+
+overall accuracy:        0.880000  (44/50)
+There was 1 tie of which 1 (100.00%) was correctly resolved
+Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,I
+International,Rockwell,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,O
+CorpPUNT,International,Rockwell,PUNT,NNP,NNP,NNP,PUNT,I,O
+'s,CorpPUNT,International,Rockwell,POS,NNP,NNP,NNP,I,O
+Tulsa,'s,CorpPUNT,International,NNP,POS,NNP,NNP,B,I
+unit,Tulsa,'s,CorpPUNT,NN,NNP,POS,NNP,I,I
+said,unit,Tulsa,'s,VBD,NN,NNP,POS,I,I
+it,said,unit,Tulsa,PRP,VBD,NN,NNP,O,O
+signed,it,said,unit,VBD,PRP,VBD,NN,I,I
+a,signed,it,said,DT,VBD,PRP,VBD,O,O
+tentative,a,signed,it,JJ,DT,VBD,PRP,I,I
+agreement,tentative,a,signed,NN,JJ,DT,VBD,I,I
+extending,agreement,tentative,a,VBG,NN,JJ,DT,I,I
+its,extending,agreement,tentative,PRP$,VBG,NN,JJ,O,O
+contract,its,extending,agreement,NN,PRP$,VBG,NN,I,I
+with,contract,its,extending,IN,NN,PRP$,VBG,I,I
+Boeing,with,contract,its,NNP,IN,NN,PRP$,O,O
+CoPUNT,Boeing,with,contract,NNP,NNP,IN,NN,I,I
+to,CoPUNT,Boeing,with,TO,NNP,NNP,IN,I,I
+provide,to,CoPUNT,Boeing,VB,TO,NNP,NNP,O,O
+structural,provide,to,CoPUNT,JJ,VB,TO,NNP,O,O
+parts,structural,provide,to,NNS,JJ,VB,TO,I,I
+for,parts,structural,provide,IN,NNS,JJ,VB,I,I
+Boeing,for,parts,structural,NNP,IN,NNS,JJ,O,O
+'s,Boeing,for,parts,POS,NNP,IN,NNS,I,I
+747,'s,Boeing,for,CD,POS,NNP,IN,B,B
+jetliners,747,'s,Boeing,NNS,CD,POS,NNP,I,I
+PUNT,jetliners,747,'s,PUNT,NNS,CD,POS,I,I
+Rockwell,PUNT,PUNT,jetliners,NNP,PUNT,PUNT,NNS,O,O
+said,Rockwell,PUNT,PUNT,VBD,NNP,PUNT,PUNT,I,O
+the,said,Rockwell,PUNT,DT,VBD,NNP,PUNT,O,O
+agreement,the,said,Rockwell,NN,DT,VBD,NNP,I,I
+calls,agreement,the,said,VBZ,NN,DT,VBD,I,I
+for,calls,agreement,the,IN,VBZ,NN,DT,O,O
+it,for,calls,agreement,PRP,IN,VBZ,NN,O,O
+to,it,for,calls,TO,PRP,IN,VBZ,I,I
+supply,to,it,for,VB,TO,PRP,IN,O,O
+200,supply,to,it,CD,VB,TO,PRP,O,O
+additional,200,supply,to,JJ,CD,VB,TO,I,I
+so-called,additional,200,supply,JJ,JJ,CD,VB,I,I
+shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I
+the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O
+planes,the,for,shipsets,NNS,DT,IN,NNS,I,I
+PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I
+These,PUNT,PUNT,planes,DT,PUNT,PUNT,NNS,O,O
+include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I
+KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I
+among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O
+other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Tue Jan 25 16:18:31 2011
+
+Examine datafile './tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: ./tests/klein.train
+Start:          0 @ Tue Jan 25 16:18:31 2011
+Finished:     220 @ Tue Jan 25 16:18:31 2011
+Calculating Entropy         Tue Jan 25 16:18:31 2011
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 832 microseconds
+Reading weights from ./tests/ig_1.w
+Warning:Unable to retrieve x2 Weights
+Warning:unable to continue
+Warning:Errors in Weightsfile ./tests/ig_1.w
+problems reading weights

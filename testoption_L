@@ -1,0 +1,12 @@
+#!/bin/sh
+
+$comm -f tests/dimin.train -t tests/dimin.test -mM  +v di+db -o test.out1
+$comm -f tests/dimin.train -t tests/dimin.test -mM -L5 +v di+db -o test.out2
+cat < test.out1
+cat < test.out2
+
+$comm -f tests/dimin.test -t leave_one_out -mM  +v di+db -o test.out3
+$comm -f tests/dimin.test -t leave_one_out -mM -L5 +v di+db -o test.out4
+cat < test.out3
+cat < test.out4
+

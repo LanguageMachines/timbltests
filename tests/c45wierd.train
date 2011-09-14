@@ -1,0 +1,11 @@
+aap, noot,maas ,1 .
+wim,zus\piet,Jet,2
+teun, kees en piet, schapen,3
+ok,   o.k.,goed,6.
+ok,o.k	.,goed,6.
+ok,o.	k.,goed,6.
+ok,o.k.,go\ed,6.
+ok,o.k.,go\\ed,6.
+ok,o.k.,go\ ed,6.
+ok,o.k.,go\ \ed,6.
+ok,o.k.,go\\ ed,6.

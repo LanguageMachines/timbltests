@@ -1,0 +1,183 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 12:06:31 2011
+
+Examine datafile 'tests/bug28.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/bug28.train
+Start:          0 @ Mon Jan 24 12:06:31 2011
+Finished:       9 @ Mon Jan 24 12:06:31 2011
+Calculating Entropy         Mon Jan 24 12:06:31 2011
+Lines of data     : 9
+DB Entropy        : 0.91829583
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1 (ignored) 
+    2      7	0.47385139	0.17385976
+    3      4	0.30609861	0.16186606
+
+Preparation took 0 seconds, 0 milliseconds and 228 microseconds
+Feature Permutation based on GainRatio/Values :
+< 3, 2, 1 >
+Phase 2: Building multi index on Datafile: tests/bug28.train
+Start:          0 @ Mon Jan 24 12:06:31 2011
+Finished:       9 @ Mon Jan 24 12:06:31 2011
+
+Phase 3: Learning from Datafile: tests/bug28.train
+Start:          0 @ Mon Jan 24 12:06:31 2011
+Finished:       9 @ Mon Jan 24 12:06:31 2011
+
+Size of InstanceBase = 18 Nodes, (720 bytes), 14.29 % compression
+Learning took 0 seconds, 0 milliseconds and 249 microseconds
+Writing Instance-Base in: tree
+Saving Matrices in bug28.mat1
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 12:06:31 2011
+
+Reading Instance-Base from: tree
+
+Size of InstanceBase = 18 Nodes, (720 bytes), 14.29 % compression
+Feature Permutation based on Data File Ordering :
+< 3, 2, 1 >
+Reading matrices from bug28.mat1
+read ValueMatrix for feature 3
+Examine datafile 'tests/bug28.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: tests/bug28.test
+Writing output in:          bug28.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:
+   Feature[3] : Value Difference (User Defined)
+Size of value-matrix[3] = 240 Bytes 
+Total Size of value-matrices 240 Bytes 
+
+Ignored features : { 1 } 
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.173859757830008
+Feature 3	 : 0.161866059958266
+
+Tested:      1 @ Mon Jan 24 12:06:31 2011
+Tested:      2 @ Mon Jan 24 12:06:31 2011
+Tested:      3 @ Mon Jan 24 12:06:31 2011
+Tested:      4 @ Mon Jan 24 12:06:31 2011
+Tested:      5 @ Mon Jan 24 12:06:31 2011
+Tested:      6 @ Mon Jan 24 12:06:31 2011
+Ready:       6 @ Mon Jan 24 12:06:31 2011
+Seconds taken: 0.0003 (22556.39 p/s)
+
+overall accuracy:        0.666667  (4/6), of which 5 exact matches 
+There were 2 ties of which 1 (50.00%) were correctly resolved
+Saving Matrices in bug28.mat2
+test,van,bug 29,+,-        0.33572581778827
+dit,was,],-,-        0.0000000000000
+dit,was,],+,-        0.0000000000000
+en,dit,[,-,-        0.0000000000000
+en,deze,[,-,-        0.0000000000000
+en,dat,een	tab,-,-        0.0000000000000
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 12:06:31 2011
+
+Examine datafile 'tests/bug28.col.train' gave the following results:
+Number of Features: 3
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: tests/bug28.col.train
+Start:          0 @ Mon Jan 24 12:06:31 2011
+Finished:       7 @ Mon Jan 24 12:06:31 2011
+Calculating Entropy         Mon Jan 24 12:06:31 2011
+Lines of data     : 7
+DB Entropy        : 0.98522814
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1 (ignored) 
+    2      6	0.98522814	0.39070918
+    3      4	0.12808528	0.065677616
+
+Preparation took 0 seconds, 0 milliseconds and 155 microseconds
+Feature Permutation based on GainRatio/Values :
+< 2, 3, 1 >
+Phase 2: Building multi index on Datafile: tests/bug28.col.train
+Start:          0 @ Mon Jan 24 12:06:31 2011
+Finished:       7 @ Mon Jan 24 12:06:31 2011
+
+Phase 3: Learning from Datafile: tests/bug28.col.train
+Start:          0 @ Mon Jan 24 12:06:31 2011
+Finished:       7 @ Mon Jan 24 12:06:31 2011
+
+Size of InstanceBase = 20 Nodes, (800 bytes), 4.76 % compression
+Learning took 0 seconds, 0 milliseconds and 197 microseconds
+Writing Instance-Base in: tree
+Saving Matrices in bug28.mat3
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 12:06:31 2011
+
+Reading Instance-Base from: tree
+
+Size of InstanceBase = 20 Nodes, (800 bytes), 4.76 % compression
+Feature Permutation based on Data File Ordering :
+< 2, 3, 1 >
+Reading matrices from bug28.mat3
+read ValueMatrix for feature 3
+Examine datafile 'tests/bug28.col.test' gave the following results:
+Number of Features: 3
+InputFormat       : Columns
+
+
+Starting to test, Testfile: tests/bug28.col.test
+Writing output in:          bug28.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:
+   Feature[3] : Value Difference (User Defined)
+Size of value-matrix[3] = 240 Bytes 
+Total Size of value-matrices 240 Bytes 
+
+Ignored features : { 1 } 
+Weighting     : GainRatio
+Feature 1	 : 0.000000000000000
+Feature 2	 : 0.390709176333290
+Feature 3	 : 0.065677615883785
+
+Tested:      1 @ Mon Jan 24 12:06:31 2011
+Tested:      2 @ Mon Jan 24 12:06:31 2011
+Tested:      3 @ Mon Jan 24 12:06:31 2011
+Tested:      4 @ Mon Jan 24 12:06:31 2011
+Ready:       4 @ Mon Jan 24 12:06:31 2011
+Seconds taken: 0.0002 (20618.56 p/s)
+
+overall accuracy:        0.750000  (3/4), of which 1 exact matches 
+There was 1 tie of which 1 (100.00%) was correctly resolved
+Saving Matrices in bug28.mat4
+test van bug29 + -        0.45638679221708
+dit was [ - -        0.39070917633329
+en deze ] - -        0.39070917633329
+en dat , - -        0.0000000000000
+7,8d6
+< [[,	bug28] 5.000000e-01
+< [[,	]] 5.000000e-01
+11c9,11
+< [,,	[] 5.000000e-01
+---
+> [[,	bug28] 5.000000e-01
+> [[,	]] 5.000000e-01
+> [[,	,] 5.000000e-01

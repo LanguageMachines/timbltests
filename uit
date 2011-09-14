@@ -1,0 +1,31 @@
+Starting Client on node:localhost, port:6008
+Welcome to the Timbl server.
+Start entering commands please:
+STATUS
+FLENGTH              : 0
+MAXBESTS             : 500
+TRIBL_OFFSET         : 0
+INPUTFORMAT          : Unknown
+TREE_ORDER           : UDO
+DECAY                : Z
+SEED                 : -1
+DECAYPARAM           : 1.000000
+EXEMPLAR_WEIGHTS     : -
+IGNORE_EXEMPLAR_WEIGHTS : +
+NO_EXEMPLAR_WEIGHTS_TEST : +
+PROBALISTIC          : -
+VERBOSITY            : F+DB
+EXACT_MATCH          : -
+DO_DOT_PRODUCT       : -
+USE_INVERTED         : -
+HASHED_TREES         : +
+GLOBAL_METRIC        : M
+METRICS              : 
+MVD_LIMIT            : 1
+NEIGHBORS            : 7
+PROGRESS             : 100000
+IB2_OFFSET           : 0
+BIN_SIZE             : 20
+WEIGHTING            : gr
+ENDSTATUS
+OK

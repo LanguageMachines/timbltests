@@ -1,0 +1,280 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Wed Jan 26 11:15:32 2011
+
+Examine datafile './tests/hapax.data' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/hapax.data
+Start:          0 @ Wed Jan 26 11:15:32 2011
+Finished:   50000 @ Wed Jan 26 11:15:34 2011
+Calculating Entropy         Wed Jan 26 11:15:34 2011
+Lines of data     : 50000
+DB Entropy        : 9.9075793
+Number of Classes : 7223
+
+Feats	Vals	InfoGain	GainRatio
+    1   7222	5.2065717	0.52550151
+    2   7222	5.2335774	0.52823148
+    3   7223	5.2591416	0.53080625
+    4   7223	5.3448630	0.53946132
+    5   7223	5.4404734	0.54911443
+    6   7223	5.5505469	0.56022391
+    7   7223	5.9237008	0.59789642
+    8   7223	5.9235651	0.59788591
+    9   7223	5.5502741	0.56020762
+   10   7223	5.4400507	0.54908449
+   11   7223	5.3442206	0.53941741
+   12   7223	5.2583230	0.53075458
+   13   7223	5.2326153	0.52817082
+   14   7223	5.2056050	0.52544444
+
+Preparation took 1 seconds, 522 milliseconds and 261 microseconds
+Feature Permutation based on GainRatio/Values :
+< 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
+Phase 2: Building multi index on Datafile: ./tests/hapax.data
+Start:          0 @ Wed Jan 26 11:15:34 2011
+Finished:   50000 @ Wed Jan 26 11:15:35 2011
+
+Phase 3: Learning from Datafile: ./tests/hapax.data
+Start:          0 @ Wed Jan 26 11:15:35 2011
+Finished:   50000 @ Wed Jan 26 11:15:36 2011
+
+Size of InstanceBase = 590466 Nodes, (23618640 bytes), 10.44 % compression
+Learning took 2 seconds, 466 milliseconds and 8 microseconds
+Examine datafile './tests/hapax.test' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/hapax.test
+Writing output in:          test.out1
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.525501514274059
+Feature 2	 : 0.528231481806383
+Feature 3	 : 0.530806251896811
+Feature 4	 : 0.539461323011212
+Feature 5	 : 0.549114427526921
+Feature 6	 : 0.560223908223931
+Feature 7	 : 0.597896423148336
+Feature 8	 : 0.597885913799105
+Feature 9	 : 0.560207619932192
+Feature 10	 : 0.549084490608340
+Feature 11	 : 0.539417414896674
+Feature 12	 : 0.530754580234671
+Feature 13	 : 0.528170817283852
+Feature 14	 : 0.525444443436386
+
+Tested:      1 @ Wed Jan 26 11:15:36 2011
+Tested:      2 @ Wed Jan 26 11:15:36 2011
+Tested:      3 @ Wed Jan 26 11:15:37 2011
+Tested:      4 @ Wed Jan 26 11:15:37 2011
+Tested:      5 @ Wed Jan 26 11:15:37 2011
+Tested:      6 @ Wed Jan 26 11:15:37 2011
+Tested:      7 @ Wed Jan 26 11:15:37 2011
+Tested:      8 @ Wed Jan 26 11:15:37 2011
+Tested:      9 @ Wed Jan 26 11:15:37 2011
+Tested:     10 @ Wed Jan 26 11:15:37 2011
+Tested:    100 @ Wed Jan 26 11:15:40 2011
+Tested:   1000 @ Wed Jan 26 11:16:10 2011
+Ready:    1000 @ Wed Jan 26 11:16:10 2011
+Seconds taken: 33.9330 (29.47 p/s)
+
+overall accuracy:        0.051000  (51/1000)
+There were 164 ties of which 7 (4.27%) were correctly resolved
+_ _ _ _ _ _ _ _ _ _ _ _ _ CHAPTER _ _
+_ _ _ _ _ _ _ _ _ _ _ _ CHAPTER I _ _
+_ _ _ _ _ _ _ _ _ _ _ CHAPTER I Down _ _
+_ _ _ _ _ _ _ _ _ _ CHAPTER I Down the _ _
+_ _ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole _ _
+_ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice _ _
+_ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice was _ _
+_ _ _ _ _ _ _ I Down the Rabbit-Hole Alice was beginning CHAPTER _
+_ _ _ _ _ _ CHAPTER Down the Rabbit-Hole Alice was beginning to I MEXICO
+_ _ _ _ _ CHAPTER I the Rabbit-Hole Alice was beginning to get Down :
+_ _ _ _ CHAPTER I Down Rabbit-Hole Alice was beginning to get very the Recovery
+_ _ _ CHAPTER I Down the Alice was beginning to get very tired Rabbit-Hole excitement
+_ _ CHAPTER I Down the Rabbit-Hole was beginning to get very tired of Alice now
+_ CHAPTER I Down the Rabbit-Hole Alice beginning to get very tired of sitting was is
+CHAPTER I Down the Rabbit-Hole Alice was to get very tired of sitting by beginning to
+I Down the Rabbit-Hole Alice was beginning get very tired of sitting by her to "
+Down the Rabbit-Hole Alice was beginning to very tired of sitting by her sister get cool
+the Rabbit-Hole Alice was beginning to get tired of sitting by her sister on very the
+Rabbit-Hole Alice was beginning to get very of sitting by her sister on the tired high
+Alice was beginning to get very tired sitting by her sister on the bank of growing
+was beginning to get very tired of by her sister on the bank , sitting 201
+beginning to get very tired of sitting her sister on the bank , and by shares
+to get very tired of sitting by sister on the bank , and of her Investors
+get very tired of sitting by her on the bank , and of having sister remained
+very tired of sitting by her sister the bank , and of having nothing on of
+tired of sitting by her sister on bank , and of having nothing to the new
+of sitting by her sister on the , and of having nothing to do bank sidelines
+sitting by her sister on the bank and of having nothing to do : , deposits
+by her sister on the bank , of having nothing to do : once and which
+her sister on the bank , and having nothing to do : once or of brokers
+sister on the bank , and of nothing to do : once or twice having expected
+on the bank , and of having to do : once or twice she nothing the
+the bank , and of having nothing do : once or twice she had to ,
+bank , and of having nothing to : once or twice she had peeped do more
+, and of having nothing to do once or twice she had peeped into : so
+and of having nothing to do : or twice she had peeped into the once in
+of having nothing to do : once twice she had peeped into the book or "
+having nothing to do : once or she had peeped into the book her twice Clinton
+nothing to do : once or twice had peeped into the book her sister she been
+to do : once or twice she peeped into the book her sister was had largely
+do : once or twice she had into the book her sister was reading peeped jumping
+: once or twice she had peeped the book her sister was reading , into exceeded
+once or twice she had peeped into book her sister was reading , but the about
+or twice she had peeped into the her sister was reading , but it book market
+twice she had peeped into the book sister was reading , but it had her with
+she had peeped into the book her was reading , but it had no sister to
+had peeped into the book her sister reading , but it had no pictures was of
+peeped into the book her sister was , but it had no pictures or reading workers
+into the book her sister was reading but it had no pictures or conversations , on
+the book her sister was reading , it had no pictures or conversations in but boosting
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Wed Jan 26 11:16:11 2011
+
+Examine datafile './tests/hapax.data' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/hapax.data
+Start:          0 @ Wed Jan 26 11:16:11 2011
+Finished:   50000 @ Wed Jan 26 11:16:12 2011
+Calculating Entropy         Wed Jan 26 11:16:12 2011
+Lines of data     : 50000
+DB Entropy        : 9.9075793
+Number of Classes : 7223
+
+Feats	Vals	InfoGain	GainRatio
+    1   7222	5.2065717	0.52550151
+    2   7222	5.2335774	0.52823148
+    3   7223	5.2591416	0.53080625
+    4   7223	5.3448630	0.53946132
+    5   7223	5.4404734	0.54911443
+    6   7223	5.5505469	0.56022391
+    7   7223	5.9237008	0.59789642
+    8   7223	5.9235651	0.59788591
+    9   7223	5.5502741	0.56020762
+   10   7223	5.4400507	0.54908449
+   11   7223	5.3442206	0.53941741
+   12   7223	5.2583230	0.53075458
+   13   7223	5.2326153	0.52817082
+   14   7223	5.2056050	0.52544444
+
+Preparation took 1 seconds, 502 milliseconds and 799 microseconds
+Feature Permutation based on GainRatio/Values :
+< 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
+Phase 2: Building multi index on Datafile: ./tests/hapax.data
+Start:          0 @ Wed Jan 26 11:16:13 2011
+Finished:   50000 @ Wed Jan 26 11:16:14 2011
+
+Phase 3: Learning from Datafile: ./tests/hapax.data
+Start:          0 @ Wed Jan 26 11:16:14 2011
+Finished:   50000 @ Wed Jan 26 11:16:15 2011
+
+Size of InstanceBase = 590466 Nodes, (23618640 bytes), 10.44 % compression
+Learning took 2 seconds, 458 milliseconds and 535 microseconds
+Examine datafile './tests/hapax.test' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/hapax.test
+Writing output in:          test.out2
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.000057070837673
+Feature 2	 : 0.002787038369997
+Feature 3	 : 0.005361808460425
+Feature 4	 : 0.014016879574826
+Feature 5	 : 0.023669984090535
+Feature 6	 : 0.034779464787545
+Feature 7	 : 0.072451979711950
+Feature 8	 : 0.072441470362719
+Feature 9	 : 0.034763176495806
+Feature 10	 : 0.023640047171954
+Feature 11	 : 0.013972971460288
+Feature 12	 : 0.005310136798285
+Feature 13	 : 0.002726373847466
+Feature 14	 : 0.000000000000000
+
+Tested:      1 @ Wed Jan 26 11:16:15 2011
+Tested:      2 @ Wed Jan 26 11:16:15 2011
+Tested:      3 @ Wed Jan 26 11:16:15 2011
+Tested:      4 @ Wed Jan 26 11:16:15 2011
+Tested:      5 @ Wed Jan 26 11:16:15 2011
+Tested:      6 @ Wed Jan 26 11:16:15 2011
+Tested:      7 @ Wed Jan 26 11:16:15 2011
+Tested:      8 @ Wed Jan 26 11:16:15 2011
+Tested:      9 @ Wed Jan 26 11:16:15 2011
+Tested:     10 @ Wed Jan 26 11:16:15 2011
+Tested:    100 @ Wed Jan 26 11:16:18 2011
+Tested:   1000 @ Wed Jan 26 11:16:40 2011
+Ready:    1000 @ Wed Jan 26 11:16:40 2011
+Seconds taken: 25.3350 (39.47 p/s)
+
+overall accuracy:        0.067000  (67/1000)
+There were 189 ties of which 8 (4.23%) were correctly resolved
+_ _ _ _ _ _ _ _ _ _ _ _ _ CHAPTER _ _
+_ _ _ _ _ _ _ _ _ _ _ _ CHAPTER I _ _
+_ _ _ _ _ _ _ _ _ _ _ CHAPTER I Down _ _
+_ _ _ _ _ _ _ _ _ _ CHAPTER I Down the _ _
+_ _ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole _ _
+_ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice _ _
+_ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice was _ _
+_ _ _ _ _ _ _ I Down the Rabbit-Hole Alice was beginning CHAPTER _
+_ _ _ _ _ _ CHAPTER Down the Rabbit-Hole Alice was beginning to I MEXICO
+_ _ _ _ _ CHAPTER I the Rabbit-Hole Alice was beginning to get Down think
+_ _ _ _ CHAPTER I Down Rabbit-Hole Alice was beginning to get very the think
+_ _ _ CHAPTER I Down the Alice was beginning to get very tired Rabbit-Hole priority
+_ _ CHAPTER I Down the Rabbit-Hole was beginning to get very tired of Alice now
+_ CHAPTER I Down the Rabbit-Hole Alice beginning to get very tired of sitting was is
+CHAPTER I Down the Rabbit-Hole Alice was to get very tired of sitting by beginning expected
+I Down the Rabbit-Hole Alice was beginning get very tired of sitting by her to "
+Down the Rabbit-Hole Alice was beginning to very tired of sitting by her sister get cool
+the Rabbit-Hole Alice was beginning to get tired of sitting by her sister on very the
+Rabbit-Hole Alice was beginning to get very of sitting by her sister on the tired cost
+Alice was beginning to get very tired sitting by her sister on the bank of that
+was beginning to get very tired of by her sister on the bank , sitting the
+beginning to get very tired of sitting her sister on the bank , and by criticised
+to get very tired of sitting by sister on the bank , and of her an
+get very tired of sitting by her on the bank , and of having sister remained
+very tired of sitting by her sister the bank , and of having nothing on of
+tired of sitting by her sister on bank , and of having nothing to the new
+of sitting by her sister on the , and of having nothing to do bank sidelines
+sitting by her sister on the bank and of having nothing to do : , deposits
+by her sister on the bank , of having nothing to do : once and president
+her sister on the bank , and having nothing to do : once or of now
+sister on the bank , and of nothing to do : once or twice having the
+on the bank , and of having to do : once or twice she nothing climbed
+the bank , and of having nothing do : once or twice she had to I
+bank , and of having nothing to : once or twice she had peeped do solve
+, and of having nothing to do once or twice she had peeped into : so
+and of having nothing to do : or twice she had peeped into the once Wednesday
+of having nothing to do : once twice she had peeped into the book or in
+having nothing to do : once or she had peeped into the book her twice $
+nothing to do : once or twice had peeped into the book her sister she the
+to do : once or twice she peeped into the book her sister was had added
+do : once or twice she had into the book her sister was reading peeped been
+: once or twice she had peeped the book her sister was reading , into exceeded
+once or twice she had peeped into book her sister was reading , but the the
+or twice she had peeped into the her sister was reading , but it book market
+twice she had peeped into the book sister was reading , but it had her value
+she had peeped into the book her was reading , but it had no sister it
+had peeped into the book her sister reading , but it had no pictures was signs
+peeped into the book her sister was , but it had no pictures or reading rowdy
+into the book her sister was reading but it had no pictures or conversations , ,
+the book her sister was reading , it had no pictures or conversations in but boosting

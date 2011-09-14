@@ -1,0 +1,10 @@
+#!/bin/sh
+
+trainfile=tests/kwart.train
+
+testfile=tests/kwart.test
+
+$comm -f $trainfile -a4 -t $testfile -o /tmp/tt11.out -mM +vdi+db 
+diff /tmp/tt11.out tt11.out.ok 
+
+

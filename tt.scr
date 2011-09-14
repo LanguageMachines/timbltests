@@ -1,0 +1,28 @@
+new exp1
+exp1.set verbosity o
+exp1.train ./tests/klein.train
+exp1.set global_metric overlap
+exp1.set weighting NOW
+exp1.test ./tests/klein.test
+exp1.set weighting gainratio
+exp1.test ./tests/klein.test
+exp1.set weighting infogain
+exp1.test ./tests/klein.test
+
+exp1.set global_metric vd
+exp1.set weighting now
+exp1.test ./tests/klein.test
+exp1.set weighting gainratio
+exp1.test ./tests/klein.test
+exp1.set weighting infogain
+exp1.test ./tests/klein.test
+
+exp1.set global_metric overlap
+exp1.set use_inverted false
+exp1.set weighting now
+exp1.test ./tests/klein.test a
+exp1.set weighting gainratio
+exp1.test ./tests/klein.test b
+exp1.set weighting infogain
+exp1.test ./tests/klein.test c
+free exp1

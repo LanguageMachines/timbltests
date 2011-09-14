@@ -1,0 +1,45 @@
+#
+# example script file for tse demo program.
+#
+# create an experiment with name exp1
+#
+new exp
+#
+# make sure that we see something happen
+#
+exp.set +v+di
+#
+# now train ( prepare is implicit)
+# one line only contains: "=,=,=,=,+,k,e,=,-,r,@,l,T"
+exp.train tests/one_line
+exp.classify "+,zw,A,rt,-,k,O,p,-,n,O,n,E" 
+exp.classify "=,=,=,=,+,k,e,=,-,r,@,l,T"
+exp.classify "+,h,I,N,-,k,@,l,-,bl,O,k,J"
+
+exp.add "+,zw,A,rt,-,k,O,p,-,n,O,n,E"
+exp.classify "+,zw,A,rt,-,k,O,p,-,n,O,n,E" 
+exp.classify "=,=,=,=,+,k,e,=,-,r,@,l,T"
+exp.classify "+,h,I,N,-,k,@,l,-,bl,O,k,J"
+
+exp.add "+,h,I,N,-,k,@,l,-,bl,O,k,J"
+exp.classify "+,zw,A,rt,-,k,O,p,-,n,O,n,E" 
+exp.classify "=,=,=,=,+,k,e,=,-,r,@,l,T"
+exp.classify "+,h,I,N,-,k,@,l,-,bl,O,k,J"
+
+exp.rem "=,=,=,=,+,k,e,=,-,r,@,l,T"
+exp.classify "+,zw,A,rt,-,k,O,p,-,n,O,n,E" 
+exp.classify "=,=,=,=,+,k,e,=,-,r,@,l,T"
+exp.classify "+,h,I,N,-,k,@,l,-,bl,O,k,J"
+
+exp.rem "+,zw,A,rt,-,k,O,p,-,n,O,n,E"
+exp.classify "+,zw,A,rt,-,k,O,p,-,n,O,n,E" 
+exp.classify "=,=,=,=,+,k,e,=,-,r,@,l,T"
+exp.classify "+,h,I,N,-,k,@,l,-,bl,O,k,J"
+
+exp.rem "+,h,I,N,-,k,@,l,-,bl,O,k,J"
+exp.classify "+,zw,A,rt,-,k,O,p,-,n,O,n,E" 
+exp.classify "=,=,=,=,+,k,e,=,-,r,@,l,T"
+exp.classify "+,h,I,N,-,k,@,l,-,bl,O,k,J"
+
+#
+

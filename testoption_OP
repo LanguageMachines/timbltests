@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+$comm -f example.train -t example.test -P ./tests -O /tmp -o out.tmp 
+cat < /tmp/out.tmp 

@@ -1,0 +1,13 @@
+#!/bin/sh
+#
+
+$comm -f ./tests/example.train -t ./tests/example.test +v+di+db+n -o out1 
+cat < out1 
+$comm -f ./tests/example.train -t ./tests/example.test +v+di+db+n -k2 -o out2
+cat < out2 
+
+$comm -f ./tests/example.train -t ./tests/example.test +vdi+db+k -k3 -o out3
+cat < out3 
+
+$comm -f ./tests/example.train -t ./tests/example.test +v+di+db+k+n -k3 -o out4
+cat < out4 

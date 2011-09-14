@@ -1,0 +1,14 @@
+new exp
+exp.set verbosity f
+exp.set -mM
+exp.train ./tests/klein_half1.train
+exp.test  ./tests/klein_half1.train
+exp.add "Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,NIEUW,PUNT,I"
+exp.test  ./tests/klein_half1.train
+exp.rem "Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,NIEUW,PUNT,I"
+exp.test  ./tests/klein_half1.train
+exp.add "Rockwell_1,PUNT_1,PUNT_2,PUNT_3,NNP_1,PUNT_4,NIEUW_1,PUNT_5,I_1"
+exp.test  ./tests/klein_half1.train
+exp.rem "Rockwell_1,PUNT_1,PUNT_2,PUNT_3,NNP_1,PUNT_4,NIEUW_1,PUNT_5,I_1"
+exp.test  ./tests/klein_half1.train
+free exp 

@@ -1,0 +1,10 @@
+26904 26906 -2 0 citing - - - - - Inc. NNP NP - , , - -
+26908 26906 1 0 citing - citing VBG VP - improvement NN NP in market NN PNP NP-OBJ
+26909 26906 2 0 citing - improvement NN NP in market NN PNP - , , - -
+26914 26906 4 0 citing - , , - - said VBD VP - income NN NP -
+26909 26914 -2 0 said - improvement NN NP in market NN PNP - , , - -
+26908 26914 -3 0 said - citing VBG VP - improvement NN NP in market NN PNP -
+26906 26914 -4 0 said - , , - - citing VBG VP - improvement NN NP VP/S-ADV
+26904 26914 -6 1 said - - - - - Inc. NNP NP - , , - NP-SBJ
+26917 26914 1 0 said - said VBD VP - income NN NP - jumped VBD VP -
+26918 26914 2 0 said - income NN NP - jumped VBD VP - % NN NP VP/S/SBAR-OBJ

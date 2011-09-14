@@ -1,0 +1,266 @@
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 12:06:30 2011
+
+Examine datafile 'tests/bug26.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/bug26.train
+Start:          0 @ Mon Jan 24 12:06:30 2011
+Finished:      29 @ Mon Jan 24 12:06:30 2011
+Calculating Entropy         Mon Jan 24 12:06:30 2011
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      4	0.19803780	0.12034940
+    2      5	0.062249179	0.030433063
+    3      5	0.024392020	0.011399513 NUMERIC
+
+Preparation took 0 seconds, 0 milliseconds and 352 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 2, 3 >
+Phase 2: Building multi index on Datafile: tests/bug26.train
+Start:          0 @ Mon Jan 24 12:06:30 2011
+Finished:      29 @ Mon Jan 24 12:06:30 2011
+
+Phase 3: Learning from Datafile: tests/bug26.train
+Start:          0 @ Mon Jan 24 12:06:30 2011
+Finished:      29 @ Mon Jan 24 12:06:30 2011
+
+Size of InstanceBase = 51 Nodes, (2040 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 429 microseconds
+Writing Instance-Base in: tests/bug26.tree
+TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Jan 24 12:06:30 2011
+
+Reading Instance-Base from: tests/bug26.tree
+
+Size of InstanceBase = 51 Nodes, (2040 bytes), 29.17 % compression
+Feature Permutation based on Data File Ordering :
+< 1, 2, 3 >
+Examine datafile './tests/bug26.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/bug26.test
+Writing output in:          ./tests/bug26.test.IB1.O.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:(none)
+Weighting     : GainRatio
+Feature 1	 : 0.120349398760858
+Feature 2	 : 0.030433063314477
+Feature 3	 : 0.011399512855398
+
+Tested:      1 @ Mon Jan 24 12:06:30 2011
+Tested:      2 @ Mon Jan 24 12:06:30 2011
+Tested:      3 @ Mon Jan 24 12:06:30 2011
+Tested:      4 @ Mon Jan 24 12:06:30 2011
+Tested:      5 @ Mon Jan 24 12:06:30 2011
+Tested:      6 @ Mon Jan 24 12:06:30 2011
+Tested:      7 @ Mon Jan 24 12:06:30 2011
+Ready:       7 @ Mon Jan 24 12:06:30 2011
+Seconds taken: 0.0003 (24822.70 p/s)
+
+overall accuracy:        0.714286  (5/7), of which 2 exact matches 
+Examine datafile './tests/bug26.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/bug26.test
+Writing output in:          ./tests/bug26.test.IB1.O:N3.gr.k1.out
+Algorithm     : IB1
+Global metric : Overlap
+Deviant Feature Metrics:
+   Feature[3] : Numeric
+Weighting     : GainRatio
+Feature 1	 : 0.120349398760858
+Feature 2	 : 0.030433063314477
+Feature 3	 : 0.011399512855398
+
+Tested:      1 @ Mon Jan 24 12:06:30 2011
+Tested:      2 @ Mon Jan 24 12:06:30 2011
+Tested:      3 @ Mon Jan 24 12:06:30 2011
+Tested:      4 @ Mon Jan 24 12:06:30 2011
+Tested:      5 @ Mon Jan 24 12:06:30 2011
+Tested:      6 @ Mon Jan 24 12:06:30 2011
+Tested:      7 @ Mon Jan 24 12:06:30 2011
+Ready:       7 @ Mon Jan 24 12:06:30 2011
+Seconds taken: 0.0007 (9708.74 p/s)
+
+overall accuracy:        0.714286  (5/7), of which 2 exact matches 
+Examine datafile './tests/bug26.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/bug26.test
+Writing output in:          ./tests/bug26.test.IB1.M.gr.k1.out
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.120349398760858
+Feature 2	 : 0.030433063314477
+Feature 3	 : 0.011399512855398
+
+Tested:      1 @ Mon Jan 24 12:06:31 2011
+Tested:      2 @ Mon Jan 24 12:06:31 2011
+Tested:      3 @ Mon Jan 24 12:06:31 2011
+Tested:      4 @ Mon Jan 24 12:06:31 2011
+Tested:      5 @ Mon Jan 24 12:06:31 2011
+Tested:      6 @ Mon Jan 24 12:06:31 2011
+Tested:      7 @ Mon Jan 24 12:06:31 2011
+Ready:       7 @ Mon Jan 24 12:06:31 2011
+Seconds taken: 0.0005 (14705.88 p/s)
+
+overall accuracy:        0.571429  (4/7), of which 3 exact matches 
+There was 1 tie of which 1 (100.00%) was correctly resolved
+Examine datafile './tests/bug26.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/bug26.test
+Writing output in:          ./tests/bug26.test.IB1.M:N3:DC2.gr.k1.out
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:
+   Feature[2] : Dice coefficient (Prestored)
+   Feature[3] : Numeric
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Total Size of value-matrices 96 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.120349398760858
+Feature 2	 : 0.030433063314477
+Feature 3	 : 0.011399512855398
+
+Tested:      1 @ Mon Jan 24 12:06:31 2011
+Tested:      2 @ Mon Jan 24 12:06:31 2011
+Tested:      3 @ Mon Jan 24 12:06:31 2011
+Tested:      4 @ Mon Jan 24 12:06:31 2011
+Tested:      5 @ Mon Jan 24 12:06:31 2011
+Tested:      6 @ Mon Jan 24 12:06:31 2011
+Tested:      7 @ Mon Jan 24 12:06:31 2011
+Ready:       7 @ Mon Jan 24 12:06:31 2011
+Seconds taken: 0.0007 (9562.84 p/s)
+
+overall accuracy:        0.714286  (5/7), of which 2 exact matches 
+Examine datafile './tests/bug26.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/bug26.test
+Writing output in:          ./tests/bug26.test.IB1.M.gr.k1.out
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.120349398760858
+Feature 2	 : 0.030433063314477
+Feature 3	 : 0.011399512855398
+
+Tested:      1 @ Mon Jan 24 12:06:31 2011
+Tested:      2 @ Mon Jan 24 12:06:31 2011
+Tested:      3 @ Mon Jan 24 12:06:31 2011
+Tested:      4 @ Mon Jan 24 12:06:31 2011
+Tested:      5 @ Mon Jan 24 12:06:31 2011
+Tested:      6 @ Mon Jan 24 12:06:31 2011
+Tested:      7 @ Mon Jan 24 12:06:31 2011
+Ready:       7 @ Mon Jan 24 12:06:31 2011
+Seconds taken: 0.0005 (15418.50 p/s)
+
+overall accuracy:        0.571429  (4/7), of which 3 exact matches 
+There was 1 tie of which 1 (100.00%) was correctly resolved
+Examine datafile './tests/bug26.test' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/bug26.test
+Writing output in:          ./tests/bug26.test.IB1.M:S2:DC1.gr.k1.out
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:
+   Feature[1] : Dice coefficient (Prestored)
+   Feature[2] : Jensen-Shannon Divergence (Prestored)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Total Size of value-matrices 144 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.120349398760858
+Feature 2	 : 0.030433063314477
+Feature 3	 : 0.011399512855398
+
+Tested:      1 @ Mon Jan 24 12:06:31 2011
+Tested:      2 @ Mon Jan 24 12:06:31 2011
+Tested:      3 @ Mon Jan 24 12:06:31 2011
+Tested:      4 @ Mon Jan 24 12:06:31 2011
+Tested:      5 @ Mon Jan 24 12:06:31 2011
+Tested:      6 @ Mon Jan 24 12:06:31 2011
+Tested:      7 @ Mon Jan 24 12:06:31 2011
+Ready:       7 @ Mon Jan 24 12:06:31 2011
+Seconds taken: 0.0005 (14285.71 p/s)
+
+overall accuracy:        0.571429  (4/7), of which 3 exact matches 
+There was 1 tie of which 1 (100.00%) was correctly resolved
+C,rood,3,+,- { + 1.00000, - 2.00000 }        0.0000000000000
+C,groen,3,+,+ { + 4.00000, - 3.00000 }        0.030433063314477
+A,groen,-4,-,- { - 3.00000 }        0.041832576169875
+A,grijs,kaas,-,- { - 3.00000 }        0.041832576169875
+B,rood,2,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+B,rood,0,+,+ { + 4.00000, - 3.00000 }        0.011399512855398
+D,rood,8,-,+ { + 1.00000 }        0.011399512855398
+C,rood,3,+,- { + 1.00000, - 2.00000 }        0.0000000000000
+C,groen,3,+,+ { + 4.00000, - 3.00000 }        0.030433063314477
+A,groen,-4,-,- { - 2.00000 }        0.047532332597575
+A,grijs,kaas,-,- { - 3.00000 }        0.041832576169875
+B,rood,2,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+B,rood,0,+,+ { + 2.00000, - 1.00000 }        0.0028498782138496
+D,rood,8,-,+ { + 1.00000 }        0.014249391069248
+C,rood,3,+,- { + 1.00000, - 2.00000 }        0.0000000000000
+C,groen,3,+,- { + 1.00000, - 2.00000 }        0.013833210597490
+A,groen,-4,-,- { - 2.00000 }        0.022811911598327
+A,grijs,kaas,-,- { - 1.00000 }        0.011399512855398
+B,rood,2,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+B,rood,0,+,+ { + 4.00000, - 3.00000 }        0.0000000000000
+D,rood,8,-,+ { + 1.00000 }        0.011399512855398
+C,rood,3,+,- { + 1.00000, - 2.00000 }        0.0000000000000
+C,groen,3,+,+ { + 1.00000 }        0.021490964064439
+A,groen,-4,-,- { - 2.00000 }        0.047532332597575
+A,grijs,kaas,-,- { - 3.00000 }        0.041832576169875
+B,rood,2,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+B,rood,0,+,+ { + 2.00000, - 1.00000 }        0.0028498782138496
+D,rood,8,-,+ { + 1.00000 }        0.014249391069248
+C,rood,3,+,- { + 1.00000, - 2.00000 }        0.0000000000000
+C,groen,3,+,- { + 1.00000, - 2.00000 }        0.0084059641538475
+A,groen,-4,-,- { - 2.00000 }        0.018064209427849
+A,grijs,kaas,-,- { - 1.00000 }        0.011399512855398
+B,rood,2,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
+B,rood,0,+,+ { + 6.00000, - 3.00000 }        0.0000000000000
+D,rood,8,-,+ { + 1.00000 }        0.011399512855398

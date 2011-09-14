@@ -1,0 +1,17 @@
+#!/bin/sh
+
+trainfile=tests/klein.train
+
+testfile=tt4.ind
+
+$comm -f $trainfile -t @$testfile -a2 -q1 +vdi+db
+diff /tmp/tt4.O ./tests/tt4.O.q1.ok 
+diff /tmp/tt4.M ./tests/tt4.M.q1.ok 
+$comm -f $trainfile -t @$testfile -a2 -q3 +vdi+db
+diff /tmp/tt4.O ./tests/tt4.O.q3.ok 
+diff /tmp/tt4.M ./tests/tt4.M.q3.ok 
+$comm -f $trainfile -t @$testfile -a2 -q5 +vdi+db 
+diff /tmp/tt4.O ./tests/tt4.O.q5.ok
+diff /tmp/tt4.M ./tests/tt4.M.q5.ok
+
+

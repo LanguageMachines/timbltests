@@ -1,0 +1,14 @@
+#!/bin/sh
+
+testfile=bug26.ind
+
+$comm -f tests/bug26.train -I tests/bug26.tree -mO:N3
+$comm -i tests/bug26.tree -t @bug26.ind -mO:N3
+cat ./tests/bug26.test.IB1.O.gr.k1.out 
+cat ./tests/bug26.test.IB1.O:N3.gr.k1.out
+cat ./tests/bug26.test.IB1.M.gr.k1.out
+cat ./tests/bug26.test.IB1.M:N3:DC2.gr.k1.out
+cat ./tests/bug26.test.IB1.M:S2:DC1.gr.k1.out
+
+
+

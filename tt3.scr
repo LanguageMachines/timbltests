@@ -1,0 +1,35 @@
+new exp
+#exp.train ./tests/kwart.train
+exp.train ./tests/klein.train
+exp.save t1.tree
+exp.set exact_match false
+exp.set weighting now
+exp.savew no.w
+exp.set weighting gainratio
+exp.savew gr.w
+exp.set weighting infogain
+exp.savew ig.w
+new exp1 IGtree
+exp.test ./tests/klein.test
+exp.set use_inverted false
+exp.test ./tests/klein.test
+free exp
+exp1.train ./tests/klein.train
+exp1.set global_metric overlap
+exp1.test ./tests/klein.test
+exp1.set weighting now
+exp1.test ./tests/klein.test
+exp1.set weighting gainratio
+exp1.test ./tests/klein.test
+exp1.set weighting infogain
+exp1.test ./tests/klein.test
+exp1.save t2.tree
+free exp1
+new exp1
+exp1.get t1.tree
+exp1.test ./tests/klein.test
+free exp1
+new exp1
+exp1.get t2.tree
+exp1.test ./tests/klein.test
+free exp1

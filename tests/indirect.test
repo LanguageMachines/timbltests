@@ -1,0 +1,10 @@
+-t ./tests/example.test -w /tmp/test.wgths:0 -mM
+-t ./tests/example.test -w /tmp/test.wgths:1 -mM
+-t ./tests/example.test -w -mM:O2
+-t ./tests/example.test -w /tmp/test.wgths:2 -mM -k2 
+-w2 ./tests/example.test -mM
+-t ./tests/example.test  -w /tmp/test.wgths:1 -x 
+-t ./tests/example.test +vdi -% +x
+-t ./tests/example.test +vo -vf -R333
+-t ./tests/example.test -p 1 -o/tmp/indirect.out
+-t ./tests/example.test -mO +x

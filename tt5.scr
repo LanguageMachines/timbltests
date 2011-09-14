@@ -1,0 +1,17 @@
+new exp
+exp.set verbosity Feature_statistics+Options
+exp.train ./tests/numeric.train
+exp.set exact_match false
+exp.set global_metric VD
+exp.set weighting now
+exp.show options
+exp.test ./tests/numeric.test t1.out
+exp.set metrics: 3=Numeric
+exp.test ./tests/numeric.test t2.out
+exp.set global_metric overlap
+exp.set weighting grw
+exp.set metrics: 3=default
+exp.test ./tests/numeric.test t3.out
+exp.set metrics: 3=Numeric
+exp.test ./tests/numeric.test t4.out
+

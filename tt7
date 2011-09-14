@@ -1,0 +1,13 @@
+#!/bin/sh
+
+trainfile=./tests/cv_test
+
+$comm -f $trainfile -t cross_validate +v di+db -mO:I2
+diff ./tests/klein_1.train.cv tt7.cv1.ok
+diff ./tests/klein_2.train.cv tt7.cv2.ok
+diff ./tests/klein_3.train.cv tt7.cv3.ok
+diff ./tests/klein_4.train.cv tt7.cv4.ok
+diff ./tests/klein_5.train.cv tt7.cv5.ok
+
+
+

@@ -1,0 +1,90 @@
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Aug  9 11:02:49 2010
+
+Examine datafile 'tests/klein.train' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/klein.train
+Start:          0 @ Mon Aug  9 11:02:49 2010
+Finished:     220 @ Mon Aug  9 11:02:49 2010
+Calculating Entropy         Mon Aug  9 11:02:49 2010
+Lines of data     : 220
+DB Entropy        : 1.0973232
+Number of Classes : 3
+
+Feats	Vals	InfoGain	GainRatio
+    1    141	0.89937373	0.13349375
+    2    140	1.0477932	0.15595940
+    3    133	0.92022530	0.14016266
+    4    134	0.72404026	0.11016404
+    5     25	0.41113584	0.10361161
+    6     25	0.85747470	0.21643867
+    7     24	0.46696345	0.11793486
+    8     24	0.16987195	0.042889176
+
+Preparation took 0 seconds, 2 milliseconds and 314 microseconds
+Feature Permutation based on GainRatio :
+< 6, 2, 3, 1, 7, 4, 5, 8 >
+Phase 2: Building multi index on Datafile: tests/klein.train
+Start:          0 @ Mon Aug  9 11:02:49 2010
+Finished:     220 @ Mon Aug  9 11:02:49 2010
+
+Phase 3: Learning from Datafile: tests/klein.train
+Start:          0 @ Mon Aug  9 11:02:49 2010
+Finished:     220 @ Mon Aug  9 11:02:49 2010
+
+Size of InstanceBase = 37 Nodes, (1480 bytes), 98.13 % compression
+Learning took 0 seconds, 4 milliseconds and 949 microseconds
+Writing Instance-Base in: tt3.tree
+Saving Weights in tt3.tree.wgt
+TiMBL 6.3.1 (c) ILK 1998 - 2010.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Aug  9 11:02:50 2010
+
+Reading Instance-Base from: tt3.tree
+Feature Permutation based on Data File Ordering :
+< 6, 2, 3, 1, 7, 4, 5, 8 >
+Reading weights from tt3.tree.wgt
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+Warning:number of neighbors must be 1 for IGTree test!
+Examine datafile './tests/klein.test' gave the following results:
+Number of Features: 8
+InputFormat       : C4.5
+
+
+Starting to test, Testfile: ./tests/klein.test
+Writing output in:          ./tests/klein.test.IGTree.gr.out
+Algorithm     : IGTree
+Weighting     : User Defined  (tt3.tree.wgt)
+Feature 1	 : 0.133493751279613
+Feature 2	 : 0.155959403674593
+Feature 3	 : 0.140162656829925
+Feature 4	 : 0.110164039914047
+Feature 5	 : 0.103611605117395
+Feature 6	 : 0.216438669149875
+Feature 7	 : 0.117934862496257
+Feature 8	 : 0.0428891762659315
+
+Tested:      1 @ Mon Aug  9 11:02:50 2010
+Tested:      2 @ Mon Aug  9 11:02:50 2010
+Tested:      3 @ Mon Aug  9 11:02:50 2010
+Tested:      4 @ Mon Aug  9 11:02:50 2010
+Tested:      5 @ Mon Aug  9 11:02:50 2010
+Tested:      6 @ Mon Aug  9 11:02:50 2010
+Tested:      7 @ Mon Aug  9 11:02:50 2010
+Tested:      8 @ Mon Aug  9 11:02:50 2010
+Tested:      9 @ Mon Aug  9 11:02:50 2010
+Tested:     10 @ Mon Aug  9 11:02:50 2010
+Ready:      50 @ Mon Aug  9 11:02:50 2010
+Seconds taken: 0.0010 (51975.05 p/s)
+
+overall accuracy:        0.960000  (48/50)

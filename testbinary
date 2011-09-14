@@ -1,0 +1,10 @@
+#!/bin/sh
+
+
+$comm -f ./tests/bin.train -t ./tests/bin.test -F Binary -N10 +vDB+DI -o out1 
+cat < out1
+
+$comm -f ./tests/bin.train -t ./tests/bin.test -F Binary -N10 +vDB+DI -o out2 
+cat < out2
+
+
