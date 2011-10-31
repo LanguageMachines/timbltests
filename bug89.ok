@@ -1,0 +1,142 @@
+TiMBL 6.4.2 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Oct 31 12:27:39 2011
+
+Examine datafile 'tests/bug89.train' gave the following results:
+Number of Features: 6
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: tests/bug89.train
+Start:          0 @ Mon Oct 31 12:27:39 2011
+Finished:      21 @ Mon Oct 31 12:27:39 2011
+Calculating Entropy         Mon Oct 31 12:27:39 2011
+Lines of data     : 21
+DB Entropy        : 1.0488413
+Number of Classes : 3
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1     20	42.000000	1.0000000	1.0488413	0.24408236
+    2     16	38.266667	0.91111111	0.91765614	0.23649835
+    3     14	42.000000	1.0000000	1.0488413	0.28705832
+    4     13	22.586667	0.53777778	0.65053040	0.19007029
+    5     18	30.800000	0.73333333	0.95360317	0.23221216
+    6     21	42.000000	1.0000000	1.0488413	0.23878995
+
+Preparation took 0 seconds, 0 milliseconds and 371 microseconds
+Feature Permutation based on GainRatio/Values :
+< 3, 2, 4, 5, 1, 6 >
+Phase 2: Building multi index on Datafile: tests/bug89.train
+Start:          0 @ Mon Oct 31 12:27:39 2011
+Finished:      21 @ Mon Oct 31 12:27:39 2011
+
+Phase 3: Learning from Datafile: tests/bug89.train
+Start:          0 @ Mon Oct 31 12:27:39 2011
+Finished:      21 @ Mon Oct 31 12:27:39 2011
+
+Size of InstanceBase = 132 Nodes, (5280 bytes), 10.20 % compression
+Learning took 0 seconds, 0 milliseconds and 314 microseconds
+Examine datafile 'tests/bug89.test' gave the following results:
+Number of Features: 6
+InputFormat       : Columns
+
+
+Starting to test, Testfile: tests/bug89.test
+Writing output in:          bug89.out1
+Algorithm     : IB1
+Global metric : Levenshtein, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Size of value-matrix[4] = 48 Bytes 
+Size of value-matrix[5] = 48 Bytes 
+Size of value-matrix[6] = 48 Bytes 
+Total Size of value-matrices 288 Bytes 
+
+Weighting     : Chi-square
+Feature 1	 : 42.000000000000000
+Feature 2	 : 38.266666666666673
+Feature 3	 : 42.000000000000000
+Feature 4	 : 22.586666666666662
+Feature 5	 : 30.799999999999979
+Feature 6	 : 41.999999999999993
+Decay         : Exponential Decay a=1.000000 b= 1.000000
+Tested:      1 @ Mon Oct 31 12:27:39 2011
+Ready:       1 @ Mon Oct 31 12:27:39 2011
+Seconds taken: 0.0002 (4807.69 p/s)
+
+overall accuracy:        0.000000  (0/1)
+TiMBL 6.4.2 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Mon Oct 31 12:27:39 2011
+
+Examine datafile 'tests/bug89.train' gave the following results:
+Number of Features: 6
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: tests/bug89.train
+Start:          0 @ Mon Oct 31 12:27:39 2011
+Finished:      21 @ Mon Oct 31 12:27:39 2011
+Calculating Entropy         Mon Oct 31 12:27:39 2011
+Lines of data     : 21
+DB Entropy        : 1.0488413
+Number of Classes : 3
+
+Feats	Vals	X-square	Variance	InfoGain	GainRatio
+    1     20	42.000000	1.0000000	1.0488413	0.24408236
+    2     16	38.266667	0.91111111	0.91765614	0.23649835
+    3     14	42.000000	1.0000000	1.0488413	0.28705832
+    4     13	22.586667	0.53777778	0.65053040	0.19007029
+    5     18	30.800000	0.73333333	0.95360317	0.23221216
+    6     21	42.000000	1.0000000	1.0488413	0.23878995
+
+Preparation took 0 seconds, 0 milliseconds and 358 microseconds
+Feature Permutation based on GainRatio/Values :
+< 3, 2, 4, 5, 1, 6 >
+Phase 2: Building multi index on Datafile: tests/bug89.train
+Start:          0 @ Mon Oct 31 12:27:39 2011
+Finished:      21 @ Mon Oct 31 12:27:39 2011
+
+Phase 3: Learning from Datafile: tests/bug89.train
+Start:          0 @ Mon Oct 31 12:27:39 2011
+Finished:      21 @ Mon Oct 31 12:27:39 2011
+
+Size of InstanceBase = 132 Nodes, (5280 bytes), 10.20 % compression
+Learning took 0 seconds, 0 milliseconds and 315 microseconds
+Examine datafile 'tests/bug89.test' gave the following results:
+Number of Features: 6
+InputFormat       : Columns
+
+
+Starting to test, Testfile: tests/bug89.test
+Writing output in:          bug89.out2
+Algorithm     : IB1
+Global metric : Levenshtein, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 48 Bytes 
+Size of value-matrix[2] = 48 Bytes 
+Size of value-matrix[3] = 48 Bytes 
+Size of value-matrix[4] = 48 Bytes 
+Size of value-matrix[5] = 48 Bytes 
+Size of value-matrix[6] = 48 Bytes 
+Total Size of value-matrices 288 Bytes 
+
+Weighting     : Chi-square
+Feature 1	 : 42.000000000000000
+Feature 2	 : 38.266666666666673
+Feature 3	 : 42.000000000000000
+Feature 4	 : 22.586666666666662
+Feature 5	 : 30.799999999999979
+Feature 6	 : 41.999999999999993
+Decay         : Exponential Decay a=1.000000 b= 1.000000
+Tested:      1 @ Mon Oct 31 12:27:39 2011
+Ready:       1 @ Mon Oct 31 12:27:39 2011
+Seconds taken: 0.0002 (4926.11 p/s)
+
+overall accuracy:        0.000000  (0/1)
+63361 van D2 is ook 52299 ? T1 { T1 1.77636e-15, T2 6.66134e-16, T3 2.22045e-16 }        756.37333333333
+63361 van D2 is ook 52299 ? T1 { T1 0.666667, T2 0.250000, T3 0.0833333 }        756.37333333333

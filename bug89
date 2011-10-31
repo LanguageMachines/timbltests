@@ -1,0 +1,9 @@
+#!/bin/sh
+
+$comm -f tests/bug89.train -t tests/bug89.test -mL -d ED1 -w x2 +v db+di -k3 -o bug89.out1
+$comm -f tests/bug89.train -t tests/bug89.test -mL -d ED1 -w x2 +v db+di -k3 -G -o bug89.out2
+cat bug89.out1
+cat bug89.out2
+
+
+
