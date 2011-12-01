@@ -4,6 +4,8 @@ lh=`hostname`
 if test "$lh" = "atalanta"
 then
   lh=localhost
+else
+  lh="$lh|localhost"
 fi
 
 if test -e $1
