@@ -105,3 +105,17 @@ cat /tmp/dimin5.out
 kill `cat /tmp/run/pid5`
 cat /tmp/server5.log
 
+\rm /tmp/dimin6-*.out
+$exec $doD -f ./tests/dimin.train -S 7349 --logfile=/tmp/server6.log --pidfile=/tmp/run/pid6&
+sleep 10
+
+$client -n localhost -p 7349 < ./tests/dimin.test.scr1 > /tmp/dimin6-1.out &
+$client -n localhost -p 7349 < ./tests/dimin.test.scr2 > /tmp/dimin6-2.out &
+$client -n localhost -p 7349 < ./tests/dimin.test.scr3 > /tmp/dimin6-3.out &
+sleep 4
+cat /tmp/dimin6-1.out
+cat /tmp/dimin6-2.out
+cat /tmp/dimin6-3.out
+kill `cat /tmp/run/pid6`
+cat /tmp/server6.log
+
