@@ -1,17 +1,17 @@
-TiMBL 6.3.4 (c) ILK 1998 - 2011.
+TiMBL 6.4.2 (c) ILK 1998 - 2011.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 28 15:33:02 2011
+Thu Dec  1 10:07:55 2011
 
 Examine datafile './tests/align.data' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/align.data
-Start:          0 @ Mon Feb 28 15:33:02 2011
-Finished:   50000 @ Mon Feb 28 15:33:03 2011
-Calculating Entropy         Mon Feb 28 15:33:03 2011
+Start:          0 @ Thu Dec  1 10:07:55 2011
+Finished:   50000 @ Thu Dec  1 10:07:56 2011
+Calculating Entropy         Thu Dec  1 10:07:56 2011
 Lines of data     : 50000
 DB Entropy        : 14.797393
 Number of Classes : 36941
@@ -25,19 +25,19 @@ Feats	Vals	InfoGain	GainRatio
     6   5296	7.7859356	0.93097480
     7   5319	7.5803945	0.92715345
 
-Preparation took 0 seconds, 934 milliseconds and 152 microseconds
+Preparation took 0 seconds, 921 milliseconds and 672 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 5, 6, 7, 3, 4 >
 Phase 2: Building multi index on Datafile: ./tests/align.data
-Start:          0 @ Mon Feb 28 15:33:03 2011
-Finished:   50000 @ Mon Feb 28 15:33:03 2011
+Start:          0 @ Thu Dec  1 10:07:56 2011
+Finished:   50000 @ Thu Dec  1 10:07:57 2011
 
 Phase 3: Learning from Datafile: ./tests/align.data
-Start:          0 @ Mon Feb 28 15:33:03 2011
-Finished:   50000 @ Mon Feb 28 15:33:04 2011
+Start:          0 @ Thu Dec  1 10:07:57 2011
+Finished:   50000 @ Thu Dec  1 10:07:58 2011
 
 Size of InstanceBase = 287204 Nodes, (11488160 bytes), 20.72 % compression
-Learning took 1 seconds, 695 milliseconds and 994 microseconds
+Learning took 1 seconds, 546 milliseconds and 917 microseconds
 Examine datafile './tests/align.test' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
@@ -57,37 +57,37 @@ Feature 5	 : 0.950158299294629
 Feature 6	 : 0.930974803272551
 Feature 7	 : 0.927153449509075
 
-Tested:      1 @ Mon Feb 28 15:33:05 2011
-Tested:      2 @ Mon Feb 28 15:33:05 2011
-Tested:      3 @ Mon Feb 28 15:33:05 2011
-Tested:      4 @ Mon Feb 28 15:33:05 2011
-Tested:      5 @ Mon Feb 28 15:33:05 2011
-Tested:      6 @ Mon Feb 28 15:33:05 2011
-Tested:      7 @ Mon Feb 28 15:33:05 2011
-Tested:      8 @ Mon Feb 28 15:33:05 2011
-Tested:      9 @ Mon Feb 28 15:33:05 2011
-Tested:     10 @ Mon Feb 28 15:33:05 2011
-Tested:    100 @ Mon Feb 28 15:33:07 2011
-Tested:   1000 @ Mon Feb 28 15:33:28 2011
-Ready:    1000 @ Mon Feb 28 15:33:28 2011
-Seconds taken: 23.4359 (42.67 p/s)
+Tested:      1 @ Thu Dec  1 10:07:58 2011
+Tested:      2 @ Thu Dec  1 10:07:58 2011
+Tested:      3 @ Thu Dec  1 10:07:58 2011
+Tested:      4 @ Thu Dec  1 10:07:58 2011
+Tested:      5 @ Thu Dec  1 10:07:58 2011
+Tested:      6 @ Thu Dec  1 10:07:58 2011
+Tested:      7 @ Thu Dec  1 10:07:58 2011
+Tested:      8 @ Thu Dec  1 10:07:58 2011
+Tested:      9 @ Thu Dec  1 10:07:58 2011
+Tested:     10 @ Thu Dec  1 10:07:58 2011
+Tested:    100 @ Thu Dec  1 10:08:00 2011
+Tested:   1000 @ Thu Dec  1 10:08:22 2011
+Ready:    1000 @ Thu Dec  1 10:08:22 2011
+Seconds taken: 24.0342 (41.61 p/s)
 
 overall accuracy:        0.000000  (0/1000), of which 13 exact matches 
 There were 439 ties of which 0 (0.00%) were correctly resolved
-TiMBL 6.3.4 (c) ILK 1998 - 2011.
+TiMBL 6.4.2 (c) ILK 1998 - 2011.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 28 15:33:28 2011
+Thu Dec  1 10:08:23 2011
 
 Examine datafile './tests/align.data' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/align.data
-Start:          0 @ Mon Feb 28 15:33:28 2011
-Finished:   50000 @ Mon Feb 28 15:33:29 2011
-Calculating Entropy         Mon Feb 28 15:33:29 2011
+Start:          0 @ Thu Dec  1 10:08:23 2011
+Finished:   50000 @ Thu Dec  1 10:08:23 2011
+Calculating Entropy         Thu Dec  1 10:08:23 2011
 Lines of data     : 50000
 DB Entropy        : 14.797393
 Number of Classes : 36941
@@ -101,19 +101,19 @@ Feats	Vals	InfoGain	GainRatio
     6   5296	7.7859356	0.93097480
     7   5319	7.5803945	0.92715345
 
-Preparation took 0 seconds, 936 milliseconds and 749 microseconds
+Preparation took 0 seconds, 941 milliseconds and 40 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 5, 6, 7, 3, 4 >
 Phase 2: Building multi index on Datafile: ./tests/align.data
-Start:          0 @ Mon Feb 28 15:33:29 2011
-Finished:   50000 @ Mon Feb 28 15:33:30 2011
+Start:          0 @ Thu Dec  1 10:08:24 2011
+Finished:   50000 @ Thu Dec  1 10:08:24 2011
 
 Phase 3: Learning from Datafile: ./tests/align.data
-Start:          0 @ Mon Feb 28 15:33:30 2011
-Finished:   50000 @ Mon Feb 28 15:33:31 2011
+Start:          0 @ Thu Dec  1 10:08:24 2011
+Finished:   50000 @ Thu Dec  1 10:08:25 2011
 
 Size of InstanceBase = 287204 Nodes, (11488160 bytes), 20.72 % compression
-Learning took 1 seconds, 706 milliseconds and 611 microseconds
+Learning took 1 seconds, 648 milliseconds and 539 microseconds
 Examine datafile './tests/align.test' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
@@ -133,37 +133,37 @@ Feature 5	 : 0.950158299294629
 Feature 6	 : 0.930974803272551
 Feature 7	 : 0.927153449509075
 
-Tested:      1 @ Mon Feb 28 15:33:31 2011
-Tested:      2 @ Mon Feb 28 15:33:31 2011
-Tested:      3 @ Mon Feb 28 15:33:31 2011
-Tested:      4 @ Mon Feb 28 15:33:32 2011
-Tested:      5 @ Mon Feb 28 15:33:32 2011
-Tested:      6 @ Mon Feb 28 15:33:32 2011
-Tested:      7 @ Mon Feb 28 15:33:32 2011
-Tested:      8 @ Mon Feb 28 15:33:32 2011
-Tested:      9 @ Mon Feb 28 15:33:32 2011
-Tested:     10 @ Mon Feb 28 15:33:32 2011
-Tested:    100 @ Mon Feb 28 15:33:33 2011
-Tested:   1000 @ Mon Feb 28 15:33:46 2011
-Ready:    1000 @ Mon Feb 28 15:33:46 2011
-Seconds taken: 14.7711 (67.70 p/s)
+Tested:      1 @ Thu Dec  1 10:08:26 2011
+Tested:      2 @ Thu Dec  1 10:08:26 2011
+Tested:      3 @ Thu Dec  1 10:08:26 2011
+Tested:      4 @ Thu Dec  1 10:08:26 2011
+Tested:      5 @ Thu Dec  1 10:08:26 2011
+Tested:      6 @ Thu Dec  1 10:08:26 2011
+Tested:      7 @ Thu Dec  1 10:08:26 2011
+Tested:      8 @ Thu Dec  1 10:08:26 2011
+Tested:      9 @ Thu Dec  1 10:08:26 2011
+Tested:     10 @ Thu Dec  1 10:08:26 2011
+Tested:    100 @ Thu Dec  1 10:08:27 2011
+Tested:   1000 @ Thu Dec  1 10:08:41 2011
+Ready:    1000 @ Thu Dec  1 10:08:41 2011
+Seconds taken: 15.7387 (63.54 p/s)
 
 overall accuracy:        0.000000  (0/1000), of which 13 exact matches 
 There were 439 ties of which 0 (0.00%) were correctly resolved
-TiMBL 6.3.4 (c) ILK 1998 - 2011.
+TiMBL 6.4.2 (c) ILK 1998 - 2011.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 28 15:33:47 2011
+Thu Dec  1 10:08:42 2011
 
 Examine datafile './tests/align.data' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/align.data
-Start:          0 @ Mon Feb 28 15:33:47 2011
-Finished:   50000 @ Mon Feb 28 15:33:48 2011
-Calculating Entropy         Mon Feb 28 15:33:48 2011
+Start:          0 @ Thu Dec  1 10:08:42 2011
+Finished:   50000 @ Thu Dec  1 10:08:43 2011
+Calculating Entropy         Thu Dec  1 10:08:43 2011
 Lines of data     : 50000
 DB Entropy        : 14.797393
 Number of Classes : 36941
@@ -177,19 +177,19 @@ Feats	Vals	InfoGain	GainRatio
     6   5296	7.7859356	0.93097480
     7   5319	7.5803945	0.92715345
 
-Preparation took 0 seconds, 955 milliseconds and 923 microseconds
+Preparation took 0 seconds, 943 milliseconds and 843 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 5, 6, 7, 3, 4 >
 Phase 2: Building multi index on Datafile: ./tests/align.data
-Start:          0 @ Mon Feb 28 15:33:48 2011
-Finished:   50000 @ Mon Feb 28 15:33:49 2011
+Start:          0 @ Thu Dec  1 10:08:43 2011
+Finished:   50000 @ Thu Dec  1 10:08:43 2011
 
 Phase 3: Learning from Datafile: ./tests/align.data
-Start:          0 @ Mon Feb 28 15:33:49 2011
-Finished:   50000 @ Mon Feb 28 15:33:50 2011
+Start:          0 @ Thu Dec  1 10:08:43 2011
+Finished:   50000 @ Thu Dec  1 10:08:44 2011
 
 Size of InstanceBase = 287204 Nodes, (11488160 bytes), 20.72 % compression
-Learning took 1 seconds, 705 milliseconds and 980 microseconds
+Learning took 1 seconds, 554 milliseconds and 850 microseconds
 Examine datafile './tests/align.test' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
@@ -209,20 +209,20 @@ Feature 5	 : 0.950158299294629
 Feature 6	 : 0.930974803272551
 Feature 7	 : 0.927153449509075
 
-Tested:      1 @ Mon Feb 28 15:33:50 2011
-Tested:      2 @ Mon Feb 28 15:33:50 2011
-Tested:      3 @ Mon Feb 28 15:33:50 2011
-Tested:      4 @ Mon Feb 28 15:33:50 2011
-Tested:      5 @ Mon Feb 28 15:33:50 2011
-Tested:      6 @ Mon Feb 28 15:33:50 2011
-Tested:      7 @ Mon Feb 28 15:33:50 2011
-Tested:      8 @ Mon Feb 28 15:33:50 2011
-Tested:      9 @ Mon Feb 28 15:33:50 2011
-Tested:     10 @ Mon Feb 28 15:33:50 2011
-Tested:    100 @ Mon Feb 28 15:33:52 2011
-Tested:   1000 @ Mon Feb 28 15:34:04 2011
-Ready:    1000 @ Mon Feb 28 15:34:04 2011
-Seconds taken: 13.5282 (73.92 p/s)
+Tested:      1 @ Thu Dec  1 10:08:45 2011
+Tested:      2 @ Thu Dec  1 10:08:45 2011
+Tested:      3 @ Thu Dec  1 10:08:45 2011
+Tested:      4 @ Thu Dec  1 10:08:45 2011
+Tested:      5 @ Thu Dec  1 10:08:45 2011
+Tested:      6 @ Thu Dec  1 10:08:45 2011
+Tested:      7 @ Thu Dec  1 10:08:45 2011
+Tested:      8 @ Thu Dec  1 10:08:45 2011
+Tested:      9 @ Thu Dec  1 10:08:45 2011
+Tested:     10 @ Thu Dec  1 10:08:45 2011
+Tested:    100 @ Thu Dec  1 10:08:46 2011
+Tested:   1000 @ Thu Dec  1 10:09:00 2011
+Ready:    1000 @ Thu Dec  1 10:09:00 2011
+Seconds taken: 14.6104 (68.44 p/s)
 
 overall accuracy:        0.000000  (0/1000), of which 13 exact matches 
 There were 439 ties of which 0 (0.00%) were correctly resolved
@@ -326,3 +326,398 @@ stof inderdaad binnen de europese unie maken ? of^the^european { of^the^european
 inderdaad binnen de europese unie maken en ? within^europe^. { within^europe^. 1.00000, different^eu^governments 1.00000 }        2.7890242719221
 binnen de europese unie maken en verhandelen ? european^union^is { european^union^is 1.00000 }        2.8082077679442
 de europese unie maken en verhandelen == ? is^incoherent^and { is^incoherent^and 1.00000 }        2.8310787524382
+TiMBL 6.4.2 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Dec  1 10:09:00 2011
+
+Examine datafile './tests/hapax.smalltrain' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/hapax.smalltrain
+Start:          0 @ Thu Dec  1 10:09:00 2011
+Finished:   28405 @ Thu Dec  1 10:09:01 2011
+Calculating Entropy         Thu Dec  1 10:09:01 2011
+Lines of data     : 28405
+DB Entropy        : 9.6917779
+Number of Classes : 4947
+
+Feats	Vals	InfoGain	GainRatio
+    1   4943	5.3886386	0.55604584
+    2   4944	5.4123366	0.55846788
+    3   4945	5.4300984	0.56030756
+    4   4945	5.5036428	0.56790185
+    5   4945	5.5803466	0.57581874
+    6   4945	5.6802580	0.58611484
+    7   4945	6.0163577	0.62081353
+    8   4947	6.0163881	0.62078397
+    9   4947	5.6797307	0.58605344
+   10   4948	5.5804668	0.57579396
+   11   4949	5.5034114	0.56782985
+   12   4949	5.4298957	0.56024530
+   13   4949	5.4111923	0.55835478
+   14   4949	5.3881113	0.55597648
+
+Preparation took 0 seconds, 800 milliseconds and 920 microseconds
+Feature Permutation based on GainRatio/Values :
+< 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
+Phase 2: Building multi index on Datafile: ./tests/hapax.smalltrain
+Start:          0 @ Thu Dec  1 10:09:01 2011
+Finished:   28405 @ Thu Dec  1 10:09:02 2011
+
+Phase 3: Learning from Datafile: ./tests/hapax.smalltrain
+Start:          0 @ Thu Dec  1 10:09:02 2011
+Finished:   28405 @ Thu Dec  1 10:09:02 2011
+
+Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
+Learning took 1 seconds, 237 milliseconds and 841 microseconds
+Examine datafile './tests/hapax.smalltest' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/hapax.smalltest
+Writing output in:          testclones.out11
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 6120 Bytes 
+Size of value-matrix[2] = 6120 Bytes 
+Size of value-matrix[3] = 6120 Bytes 
+Size of value-matrix[4] = 6120 Bytes 
+Size of value-matrix[5] = 6120 Bytes 
+Size of value-matrix[6] = 6120 Bytes 
+Size of value-matrix[7] = 6120 Bytes 
+Size of value-matrix[8] = 6120 Bytes 
+Size of value-matrix[9] = 6120 Bytes 
+Size of value-matrix[10] = 6120 Bytes 
+Size of value-matrix[11] = 6120 Bytes 
+Size of value-matrix[12] = 6120 Bytes 
+Size of value-matrix[13] = 6120 Bytes 
+Size of value-matrix[14] = 6120 Bytes 
+Total Size of value-matrices 85680 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.556045835795306
+Feature 2	 : 0.558467880783746
+Feature 3	 : 0.560307560110388
+Feature 4	 : 0.567901848648317
+Feature 5	 : 0.575818740110730
+Feature 6	 : 0.586114841881059
+Feature 7	 : 0.620813532927729
+Feature 8	 : 0.620783965375239
+Feature 9	 : 0.586053441066795
+Feature 10	 : 0.575793958956889
+Feature 11	 : 0.567829845297908
+Feature 12	 : 0.560245296566752
+Feature 13	 : 0.558354776963652
+Feature 14	 : 0.555976477380017
+Decay         : Inverse Linear Distance
+Tested:      1 @ Thu Dec  1 10:09:03 2011
+Tested:      2 @ Thu Dec  1 10:09:03 2011
+Tested:      3 @ Thu Dec  1 10:09:04 2011
+Tested:      4 @ Thu Dec  1 10:09:04 2011
+Tested:      5 @ Thu Dec  1 10:09:04 2011
+Tested:      6 @ Thu Dec  1 10:09:04 2011
+Tested:      7 @ Thu Dec  1 10:09:04 2011
+Tested:      8 @ Thu Dec  1 10:09:05 2011
+Tested:      9 @ Thu Dec  1 10:09:05 2011
+Tested:     10 @ Thu Dec  1 10:09:05 2011
+Ready:      86 @ Thu Dec  1 10:09:54 2011
+Seconds taken: 51.0569 (1.68 p/s)
+
+overall accuracy:        0.104651  (9/86)
+TiMBL 6.4.2 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Dec  1 10:09:55 2011
+
+Examine datafile './tests/hapax.smalltrain' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/hapax.smalltrain
+Start:          0 @ Thu Dec  1 10:09:55 2011
+Finished:   28405 @ Thu Dec  1 10:09:55 2011
+Calculating Entropy         Thu Dec  1 10:09:55 2011
+Lines of data     : 28405
+DB Entropy        : 9.6917779
+Number of Classes : 4947
+
+Feats	Vals	InfoGain	GainRatio
+    1   4943	5.3886386	0.55604584
+    2   4944	5.4123366	0.55846788
+    3   4945	5.4300984	0.56030756
+    4   4945	5.5036428	0.56790185
+    5   4945	5.5803466	0.57581874
+    6   4945	5.6802580	0.58611484
+    7   4945	6.0163577	0.62081353
+    8   4947	6.0163881	0.62078397
+    9   4947	5.6797307	0.58605344
+   10   4948	5.5804668	0.57579396
+   11   4949	5.5034114	0.56782985
+   12   4949	5.4298957	0.56024530
+   13   4949	5.4111923	0.55835478
+   14   4949	5.3881113	0.55597648
+
+Preparation took 0 seconds, 800 milliseconds and 248 microseconds
+Feature Permutation based on GainRatio/Values :
+< 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
+Phase 2: Building multi index on Datafile: ./tests/hapax.smalltrain
+Start:          0 @ Thu Dec  1 10:09:55 2011
+Finished:   28405 @ Thu Dec  1 10:09:56 2011
+
+Phase 3: Learning from Datafile: ./tests/hapax.smalltrain
+Start:          0 @ Thu Dec  1 10:09:56 2011
+Finished:   28405 @ Thu Dec  1 10:09:57 2011
+
+Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
+Learning took 1 seconds, 231 milliseconds and 173 microseconds
+Examine datafile './tests/hapax.smalltest' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/hapax.smalltest
+Writing output in:          testclones.out13
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 6120 Bytes 
+Size of value-matrix[2] = 6120 Bytes 
+Size of value-matrix[3] = 6120 Bytes 
+Size of value-matrix[4] = 6120 Bytes 
+Size of value-matrix[5] = 6120 Bytes 
+Size of value-matrix[6] = 6120 Bytes 
+Size of value-matrix[7] = 6120 Bytes 
+Size of value-matrix[8] = 6120 Bytes 
+Size of value-matrix[9] = 6120 Bytes 
+Size of value-matrix[10] = 6120 Bytes 
+Size of value-matrix[11] = 6120 Bytes 
+Size of value-matrix[12] = 6120 Bytes 
+Size of value-matrix[13] = 6120 Bytes 
+Size of value-matrix[14] = 6120 Bytes 
+Total Size of value-matrices 85680 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.556045835795306
+Feature 2	 : 0.558467880783746
+Feature 3	 : 0.560307560110388
+Feature 4	 : 0.567901848648317
+Feature 5	 : 0.575818740110730
+Feature 6	 : 0.586114841881059
+Feature 7	 : 0.620813532927729
+Feature 8	 : 0.620783965375239
+Feature 9	 : 0.586053441066795
+Feature 10	 : 0.575793958956889
+Feature 11	 : 0.567829845297908
+Feature 12	 : 0.560245296566752
+Feature 13	 : 0.558354776963652
+Feature 14	 : 0.555976477380017
+Decay         : Inverse Linear Distance
+Tested:      1 @ Thu Dec  1 10:09:59 2011
+Tested:      2 @ Thu Dec  1 10:09:59 2011
+Tested:      3 @ Thu Dec  1 10:09:59 2011
+Tested:      4 @ Thu Dec  1 10:09:59 2011
+Tested:      5 @ Thu Dec  1 10:09:59 2011
+Tested:      6 @ Thu Dec  1 10:09:59 2011
+Tested:      7 @ Thu Dec  1 10:10:00 2011
+Tested:      8 @ Thu Dec  1 10:10:00 2011
+Tested:      9 @ Thu Dec  1 10:10:00 2011
+Tested:     10 @ Thu Dec  1 10:10:01 2011
+Ready:      86 @ Thu Dec  1 10:10:38 2011
+Seconds taken: 39.6319 (2.17 p/s)
+
+overall accuracy:        0.104651  (9/86)
+TiMBL 6.4.2 (c) ILK 1998 - 2011.
+Tilburg Memory Based Learner
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Dec  1 10:10:39 2011
+
+Examine datafile './tests/hapax.smalltrain' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+Phase 1: Reading Datafile: ./tests/hapax.smalltrain
+Start:          0 @ Thu Dec  1 10:10:39 2011
+Finished:   28405 @ Thu Dec  1 10:10:40 2011
+Calculating Entropy         Thu Dec  1 10:10:40 2011
+Lines of data     : 28405
+DB Entropy        : 9.6917779
+Number of Classes : 4947
+
+Feats	Vals	InfoGain	GainRatio
+    1   4943	5.3886386	0.55604584
+    2   4944	5.4123366	0.55846788
+    3   4945	5.4300984	0.56030756
+    4   4945	5.5036428	0.56790185
+    5   4945	5.5803466	0.57581874
+    6   4945	5.6802580	0.58611484
+    7   4945	6.0163577	0.62081353
+    8   4947	6.0163881	0.62078397
+    9   4947	5.6797307	0.58605344
+   10   4948	5.5804668	0.57579396
+   11   4949	5.5034114	0.56782985
+   12   4949	5.4298957	0.56024530
+   13   4949	5.4111923	0.55835478
+   14   4949	5.3881113	0.55597648
+
+Preparation took 0 seconds, 797 milliseconds and 974 microseconds
+Feature Permutation based on GainRatio/Values :
+< 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
+Phase 2: Building multi index on Datafile: ./tests/hapax.smalltrain
+Start:          0 @ Thu Dec  1 10:10:40 2011
+Finished:   28405 @ Thu Dec  1 10:10:40 2011
+
+Phase 3: Learning from Datafile: ./tests/hapax.smalltrain
+Start:          0 @ Thu Dec  1 10:10:40 2011
+Finished:   28405 @ Thu Dec  1 10:10:41 2011
+
+Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
+Learning took 1 seconds, 233 milliseconds and 840 microseconds
+Examine datafile './tests/hapax.smalltest' gave the following results:
+Number of Features: 14
+InputFormat       : Columns
+
+
+Starting to test, Testfile: ./tests/hapax.smalltest
+Writing output in:          testclones.out17
+Algorithm     : IB1
+Global metric : Value Difference, Prestored matrix
+Deviant Feature Metrics:(none)
+Size of value-matrix[1] = 6120 Bytes 
+Size of value-matrix[2] = 6120 Bytes 
+Size of value-matrix[3] = 6120 Bytes 
+Size of value-matrix[4] = 6120 Bytes 
+Size of value-matrix[5] = 6120 Bytes 
+Size of value-matrix[6] = 6120 Bytes 
+Size of value-matrix[7] = 6120 Bytes 
+Size of value-matrix[8] = 6120 Bytes 
+Size of value-matrix[9] = 6120 Bytes 
+Size of value-matrix[10] = 6120 Bytes 
+Size of value-matrix[11] = 6120 Bytes 
+Size of value-matrix[12] = 6120 Bytes 
+Size of value-matrix[13] = 6120 Bytes 
+Size of value-matrix[14] = 6120 Bytes 
+Total Size of value-matrices 85680 Bytes 
+
+Weighting     : GainRatio
+Feature 1	 : 0.556045835795306
+Feature 2	 : 0.558467880783746
+Feature 3	 : 0.560307560110388
+Feature 4	 : 0.567901848648317
+Feature 5	 : 0.575818740110730
+Feature 6	 : 0.586114841881059
+Feature 7	 : 0.620813532927729
+Feature 8	 : 0.620783965375239
+Feature 9	 : 0.586053441066795
+Feature 10	 : 0.575793958956889
+Feature 11	 : 0.567829845297908
+Feature 12	 : 0.560245296566752
+Feature 13	 : 0.558354776963652
+Feature 14	 : 0.555976477380017
+Decay         : Inverse Linear Distance
+Tested:      1 @ Thu Dec  1 10:10:46 2011
+Tested:      2 @ Thu Dec  1 10:10:46 2011
+Tested:      3 @ Thu Dec  1 10:10:46 2011
+Tested:      4 @ Thu Dec  1 10:10:46 2011
+Tested:      5 @ Thu Dec  1 10:10:46 2011
+Tested:      6 @ Thu Dec  1 10:10:46 2011
+Tested:      7 @ Thu Dec  1 10:10:46 2011
+Tested:      8 @ Thu Dec  1 10:10:47 2011
+Tested:      9 @ Thu Dec  1 10:10:48 2011
+Tested:     10 @ Thu Dec  1 10:10:48 2011
+Ready:      86 @ Thu Dec  1 10:11:27 2011
+Seconds taken: 40.8111 (2.11 p/s)
+
+overall accuracy:        0.104651  (9/86)
+_ _ _ _ _ _ _ _ _ _ _ _ _ CHAPTER _ _ { _ 1.56853 }        0.55597647738002
+_ _ _ _ _ _ _ _ _ _ _ _ CHAPTER I _ _ { _ 2.00000 }        1.1143312543437
+_ _ _ _ _ _ _ _ _ _ _ CHAPTER I Down _ _ { _ 3.57050 }        1.6745765509104
+_ _ _ _ _ _ _ _ _ _ CHAPTER I Down the _ _ { _ 1.31911 }        2.2171559926940
+_ _ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole _ _ { _ 1.00000 }        2.8167915542141
+_ _ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice _ _ { _ 1.46635 }        3.3825790412765
+_ _ _ _ _ _ _ CHAPTER I Down the Rabbit-Hole Alice was _ MEXICO { _ 0.177796, MEXICO 1.00000 }        3.8309893407614
+_ _ _ _ _ _ _ I Down the Rabbit-Hole Alice was beginning CHAPTER _ { _ 1.00000, MEXICO 0.306372 }        3.8198607721109
+_ _ _ _ _ _ CHAPTER Down the Rabbit-Hole Alice was beginning to I MEXICO { MEXICO 1.00000, : 0.0364487 }        4.0292113137051
+_ _ _ _ _ CHAPTER I the Rabbit-Hole Alice was beginning to get Down : { : 1.00000, Recovery 0.0202827 }        4.5923550291486
+_ _ _ _ CHAPTER I Down Rabbit-Hole Alice was beginning to get very the Recovery { : 0.149145, Recovery 1.00000 }        5.1608288006748
+_ _ _ CHAPTER I Down the Alice was beginning to get very tired Rabbit-Hole excitement { excitement 1.00000, recovery 0.369877 }        5.6821914401662
+_ _ CHAPTER I Down the Rabbit-Hole was beginning to get very tired of Alice now { now 2.00000, evening 0.107570 }        5.9870186281684
+_ CHAPTER I Down the Rabbit-Hole Alice beginning to get very tired of sitting was the { was 0.739989, the 1.00000 }        6.3849824459037
+CHAPTER I Down the Rabbit-Hole Alice was to get very tired of sitting by beginning expected { to 0.141858, expected 1.00000 }        5.8054466557010
+I Down the Rabbit-Hole Alice was beginning get very tired of sitting by her to to { to 1.00000, " 0.736312 }        5.8408221441634
+Down the Rabbit-Hole Alice was beginning to very tired of sitting by her sister get provide { the 0.0839491, provide 1.00000 }        5.7698096139665
+the Rabbit-Hole Alice was beginning to get tired of sitting by her sister on very the { the 2.56952 }        5.9340577487890
+Rabbit-Hole Alice was beginning to get very of sitting by her sister on the tired and { and 1.00000, after 0.871156 }        5.8330671107388
+Alice was beginning to get very tired sitting by her sister on the bank of growing { growing 1.00000, workers 0.0738506 }        5.9107274670287
+was beginning to get very tired of by her sister on the bank , sitting that { that 1.00000, at 0.247655 }        5.7445416089223
+beginning to get very tired of sitting her sister on the bank , and by . { . 1.00000, a 0.0986958 }        5.4085395052414
+to get very tired of sitting by sister on the bank , and of her Investors { the 0.794481, Investors 1.00000 }        5.3956977690336
+get very tired of sitting by her on the bank , and of having sister remained { named 0.299605, remained 1.00000 }        5.2774794165272
+very tired of sitting by her sister the bank , and of having nothing on in { of 0.442698, in 1.00000 }        5.5868382007285
+tired of sitting by her sister on bank , and of having nothing to the new { the 0.299119, new 1.00000 }        5.6901848237536
+of sitting by her sister on the , and of having nothing to do bank sidelines { Gulf 0.431207, sidelines 1.00000 }        5.3057379337201
+sitting by her sister on the bank and of having nothing to do : , deposits { model 0.163013, deposits 1.00000 }        5.6251678902261
+by her sister on the bank , of having nothing to do : once and the { the 1.00000, Kan.-based 0.0780626 }        5.8610805006253
+her sister on the bank , and having nothing to do : once or of brokers { wheat 0.0141379, brokers 1.00000 }        5.5923682543197
+sister on the bank , and of nothing to do : once or twice having Bob { expected 0.538991, Bob 1.00000 }        5.5961909084865
+on the bank , and of having to do : once or twice she nothing the { the 1.00000, in 0.0337926 }        5.5087825049116
+the bank , and of having nothing do : once or twice she had to , { , 1.30415 }        5.5339868286727
+bank , and of having nothing to : once or twice she had peeped do more { and 1.00000, more 2.19049 }        5.9868678288862
+, and of having nothing to do once or twice she had peeped into : than { than 3.00000, so 0.429731 }        5.8491470406765
+and of having nothing to do : or twice she had peeped into the once for { , 0.912200, for 1.00000 }        5.6753019547561
+of having nothing to do : once twice she had peeped into the book or " { " 1.00000, his 0.406895 }        5.8542644171998
+having nothing to do : once or she had peeped into the book her twice Clinton { have 0.274106, Clinton 1.00000 }        6.0181401580761
+nothing to do : once or twice had peeped into the book her sister she said { been 0.618361, said 1.00000 }        6.1818292626120
+to do : once or twice she peeped into the book her sister was had , { , 1.00000, largely 0.240585 }        5.9227574533378
+do : once or twice she had into the book her sister was reading peeped entry { back 0.753950, entry 2.00000 }        6.4747867022096
+: once or twice she had peeped the book her sister was reading , into said { to 0.174561, said 1.00000 }        6.0392917568513
+once or twice she had peeped into book her sister was reading , but the . { . 1.93593 }        6.0456998388204
+or twice she had peeped into the her sister was reading , but it book was { was 1.00000, first 0.800463 }        5.9510362751347
+twice she had peeped into the book sister was reading , but it had her , { , 1.03068 }        5.7135590202667
+she had peeped into the book her was reading , but it had no sister in { in 1.00000, South-North 0.583694 }        5.9701431727281
+had peeped into the book her sister reading , but it had no pictures was Korea { of 0.143151, Korea 1.00000 }        5.8547094715919
+peeped into the book her sister was , but it had no pictures or reading workers { expectations 0.954284, workers 1.00000 }        5.7224532145370
+into the book her sister was reading but it had no pictures or conversations , , { , 1.22947 }        5.8817852344966
+the book her sister was reading , it had no pictures or conversations in but " { " 2.39931 }        5.6190519173148
+book her sister was reading , but had no pictures or conversations in it it and { and 1.00000, said 0.340280 }        6.1851592310365
+her sister was reading , but it no pictures or conversations in it , had has { has 1.00000, may 0.659685 }        5.7467499893714
+sister was reading , but it had pictures or conversations in it , ` no vigorously { vigorously 1.00000, reinsure 0.184367 }        5.8359732897848
+was reading , but it had no or conversations in it , ` and pictures basis { , 0.954945, basis 1.00000 }        5.4062000163069
+reading , but it had no pictures conversations in it , ` and what or in { of 0.376377, in 1.00000 }        5.5911955788567
+, but it had no pictures or in it , ` and what is conversations be { be 1.00000, pickup 0.446512 }        5.3690229198925
+but it had no pictures or conversations it , ` and what is the in Tuesday { . 0.506239, Tuesday 1.00000 }        5.7050900170802
+it had no pictures or conversations in , ` and what is the use it the { the 1.00000, evening 0.0753445 }        5.5971884538066
+had no pictures or conversations in it ` and what is the use of , said { Tuesday 0.260270, said 1.00000 }        5.8624560397033
+no pictures or conversations in it , and what is the use of a ` Compuserve { Paraguay 0.729031, Compuserve 2.00000 }        5.1696028492103
+pictures or conversations in it , ` what is the use of a book and 3.0 { this 0.302299, 3.0 2.00000 }        5.1841125569861
+or conversations in it , ` and is the use of a book , what , { , 2.00000, Uruguay 0.0892584 }        5.0852617300014
+conversations in it , ` and what the use of a book , ' is and { and 2.00000, from 0.482458 }        5.1692901117311
+in it , ` and what is use of a book , ' thought the the { the 2.13641 }        5.4662523333051
+it , ` and what is the of a book , ' thought Alice use release { end 0.190622, release 2.00000 }        5.2021448692033
+, ` and what is the use a book , ' thought Alice ` of in { to 0.649606, in 1.00000 }        5.7528551805118
+` and what is the use of book , ' thought Alice ` without a the { the 1.01104 }        5.7269326613291
+and what is the use of a , ' thought Alice ` without pictures book five-nation { Jeep 0.598403, five-nation 1.00000 }        5.7276402034210
+what is the use of a book ' thought Alice ` without pictures or , earlier { plant 0.658224, earlier 1.00000 }        6.0448222183569
+is the use of a book , thought Alice ` without pictures or conversation ' the { the 1.00000, speaking 0.553078 }        5.8527406546771
+the use of a book , ' Alice ` without pictures or conversation ? thought in { in 1.00000, total 0.0865603 }        5.8130294970514
+use of a book , ' thought ` without pictures or conversation ? ' Alice who { of 0.0167683, who 1.00000 }        6.1224060966956
+of a book , ' thought Alice without pictures or conversation ? ' So ` doubles { base 0.0425053, doubles 1.00000 }        6.0097409070455
+a book , ' thought Alice ` pictures or conversation ? ' So she without as { as 1.00000, However 0.0872605 }        6.2601318789318
+book , ' thought Alice ` without or conversation ? ' So she was pictures Wassmann { the 0.0393787, Wassmann 2.00000 }        6.4403817191248
+, ' thought Alice ` without pictures conversation ? ' So she was considering or told { General 0.508811, told 2.00000 }        6.7092942359037
+' thought Alice ` without pictures or ? ' So she was considering in conversation exports { the 0.504458, exports 1.00000 }        6.6172019095720
+thought Alice ` without pictures or conversation ' So she was considering in her ? Japan's { , 0.253329, Japan's 1.00000 }        6.6474570608636
+Alice ` without pictures or conversation ? So she was considering in her own ' . { . 1.16545 }        6.3559025582463
+` without pictures or conversation ? ' she was considering in her own mind So doing { doing 1.00000, obstruct 0.0481277 }        6.5989283599020
+without pictures or conversation ? ' So was considering in her own mind ( she , { , 1.81286 }        6.6415537308673
+pictures or conversation ? ' So she considering in her own mind ( as was or { , 0.867164, or 1.00000 }        6.5114795492878
+or conversation ? ' So she was in her own mind ( as well considering engage { engage 1.00000, stored 0.335686 }        6.3217012108852
+conversation ? ' So she was considering her own mind ( as well as in & { and 1.00000, & 1.26958 }        5.9047925551183
+? ' So she was considering in own mind ( as well as she her T { T 1.24629, MCI 1.00000 }        6.0159439228907
+' So she was considering in her mind ( as well as she could own and { and 2.00000, Communications 0.0875769 }        6.0291888941022

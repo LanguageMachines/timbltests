@@ -6,3 +6,10 @@ $comm -f ./tests/align.data -t ./tests/align.test +vdi+db --clones=7 -o testclon
 diff testclones.out1 testclones.out7
 diff testclones.out1 testclones.out3
 head -100 testclones.out3
+
+$comm -f ./tests/hapax.smalltrain -t ./tests/hapax.smalltest +vdi+db -mM -k3 -dIL -o testclones.out11
+$comm -f ./tests/hapax.smalltrain -t ./tests/hapax.smalltest +vdi+db --clones=3 -mM -k3 -dIL -o testclones.out13
+$comm -f ./tests/hapax.smalltrain -t ./tests/hapax.smalltest +vdi+db --clones=7 -mM -k3 -dIL -o testclones.out17
+diff testclones.out11 testclones.out17
+diff testclones.out11 testclones.out13
+head -100 testclones.out13
