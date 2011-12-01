@@ -7,8 +7,10 @@ echo Testing Servers
 exec="$VG $timbl_bin/timblserver"
 client="$VG $timbl_bin/timblclient"
 
+localhost=`hostname`
+
 if test x"${VG}" = x; then
-  doD="--daemonize=yes"
+  doD="--daemonize=no"
 else
   doD="--daemonize=no"
 fi
@@ -23,34 +25,34 @@ $exec $doD -f ./tests/dimin.train -S 7345 --logfile=/tmp/server1.log --pidfile=/
 sleep 10
 
 \rm /tmp/dimin.out
-$client -n localhost -p 7345 < ./tests/dimin.test.scr > /tmp/dimin.out
+$client -n $localhost -p 7345 < ./tests/dimin.test.scr > /tmp/dimin.out
 cat /tmp/dimin.out
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-1.out --batch
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-2.out --batch
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-3.out --batch
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-4.out --batch &
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-1.out --batch
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-2.out --batch
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-3.out --batch
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-4.out --batch &
     sleep 1
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-5.out --batch &
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-5.out --batch &
     sleep 1
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-6.out --batch &
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-6.out --batch &
     sleep 1
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-7.out --batch &
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-7.out --batch &
     sleep 1
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-8.out --batch &
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-8.out --batch &
     sleep 1
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-9.out --batch &
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-9.out --batch &
     sleep 1
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-10.out --batch &
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-10.out --batch &
     sleep 1
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-11.out --batch &
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-11.out --batch &
     sleep 1
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-12.out --batch &
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-12.out --batch &
     sleep 1
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-13.out --batch &
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-13.out --batch &
     sleep 1
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-14.out --batch &
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-14.out --batch &
     sleep 1
-$client -n localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-15.out --batch &
+$client -n $localhost -p 7345  -i ./tests/dimin.test -o /tmp/dimin2-15.out --batch &
    sleep 1
 sleep 10
 cat /tmp/dimin2-5.out
@@ -62,9 +64,9 @@ $exec $doD -f ./tests/dimin.train -a1 +D -S 7346 --logfile=/tmp/server2.log --pi
 sleep 5
  
 \rm /tmp/dimin.out
-$client -n localhost -p 7346 < ./tests/dimin.test.scr > /tmp/dimin.out
+$client -n $localhost -p 7346 < ./tests/dimin.test.scr > /tmp/dimin.out
 cat /tmp/dimin.out
-$client -n localhost -p 7346  -i ./tests/dimin.test -o /tmp/dimin2.out --batch
+$client -n $localhost -p 7346  -i ./tests/dimin.test -o /tmp/dimin2.out --batch
 sleep 10
 cat /tmp/dimin2.out
 kill `cat /tmp/run/pid2`
@@ -75,10 +77,10 @@ $exec $doD --config=./tests/tcpserver.cfg +vCD --logfile=/tmp/server3.log --pidf
 sleep 20
 
 \rm /tmp/dimin.out
-$client -n localhost -p 7000 < ./tests/dimin.test.scr > /tmp/dimin.out
+$client -n $localhost -p 7000 < ./tests/dimin.test.scr > /tmp/dimin.out
 cat /tmp/dimin.out
-$client -n localhost -p 7000  -i ./tests/dimin.test -o /tmp/dimin0.out --batch -b dimin0 &
-$client -n localhost -p 7000  -i ./tests/dimin.test -o /tmp/dimin2.out --batch -b dimin2 &
+$client -n $localhost -p 7000  -i ./tests/dimin.test -o /tmp/dimin0.out --batch -b dimin0 &
+$client -n $localhost -p 7000  -i ./tests/dimin.test -o /tmp/dimin2.out --batch -b dimin2 &
 sleep 10
 cat /tmp/dimin0.out
 cat /tmp/dimin2.out
@@ -90,7 +92,7 @@ $exec $doD -f ./tests/dimin.train -mO:I1 -S 7347 --logfile=/tmp/server4.log --pi
 sleep 5
 
 \rm /tmp/dimin4.out
-$client -n localhost -p 7347 < ./tests/dimin.test.scr > /tmp/dimin4.out
+$client -n $localhost -p 7347 < ./tests/dimin.test.scr > /tmp/dimin4.out
 cat /tmp/dimin4.out
 kill `cat /tmp/run/pid4`
 cat /tmp/server4.log
@@ -100,7 +102,7 @@ $exec $doD -f ./tests/dimin.train -mM:I3 --matrixin=./tests/dimin.mat -S 7348 --
 sleep 5
 
 \rm /tmp/dimin5.out
-$client -n localhost -p 7348 < ./tests/dimin.test.scr > /tmp/dimin5.out
+$client -n $localhost -p 7348 < ./tests/dimin.test.scr > /tmp/dimin5.out
 cat /tmp/dimin5.out
 kill `cat /tmp/run/pid5`
 cat /tmp/server5.log
@@ -109,9 +111,9 @@ cat /tmp/server5.log
 $exec $doD -f ./tests/dimin.train -S 7349 --logfile=/tmp/server6.log --pidfile=/tmp/run/pid6&
 sleep 10
 
-$client -n localhost -p 7349 < ./tests/dimin.test.scr1 > /tmp/dimin6-1.out &
-$client -n localhost -p 7349 < ./tests/dimin.test.scr2 > /tmp/dimin6-2.out &
-$client -n localhost -p 7349 < ./tests/dimin.test.scr3 > /tmp/dimin6-3.out &
+$client -n $localhost -p 7349 < ./tests/dimin.test.scr1 > /tmp/dimin6-1.out &
+$client -n $localhost -p 7349 < ./tests/dimin.test.scr2 > /tmp/dimin6-2.out &
+$client -n $localhost -p 7349 < ./tests/dimin.test.scr3 > /tmp/dimin6-3.out &
 sleep 4
 cat /tmp/dimin6-1.out
 cat /tmp/dimin6-2.out
