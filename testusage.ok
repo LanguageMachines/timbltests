@@ -1,8 +1,8 @@
-TiMBL 6.4.2 (c) ILK 1998 - 2011.
+TiMBL 6.4.3 (c) ILK 1998 - 2011.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Sep  1 15:08:00 2011
+Wed Dec 21 09:51:47 2011
 
 usage: timbl -f data-file {-t test-file} [options]
 Algorithm and Metric options:
@@ -45,8 +45,8 @@ Algorithm and Metric options:
      ED:a   : Exponential Decay with factor a (no whitespace!)
      ED:a:b : Exponential Decay with factor a and b (no whitespace!)
 -k n      : k nearest neighbors (default n = 1)
--q n      : TRIBL treshold at level n
--L n      : MVDM treshold at level n
+-q n      : TRIBL threshold at level n
+-L n      : MVDM threshold at level n
 -R n      : solve ties at random with seed n
 -t  f     : test using file 'f'
 -t leave_one_out: test with Leave One Out,using IB1
