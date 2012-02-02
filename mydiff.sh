@@ -12,7 +12,7 @@ if test -e $1
 then
   if test -e $2
   then
-      diff -w $1 $2 | grep -v "201[01]" |grep -v "\-\-\-" | grep -v "[0-9]\+[ac][0-9]\+" | grep -v "took [0-9]* seconds" | grep -v "Seconds taken:" | grep -v "based on" |grep -v $lh > md.tmp 2>& 1
+      diff -w $1 $2 | grep -v "201[012]" |grep -v "\-\-\-" | grep -v "[0-9]\+[ac][0-9]\+" | grep -v "took [0-9]* seconds" | grep -v "Seconds taken:" | grep -v "based on" |grep -v $lh > md.tmp 2>& 1
       exit `wc -c < md.tmp`
   else
       echo
