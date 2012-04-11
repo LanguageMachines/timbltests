@@ -20,7 +20,7 @@ export comm="$VG $timbl_bin/timbl"
 
 for file in testexemplar testencoding testnormalisation testnumerics \
     	    testbeaming testweighting testdecay testindirect testsimilarity \
-	    testloo testcv testexpand testib2 testbinary testsparse
+	    testloo testcv testexpand testib2 testbinary testsparse testocc
 do ./testone $file
 done
 

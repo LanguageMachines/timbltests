@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+$comm -f ./tests/occ.train -t ./tests/occ.test --occurrences=both +vdi+db -o out1
+$comm -f ./tests/occ.train -t ./tests/occ1.test --occurrences=train +vdi+db -o out2
+diff out1 out2
+$comm -f ./tests/occ1.train -t ./tests/occ.test --occurrences=test +vdi+db -o out3
+diff out1 out3
+$comm -f ./tests/occ1.train -t ./tests/occ1.test +vdi+db -o out4
+diff out1 out4
+
+
+
+

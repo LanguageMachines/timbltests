@@ -1,0 +1,17 @@
+B,geel,2,+ 2
+B,rood,2,- 1
+B,geel,3,+ 1
+A,geel,2,- 1
+B,rood,2,+ 2
+B,rood,3,+ 3
+C,rood,3,+ 1
+B,geel,2,- 1
+C,wit,3,+ 3
+A,wit,2,- 2
+C,rood,3,- 2
+C,wit,3,- 1
+B,geel,4,+ 2
+B,rood,4,- 1
+A,geel,4,- 1
+B,rood,1,+ 3
+B,rood,1,- 2

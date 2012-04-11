@@ -1,0 +1,7 @@
+C,rood,3,+ 1
+C,groen,3,+ 1
+! commentaar
+A,groen,-4,- 1
+B,rood,a,+ 1
+B,rood,400,- 1
+C,wit,3,+ 1
