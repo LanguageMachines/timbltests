@@ -4,13 +4,16 @@ exp.set verbosity di
 exp.set verbosity db
 exp.set -H
 #exp.set --speedtrain=no
-exp.train klein_2.train
-exp.save tst1
-exp.test klein_1.train
-exp.expand klein_1.train
-exp.save tst2
-exp.test klein_2.train
-exp.remove klein_2.train
-exp.save tst3
-exp.test one
+exp.train tests/klein_2.train
+exp.save tst.2
+exp.test tests/klein_1.train
+exp.expand tests/klein_1.train
+exp.save tst.12
+exp.test tests/klein_2.train
+exp.remove tests/klein_2.train
+exp.save tst.1
+exp.remove tests/klein_1.train
+exp.expand tests/klein_2.train
+exp.save tst.2a
+
 
