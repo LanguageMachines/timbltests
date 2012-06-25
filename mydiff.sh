@@ -1,12 +1,7 @@
 #! /bin/sh
 
 lh=`hostname`
-if test "$lh" = "atalanta"
-then
-  lh=localhost
-else
-  lh="$lh|localhost"
-fi
+lh="[$lh|localhost]"
 
 if test -e $1
 then
