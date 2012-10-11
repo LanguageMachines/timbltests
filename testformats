@@ -13,6 +13,8 @@ $comm -f ./tests/c45example.train -t ./tests/c45example.test +vdi+DB -o test.out
 cat < test.out4 
 $comm -f ./tests/columns.train -t ./tests/columns.test +vdi+db -o test.out5
 cat < test.out5
+$comm -f ./tests/tabbed.train -FTabbed -t ./tests/tabbed.test +vdi+db -o test.out6
+cat < test.out6
 
 
 

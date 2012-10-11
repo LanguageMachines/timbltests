@@ -10,6 +10,7 @@ $comm -f $trainfile -F Compact -l1
 $comm -f $trainfile -F ARFF 
 $comm -f $trainfile -F C45 
 $comm -f $trainfile -F Columns
+$comm -f $trainfile -F Tabbed
 $comm -f $trainfile -F Wrong 
 
 
