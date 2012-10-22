@@ -3,17 +3,23 @@
 # defaults:
 #
 
-$comm -f ./tests/compact.train -l1 -t ./tests/compact.test +vdi+db -o test.out1
+$comm -f ./tests/compact.train -l1 -I compact.tree
+$comm -t ./tests/compact.test -l1 -i compact.tree +vdi+db -o test.out1
 cat < test.out1
-$comm -f ./tests/ARFF.train -t ./tests/ARFF.test +vdi+db -o test.out2
+$comm -f ./tests/ARFF.train -I ARFF1.tree
+$comm -i ARFF1.tree -t ./tests/ARFF.test +vdi+db -o test.out2
 cat < test.out2
-$comm -f ./tests/ARFF.train -t ./tests/ARFF.test -FARFF +vdi+db -o test.out3
+$comm -f ./tests/ARFF.train -FARFF -I ARFF2.tree
+$comm -i ARFF2.tree -t ./tests/ARFF.test -FARFF +vdi+db -o test.out3
 cat < test.out3
-$comm -f ./tests/c45example.train -t ./tests/c45example.test +vdi+DB -o test.out4
+$comm -f ./tests/c45example.train -I c45.tree
+$comm -i c45.tree -t ./tests/c45example.test +vdi+DB -o test.out4
 cat < test.out4 
-$comm -f ./tests/columns.train -t ./tests/columns.test +vdi+db -o test.out5
+$comm -f ./tests/columns.train -I columns.tree
+$comm -i columns.tree -t ./tests/columns.test +vdi+db -o test.out5
 cat < test.out5
-$comm -f ./tests/tabbed.train -FTabbed -t ./tests/tabbed.test +vdi+db -o test.out6
+$comm -f ./tests/tabbed.train -FTabbed -I tabbed.tree
+$comm  -FTabbed -t ./tests/tabbed.test +vdi+db -itabbed.tree -o test.out6
 cat < test.out6
 
 
