@@ -4,78 +4,78 @@ Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
 based on timbl 6.4.4
-Tue Nov 20 14:08:22 2012
+Tue Nov 20 14:29:06 2012
 
 Starting a HTTP server on port 7350
 running as a dæmon
-20121120:140822:921:TimblServer:switching logging to file /tmp/server7.log
+20121120:142906:784:BasicServer:switching logging to file /tmp/server7.log
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin0-Phase 1: Reading Datafile: dimin.train
--dimin0-Start:          0 @ Tue Nov 20 14:08:22 2012
--dimin0-Finished:    2999 @ Tue Nov 20 14:08:22 2012
--dimin0-Calculating Entropy         Tue Nov 20 14:08:22 2012
--dimin0-Preparation took 0 seconds, 14 milliseconds and 858 microseconds
+-dimin0-Start:          0 @ Tue Nov 20 14:29:06 2012
+-dimin0-Finished:    2999 @ Tue Nov 20 14:29:06 2012
+-dimin0-Calculating Entropy         Tue Nov 20 14:29:06 2012
+-dimin0-Preparation took 0 seconds, 14 milliseconds and 817 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -dimin0-Phase 2: Building multi index on Datafile: dimin.train
--dimin0-Start:          0 @ Tue Nov 20 14:08:22 2012
--dimin0-Finished:    2999 @ Tue Nov 20 14:08:22 2012
+-dimin0-Start:          0 @ Tue Nov 20 14:29:06 2012
+-dimin0-Finished:    2999 @ Tue Nov 20 14:29:06 2012
 -dimin0-
 Phase 3: Learning from Datafile: dimin.train
--dimin0-Start:          0 @ Tue Nov 20 14:08:22 2012
--dimin0-Finished:    2999 @ Tue Nov 20 14:08:22 2012
+-dimin0-Start:          0 @ Tue Nov 20 14:29:06 2012
+-dimin0-Finished:    2999 @ Tue Nov 20 14:29:06 2012
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--dimin0-Learning took 0 seconds, 32 milliseconds and 22 microseconds
+-dimin0-Learning took 0 seconds, 32 milliseconds and 550 microseconds
 started experiment dimin0 with parameters: -aIB1 +vdi+db -f dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin1-Phase 1: Reading Datafile: dimin.train
--dimin1-Start:          0 @ Tue Nov 20 14:08:22 2012
--dimin1-Finished:    2999 @ Tue Nov 20 14:08:22 2012
--dimin1-Calculating Entropy         Tue Nov 20 14:08:22 2012
--dimin1-Preparation took 0 seconds, 14 milliseconds and 840 microseconds
+-dimin1-Start:          0 @ Tue Nov 20 14:29:06 2012
+-dimin1-Finished:    2999 @ Tue Nov 20 14:29:06 2012
+-dimin1-Calculating Entropy         Tue Nov 20 14:29:06 2012
+-dimin1-Preparation took 0 seconds, 15 milliseconds and 142 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 -dimin1-Phase 2: Building multi index on Datafile: dimin.train
--dimin1-Start:          0 @ Tue Nov 20 14:08:22 2012
--dimin1-Finished:    2999 @ Tue Nov 20 14:08:23 2012
+-dimin1-Start:          0 @ Tue Nov 20 14:29:06 2012
+-dimin1-Finished:    2999 @ Tue Nov 20 14:29:06 2012
 -dimin1-
 Phase 3: Learning from Datafile: dimin.train
--dimin1-Start:          0 @ Tue Nov 20 14:08:23 2012
--dimin1-Finished:    2999 @ Tue Nov 20 14:08:23 2012
+-dimin1-Start:          0 @ Tue Nov 20 14:29:06 2012
+-dimin1-Finished:    2999 @ Tue Nov 20 14:29:06 2012
 
 Size of InstanceBase = 191 Nodes, (7640 bytes), 99.50 % compression
--dimin1-Learning took 0 seconds, 35 milliseconds and 580 microseconds
+-dimin1-Learning took 0 seconds, 35 milliseconds and 346 microseconds
 started experiment dimin1 with parameters: -aIGTREE +vdi+db +D -f dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin2-Phase 1: Reading Datafile: dimin.train
--dimin2-Start:          0 @ Tue Nov 20 14:08:23 2012
--dimin2-Finished:    2999 @ Tue Nov 20 14:08:23 2012
--dimin2-Calculating Entropy         Tue Nov 20 14:08:23 2012
--dimin2-Preparation took 0 seconds, 15 milliseconds and 81 microseconds
+-dimin2-Start:          0 @ Tue Nov 20 14:29:06 2012
+-dimin2-Finished:    2999 @ Tue Nov 20 14:29:06 2012
+-dimin2-Calculating Entropy         Tue Nov 20 14:29:06 2012
+-dimin2-Preparation took 0 seconds, 14 milliseconds and 940 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 -dimin2-Phase 2: Building multi index on Datafile: dimin.train
--dimin2-Start:          0 @ Tue Nov 20 14:08:23 2012
--dimin2-Finished:    2999 @ Tue Nov 20 14:08:23 2012
+-dimin2-Start:          0 @ Tue Nov 20 14:29:06 2012
+-dimin2-Finished:    2999 @ Tue Nov 20 14:29:06 2012
 -dimin2-
 Phase 3: Learning from Datafile: dimin.train
--dimin2-Start:          0 @ Tue Nov 20 14:08:23 2012
--dimin2-Finished:    2999 @ Tue Nov 20 14:08:23 2012
+-dimin2-Start:          0 @ Tue Nov 20 14:29:06 2012
+-dimin2-Finished:    2999 @ Tue Nov 20 14:29:06 2012
 
 Size of InstanceBase = 22705 Nodes, (908200 bytes), 40.69 % compression
--dimin2-Learning took 0 seconds, 32 milliseconds and 920 microseconds
+-dimin2-Learning took 0 seconds, 32 milliseconds and 859 microseconds
 started experiment dimin2 with parameters: -aTRIBL +vdi+db+n -q3 -f dimin.train
---2012-11-20 14:08:32--  http://localhost:7350/dimin0?classify=%22+,p,i,=,-,k,o,=,-,l,o,=,?%22
+--2012-11-20 14:29:16--  http://localhost:7350/dimin0?classify=%22+,p,i,=,-,k,o,=,-,l,o,=,?%22
 Resolving localhost (localhost)... 127.0.0.1
 Connecting to localhost (localhost)|127.0.0.1|:7350... connected.
 HTTP request sent, awaiting response... 200 No headers, assuming HTTP/0.9
@@ -84,95 +84,117 @@ Saving to: `/tmp/http1.out'
 
      0K                                                         164K=0.001s
 
-2012-11-20 14:08:33 (164 KB/s) - `/tmp/http1.out' saved [234]
+2012-11-20 14:29:17 (164 KB/s) - `/tmp/http1.out' saved [234]
 
 <?xml version="1.0"?>
 <TiMblResult algorithm="IB1"><classification><input> ,p,i,=,-,k,o,=,-,l,o,=,?</input><category>T</category><distribution>{ T 1.00000 }</distribution><distance>0.0955924</distance></classification></TiMblResult>
 
---2012-11-20 14:08:33--  http://localhost:7350/dimin0?set=+vn
+--2012-11-20 14:29:17--  http://localhost:7350/dimin0?set=v-di-db
 Resolving localhost (localhost)... 127.0.0.1
 Connecting to localhost (localhost)|127.0.0.1|:7350... connected.
 HTTP request sent, awaiting response... 200 No headers, assuming HTTP/0.9
 Length: unspecified
 Saving to: `/tmp/http2.out'
 
-     0K                                                         637K=0s
+     0K                                                         361K=0s
 
-2012-11-20 14:08:34 (637 KB/s) - `/tmp/http2.out' saved [54]
+2012-11-20 14:29:18 (361 KB/s) - `/tmp/http2.out' saved [136]
 
+ERROR { illegal value for +/- v option: -di-db }
+: Don't understand set='v-di-db'
 <?xml version="1.0"?>
 <TiMblResult algorithm="IB1"/>
 
---2012-11-20 14:08:34--  http://localhost:7350/dimin0?classify=%22+,p,i,=,-,k,o,=,-,l,o,=,?%22
+--2012-11-20 14:29:18--  http://localhost:7350/dimin0?show=settings
+Resolving localhost (localhost)... 127.0.0.1
+Connecting to localhost (localhost)|127.0.0.1|:7350... connected.
+HTTP request sent, awaiting response... 200 No headers, assuming HTTP/0.9
+Length: unspecified
+Saving to: `/tmp/http2.out'
+
+     0K .                                                       177K=0.006s
+
+2012-11-20 14:29:19 (177 KB/s) - `/tmp/http2.out' saved [1157]
+
+<?xml version="1.0"?>
+<TiMblResult algorithm="IB1"><settings><FLENGTH>0</FLENGTH><MAXBESTS>500</MAXBESTS><TRIBL_OFFSET>0</TRIBL_OFFSET><IG_THRESHOLD>1000</IG_THRESHOLD><INPUTFORMAT>C45</INPUTFORMAT><TREE_ORDER>G/V</TREE_ORDER><ALL_WEIGHTS>false</ALL_WEIGHTS><WEIGHTING>gr</WEIGHTING><BIN_SIZE>20</BIN_SIZE><IB2_OFFSET>0</IB2_OFFSET><KEEP_DISTRIBUTIONS>false</KEEP_DISTRIBUTIONS><DO_SLOPPY_LOO>false</DO_SLOPPY_LOO><TARGET_POS>12</TARGET_POS><DO_SILLY>false</DO_SILLY><DO_DIVERSIFY>false</DO_DIVERSIFY><DECAY>Z</DECAY><SEED>-1</SEED><BEAM_SIZE>0</BEAM_SIZE><DECAYPARAM_A>1.00000</DECAYPARAM_A><DECAYPARAM_B>1.00000</DECAYPARAM_B><NORMALISATION>None</NORMALISATION><NORM_FACTOR>1.00000</NORM_FACTOR><EXEMPLAR_WEIGHTS>false</EXEMPLAR_WEIGHTS><IGNORE_EXEMPLAR_WEIGHTS>true</IGNORE_EXEMPLAR_WEIGHTS><NO_EXEMPLAR_WEIGHTS_TEST>true</NO_EXEMPLAR_WEIGHTS_TEST><VERBOSITY>DI+DB</VERBOSITY><EXACT_MATCH>false</EXACT_MATCH><HASHED_TREE>true</HASHED_TREE><GLOBAL_METRIC>O</GLOBAL_METRIC><METRICS/><MVD_LIMIT>1</MVD_LIMIT><NEIGHBORS>1</NEIGHBORS><PROGRESS>100000</PROGRESS><HANDLE_OCCURRENCES>0</HANDLE_OCCURRENCES><CLIP_FACTOR>10</CLIP_FACTOR></settings></TiMblResult>
+
+--2012-11-20 14:29:19--  http://localhost:7350/dimin0?classify=%22+,p,i,=,-,k,o,=,-,l,o,=,?%22
 Resolving localhost (localhost)... 127.0.0.1
 Connecting to localhost (localhost)|127.0.0.1|:7350... connected.
 HTTP request sent, awaiting response... 200 No headers, assuming HTTP/0.9
 Length: unspecified
 Saving to: `/tmp/http3.out'
 
-     0K                                                         668K=0s
+     0K                                                         142K=0.002s
 
-2012-11-20 14:08:35 (668 KB/s) - `/tmp/http3.out' saved [234]
+2012-11-20 14:29:20 (142 KB/s) - `/tmp/http3.out' saved [234]
 
 <?xml version="1.0"?>
 <TiMblResult algorithm="IB1"><classification><input> ,p,i,=,-,k,o,=,-,l,o,=,?</input><category>T</category><distribution>{ T 1.00000 }</distribution><distance>0.0955924</distance></classification></TiMblResult>
 
---2012-11-20 14:08:36--  http://localhost:7350/dimin1?classify=%22=,=,=,=,+,sp,a,r,-,b,u,k,?%22
+--2012-11-20 14:29:20--  http://localhost:7350/dimin1?classify=%22=,=,=,=,+,sp,a,r,-,b,u,k,?%22
 Resolving localhost (localhost)... 127.0.0.1
 Connecting to localhost (localhost)|127.0.0.1|:7350... connected.
 HTTP request sent, awaiting response... 200 No headers, assuming HTTP/0.9
 Length: unspecified
 Saving to: `/tmp/http4.out'
 
-     0K                                                         193K=0.001s
+     0K                                                         173K=0.001s
 
-2012-11-20 14:08:37 (193 KB/s) - `/tmp/http4.out' saved [237]
+2012-11-20 14:29:21 (173 KB/s) - `/tmp/http4.out' saved [237]
 
 <?xml version="1.0"?>
 <TiMblResult algorithm="IGTree"><classification><input>=,=,=,=, ,sp,a,r,-,b,u,k,?</input><category>J</category><distribution>{ J 191.000 }</distribution><distance>0.549581</distance></classification></TiMblResult>
 
-20121120:140822:921:TimblServer:Started logging 
-20121120:140822:921:TimblServer:debugging is on
-20121120:140823:091:TimblServer:Starting Server on port:7350
-20121120:140832:911:TimblServer:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20121120:140832:911:TimblServer:Thread 140629860169472, on Socket 5, started.
-20121120:140833:912:Thread 140629860169472, on Socket 5:params=" ,p,i,=,-,k,o,=,-,l,o,=,?"
-20121120:140833:912:Thread 140629860169472, on Socket 5:params[0]='"'
-20121120:140833:912:Thread 140629860169472, on Socket 5:params[len-1]='"'
-20121120:140833:912:Thread 140629860169472, on Socket 5:base='dimin0'
-20121120:140833:912:Thread 140629860169472, on Socket 5:command='classify'
-20121120:140833:912:Thread 140629860169472, on Socket 5:Classify( ,p,i,=,-,k,o,=,-,l,o,=,?)
-20121120:140833:913:Thread 140629860169472, on Socket 5:resultaat: T, distrib: { T 1.00000 }, distance 0.0955924
-20121120:140833:914:TimblServer:Thread 140629860169472, terminated at: Tue Nov 20 14:08:33 2012
+20121120:142906:784:BasicServer:Started logging 
+20121120:142906:784:BasicServer:debugging is on
+20121120:142906:955:BasicServer:Starting Server on port:7350
+20121120:142916:771:BasicServer:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20121120:142916:771:BasicServer:Thread 140030418368256, on Socket 5, started.
+20121120:142917:773:Thread 140030418368256, on Socket 5:params=" ,p,i,=,-,k,o,=,-,l,o,=,?"
+20121120:142917:773:Thread 140030418368256, on Socket 5:params[0]='"'
+20121120:142917:773:Thread 140030418368256, on Socket 5:params[len-1]='"'
+20121120:142917:773:Thread 140030418368256, on Socket 5:base='dimin0'
+20121120:142917:773:Thread 140030418368256, on Socket 5:command='classify'
+20121120:142917:773:Thread 140030418368256, on Socket 5:Classify( ,p,i,=,-,k,o,=,-,l,o,=,?)
+20121120:142917:773:Thread 140030418368256, on Socket 5:resultaat: T, distrib: { T 1.00000 }, distance 0.0955924
+20121120:142917:775:BasicServer:Thread 140030418368256, terminated at: Tue Nov 20 14:29:17 2012
 
-20121120:140833:915:TimblServer:Socket total = 0
-20121120:140833:947:TimblServer:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20121120:140833:947:TimblServer:Thread 140629860169472, on Socket 6, started.
-20121120:140834:948:Thread 140629860169472, on Socket 6:set :+vn
-20121120:140834:969:TimblServer:Thread 140629860169472, terminated at: Tue Nov 20 14:08:34 2012
+20121120:142917:775:BasicServer:Socket total = 0
+20121120:142917:786:BasicServer:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20121120:142917:786:BasicServer:Thread 140030418368256, on Socket 6, started.
+20121120:142918:787:Thread 140030418368256, on Socket 6:set :-v-di-db
+20121120:142918:787:Thread 140030418368256, on Socket 6:: Don't understand set='-v-di-db'
+20121120:142918:787:BasicServer:Thread 140030418368256, terminated at: Tue Nov 20 14:29:18 2012
 
-20121120:140834:969:TimblServer:Socket total = 0
-20121120:140834:988:TimblServer:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20121120:140834:988:TimblServer:Thread 140629860169472, on Socket 5, started.
-20121120:140835:989:Thread 140629860169472, on Socket 5:params=" ,p,i,=,-,k,o,=,-,l,o,=,?"
-20121120:140835:989:Thread 140629860169472, on Socket 5:params[0]='"'
-20121120:140835:989:Thread 140629860169472, on Socket 5:params[len-1]='"'
-20121120:140835:989:Thread 140629860169472, on Socket 5:base='dimin0'
-20121120:140835:989:Thread 140629860169472, on Socket 5:command='classify'
-20121120:140835:989:Thread 140629860169472, on Socket 5:Classify( ,p,i,=,-,k,o,=,-,l,o,=,?)
-20121120:140835:990:Thread 140629860169472, on Socket 5:resultaat: T, distrib: { T 1.00000 }, distance 0.0955924
-20121120:140835:990:TimblServer:Thread 140629860169472, terminated at: Tue Nov 20 14:08:35 2012
+20121120:142918:787:BasicServer:Socket total = 0
+20121120:142918:802:BasicServer:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20121120:142918:802:BasicServer:Thread 140030418368256, on Socket 5, started.
+20121120:142919:809:BasicServer:Thread 140030418368256, terminated at: Tue Nov 20 14:29:19 2012
 
-20121120:140835:990:TimblServer:Socket total = 0
-20121120:140836:004:TimblServer:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20121120:140836:004:TimblServer:Thread 140629860169472, on Socket 6, started.
-20121120:140837:005:Thread 140629860169472, on Socket 6:params="=,=,=,=, ,sp,a,r,-,b,u,k,?"
-20121120:140837:005:Thread 140629860169472, on Socket 6:params[0]='"'
-20121120:140837:005:Thread 140629860169472, on Socket 6:params[len-1]='"'
-20121120:140837:005:Thread 140629860169472, on Socket 6:base='dimin1'
-20121120:140837:005:Thread 140629860169472, on Socket 6:command='classify'
-20121120:140837:005:Thread 140629860169472, on Socket 6:Classify(=,=,=,=, ,sp,a,r,-,b,u,k,?)
-20121120:140837:005:Thread 140629860169472, on Socket 6:resultaat: J, distrib: { J 191.000 }, distance 0.549581
-20121120:140837:006:TimblServer:Thread 140629860169472, terminated at: Tue Nov 20 14:08:37 2012
+20121120:142919:809:BasicServer:Socket total = 0
+20121120:142919:826:BasicServer:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20121120:142919:826:BasicServer:Thread 140030418368256, on Socket 6, started.
+20121120:142920:827:Thread 140030418368256, on Socket 6:params=" ,p,i,=,-,k,o,=,-,l,o,=,?"
+20121120:142920:827:Thread 140030418368256, on Socket 6:params[0]='"'
+20121120:142920:827:Thread 140030418368256, on Socket 6:params[len-1]='"'
+20121120:142920:827:Thread 140030418368256, on Socket 6:base='dimin0'
+20121120:142920:827:Thread 140030418368256, on Socket 6:command='classify'
+20121120:142920:827:Thread 140030418368256, on Socket 6:Classify( ,p,i,=,-,k,o,=,-,l,o,=,?)
+20121120:142920:827:Thread 140030418368256, on Socket 6:resultaat: T, distrib: { T 1.00000 }, distance 0.0955924
+20121120:142920:829:BasicServer:Thread 140030418368256, terminated at: Tue Nov 20 14:29:20 2012
 
-20121120:140837:006:TimblServer:Socket total = 0
+20121120:142920:829:BasicServer:Socket total = 0
+20121120:142920:850:BasicServer:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20121120:142920:850:BasicServer:Thread 140030418368256, on Socket 5, started.
+20121120:142921:851:Thread 140030418368256, on Socket 5:params="=,=,=,=, ,sp,a,r,-,b,u,k,?"
+20121120:142921:851:Thread 140030418368256, on Socket 5:params[0]='"'
+20121120:142921:851:Thread 140030418368256, on Socket 5:params[len-1]='"'
+20121120:142921:851:Thread 140030418368256, on Socket 5:base='dimin1'
+20121120:142921:851:Thread 140030418368256, on Socket 5:command='classify'
+20121120:142921:851:Thread 140030418368256, on Socket 5:Classify(=,=,=,=, ,sp,a,r,-,b,u,k,?)
+20121120:142921:851:Thread 140030418368256, on Socket 5:resultaat: J, distrib: { J 191.000 }, distance 0.549581
+20121120:142921:852:BasicServer:Thread 140030418368256, terminated at: Tue Nov 20 14:29:21 2012
+
+20121120:142921:852:BasicServer:Socket total = 0

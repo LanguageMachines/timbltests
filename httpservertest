@@ -7,12 +7,6 @@ echo Testing Servers
 exec="$VG $timbl_bin/timblserver"
 client="$VG $timbl_bin/timblclient"
 
-lh=`hostname`
-if test "$lh" = "atalanta"
-then
-  lh="localhost"
-fi
-
 if test x"${VG}" = x; then
   doD="--daemonize=yes"
 else
@@ -31,7 +25,9 @@ sleep 10
 
 wget http://localhost:7350/dimin0?classify=%22+,p,i,=,-,k,o,=,-,l,o,=,?%22 -O /tmp/http1.out
 cat /tmp/http1.out
-wget http://localhost:7350/dimin0?set="+vn" -O /tmp/http2.out
+wget http://localhost:7350/dimin0?set=v-di-db -O /tmp/http2.out
+cat /tmp/http2.out
+wget http://localhost:7350/dimin0?show=settings -O /tmp/http2.out
 cat /tmp/http2.out
 wget http://localhost:7350/dimin0?classify=%22+,p,i,=,-,k,o,=,-,l,o,=,?%22 -O /tmp/http3.out
 cat /tmp/http3.out
