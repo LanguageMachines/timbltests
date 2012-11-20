@@ -26,7 +26,7 @@ done
 
 echo running some long tests!
 
-for file in [ testlong testclones servertests ]
+for file in [ testlong testclones servertests httpservertest]
 
 do ./testone $file
 done

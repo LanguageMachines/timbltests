@@ -1,0 +1,44 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+echo Testing Servers 
+exec="$VG $timbl_bin/timblserver"
+client="$VG $timbl_bin/timblclient"
+
+lh=`hostname`
+if test "$lh" = "atalanta"
+then
+  lh="localhost"
+fi
+
+if test x"${VG}" = x; then
+  doD="--daemonize=yes"
+else
+  doD="--daemonize=no"
+fi
+
+if test ! -d /tmp/run/ ; then
+  mkdir /tmp/run/
+fi
+rm -rf /tmp/server*.log
+rm -rf /tmp/run/pid*
+
+rm -rf /tmp/server7.log
+$exec $doD --config=./tests/httpserver.cfg +vCD --logfile=/tmp/server7.log --pidfile=/tmp/run/pid7 &
+sleep 10
+
+wget http://localhost:7350/dimin0?classify=%22+,p,i,=,-,k,o,=,-,l,o,=,?%22 -O /tmp/http1.out
+cat /tmp/http1.out
+wget http://localhost:7350/dimin0?set="+vn" -O /tmp/http2.out
+cat /tmp/http2.out
+wget http://localhost:7350/dimin0?classify=%22+,p,i,=,-,k,o,=,-,l,o,=,?%22 -O /tmp/http3.out
+cat /tmp/http3.out
+
+wget http://localhost:7350/dimin1?classify=%22=,=,=,=,+,sp,a,r,-,b,u,k,?%22 -O /tmp/http4.out
+cat /tmp/http4.out
+
+kill `cat /tmp/run/pid7`
+cat /tmp/server7.log
+
