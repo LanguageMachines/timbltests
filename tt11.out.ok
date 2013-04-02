@@ -35,11 +35,11 @@ for,calls,agreement,the,IN,VBZ,NN,DT,O,O { O 1.00000 }        0.023490025142967
 it,for,calls,agreement,PRP,IN,VBZ,NN,O,O { O 1.00000 }        0.0071530030555917
 to,it,for,calls,TO,PRP,IN,VBZ,I,I { I 1.00000 }        0.037935523121472
 supply,to,it,for,VB,TO,PRP,IN,O,O { O 1.00000 }        0.035234717030924
-200,supply,to,it,CD,VB,TO,PRP,O,I { I 1.00000 }        0.0089968899372380
+200,supply,to,it,CD,VB,TO,PRP,O,I { I 1.00000 }        0.0089968899372379
 additional,200,supply,to,JJ,CD,VB,TO,I,I { I 1.00000 }        0.10006175005529
 so-called,additional,200,supply,JJ,JJ,CD,VB,I,I { I 1.00000 }        0.066462014473510
 shipsets,so-called,additional,200,NNS,JJ,JJ,CD,I,I { I 1.00000 }        0.081978264880917
-for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I { I 1.00000 }        0.097637232695710
+for,shipsets,so-called,additional,IN,NNS,JJ,JJ,I,I { I 1.00000 }        0.097637232695709
 the,for,shipsets,so-called,DT,IN,NNS,JJ,O,O { O 1.00000 }        0.075638751445263
 planes,the,for,shipsets,NNS,DT,IN,NNS,I,I { I 1.00000 }        0.081365392615093
 PUNT,planes,the,for,PUNT,NNS,DT,IN,I,I { I 1.00000 }        0.094867959711751
@@ -51,7 +51,7 @@ other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { O 1.00000 }        0.01573644828
 parts,other,among,KOMMA,NNS,JJ,IN,KOMMA,I,I { I 1.00000 }        0.010193317556752
 KOMMA,parts,other,among,KOMMA,NNS,JJ,IN,I,I { I 1.00000 }        0.0069823287673824
 each,KOMMA,parts,other,DT,KOMMA,NNS,JJ,O,O { O 1.00000 }        0.039032125646347
-jetliner,each,KOMMA,parts,NN,DT,KOMMA,NNS,I,I { I 1.00000 }        0.0070900353299958
+jetliner,each,KOMMA,parts,NN,DT,KOMMA,NNS,I,I { I 1.00000 }        0.0070900353299957
 's,jetliner,each,KOMMA,POS,NN,DT,KOMMA,I,I { I 1.00000 }        0.041751316331951
 two,'s,jetliner,each,CD,POS,NN,DT,B,B { B 1.00000 }        0.015306632257907
 major,two,'s,jetliner,JJ,CD,POS,NN,I,I { I 1.00000 }        0.010571095169618
@@ -111,7 +111,7 @@ KOMMA,aerospace,an,is,KOMMA,NN,DT,VBZ,I,I { I 1.00000 }        0.052413498628492
 electronics,KOMMA,aerospace,an,NNS,KOMMA,NN,DT,I,I { I 1.00000 }        0.019789824277657
 KOMMA,electronics,KOMMA,aerospace,KOMMA,NNS,KOMMA,NN,I,I { I 1.00000 }        0.048727309216934
 automotive,KOMMA,electronics,KOMMA,JJ,KOMMA,NNS,KOMMA,I,O { O 1.00000 }        0.020677215286196
-and,automotive,KOMMA,electronics,CC,JJ,KOMMA,NNS,I,I { I 1.00000 }        0.034499781331939
+and,automotive,KOMMA,electronics,CC,JJ,KOMMA,NNS,I,I { I 1.00000 }        0.034499781331938
 graphics,and,automotive,KOMMA,NNS,CC,JJ,KOMMA,I,I { I 1.00000 }        0.058520930733243
 concern,graphics,and,automotive,VBP,NNS,CC,JJ,I,I { I 1.00000 }        0.11066467680148
 PUNT,concern,graphics,and,PUNT,VBP,NNS,CC,I,I { I 1.00000 }        0.074240193096376
@@ -126,7 +126,7 @@ telecommunications,this,to,named,NNS,DT,TO,VBN,I,I { I 2.00000 }        0.020647
 company,telecommunications,this,to,NN,NNS,DT,TO,I,I { I 1.00000 }        0.011311528933732
 's,company,telecommunications,this,POS,NN,NNS,DT,I,I { I 1.00000 }        0.0043255173525856
 board,'s,company,telecommunications,NN,POS,NN,NNS,B,B { B 1.00000 }        0.0039675823841917
-KOMMA,board,'s,company,KOMMA,NN,POS,NN,I,I { I 1.00000 }        0.00093923186251230
+KOMMA,board,'s,company,KOMMA,NN,POS,NN,I,I { I 1.00000 }        0.00093923186251229
 filling,KOMMA,board,'s,VBG,KOMMA,NN,POS,O,O { O 1.00000 }        0.035218050834590
 the,filling,KOMMA,board,DT,VBG,KOMMA,NN,O,O { O 1.00000 }        0.038253813799082
 vacancy,the,filling,KOMMA,NN,DT,VBG,KOMMA,I,I { I 2.00000 }        0.053005251295110
@@ -156,7 +156,7 @@ the,in,secretary,defense,DT,IN,NN,NN,O,O { O 1.00000 }        0.064542801007190
 Reagan,the,in,secretary,NNP,DT,IN,NN,I,I { I 2.00000 }        0.028360141319983
 administration,Reagan,the,in,NN,NNP,DT,IN,I,I { I 1.00000 }        0.0021887506693134
 PUNT,administration,Reagan,the,PUNT,NN,NNP,DT,I,I { I 2.00000 }        0.0091430103782696
-In,PUNT,PUNT,administration,IN,PUNT,PUNT,NN,O,O { O 1.00000 }        0.00076769874968982
+In,PUNT,PUNT,administration,IN,PUNT,PUNT,NN,O,O { O 1.00000 }        0.00076769874968981
 January,In,PUNT,PUNT,NNP,IN,PUNT,PUNT,O,O { O 5.00000 }        0.0000000000000
 KOMMA,January,In,PUNT,KOMMA,NNP,IN,PUNT,I,I { I 1.00000 }        0.024590222290187
 he,KOMMA,January,In,PRP,KOMMA,NNP,IN,O,O { O 1.00000 }        0.022855664246452
@@ -164,14 +164,14 @@ accepted,he,KOMMA,January,VBD,PRP,KOMMA,NNP,I,I { I 1.00000 }        0.004484048
 the,accepted,he,KOMMA,DT,VBD,PRP,KOMMA,O,O { O 1.00000 }        0.083319506073068
 position,the,accepted,he,NN,DT,VBD,PRP,I,I { I 1.00000 }        0.0014212096628729
 of,position,the,accepted,IN,NN,DT,VBD,I,I { I 1.00000 }        0.027162607425764
-vice,of,position,the,NN,IN,NN,DT,O,O { O 1.00000 }        0.0076681501932982
+vice,of,position,the,NN,IN,NN,DT,O,O { O 1.00000 }        0.0076681501932981
 chairman,vice,of,position,NN,NN,IN,NN,I,I { I 1.00000 }        0.0044171042745925
 of,chairman,vice,of,IN,NN,NN,IN,I,I { I 1.00000 }        0.0072251191781809
 Carlyle,of,chairman,vice,NNP,IN,NN,NN,O,O { O 2.00000 }        0.053005251295110
 Group,Carlyle,of,chairman,NNP,NNP,IN,NN,I,I { I 1.00000 }        0.094483106144589
 KOMMA,Group,Carlyle,of,KOMMA,NNP,NNP,IN,I,I { I 1.00000 }        0.070996955153615
 a,KOMMA,Group,Carlyle,DT,KOMMA,NNP,NNP,O,O { O 1.00000 }        0.028360141319983
-merchant,a,KOMMA,Group,NN,DT,KOMMA,NNP,I,I { I 1.00000 }        0.054029935550824
+merchant,a,KOMMA,Group,NN,DT,KOMMA,NNP,I,I { I 1.00000 }        0.054029935550823
 banking,merchant,a,KOMMA,NN,NN,DT,KOMMA,I,I { I 1.00000 }        0.097793100248522
 concern,banking,merchant,a,NN,NN,NN,DT,I,I { I 1.00000 }        0.094594379342033
 PUNT,concern,banking,merchant,PUNT,NN,NN,NN,I,I { I 1.00000 }        0.029380546201549
@@ -334,7 +334,7 @@ cents,33,or,KOMMA,NNS,CD,CC,KOMMA,I,I { I 1.00000 }        0.033435221572319
 a,cents,33,or,DT,NNS,CD,CC,I,I { I 1.00000 }        0.0045786790091848
 share,a,cents,33,NN,DT,NNS,CD,B,B { B 1.00000 }        0.0000000000000
 PUNT,share,a,cents,PUNT,NN,DT,NNS,I,I { I 4.00000 }        0.0000000000000
-For,PUNT,PUNT,share,IN,PUNT,PUNT,NN,O,O { O 1.00000 }        0.00094517737685631
+For,PUNT,PUNT,share,IN,PUNT,PUNT,NN,O,O { O 1.00000 }        0.00094517737685630
 the,For,PUNT,PUNT,DT,IN,PUNT,PUNT,O,O { O 4.00000 }        0.0000000000000
 nine,the,For,PUNT,CD,DT,IN,PUNT,I,I { I 2.00000 }        0.0000000000000
 months,nine,the,For,NNS,CD,DT,IN,I,I { I 2.00000 }        0.0000000000000
@@ -394,7 +394,7 @@ raising,KOMMA,portfolio,loan,VBG,KOMMA,NN,NN,O,O { O 1.00000 }        0.01688035
 its,raising,KOMMA,portfolio,PRP$,VBG,KOMMA,NN,O,O { O 1.00000 }        0.083251987372449
 total,its,raising,KOMMA,JJ,PRP$,VBG,KOMMA,I,I { I 1.00000 }        0.028117469234049
 loan,total,its,raising,NN,JJ,PRP$,VBG,I,I { I 1.00000 }        0.022238248272413
-and,loan,total,its,CC,NN,JJ,PRP$,I,I { I 1.00000 }        0.040183729142959
+and,loan,total,its,CC,NN,JJ,PRP$,I,I { I 1.00000 }        0.040183729142958
 real,and,loan,total,JJ,CC,NN,JJ,I,O { O 1.00000 }        0.0095525072547357
 estate,real,and,loan,NN,JJ,CC,NN,I,I { I 1.00000 }        0.042027749389292
 reserves,estate,real,and,NNS,NN,JJ,CC,I,I { I 1.00000 }        0.017898230380996
@@ -408,7 +408,7 @@ the,Before,PUNT,PUNT,DT,IN,PUNT,PUNT,O,O { O 57.0000 }        0.094089873107254
 loan-loss,the,Before,PUNT,NN,DT,IN,PUNT,I,I { I 21.0000 }        0.11678498317348
 addition,loan-loss,the,Before,NN,NN,DT,IN,I,I { I 1.00000 }        0.12489277911450
 KOMMA,addition,loan-loss,the,KOMMA,NN,NN,DT,I,I { I 1.00000 }        0.11089534374825
-it,KOMMA,addition,loan-loss,PRP,KOMMA,NN,NN,O,O { O 1.00000 }        0.036066879292502
+it,KOMMA,addition,loan-loss,PRP,KOMMA,NN,NN,O,O { O 1.00000 }        0.036066879292501
 said,it,KOMMA,addition,VBD,PRP,KOMMA,NN,I,I { I 1.00000 }        0.0061122799785922
 KOMMA,said,it,KOMMA,KOMMA,VBD,PRP,KOMMA,O,O { O 1.00000 }        0.0000000000000
 it,KOMMA,said,it,PRP,KOMMA,VBD,PRP,O,O { O 1.00000 }        0.0044652083398972
@@ -432,7 +432,7 @@ of,round,a,followed,IN,NN,DT,VBD,I,I { I 1.00000 }        0.094089873107254
 similar,of,round,a,JJ,IN,NN,DT,O,O { O 1.00000 }        0.064957626351594
 increases,similar,of,round,NNS,JJ,IN,NN,I,I { I 1.00000 }        0.048417159483747
 by,increases,similar,of,IN,NNS,JJ,IN,I,I { I 1.00000 }        0.044095905896838
-other,by,increases,similar,JJ,IN,NNS,JJ,O,O { O 1.00000 }        0.026583690328282
+other,by,increases,similar,JJ,IN,NNS,JJ,O,O { O 1.00000 }        0.026583690328281
 lenders,other,by,increases,NNS,JJ,IN,NNS,I,I { I 1.00000 }        0.076385749343806
 against,lenders,other,by,IN,NNS,JJ,IN,I,I { I 1.00000 }        0.10145330868222
 Arizona,against,lenders,other,NNP,IN,NNS,JJ,O,O { O 1.00000 }        0.086367291414401
@@ -461,7 +461,7 @@ bank,savings,the,KOMMA,VBP,NNS,DT,KOMMA,I,I { I 1.00000 }        0.0383782651112
 took,bank,savings,the,VBD,VBP,NNS,DT,I,I { I 1.00000 }        0.025224311453051
 a,took,bank,savings,DT,VBD,VBP,NNS,O,O { O 1.00000 }        0.053422883339629
 special,a,took,bank,JJ,DT,VBD,VBP,I,I { I 1.00000 }        0.013458979237224
-charge,special,a,took,NN,JJ,DT,VBD,I,I { I 1.00000 }        0.022318319150123
+charge,special,a,took,NN,JJ,DT,VBD,I,I { I 1.00000 }        0.022318319150122
 of,charge,special,a,IN,NN,JJ,DT,I,I { I 1.00000 }        0.018850629282327
 $,of,charge,special,$,IN,NN,JJ,O,O { O 1.00000 }        0.029591321192704
 5,$,of,charge,NN,$,IN,NN,I,I { I 1.00000 }        0.021837989489188
@@ -471,7 +471,7 @@ general,representing,million,5,JJ,VBG,CD,NN,O,O { O 1.00000 }        0.070064333
 and,general,representing,million,CC,JJ,VBG,CD,I,I { I 1.00000 }        0.046518115960034
 administrative,and,general,representing,JJ,CC,JJ,VBG,I,O { O 1.00000 }        0.040345868939856
 expenses,administrative,and,general,NNS,JJ,CC,JJ,I,I { I 1.00000 }        0.039513610296699
-from,expenses,administrative,and,IN,NNS,JJ,CC,I,I { I 1.00000 }        0.0085039642504493
+from,expenses,administrative,and,IN,NNS,JJ,CC,I,I { I 1.00000 }        0.0085039642504492
 staff,from,expenses,administrative,NN,IN,NNS,JJ,O,O { O 1.00000 }        0.089601017696967
 reductions,staff,from,expenses,NNS,NN,IN,NNS,I,I { I 2.00000 }        0.023085140823726
 and,reductions,staff,from,CC,NNS,NN,IN,I,I { I 1.00000 }        0.073589844539393
@@ -553,7 +553,7 @@ MrPUNT,wanted,employees,Airlines,NNP,VBD,NNS,NNPS,O,O { O 1.00000 }        0.047
 Wolf,MrPUNT,wanted,employees,NNP,NNP,VBD,NNS,I,I { I 1.00000 }        0.015808474104763
 fired,Wolf,MrPUNT,wanted,VBD,NNP,NNP,VBD,I,I { I 1.00000 }        0.072516887766226
 and,fired,Wolf,MrPUNT,CC,VBD,NNP,NNP,O,O { O 5.00000 }        0.0091430103782696
-takeover,and,fired,Wolf,NN,CC,VBD,NNP,O,O { O 1.00000 }        0.081124338034757
+takeover,and,fired,Wolf,NN,CC,VBD,NNP,O,O { O 1.00000 }        0.081124338034756
 stock,takeover,and,fired,NN,NN,CC,VBD,I,I { I 1.00000 }        0.026725236043440
 speculators,stock,takeover,and,NNS,NN,NN,CC,I,I { I 1.00000 }        0.0059830265722632
 wanted,speculators,stock,takeover,VBD,NNS,NN,NN,I,I { I 1.00000 }        0.013213136414794
@@ -568,7 +568,7 @@ saw,Pope,and,Wolf,VBD,NNP,CC,NNP,I,I { I 1.00000 }        0.068356521805865
 their,saw,Pope,and,PRP$,VBD,NNP,CC,O,O { O 1.00000 }        0.065561459934417
 prospective,their,saw,Pope,JJ,PRP$,VBD,NNP,I,I { I 1.00000 }        0.019773749807651
 personal,prospective,their,saw,JJ,JJ,PRP$,VBD,I,I { I 1.00000 }        0.028804542671761
-fortunes,personal,prospective,their,NNS,JJ,JJ,PRP$,I,I { I 1.00000 }        0.061647804077494
+fortunes,personal,prospective,their,NNS,JJ,JJ,PRP$,I,I { I 1.00000 }        0.061647804077493
 continue,fortunes,personal,prospective,VBP,NNS,JJ,JJ,I,I { I 1.00000 }        0.11577352725501
 to,continue,fortunes,personal,TO,VBP,NNS,JJ,O,O { O 1.00000 }        0.073023445478333
 plummet,to,continue,fortunes,VB,TO,VBP,NNS,O,O { O 1.00000 }        0.081365392615093
@@ -598,7 +598,7 @@ PUNT,198,$,at,PUNT,CD,$,IN,I,I { I 1.00000 }        0.0082888597220023
 Including,PUNT,PUNT,198,VBG,PUNT,PUNT,CD,O,O { O 1.00000 }        0.010868406840539
 Monday,Including,PUNT,PUNT,NNP,VBG,PUNT,PUNT,O,O { O 1.00000 }        0.050873162417583
 's,Monday,Including,PUNT,POS,NNP,VBG,PUNT,I,I { I 1.00000 }        0.0043448412334596
-plunge,'s,Monday,Including,NN,POS,NNP,VBG,B,B { B 1.00000 }        0.038199724087217
+plunge,'s,Monday,Including,NN,POS,NNP,VBG,B,B { B 1.00000 }        0.038199724087216
 KOMMA,plunge,'s,Monday,KOMMA,NN,POS,NNP,I,O { O 1.00000 }        0.027043509274245
 that,KOMMA,plunge,'s,WDT,KOMMA,NN,POS,O,O { O 1.00000 }        0.0051165595513357
 has,that,KOMMA,plunge,VBZ,WDT,KOMMA,NN,I,I { I 1.00000 }        0.021956483121975
@@ -607,7 +607,7 @@ the,given,has,that,DT,VBN,VBZ,WDT,O,O { O 1.00000 }        0.018134609306091
 two,the,given,has,CD,DT,VBN,VBZ,I,I { I 1.00000 }        0.044618400427773
 executives,two,the,given,NNS,CD,DT,VBN,I,I { I 1.00000 }        0.044750885308976
 paper,executives,two,the,NN,NNS,CD,DT,I,I { I 1.00000 }        0.072035800287643
-losses,paper,executives,two,NNS,NN,NNS,CD,B,I { I 1.00000 }        0.088265824769219
+losses,paper,executives,two,NNS,NN,NNS,CD,B,I { I 1.00000 }        0.088265824769218
 of,losses,paper,executives,IN,NNS,NN,NNS,I,I { I 1.00000 }        0.0017300124974896
 $,of,losses,paper,$,IN,NNS,NN,O,O { O 1.00000 }        0.030066991771214
 49PUNT5,$,of,losses,CD,$,IN,NNS,I,I { I 5.00000 }        0.054349942023360
@@ -647,7 +647,7 @@ last,collapsed,buy-out,the,JJ,VBD,NN,DT,O,O { O 1.00000 }        0.0309075024124
 week,last,collapsed,buy-out,NN,JJ,VBD,NN,I,I { I 1.00000 }        0.0074361644424052
 KOMMA,week,last,collapsed,KOMMA,NN,JJ,VBD,I,I { I 3.00000 }        0.0049764524196046
 so,KOMMA,week,last,RB,KOMMA,NN,JJ,O,O { O 1.00000 }        0.016373789300990
-did,so,KOMMA,week,VBD,RB,KOMMA,NN,O,I { I 1.00000 }        0.064101749732660
+did,so,KOMMA,week,VBD,RB,KOMMA,NN,O,I { I 1.00000 }        0.064101749732659
 UAL,did,so,KOMMA,NNP,VBD,RB,KOMMA,O,O { O 1.00000 }        0.049385550692416
 's,UAL,did,so,POS,NNP,VBD,RB,I,I { I 1.00000 }        0.054990146490451
 stock,'s,UAL,did,NN,POS,NNP,VBD,B,B { B 1.00000 }        0.022514638744730
@@ -665,7 +665,7 @@ $,at,package,financing,$,IN,NN,NN,O,O { O 1.00000 }        0.068506422098367
 250,$,at,package,CD,$,IN,NN,I,I { I 1.00000 }        0.0068984127535094
 a,250,$,at,DT,CD,$,IN,I,I { I 1.00000 }        0.063186171389665
 share,a,250,$,NN,DT,CD,$,B,B { B 1.00000 }        0.0075034978680435
-KOMMA,share,a,250,KOMMA,NN,DT,CD,I,I { I 1.00000 }        0.014180070659992
+KOMMA,share,a,250,KOMMA,NN,DT,CD,I,I { I 1.00000 }        0.014180070659991
 the,KOMMA,share,a,DT,KOMMA,NN,DT,O,O { O 7.00000 }        0.0060333004462658
 two,the,KOMMA,share,CD,DT,KOMMA,NN,I,I { I 1.00000 }        0.0087862213389137
 executives,two,the,KOMMA,NNS,CD,DT,KOMMA,I,I { I 1.00000 }        0.046979057649514
@@ -723,7 +723,7 @@ yesterday,By,PUNT,PUNT,NN,IN,PUNT,PUNT,O,O { O 1.00000 }        0.01472368091530
 's,yesterday,By,PUNT,POS,NN,IN,PUNT,I,I { I 1.00000 }        0.024534313726908
 close,'s,yesterday,By,NN,POS,NN,IN,B,B { B 1.00000 }        0.034719250580256
 of,close,'s,yesterday,IN,NN,POS,NN,I,I { I 1.00000 }        0.015038471140185
-trading,of,close,'s,NN,IN,NN,POS,O,O { O 2.00000 }        0.0018610278692597
+trading,of,close,'s,NN,IN,NN,POS,O,O { O 2.00000 }        0.0018610278692596
 KOMMA,trading,of,close,KOMMA,NN,IN,NN,I,I { I 1.00000 }        0.0064159298661859
 it,KOMMA,trading,of,PRP,KOMMA,NN,IN,O,O { O 1.00000 }        0.021609282027917
 was,it,KOMMA,trading,VBD,PRP,KOMMA,NN,I,I { I 1.00000 }        0.0043518472113385
@@ -868,7 +868,7 @@ to,options,has,and,TO,NNS,VBZ,CC,I,I { I 1.00000 }        0.069073563601435
 buy,to,options,has,VB,TO,NNS,VBZ,O,O { O 1.00000 }        0.014903638475156
 another,buy,to,options,DT,VB,TO,NNS,O,O { O 1.00000 }        0.018660858903916
 150KOMMA000,another,buy,to,CD,DT,VB,TO,I,I { I 1.00000 }        0.027969253970502
-at,150KOMMA000,another,buy,IN,CD,DT,VB,I,I { I 1.00000 }        0.057148842912372
+at,150KOMMA000,another,buy,IN,CD,DT,VB,I,I { I 1.00000 }        0.057148842912371
 $,at,150KOMMA000,another,$,IN,CD,DT,O,O { O 1.00000 }        0.040551096845785
 69,$,at,150KOMMA000,CD,$,IN,CD,I,I { I 1.00000 }        0.012833789189700
 each,69,$,at,DT,CD,$,IN,I,I { I 1.00000 }        0.098798180111030
@@ -876,7 +876,7 @@ PUNT,each,69,$,PUNT,DT,CD,$,B,I { I 1.00000 }        0.063779731878369
 That,PUNT,PUNT,each,DT,PUNT,PUNT,DT,O,O { O 1.00000 }        0.0010506701677298
 came,That,PUNT,PUNT,VBD,DT,PUNT,PUNT,I,I { I 1.00000 }        0.0041561161938161
 to,came,That,PUNT,TO,VBD,DT,PUNT,O,O { O 1.00000 }        0.048185636800816
-a,to,came,That,DT,TO,VBD,DT,O,O { O 1.00000 }        0.00096161238850932
+a,to,came,That,DT,TO,VBD,DT,O,O { O 1.00000 }        0.00096161238850931
 combined,a,to,came,VBN,DT,TO,VBD,I,I { I 1.00000 }        0.0074482591457586
 $,combined,a,to,$,VBN,DT,TO,I,I { I 1.00000 }        0.065822943846611
 37PUNT7,$,combined,a,CD,$,VBN,DT,I,I { I 1.00000 }        0.058946484521381
@@ -933,7 +933,7 @@ the,of,many,angering,DT,IN,NN,VBG,O,O { O 1.00000 }        0.030289090384061
 thousands,the,of,many,NNS,DT,IN,NN,I,I { I 1.00000 }        0.0084161664514253
 of,thousands,the,of,IN,NNS,DT,IN,I,I { I 1.00000 }        0.0014674633155454
 workers,of,thousands,the,NNS,IN,NNS,DT,O,O { O 1.00000 }        0.019622516638815
-asked,workers,of,thousands,VBD,NNS,IN,NNS,I,I { I 1.00000 }        0.024532038982840
+asked,workers,of,thousands,VBD,NNS,IN,NNS,I,I { I 1.00000 }        0.024532038982839
 to,asked,workers,of,TO,VBD,NNS,IN,O,O { O 1.00000 }        0.030939261794727
 make,to,asked,workers,VB,TO,VBD,NNS,O,O { O 1.00000 }        0.011703414859172
 pay,make,to,asked,NN,VB,TO,VBD,O,O { O 1.00000 }        0.031003438845691
@@ -986,7 +986,7 @@ buy-out,scaled-back,a,in,NN,JJ,DT,IN,I,I { I 1.00000 }        0.094513390126130
 KOMMA,buy-out,scaled-back,a,KOMMA,NN,JJ,DT,I,I { I 1.00000 }        0.076314080268930
 they,KOMMA,buy-out,scaled-back,PRP,KOMMA,NN,JJ,O,O { O 1.00000 }        0.034901652281867
 could,they,KOMMA,buy-out,MD,PRP,KOMMA,NN,I,I { I 1.00000 }        0.0051053788258095
-be,could,they,KOMMA,VB,MD,PRP,KOMMA,O,O { O 1.00000 }        0.0043038107852811
+be,could,they,KOMMA,VB,MD,PRP,KOMMA,O,O { O 1.00000 }        0.0043038107852810
 bumped,be,could,they,VBN,VB,MD,PRP,O,O { O 1.00000 }        0.059495526180060
 back,bumped,be,could,RB,VBN,VB,MD,O,O { O 1.00000 }        0.10179042060587
 to,back,bumped,be,TO,RB,VBN,VB,O,O { O 1.00000 }        0.080411321433809
@@ -1065,7 +1065,7 @@ JPUNT,Robert,said,CorpPUNT,NNP,NNP,VBD,NNP,I,I { I 1.00000 }        0.0219703778
 Percival,JPUNT,Robert,said,NNP,NNP,NNP,VBD,I,I { I 1.00000 }        0.053005251295110
 agreed,Percival,JPUNT,Robert,VBD,NNP,NNP,NNP,I,I { I 1.00000 }        0.098786505993965
 to,agreed,Percival,JPUNT,TO,VBD,NNP,NNP,O,O { O 1.00000 }        0.070869767208365
-step,to,agreed,Percival,VB,TO,VBD,NNP,O,O { O 1.00000 }        0.039633423898481
+step,to,agreed,Percival,VB,TO,VBD,NNP,O,O { O 1.00000 }        0.039633423898480
 down,step,to,agreed,RB,VB,TO,VBD,O,O { O 1.00000 }        0.030430550171280
 as,down,step,to,IN,RB,VB,TO,O,O { O 1.00000 }        0.015789364453356
 vice,as,down,step,NN,IN,RB,VB,O,O { O 1.00000 }        0.013716970421244
@@ -1130,10 +1130,10 @@ for,company,the,to,IN,NN,DT,TO,I,I { I 1.00000 }        0.0043694240029376
 two,for,company,the,CD,IN,NN,DT,O,O { O 1.00000 }        0.018150522873428
 years,two,for,company,NNS,CD,IN,NN,I,I { I 1.00000 }        0.0097292967629341
 PUNT,years,two,for,PUNT,NNS,CD,IN,I,I { I 1.00000 }        0.013796167180516
-He,PUNT,PUNT,years,PRP,PUNT,PUNT,NNS,O,O { O 2.00000 }        0.00094918040889575
+He,PUNT,PUNT,years,PRP,PUNT,PUNT,NNS,O,O { O 2.00000 }        0.00094918040889574
 will,He,PUNT,PUNT,MD,PRP,PUNT,PUNT,I,I { I 1.00000 }        0.0059174224044711
 also,will,He,PUNT,RB,MD,PRP,PUNT,O,O { O 1.00000 }        0.020424097680258
-remain,also,will,He,VB,RB,MD,PRP,O,O { O 1.00000 }        0.0098427139428528
+remain,also,will,He,VB,RB,MD,PRP,O,O { O 1.00000 }        0.0098427139428527
 a,remain,also,will,DT,VB,RB,MD,O,O { O 1.00000 }        0.071779109671217
 director,a,remain,also,NN,DT,VB,RB,I,I { I 1.00000 }        0.019691557789257
 KOMMA,director,a,remain,KOMMA,NN,DT,VB,I,I { I 1.00000 }        0.021009843662342
@@ -1169,7 +1169,7 @@ chairman,Facilities,US,KOMMA,NN,NNPS,PRP,KOMMA,I,I { I 1.00000 }        0.204541
 and,chairman,Facilities,US,CC,NN,NNPS,PRP,I,I { I 1.00000 }        0.10877772598844
 president,and,chairman,Facilities,NN,CC,NN,NNPS,I,I { I 1.00000 }        0.029012883218897
 PUNT,president,and,chairman,PUNT,NN,CC,NN,I,I { I 1.00000 }        0.012224832689426
-In,PUNT,PUNT,president,IN,PUNT,PUNT,NN,O,O { O 1.00000 }        0.00093547120371432
+In,PUNT,PUNT,president,IN,PUNT,PUNT,NN,O,O { O 1.00000 }        0.00093547120371431
 the,In,PUNT,PUNT,DT,IN,PUNT,PUNT,O,O { O 10.0000 }        0.0000000000000
 same,the,In,PUNT,JJ,DT,IN,PUNT,I,I { I 1.00000 }        0.0000000000000
 statement,same,the,In,NN,JJ,DT,IN,I,I { I 1.00000 }        0.0000000000000
@@ -1230,7 +1230,7 @@ KOMMA,yesterday,trading,over-the-counter,KOMMA,NN,NN,JJ,B,B { B 1.00000 }       
 US,KOMMA,yesterday,trading,PRP,KOMMA,NN,NN,O,O { O 1.00000 }        0.057428375177375
 Facilities,US,KOMMA,yesterday,NNPS,PRP,KOMMA,NN,I,I { I 1.00000 }        0.15070747441459
 closed,Facilities,US,KOMMA,VBD,NNPS,PRP,KOMMA,I,I { I 1.00000 }        0.19030890286307
-at,closed,Facilities,US,IN,VBD,NNPS,PRP,O,O { O 1.00000 }        0.098494762098436
+at,closed,Facilities,US,IN,VBD,NNPS,PRP,O,O { O 1.00000 }        0.098494762098435
 $,at,closed,Facilities,$,IN,VBD,NNPS,O,O { O 2.00000 }        0.028807615131192
 3PUNT625,$,at,closed,CD,$,IN,VBD,I,I { I 3.00000 }        0.053005251295110
 KOMMA,3PUNT625,$,at,KOMMA,CD,$,IN,I,I { I 3.00000 }        0.094089873107254
@@ -1244,7 +1244,7 @@ reported,companies,drug,leading,VBD,NNS,NN,VBG,I,I { I 1.00000 }        0.032882
 robust,reported,companies,drug,JJ,VBD,NNS,NN,O,O { O 1.00000 }        0.066748243607202
 third-quarter,robust,reported,companies,JJ,JJ,VBD,NNS,I,I { I 1.00000 }        0.11901403559260
 earnings,third-quarter,robust,reported,NNS,JJ,JJ,VBD,I,I { I 1.00000 }        0.067670796196697
-KOMMA,earnings,third-quarter,robust,KOMMA,NNS,JJ,JJ,I,I { I 1.00000 }        0.032688294344654
+KOMMA,earnings,third-quarter,robust,KOMMA,NNS,JJ,JJ,I,I { I 1.00000 }        0.032688294344653
 bolstered,KOMMA,earnings,third-quarter,VBN,KOMMA,NNS,JJ,O,O { O 1.00000 }        0.013642352943947
 by,bolstered,KOMMA,earnings,IN,VBN,KOMMA,NNS,O,O { O 1.00000 }        0.0094990869533197
 strong,by,bolstered,KOMMA,JJ,IN,VBN,KOMMA,O,O { O 1.00000 }        0.0000000000000
@@ -1262,13 +1262,13 @@ profit,hefty,provide,that,NN,JJ,VBP,WDT,I,I { I 1.00000 }        0.0568107201623
 margins,profit,hefty,provide,NNS,NN,JJ,VBP,I,I { I 1.00000 }        0.014278586030012
 PUNT,margins,profit,hefty,PUNT,NNS,NN,JJ,I,I { I 1.00000 }        0.088804953229380
 Merck,PUNT,PUNT,margins,NNP,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.0000000000000
-&,Merck,PUNT,PUNT,CC,NNP,PUNT,PUNT,I,I { I 1.00000 }        0.046464431874719
+&,Merck,PUNT,PUNT,CC,NNP,PUNT,PUNT,I,I { I 1.00000 }        0.046464431874718
 CoPUNT,&,Merck,PUNT,NNP,CC,NNP,PUNT,I,I { I 1.00000 }        0.036701653898798
 reported,CoPUNT,&,Merck,VBD,NNP,CC,NNP,I,I { I 1.00000 }        0.019021883994057
 a,reported,CoPUNT,&,DT,VBD,NNP,CC,O,O { O 1.00000 }        0.036154457343501
-25,a,reported,CoPUNT,CD,DT,VBD,NNP,I,I { I 1.00000 }        0.0095642229449123
+25,a,reported,CoPUNT,CD,DT,VBD,NNP,I,I { I 1.00000 }        0.0095642229449122
 PROCENT,25,a,reported,NN,CD,DT,VBD,I,I { I 1.00000 }        0.0099292420519184
-increase,PROCENT,25,a,NN,NN,CD,DT,I,I { I 1.00000 }        0.024367763687108
+increase,PROCENT,25,a,NN,NN,CD,DT,I,I { I 1.00000 }        0.024367763687107
 in,increase,PROCENT,25,IN,NN,NN,CD,I,I { I 1.00000 }        0.0030385865699982
 earnings,in,increase,PROCENT,NNS,IN,NN,NN,O,O { O 1.00000 }        0.019394825099452
 ;,earnings,in,increase,:,NNS,IN,NN,I,I { I 1.00000 }        0.040683702688633
@@ -1278,7 +1278,7 @@ CoPUNT,Warner-Lambert,;,earnings,NNP,NNP,:,NNS,I,I { I 1.00000 }        0.099847
 profit,'s,CoPUNT,Warner-Lambert,NN,POS,NNP,NNP,B,B { B 1.00000 }        0.038271797927494
 rose,profit,'s,CoPUNT,VBD,NN,POS,NNP,I,I { I 1.00000 }        0.023495982123745
 22,rose,profit,'s,CD,VBD,NN,POS,O,O { O 1.00000 }        0.021443762391982
-PROCENT,22,rose,profit,NN,CD,VBD,NN,I,I { I 1.00000 }        0.035123721951787
+PROCENT,22,rose,profit,NN,CD,VBD,NN,I,I { I 1.00000 }        0.035123721951786
 and,PROCENT,22,rose,CC,NN,CD,VBD,I,I { I 1.00000 }        0.015792294850039
 Eli,and,PROCENT,22,NNP,CC,NN,CD,O,O { O 1.00000 }        0.045816422602634
 Lilly,Eli,and,PROCENT,NNP,NNP,CC,NN,I,I { I 1.00000 }        0.029377961712089
@@ -1302,7 +1302,7 @@ analysts,with,line,in,NNS,IN,NN,IN,O,O { O 1.00000 }        0.012620297927407
 expectations,',analysts,with,NNS,POS,NNS,IN,B,B { B 1.00000 }        0.0076191050475584
 PUNT,expectations,',analysts,PUNT,NNS,POS,NNS,I,I { I 1.00000 }        0.019349785780004
 Merck,PUNT,PUNT,expectations,NNP,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.0000000000000
-&,Merck,PUNT,PUNT,CC,NNP,PUNT,PUNT,I,I { I 1.00000 }        0.046464431874719
+&,Merck,PUNT,PUNT,CC,NNP,PUNT,PUNT,I,I { I 1.00000 }        0.046464431874718
 Co,&,Merck,PUNT,NNP,CC,NNP,PUNT,I,I { I 1.00000 }        0.036701653898798
 PUNT,Co,&,Merck,PUNT,NNP,CC,NNP,I,I { I 1.00000 }        0.0000000000000
 Merck,PUNT,PUNT,Co,NNP,PUNT,PUNT,NNP,I,O { O 6.00000 }        0.0000000000000
@@ -1425,7 +1425,7 @@ West,in,introduced,was,NNP,IN,VBN,VBD,O,O { O 1.00000 }        0.058161290239896
 Germany,West,in,introduced,NNP,NNP,IN,VBN,I,I { I 1.00000 }        0.010277412566354
 this,Germany,West,in,DT,NNP,NNP,IN,I,I { I 1.00000 }        0.067241511007018
 year,this,Germany,West,NN,DT,NNP,NNP,B,B { B 1.00000 }        0.018385082824834
-PUNT,year,this,Germany,PUNT,NN,DT,NNP,I,I { I 1.00000 }        0.0055682010641178
+PUNT,year,this,Germany,PUNT,NN,DT,NNP,I,I { I 1.00000 }        0.0055682010641177
 Intense,PUNT,PUNT,year,JJ,PUNT,PUNT,NN,O,O { O 1.00000 }        0.053005251295110
 competition,Intense,PUNT,PUNT,NN,JJ,PUNT,PUNT,I,I { I 3.00000 }        0.099979345473378
 KOMMA,competition,Intense,PUNT,KOMMA,NN,JJ,PUNT,I,I { I 1.00000 }        0.075139958402442
@@ -1435,7 +1435,7 @@ led,KOMMA,however,KOMMA,VBN,KOMMA,RB,KOMMA,O,O { O 1.00000 }        0.0194815639
 to,led,KOMMA,however,TO,VBN,KOMMA,RB,O,O { O 1.00000 }        0.024354994158554
 unit,to,led,KOMMA,NN,TO,VBN,KOMMA,O,O { O 1.00000 }        0.052358992763785
 sales,unit,to,led,NNS,NN,TO,VBN,I,I { I 1.00000 }        0.030409725357702
-declines,sales,unit,to,NNS,NNS,NN,TO,I,I { I 1.00000 }        0.032638091539426
+declines,sales,unit,to,NNS,NNS,NN,TO,I,I { I 1.00000 }        0.032638091539425
 for,declines,sales,unit,IN,NNS,NNS,NN,I,I { I 1.00000 }        0.11358949442323
 a,for,declines,sales,DT,IN,NNS,NNS,O,O { O 1.00000 }        0.0066940369214838
 group,a,for,declines,NN,DT,IN,NNS,I,I { I 1.00000 }        0.0039424876163312
@@ -1470,8 +1470,8 @@ $,at,closed,shares,$,IN,VBD,NNS,O,O { O 1.00000 }        0.0039094371834521
 75PUNT25,$,at,closed,CD,$,IN,VBD,I,I { I 3.00000 }        0.053005251295110
 KOMMA,75PUNT25,$,at,KOMMA,CD,$,IN,I,I { I 3.00000 }        0.094089873107254
 up,KOMMA,75PUNT25,$,IN,KOMMA,CD,$,O,O { O 1.00000 }        0.063779731878369
-50,up,KOMMA,75PUNT25,CD,IN,KOMMA,CD,O,O { O 3.00000 }        0.043949921112663
-cents,50,up,KOMMA,NNS,CD,IN,KOMMA,I,I { I 1.00000 }        0.030242710961389
+50,up,KOMMA,75PUNT25,CD,IN,KOMMA,CD,O,O { O 3.00000 }        0.043949921112662
+cents,50,up,KOMMA,NNS,CD,IN,KOMMA,I,I { I 1.00000 }        0.030242710961388
 PUNT,cents,50,up,PUNT,NNS,CD,IN,I,I { I 1.00000 }        0.024917612966723
 Warner-Lambert,PUNT,PUNT,cents,NNP,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.054158361888197
 Co,Warner-Lambert,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,I { I 143.000 }        0.094089873107254
@@ -1493,7 +1493,7 @@ for,record,a,were,IN,NN,DT,VBD,I,I { I 1.00000 }        0.034149446146388
 any,for,record,a,DT,IN,NN,DT,O,O { O 1.00000 }        0.029058913850784
 quarter,any,for,record,NN,DT,IN,NN,I,I { I 1.00000 }        0.0012601547482114
 and,quarter,any,for,CC,NN,DT,IN,I,I { I 1.00000 }        0.010294826263358
-the,and,quarter,any,DT,CC,NN,DT,O,O { O 1.00000 }        0.0096792380660472
+the,and,quarter,any,DT,CC,NN,DT,O,O { O 1.00000 }        0.0096792380660471
 eighth,the,and,quarter,JJ,DT,CC,NN,I,I { I 1.00000 }        0.056613380433953
 quarter,eighth,the,and,NN,JJ,DT,CC,I,I { I 1.00000 }        0.094260984167582
 in,quarter,eighth,the,IN,NN,JJ,DT,I,I { I 1.00000 }        0.063959142385491
@@ -1515,7 +1515,7 @@ in,growth,by,Spurred,IN,NN,IN,VBN,I,I { I 1.00000 }        0.032483773425899
 world-wide,in,growth,by,JJ,IN,NN,IN,O,O { O 1.00000 }        0.060759467105763
 sales,world-wide,in,growth,NNS,JJ,IN,NN,I,I { I 1.00000 }        0.0072594412134820
 of,sales,world-wide,in,IN,NNS,JJ,IN,I,I { I 1.00000 }        0.014787103940182
-the,of,sales,world-wide,DT,IN,NNS,JJ,O,O { O 1.00000 }        0.024633293749837
+the,of,sales,world-wide,DT,IN,NNS,JJ,O,O { O 1.00000 }        0.024633293749836
 company,the,of,sales,NN,DT,IN,NNS,I,I { I 1.00000 }        0.0000000000000
 's,company,the,of,POS,NN,DT,IN,I,I { I 5.00000 }        0.0000000000000
 prescription,'s,company,the,NN,POS,NN,DT,B,B { B 9.00000 }        0.053005251295110
@@ -1529,11 +1529,11 @@ be,will,1989,said,VB,MD,CD,VBD,O,O { O 1.00000 }        0.030402921124127
 the,be,will,1989,DT,VB,MD,CD,O,O { O 1.00000 }        0.0021490325416643
 best,the,be,will,JJS,DT,VB,MD,I,I { I 1.00000 }        0.0090473142279367
 year,best,the,be,NN,JJS,DT,VB,I,I { I 1.00000 }        0.018241799608688
-in,year,best,the,IN,NN,JJS,DT,I,I { I 1.00000 }        0.0054877372260609
+in,year,best,the,IN,NN,JJS,DT,I,I { I 1.00000 }        0.0054877372260608
 its,in,year,best,PRP$,IN,NN,JJS,O,O { O 1.00000 }        0.035211362473930
 history,its,in,year,NN,PRP$,IN,NN,I,I { I 1.00000 }        0.034757632993279
 KOMMA,history,its,in,KOMMA,NN,PRP$,IN,I,I { I 1.00000 }        0.039694956437163
-with,KOMMA,history,its,IN,KOMMA,NN,PRP$,O,O { O 1.00000 }        0.0033469278448183
+with,KOMMA,history,its,IN,KOMMA,NN,PRP$,O,O { O 1.00000 }        0.0033469278448182
 per-share,with,KOMMA,history,JJ,IN,KOMMA,NN,O,O { O 1.00000 }        0.036830100319773
 earnings,per-share,with,KOMMA,NNS,JJ,IN,KOMMA,I,I { I 1.00000 }        0.016865574181163
 expected,earnings,per-share,with,VBN,NNS,JJ,IN,I,I { I 1.00000 }        0.026550427101537
@@ -1618,7 +1618,7 @@ health-care,non-prescription,'s,Warner-Lambert,NN,JJ,POS,NNP,I,I { I 13.0000 }  
 products,health-care,non-prescription,'s,NNS,NN,JJ,POS,I,I { I 1.00000 }        0.080534648525469
 KOMMA,products,health-care,non-prescription,KOMMA,NNS,NN,JJ,I,I { I 1.00000 }        0.037841383417821
 such,KOMMA,products,health-care,JJ,KOMMA,NNS,NN,O,O { O 1.00000 }        0.056674189763594
-as,such,KOMMA,products,IN,JJ,KOMMA,NNS,O,O { O 1.00000 }        0.00092454048647229
+as,such,KOMMA,products,IN,JJ,KOMMA,NNS,O,O { O 1.00000 }        0.00092454048647228
 Halls,as,such,KOMMA,NNP,IN,JJ,KOMMA,O,O { O 1.00000 }        0.057489302462988
 cough,Halls,as,such,NN,NNP,IN,JJ,I,I { I 1.00000 }        0.15098857659565
 tablets,cough,Halls,as,NNS,NN,NNP,IN,I,I { I 1.00000 }        0.16063036848463
@@ -1634,7 +1634,7 @@ KOMMA,lotion,skin,Lubriderm,KOMMA,NN,NN,NNP,I,I { I 1.00000 }        0.133359711
 increased,KOMMA,lotion,skin,VBN,KOMMA,NN,NN,O,O { O 1.00000 }        0.073740529345758
 3,increased,KOMMA,lotion,CD,VBN,KOMMA,NN,O,I { I 1.00000 }        0.060053818048612
 PROCENT,3,increased,KOMMA,NN,CD,VBN,KOMMA,I,I { I 1.00000 }        0.029822951830867
-to,PROCENT,3,increased,TO,NN,CD,VBN,I,I { I 1.00000 }        0.0090970579766842
+to,PROCENT,3,increased,TO,NN,CD,VBN,I,I { I 1.00000 }        0.0090970579766841
 $,to,PROCENT,3,$,TO,NN,CD,O,O { O 2.00000 }        0.0012604507253326
 362,$,to,PROCENT,CD,$,TO,NN,I,I { I 20.0000 }        0.053005251295110
 million,362,$,to,CD,CD,$,TO,I,I { I 23.0000 }        0.094089873107254
@@ -1788,7 +1788,7 @@ patent,of,settlement,the,NN,IN,NN,DT,O,O { O 1.00000 }        0.026946515391278
 litigation,patent,of,settlement,NN,NN,IN,NN,I,I { I 1.00000 }        0.064528863689457
 at,litigation,patent,of,IN,NN,NN,IN,I,I { I 1.00000 }        0.091765815531084
 Lilly,at,litigation,patent,NNP,IN,NN,NN,O,O { O 1.00000 }        0.0097913519455483
-'s,Lilly,at,litigation,POS,NNP,IN,NN,I,I { I 1.00000 }        0.052698890498804
+'s,Lilly,at,litigation,POS,NNP,IN,NN,I,I { I 1.00000 }        0.052698890498803
 Hybritech,'s,Lilly,at,NNP,POS,NNP,IN,B,B { B 1.00000 }        0.071256017414442
 IncPUNT,Hybritech,'s,Lilly,NNP,NNP,POS,NNP,I,I { I 1.00000 }        0.10077307819100
 unit,IncPUNT,Hybritech,'s,NN,NNP,NNP,POS,I,I { I 1.00000 }        0.067471525114534
@@ -1968,9 +1968,9 @@ was,per-share,KOMMA,operations,VBD,NN,KOMMA,NNS,I,I { I 1.00000 }        0.00760
 cents,88,was,per-share,NNS,CD,VBD,NN,I,I { I 2.00000 }        0.062580790497312
 a,cents,88,was,DT,NNS,CD,VBD,I,I { I 2.00000 }        0.0095195344740880
 year,a,cents,88,NN,DT,NNS,CD,B,B { B 6.00000 }        0.023066056819281
-ago,year,a,cents,RB,NN,DT,NNS,I,I { I 2.00000 }        0.0045741806902172
+ago,year,a,cents,RB,NN,DT,NNS,I,I { I 2.00000 }        0.0045741806902171
 PUNT,ago,year,a,PUNT,RB,NN,DT,O,O { O 6.00000 }        0.0000000000000
-The,PUNT,PUNT,ago,DT,PUNT,PUNT,RB,O,O { O 1.00000 }        0.00061368053819388
+The,PUNT,PUNT,ago,DT,PUNT,PUNT,RB,O,O { O 1.00000 }        0.00061368053819387
 per-share,The,PUNT,PUNT,JJ,DT,PUNT,PUNT,I,I { I 17.0000 }        0.0000000000000
 estimates,per-share,The,PUNT,NNS,JJ,DT,PUNT,I,I { I 1.00000 }        0.021926218706703
 mean,estimates,per-share,The,VBP,NNS,JJ,DT,I,I { I 2.00000 }        0.062831461399911
@@ -2077,7 +2077,7 @@ quarter,the,in,PROCENT,NN,DT,IN,NN,I,I { I 1.00000 }        0.0011864258637483
 KOMMA,quarter,the,in,KOMMA,NN,DT,IN,I,I { I 1.00000 }        0.00080242805624457
 MrPUNT,KOMMA,quarter,the,NNP,KOMMA,NN,DT,O,O { O 1.00000 }        0.011695287083161
 Mark,MrPUNT,KOMMA,quarter,NNP,NNP,KOMMA,NN,I,I { I 1.00000 }        0.0039033836036275
-added,Mark,MrPUNT,KOMMA,VBD,NNP,NNP,KOMMA,I,I { I 1.00000 }        0.010379925134400
+added,Mark,MrPUNT,KOMMA,VBD,NNP,NNP,KOMMA,I,I { I 1.00000 }        0.010379925134399
 PUNT,added,Mark,MrPUNT,PUNT,VBD,NNP,NNP,O,O { O 1.00000 }        0.022360862835778
 He,PUNT,PUNT,added,PRP,PUNT,PUNT,VBD,O,O { O 1.00000 }        0.00095200511097122
 said,He,PUNT,PUNT,VBD,PRP,PUNT,PUNT,I,I { I 8.00000 }        0.0000000000000
@@ -2134,7 +2134,7 @@ includes,which,KOMMA,business,VBZ,WDT,KOMMA,NN,I,I { I 1.00000 }        0.024876
 such,includes,which,KOMMA,JJ,VBZ,WDT,KOMMA,O,O { O 1.00000 }        0.044318475411553
 brands,such,includes,which,NNS,JJ,VBZ,WDT,I,I { I 1.00000 }        0.034248780466468
 as,brands,such,includes,IN,NNS,JJ,VBZ,I,I { I 1.00000 }        0.035048560552538
-Fab,as,brands,such,NNP,IN,NNS,JJ,O,O { O 1.00000 }        0.0043156736791279
+Fab,as,brands,such,NNP,IN,NNS,JJ,O,O { O 1.00000 }        0.0043156736791278
 laundry,Fab,as,brands,NN,NNP,IN,NNS,I,I { I 1.00000 }        0.015081301515413
 detergent,laundry,Fab,as,NN,NN,NNP,IN,I,I { I 1.00000 }        0.0019253087691834
 and,detergent,laundry,Fab,CC,NN,NN,NNP,I,I { I 1.00000 }        0.015463455471799
@@ -2186,7 +2186,7 @@ their,say,could,you,PRP$,VB,MD,PRP,O,O { O 1.00000 }        0.016348011035452
 business,their,say,could,NN,PRP$,VB,MD,I,I { I 1.00000 }        0.015300355997534
 in,business,their,say,IN,NN,PRP$,VB,I,I { I 1.00000 }        0.036986567087100
 the,in,business,their,DT,IN,NN,PRP$,O,O { O 1.00000 }        0.0071570114469427
-UPUNTSPUNT,the,in,business,NNP,DT,IN,NN,I,I { I 1.00000 }        0.0021540950811913
+UPUNTSPUNT,the,in,business,NNP,DT,IN,NN,I,I { I 1.00000 }        0.0021540950811912
 was,UPUNTSPUNT,the,in,VBD,NNP,DT,IN,I,I { I 1.00000 }        0.0080242637034764
 mediocre,was,UPUNTSPUNT,the,JJ,VBD,NNP,DT,O,O { O 1.00000 }        0.028441604234259
 KOMMA,mediocre,was,UPUNTSPUNT,KOMMA,JJ,VBD,NNP,O,O { O 1.00000 }        0.10882628714507
@@ -2220,7 +2220,7 @@ it,But,``,PUNT,PRP,CC,``,PUNT,O,O { O 1.00000 }        0.0074242289361089
 not,'s,it,But,RB,VBZ,PRP,CC,O,O { O 1.00000 }        0.0071123340912720
 mediocre,not,'s,it,JJ,RB,VBZ,PRP,O,O { O 1.00000 }        0.0012830890037890
 KOMMA,mediocre,not,'s,KOMMA,JJ,RB,VBZ,O,O { O 1.00000 }        0.12141058197818
-it,KOMMA,mediocre,not,PRP,KOMMA,JJ,RB,O,O { O 1.00000 }        0.0053717140625302
+it,KOMMA,mediocre,not,PRP,KOMMA,JJ,RB,O,O { O 1.00000 }        0.0053717140625301
 's,it,KOMMA,mediocre,VBZ,PRP,KOMMA,JJ,I,I { I 1.00000 }        0.011082747307809
 a,'s,it,KOMMA,DT,VBZ,PRP,KOMMA,O,O { O 1.00000 }        0.0034647173526332
 real,a,'s,it,JJ,DT,VBZ,PRP,I,I { I 1.00000 }        0.0068149608807999
@@ -2331,7 +2331,7 @@ and,radio,in,interests,CC,NN,IN,NNS,I,I { I 1.00000 }        0.063984538239679
 television,and,radio,in,NN,CC,NN,IN,I,I { I 1.00000 }        0.0053197891884050
 stations,television,and,radio,NNS,NN,CC,NN,I,I { I 1.00000 }        0.094067681452932
 KOMMA,stations,television,and,KOMMA,NNS,NN,CC,I,I { I 1.00000 }        0.095684366404214
-increasing,KOMMA,stations,television,VBG,KOMMA,NNS,NN,O,O { O 1.00000 }        0.063916737391993
+increasing,KOMMA,stations,television,VBG,KOMMA,NNS,NN,O,O { O 1.00000 }        0.063916737391992
 the,increasing,KOMMA,stations,DT,VBG,KOMMA,NNS,O,O { O 1.00000 }        0.028873011862417
 number,the,increasing,KOMMA,NN,DT,VBG,KOMMA,I,I { I 1.00000 }        0.023989263291433
 of,number,the,increasing,IN,NN,DT,VBG,I,I { I 1.00000 }        0.0040931236925693
@@ -2348,7 +2348,7 @@ KOMMA,franchises,Muzak,operates,KOMMA,NNS,NNP,VBZ,I,I { I 1.00000 }        0.161
 entertainment,KOMMA,franchises,Muzak,NN,KOMMA,NNS,NNP,O,O { O 1.00000 }        0.092654356400542
 properties,entertainment,KOMMA,franchises,NNS,NN,KOMMA,NNS,I,I { I 1.00000 }        0.028360141319983
 and,properties,entertainment,KOMMA,CC,NNS,NN,KOMMA,I,I { I 1.00000 }        0.083952467967527
-small,and,properties,entertainment,JJ,CC,NNS,NN,O,O { O 1.00000 }        0.0020593896722720
+small,and,properties,entertainment,JJ,CC,NNS,NN,O,O { O 1.00000 }        0.0020593896722719
 cable-television,small,and,properties,NN,JJ,CC,NNS,I,I { I 1.00000 }        0.088810792080855
 systems,cable-television,small,and,NNS,NN,JJ,CC,I,I { I 1.00000 }        0.094089873107254
 PUNT,systems,cable-television,small,PUNT,NNS,NN,JJ,I,I { I 1.00000 }        0.087816292023433
@@ -2357,8 +2357,8 @@ Ittleson,MrPUNT,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,I { I 57.0000 }        0.053005251
 is,Ittleson,MrPUNT,PUNT,VBZ,NNP,NNP,PUNT,I,I { I 8.00000 }        0.094089873107254
 executive,is,Ittleson,MrPUNT,NN,VBZ,NNP,NNP,O,O { O 1.00000 }        0.083352073233029
 KOMMA,executive,is,Ittleson,KOMMA,NN,VBZ,NNP,I,I { I 1.00000 }        0.069279018270240
-special,KOMMA,executive,is,JJ,KOMMA,NN,VBZ,O,O { O 1.00000 }        0.065401750591433
-projects,special,KOMMA,executive,NNS,JJ,KOMMA,NN,I,I { I 1.00000 }        0.0090649514209119
+special,KOMMA,executive,is,JJ,KOMMA,NN,VBZ,O,O { O 1.00000 }        0.065401750591432
+projects,special,KOMMA,executive,NNS,JJ,KOMMA,NN,I,I { I 1.00000 }        0.0090649514209118
 KOMMA,projects,special,KOMMA,KOMMA,NNS,JJ,KOMMA,I,I { I 1.00000 }        0.038279489754998
 at,KOMMA,projects,special,IN,KOMMA,NNS,JJ,O,O { O 1.00000 }        0.042752611376888
 CIT,at,KOMMA,projects,NNP,IN,KOMMA,NNS,O,O { O 1.00000 }        0.057970535941548
@@ -2368,7 +2368,7 @@ IncPUNT,Holdings,Group,CIT,NNP,NNP,NNP,NNP,I,I { I 1.00000 }        0.0719402115
 KOMMA,IncPUNT,Holdings,Group,KOMMA,NNP,NNP,NNP,I,I { I 1.00000 }        0.0010907746661532
 which,KOMMA,IncPUNT,Holdings,WDT,KOMMA,NNP,NNP,O,O { O 1.00000 }        0.0000000000000
 is,which,KOMMA,IncPUNT,VBZ,WDT,KOMMA,NNP,I,I { I 1.00000 }        0.0000000000000
-controlled,is,which,KOMMA,VBN,VBZ,WDT,KOMMA,O,O { O 1.00000 }        0.010797366004560
+controlled,is,which,KOMMA,VBN,VBZ,WDT,KOMMA,O,O { O 1.00000 }        0.010797366004559
 by,controlled,is,which,IN,VBN,VBZ,WDT,O,O { O 1.00000 }        0.020781595039914
 Manufacturers,by,controlled,is,NNP,IN,VBN,VBZ,O,O { O 1.00000 }        0.030332415589836
 Hanover,Manufacturers,by,controlled,NNP,NNP,IN,VBN,I,I { I 1.00000 }        0.020650521508269
@@ -2542,7 +2542,7 @@ his,on,attack,second,PRP$,IN,NN,JJ,O,O { O 1.00000 }        0.070938309881010
 employer,his,on,attack,NN,PRP$,IN,NN,I,I { I 1.00000 }        0.028759494004233
 in,employer,his,on,IN,NN,PRP$,IN,I,I { I 1.00000 }        0.059966601384950
 as,in,employer,his,IN,IN,NN,PRP$,O,O { O 1.00000 }        0.044851445581065
-many,as,in,employer,JJ,IN,IN,NN,I,O { O 1.00000 }        0.069750958670073
+many,as,in,employer,JJ,IN,IN,NN,I,O { O 1.00000 }        0.069750958670072
 weeks,many,as,in,NNS,JJ,IN,IN,I,I { I 1.00000 }        0.0090782599903047
 --,weeks,many,as,:,NNS,JJ,IN,I,I { I 1.00000 }        0.052130143199058
 averred,--,weeks,many,VBD,:,NNS,JJ,O,O { O 1.00000 }        0.065333686954122
@@ -2555,7 +2555,7 @@ so,was,countenance,shadowy,RB,VBD,NN,JJ,O,O { O 2.00000 }        0.0953097281164
 bad,so,was,countenance,JJ,RB,VBD,NN,O,O { O 1.00000 }        0.073662155513154
 KOMMA,bad,so,was,KOMMA,JJ,RB,VBD,O,O { O 1.00000 }        0.039751142312366
 it,KOMMA,bad,so,PRP,KOMMA,JJ,RB,O,O { O 1.00000 }        0.026675076840447
-looked,it,KOMMA,bad,VBD,PRP,KOMMA,JJ,I,I { I 1.00000 }        0.0070650606208112
+looked,it,KOMMA,bad,VBD,PRP,KOMMA,JJ,I,I { I 1.00000 }        0.0070650606208111
 ``,looked,it,KOMMA,``,VBD,PRP,KOMMA,O,O { O 1.00000 }        0.036749060541538
 like,``,looked,it,IN,``,VBD,PRP,O,O { O 1.00000 }        0.035074538088431
 a,like,``,looked,DT,IN,``,VBD,O,O { O 1.00000 }        0.041418535508694
@@ -2634,7 +2634,7 @@ PUNTPUNTPUNT,coat,trench,his,:,NN,NN,PRP$,I,I { I 1.00000 }        0.12380396082
 or,PUNTPUNTPUNT,coat,trench,CC,:,NN,NN,O,O { O 1.00000 }        0.057060345533908
 a,or,PUNTPUNTPUNT,coat,DT,CC,:,NN,O,O { O 1.00000 }        0.058735668368476
 guy,a,or,PUNTPUNTPUNT,NN,DT,CC,:,I,I { I 1.00000 }        0.021506628757720
-who,guy,a,or,WP,NN,DT,CC,I,I { I 1.00000 }        0.0068435514062668
+who,guy,a,or,WP,NN,DT,CC,I,I { I 1.00000 }        0.0068435514062667
 boasted,who,guy,a,VBD,WP,NN,DT,B,B { B 1.00000 }        0.055822345477468
 he,boasted,who,guy,PRP,VBD,WP,NN,O,O { O 1.00000 }        0.10105409884971
 'd,he,boasted,who,MD,PRP,VBD,WP,I,I { I 1.00000 }        0.080224080604773
@@ -2650,7 +2650,7 @@ last,the,for,roommate,JJ,DT,IN,NN,I,I { I 1.00000 }        0.029105730779733
 years,19,last,the,NNS,CD,JJ,DT,I,I { I 1.00000 }        0.029611596751222
 KOMMA,years,19,last,KOMMA,NNS,CD,JJ,I,I { I 1.00000 }        0.013509685884280
 '',KOMMA,years,19,'',KOMMA,NNS,CD,O,O { O 1.00000 }        0.0065679705895029
-he,'',KOMMA,years,PRP,'',KOMMA,NNS,O,O { O 2.00000 }        0.00097813107853575
+he,'',KOMMA,years,PRP,'',KOMMA,NNS,O,O { O 2.00000 }        0.00097813107853574
 said,he,'',KOMMA,VBD,PRP,'',KOMMA,I,I { I 7.00000 }        0.0000000000000
 PUNT,said,he,'',PUNT,VBD,PRP,'',O,O { O 5.00000 }        0.0000000000000
 MrPUNT,PUNT,PUNT,said,NNP,PUNT,PUNT,VBD,O,O { O 3.00000 }        0.0000000000000
@@ -2696,7 +2696,7 @@ KOMMA,English,Bella,or,KOMMA,NNP,NNP,CC,I,I { I 1.00000 }        0.1578696049856
 whose,KOMMA,English,Bella,WP$,KOMMA,NNP,NNP,O,O { O 1.00000 }        0.092139873198352
 ``,whose,KOMMA,English,``,WP$,KOMMA,NNP,I,I { I 1.00000 }        0.053778817596335
 little,``,whose,KOMMA,JJ,``,WP$,KOMMA,I,I { I 1.00000 }        0.010742342751118
-girl,little,``,whose,NN,JJ,``,WP$,I,I { I 1.00000 }        0.098502865228687
+girl,little,``,whose,NN,JJ,``,WP$,I,I { I 1.00000 }        0.098502865228686
 now,girl,little,``,RB,NN,JJ,``,I,I { I 1.00000 }        0.10036626447804
 screams,now,girl,little,VBZ,RB,NN,JJ,O,O { O 1.00000 }        0.11952205300994
 hysterically,screams,now,girl,RB,VBZ,RB,NN,O,O { O 1.00000 }        0.17651826125365
@@ -2825,7 +2825,7 @@ columnists,the,out,cut,NNS,IN,RP,VB,I,I { I 2.00000 }        0.061917136534151
 ',columnists,the,out,POS,NNS,IN,RP,I,I { I 1.00000 }        0.099107105101708
 pictures,',columnists,the,NNS,POS,NNS,IN,B,B { B 1.00000 }        0.091242316033572
 PUNTPUNTPUNT,pictures,',columnists,:,NNS,POS,NNS,I,I { I 1.00000 }        0.087396808405718
-PUNT,PUNTPUNTPUNT,pictures,',PUNT,:,NNS,POS,O,O { O 1.00000 }        0.014013314270544
+PUNT,PUNTPUNTPUNT,pictures,',PUNT,:,NNS,POS,O,O { O 1.00000 }        0.014013314270543
 Deeply,PUNT,PUNT,PUNTPUNTPUNT,RB,PUNT,PUNT,:,O,O { O 1.00000 }        0.053184851598698
 ingrained,Deeply,PUNT,PUNT,JJ,RB,PUNT,PUNT,O,O { I 1.00000, O 5.00000 }        0.14709512440236
 in,ingrained,Deeply,PUNT,IN,JJ,RB,PUNT,O,O { O 1.00000 }        0.16022655974187
@@ -2892,7 +2892,7 @@ long,the,over,climate,JJ,DT,IN,NN,I,I { I 1.00000 }        0.020180297913947
 term,long,the,over,NN,JJ,DT,IN,I,I { I 1.00000 }        0.019125348856404
 ?,term,long,the,PUNT,NN,JJ,DT,I,I { I 1.00000 }        0.051807514972870
 Clearly,?,?,term,RB,PUNT,PUNT,NN,O,O { O 1.00000 }        0.00039935268425038
-not,Clearly,?,?,RB,RB,PUNT,PUNT,O,O { O 1.00000 }        0.072684719193871
+not,Clearly,?,?,RB,RB,PUNT,PUNT,O,O { O 1.00000 }        0.072684719193870
 PUNT,not,Clearly,?,PUNT,RB,RB,PUNT,O,O { O 1.00000 }        0.025998605956441
 About,PUNT,PUNT,not,IN,PUNT,PUNT,RB,O,O { O 1.00000 }        0.0010026312587873
 20KOMMA000,About,PUNT,PUNT,CD,IN,PUNT,PUNT,I,I { I 1.00000 }        0.092131149033952
@@ -3010,7 +3010,7 @@ global,about,serious,are,JJ,IN,JJ,VBP,O,O { O 1.00000 }        0.059551461201427
 warming,global,about,serious,NN,JJ,IN,JJ,I,I { I 1.00000 }        0.071633904117266
 we,warming,global,about,PRP,NN,JJ,IN,I,I { I 1.00000 }        0.10183131330135
 must,we,warming,global,MD,PRP,NN,JJ,B,B { B 1.00000 }        0.10340108993515
-look,must,we,warming,VB,MD,PRP,NN,O,O { O 1.00000 }        0.031589098338846
+look,must,we,warming,VB,MD,PRP,NN,O,O { O 1.00000 }        0.031589098338845
 at,look,must,we,IN,VB,MD,PRP,O,O { O 1.00000 }        0.041814029696324
 the,at,look,must,DT,IN,VB,MD,O,O { O 1.00000 }        0.010838649088072
 big,the,at,look,JJ,DT,IN,VB,I,I { I 1.00000 }        0.013687898110262
@@ -3334,7 +3334,7 @@ scrutiny,closer,that,says,NN,JJR,IN,VBZ,I,O { O 1.00000 }        0.1397500999773
 of,scrutiny,closer,that,IN,NN,JJR,IN,I,I { I 1.00000 }        0.11092418039277
 how,of,scrutiny,closer,WRB,IN,NN,JJR,O,O { O 1.00000 }        0.080466571613610
 the,how,of,scrutiny,DT,WRB,IN,NN,O,O { O 1.00000 }        0.0000000000000
-agency,the,how,of,NN,DT,WRB,IN,I,I { I 1.00000 }        0.0096755666104126
+agency,the,how,of,NN,DT,WRB,IN,I,I { I 1.00000 }        0.0096755666104125
 uses,agency,the,how,VBZ,NN,DT,WRB,I,I { I 1.00000 }        0.016760813889015
 its,uses,agency,the,PRP$,VBZ,NN,DT,O,O { O 1.00000 }        0.094639878072579
 resources,its,uses,agency,NNS,PRP$,VBZ,NN,I,I { I 1.00000 }        0.064517984814617
@@ -3348,7 +3348,7 @@ enhancing,toward,way,long,VBG,IN,NN,JJ,O,O { O 1.00000 }        0.08075589006760
 its,enhancing,toward,way,PRP$,VBG,IN,NN,O,O { O 1.00000 }        0.099875462595342
 ability,its,enhancing,toward,NN,PRP$,VBG,IN,I,I { I 1.00000 }        0.082752827600038
 to,ability,its,enhancing,TO,NN,PRP$,VBG,I,I { I 1.00000 }        0.028539741623571
-collect,to,ability,its,VB,TO,NN,PRP$,O,O { O 1.00000 }        0.026062496392638
+collect,to,ability,its,VB,TO,NN,PRP$,O,O { O 1.00000 }        0.026062496392637
 more,collect,to,ability,JJR,VB,TO,NN,O,O { O 1.00000 }        0.090240853944708
 tax,more,collect,to,NN,JJR,VB,TO,I,I { I 1.00000 }        0.026903917151061
 revenue,tax,more,collect,NN,NN,JJR,VB,I,I { I 1.00000 }        0.056083691264220
@@ -3376,7 +3376,7 @@ in,KOMMA,which,process,IN,KOMMA,WDT,NN,O,O { O 1.00000 }        0.01723572759872
 turn,in,KOMMA,which,NN,IN,KOMMA,WDT,O,O { O 1.00000 }        0.0058136608829065
 KOMMA,turn,in,KOMMA,KOMMA,NN,IN,KOMMA,I,I { I 1.00000 }        0.0000000000000
 I,KOMMA,turn,in,PRP,KOMMA,NN,IN,O,O { O 1.00000 }        0.021697006034009
-believe,I,KOMMA,turn,VBP,PRP,KOMMA,NN,I,I { I 1.00000 }        0.0071714956162285
+believe,I,KOMMA,turn,VBP,PRP,KOMMA,NN,I,I { I 1.00000 }        0.0071714956162284
 will,believe,I,KOMMA,MD,VBP,PRP,KOMMA,O,O { O 1.00000 }        0.030150871790021
 result,will,believe,I,VB,MD,VBP,PRP,O,O { O 1.00000 }        0.031719757643417
 in,result,will,believe,IN,VB,MD,VBP,O,O { O 1.00000 }        0.010238637747428
@@ -3399,7 +3399,7 @@ the,fill,to,hopes,DT,VB,TO,VBZ,O,O { O 1.00000 }        0.030480366695046
 new,the,fill,to,JJ,DT,VB,TO,I,I { I 1.00000 }        0.0095133197012314
 positions,new,the,fill,NNS,JJ,DT,VB,I,I { I 1.00000 }        0.040176784529180
 soon,positions,new,the,RB,NNS,JJ,DT,I,I { I 1.00000 }        0.081125633814221
-PUNT,soon,positions,new,PUNT,RB,NNS,JJ,O,O { O 1.00000 }        0.094307612456425
+PUNT,soon,positions,new,PUNT,RB,NNS,JJ,O,O { O 1.00000 }        0.094307612456424
 Customarily,PUNT,PUNT,soon,RB,PUNT,PUNT,RB,O,O { O 3.00000 }        0.053629483665395
 KOMMA,Customarily,PUNT,PUNT,KOMMA,RB,PUNT,PUNT,O,O { O 48.0000 }        0.094089873107254
 it,KOMMA,Customarily,PUNT,PRP,KOMMA,RB,PUNT,O,O { O 1.00000 }        0.063779731878369
@@ -3409,7 +3409,7 @@ career,appoint,would,it,NN,VB,MD,PRP,O,O { O 1.00000 }        0.094089873107254
 civil,career,appoint,would,JJ,NN,VB,MD,I,I { I 1.00000 }        0.12297029291268
 servants,civil,career,appoint,NNS,JJ,NN,VB,I,I { I 1.00000 }        0.15426565201699
 from,servants,civil,career,IN,NNS,JJ,NN,I,I { I 1.00000 }        0.10566334302851
-within,from,servants,civil,IN,IN,NNS,JJ,O,O { O 1.00000 }        0.070317685426126
+within,from,servants,civil,IN,IN,NNS,JJ,O,O { O 1.00000 }        0.070317685426125
 the,within,from,servants,DT,IN,IN,NNS,O,O { O 1.00000 }        0.057725030330360
 agency,the,within,from,NN,DT,IN,IN,I,I { I 1.00000 }        0.026226937625142
 KOMMA,agency,the,within,KOMMA,NN,DT,IN,I,I { I 1.00000 }        0.014905466460341
@@ -3492,7 +3492,7 @@ most,the,about,bringing,RBS,DT,IN,VBG,I,I { I 1.00000 }        0.044539704890466
 difficult,most,the,about,JJ,RBS,DT,IN,I,I { I 1.00000 }        0.014317743250931
 and,difficult,most,the,CC,JJ,RBS,DT,I,I { I 1.00000 }        0.028279001280610
 costly,and,difficult,most,JJ,CC,JJ,RBS,I,O { O 1.00000 }        0.016482615481462
-modernization,costly,and,difficult,NN,JJ,CC,JJ,I,I { I 1.00000 }        0.093619246675714
+modernization,costly,and,difficult,NN,JJ,CC,JJ,I,I { I 1.00000 }        0.093619246675713
 of,modernization,costly,and,IN,NN,JJ,CC,I,I { I 1.00000 }        0.090961581991590
 an,of,modernization,costly,DT,IN,NN,JJ,O,O { O 1.00000 }        0.028360141319983
 information,an,of,modernization,NN,DT,IN,NN,I,I { I 1.00000 }        0.011661932577291
@@ -3547,7 +3547,7 @@ was,KOMMA,Panama,in,VBD,KOMMA,NNP,IN,O,O { O 1.00000 }        0.026234130018593
 buried,was,KOMMA,Panama,VBN,VBD,KOMMA,NNP,O,O { O 1.00000 }        0.054741964987638
 KOMMA,buried,was,KOMMA,KOMMA,VBN,VBD,KOMMA,O,O { O 1.00000 }        0.10372639865014
 his,KOMMA,buried,was,PRP$,KOMMA,VBN,VBD,O,O { O 1.00000 }        0.071682553022850
-body,his,KOMMA,buried,NN,PRP$,KOMMA,VBN,I,I { I 1.00000 }        0.084259849264602
+body,his,KOMMA,buried,NN,PRP$,KOMMA,VBN,I,I { I 1.00000 }        0.084259849264601
 bore,body,his,KOMMA,VBD,NN,PRP$,KOMMA,I,I { I 2.00000 }        0.14726202788992
 several,bore,body,his,JJ,VBD,NN,PRP$,O,O { O 1.00000 }        0.16498075590345
 gunshot,several,bore,body,NN,JJ,VBD,NN,I,I { I 1.00000 }        0.15166229955408
@@ -3627,7 +3627,7 @@ MrPUNT,KOMMA,mistrust,and,NNP,KOMMA,NN,CC,O,O { O 1.00000 }        0.06455165301
 Noriega,MrPUNT,KOMMA,mistrust,NNP,NNP,KOMMA,NN,I,I { I 1.00000 }        0.031031147631167
 has,Noriega,MrPUNT,KOMMA,VBZ,NNP,NNP,KOMMA,I,I { I 1.00000 }        0.024895605566090
 put,has,Noriega,MrPUNT,VBN,VBZ,NNP,NNP,O,O { O 1.00000 }        0.012471823834144
-to,put,has,Noriega,TO,VBN,VBZ,NNP,O,O { O 1.00000 }        0.00079389346150015
+to,put,has,Noriega,TO,VBN,VBZ,NNP,O,O { O 1.00000 }        0.00079389346150014
 death,to,put,has,NN,TO,VBN,VBZ,O,O { O 1.00000 }        0.026302467071462
 some,death,to,put,DT,NN,TO,VBN,I,I { I 1.00000 }        0.072802414667232
 70,some,death,to,CD,DT,NN,TO,B,I { I 1.00000 }        0.069233915522482
@@ -3637,7 +3637,7 @@ troops,his,of,70,NNS,PRP$,IN,CD,I,I { I 1.00000 }        0.012120186730842
 involved,troops,his,of,VBN,NNS,PRP$,IN,I,I { I 1.00000 }        0.047077876674484
 in,involved,troops,his,IN,VBN,NNS,PRP$,O,O { O 1.00000 }        0.011094932540489
 the,in,involved,troops,DT,IN,VBN,NNS,O,O { O 1.00000 }        0.0076711837919383
-coup,the,in,involved,NN,DT,IN,VBN,I,I { I 1.00000 }        0.0061381361375354
+coup,the,in,involved,NN,DT,IN,VBN,I,I { I 1.00000 }        0.0061381361375353
 KOMMA,coup,the,in,KOMMA,NN,DT,IN,I,I { I 1.00000 }        0.012640262557374
 according,KOMMA,coup,the,VBG,KOMMA,NN,DT,O,O { O 1.00000 }        0.012572058986330
 to,according,KOMMA,coup,TO,VBG,KOMMA,NN,O,O { O 2.00000 }        0.0051563893309060
@@ -3752,11 +3752,11 @@ brutal,most,his,at,JJ,RBS,PRP$,IN,I,I { I 1.00000 }        0.055046837408591
 and,-,brutal,most,CC,:,JJ,RBS,I,O { O 1.00000 }        0.11359719959461
 efficient,and,-,brutal,JJ,CC,:,JJ,I,O { O 1.00000 }        0.082815526525352
 -,efficient,and,-,:,JJ,CC,:,I,I { I 1.00000 }        0.099214342129370
-in,-,efficient,and,IN,:,JJ,CC,I,O { O 1.00000 }        0.12488080748117
+in,-,efficient,and,IN,:,JJ,CC,I,O { O 1.00000 }        0.12488080748116
 maintaining,in,-,efficient,VBG,IN,:,JJ,O,O { O 1.00000 }        0.10589366758576
 power,maintaining,in,-,NN,VBG,IN,:,O,I { I 1.00000 }        0.10191163964380
 PUNT,power,maintaining,in,PUNT,NN,VBG,IN,I,I { I 1.00000 }        0.092938349365335
-Yet,PUNT,PUNT,power,RB,PUNT,PUNT,NN,O,O { O 1.00000 }        0.0031366712952012
+Yet,PUNT,PUNT,power,RB,PUNT,PUNT,NN,O,O { O 1.00000 }        0.0031366712952011
 KOMMA,Yet,PUNT,PUNT,KOMMA,RB,PUNT,PUNT,O,O { O 1.00000 }        0.039523582670758
 while,KOMMA,Yet,PUNT,IN,KOMMA,RB,PUNT,O,O { O 1.00000 }        0.0078593206420238
 the,while,KOMMA,Yet,DT,IN,KOMMA,RB,O,O { O 1.00000 }        0.022190424640564
@@ -3770,7 +3770,7 @@ foreign,UPUNTSPUNT,major,a,JJ,NNP,JJ,DT,I,I { I 1.00000 }        0.0491663925062
 policy,foreign,UPUNTSPUNT,major,NN,JJ,NNP,JJ,I,I { I 1.00000 }        0.025896049404624
 embarrassment,policy,foreign,UPUNTSPUNT,NN,NN,JJ,NNP,I,I { I 1.00000 }        0.061715568110733
 KOMMA,embarrassment,policy,foreign,KOMMA,NN,NN,JJ,I,I { I 1.00000 }        0.10397017311511
-it,KOMMA,embarrassment,policy,PRP,KOMMA,NN,NN,O,O { O 1.00000 }        0.066155736885953
+it,KOMMA,embarrassment,policy,PRP,KOMMA,NN,NN,O,O { O 1.00000 }        0.066155736885952
 is,it,KOMMA,embarrassment,VBZ,PRP,KOMMA,NN,I,I { I 1.00000 }        0.028360141319983
 merely,is,it,KOMMA,RB,VBZ,PRP,KOMMA,O,O { O 1.00000 }        0.011778944732247
 the,merely,is,it,DT,RB,VBZ,PRP,I,I { I 1.00000 }        0.028563081655971
@@ -3829,7 +3829,7 @@ out,set,policy,foreign,IN,VBN,NN,JJ,O,O { O 1.00000 }        0.035861986347044
 to,out,set,policy,TO,IN,VBN,NN,O,O { O 1.00000 }        0.0046646768108742
 destroy,to,out,set,VB,TO,IN,VBN,O,O { O 1.00000 }        0.053261507947602
 Noriega,destroy,to,out,NNP,VB,TO,IN,O,O { O 1.00000 }        0.10558827879505
-KOMMA,Noriega,destroy,to,KOMMA,NNP,VB,TO,I,I { I 1.00000 }        0.077435340256857
+KOMMA,Noriega,destroy,to,KOMMA,NNP,VB,TO,I,I { I 1.00000 }        0.077435340256856
 it,KOMMA,Noriega,destroy,PRP,KOMMA,NNP,VB,O,O { O 1.00000 }        0.062650189720136
 helped,it,KOMMA,Noriega,VBD,PRP,KOMMA,NNP,I,I { I 1.00000 }        0.012434992883326
 create,helped,it,KOMMA,VB,VBD,PRP,KOMMA,O,O { O 1.00000 }        0.025414926018255
@@ -3853,7 +3853,7 @@ most,For,PUNT,PUNT,RBS,IN,PUNT,PUNT,O,O { O 1.00000 }        0.0000000000000
 of,most,For,PUNT,IN,RBS,IN,PUNT,I,I { I 1.00000 }        0.031614954486257
 the,of,most,For,DT,IN,RBS,IN,I,O { O 1.00000 }        0.0019901853557883
 past,the,of,most,JJ,DT,IN,RBS,I,I { I 1.00000 }        0.013331422299812
-30,past,the,of,CD,JJ,DT,IN,I,I { I 2.00000 }        0.00095867005193132
+30,past,the,of,CD,JJ,DT,IN,I,I { I 2.00000 }        0.00095867005193131
 years,30,past,the,NNS,CD,JJ,DT,I,I { I 2.00000 }        0.0046091522865313
 KOMMA,years,30,past,KOMMA,NNS,CD,JJ,I,I { I 1.00000 }        0.018476373880647
 the,KOMMA,years,30,DT,KOMMA,NNS,CD,O,O { O 1.00000 }        0.00022508048666653
@@ -3871,7 +3871,7 @@ example,for,KOMMA,1960,NN,IN,KOMMA,CD,O,O { O 1.00000 }        0.028360141319983
 KOMMA,example,for,KOMMA,KOMMA,NN,IN,KOMMA,I,I { I 9.00000 }        0.0000000000000
 when,KOMMA,example,for,WRB,KOMMA,NN,IN,O,O { O 1.00000 }        0.0093413346744512
 MrPUNT,when,KOMMA,example,NNP,WRB,KOMMA,NN,O,O { O 1.00000 }        0.011047520937996
-Noriega,MrPUNT,when,KOMMA,NNP,NNP,WRB,KOMMA,I,I { I 1.00000 }        0.060351358578950
+Noriega,MrPUNT,when,KOMMA,NNP,NNP,WRB,KOMMA,I,I { I 1.00000 }        0.060351358578949
 was,Noriega,MrPUNT,when,VBD,NNP,NNP,WRB,I,I { I 1.00000 }        0.017688869769462
 both,was,Noriega,MrPUNT,DT,VBD,NNP,NNP,O,O { O 1.00000 }        0.0097701693183248
 a,both,was,Noriega,DT,DT,VBD,NNP,O,O { O 1.00000 }        0.032726008523596
@@ -3968,7 +3968,7 @@ that,From,PUNT,PUNT,DT,IN,PUNT,PUNT,O,O { O 1.00000 }        0.051373534881598
 point,that,From,PUNT,NN,DT,IN,PUNT,I,I { I 1.00000 }        0.0020339459196658
 on,point,that,From,IN,NN,DT,IN,I,I { I 1.00000 }        0.050183390832679
 KOMMA,on,point,that,KOMMA,IN,NN,DT,I,O { O 1.00000 }        0.016406894365288
-the,KOMMA,on,point,DT,KOMMA,IN,NN,O,O { O 1.00000 }        0.0093559031140086
+the,KOMMA,on,point,DT,KOMMA,IN,NN,O,O { O 1.00000 }        0.0093559031140085
 UPUNTSPUNT,the,KOMMA,on,NNP,DT,KOMMA,IN,I,I { I 1.00000 }        0.0051237349198237
 would,UPUNTSPUNT,the,KOMMA,MD,NNP,DT,KOMMA,I,I { I 1.00000 }        0.0070724005764131
 make,would,UPUNTSPUNT,the,VB,MD,NNP,DT,O,O { O 1.00000 }        0.027617108491152
@@ -3992,7 +3992,7 @@ against,turned,later,and,IN,VBD,RB,CC,O,O { O 1.00000 }        0.041131167172389
 many,against,turned,later,JJ,IN,VBD,RB,O,O { O 1.00000 }        0.055570301158146
 dictators,many,against,turned,NNS,JJ,IN,VBD,I,I { I 1.00000 }        0.0072753111105571
 KOMMA,dictators,many,against,KOMMA,NNS,JJ,IN,I,I { I 2.00000 }        0.039645845297404
-but,KOMMA,dictators,many,CC,KOMMA,NNS,JJ,O,O { O 1.00000 }        0.0019336459990898
+but,KOMMA,dictators,many,CC,KOMMA,NNS,JJ,O,O { O 1.00000 }        0.0019336459990897
 none,but,KOMMA,dictators,NN,CC,KOMMA,NNS,O,O { O 1.00000 }        0.0081467302732293
 quite,none,but,KOMMA,RB,NN,CC,KOMMA,I,I { I 1.00000 }        0.078698349353884
 so,quite,none,but,RB,RB,NN,CC,O,O { O 1.00000 }        0.035156814756868
@@ -4013,7 +4013,7 @@ of,shah,the,as,IN,NN,DT,IN,I,I { I 2.00000 }        0.094089873107254
 Iran,of,shah,the,NNP,IN,NN,DT,O,O { O 20.0000 }        0.11678498317348
 KOMMA,Iran,of,shah,KOMMA,NNP,IN,NN,I,I { I 13.0000 }        0.12245001442724
 as,KOMMA,Iran,of,RB,KOMMA,NNP,IN,O,O { O 2.00000 }        0.066766356488073
-well-born,as,KOMMA,Iran,JJ,RB,KOMMA,NNP,O,O { O 1.00000 }        0.097526710626448
+well-born,as,KOMMA,Iran,JJ,RB,KOMMA,NNP,O,O { O 1.00000 }        0.097526710626447
 as,well-born,as,KOMMA,IN,JJ,RB,KOMMA,O,O { O 1.00000 }        0.094472191491680
 Nicaragua,as,well-born,as,NNP,IN,JJ,RB,O,I { I 1.00000 }        0.065123815893566
 's,Nicaragua,as,well-born,POS,NNP,IN,JJ,I,I { I 1.00000 }        0.061465077270496
@@ -4021,7 +4021,7 @@ Anastasio,'s,Nicaragua,as,NNP,POS,NNP,IN,B,B { B 1.00000 }        0.055056275755
 Somoza,Anastasio,'s,Nicaragua,NNP,NNP,POS,NNP,I,I { I 1.00000 }        0.14709512440236
 KOMMA,Somoza,Anastasio,'s,KOMMA,NNP,NNP,POS,I,I { I 2.00000 }        0.15862605920422
 as,KOMMA,Somoza,Anastasio,RB,KOMMA,NNP,NNP,O,O { O 1.00000 }        0.094436935133783
-imperial,as,KOMMA,Somoza,JJ,RB,KOMMA,NNP,O,O { O 1.00000 }        0.097526710626448
+imperial,as,KOMMA,Somoza,JJ,RB,KOMMA,NNP,O,O { O 1.00000 }        0.097526710626447
 as,imperial,as,KOMMA,IN,JJ,RB,KOMMA,O,O { O 1.00000 }        0.094472191491680
 Ferdinand,as,imperial,as,NNP,IN,JJ,RB,O,O { O 1.00000 }        0.065123815893566
 Marcos,Ferdinand,as,imperial,NNP,NNP,IN,JJ,I,I { I 1.00000 }        0.044049514153626
@@ -4054,13 +4054,13 @@ out,And,PUNT,PUNT,IN,CC,PUNT,PUNT,O,O { O 1.00000 }        0.021668240824865
 of,out,And,PUNT,IN,IN,CC,PUNT,O,O { O 1.00000 }        0.018727395073568
 necessity,of,out,And,NN,IN,IN,CC,O,O { O 1.00000 }        0.054335258641542
 :,necessity,of,out,:,NN,IN,IN,I,I { I 1.00000 }        0.096289467402589
-The,:,necessity,of,DT,:,NN,IN,O,O { O 1.00000 }        0.073535007313115
+The,:,necessity,of,DT,:,NN,IN,O,O { O 1.00000 }        0.073535007313114
 UPUNTSPUNT,The,:,necessity,NNP,DT,:,NN,I,I { I 1.00000 }        0.043597835679625
 can,UPUNTSPUNT,The,:,MD,NNP,DT,:,I,I { I 1.00000 }        0.012634203132742
 make,can,UPUNTSPUNT,The,VB,MD,NNP,DT,O,O { O 1.00000 }        0.031753371522901
 mistakes,make,can,UPUNTSPUNT,NNS,VB,MD,NNP,O,O { O 1.00000 }        0.056173369954932
 and,mistakes,make,can,CC,NNS,VB,MD,I,I { I 1.00000 }        0.10629826233626
-still,and,mistakes,make,JJ,CC,NNS,VB,O,O { I 1.00000, O 2.00000 }        0.067446727242706
+still,and,mistakes,make,JJ,CC,NNS,VB,O,O { I 1.00000, O 2.00000 }        0.067446727242705
 hope,still,and,mistakes,NN,JJ,CC,NNS,O,O { O 1.00000 }        0.033613481911950
 to,hope,still,and,TO,NN,JJ,CC,O,O { O 1.00000 }        0.063961018956500
 remove,to,hope,still,VB,TO,NN,JJ,O,O { O 1.00000 }        0.068038290383452
@@ -4069,7 +4069,7 @@ from,him,remove,to,IN,PRP,VB,TO,I,I { I 1.00000 }        0.083014071461313
 power,from,him,remove,NN,IN,PRP,VB,O,O { O 1.00000 }        0.12073625714376
 KOMMA,power,from,him,KOMMA,NN,IN,PRP,I,I { I 1.00000 }        0.010650145336277
 but,KOMMA,power,from,CC,KOMMA,NN,IN,O,O { O 1.00000 }        0.055985292003207
-a,but,KOMMA,power,DT,CC,KOMMA,NN,O,O { O 1.00000 }        0.0070900353299958
+a,but,KOMMA,power,DT,CC,KOMMA,NN,O,O { O 1.00000 }        0.0070900353299957
 single,a,but,KOMMA,JJ,DT,CC,KOMMA,I,I { I 1.00000 }        0.0000000000000
 error,single,a,but,NN,JJ,DT,CC,I,I { I 1.00000 }        0.061173303692825
 on,error,single,a,IN,NN,JJ,DT,I,I { I 1.00000 }        0.095816531099120
@@ -4151,7 +4151,7 @@ Panama,of,because,1988,NNP,IN,IN,CD,O,O { O 1.00000 }        0.018757169319721
 's,Panama,of,because,POS,NNP,IN,IN,I,I { I 1.00000 }        0.032131352815010
 dire,'s,Panama,of,JJ,POS,NNP,IN,B,B { B 1.00000 }        0.066028059132747
 economic,dire,'s,Panama,JJ,JJ,POS,NNP,I,I { I 1.00000 }        0.10136094122357
-situation,economic,dire,'s,NN,JJ,JJ,POS,I,I { I 1.00000 }        0.076104017243104
+situation,economic,dire,'s,NN,JJ,JJ,POS,I,I { I 1.00000 }        0.076104017243103
 KOMMA,situation,economic,dire,KOMMA,NN,JJ,JJ,I,I { I 1.00000 }        0.055859898659956
 says,KOMMA,situation,economic,VBZ,KOMMA,NN,JJ,O,O { O 1.00000 }        0.019096059782924
 MrPUNT,says,KOMMA,situation,NNP,VBZ,KOMMA,NN,O,O { O 1.00000 }        0.0063022536266629
@@ -4184,7 +4184,7 @@ the,If,``,PUNT,DT,IN,``,PUNT,O,O { O 1.00000 }        0.0000000000000
 UPUNTSPUNT,the,If,``,NNP,DT,IN,``,I,I { I 1.00000 }        0.018770468002630
 had,UPUNTSPUNT,the,If,VBD,NNP,DT,IN,I,I { I 1.00000 }        0.011873440676712
 sat,had,UPUNTSPUNT,the,VBN,VBD,NNP,DT,O,O { O 1.00000 }        0.053005251295110
-back,sat,had,UPUNTSPUNT,RB,VBN,VBD,NNP,O,O { O 1.00000 }        0.0071469198913913
+back,sat,had,UPUNTSPUNT,RB,VBN,VBD,NNP,O,O { O 1.00000 }        0.0071469198913912
 and,back,sat,had,CC,RB,VBN,VBD,O,O { O 1.00000 }        0.026417563405002
 done,and,back,sat,VBN,CC,RB,VBN,O,O { O 1.00000 }        0.026507550053605
 nothing,done,and,back,NN,VBN,CC,RB,O,O { O 1.00000 }        0.094769806049961
@@ -4293,13 +4293,13 @@ Noriega,against,opposition,Church,NNP,IN,NN,NNP,O,O { O 1.00000 }        0.04347
 PUNT,Noriega,against,opposition,PUNT,NNP,IN,NN,I,I { I 1.00000 }        0.033145461868392
 ``,PUNT,PUNT,Noriega,``,PUNT,PUNT,NNP,O,O { O 2.00000 }        0.00051448320218997
 The,``,PUNT,PUNT,DT,``,PUNT,PUNT,O,O { O 15.0000 }        0.0000000000000
-Americans,The,``,PUNT,NNPS,DT,``,PUNT,I,I { I 1.00000 }        0.020942212115754
+Americans,The,``,PUNT,NNPS,DT,``,PUNT,I,I { I 1.00000 }        0.020942212115753
 have,Americans,The,``,VBP,NNPS,DT,``,I,I { I 1.00000 }        0.019861514638025
-left,have,Americans,The,VBN,VBP,NNPS,DT,O,O { O 1.00000 }        0.010288543625296
+left,have,Americans,The,VBN,VBP,NNPS,DT,O,O { O 1.00000 }        0.010288543625295
 him,left,have,Americans,PRP,VBN,VBP,NNPS,O,O { O 1.00000 }        0.061453132741403
 without,him,left,have,IN,PRP,VBN,VBP,I,I { I 1.00000 }        0.041508396633752
 a,without,him,left,DT,IN,PRP,VBN,O,O { O 1.00000 }        0.018303293214272
-way,a,without,him,NN,DT,IN,PRP,I,I { I 1.00000 }        0.023299442950422
+way,a,without,him,NN,DT,IN,PRP,I,I { I 1.00000 }        0.023299442950421
 out,way,a,without,RB,NN,DT,IN,I,I { I 1.00000 }        0.030550618301388
 PUNT,out,way,a,PUNT,RB,NN,DT,I,O { O 1.00000 }        0.054567204328937
 It,PUNT,PUNT,out,PRP,PUNT,PUNT,RB,O,O { O 1.00000 }        0.0012890973327265
@@ -4330,8 +4330,8 @@ knowledge,intimate,his,:,NN,JJ,PRP$,:,I,I { I 1.00000 }        0.096179790248888
 of,knowledge,intimate,his,IN,NN,JJ,PRP$,I,I { I 1.00000 }        0.15939402029007
 American,of,knowledge,intimate,JJ,IN,NN,JJ,O,O { O 1.00000 }        0.084049937548122
 ways,American,of,knowledge,NNS,JJ,IN,NN,I,I { I 1.00000 }        0.035843440864056
-and,ways,American,of,CC,NNS,JJ,IN,I,I { I 1.00000 }        0.00095867005193132
-weaknesses,and,ways,American,NNS,CC,NNS,JJ,I,O { O 1.00000 }        0.089794499671424
+and,ways,American,of,CC,NNS,JJ,IN,I,I { I 1.00000 }        0.00095867005193131
+weaknesses,and,ways,American,NNS,CC,NNS,JJ,I,O { O 1.00000 }        0.089794499671423
 PUNT,weaknesses,and,ways,PUNT,NNS,CC,NNS,I,I { I 1.00000 }        0.10039212673392
 MrPUNT,PUNT,PUNT,weaknesses,NNP,PUNT,PUNT,NNS,O,O { O 10.0000 }        0.028360141319983
 Noriega,MrPUNT,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,I { I 1.00000 }        0.0022716536269333
@@ -4421,9 +4421,9 @@ KOMMA,Carlos,Luis,PUNT,KOMMA,NNP,NNP,PUNT,I,I { I 1.00000 }        0.09222668778
 knowing,KOMMA,Carlos,Luis,VBG,KOMMA,NNP,NNP,O,I { I 2.00000 }        0.082729201143572
 that,knowing,KOMMA,Carlos,IN,VBG,KOMMA,NNP,O,O { O 1.00000 }        0.12245001442724
 helping,that,knowing,KOMMA,VBG,IN,VBG,KOMMA,O,O { O 1.00000 }        0.067092600407874
-the,helping,that,knowing,DT,VBG,IN,VBG,O,O { O 1.00000 }        0.10821051686308
+the,helping,that,knowing,DT,VBG,IN,VBG,O,O { O 1.00000 }        0.10821051686307
 Americans,the,helping,that,NNPS,DT,VBG,IN,I,I { I 1.00000 }        0.046124379905013
-could,Americans,the,helping,MD,NNPS,DT,VBG,I,I { I 1.00000 }        0.021560373826628
+could,Americans,the,helping,MD,NNPS,DT,VBG,I,I { I 1.00000 }        0.021560373826627
 advance,could,Americans,the,VB,MD,NNPS,DT,O,O { O 1.00000 }        0.020605264285749
 the,advance,could,Americans,DT,VB,MD,NNPS,O,O { O 1.00000 }        0.070084033976672
 career,the,advance,could,NN,DT,VB,MD,I,I { I 1.00000 }        0.019655331367858
@@ -4432,7 +4432,7 @@ any,of,career,the,DT,IN,NN,DT,O,O { O 1.00000 }        0.024186743529323
 Panamanian,any,of,career,JJ,DT,IN,NN,I,I { I 1.00000 }        0.054181002817118
 officer,Panamanian,any,of,NN,JJ,DT,IN,I,I { I 1.00000 }        0.032790742049737
 KOMMA,officer,Panamanian,any,KOMMA,NN,JJ,DT,I,I { I 4.00000 }        0.025998442625573
-relayed,KOMMA,officer,Panamanian,VBD,KOMMA,NN,JJ,O,O { O 4.00000 }        0.068760885361768
+relayed,KOMMA,officer,Panamanian,VBD,KOMMA,NN,JJ,O,O { O 4.00000 }        0.068760885361767
 Tony,relayed,KOMMA,officer,NNP,VBD,KOMMA,NN,O,O { O 1.00000 }        0.096818812774536
 's,Tony,relayed,KOMMA,POS,NNP,VBD,KOMMA,I,I { I 1.00000 }        0.096151421610298
 reports,'s,Tony,relayed,NNS,POS,NNP,VBD,B,B { B 1.00000 }        0.052617898351820
@@ -4454,7 +4454,7 @@ KOMMA,important,more,KOMMA,KOMMA,JJ,RBR,KOMMA,O,O { O 1.00000 }        0.0095388
 among,KOMMA,important,more,IN,KOMMA,JJ,RBR,O,O { O 1.00000 }        0.015803312370430
 his,among,KOMMA,important,PRP$,IN,KOMMA,JJ,O,O { O 1.00000 }        0.051001990726874
 officers,his,among,KOMMA,NNS,PRP$,IN,KOMMA,I,I { I 1.00000 }        0.0044437777758432
-and,officers,his,among,CC,NNS,PRP$,IN,I,I { I 1.00000 }        0.057000336824270
+and,officers,his,among,CC,NNS,PRP$,IN,I,I { I 1.00000 }        0.057000336824269
 instructors,and,officers,his,NNS,CC,NNS,PRP$,I,O { O 2.00000 }        0.058678292350376
 PUNT,instructors,and,officers,PUNT,NNS,CC,NNS,I,I { I 1.00000 }        0.10354325354725
 A,PUNT,PUNT,instructors,DT,PUNT,PUNT,NNS,O,O { O 8.00000 }        0.028360141319983
@@ -4468,7 +4468,7 @@ a,was,It,PUNT,DT,VBD,PRP,PUNT,O,O { O 1.00000 }        0.0000000000000
 heady,a,was,It,JJ,DT,VBD,PRP,I,I { I 1.00000 }        0.053005251295110
 experience,heady,a,was,NN,JJ,DT,VBD,I,I { I 2.00000 }        0.094089873107254
 for,experience,heady,a,IN,NN,JJ,DT,I,I { I 1.00000 }        0.10978998074630
-the,for,experience,heady,DT,IN,NN,JJ,O,O { O 1.00000 }        0.032688294344654
+the,for,experience,heady,DT,IN,NN,JJ,O,O { O 1.00000 }        0.032688294344653
 pockmarked,the,for,experience,JJ,DT,IN,NN,I,I { I 1.00000 }        0.054294348627837
 and,pockmarked,the,for,CC,JJ,DT,IN,I,I { I 1.00000 }        0.094892301163499
 slightly,and,pockmarked,the,RB,CC,JJ,DT,I,I { I 1.00000 }        0.070718510634864
@@ -4480,7 +4480,7 @@ who,KOMMA,Noriega,MrPUNT,WP,KOMMA,NNP,NNP,O,O { O 1.00000 }        0.03203784633
 was,who,KOMMA,Noriega,VBD,WP,KOMMA,NNP,I,I { I 1.00000 }        0.010803863359994
 known,was,who,KOMMA,VBN,VBD,WP,KOMMA,O,O { O 1.00000 }        0.014030801813412
 to,known,was,who,TO,VBN,VBD,WP,O,O { O 1.00000 }        0.034275571405643
-his,to,known,was,PRP$,TO,VBN,VBD,O,O { O 1.00000 }        0.0068605986822523
+his,to,known,was,PRP$,TO,VBN,VBD,O,O { O 1.00000 }        0.0068605986822522
 friends,his,to,known,NNS,PRP$,TO,VBN,I,I { I 1.00000 }        0.013103737168342
 as,friends,his,to,IN,NNS,PRP$,TO,I,I { I 1.00000 }        0.035103440159648
 Cara,as,friends,his,NNP,IN,NNS,PRP$,O,O { O 1.00000 }        0.059830445368886
@@ -4722,7 +4722,7 @@ opponents,political,monitoring,by,NNS,JJ,VBG,IN,I,I { I 1.00000 }        0.12516
 in,opponents,political,monitoring,IN,NNS,JJ,VBG,I,I { I 1.00000 }        0.12251194983859
 the,in,opponents,political,DT,IN,NNS,JJ,O,O { O 1.00000 }        0.065794875408358
 region,the,in,opponents,NN,DT,IN,NNS,I,I { I 2.00000 }        0.028360141319983
-KOMMA,region,the,in,KOMMA,NN,DT,IN,I,I { I 1.00000 }        0.0065579473288736
+KOMMA,region,the,in,KOMMA,NN,DT,IN,I,I { I 1.00000 }        0.0065579473288735
 and,KOMMA,region,the,CC,KOMMA,NN,DT,O,O { O 2.00000 }        0.0000000000000
 the,and,KOMMA,region,DT,CC,KOMMA,NN,O,O { O 1.00000 }        0.00039935268425038
 UPUNTSPUNT,the,and,KOMMA,NNP,DT,CC,KOMMA,I,I { I 1.00000 }        0.013066328466113
@@ -4814,7 +4814,7 @@ PUNT,says,official,intelligence,PUNT,NNS,NN,NN,O,O { O 1.00000 }        0.029643
 It,PUNT,PUNT,says,PRP,PUNT,PUNT,NNS,O,O { O 2.00000 }        0.0010234206511717
 was,It,PUNT,PUNT,VBD,PRP,PUNT,PUNT,I,I { I 4.00000 }        0.0000000000000
 modest,was,It,PUNT,JJ,VBD,PRP,PUNT,O,O { O 1.00000 }        0.039878669496658
-pay,modest,was,It,NN,JJ,VBD,PRP,I,O { O 1.00000 }        0.072681148713338
+pay,modest,was,It,NN,JJ,VBD,PRP,I,O { O 1.00000 }        0.072681148713337
 by,pay,modest,was,IN,NN,JJ,VBD,I,O { O 1.00000 }        0.031867721484884
 American,by,pay,modest,JJ,IN,NN,JJ,O,O { O 1.00000 }        0.035602127748945
 standards,American,by,pay,NNS,JJ,IN,NN,I,I { I 1.00000 }        0.016340012329025
@@ -4843,13 +4843,13 @@ $,to,300,$,$,TO,CD,$,I,I { I 4.00000 }        0.0000000000000
 400,$,to,300,CD,$,TO,CD,I,I { I 1.00000 }        0.014948200268288
 monthly,400,$,to,JJ,CD,$,TO,I,I { I 1.00000 }        0.016554076179437
 PUNT,monthly,400,$,PUNT,JJ,CD,$,O,O { O 1.00000 }        0.058242947369724
-``,PUNT,PUNT,monthly,``,PUNT,PUNT,JJ,O,O { O 1.00000 }        0.0048533508686572
+``,PUNT,PUNT,monthly,``,PUNT,PUNT,JJ,O,O { O 1.00000 }        0.0048533508686571
 He,``,PUNT,PUNT,PRP,``,PUNT,PUNT,O,O { O 5.00000 }        0.0000000000000
 did,He,``,PUNT,VBD,PRP,``,PUNT,I,I { I 1.00000 }        0.012367891968859
 it,did,He,``,PRP,VBD,PRP,``,O,O { O 1.00000 }        0.016455086904533
 very,it,did,He,RB,PRP,VBD,PRP,I,I { I 1.00000 }        0.050436524717748
 well,very,it,did,RB,RB,PRP,VBD,O,O { O 1.00000 }        0.048589920313565
-KOMMA,well,very,it,KOMMA,RB,RB,PRP,O,O { O 1.00000 }        0.053251344651827
+KOMMA,well,very,it,KOMMA,RB,RB,PRP,O,O { O 1.00000 }        0.053251344651826
 '',KOMMA,well,very,'',KOMMA,RB,RB,O,O { O 1.00000 }        0.0060790473802018
 recalls,'',KOMMA,well,VBZ,'',KOMMA,RB,O,O { O 1.00000 }        0.0038213305296994
 Boris,recalls,'',KOMMA,NNP,VBZ,'',KOMMA,O,O { O 2.00000 }        0.00077192113536568
@@ -5004,7 +5004,7 @@ the,splashed,he,So,DT,VBD,PRP,RB,O,O { O 6.00000 }        0.096998604375959
 information,the,splashed,he,NN,DT,VBD,PRP,I,I { I 1.00000 }        0.071826597953131
 on,information,the,splashed,IN,NN,DT,VBD,I,I { I 1.00000 }        0.094773483643779
 handbills,on,information,the,NNS,IN,NN,DT,O,O { O 1.00000 }        0.074702738968441
-that,handbills,on,information,IN,NNS,IN,NN,I,I { I 1.00000 }        0.097697071391120
+that,handbills,on,information,IN,NNS,IN,NN,I,I { I 1.00000 }        0.097697071391119
 he,that,handbills,on,PRP,IN,NNS,IN,B,O { O 1.00000 }        0.065657184855509
 distributed,he,that,handbills,VBD,PRP,IN,NNS,B,I { I 1.00000 }        0.050443460443142
 throughout,distributed,he,that,IN,VBD,PRP,IN,O,O { O 1.00000 }        0.018480037448413
@@ -5055,7 +5055,7 @@ Martinez,MrPUNT,recalls,'',NNP,NNP,VBZ,'',I,I { I 2.00000 }        0.05300525129
 PUNT,Martinez,MrPUNT,recalls,PUNT,NNP,NNP,VBZ,I,I { I 1.00000 }        0.094089873107254
 ``,PUNT,PUNT,Martinez,``,PUNT,PUNT,NNP,O,O { O 29.0000 }        0.028360141319983
 Noriega,``,PUNT,PUNT,NNP,``,PUNT,PUNT,O,O { O 1.00000 }        0.0094652234455554
-managed,Noriega,``,PUNT,VBD,NNP,``,PUNT,I,I { I 1.00000 }        0.069072631312952
+managed,Noriega,``,PUNT,VBD,NNP,``,PUNT,I,I { I 1.00000 }        0.069072631312951
 the,managed,Noriega,``,DT,VBD,NNP,``,O,O { O 1.00000 }        0.075362258814446
 whole,the,managed,Noriega,JJ,DT,VBD,NNP,I,I { I 1.00000 }        0.0067798987845071
 thing,whole,the,managed,NN,JJ,DT,VBD,I,I { I 1.00000 }        0.0090151131391136
@@ -5076,7 +5076,7 @@ people,blackmailing,and,bribing,NNS,VBG,CC,VBG,O,I { I 1.00000 }        0.133019
 PUNT,people,blackmailing,and,PUNT,NNS,VBG,CC,I,I { I 1.00000 }        0.099173255223157
 '',PUNT,people,blackmailing,'',PUNT,NNS,VBG,O,O { O 2.00000 }        0.031244332766715
 During,'','',PUNT,IN,'','',PUNT,O,O { O 10.0000 }        0.0000000000000
-his,During,'','',PRP$,IN,'','',O,O { O 1.00000 }        0.072165585111911
+his,During,'','',PRP$,IN,'','',O,O { O 1.00000 }        0.072165585111910
 years,his,During,'',NNS,PRP$,IN,'',I,I { I 1.00000 }        0.013186738039611
 in,years,his,During,IN,NNS,PRP$,IN,I,I { I 1.00000 }        0.020881869270610
 Chiriqui,in,years,his,NNP,IN,NNS,PRP$,O,O { O 1.00000 }        0.086623624986386
@@ -5110,7 +5110,7 @@ monitor,human-rights,and,lawyer,NN,JJ,CC,NN,I,I { I 3.00000 }        0.147095124
 KOMMA,monitor,human-rights,and,KOMMA,NN,JJ,CC,I,I { I 2.00000 }        0.15786960498562
 recalls,KOMMA,monitor,human-rights,VBZ,KOMMA,NN,JJ,O,O { O 3.00000 }        0.094037152886768
 an,recalls,KOMMA,monitor,DT,VBZ,KOMMA,NN,O,O { O 2.00000 }        0.092137568709308
-intoxicated,an,recalls,KOMMA,JJ,DT,VBZ,KOMMA,I,I { I 2.00000 }        0.064285503400848
+intoxicated,an,recalls,KOMMA,JJ,DT,VBZ,KOMMA,I,I { I 2.00000 }        0.064285503400847
 Noriega,intoxicated,an,recalls,NNP,JJ,DT,VBZ,I,I { I 1.00000 }        0.10111866912164
 visiting,Noriega,intoxicated,an,VBG,NNP,JJ,DT,I,I { I 1.00000 }        0.11843420259678
 prisoners,visiting,Noriega,intoxicated,NNS,VBG,NNP,JJ,O,I { I 1.00000 }        0.17681749581945
@@ -5129,7 +5129,7 @@ KOMMA,David,in,headquarters,KOMMA,NNP,IN,NN,I,I { I 1.00000 }        0.035124368
 where,KOMMA,David,in,WRB,KOMMA,NNP,IN,O,I { I 2.00000 }        0.012667832234989
 he,where,KOMMA,David,PRP,WRB,KOMMA,NNP,O,O { O 1.00000 }        0.0056267634891337
 had,he,where,KOMMA,VBD,PRP,WRB,KOMMA,I,I { I 1.00000 }        0.018725572689419
-his,had,he,where,PRP$,VBD,PRP,WRB,O,O { O 1.00000 }        0.0083034182555820
+his,had,he,where,PRP$,VBD,PRP,WRB,O,O { O 1.00000 }        0.0083034182555819
 offices,his,had,he,NNS,PRP$,VBD,PRP,I,I { I 1.00000 }        0.027401975474452
 PUNT,offices,his,had,PUNT,NNS,PRP$,VBD,I,I { I 1.00000 }        0.014550956711947
 MrPUNT,PUNT,PUNT,offices,NNP,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.00026138379096759
@@ -5160,7 +5160,7 @@ to,retreating,then,and,TO,VBG,RB,CC,O,O { O 1.00000 }        0.075769378778222
 his,to,retreating,then,PRP$,TO,VBG,RB,O,O { O 1.00000 }        0.016237466504041
 office,his,to,retreating,NN,PRP$,TO,VBG,I,I { I 1.00000 }        0.033378084138189
 PUNT,office,his,to,PUNT,NN,PRP$,TO,I,I { I 1.00000 }        0.023295653536795
-``,PUNT,PUNT,office,``,PUNT,PUNT,NN,O,O { O 1.00000 }        0.0030596240898808
+``,PUNT,PUNT,office,``,PUNT,PUNT,NN,O,O { O 1.00000 }        0.0030596240898807
 People,``,PUNT,PUNT,NNS,``,PUNT,PUNT,O,O { O 4.00000 }        0.0000000000000
 started,People,``,PUNT,VBD,NNS,``,PUNT,I,I { I 1.00000 }        0.0092594844240278
 wondering,started,People,``,VBG,VBD,NNS,``,O,O { O 1.00000 }        0.058685128220059
@@ -5176,7 +5176,7 @@ MrPUNT,'',KOMMA,him,NNP,'',KOMMA,PRP,O,O { O 1.00000 }        0.0023618444282419
 Miranda,MrPUNT,'',KOMMA,NNP,NNP,'',KOMMA,I,I { I 9.00000 }        0.053005251295110
 recalls,Miranda,MrPUNT,'',VBZ,NNP,NNP,'',I,I { I 1.00000 }        0.094089873107254
 PUNT,recalls,Miranda,MrPUNT,PUNT,VBZ,NNP,NNP,O,O { O 1.00000 }        0.063779731878369
-But,PUNT,PUNT,recalls,CC,PUNT,PUNT,VBZ,O,O { O 1.00000 }        0.00077332618520257
+But,PUNT,PUNT,recalls,CC,PUNT,PUNT,VBZ,O,O { O 1.00000 }        0.00077332618520256
 through,But,PUNT,PUNT,IN,CC,PUNT,PUNT,O,O { O 2.00000 }        0.0011601149340062
 this,through,But,PUNT,DT,IN,CC,PUNT,O,O { O 1.00000 }        0.038491211714672
 period,this,through,But,NN,DT,IN,CC,I,I { I 2.00000 }        0.0041247914288452
@@ -5195,7 +5195,7 @@ Noriega,MrPUNT,KOMMA,concerned,NNP,NNP,KOMMA,VBN,I,I { I 1.00000 }        0.0148
 was,Noriega,MrPUNT,KOMMA,VBD,NNP,NNP,KOMMA,I,I { I 1.00000 }        0.019476129893611
 a,was,Noriega,MrPUNT,DT,VBD,NNP,NNP,O,O { O 1.00000 }        0.014835526583167
 model,a,was,Noriega,NN,DT,VBD,NNP,I,I { I 1.00000 }        0.00024725239802439
-recruit,model,a,was,NN,NN,DT,VBD,I,I { I 1.00000 }        0.081285377416514
+recruit,model,a,was,NN,NN,DT,VBD,I,I { I 1.00000 }        0.081285377416513
 PUNT,recruit,model,a,PUNT,NN,NN,DT,I,I { I 1.00000 }        0.094089873107254
 He,PUNT,PUNT,recruit,PRP,PUNT,PUNT,NN,O,O { O 18.0000 }        0.028360141319983
 signed,He,PUNT,PUNT,VBD,PRP,PUNT,PUNT,I,I { I 3.00000 }        0.0000000000000
@@ -5213,7 +5213,7 @@ Fort,at,officers,American,NNP,IN,NNS,JJ,O,O { O 1.00000 }        0.0045747282446
 Gulick,Fort,at,officers,NNP,NNP,IN,NNS,I,I { I 1.00000 }        0.070814356518739
 in,Gulick,Fort,at,IN,NNP,NNP,IN,I,I { I 1.00000 }        0.094089873107254
 Panama,in,Gulick,Fort,NNP,IN,NNP,NNP,O,O { O 1.00000 }        0.069837474883525
-in,Panama,in,Gulick,IN,NNP,IN,NNP,I,I { I 1.00000 }        0.042797378714178
+in,Panama,in,Gulick,IN,NNP,IN,NNP,I,I { I 1.00000 }        0.042797378714177
 July,in,Panama,in,NNP,IN,NNP,IN,O,O { O 1.00000 }        0.037277862722285
 1967,July,in,Panama,CD,NNP,IN,NNP,I,I { I 1.00000 }        0.053772950044800
 KOMMA,1967,July,in,KOMMA,CD,NNP,IN,I,I { I 1.00000 }        0.10109712550891
@@ -5269,7 +5269,7 @@ a,for,Panama,in,DT,IN,NNP,IN,O,O { O 1.00000 }        0.031889865939185
 two-month,a,for,Panama,JJ,DT,IN,NNP,I,I { I 1.00000 }        0.055030975675109
 course,two-month,a,for,NN,JJ,DT,IN,I,I { I 1.00000 }        0.094892301163499
 called,course,two-month,a,VBN,NN,JJ,DT,I,I { I 1.00000 }        0.10413506065344
-``,called,course,two-month,``,VBN,NN,JJ,O,O { O 1.00000 }        0.073141156166362
+``,called,course,two-month,``,VBN,NN,JJ,O,O { O 1.00000 }        0.073141156166361
 military,``,called,course,JJ,``,VBN,NN,O,I { I 1.00000 }        0.022396653420528
 intelligence,military,``,called,NN,JJ,``,VBN,I,I { I 1.00000 }        0.032226657120727
 for,intelligence,military,``,IN,NN,JJ,``,I,I { I 1.00000 }        0.042725506072860
@@ -5280,7 +5280,7 @@ Some,'','',PUNT,DT,'','',PUNT,O,O { O 4.00000 }        0.0000000000000
 American,Some,'','',JJ,DT,'','',I,I { I 1.00000 }        0.023302590405717
 officers,American,Some,'',NNS,JJ,DT,'',I,I { I 1.00000 }        0.028382446625837
 interpreted,officers,American,Some,VBD,NNS,JJ,DT,I,I { I 1.00000 }        0.066203368571764
-his,interpreted,officers,American,PRP$,VBD,NNS,JJ,O,O { O 1.00000 }        0.0049885407897816
+his,interpreted,officers,American,PRP$,VBD,NNS,JJ,O,O { O 1.00000 }        0.0049885407897815
 eagerness,his,interpreted,officers,NN,PRP$,VBD,NNS,I,I { I 1.00000 }        0.10244432004942
 and,eagerness,his,interpreted,CC,NN,PRP$,VBD,I,I { I 1.00000 }        0.094346129759746
 studiousness,and,eagerness,his,NN,CC,NN,PRP$,I,O { O 1.00000 }        0.11788310410027
@@ -5337,7 +5337,7 @@ inseparable,'s,Torrijos,GenPUNT,JJ,POS,NNP,NNP,B,B { B 10.0000 }        0.145145
 shadow,inseparable,'s,Torrijos,NN,JJ,POS,NNP,I,I { I 13.0000 }        0.12245001442724
 KOMMA,shadow,inseparable,'s,KOMMA,NN,JJ,POS,I,I { I 1.00000 }        0.10514086704011
 and,KOMMA,shadow,inseparable,CC,KOMMA,NN,JJ,O,O { O 1.00000 }        0.029706671729671
-the,and,KOMMA,shadow,DT,CC,KOMMA,NN,O,O { O 1.00000 }        0.0070900353299958
+the,and,KOMMA,shadow,DT,CC,KOMMA,NN,O,O { O 1.00000 }        0.0070900353299957
 holder,the,and,KOMMA,NN,DT,CC,KOMMA,I,I { I 9.00000 }        0.053005251295110
 of,holder,the,and,IN,NN,DT,CC,I,I { I 5.00000 }        0.094089873107254
 all,of,holder,the,DT,IN,NN,DT,O,O { O 11.0000 }        0.064898320597957
@@ -5373,7 +5373,7 @@ Taiwanese,the,KOMMA,Israelis,JJ,DT,KOMMA,NNPS,I,I { I 1.00000 }        0.0813653
 and,Taiwanese,the,KOMMA,CC,JJ,DT,KOMMA,I,I { I 1.00000 }        0.094089873107254
 any,and,Taiwanese,the,DT,CC,JJ,DT,O,O { O 1.00000 }        0.066706564781569
 other,any,and,Taiwanese,JJ,DT,CC,JJ,I,I { I 1.00000 }        0.055479169551162
-intelligence,other,any,and,NN,JJ,DT,CC,I,I { I 3.00000 }        0.0078782605281719
+intelligence,other,any,and,NN,JJ,DT,CC,I,I { I 3.00000 }        0.0078782605281718
 service,intelligence,other,any,NN,NN,JJ,DT,I,I { I 1.00000 }        0.043874579746962
 that,service,intelligence,other,WDT,NN,NN,JJ,I,I { I 1.00000 }        0.089262663628083
 came,that,service,intelligence,VBD,WDT,NN,NN,B,B { B 1.00000 }        0.022083182747021
@@ -5392,7 +5392,7 @@ Noriega,ColPUNT,of,CIA,NNP,NNP,IN,NNP,I,I { I 1.00000 }        0.11055491451486
 's,Noriega,ColPUNT,of,POS,NNP,NNP,IN,I,I { I 1.00000 }        0.087884918669503
 moonlighting,'s,Noriega,ColPUNT,NN,POS,NNP,NNP,B,B { B 1.00000 }        0.087743365802930
 KOMMA,moonlighting,'s,Noriega,KOMMA,NN,POS,NNP,I,I { I 1.00000 }        0.096630080689443
-intelligence,KOMMA,moonlighting,'s,NN,KOMMA,NN,POS,O,O { O 1.00000 }        0.066738880674420
+intelligence,KOMMA,moonlighting,'s,NN,KOMMA,NN,POS,O,O { O 1.00000 }        0.066738880674419
 experts,intelligence,KOMMA,moonlighting,NNS,NN,KOMMA,NN,I,I { I 1.00000 }        0.067948209382147
 always,experts,intelligence,KOMMA,RB,NNS,NN,KOMMA,I,I { I 1.00000 }        0.13403116345381
 insisted,always,experts,intelligence,VBD,RB,NNS,NN,O,O { O 1.00000 }        0.081828147788122
@@ -5402,7 +5402,7 @@ allegiance,his,that,insisted,NN,PRP$,IN,VBD,I,I { I 1.00000 }        0.081365392
 was,allegiance,his,that,VBD,NN,PRP$,IN,I,I { I 1.00000 }        0.097164934836160
 first,was,allegiance,his,JJ,VBD,NN,PRP$,O,O { O 1.00000 }        0.082005808453329
 to,first,was,allegiance,TO,JJ,VBD,NN,O,O { O 1.00000 }        0.053217552890391
-the,to,first,was,DT,TO,JJ,VBD,O,O { O 1.00000 }        0.0092083991575494
+the,to,first,was,DT,TO,JJ,VBD,O,O { O 1.00000 }        0.0092083991575493
 Americans,the,to,first,NNPS,DT,TO,JJ,I,I { I 1.00000 }        0.020425620550215
 PUNT,Americans,the,to,PUNT,NNPS,DT,TO,I,I { I 1.00000 }        0.014318005291775
 ``,PUNT,PUNT,Americans,``,PUNT,PUNT,NNPS,O,O { O 1.00000 }        0.0017028389462132
@@ -5430,7 +5430,7 @@ to,ability,his,to,TO,NN,PRP$,TO,I,I { I 1.00000 }        0.0018774529771396
 simultaneously,to,ability,his,RB,TO,NN,PRP$,O,O { O 1.00000 }        0.068449112018806
 milk,simultaneously,to,ability,NN,RB,TO,NN,O,O { O 1.00000 }        0.15924512668986
 the,milk,simultaneously,to,DT,NN,RB,TO,O,O { O 1.00000 }        0.16887671770883
-antagonistic,the,milk,simultaneously,JJ,DT,NN,RB,I,B { B 1.00000 }        0.14566195393555
+antagonistic,the,milk,simultaneously,JJ,DT,NN,RB,I,B { B 1.00000 }        0.14566195393554
 intelligence,antagonistic,the,milk,NN,JJ,DT,NN,I,I { I 1.00000 }        0.12245001442724
 services,intelligence,antagonistic,the,NNS,NN,JJ,DT,I,I { I 1.00000 }        0.092473058496602
 of,services,intelligence,antagonistic,IN,NNS,NN,JJ,I,I { I 1.00000 }        0.071577351125495
@@ -5477,7 +5477,7 @@ how,wondered,us,of,WRB,VBD,PRP,IN,O,O { O 1.00000 }        0.043674267177825
 our,how,wondered,us,PRP$,WRB,VBD,PRP,O,O { O 1.00000 }        0.057825307678391
 intelligence,our,how,wondered,NN,PRP$,WRB,VBD,I,I { I 1.00000 }        0.028382250572105
 people,intelligence,our,how,NNS,NN,PRP$,WRB,I,I { I 1.00000 }        0.041226571599374
-could,people,intelligence,our,MD,NNS,NN,PRP$,I,I { I 1.00000 }        0.070089172522406
+could,people,intelligence,our,MD,NNS,NN,PRP$,I,I { I 1.00000 }        0.070089172522405
 put,could,people,intelligence,VB,MD,NNS,NN,O,O { O 1.00000 }        0.023058639708264
 so,put,could,people,RB,VB,MD,NNS,O,O { O 1.00000 }        0.035548888570371
 much,so,put,could,JJ,RB,VB,MD,I,I { I 1.00000 }        0.0077815291216095
@@ -5506,14 +5506,14 @@ drugs,KOMMA,stage,early,NNS,KOMMA,NN,JJ,O,O { O 1.00000 }        0.0151480221389
 caused,drugs,KOMMA,stage,VBD,NNS,KOMMA,NN,I,I { I 1.00000 }        0.052189338895980
 additional,caused,drugs,KOMMA,JJ,VBD,NNS,KOMMA,O,O { O 1.00000 }        0.092748866895829
 concerns,additional,caused,drugs,NNS,JJ,VBD,NNS,I,I { I 1.00000 }        0.057303225501631
-PUNT,concerns,additional,caused,PUNT,NNS,JJ,VBD,I,I { I 1.00000 }        0.0073397975296032
+PUNT,concerns,additional,caused,PUNT,NNS,JJ,VBD,I,I { I 1.00000 }        0.0073397975296031
 During,PUNT,PUNT,concerns,IN,PUNT,PUNT,NNS,O,O { O 2.00000 }        0.0000000000000
 the,During,PUNT,PUNT,DT,IN,PUNT,PUNT,O,O { O 1.00000 }        0.069774192798669
 Nixon,the,During,PUNT,NNP,DT,IN,PUNT,I,I { I 4.00000 }        0.053005251295110
 administration,Nixon,the,During,NN,NNP,DT,IN,I,I { I 2.00000 }        0.097240999920586
 KOMMA,administration,Nixon,the,KOMMA,NN,NNP,DT,I,I { I 1.00000 }        0.078549987904860
 the,KOMMA,administration,Nixon,DT,KOMMA,NN,NNP,O,O { O 1.00000 }        0.028574454935166
-Drug,the,KOMMA,administration,NNP,DT,KOMMA,NN,I,I { I 1.00000 }        0.00076769874968982
+Drug,the,KOMMA,administration,NNP,DT,KOMMA,NN,I,I { I 1.00000 }        0.00076769874968981
 Enforcement,Drug,the,KOMMA,NNP,NNP,DT,KOMMA,I,I { I 1.00000 }        0.043515896794645
 Administration,Enforcement,Drug,the,NNP,NNP,NNP,DT,I,I { I 1.00000 }        0.031614240577867
 became,Administration,Enforcement,Drug,VBD,NNP,NNP,NNP,I,I { I 1.00000 }        0.022957410546715
@@ -5538,7 +5538,7 @@ drew,agent,DEA,One,VBD,NN,NNP,CD,I,I { I 1.00000 }        0.12290959766348
 up,drew,agent,DEA,IN,VBD,NN,NNP,O,O { O 1.00000 }        0.059176489856180
 a,up,drew,agent,DT,IN,VBD,NN,O,O { O 1.00000 }        0.031394392244292
 list,a,up,drew,NN,DT,IN,VBD,I,I { I 1.00000 }        0.014687141403110
-of,list,a,up,IN,NN,DT,IN,I,I { I 1.00000 }        0.0049350487620367
+of,list,a,up,IN,NN,DT,IN,I,I { I 1.00000 }        0.0049350487620366
 five,of,list,a,CD,IN,NN,DT,O,O { O 1.00000 }        0.010579557842583
 options,five,of,list,NNS,CD,IN,NN,I,I { I 2.00000 }        0.028292135848040
 for,options,five,of,IN,NNS,CD,IN,I,I { I 1.00000 }        0.032111446623131
@@ -5552,7 +5552,7 @@ of,one,KOMMA,Noriega,IN,CD,KOMMA,NNP,O,O { O 1.00000 }        0.0033447051424389
 which,of,one,KOMMA,WDT,IN,CD,KOMMA,O,O { O 1.00000 }        0.013457381067036
 was,which,of,one,VBD,WDT,IN,CD,I,I { I 1.00000 }        0.0026448805055722
 assassination,was,which,of,NN,VBD,WDT,IN,O,O { O 1.00000 }        0.040496123803383
-PUNT,assassination,was,which,PUNT,NN,VBD,WDT,I,I { I 1.00000 }        0.091870655736057
+PUNT,assassination,was,which,PUNT,NN,VBD,WDT,I,I { I 1.00000 }        0.091870655736056
 The,PUNT,PUNT,assassination,DT,PUNT,PUNT,NN,O,O { O 1.00000 }        0.0061650008088176
 head,The,PUNT,PUNT,NN,DT,PUNT,PUNT,I,I { I 1.00000 }        0.0026502625647555
 of,head,The,PUNT,IN,NN,DT,PUNT,I,I { I 1.00000 }        0.021312200492317
@@ -5563,7 +5563,7 @@ the,at,DEA,the,DT,IN,NNP,DT,O,O { O 1.00000 }        0.097572153837355
 time,the,at,DEA,NN,DT,IN,NNP,I,I { I 1.00000 }        0.028874624522173
 KOMMA,time,the,at,KOMMA,NN,DT,IN,I,I { I 1.00000 }        0.0000000000000
 John,KOMMA,time,the,NNP,KOMMA,NN,DT,O,O { O 1.00000 }        0.029426322194848
-Ingersoll,John,KOMMA,time,NNP,NNP,KOMMA,NN,I,I { I 1.00000 }        0.083187174217568
+Ingersoll,John,KOMMA,time,NNP,NNP,KOMMA,NN,I,I { I 1.00000 }        0.083187174217567
 KOMMA,Ingersoll,John,KOMMA,KOMMA,NNP,NNP,KOMMA,I,I { I 12.0000 }        0.094089873107254
 scotched,KOMMA,Ingersoll,John,VBD,KOMMA,NNP,NNP,O,O { O 2.00000 }        0.11788310410027
 the,scotched,KOMMA,Ingersoll,DT,VBD,KOMMA,NNP,O,O { O 1.00000 }        0.12245001442724
@@ -5592,7 +5592,7 @@ including,KOMMA,officials,Panamanian,VBG,KOMMA,NNS,JJ,O,O { O 1.00000 }        0
 MrPUNT,including,KOMMA,officials,NNP,VBG,KOMMA,NNS,O,O { O 1.00000 }        0.026598527612169
 Noriega,MrPUNT,including,KOMMA,NNP,NNP,VBG,KOMMA,I,I { I 2.00000 }        0.016803066767831
 PUNT,Noriega,MrPUNT,including,PUNT,NNP,NNP,VBG,I,I { I 1.00000 }        0.0093138794095368
-MrPUNT,PUNT,PUNT,Noriega,NNP,PUNT,PUNT,NNP,O,O { O 1.00000 }        0.00075964664249955
+MrPUNT,PUNT,PUNT,Noriega,NNP,PUNT,PUNT,NNP,O,O { O 1.00000 }        0.00075964664249954
 Ingersoll,MrPUNT,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,I { I 57.0000 }        0.053005251295110
 later,Ingersoll,MrPUNT,PUNT,RB,NNP,NNP,PUNT,I,I { I 4.00000 }        0.096654643331211
 recalled,later,Ingersoll,MrPUNT,VBD,RB,NNP,NNP,O,O { O 1.00000 }        0.094976106253528
@@ -5609,7 +5609,7 @@ concerns,the,on,act,NNS,DT,IN,VB,I,I { I 1.00000 }        0.0067075168081139
 of,concerns,the,on,IN,NNS,DT,IN,I,I { I 1.00000 }        0.034601154503883
 the,of,concerns,the,DT,IN,NNS,DT,O,O { O 3.00000 }        0.0000000000000
 UPUNTSPUNT,the,of,concerns,NNP,DT,IN,NNS,I,I { I 1.00000 }        0.0046533738822478
-PUNT,UPUNTSPUNT,the,of,PUNT,NNP,DT,IN,I,I { I 3.00000 }        0.00095867005193132
+PUNT,UPUNTSPUNT,the,of,PUNT,NNP,DT,IN,I,I { I 3.00000 }        0.00095867005193131
 ``,PUNT,PUNT,UPUNTSPUNT,``,PUNT,PUNT,NNP,O,O { O 4.00000 }        0.0013314620338020
 Everybody,``,PUNT,PUNT,NN,``,PUNT,PUNT,O,O { O 6.00000 }        0.053005251295110
 was,Everybody,``,PUNT,VBD,NN,``,PUNT,I,I { I 1.00000 }        0.10026984137620
@@ -5639,7 +5639,7 @@ services,intelligence,UPUNTSPUNT,when,NNS,NN,NNP,WRB,I,I { I 1.00000 }        0.
 discovered,services,intelligence,UPUNTSPUNT,VBN,NNS,NN,NNP,I,I { I 1.00000 }        0.077887250719830
 that,discovered,services,intelligence,IN,VBN,NNS,NN,O,O { O 1.00000 }        0.080356976346104
 he,that,discovered,services,PRP,IN,VBN,NNS,O,O { O 1.00000 }        0.021212445739930
-had,he,that,discovered,VBD,PRP,IN,VBN,I,I { I 1.00000 }        0.0054920720603445
+had,he,that,discovered,VBD,PRP,IN,VBN,I,I { I 1.00000 }        0.0054920720603444
 been,had,he,that,VBN,VBD,PRP,IN,O,O { O 1.00000 }        0.0047017461527703
 buying,been,had,he,VBG,VBN,VBD,PRP,O,O { O 1.00000 }        0.0014212096628729
 recordings,buying,been,had,NNS,VBG,VBN,VBD,O,O { O 1.00000 }        0.062440333591862
@@ -5652,7 +5652,7 @@ three,from,conversations,monitored,CD,IN,NNS,VBN,O,O { O 1.00000 }        0.1003
 sergeants,three,from,conversations,NNS,CD,IN,NNS,I,I { I 1.00000 }        0.081940277953453
 working,sergeants,three,from,VBG,NNS,CD,IN,I,I { I 1.00000 }        0.11416923847537
 for,working,sergeants,three,IN,VBG,NNS,CD,O,O { O 1.00000 }        0.13589109804199
-the,for,working,sergeants,DT,IN,VBG,NNS,O,O { O 1.00000 }        0.032250401488667
+the,for,working,sergeants,DT,IN,VBG,NNS,O,O { O 1.00000 }        0.032250401488666
 UPUNTSPUNT,the,for,working,NNP,DT,IN,VBG,I,I { I 1.00000 }        0.015940365905432
 Army,UPUNTSPUNT,the,for,NNP,NNP,DT,IN,I,I { I 1.00000 }        0.059918740520803
 's,Army,UPUNTSPUNT,the,POS,NNP,NNP,DT,I,I { I 1.00000 }        0.10295800312406
@@ -5678,7 +5678,7 @@ American,to,according,KOMMA,JJ,TO,VBG,KOMMA,O,O { O 1.00000 }        0.009561229
 intelligence,American,to,according,NN,JJ,TO,VBG,I,I { I 1.00000 }        0.061645133014795
 officials,intelligence,American,to,NNS,NN,JJ,TO,I,I { I 1.00000 }        0.029185764799143
 PUNT,officials,intelligence,American,PUNT,NNS,NN,JJ,I,I { I 1.00000 }        0.021984390566974
-``,PUNT,PUNT,officials,``,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.00075964664249955
+``,PUNT,PUNT,officials,``,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.00075964664249954
 We,``,PUNT,PUNT,PRP,``,PUNT,PUNT,O,O { O 16.0000 }        0.0000000000000
 caught,We,``,PUNT,VBD,PRP,``,PUNT,I,I { I 1.00000 }        0.021887740584548
 him,caught,We,``,PRP,VBD,PRP,``,O,O { O 1.00000 }        0.059436167124790
@@ -5734,7 +5734,7 @@ KOMMA,intelligence,of,world,KOMMA,NN,IN,NN,I,I { I 1.00000 }        0.0281948855
 if,KOMMA,intelligence,of,IN,KOMMA,NN,IN,O,O { O 1.00000 }        0.0072928208623875
 you,if,KOMMA,intelligence,PRP,IN,KOMMA,NN,O,O { O 1.00000 }        0.0085020494036135
 want,you,if,KOMMA,VBP,PRP,IN,KOMMA,I,I { I 1.00000 }        0.0066604280440264
-to,want,you,if,TO,VBP,PRP,IN,O,O { O 1.00000 }        0.0078199874129138
+to,want,you,if,TO,VBP,PRP,IN,O,O { O 1.00000 }        0.0078199874129137
 get,to,want,you,VB,TO,VBP,PRP,O,O { O 1.00000 }        0.0044827247732064
 information,get,to,want,NN,VB,TO,VBP,O,O { O 1.00000 }        0.022360636027696
 KOMMA,information,get,to,KOMMA,NN,VB,TO,I,I { I 1.00000 }        0.055281131288935
@@ -5750,7 +5750,7 @@ question,The,PUNT,PUNT,NN,DT,PUNT,PUNT,I,I { I 1.00000 }        0.0000000000000
 is,question,The,PUNT,VBZ,NN,DT,PUNT,I,I { I 1.00000 }        0.015336025156705
 how,is,question,The,WRB,VBZ,NN,DT,O,O { O 1.00000 }        0.0067505314004715
 much,how,is,question,JJ,WRB,VBZ,NN,O,I { I 1.00000 }        0.021412846208550
-you,much,how,is,PRP,JJ,WRB,VBZ,O,I { I 1.00000 }        0.0056850131831323
+you,much,how,is,PRP,JJ,WRB,VBZ,O,I { I 1.00000 }        0.0056850131831322
 get,you,much,how,VBP,PRP,JJ,WRB,I,B { B 1.00000 }        0.027638452461022
 tied,get,you,much,VBN,VBP,PRP,JJ,O,O { O 1.00000 }        0.066529017218096
 in,tied,get,you,IN,VBN,VBP,PRP,O,O { O 1.00000 }        0.10845872582759
@@ -5815,7 +5815,7 @@ cause,new,found,soon,NN,JJ,VBD,RB,I,I { I 1.00000 }        0.023466409050463
 for,cause,new,found,IN,NN,JJ,VBD,I,I { I 1.00000 }        0.029454465536144
 concern,for,cause,new,NN,IN,NN,JJ,O,O { O 1.00000 }        0.035460639639446
 :,concern,for,cause,:,NN,IN,NN,I,I { I 1.00000 }        0.019134051453601
-gun-running,:,concern,for,JJ,:,NN,IN,O,O { O 1.00000 }        0.071282825139055
+gun-running,:,concern,for,JJ,:,NN,IN,O,O { O 1.00000 }        0.071282825139054
 PUNT,gun-running,:,concern,PUNT,JJ,:,NN,I,I { I 1.00000 }        0.10566955600537
 Prosecutors,PUNT,PUNT,gun-running,NNS,PUNT,PUNT,JJ,O,O { O 3.00000 }        0.081365392615093
 in,Prosecutors,PUNT,PUNT,IN,NNS,PUNT,PUNT,I,I { I 3.00000 }        0.094089873107254
@@ -5847,7 +5847,7 @@ They,PUNT,PUNT,Somoza,PRP,PUNT,PUNT,NNP,O,O { O 3.00000 }        0.0283601413199
 included,They,PUNT,PUNT,VBD,PRP,PUNT,PUNT,I,I { I 2.00000 }        0.0061839459844295
 one,included,They,PUNT,CD,VBD,PRP,PUNT,O,O { O 1.00000 }        0.037271155487576
 of,one,included,They,IN,CD,VBD,PRP,I,I { I 1.00000 }        0.031170943858774
-MrPUNT,of,one,included,NNP,IN,CD,VBD,O,O { O 1.00000 }        0.0072382009654411
+MrPUNT,of,one,included,NNP,IN,CD,VBD,O,O { O 1.00000 }        0.0072382009654410
 Noriega,MrPUNT,of,one,NNP,NNP,IN,CD,I,I { I 1.00000 }        0.021944320886597
 's,Noriega,MrPUNT,of,POS,NNP,NNP,IN,I,I { I 1.00000 }        0.026621276626776
 closest,'s,Noriega,MrPUNT,JJS,POS,NNP,NNP,B,B { B 1.00000 }        0.063280849772894
@@ -5871,7 +5871,7 @@ MrPUNT,on,in,closing,NNP,IN,IN,VBG,O,O { O 1.00000 }        0.043907487472114
 Noriega,MrPUNT,on,in,NNP,NNP,IN,IN,I,I { I 1.00000 }        0.012427237704512
 himself,Noriega,MrPUNT,on,PRP,NNP,NNP,IN,I,I { I 1.00000 }        0.079571723789594
 PUNT,himself,Noriega,MrPUNT,PUNT,PRP,NNP,NNP,B,I { I 1.00000 }        0.10298066479454
-At,PUNT,PUNT,himself,IN,PUNT,PUNT,PRP,O,O { O 1.00000 }        0.0044559023181634
+At,PUNT,PUNT,himself,IN,PUNT,PUNT,PRP,O,O { O 1.00000 }        0.0044559023181633
 the,At,PUNT,PUNT,DT,IN,PUNT,PUNT,O,O { O 6.00000 }        0.0000000000000
 time,the,At,PUNT,NN,DT,IN,PUNT,I,I { I 1.00000 }        0.012002413083960
 KOMMA,time,the,At,KOMMA,NN,DT,IN,I,I { I 1.00000 }        0.0067613984992492
@@ -5938,7 +5938,7 @@ charges,gun-running,the,on,NNS,JJ,DT,IN,I,I { I 1.00000 }        0.0967925307291
 as,charges,gun-running,the,RB,NNS,JJ,DT,I,I { I 1.00000 }        0.083635923254748
 soon,as,charges,gun-running,RB,RB,NNS,JJ,O,O { O 1.00000 }        0.043605296184645
 as,soon,as,charges,IN,RB,RB,NNS,O,O { O 1.00000 }        0.0027626977942490
-he,as,soon,as,PRP,IN,RB,RB,O,O { O 1.00000 }        0.0097084078865003
+he,as,soon,as,PRP,IN,RB,RB,O,O { O 1.00000 }        0.0097084078865002
 hit,he,as,soon,VBD,PRP,IN,RB,I,I { I 1.00000 }        0.052300283686349
 UPUNTSPUNT,hit,he,as,NNP,VBD,PRP,IN,O,O { O 1.00000 }        0.064359670351045
 soil,UPUNTSPUNT,hit,he,NN,NNP,VBD,PRP,I,I { I 1.00000 }        0.083970430106670
@@ -6026,7 +6026,7 @@ Prosecutors,PUNT,PUNT,read,NNS,PUNT,PUNT,VBP,O,O { O 1.00000 }        0.05909482
 in,Prosecutors,PUNT,PUNT,IN,NNS,PUNT,PUNT,I,I { I 3.00000 }        0.094089873107254
 Miami,in,Prosecutors,PUNT,NNP,IN,NNS,PUNT,O,O { O 1.00000 }        0.069663411020166
 received,Miami,in,Prosecutors,VBD,NNP,IN,NNS,I,I { I 1.00000 }        0.046942394304793
-yet,received,Miami,in,RB,VBD,NNP,IN,O,O { O 1.00000 }        0.058398152407735
+yet,received,Miami,in,RB,VBD,NNP,IN,O,O { O 1.00000 }        0.058398152407734
 another,yet,received,Miami,DT,RB,VBD,NNP,I,O { O 1.00000 }        0.056088038944953
 setback,another,yet,received,NN,DT,RB,VBD,I,I { I 1.00000 }        0.045267801771205
 PUNT,setback,another,yet,PUNT,NN,DT,RB,I,I { I 1.00000 }        0.037478493722825
@@ -6129,7 +6129,7 @@ Miami,in,Firearms,and,NNP,IN,NNP,CC,O,O { O 1.00000 }        0.066080122836094
 PUNT,Miami,in,Firearms,PUNT,NNP,IN,NNP,I,I { I 1.00000 }        0.028360141319983
 Panamanian,PUNT,PUNT,Miami,JJ,PUNT,PUNT,NNP,O,O { O 1.00000 }        0.00051448320218997
 dictator,Panamanian,PUNT,PUNT,NN,JJ,PUNT,PUNT,O,I { I 1.00000 }        0.066529376724401
-Torrijos,dictator,Panamanian,PUNT,NNP,NN,JJ,PUNT,O,I { I 1.00000 }        0.063629938866506
+Torrijos,dictator,Panamanian,PUNT,NNP,NN,JJ,PUNT,O,I { I 1.00000 }        0.063629938866505
 KOMMA,Torrijos,dictator,Panamanian,KOMMA,NNP,NN,JJ,I,I { I 1.00000 }        0.12202503175831
 he,KOMMA,Torrijos,dictator,PRP,KOMMA,NNP,NN,O,O { O 1.00000 }        0.075362565665441
 was,he,KOMMA,Torrijos,VBD,PRP,KOMMA,NNP,I,I { I 2.00000 }        0.032651750468716
@@ -6144,7 +6144,7 @@ Iran,of,shah,the,NNP,IN,NN,DT,O,O { O 20.0000 }        0.11678498317348
 asylum,Iran,of,shah,NN,NNP,IN,NN,I,I { I 3.00000 }        0.17545526572235
 in,asylum,Iran,of,IN,NN,NNP,IN,B,I { I 1.00000 }        0.16185948636666
 Panama,in,asylum,Iran,NNP,IN,NN,NNP,O,O { O 2.00000 }        0.092654356400542
-as,Panama,in,asylum,IN,NNP,IN,NN,I,I { I 1.00000 }        0.033511082993066
+as,Panama,in,asylum,IN,NNP,IN,NN,I,I { I 1.00000 }        0.033511082993065
 a,as,Panama,in,DT,IN,NNP,IN,O,O { O 1.00000 }        0.069834144590376
 favor,a,as,Panama,NN,DT,IN,NNP,I,I { I 1.00000 }        0.024327322922882
 to,favor,a,as,TO,NN,DT,IN,I,I { I 1.00000 }        0.019772906428953
@@ -6197,7 +6197,7 @@ from,prodding,After,PUNT,IN,VBG,IN,PUNT,I,O { O 1.00000 }        0.1058198544715
 MrPUNT,from,prodding,After,NNP,IN,VBG,IN,O,O { O 1.00000 }        0.082550703309057
 Sanford,MrPUNT,from,prodding,NNP,NNP,IN,VBG,I,I { I 1.00000 }        0.082163742091033
 KOMMA,Sanford,MrPUNT,from,KOMMA,NNP,NNP,IN,I,I { I 1.00000 }        0.094089873107254
-UPUNTSPUNT,KOMMA,Sanford,MrPUNT,NNP,KOMMA,NNP,NNP,O,O { O 3.00000 }        0.070357570615796
+UPUNTSPUNT,KOMMA,Sanford,MrPUNT,NNP,KOMMA,NNP,NNP,O,O { O 3.00000 }        0.070357570615795
 Attorney,UPUNTSPUNT,KOMMA,Sanford,NNP,NNP,KOMMA,NNP,I,I { I 1.00000 }        0.051653493507242
 Jack,Attorney,UPUNTSPUNT,KOMMA,NNP,NNP,NNP,KOMMA,I,I { I 1.00000 }        0.085381959351087
 Eskenazi,Jack,Attorney,UPUNTSPUNT,NNP,NNP,NNP,NNP,I,I { I 1.00000 }        0.13030585744965
@@ -6250,11 +6250,11 @@ but,States,United,the,CC,NNPS,NNP,DT,I,I { I 1.00000 }        0.024045308191841
 simultaneously,but,States,United,RB,CC,NNPS,NNP,O,O { O 1.00000 }        0.11808656312899
 being,simultaneously,but,States,VBG,RB,CC,NNPS,O,O { O 1.00000 }        0.10115960946897
 caught,being,simultaneously,but,VBN,VBG,RB,CC,O,O { O 1.00000 }        0.071208834480629
-between,caught,being,simultaneously,IN,VBN,VBG,RB,O,O { O 1.00000 }        0.096317168384055
-foreign,between,caught,being,JJ,IN,VBN,VBG,O,O { O 1.00000 }        0.069947993423027
+between,caught,being,simultaneously,IN,VBN,VBG,RB,O,O { O 1.00000 }        0.096317168384054
+foreign,between,caught,being,JJ,IN,VBN,VBG,O,O { O 1.00000 }        0.069947993423026
 policy,foreign,between,caught,NN,JJ,IN,VBN,I,I { I 1.00000 }        0.015564076699591
 considerations,policy,foreign,between,NNS,NN,JJ,IN,I,I { I 1.00000 }        0.022366999432224
-over,considerations,policy,foreign,IN,NNS,NN,JJ,I,I { I 1.00000 }        0.14757162759754
+over,considerations,policy,foreign,IN,NNS,NN,JJ,I,I { I 1.00000 }        0.14757162759753
 which,over,considerations,policy,WDT,IN,NNS,NN,O,O { O 1.00000 }        0.016156468169213
 we,which,over,considerations,PRP,WDT,IN,NNS,I,I { I 1.00000 }        0.024482745512201
 have,we,which,over,VBP,PRP,WDT,IN,B,B { B 1.00000 }        0.041002968950056
@@ -6300,7 +6300,7 @@ allowed,been,had,we,VBN,VBN,VBD,PRP,O,O { O 1.00000 }        0.028794828769671
 to,allowed,been,had,TO,VBN,VBN,VBD,O,O { O 1.00000 }        0.028908863655851
 go,to,allowed,been,VB,TO,VBN,VBN,O,O { O 1.00000 }        0.00029258843954369
 ahead,go,to,allowed,RB,VB,TO,VBN,O,O { O 1.00000 }        0.016935419069579
-then,ahead,go,to,RB,RB,VB,TO,O,O { O 1.00000 }        0.067517838568912
+then,ahead,go,to,RB,RB,VB,TO,O,O { O 1.00000 }        0.067517838568911
 we,then,ahead,go,PRP,RB,RB,VB,O,O { O 1.00000 }        0.038266482413714
 would,we,then,ahead,MD,PRP,RB,RB,I,I { I 1.00000 }        0.029900447749510
 n't,would,we,then,RB,MD,PRP,RB,O,O { O 1.00000 }        0.0028622595668444
@@ -6320,7 +6320,7 @@ PUNT,says,Sanford,MrPUNT,PUNT,VBZ,NNP,NNP,O,O { O 7.00000 }        0.06377973187
 If,``,PUNT,PUNT,IN,``,PUNT,PUNT,O,O { O 5.00000 }        0.0000000000000
 he,If,``,PUNT,PRP,IN,``,PUNT,O,O { O 1.00000 }        0.0064497425402691
 had,he,If,``,VBD,PRP,IN,``,I,I { I 1.00000 }        0.012793979896980
-been,had,he,If,VBN,VBD,PRP,IN,O,O { O 1.00000 }        0.0099259827117146
+been,had,he,If,VBN,VBD,PRP,IN,O,O { O 1.00000 }        0.0099259827117145
 found,been,had,he,VBN,VBN,VBD,PRP,O,O { O 1.00000 }        0.019942071276807
 guilty,found,been,had,JJ,VBN,VBN,VBD,O,O { O 1.00000 }        0.018077564536370
 KOMMA,guilty,found,been,KOMMA,JJ,VBN,VBN,O,O { O 1.00000 }        0.044913400044942
@@ -6341,7 +6341,7 @@ took,Noriega,MrPUNT,KOMMA,VBD,NNP,NNP,KOMMA,I,I { I 1.00000 }        0.032359745
 over,took,Noriega,MrPUNT,IN,VBD,NNP,NNP,O,O { O 1.00000 }        0.064649000048175
 as,over,took,Noriega,IN,IN,VBD,NNP,O,O { O 1.00000 }        0.033208374330347
 General,as,over,took,NNP,IN,IN,VBD,O,O { O 1.00000 }        0.068628109499465
-and,General,as,over,CC,NNP,IN,IN,I,I { I 1.00000 }        0.044641294863533
+and,General,as,over,CC,NNP,IN,IN,I,I { I 1.00000 }        0.044641294863532
 de-facto,and,General,as,JJ,CC,NNP,IN,O,O { O 1.00000 }        0.065797408417596
 dictator,de-facto,and,General,NN,JJ,CC,NNP,I,I { I 1.00000 }        0.096998670951674
 of,dictator,de-facto,and,IN,NN,JJ,CC,I,I { I 1.00000 }        0.096917486942132
@@ -6428,7 +6428,7 @@ MrPUNT,KOMMA,intelligence,UPUNTSPUNT,NNP,KOMMA,NN,NNP,O,O { O 1.00000 }        0
 Noriega,MrPUNT,KOMMA,intelligence,NNP,NNP,KOMMA,NN,I,I { I 1.00000 }        0.0099355238664429
 was,Noriega,MrPUNT,KOMMA,VBD,NNP,NNP,KOMMA,I,I { I 1.00000 }        0.019476129893611
 hardly,was,Noriega,MrPUNT,RB,VBD,NNP,NNP,O,O { O 1.00000 }        0.0000000000000
-helping,hardly,was,Noriega,VBG,RB,VBD,NNP,O,O { O 1.00000 }        0.068606531320435
+helping,hardly,was,Noriega,VBG,RB,VBD,NNP,O,O { O 1.00000 }        0.068606531320434
 the,helping,hardly,was,DT,VBG,RB,VBD,O,O { O 1.00000 }        0.11053773587243
 UPUNTSPUNT,the,helping,hardly,NNP,DT,VBG,RB,I,I { I 1.00000 }        0.052096970388224
 exclusively,UPUNTSPUNT,the,helping,RB,NNP,DT,VBG,I,I { I 1.00000 }        0.029546220246894
@@ -6537,7 +6537,7 @@ rebels,Contra,the,with,NNS,NNP,DT,IN,I,I { I 1.00000 }        0.024004522007525
 in,rebels,Contra,the,IN,NNS,NNP,DT,I,I { I 1.00000 }        0.041680400735660
 Nicaragua,in,rebels,Contra,NNP,IN,NNS,NNP,O,O { O 1.00000 }        0.0093704852287943
 PUNT,Nicaragua,in,rebels,PUNT,NNP,IN,NNS,I,I { I 1.00000 }        0.0077629436009923
-MrPUNT,PUNT,PUNT,Nicaragua,NNP,PUNT,PUNT,NNP,O,O { O 2.00000 }        0.00061368053819388
+MrPUNT,PUNT,PUNT,Nicaragua,NNP,PUNT,PUNT,NNP,O,O { O 2.00000 }        0.00061368053819387
 Blandon,MrPUNT,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,I { I 57.0000 }        0.053005251295110
 says,Blandon,MrPUNT,PUNT,VBZ,NNP,NNP,PUNT,I,I { I 3.00000 }        0.094089873107254
 the,says,Blandon,MrPUNT,DT,VBZ,NNP,NNP,O,O { O 1.00000 }        0.063779731878369
@@ -6561,7 +6561,7 @@ also,Noriega,MrPUNT,PUNT,RB,NNP,NNP,PUNT,I,I { I 1.00000 }        0.042824844306
 conveyed,also,Noriega,MrPUNT,VBD,RB,NNP,NNP,O,O { O 1.00000 }        0.053005251295110
 intelligence,conveyed,also,Noriega,NN,VBD,RB,NNP,O,O { O 1.00000 }        0.10095608967040
 from,intelligence,conveyed,also,IN,NN,VBD,RB,I,I { I 1.00000 }        0.090836855055669
-his,from,intelligence,conveyed,PRP$,IN,NN,VBD,O,O { O 1.00000 }        0.034397152311746
+his,from,intelligence,conveyed,PRP$,IN,NN,VBD,O,O { O 1.00000 }        0.034397152311745
 spy,his,from,intelligence,NN,PRP$,IN,NN,I,I { I 1.00000 }        0.0088342085491850
 operation,spy,his,from,NN,NN,PRP$,IN,I,I { I 1.00000 }        0.057230244356909
 inside,operation,spy,his,IN,NN,NN,PRP$,I,I { I 1.00000 }        0.14151933169895
@@ -6573,7 +6573,7 @@ Managua,of,capital,Nicaraguan,NNP,IN,NN,JJ,O,O { O 1.00000 }        0.0917412940
 PUNT,Managua,of,capital,PUNT,NNP,IN,NN,I,I { I 1.00000 }        0.094235017158263
 And,PUNT,PUNT,Managua,CC,PUNT,PUNT,NNP,O,O { O 3.00000 }        0.028360141319983
 on,And,PUNT,PUNT,IN,CC,PUNT,PUNT,O,O { O 1.00000 }        0.0043552741829439
-at,on,And,PUNT,IN,IN,CC,PUNT,O,O { O 1.00000 }        0.018537149645577
+at,on,And,PUNT,IN,IN,CC,PUNT,O,O { O 1.00000 }        0.018537149645576
 least,at,on,And,JJS,IN,IN,CC,I,I { I 1.00000 }        0.0040747676534036
 one,least,at,on,CD,JJS,IN,IN,I,I { I 1.00000 }        0.00014201746268767
 occasion,one,least,at,NN,CD,JJS,IN,I,I { I 1.00000 }        0.053005251295110
@@ -6597,7 +6597,7 @@ arsenal,Sandinista,a,on,NN,NNP,DT,IN,I,I { I 1.00000 }        0.058548184251602
 in,arsenal,Sandinista,a,IN,NN,NNP,DT,I,I { I 1.00000 }        0.094089873107254
 Nicaragua,in,arsenal,Sandinista,NNP,IN,NN,NNP,O,O { O 1.00000 }        0.066724468061431
 PUNT,Nicaragua,in,arsenal,PUNT,NNP,IN,NN,I,I { I 1.00000 }        0.035723732236725
-Although,PUNT,PUNT,Nicaragua,IN,PUNT,PUNT,NNP,O,O { O 1.00000 }        0.00061368053819388
+Although,PUNT,PUNT,Nicaragua,IN,PUNT,PUNT,NNP,O,O { O 1.00000 }        0.00061368053819387
 KOMMA,Although,PUNT,PUNT,KOMMA,IN,PUNT,PUNT,O,O { O 1.00000 }        0.013734213798751
 his,KOMMA,Although,PUNT,PRP$,KOMMA,IN,PUNT,O,O { O 1.00000 }        0.0086434627743262
 help,his,KOMMA,Although,NN,PRP$,KOMMA,IN,I,I { I 1.00000 }        0.051914483671608
@@ -6713,7 +6713,7 @@ fishing,sea,deep,of,NN,NN,JJ,IN,I,I { I 4.00000 }        0.21087485628073
 and,fishing,sea,deep,CC,NN,NN,JJ,I,I { I 6.00000 }        0.18622974630561
 ``,and,fishing,sea,``,CC,NN,NN,O,O { O 1.00000 }        0.096096702229700
 quiet,``,and,fishing,JJ,``,CC,NN,O,O { O 1.00000 }        0.028759494004233
-KOMMA,quiet,``,and,KOMMA,JJ,``,CC,I,I { I 1.00000 }        0.048541244397988
+KOMMA,quiet,``,and,KOMMA,JJ,``,CC,I,I { I 1.00000 }        0.048541244397987
 serious,KOMMA,quiet,``,JJ,KOMMA,JJ,``,I,I { I 1.00000 }        0.0039129250095942
 conversation,serious,KOMMA,quiet,NN,JJ,KOMMA,JJ,I,I { I 1.00000 }        0.12878564533016
 '',conversation,serious,KOMMA,'',NN,JJ,KOMMA,I,I { I 2.00000 }        0.095808538212508
@@ -6734,7 +6734,7 @@ UPUNTSPUNT,the,KOMMA,Briggs,NNP,DT,KOMMA,NNP,I,I { I 3.00000 }        0.02836014
 ambassador,UPUNTSPUNT,the,KOMMA,NN,NNP,DT,KOMMA,I,I { I 2.00000 }        0.053005251295110
 to,ambassador,UPUNTSPUNT,the,TO,NN,NNP,DT,I,O { O 1.00000 }        0.097958521482878
 Panama,to,ambassador,UPUNTSPUNT,NNP,TO,NN,NNP,O,I { I 1.00000 }        0.077700799732600
-KOMMA,Panama,to,ambassador,KOMMA,NNP,TO,NN,I,I { I 1.00000 }        0.096132343119762
+KOMMA,Panama,to,ambassador,KOMMA,NNP,TO,NN,I,I { I 1.00000 }        0.096132343119761
 of,KOMMA,Panama,to,IN,KOMMA,NNP,TO,O,I { I 1.00000 }        0.024778716970032
 the,of,KOMMA,Panama,DT,IN,KOMMA,NNP,O,O { O 1.00000 }        0.0025402075821888
 invitation,the,of,KOMMA,NN,DT,IN,KOMMA,I,I { I 1.00000 }        0.053005251295110
@@ -6761,7 +6761,7 @@ set,being,was,he,VBN,VBG,VBD,PRP,O,O { O 1.00000 }        0.020246211648648
 up,set,being,was,IN,VBN,VBG,VBD,O,O { O 1.00000 }        0.030265677721425
 for,up,set,being,IN,IN,VBN,VBG,O,O { O 1.00000 }        0.019326837482019
 a,for,up,set,DT,IN,IN,VBN,O,O { O 1.00000 }        0.022094627056177
-``,a,for,up,``,DT,IN,IN,I,I { I 1.00000 }        0.021150952525642
+``,a,for,up,``,DT,IN,IN,I,I { I 1.00000 }        0.021150952525641
 honey,``,a,for,NN,``,DT,IN,I,I { I 1.00000 }        0.055593785120086
 trap,honey,``,a,NN,NN,``,DT,I,I { I 2.00000 }        0.14709512440236
 KOMMA,trap,honey,``,KOMMA,NN,NN,``,I,I { I 23.0000 }        0.15939516227114
@@ -6774,7 +6774,7 @@ would,Noriega,MrPUNT,which,MD,NNP,NNP,WDT,I,I { I 1.00000 }        0.02841856345
 try,would,Noriega,MrPUNT,VB,MD,NNP,NNP,O,O { O 1.00000 }        0.039252803177803
 to,try,would,Noriega,TO,VB,MD,NNP,O,O { O 1.00000 }        0.0074162072389592
 involve,to,try,would,VB,TO,VB,MD,O,O { O 1.00000 }        0.052568148303267
-him,involve,to,try,PRP,VB,TO,VB,O,O { O 1.00000 }        0.00050707074311873
+him,involve,to,try,PRP,VB,TO,VB,O,O { O 1.00000 }        0.00050707074311872
 in,him,involve,to,IN,PRP,VB,TO,I,I { I 1.00000 }        0.040631446479218
 an,in,him,involve,DT,IN,PRP,VB,O,O { O 1.00000 }        0.027183890177632
 orgy,an,in,him,NN,DT,IN,PRP,I,I { I 1.00000 }        0.057463190003409
@@ -6822,7 +6822,7 @@ grew,troubles,political,'s,VBD,NNS,JJ,POS,I,I { I 1.00000 }        0.02335667206
 KOMMA,grew,troubles,political,KOMMA,VBD,NNS,JJ,O,O { O 1.00000 }        0.066761544025329
 so,KOMMA,grew,troubles,RB,KOMMA,VBD,NNS,O,O { O 1.00000 }        0.030342052050440
 did,so,KOMMA,grew,VBD,RB,KOMMA,VBD,O,I { I 1.00000 }        0.062428709000008
-his,did,so,KOMMA,PRP$,VBD,RB,KOMMA,O,O { O 1.00000 }        0.035875155228590
+his,did,so,KOMMA,PRP$,VBD,RB,KOMMA,O,O { O 1.00000 }        0.035875155228589
 offers,his,did,so,NNS,PRP$,VBD,RB,I,I { I 1.00000 }        0.053059427374106
 of,offers,his,did,IN,NNS,PRP$,VBD,I,I { I 1.00000 }        0.045017485236550
 assistance,of,offers,his,NN,IN,NNS,PRP$,O,O { O 1.00000 }        0.024283502507498
@@ -6832,7 +6832,7 @@ Contras,the,to,assistance,NNPS,DT,TO,NN,I,I { I 2.00000 }        0.0602010465914
 KOMMA,Contras,the,to,KOMMA,NNPS,DT,TO,I,I { I 1.00000 }        0.10358352147612
 an,KOMMA,Contras,the,DT,KOMMA,NNPS,DT,O,O { O 2.00000 }        0.071329394968247
 apparent,an,KOMMA,Contras,JJ,DT,KOMMA,NNPS,I,I { I 1.00000 }        0.028807615131192
-attempt,apparent,an,KOMMA,NN,JJ,DT,KOMMA,I,I { I 1.00000 }        0.0078013280016678
+attempt,apparent,an,KOMMA,NN,JJ,DT,KOMMA,I,I { I 1.00000 }        0.0078013280016677
 to,attempt,apparent,an,TO,NN,JJ,DT,I,I { I 1.00000 }        0.0000000000000
 curry,to,attempt,apparent,VB,TO,NN,JJ,O,O { O 1.00000 }        0.053005251295110
 more,curry,to,attempt,JJR,VB,TO,NN,O,O { O 1.00000 }        0.096790838947253
@@ -6986,7 +6986,7 @@ late,In,PUNT,PUNT,JJ,IN,PUNT,PUNT,O,O { O 2.00000 }        0.00036809202288271
 KOMMA,1986,late,In,KOMMA,CD,JJ,IN,I,I { I 1.00000 }        0.012835539652084
 he,KOMMA,1986,late,PRP,KOMMA,CD,JJ,O,O { O 1.00000 }        0.036911954170140
 made,he,KOMMA,1986,VBD,PRP,KOMMA,CD,I,I { I 1.00000 }        0.010408192888443
-an,made,he,KOMMA,DT,VBD,PRP,KOMMA,O,O { O 1.00000 }        0.047909896603916
+an,made,he,KOMMA,DT,VBD,PRP,KOMMA,O,O { O 1.00000 }        0.047909896603915
 offer,an,made,he,NN,DT,VBD,PRP,I,I { I 1.00000 }        0.021260234964208
 he,offer,an,made,PRP,NN,DT,VBD,I,I { I 1.00000 }        0.046999154943498
 thought,he,offer,an,VBD,PRP,NN,DT,B,B { B 1.00000 }        0.048601223147225
@@ -7028,8 +7028,8 @@ promise,a,for,``,NN,DT,IN,``,I,I { I 1.00000 }        0.0037527271984332
 to,promise,a,for,TO,NN,DT,IN,I,I { I 1.00000 }        0.023151682388796
 help,to,promise,a,VB,TO,NN,DT,O,O { O 1.00000 }        0.0076699544593511
 clean,help,to,promise,JJ,VB,TO,NN,O,O { O 1.00000 }        0.083787981330251
-up,clean,help,to,IN,JJ,VB,TO,O,I { I 1.00000 }        0.12295257482786
-Noriega,up,clean,help,NNP,IN,JJ,VB,O,I { I 1.00000 }        0.093034038671737
+up,clean,help,to,IN,JJ,VB,TO,O,I { I 1.00000 }        0.12295257482785
+Noriega,up,clean,help,NNP,IN,JJ,VB,O,I { I 1.00000 }        0.093034038671736
 's,Noriega,up,clean,POS,NNP,IN,JJ,I,I { I 1.00000 }        0.10755366410088
 image,'s,Noriega,up,NN,POS,NNP,IN,B,B { B 1.00000 }        0.034569584256926
 and,image,'s,Noriega,CC,NN,POS,NNP,I,I { I 1.00000 }        0.029606941585702
@@ -7061,7 +7061,7 @@ the,'',KOMMA,North,DT,'',KOMMA,NNP,O,O { O 1.00000 }        0.0072668978021859
 document,the,'',KOMMA,NN,DT,'',KOMMA,I,I { I 2.00000 }        0.053005251295110
 went,document,the,'',VBD,NN,DT,'',I,I { I 1.00000 }        0.095522041041752
 on,went,document,the,IN,VBD,NN,DT,O,O { O 1.00000 }        0.063779731878369
-KOMMA,on,went,document,KOMMA,IN,VBD,NN,O,O { O 1.00000 }        0.043737928802304
+KOMMA,on,went,document,KOMMA,IN,VBD,NN,O,O { O 1.00000 }        0.043737928802303
 referring,KOMMA,on,went,VBG,KOMMA,IN,VBD,O,O { O 1.00000 }        0.012026558368967
 to,referring,KOMMA,on,TO,VBG,KOMMA,IN,O,O { O 1.00000 }        0.017438006808764
 Oliver,to,referring,KOMMA,NNP,TO,VBG,KOMMA,O,O { O 1.00000 }        0.081564962814145
@@ -7107,7 +7107,7 @@ helped,had,Noriega,as,VBN,VBD,NNP,IN,O,O { O 1.00000 }        0.021834712045801
 -LCB-,helped,had,Noriega,(,VBN,VBD,NNP,O,O { O 1.00000 }        0.044433012838951
 the,-LCB-,helped,had,DT,(,VBN,VBD,O,O { O 1.00000 }        0.10774057062199
 UPUNTSPUNT,the,-LCB-,helped,NNP,DT,(,VBN,I,I { I 1.00000 }        0.050633475971140
-PUNT,UPUNTSPUNT,the,-LCB-,PUNT,NNP,DT,(,I,I { I 3.00000 }        0.0088790868578895
+PUNT,UPUNTSPUNT,the,-LCB-,PUNT,NNP,DT,(,I,I { I 3.00000 }        0.0088790868578894
 -RCB-,PUNT,UPUNTSPUNT,the,),PUNT,NNP,DT,O,I { I 1.00000 }        0.0000000000000
 the,-RCB-,PUNT,UPUNTSPUNT,DT,),PUNT,NNP,O,O { O 1.00000 }        0.081822434154346
 previous,the,-RCB-,PUNT,JJ,DT,),PUNT,I,B { B 1.00000 }        0.030514314510557
@@ -7179,7 +7179,7 @@ image,tarnished,his,repair,NN,VBN,PRP$,VB,I,I { I 1.00000 }        0.12343663202
 PUNT,image,tarnished,his,PUNT,NN,VBN,PRP$,I,I { I 1.00000 }        0.11561075607185
 The,PUNT,PUNT,image,DT,PUNT,PUNT,NN,O,O { O 12.0000 }        0.0000000000000
 end,The,PUNT,PUNT,NN,DT,PUNT,PUNT,I,I { I 1.00000 }        0.0011835303319482
-of,end,The,PUNT,IN,NN,DT,PUNT,I,I { I 1.00000 }        0.0023343634042724
+of,end,The,PUNT,IN,NN,DT,PUNT,I,I { I 1.00000 }        0.0023343634042723
 the,of,end,The,DT,IN,NN,DT,O,O { O 7.00000 }        0.0022301145168441
 marriage,the,of,end,NN,DT,IN,NN,I,I { I 7.00000 }        0.053005251295110
 was,marriage,the,of,VBD,NN,DT,IN,I,I { I 1.00000 }        0.094089873107254
@@ -7251,7 +7251,7 @@ the,stolen,had,Noriega,DT,VBN,VBD,NNP,O,O { O 1.00000 }        0.096437876714166
 1984,the,stolen,had,CD,DT,VBN,VBD,I,I { I 1.00000 }        0.068691361836563
 election,1984,the,stolen,NN,CD,DT,VBN,I,I { I 1.00000 }        0.033656462119334
 and,election,1984,the,CC,NN,CD,DT,I,I { I 1.00000 }        0.060369760835572
-had,and,election,1984,VBD,CC,NN,CD,O,I { I 1.00000 }        0.0079634096062655
+had,and,election,1984,VBD,CC,NN,CD,O,I { I 1.00000 }        0.0079634096062654
 ordered,had,and,election,VBN,VBD,CC,NN,O,O { O 1.00000 }        0.075962695031552
 the,ordered,had,and,DT,VBN,VBD,CC,O,O { O 1.00000 }        0.10125442100367
 killing,the,ordered,had,NN,DT,VBN,VBD,I,I { I 1.00000 }        0.073985236380145
@@ -7269,7 +7269,7 @@ willing,were,officials,American,JJ,VBD,NNS,JJ,O,O { O 1.00000 }        0.0206550
 any,willing,were,officials,RB,JJ,VBD,NNS,O,O { O 1.00000 }        0.036691894532278
 longer,any,willing,were,RB,RB,JJ,VBD,O,O { O 1.00000 }        0.069039236166889
 to,longer,any,willing,TO,RB,RB,JJ,O,O { O 1.00000 }        0.12612396999167
-defend,to,longer,any,VB,TO,RB,RB,O,O { O 1.00000 }        0.0089358184570789
+defend,to,longer,any,VB,TO,RB,RB,O,O { O 1.00000 }        0.0089358184570788
 him,defend,to,longer,PRP,VB,TO,RB,O,O { O 1.00000 }        0.0092411827589655
 PUNT,him,defend,to,PUNT,PRP,VB,TO,I,I { I 1.00000 }        0.0000000000000
 Lawyers,PUNT,PUNT,him,NNS,PUNT,PUNT,PRP,O,O { O 1.00000 }        0.053696788412980
@@ -7336,7 +7336,7 @@ many,so,for,helped,JJ,RB,IN,VBN,I,O { O 1.00000 }        0.066545786823112
 years,many,so,for,NNS,JJ,RB,IN,I,I { I 1.00000 }        0.067854787642154
 KOMMA,years,many,so,KOMMA,NNS,JJ,RB,I,I { I 1.00000 }        0.025237178358150
 could,KOMMA,years,many,MD,KOMMA,NNS,JJ,O,O { O 1.00000 }        0.023580491723047
-turn,could,KOMMA,years,VB,MD,KOMMA,NNS,O,O { O 1.00000 }        0.032774800000168
+turn,could,KOMMA,years,VB,MD,KOMMA,NNS,O,O { O 1.00000 }        0.032774800000167
 against,turn,could,KOMMA,IN,VB,MD,KOMMA,O,O { O 1.00000 }        0.083622433801328
 him,against,turn,could,PRP,IN,VB,MD,O,O { O 1.00000 }        0.027342070169206
 PUNT,him,against,turn,PUNT,PRP,IN,VB,I,I { I 1.00000 }        0.021506299200378
@@ -7423,7 +7423,7 @@ SenPUNT,KOMMA,quite,Not,NNP,KOMMA,RB,RB,O,O { O 1.00000 }        0.0169175149420
 Leahy,SenPUNT,KOMMA,quite,NNP,NNP,KOMMA,RB,I,I { I 1.00000 }        0.072914379762984
 contends,Leahy,SenPUNT,KOMMA,VBZ,NNP,NNP,KOMMA,I,I { I 4.00000 }        0.094089873107254
 PUNT,contends,Leahy,SenPUNT,PUNT,VBZ,NNP,NNP,O,O { O 1.00000 }        0.14420743124843
-``,PUNT,PUNT,contends,``,PUNT,PUNT,VBZ,O,O { O 1.00000 }        0.00038964721414423
+``,PUNT,PUNT,contends,``,PUNT,PUNT,VBZ,O,O { O 1.00000 }        0.00038964721414422
 For,``,PUNT,PUNT,IN,``,PUNT,PUNT,O,O { O 2.00000 }        0.0000000000000
 short-term,For,``,PUNT,JJ,IN,``,PUNT,O,O { O 1.00000 }        0.048283336801691
 gains,short-term,For,``,NNS,JJ,IN,``,I,I { I 1.00000 }        0.026577087733210
@@ -7515,7 +7515,7 @@ PUNT,earlier,year,a,PUNT,RBR,NN,DT,O,O { O 12.0000 }        0.0000000000000
 Yesterday,PUNT,PUNT,earlier,NN,PUNT,PUNT,RBR,O,O { O 2.00000 }        0.053005251295110
 's,Yesterday,PUNT,PUNT,POS,NN,PUNT,PUNT,I,I { I 1.00000 }        0.094089873107254
 edition,'s,Yesterday,PUNT,NN,POS,NN,PUNT,B,B { B 1.00000 }        0.071000849442306
-provided,edition,'s,Yesterday,VBD,NN,POS,NN,I,I { I 2.00000 }        0.058937288925681
+provided,edition,'s,Yesterday,VBD,NN,POS,NN,I,I { I 2.00000 }        0.058937288925680
 analysts,provided,edition,'s,NNS,VBD,NN,POS,O,O { O 1.00000 }        0.047048086034844
 ',analysts,provided,edition,POS,NNS,VBD,NN,I,I { I 2.00000 }        0.038734398090545
 estimates,',analysts,provided,NNS,POS,NNS,VBD,B,B { B 2.00000 }        0.0043938052683176
@@ -7534,13 +7534,13 @@ declined,production,Industrial,PUNT,VBD,NN,JJ,PUNT,I,I { I 1.00000 }        0.02
 0PUNT1,declined,production,Industrial,CD,VBD,NN,JJ,O,O { O 1.00000 }        0.051306582549829
 PROCENT,0PUNT1,declined,production,NN,CD,VBD,NN,I,I { I 1.00000 }        0.047769450452612
 in,PROCENT,0PUNT1,declined,IN,NN,CD,VBD,I,I { I 1.00000 }        0.0059133911688475
-September,in,PROCENT,0PUNT1,NNP,IN,NN,CD,O,O { O 1.00000 }        0.014180070659992
+September,in,PROCENT,0PUNT1,NNP,IN,NN,CD,O,O { O 1.00000 }        0.014180070659991
 KOMMA,September,in,PROCENT,KOMMA,NNP,IN,NN,I,I { I 1.00000 }        0.0000000000000
 reinforcing,KOMMA,September,in,VBG,KOMMA,NNP,IN,O,O { O 1.00000 }        0.075208497710042
 other,reinforcing,KOMMA,September,JJ,VBG,KOMMA,NNP,O,O { O 1.00000 }        0.10583065612745
 signs,other,reinforcing,KOMMA,NNS,JJ,VBG,KOMMA,I,I { I 1.00000 }        0.084298226674019
 that,signs,other,reinforcing,IN,NNS,JJ,VBG,I,I { I 1.00000 }        0.064787983559922
-the,that,signs,other,DT,IN,NNS,JJ,O,B { B 1.00000 }        0.012256106999086
+the,that,signs,other,DT,IN,NNS,JJ,O,B { B 1.00000 }        0.012256106999085
 manufacturing,the,that,signs,NN,DT,IN,NNS,I,I { I 1.00000 }        0.0090481934274648
 sector,manufacturing,the,that,NN,NN,DT,IN,I,I { I 1.00000 }        0.011553088608451
 continues,sector,manufacturing,the,VBZ,NN,NN,DT,I,I { I 1.00000 }        0.043928510381565
@@ -7580,7 +7580,7 @@ substantially,KOMMA,quarter,third,RB,KOMMA,NN,JJ,O,O { O 1.00000 }        0.0383
 slower,substantially,KOMMA,quarter,JJR,RB,KOMMA,NN,O,I { I 1.00000 }        0.038119079539712
 than,slower,substantially,KOMMA,IN,JJR,RB,KOMMA,O,I { I 1.00000 }        0.026431147300503
 the,than,slower,substantially,DT,IN,JJR,RB,O,O { O 1.00000 }        0.019007814963970
-3PUNT3,the,than,slower,CD,DT,IN,JJR,I,I { I 1.00000 }        0.050581869838120
+3PUNT3,the,than,slower,CD,DT,IN,JJR,I,I { I 1.00000 }        0.050581869838119
 PROCENT,3PUNT3,the,than,NN,CD,DT,IN,I,I { I 1.00000 }        0.0093529759341753
 annual,PROCENT,3PUNT3,the,JJ,NN,CD,DT,I,I { I 1.00000 }        0.019503931961066
 rate,annual,PROCENT,3PUNT3,NN,JJ,NN,CD,I,I { I 1.00000 }        0.015013364926985
@@ -7599,14 +7599,14 @@ which,KOMMA,exports,and,WDT,KOMMA,NNS,CC,O,O { O 1.00000 }        0.035952134628
 have,which,KOMMA,exports,VBP,WDT,KOMMA,NNS,I,I { I 1.00000 }        0.0041012020595553
 been,have,which,KOMMA,VBN,VBP,WDT,KOMMA,O,O { O 1.00000 }        0.055188251233204
 the,been,have,which,DT,VBN,VBP,WDT,O,O { O 1.00000 }        0.014906134336399
-driving,the,been,have,VBG,DT,VBN,VBP,I,I { I 1.00000 }        0.027737615522522
+driving,the,been,have,VBG,DT,VBN,VBP,I,I { I 1.00000 }        0.027737615522521
 force,driving,the,been,NN,VBG,DT,VBN,I,I { I 1.00000 }        0.0029783920121934
 in,force,driving,the,IN,NN,VBG,DT,I,I { I 1.00000 }        0.025273328752660
-this,in,force,driving,DT,IN,NN,VBG,O,O { O 1.00000 }        0.0060353182600637
+this,in,force,driving,DT,IN,NN,VBG,O,O { O 1.00000 }        0.0060353182600636
 expansion,this,in,force,NN,DT,IN,NN,I,I { I 1.00000 }        0.015212105131648
 KOMMA,expansion,this,in,KOMMA,NN,DT,IN,I,I { I 1.00000 }        0.036746158881320
 are,KOMMA,expansion,this,VBP,KOMMA,NN,DT,O,O { O 1.00000 }        0.060038869844213
-showing,are,KOMMA,expansion,VBG,VBP,KOMMA,NN,O,O { O 1.00000 }        0.0070900353299958
+showing,are,KOMMA,expansion,VBG,VBP,KOMMA,NN,O,O { O 1.00000 }        0.0070900353299957
 clear,showing,are,KOMMA,JJ,VBG,VBP,KOMMA,O,O { O 1.00000 }        0.062942090144380
 signs,clear,showing,are,NNS,JJ,VBG,VBP,I,I { I 1.00000 }        0.060775920735788
 of,signs,clear,showing,IN,NNS,JJ,VBG,I,I { I 1.00000 }        0.024272035900970
@@ -7691,11 +7691,11 @@ at,economist,KOMMA,Harris,IN,NN,KOMMA,NNP,I,I { I 2.00000 }        0.02836014131
 PaineWebber,at,economist,KOMMA,NNP,IN,NN,KOMMA,O,O { O 2.00000 }        0.0000000000000
 Group,PaineWebber,at,economist,NNP,NNP,IN,NN,I,I { I 1.00000 }        0.0011152770901721
 Inc,Group,PaineWebber,at,NNP,NNP,NNP,IN,I,I { I 1.00000 }        0.0043511468736422
-PUNT,Inc,Group,PaineWebber,PUNT,NNP,NNP,NNP,I,I { I 1.00000 }        0.014180070659992
+PUNT,Inc,Group,PaineWebber,PUNT,NNP,NNP,NNP,I,I { I 1.00000 }        0.014180070659991
 The,PUNT,PUNT,Inc,DT,PUNT,PUNT,NNP,O,O { O 1.00000 }        0.0000000000000
 Fed,The,PUNT,PUNT,NNP,DT,PUNT,PUNT,I,I { I 49.0000 }        0.053005251295110
 also,Fed,The,PUNT,RB,NNP,DT,PUNT,I,I { I 1.00000 }        0.094089873107254
-said,also,Fed,The,VBD,RB,NNP,DT,O,O { O 1.00000 }        0.065778640063805
+said,also,Fed,The,VBD,RB,NNP,DT,O,O { O 1.00000 }        0.065778640063804
 UPUNTSPUNT,said,also,Fed,NNP,VBD,RB,NNP,O,O { O 1.00000 }        0.033692960773130
 industry,UPUNTSPUNT,said,also,NN,NNP,VBD,RB,I,I { I 1.00000 }        0.0084423035421132
 operated,industry,UPUNTSPUNT,said,VBN,NN,NNP,VBD,I,I { I 1.00000 }        0.073269227707580
@@ -7740,7 +7740,7 @@ KOMMA,February,since,decline,KOMMA,NNP,IN,NN,I,I { I 1.00000 }        0.03610868
 after,KOMMA,February,since,IN,KOMMA,NNP,IN,O,I { I 2.00000 }        0.0061848118978433
 having,after,KOMMA,February,VBG,IN,KOMMA,NNP,O,O { O 1.00000 }        0.028517575895562
 been,having,after,KOMMA,VBN,VBG,IN,KOMMA,O,O { O 1.00000 }        0.025136789853863
-unchanged,been,having,after,JJ,VBN,VBG,IN,O,O { O 1.00000 }        0.049273507687564
+unchanged,been,having,after,JJ,VBN,VBG,IN,O,O { O 1.00000 }        0.049273507687563
 in,unchanged,been,having,IN,JJ,VBN,VBG,O,O { O 1.00000 }        0.028862435648415
 October,in,unchanged,been,NNP,IN,JJ,VBN,O,O { O 1.00000 }        0.020093531758380
 PUNT,October,in,unchanged,PUNT,NNP,IN,JJ,I,I { I 1.00000 }        0.025983156531498
@@ -7875,7 +7875,7 @@ effect,full,the,seen,NN,JJ,DT,VBN,I,I { I 1.00000 }        0.051735982517228
 of,effect,full,the,IN,NN,JJ,DT,I,I { I 2.00000 }        0.040229677514246
 that,of,effect,full,DT,IN,NN,JJ,O,O { O 1.00000 }        0.028414757863216
 yet,that,of,effect,RB,DT,IN,NN,I,I { I 1.00000 }        0.025061754735635
-PUNT,yet,that,of,PUNT,RB,DT,IN,O,O { O 1.00000 }        0.045489103308779
+PUNT,yet,that,of,PUNT,RB,DT,IN,O,O { O 1.00000 }        0.045489103308778
 '',PUNT,yet,that,'',PUNT,RB,DT,O,O { O 1.00000 }        0.014379971215859
 A,'','',PUNT,DT,'','',PUNT,O,O { I 1.00000, O 11.0000 }        0.0065066817766289
 decline,A,'','',NN,DT,'','',I,I { I 1.00000 }        0.013868671375043
@@ -7967,7 +7967,7 @@ posts,additional,the,to,NNS,JJ,DT,TO,I,I { I 1.00000 }        0.054666331799149
 of,posts,additional,the,IN,NNS,JJ,DT,I,I { I 1.00000 }        0.081138755159947
 chairman,of,posts,additional,NN,IN,NNS,JJ,O,O { O 1.00000 }        0.0064308485698153
 KOMMA,chairman,of,posts,KOMMA,NN,IN,NNS,I,I { I 1.00000 }        0.030753132191332
-president,KOMMA,chairman,of,NN,KOMMA,NN,IN,O,O { O 1.00000 }        0.0041375486158261
+president,KOMMA,chairman,of,NN,KOMMA,NN,IN,O,O { O 1.00000 }        0.0041375486158260
 and,president,KOMMA,chairman,CC,NN,KOMMA,NN,I,I { I 3.00000 }        0.0000000000000
 chief,and,president,KOMMA,JJ,CC,NN,KOMMA,O,O { O 7.00000 }        0.0000000000000
 executive,chief,and,president,NN,JJ,CC,NN,I,I { I 3.00000 }        0.0000000000000
@@ -8019,13 +8019,13 @@ age,of,years,45,NN,IN,NNS,CD,O,O { O 1.00000 }        0.014708809251182
 have,age,of,years,VBP,NN,IN,NNS,I,I { I 1.00000 }        0.041296360602106
 begun,have,age,of,VBN,VBP,NN,IN,O,O { O 1.00000 }        0.019037585991967
 to,begun,have,age,TO,VBN,VBP,NN,O,O { O 1.00000 }        0.013194989724712
-decline,to,begun,have,VB,TO,VBN,VBP,O,O { O 1.00000 }        0.044069702434693
+decline,to,begun,have,VB,TO,VBN,VBP,O,O { O 1.00000 }        0.044069702434692
 KOMMA,decline,to,begun,KOMMA,VB,TO,VBN,O,O { O 1.00000 }        0.076616041263598
 federal,KOMMA,decline,to,JJ,KOMMA,VB,TO,O,O { O 1.00000 }        0.017568001100594
 researchers,federal,KOMMA,decline,NNS,JJ,KOMMA,VB,I,I { I 1.00000 }        0.055430021127054
 report,researchers,federal,KOMMA,VBP,NNS,JJ,KOMMA,I,I { I 1.00000 }        0.11505877809395
 PUNT,report,researchers,federal,PUNT,VBP,NNS,JJ,O,O { O 1.00000 }        0.051227869410273
-The,PUNT,PUNT,report,DT,PUNT,PUNT,VBP,O,O { O 1.00000 }        0.00067076174465520
+The,PUNT,PUNT,report,DT,PUNT,PUNT,VBP,O,O { O 1.00000 }        0.00067076174465519
 drop,The,PUNT,PUNT,NN,DT,PUNT,PUNT,I,I { I 5.00000 }        0.0000000000000
 is,drop,The,PUNT,VBZ,NN,DT,PUNT,I,I { I 1.00000 }        0.012229129142665
 particularly,is,drop,The,RB,VBZ,NN,DT,O,O { O 1.00000 }        0.0035830179203247
@@ -8052,7 +8052,7 @@ A,PUNT,PUNT,rates,DT,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.00054538733307660
 report,A,PUNT,PUNT,NN,DT,PUNT,PUNT,I,I { I 1.00000 }        0.010516914939506
 in,report,A,PUNT,IN,NN,DT,PUNT,I,I { I 1.00000 }        0.027639231994117
 this,in,report,A,DT,IN,NN,DT,O,O { O 1.00000 }        0.013193708047498
-week,this,in,report,NN,DT,IN,NN,I,I { I 1.00000 }        0.0093137889688159
+week,this,in,report,NN,DT,IN,NN,I,I { I 1.00000 }        0.0093137889688158
 's,week,this,in,POS,NN,DT,IN,I,I { I 1.00000 }        0.0049512503043884
 issue,'s,week,this,NN,POS,NN,DT,B,B { B 1.00000 }        0.013251312823778
 of,issue,'s,week,IN,NN,POS,NN,I,I { I 1.00000 }        0.022148761131232
@@ -8064,7 +8064,7 @@ National,the,of,Journal,NNP,DT,IN,NNP,I,I { I 1.00000 }        0.001739659203223
 Cancer,National,the,of,NNP,NNP,DT,IN,I,I { I 2.00000 }        0.053005251295110
 Institute,Cancer,National,the,NNP,NNP,NNP,DT,I,I { I 16.0000 }        0.094089873107254
 also,Institute,Cancer,National,RB,NNP,NNP,NNP,I,I { I 1.00000 }        0.10245671977655
-projects,also,Institute,Cancer,VBZ,RB,NNP,NNP,O,O { O 1.00000 }        0.050090285766761
+projects,also,Institute,Cancer,VBZ,RB,NNP,NNP,O,O { O 1.00000 }        0.050090285766760
 that,projects,also,Institute,IN,VBZ,RB,NNP,O,I { I 1.00000 }        0.018106535508174
 overall,that,projects,also,JJ,IN,VBZ,RB,O,O { O 1.00000 }        0.016511153193100
 UPUNTSPUNT,overall,that,projects,NNP,JJ,IN,VBZ,I,I { I 1.00000 }        0.055684637105896
@@ -8156,7 +8156,7 @@ an,having,is,message,DT,VBG,VBZ,NN,O,O { O 1.00000 }        0.063648956565262
 impact,an,having,is,NN,DT,VBG,VBZ,I,I { I 1.00000 }        0.025538678725936
 KOMMA,impact,an,having,KOMMA,NN,DT,VBG,I,I { I 1.00000 }        0.022761046131392
 '',KOMMA,impact,an,'',KOMMA,NN,DT,O,O { O 5.00000 }        0.00098668239434295
-said,'',KOMMA,impact,VBD,'',KOMMA,NN,O,O { O 1.00000 }        0.0083089553667066
+said,'',KOMMA,impact,VBD,'',KOMMA,NN,O,O { O 1.00000 }        0.0083089553667065
 Melvyn,said,'',KOMMA,NNP,VBD,'',KOMMA,O,O { O 19.0000 }        0.053005251295110
 Tockman,Melvyn,said,'',NNP,NNP,VBD,'',I,I { I 19.0000 }        0.14709512440236
 KOMMA,Tockman,Melvyn,said,KOMMA,NNP,NNP,VBD,I,I { I 10.0000 }        0.15786960498562
@@ -8220,7 +8220,7 @@ was,mid-1970s,the,in,VBD,NNS,DT,IN,I,I { I 1.00000 }        0.0063873861745761
 per,13PUNT4,was,mid-1970s,IN,CD,VBD,NNS,I,I { I 1.00000 }        0.088158497625299
 100KOMMA000,per,13PUNT4,was,CD,IN,CD,VBD,O,O { O 1.00000 }        0.12074621178502
 KOMMA,100KOMMA000,per,13PUNT4,KOMMA,CD,IN,CD,I,I { I 1.00000 }        0.025310660343071
-but,KOMMA,100KOMMA000,per,CC,KOMMA,CD,IN,O,O { O 2.00000 }        0.022208365614503
+but,KOMMA,100KOMMA000,per,CC,KOMMA,CD,IN,O,O { O 2.00000 }        0.022208365614502
 the,but,KOMMA,100KOMMA000,DT,CC,KOMMA,CD,O,O { O 1.00000 }        0.0098278197491006
 mortality,the,but,KOMMA,NN,DT,CC,KOMMA,I,I { I 1.00000 }        0.026502625647555
 rate,mortality,the,but,NN,NN,DT,CC,I,I { I 1.00000 }        0.031898856863981
@@ -8245,10 +8245,10 @@ Measured,PUNT,PUNT,PROCENT,VBN,PUNT,PUNT,NN,O,O { O 1.00000 }        0.057169224
 the,Measured,PUNT,PUNT,DT,VBN,PUNT,PUNT,O,O { O 1.00000 }        0.11148494490002
 same,the,Measured,PUNT,JJ,DT,VBN,PUNT,I,I { I 1.00000 }        0.070635682382958
 way,same,the,Measured,NN,JJ,DT,VBN,I,I { I 2.00000 }        0.031020285014933
-KOMMA,way,same,the,KOMMA,NN,JJ,DT,I,I { I 1.00000 }        0.0094530599556321
+KOMMA,way,same,the,KOMMA,NN,JJ,DT,I,I { I 1.00000 }        0.0094530599556320
 the,KOMMA,way,same,DT,KOMMA,NN,JJ,O,O { O 1.00000 }        0.019625109577647
 decline,the,KOMMA,way,NN,DT,KOMMA,NN,I,I { I 1.00000 }        0.0040783634718593
-for,decline,the,KOMMA,IN,NN,DT,KOMMA,I,I { I 1.00000 }        0.0087799866501774
+for,decline,the,KOMMA,IN,NN,DT,KOMMA,I,I { I 1.00000 }        0.0087799866501773
 black,for,decline,the,JJ,IN,NN,DT,O,O { O 1.00000 }        0.053005251295110
 males,black,for,decline,NNS,JJ,IN,NN,I,I { I 1.00000 }        0.14732261216696
 was,males,black,for,VBD,NNS,JJ,IN,I,I { I 1.00000 }        0.15867203304187
@@ -8377,7 +8377,7 @@ all,for,rise,to,DT,IN,VB,TO,O,O { O 1.00000 }        0.013398162270223
 age,all,for,rise,NN,DT,IN,VB,I,I { I 1.00000 }        0.028590530646421
 groups,age,all,for,NNS,NN,DT,IN,I,I { I 1.00000 }        0.040853975692589
 over,groups,age,all,IN,NNS,NN,DT,I,I { I 1.00000 }        0.018115209426325
-55,over,groups,age,NN,IN,NNS,NN,O,O { O 1.00000 }        0.055319468686494
+55,over,groups,age,NN,IN,NNS,NN,O,O { O 1.00000 }        0.055319468686493
 KOMMA,55,over,groups,KOMMA,NN,IN,NNS,I,I { I 1.00000 }        0.037122191472081
 with,KOMMA,55,over,IN,KOMMA,NN,IN,O,I { I 1.00000 }        0.028255938334468
 sharp,with,KOMMA,55,JJ,IN,KOMMA,NN,O,O { O 1.00000 }        0.038001410244906
@@ -8550,7 +8550,7 @@ PUNT,smoking,of,habit,PUNT,NN,IN,NN,I,I { I 19.0000 }        0.12245001442724
 But,'','',PUNT,CC,'','',PUNT,O,O { O 2.00000 }        0.0000000000000
 the,But,'','',DT,CC,'','',O,O { O 1.00000 }        0.0020707199493105
 editorial,the,But,'',NN,DT,CC,'',I,I { I 1.00000 }        0.0063519133231463
-KOMMA,editorial,the,But,KOMMA,NN,DT,CC,I,I { I 1.00000 }        0.047307762346765
+KOMMA,editorial,the,But,KOMMA,NN,DT,CC,I,I { I 1.00000 }        0.047307762346764
 by,KOMMA,editorial,the,IN,KOMMA,NN,DT,O,O { O 1.00000 }        0.026552554883334
 Jan,by,KOMMA,editorial,NNP,IN,KOMMA,NN,O,O { O 1.00000 }        0.061282421012689
 Stjernsward,Jan,by,KOMMA,NNP,NNP,IN,KOMMA,I,I { I 1.00000 }        0.14709512440236
@@ -8591,10 +8591,10 @@ the,around,'',behavior,DT,IN,'',NN,O,O { O 1.00000 }        0.041418699135879
 world,the,around,'',NN,DT,IN,'',I,I { I 1.00000 }        0.010479468791946
 KOMMA,world,the,around,KOMMA,NN,DT,IN,I,I { I 1.00000 }        0.0049526718767705
 the,KOMMA,world,the,DT,KOMMA,NN,DT,O,O { O 1.00000 }        0.069528222474792
-editorial,the,KOMMA,world,NN,DT,KOMMA,NN,I,I { I 1.00000 }        0.0028778283121886
+editorial,the,KOMMA,world,NN,DT,KOMMA,NN,I,I { I 1.00000 }        0.0028778283121885
 says,editorial,the,KOMMA,VBZ,NN,DT,KOMMA,I,I { I 1.00000 }        0.055878867982617
 KOMMA,says,editorial,the,KOMMA,VBZ,NN,DT,O,O { O 1.00000 }        0.11423143404568
-through,KOMMA,says,editorial,IN,KOMMA,VBZ,NN,O,O { O 1.00000 }        0.023112529504214
+through,KOMMA,says,editorial,IN,KOMMA,VBZ,NN,O,O { O 1.00000 }        0.023112529504213
 the,through,KOMMA,says,DT,IN,KOMMA,VBZ,O,O { O 1.00000 }        0.015898152370923
 enactment,the,through,KOMMA,NN,DT,IN,KOMMA,I,I { I 1.00000 }        0.057488555014683
 of,enactment,the,through,IN,NN,DT,IN,I,I { I 1.00000 }        0.094089873107254
@@ -8603,7 +8603,7 @@ that,laws,of,enactment,WDT,NNS,IN,NN,I,I { I 1.00000 }        0.040299483014873
 limit,that,laws,of,VBP,WDT,NNS,IN,B,B { B 1.00000 }        0.016916702814732
 advertising,limit,that,laws,VBG,VBP,WDT,NNS,O,O { O 1.00000 }        0.080562956508707
 KOMMA,advertising,limit,that,KOMMA,VBG,VBP,WDT,I,O { O 1.00000 }        0.10897074306234
-boost,KOMMA,advertising,limit,VB,KOMMA,VBG,VBP,O,O { O 1.00000 }        0.035886825462142
+boost,KOMMA,advertising,limit,VB,KOMMA,VBG,VBP,O,O { O 1.00000 }        0.035886825462141
 tobacco,boost,KOMMA,advertising,NN,VB,KOMMA,VBG,O,O { O 1.00000 }        0.035530805079551
 prices,tobacco,boost,KOMMA,NNS,NN,VB,KOMMA,I,I { I 1.00000 }        0.065571511738049
 and,prices,tobacco,boost,CC,NNS,NN,VB,I,I { I 2.00000 }        0.0038146144045680
@@ -8791,9 +8791,9 @@ currently,KOMMA,Womack,Marvin,JJ,KOMMA,NNP,NNP,O,O { O 2.00000 }        0.065385
 vice,currently,KOMMA,Womack,NN,JJ,KOMMA,NNP,O,O { O 1.00000 }        0.098164174586828
 president\/product,vice,currently,KOMMA,NN,NN,JJ,KOMMA,I,I { I 2.00000 }        0.10084005020389
 supply,president\/product,vice,currently,NN,NN,NN,JJ,I,I { I 1.00000 }        0.10114066067695
-KOMMA,supply,president\/product,vice,KOMMA,NN,NN,NN,I,I { I 1.00000 }        0.098906771029479
+KOMMA,supply,president\/product,vice,KOMMA,NN,NN,NN,I,I { I 1.00000 }        0.098906771029478
 purchasing,KOMMA,supply,president\/product,VBG,KOMMA,NN,NN,I,O { O 1.00000 }        0.036236702021784
-KOMMA,purchasing,KOMMA,supply,KOMMA,VBG,KOMMA,NN,I,I { I 1.00000 }        0.080257402739173
+KOMMA,purchasing,KOMMA,supply,KOMMA,VBG,KOMMA,NN,I,I { I 1.00000 }        0.080257402739172
 to,KOMMA,purchasing,KOMMA,TO,KOMMA,VBG,KOMMA,O,O { O 1.00000 }        0.049160124622785
 head,to,KOMMA,purchasing,VB,TO,KOMMA,VBG,O,O { O 1.00000 }        0.022903236858441
 the,head,to,KOMMA,DT,VB,TO,KOMMA,O,O { O 1.00000 }        0.0044528617305828
@@ -8823,7 +8823,7 @@ and,management,top,'s,CC,NN,JJ,POS,I,I { I 1.00000 }        0.034931590876946
 with,and,management,top,IN,CC,NN,JJ,O,O { O 1.00000 }        0.034594745539539
 the,with,and,management,DT,IN,CC,NN,O,O { O 1.00000 }        0.021304145772411
 company,the,with,and,NN,DT,IN,CC,I,I { I 1.00000 }        0.013546996106405
-'s,company,the,with,POS,NN,DT,IN,I,I { I 1.00000 }        0.00021194127043981
+'s,company,the,with,POS,NN,DT,IN,I,I { I 1.00000 }        0.00021194127043980
 government-relations,'s,company,the,NNS,POS,NN,DT,B,B { B 2.00000 }        0.053005251295110
 staff,government-relations,'s,company,VBP,NNS,POS,NN,I,I { I 1.00000 }        0.098727832595576
 ``,staff,government-relations,'s,``,VBP,NNS,POS,I,I { I 1.00000 }        0.092831507598536
@@ -8840,7 +8840,7 @@ KOMMA,level,federal,the,KOMMA,NN,JJ,DT,I,I { I 1.00000 }        0.0000000000000
 '',KOMMA,level,federal,'',KOMMA,NN,JJ,O,O { O 1.00000 }        0.015004367726972
 said,'',KOMMA,level,VBD,'',KOMMA,NN,O,O { O 2.00000 }        0.0000000000000
 John,said,'',KOMMA,NNP,VBD,'',KOMMA,O,O { O 1.00000 }        0.0015144357512889
-GPUNT,John,said,'',NNP,NNP,VBD,'',I,I { I 1.00000 }        0.011417979415663
+GPUNT,John,said,'',NNP,NNP,VBD,'',I,I { I 1.00000 }        0.011417979415662
 Smale,GPUNT,John,said,NNP,NNP,NNP,VBD,I,I { I 1.00000 }        0.058071625393034
 KOMMA,Smale,GPUNT,John,KOMMA,NNP,NNP,NNP,I,I { I 1.00000 }        0.094089873107254
 chairman,KOMMA,Smale,GPUNT,NN,KOMMA,NNP,NNP,O,O { O 2.00000 }        0.063779731878369
@@ -8887,7 +8887,7 @@ food,KOMMA,products,household,NN,KOMMA,NNS,NN,O,O { O 1.00000 }        0.0565183
 and,food,KOMMA,products,CC,NN,KOMMA,NNS,I,I { I 1.00000 }        0.030168713934013
 pharmaceuticals,and,food,KOMMA,NNS,CC,NN,KOMMA,O,I { I 1.00000 }        0.014672810405822
 for,pharmaceuticals,and,food,IN,NNS,CC,NN,I,I { I 1.00000 }        0.032036724121553
-30,for,pharmaceuticals,and,CD,IN,NNS,CC,O,O { O 1.00000 }        0.016241753079947
+30,for,pharmaceuticals,and,CD,IN,NNS,CC,O,O { O 1.00000 }        0.016241753079946
 years,30,for,pharmaceuticals,NNS,CD,IN,NNS,I,I { I 1.00000 }        0.039985028919573
 PUNT,years,30,for,PUNT,NNS,CD,IN,I,I { I 1.00000 }        0.017202930539254
 Traders,PUNT,PUNT,years,NNS,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.010021133423581
@@ -8898,7 +8898,7 @@ from,profit,to,trying,IN,VB,TO,VBG,O,O { O 1.00000 }        0.016824831905636
 the,from,profit,to,DT,IN,VB,TO,O,O { O 1.00000 }        0.0091113902683385
 recent,the,from,profit,JJ,DT,IN,VB,I,I { I 1.00000 }        0.012061607971295
 volatility,recent,the,from,NN,JJ,DT,IN,I,I { I 1.00000 }        0.010003494443436
-in,volatility,recent,the,IN,NN,JJ,DT,I,I { I 1.00000 }        0.033083426792668
+in,volatility,recent,the,IN,NN,JJ,DT,I,I { I 1.00000 }        0.033083426792667
 financial,in,volatility,recent,JJ,IN,NN,JJ,O,O { O 1.00000 }        0.012511251065117
 markets,financial,in,volatility,NNS,JJ,IN,NN,I,I { I 1.00000 }        0.014884954342316
 invaded,markets,financial,in,VBD,NNS,JJ,IN,I,I { I 1.00000 }        0.055062042273832
@@ -8979,7 +8979,7 @@ drew,almost,composite,the,VBD,RB,JJ,DT,O,I { I 1.00000 }        0.03487696890855
 even,drew,almost,composite,RB,VBD,RB,JJ,O,O { O 1.00000 }        0.078166871524612
 on,even,drew,almost,IN,RB,VBD,RB,O,O { O 1.00000 }        0.056292734915197
 the,on,even,drew,DT,IN,RB,VBD,O,O { O 1.00000 }        0.074501531220801
-day,the,on,even,NN,DT,IN,RB,I,I { I 1.00000 }        0.0087635818402244
+day,the,on,even,NN,DT,IN,RB,I,I { I 1.00000 }        0.0087635818402243
 before,day,the,on,IN,NN,DT,IN,I,I { I 1.00000 }        0.010650711381030
 slipping,before,day,the,VBG,IN,NN,DT,O,O { O 1.00000 }        0.064963951022305
 again,slipping,before,day,RB,VBG,IN,NN,O,O { O 2.00000 }        0.10299711228479
@@ -9007,7 +9007,7 @@ Nasdaq,to,confined,was,NNP,TO,VBN,VBD,O,O { O 1.00000 }        0.067092560084314
 's,Nasdaq,to,confined,POS,NNP,TO,VBN,I,I { I 1.00000 }        0.14022438641042
 biggest,'s,Nasdaq,to,JJS,POS,NNP,TO,B,B { B 1.00000 }        0.023187026007680
 and,biggest,'s,Nasdaq,CC,JJS,POS,NNP,I,I { I 1.00000 }        0.0000000000000
-most,and,biggest,'s,RBS,CC,JJS,POS,I,I { I 1.00000 }        0.0018610278692597
+most,and,biggest,'s,RBS,CC,JJS,POS,I,I { I 1.00000 }        0.0018610278692596
 liquid,most,and,biggest,JJ,RBS,CC,JJS,I,I { I 1.00000 }        0.057773226388005
 stocks,liquid,most,and,NNS,JJ,RBS,CC,I,I { I 1.00000 }        0.096613932692736
 KOMMA,stocks,liquid,most,KOMMA,NNS,JJ,RBS,I,I { I 1.00000 }        0.066481587724737
@@ -9033,7 +9033,7 @@ point,one,at,PROCENT,NN,CD,IN,NN,I,I { I 1.00000 }        0.019889588683876
 KOMMA,point,one,at,KOMMA,NN,CD,IN,I,I { I 1.00000 }        0.0067613984992492
 and,KOMMA,point,one,CC,KOMMA,NN,CD,O,O { O 1.00000 }        0.028414691803583
 was,and,KOMMA,point,VBD,CC,KOMMA,NN,O,O { O 2.00000 }        0.021080783950932
-up,was,and,KOMMA,IN,VBD,CC,KOMMA,O,O { O 1.00000 }        0.0027437806121713
+up,was,and,KOMMA,IN,VBD,CC,KOMMA,O,O { O 1.00000 }        0.0027437806121712
 0PUNT4,up,was,and,CD,IN,VBD,CC,O,O { O 1.00000 }        0.0000000000000
 PROCENT,0PUNT4,up,was,NN,CD,IN,VBD,I,I { I 1.00000 }        0.052604347633538
 at,PROCENT,0PUNT4,up,IN,NN,CD,IN,I,I { I 1.00000 }        0.019451137368139
@@ -9058,10 +9058,10 @@ counterpart,Its,PUNT,PUNT,NN,PRP$,PUNT,PUNT,I,I { I 3.00000 }        0.053005251
 KOMMA,counterpart,Its,PUNT,KOMMA,NN,PRP$,PUNT,I,I { I 2.00000 }        0.094089873107254
 the,KOMMA,counterpart,Its,DT,KOMMA,NN,PRP$,O,O { O 3.00000 }        0.064238810411864
 Nasdaq,the,KOMMA,counterpart,NNP,DT,KOMMA,NN,I,I { I 2.00000 }        0.028759494004233
-Financial,Nasdaq,the,KOMMA,NNP,NNP,DT,KOMMA,I,I { I 1.00000 }        0.0063187491961811
+Financial,Nasdaq,the,KOMMA,NNP,NNP,DT,KOMMA,I,I { I 1.00000 }        0.0063187491961810
 Index,Financial,Nasdaq,the,NNP,NNP,NNP,DT,I,I { I 1.00000 }        0.012440423179026
 KOMMA,Index,Financial,Nasdaq,KOMMA,NNP,NNP,NNP,I,I { I 1.00000 }        0.013518803518404
-was,KOMMA,Index,Financial,VBD,KOMMA,NNP,NNP,O,O { O 1.00000 }        0.066634069007842
+was,KOMMA,Index,Financial,VBD,KOMMA,NNP,NNP,O,O { O 1.00000 }        0.066634069007841
 weak,was,KOMMA,Index,JJ,VBD,KOMMA,NNP,O,O { O 1.00000 }        0.037250707002536
 for,weak,was,KOMMA,IN,JJ,VBD,KOMMA,O,O { O 1.00000 }        0.0065042779269288
 most,for,weak,was,RBS,IN,JJ,VBD,O,O { O 1.00000 }        0.039221228300211
@@ -9120,7 +9120,7 @@ thought,you,time,Every,VBD,PRP,NN,DT,B,B { B 1.00000 }        0.049738117466608
 it,thought,you,time,PRP,VBD,PRP,NN,O,O { O 1.00000 }        0.014599041239313
 was,it,thought,you,VBD,PRP,VBD,PRP,I,I { I 1.00000 }        0.022894392698096
 going,was,it,thought,VBG,VBD,PRP,VBD,O,O { O 1.00000 }        0.022361244969129
-into,going,was,it,IN,VBG,VBD,PRP,O,O { O 1.00000 }        0.028765353681576
+into,going,was,it,IN,VBG,VBD,PRP,O,O { O 1.00000 }        0.028765353681575
 a,into,going,was,DT,IN,VBG,VBD,O,O { O 1.00000 }        0.084965852686610
 rally,a,into,going,NN,DT,IN,VBG,I,I { I 1.00000 }        0.010314151026537
 it,rally,a,into,PRP,NN,DT,IN,I,I { I 1.00000 }        0.054197396835029
@@ -9188,8 +9188,8 @@ KOMMA,profit,quick,a,KOMMA,NN,JJ,DT,I,I { I 1.00000 }        0.0093596097990337
 he,KOMMA,profit,quick,PRP,KOMMA,NN,JJ,O,O { O 1.00000 }        0.036558093652167
 and,he,KOMMA,profit,CC,PRP,KOMMA,NN,I,I { I 1.00000 }        0.011608476828982
 other,and,he,KOMMA,JJ,CC,PRP,KOMMA,O,O { O 1.00000 }        0.045487165491731
-traders,other,and,he,NNS,JJ,CC,PRP,I,I { I 1.00000 }        0.0062155017347908
-said,traders,other,and,VBD,NNS,JJ,CC,I,I { I 1.00000 }        0.010520844240812
+traders,other,and,he,NNS,JJ,CC,PRP,I,I { I 1.00000 }        0.0062155017347907
+said,traders,other,and,VBD,NNS,JJ,CC,I,I { I 1.00000 }        0.010520844240811
 PUNT,said,traders,other,PUNT,VBD,NNS,JJ,O,O { O 2.00000 }        0.0068016541928698
 ``,PUNT,PUNT,said,``,PUNT,PUNT,VBD,O,O { O 3.00000 }        0.0000000000000
 Everybody,``,PUNT,PUNT,NN,``,PUNT,PUNT,O,O { O 6.00000 }        0.053005251295110
@@ -9254,7 +9254,7 @@ KOMMA,Baltimore,in,KOMMA,KOMMA,NNP,IN,KOMMA,I,I { I 3.00000 }        0.094235017
 said,KOMMA,Baltimore,in,VBD,KOMMA,NNP,IN,O,O { O 3.00000 }        0.064738401930301
 program,said,KOMMA,Baltimore,NN,VBD,KOMMA,NNP,O,O { O 1.00000 }        0.032997255178459
 trading,program,said,KOMMA,NN,NN,VBD,KOMMA,I,I { I 1.00000 }        0.028879973868231
-is,trading,program,said,VBZ,NN,NN,VBD,I,I { I 1.00000 }        0.047141665863059
+is,trading,program,said,VBZ,NN,NN,VBD,I,I { I 1.00000 }        0.047141665863058
 keeping,is,trading,program,VBG,VBZ,NN,NN,O,O { O 1.00000 }        0.017742433311042
 the,keeping,is,trading,DT,VBG,VBZ,NN,O,O { O 1.00000 }        0.0058337342516752
 markets,the,keeping,is,NNS,DT,VBG,VBZ,I,I { I 1.00000 }        0.015459864961074
@@ -9391,7 +9391,7 @@ KOMMA,1\/4,29,at,KOMMA,CD,CD,IN,I,I { I 1.00000 }        0.022169600365592
 down,KOMMA,1\/4,29,RB,KOMMA,CD,CD,O,O { O 1.00000 }        0.037047710027106
 1\/4,down,KOMMA,1\/4,CD,RB,KOMMA,CD,O,O { O 1.00000 }        0.027313420114851
 PUNT,1\/4,down,KOMMA,PUNT,CD,RB,KOMMA,I,I { I 1.00000 }        0.047913272149436
-It,PUNT,PUNT,1\/4,PRP,PUNT,PUNT,CD,O,O { O 1.00000 }        0.00085049127243427
+It,PUNT,PUNT,1\/4,PRP,PUNT,PUNT,CD,O,O { O 1.00000 }        0.00085049127243426
 was,It,PUNT,PUNT,VBD,PRP,PUNT,PUNT,I,I { I 4.00000 }        0.0000000000000
 a,was,It,PUNT,DT,VBD,PRP,PUNT,O,O { O 1.00000 }        0.0000000000000
 jarring,a,was,It,VBG,DT,VBD,PRP,I,I { I 1.00000 }        0.069303735362226
@@ -9404,7 +9404,7 @@ Institute,Genetics,in,investors,NNP,NNP,IN,NNS,I,I { I 1.00000 }        0.094089
 PUNT,Institute,Genetics,in,PUNT,NNP,NNP,IN,I,I { I 1.00000 }        0.073889412411319
 The,PUNT,PUNT,Institute,DT,PUNT,PUNT,NNP,O,O { O 2.00000 }        0.0000000000000
 stock,The,PUNT,PUNT,NN,DT,PUNT,PUNT,I,I { I 2.00000 }        0.00095137630529685
-tumbled,stock,The,PUNT,VBD,NN,DT,PUNT,I,I { I 1.00000 }        0.014343744752247
+tumbled,stock,The,PUNT,VBD,NN,DT,PUNT,I,I { I 1.00000 }        0.014343744752246
 2,tumbled,stock,The,CD,VBD,NN,DT,O,O { O 1.00000 }        0.057481660331931
 3\/4,2,tumbled,stock,CD,CD,VBD,NN,I,I { I 1.00000 }        0.0084639486505655
 on,3\/4,2,tumbled,IN,CD,CD,VBD,I,I { I 1.00000 }        0.017950148373533
@@ -9531,7 +9531,7 @@ better,were,that,earnings,JJR,VBD,WDT,NNS,O,O { O 1.00000 }        0.01833691980
 than,better,were,that,IN,JJR,VBD,WDT,O,O { O 1.00000 }        0.030287638864412
 analysts,than,better,were,NNS,IN,JJR,VBD,O,O { O 1.00000 }        0.050301872790483
 had,analysts,than,better,VBD,NNS,IN,JJR,I,I { I 1.00000 }        0.029656623997951
-expected,had,analysts,than,VBN,VBD,NNS,IN,O,O { O 1.00000 }        0.0070346557859884
+expected,had,analysts,than,VBN,VBD,NNS,IN,O,O { O 1.00000 }        0.0070346557859883
 PUNT,expected,had,analysts,PUNT,VBN,VBD,NNS,O,O { O 1.00000 }        0.0060513937995379
 The,PUNT,PUNT,expected,DT,PUNT,PUNT,VBN,O,O { O 1.00000 }        0.00095707577854890
 company,The,PUNT,PUNT,NN,DT,PUNT,PUNT,I,I { I 14.0000 }        0.0000000000000
@@ -9547,7 +9547,7 @@ openings,store,new,four,NNS,NN,JJ,CD,I,I { I 1.00000 }        0.068995985395027
 planned,openings,store,new,VBN,NNS,NN,JJ,I,I { I 1.00000 }        0.14153351690418
 for,planned,openings,store,IN,VBN,NNS,NN,O,O { O 1.00000 }        0.12012975192184
 fiscal,for,planned,openings,JJ,IN,VBN,NNS,O,O { O 1.00000 }        0.045426207461527
-1990,fiscal,for,planned,CD,JJ,IN,VBN,I,I { I 1.00000 }        0.0055584272667879
+1990,fiscal,for,planned,CD,JJ,IN,VBN,I,I { I 1.00000 }        0.0055584272667878
 KOMMA,1990,fiscal,for,KOMMA,CD,JJ,IN,I,I { I 1.00000 }        0.011204591164829
 ending,KOMMA,1990,fiscal,VBG,KOMMA,CD,JJ,O,O { O 1.00000 }        0.039333045218826
 next,ending,KOMMA,1990,JJ,VBG,KOMMA,CD,O,O { O 1.00000 }        0.11960911346712
@@ -9560,7 +9560,7 @@ the,bring,will,That,DT,VB,MD,DT,O,O { O 1.00000 }        0.070650436857564
 total,the,bring,will,NN,DT,VB,MD,I,I { I 1.00000 }        0.014679340775122
 for,total,the,bring,IN,NN,DT,VB,I,I { I 1.00000 }        0.027144601656445
 the,for,total,the,DT,IN,NN,DT,O,O { O 1.00000 }        0.0073713310730679
-year,the,for,total,NN,DT,IN,NN,I,I { I 1.00000 }        0.0076354226630724
+year,the,for,total,NN,DT,IN,NN,I,I { I 1.00000 }        0.0076354226630723
 to,year,the,for,TO,NN,DT,IN,I,I { I 1.00000 }        0.014052277464928
 10,to,year,the,CD,TO,NN,DT,O,O { O 1.00000 }        0.039059219926768
 KOMMA,10,to,year,KOMMA,CD,TO,NN,I,I { I 1.00000 }        0.023441939604473
@@ -9637,7 +9637,7 @@ was,earnings,favorable,But,VBD,NNS,JJ,CC,I,I { I 1.00000 }        0.011573656606
 n't,was,earnings,favorable,RB,VBD,NNS,JJ,O,O { O 1.00000 }        0.054056040280059
 a,n't,was,earnings,DT,RB,VBD,NNS,O,O { O 1.00000 }        0.0098527331242447
 guarantee,a,n't,was,NN,DT,RB,VBD,I,I { I 1.00000 }        0.0088342085491850
-that,guarantee,a,n't,IN,NN,DT,RB,I,I { I 1.00000 }        0.0037401747932388
+that,guarantee,a,n't,IN,NN,DT,RB,I,I { I 1.00000 }        0.0037401747932387
 a,that,guarantee,a,DT,IN,NN,DT,O,O { O 1.00000 }        0.010901300139030
 stock,a,that,guarantee,NN,DT,IN,NN,I,I { I 1.00000 }        0.012922256149683
 's,stock,a,that,POS,NN,DT,IN,I,I { I 1.00000 }        0.021539932454408
@@ -9744,7 +9744,7 @@ share,a,cents,26,NN,DT,NNS,CD,B,B { B 1.00000 }        0.0000000000000
 from,share,a,cents,IN,NN,DT,NNS,I,I { I 1.00000 }        0.0038105613935953
 18,from,share,a,CD,IN,NN,DT,O,O { O 1.00000 }        0.025227572738909
 cents,18,from,share,NNS,CD,IN,NN,I,I { I 1.00000 }        0.020037483164833
-a,cents,18,from,DT,NNS,CD,IN,I,I { I 1.00000 }        0.0061809468803703
+a,cents,18,from,DT,NNS,CD,IN,I,I { I 1.00000 }        0.0061809468803702
 share,a,cents,18,NN,DT,NNS,CD,B,B { B 1.00000 }        0.0000000000000
 last,share,a,cents,JJ,NN,DT,NNS,I,I { I 1.00000 }        0.0065656747934167
 year,last,share,a,NN,JJ,NN,DT,B,B { B 1.00000 }        0.014806009186050
@@ -9821,7 +9821,7 @@ president,vice,executive,been,NN,NN,JJ,VBN,I,I { I 1.00000 }        0.0048294304
 for,president,vice,executive,IN,NN,NN,JJ,I,I { I 1.00000 }        0.0087297222094826
 operations,for,president,vice,NNS,IN,NN,NN,O,O { O 1.00000 }        0.018758997520204
 PUNT,operations,for,president,PUNT,NNS,IN,NN,I,I { I 1.00000 }        0.018567832651182
-In,PUNT,PUNT,operations,IN,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.00034145989549144
+In,PUNT,PUNT,operations,IN,PUNT,PUNT,NNS,O,O { O 1.00000 }        0.00034145989549143
 addition,In,PUNT,PUNT,NN,IN,PUNT,PUNT,O,O { O 8.00000 }        0.0000000000000
 KOMMA,addition,In,PUNT,KOMMA,NN,IN,PUNT,I,I { I 6.00000 }        0.0000000000000
 Ralph,KOMMA,addition,In,NNP,KOMMA,NN,IN,O,O { O 1.00000 }        0.018370352569800
@@ -9833,11 +9833,11 @@ KOMMA,43,KOMMA,II,KOMMA,CD,KOMMA,NNP,I,I { I 1.00000 }        0.060887248919845
 chairman,KOMMA,43,KOMMA,NN,KOMMA,CD,KOMMA,O,I { I 1.00000 }        0.017695667977037
 and,chairman,KOMMA,43,CC,NN,KOMMA,CD,I,I { I 1.00000 }        0.010564622130906
 chief,and,chairman,KOMMA,JJ,CC,NN,KOMMA,O,O { O 3.00000 }        0.0000000000000
-executive,chief,and,chairman,NN,JJ,CC,NN,I,I { I 3.00000 }        0.00082063387649313
+executive,chief,and,chairman,NN,JJ,CC,NN,I,I { I 3.00000 }        0.00082063387649312
 KOMMA,executive,chief,and,KOMMA,NN,JJ,CC,I,I { I 1.00000 }        0.012156540069753
-said,KOMMA,executive,chief,VBD,KOMMA,NN,JJ,O,O { O 1.00000 }        0.092870386155993
+said,KOMMA,executive,chief,VBD,KOMMA,NN,JJ,O,O { O 1.00000 }        0.092870386155992
 he,said,KOMMA,executive,PRP,VBD,KOMMA,NN,O,O { O 1.00000 }        0.0031765391263422
-would,he,said,KOMMA,MD,PRP,VBD,KOMMA,I,I { I 1.00000 }        0.0017222719381202
+would,he,said,KOMMA,MD,PRP,VBD,KOMMA,I,I { I 1.00000 }        0.0017222719381201
 take,would,he,said,VB,MD,PRP,VBD,O,O { O 1.00000 }        0.012046648021616
 on,take,would,he,IN,VB,MD,PRP,O,O { O 1.00000 }        0.012042794308762
 additional,on,take,would,JJ,IN,VB,MD,O,O { O 1.00000 }        0.053124002252190
@@ -9845,9 +9845,9 @@ responsibilities,additional,on,take,NNS,JJ,IN,VB,I,I { I 1.00000 }        0.0834
 as,responsibilities,additional,on,IN,NNS,JJ,IN,I,I { I 1.00000 }        0.094800953955090
 editor,as,responsibilities,additional,NN,IN,NNS,JJ,O,O { O 1.00000 }        0.070931419689496
 in,editor,as,responsibilities,IN,NN,IN,NNS,I,I { I 1.00000 }        0.10985040634317
-chief,in,editor,as,NN,IN,NN,IN,O,O { O 1.00000 }        0.0083191019780976
+chief,in,editor,as,NN,IN,NN,IN,O,O { O 1.00000 }        0.0083191019780975
 of,chief,in,editor,IN,NN,IN,NN,I,I { I 3.00000 }        0.059168679719164
-the,of,chief,in,DT,IN,NN,IN,O,O { O 3.00000 }        0.0078013280016678
+the,of,chief,in,DT,IN,NN,IN,O,O { O 3.00000 }        0.0078013280016677
 company,the,of,chief,NN,DT,IN,NN,I,I { I 1.00000 }        0.0016505353895437
 PUNT,company,the,of,PUNT,NN,DT,IN,I,I { I 1.00000 }        0.0000000000000
 John,PUNT,PUNT,company,NNP,PUNT,PUNT,NN,O,O { O 1.00000 }        0.0067270186239240
@@ -9856,7 +9856,7 @@ resigned,Wilpers,John,PUNT,VBD,NNP,NNP,PUNT,I,I { I 2.00000 }        0.094089873
 as,resigned,Wilpers,John,IN,VBD,NNP,NNP,O,O { O 1.00000 }        0.12011380571075
 editor,as,resigned,Wilpers,NN,IN,VBD,NNP,O,O { O 1.00000 }        0.074742105751449
 in,editor,as,resigned,IN,NN,IN,VBD,I,I { I 1.00000 }        0.095571300633992
-chief,in,editor,as,NN,IN,NN,IN,O,O { O 1.00000 }        0.0083191019780976
+chief,in,editor,as,NN,IN,NN,IN,O,O { O 1.00000 }        0.0083191019780975
 PUNT,chief,in,editor,PUNT,NN,IN,NN,I,I { I 1.00000 }        0.070152129953625
 MrPUNT,PUNT,PUNT,chief,NNP,PUNT,PUNT,NN,O,O { O 1.00000 }        0.00032639548833740
 Ingersoll,MrPUNT,PUNT,PUNT,NNP,NNP,PUNT,PUNT,I,I { I 57.0000 }        0.053005251295110
@@ -9865,7 +9865,7 @@ editor,remains,Ingersoll,MrPUNT,NN,VBZ,NNP,NNP,O,O { O 1.00000 }        0.110270
 in,editor,remains,Ingersoll,IN,NN,VBZ,NNP,I,I { I 1.00000 }        0.048989859923761
 chief,in,editor,remains,NN,IN,NN,VBZ,O,O { O 1.00000 }        0.012517343552506
 of,chief,in,editor,IN,NN,IN,NN,I,I { I 3.00000 }        0.059168679719164
-the,of,chief,in,DT,IN,NN,IN,O,O { O 3.00000 }        0.0078013280016678
+the,of,chief,in,DT,IN,NN,IN,O,O { O 3.00000 }        0.0078013280016677
 company,the,of,chief,NN,DT,IN,NN,I,I { I 1.00000 }        0.0016505353895437
 's,company,the,of,POS,NN,DT,IN,I,I { I 5.00000 }        0.0000000000000
 recently,'s,company,the,RB,POS,NN,DT,B,B { B 1.00000 }        0.017764638435952
