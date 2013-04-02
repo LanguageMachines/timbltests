@@ -1,17 +1,17 @@
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.4 (c) ILK 1998 - 2013.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jan 25 17:36:36 2011
+Tue Apr  2 12:34:00 2013
 
 Examine datafile './tests/example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/example.train
-Start:          0 @ Tue Jan 25 17:36:36 2011
-Finished:      29 @ Tue Jan 25 17:36:36 2011
-Calculating Entropy         Tue Jan 25 17:36:36 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:      29 @ Tue Apr  2 12:34:00 2013
+Calculating Entropy         Tue Apr  2 12:34:00 2013
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -21,19 +21,19 @@ Feats	Vals	InfoGain	GainRatio
     2      3	0.0060448141	0.0040988196
     3      4	0.044887336	0.023802575
 
-Preparation took 0 seconds, 0 milliseconds and 270 microseconds
+Preparation took 0 seconds, 0 milliseconds and 144 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 2 >
 Phase 2: Building multi index on Datafile: ./tests/example.train
-Start:          0 @ Tue Jan 25 17:36:36 2011
-Finished:      29 @ Tue Jan 25 17:36:36 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:      29 @ Tue Apr  2 12:34:00 2013
 
 Phase 3: Learning from Datafile: ./tests/example.train
-Start:          0 @ Tue Jan 25 17:36:36 2011
-Finished:      29 @ Tue Jan 25 17:36:36 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:      29 @ Tue Apr  2 12:34:00 2013
 
 Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
-Learning took 0 seconds, 0 milliseconds and 405 microseconds
+Learning took 0 seconds, 0 milliseconds and 202 microseconds
 Writing Instance-Base in: /tmp/dimtree
 
 Starting to test using Leave One Out
@@ -46,24 +46,24 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.023802575094251
 
-Tested:      1 @ Tue Jan 25 17:36:36 2011
-Tested:      2 @ Tue Jan 25 17:36:36 2011
-Tested:      3 @ Tue Jan 25 17:36:36 2011
-Tested:      4 @ Tue Jan 25 17:36:36 2011
-Tested:      5 @ Tue Jan 25 17:36:36 2011
-Tested:      6 @ Tue Jan 25 17:36:36 2011
-Tested:      7 @ Tue Jan 25 17:36:36 2011
-Tested:      8 @ Tue Jan 25 17:36:36 2011
-Tested:      9 @ Tue Jan 25 17:36:36 2011
-Tested:     10 @ Tue Jan 25 17:36:36 2011
-Ready:      29 @ Tue Jan 25 17:36:36 2011
-Seconds taken: 0.0008 (34897.71 p/s)
+Tested:      1 @ Tue Apr  2 12:34:00 2013
+Tested:      2 @ Tue Apr  2 12:34:00 2013
+Tested:      3 @ Tue Apr  2 12:34:00 2013
+Tested:      4 @ Tue Apr  2 12:34:00 2013
+Tested:      5 @ Tue Apr  2 12:34:00 2013
+Tested:      6 @ Tue Apr  2 12:34:00 2013
+Tested:      7 @ Tue Apr  2 12:34:00 2013
+Tested:      8 @ Tue Apr  2 12:34:00 2013
+Tested:      9 @ Tue Apr  2 12:34:00 2013
+Tested:     10 @ Tue Apr  2 12:34:00 2013
+Ready:      29 @ Tue Apr  2 12:34:00 2013
+Seconds taken: 0.0005 (61181.43 p/s)
 
 overall accuracy:        0.689655  (20/29), of which 25 exact matches 
 There were 9 ties of which 7 (77.78%) were correctly resolved
 B,geel,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
 B,rood,2,-,+ { + 2.00000 }        0.0000000000000
-B,geel,3,+,+ { + 3.00000 }        0.0030736504517327
+B,geel,3,+,+ { + 3.00000 }        0.0030736504517326
 A,geel,2,-,- { - 2.00000 }        0.011243975978947
 B,rood,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
 B,rood,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
@@ -90,34 +90,34 @@ B,rood,1,+,+ { + 7.00000, - 4.00000 }        0.0000000000000
 B,rood,1,-,+ { + 3.00000, - 1.00000 }        0.0000000000000
 B,rood,1,-,+ { + 3.00000, - 1.00000 }        0.0000000000000
 B,rood,1,+,+ { + 7.00000, - 4.00000 }        0.0000000000000
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.4 (c) ILK 1998 - 2013.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jan 25 17:36:36 2011
+Tue Apr  2 12:34:00 2013
 
-Error:cannot combine Leave One Out with retrieving an Instancebase 
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+Error: cannot combine Leave One Out with retrieving an Instancebase 
+TiMBL 6.4.4 (c) ILK 1998 - 2013.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jan 25 17:36:36 2011
+Tue Apr  2 12:34:00 2013
 
 Missing datafile name for Leave One Out test
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.4 (c) ILK 1998 - 2013.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jan 25 17:36:36 2011
+Tue Apr  2 12:34:00 2013
 
 Examine datafile './tests/example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/example.train
-Start:          0 @ Tue Jan 25 17:36:36 2011
-Finished:      29 @ Tue Jan 25 17:36:36 2011
-Calculating Entropy         Tue Jan 25 17:36:36 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:      29 @ Tue Apr  2 12:34:00 2013
+Calculating Entropy         Tue Apr  2 12:34:00 2013
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -127,19 +127,19 @@ Feats	Vals	InfoGain	GainRatio
     2      3	0.0060448141	0.0040988196
     3      4	0.044887336	0.023802575
 
-Preparation took 0 seconds, 0 milliseconds and 260 microseconds
+Preparation took 0 seconds, 0 milliseconds and 149 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 2 >
 Phase 2: Building multi index on Datafile: ./tests/example.train
-Start:          0 @ Tue Jan 25 17:36:36 2011
-Finished:      29 @ Tue Jan 25 17:36:36 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:      29 @ Tue Apr  2 12:34:00 2013
 
 Phase 3: Learning from Datafile: ./tests/example.train
-Start:          0 @ Tue Jan 25 17:36:36 2011
-Finished:      29 @ Tue Jan 25 17:36:36 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:      29 @ Tue Apr  2 12:34:00 2013
 
 Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
-Learning took 0 seconds, 0 milliseconds and 396 microseconds
+Learning took 0 seconds, 0 milliseconds and 192 microseconds
 
 Starting to test using Leave One Out
 Writing output in:          out2
@@ -151,24 +151,24 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.023802575094251
 
-Tested:      1 @ Tue Jan 25 17:36:36 2011
-Tested:      2 @ Tue Jan 25 17:36:36 2011
-Tested:      3 @ Tue Jan 25 17:36:36 2011
-Tested:      4 @ Tue Jan 25 17:36:36 2011
-Tested:      5 @ Tue Jan 25 17:36:36 2011
-Tested:      6 @ Tue Jan 25 17:36:36 2011
-Tested:      7 @ Tue Jan 25 17:36:36 2011
-Tested:      8 @ Tue Jan 25 17:36:36 2011
-Tested:      9 @ Tue Jan 25 17:36:36 2011
-Tested:     10 @ Tue Jan 25 17:36:36 2011
-Ready:      29 @ Tue Jan 25 17:36:36 2011
-Seconds taken: 0.0008 (34897.71 p/s)
+Tested:      1 @ Tue Apr  2 12:34:00 2013
+Tested:      2 @ Tue Apr  2 12:34:00 2013
+Tested:      3 @ Tue Apr  2 12:34:00 2013
+Tested:      4 @ Tue Apr  2 12:34:00 2013
+Tested:      5 @ Tue Apr  2 12:34:00 2013
+Tested:      6 @ Tue Apr  2 12:34:00 2013
+Tested:      7 @ Tue Apr  2 12:34:00 2013
+Tested:      8 @ Tue Apr  2 12:34:00 2013
+Tested:      9 @ Tue Apr  2 12:34:00 2013
+Tested:     10 @ Tue Apr  2 12:34:00 2013
+Ready:      29 @ Tue Apr  2 12:34:00 2013
+Seconds taken: 0.0005 (62906.72 p/s)
 
 overall accuracy:        0.689655  (20/29), of which 25 exact matches 
 There were 9 ties of which 7 (77.78%) were correctly resolved
 B,geel,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
 B,rood,2,-,+ { + 2.00000 }        0.0000000000000
-B,geel,3,+,+ { + 3.00000 }        0.0030736504517327
+B,geel,3,+,+ { + 3.00000 }        0.0030736504517326
 A,geel,2,-,- { - 2.00000 }        0.011243975978947
 B,rood,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
 B,rood,2,+,+ { + 3.00000, - 2.00000 }        0.0000000000000
@@ -195,20 +195,20 @@ B,rood,1,+,+ { + 7.00000, - 4.00000 }        0.0000000000000
 B,rood,1,-,+ { + 3.00000, - 1.00000 }        0.0000000000000
 B,rood,1,-,+ { + 3.00000, - 1.00000 }        0.0000000000000
 B,rood,1,+,+ { + 7.00000, - 4.00000 }        0.0000000000000
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.4 (c) ILK 1998 - 2013.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jan 25 17:36:36 2011
+Tue Apr  2 12:34:00 2013
 
 Examine datafile './tests/example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/example.train
-Start:          0 @ Tue Jan 25 17:36:36 2011
-Finished:      29 @ Tue Jan 25 17:36:36 2011
-Calculating Entropy         Tue Jan 25 17:36:36 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:      29 @ Tue Apr  2 12:34:00 2013
+Calculating Entropy         Tue Apr  2 12:34:00 2013
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -218,19 +218,19 @@ Feats	Vals	InfoGain	GainRatio
     2      3	0.0060448141	0.0040988196
     3      4	0.044887336	0.023802575
 
-Preparation took 0 seconds, 0 milliseconds and 251 microseconds
+Preparation took 0 seconds, 0 milliseconds and 130 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 2 >
 Phase 2: Building multi index on Datafile: ./tests/example.train
-Start:          0 @ Tue Jan 25 17:36:36 2011
-Finished:      29 @ Tue Jan 25 17:36:36 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:      29 @ Tue Apr  2 12:34:00 2013
 
 Phase 3: Learning from Datafile: ./tests/example.train
-Start:          0 @ Tue Jan 25 17:36:36 2011
-Finished:      29 @ Tue Jan 25 17:36:36 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:      29 @ Tue Apr  2 12:34:00 2013
 
 Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
-Learning took 0 seconds, 0 milliseconds and 407 microseconds
+Learning took 0 seconds, 0 milliseconds and 189 microseconds
 
 Starting to test using Leave One Out
 Writing output in:          out3
@@ -242,24 +242,24 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.023802575094251
 
-Tested:      1 @ Tue Jan 25 17:36:36 2011
-Tested:      2 @ Tue Jan 25 17:36:36 2011
-Tested:      3 @ Tue Jan 25 17:36:36 2011
-Tested:      4 @ Tue Jan 25 17:36:36 2011
-Tested:      5 @ Tue Jan 25 17:36:36 2011
-Tested:      6 @ Tue Jan 25 17:36:36 2011
-Tested:      7 @ Tue Jan 25 17:36:36 2011
-Tested:      8 @ Tue Jan 25 17:36:36 2011
-Tested:      9 @ Tue Jan 25 17:36:36 2011
-Tested:     10 @ Tue Jan 25 17:36:36 2011
-Ready:      29 @ Tue Jan 25 17:36:36 2011
-Seconds taken: 0.0007 (40333.80 p/s)
+Tested:      1 @ Tue Apr  2 12:34:00 2013
+Tested:      2 @ Tue Apr  2 12:34:00 2013
+Tested:      3 @ Tue Apr  2 12:34:00 2013
+Tested:      4 @ Tue Apr  2 12:34:00 2013
+Tested:      5 @ Tue Apr  2 12:34:00 2013
+Tested:      6 @ Tue Apr  2 12:34:00 2013
+Tested:      7 @ Tue Apr  2 12:34:00 2013
+Tested:      8 @ Tue Apr  2 12:34:00 2013
+Tested:      9 @ Tue Apr  2 12:34:00 2013
+Tested:     10 @ Tue Apr  2 12:34:00 2013
+Ready:      29 @ Tue Apr  2 12:34:00 2013
+Seconds taken: 0.0004 (70048.31 p/s)
 
 overall accuracy:        0.689655  (20/29), of which 25 exact matches 
 There were 9 ties of which 7 (77.78%) were correctly resolved
 B,geel,2,+,+ { + 1.00000, - 1.00000 }        0.0000000000000
 B,rood,2,-,+ { + 2.00000 }        0.0000000000000
-B,geel,3,+,+ { + 3.00000 }        0.0030736504517327
+B,geel,3,+,+ { + 3.00000 }        0.0030736504517326
 A,geel,2,-,- { - 2.00000 }        0.011243975978947
 B,rood,2,+,+ { + 1.00000, - 1.00000 }        0.0000000000000
 B,rood,2,+,+ { + 1.00000, - 1.00000 }        0.0000000000000
@@ -286,20 +286,20 @@ B,rood,1,+,+ { + 2.00000, - 2.00000 }        0.0000000000000
 B,rood,1,-,+ { + 3.00000, - 1.00000 }        0.0000000000000
 B,rood,1,-,+ { + 3.00000, - 1.00000 }        0.0000000000000
 B,rood,1,+,+ { + 2.00000, - 2.00000 }        0.0000000000000
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.4 (c) ILK 1998 - 2013.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jan 25 17:36:36 2011
+Tue Apr  2 12:34:00 2013
 
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/dimin.train
-Start:          0 @ Tue Jan 25 17:36:36 2011
-Finished:    2999 @ Tue Jan 25 17:36:36 2011
-Calculating Entropy         Tue Jan 25 17:36:36 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:    2999 @ Tue Apr  2 12:34:00 2013
+Calculating Entropy         Tue Apr  2 12:34:00 2013
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -318,19 +318,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 26 milliseconds and 980 microseconds
+Preparation took 0 seconds, 14 milliseconds and 636 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: ./tests/dimin.train
-Start:          0 @ Tue Jan 25 17:36:36 2011
-Finished:    2999 @ Tue Jan 25 17:36:36 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:    2999 @ Tue Apr  2 12:34:00 2013
 
 Phase 3: Learning from Datafile: ./tests/dimin.train
-Start:          0 @ Tue Jan 25 17:36:36 2011
-Finished:    2999 @ Tue Jan 25 17:36:36 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:    2999 @ Tue Apr  2 12:34:00 2013
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 75 milliseconds and 302 microseconds
+Learning took 0 seconds, 32 milliseconds and 782 microseconds
 
 Starting to test using Leave One Out
 Writing output in:          out4
@@ -341,7 +341,7 @@ Weighting     : GainRatio
 Feature 1	 : 0.024891535617620
 Feature 2	 : 0.027552191321752
 Feature 3	 : 0.018676787182524
-Feature 4	 : 0.052620750282779
+Feature 4	 : 0.052620750282780
 Feature 5	 : 0.047699230752236
 Feature 6	 : 0.024471910753751
 Feature 7	 : 0.034953203413051
@@ -351,27 +351,27 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Tue Jan 25 17:36:36 2011
-Tested:      2 @ Tue Jan 25 17:36:36 2011
-Tested:      3 @ Tue Jan 25 17:36:36 2011
-Tested:      4 @ Tue Jan 25 17:36:36 2011
-Tested:      5 @ Tue Jan 25 17:36:36 2011
-Tested:      6 @ Tue Jan 25 17:36:36 2011
-Tested:      7 @ Tue Jan 25 17:36:36 2011
-Tested:      8 @ Tue Jan 25 17:36:36 2011
-Tested:      9 @ Tue Jan 25 17:36:36 2011
-Tested:     10 @ Tue Jan 25 17:36:36 2011
-Tested:    100 @ Tue Jan 25 17:36:36 2011
-Tested:   1000 @ Tue Jan 25 17:36:37 2011, 100: Tue Jan 25 17:36:36 2011
-Ready:    2999 @ Tue Jan 25 17:36:37 2011
-Seconds taken: 0.6909 (4340.76 p/s)
+Tested:      1 @ Tue Apr  2 12:34:00 2013
+Tested:      2 @ Tue Apr  2 12:34:00 2013
+Tested:      3 @ Tue Apr  2 12:34:00 2013
+Tested:      4 @ Tue Apr  2 12:34:00 2013
+Tested:      5 @ Tue Apr  2 12:34:00 2013
+Tested:      6 @ Tue Apr  2 12:34:00 2013
+Tested:      7 @ Tue Apr  2 12:34:00 2013
+Tested:      8 @ Tue Apr  2 12:34:00 2013
+Tested:      9 @ Tue Apr  2 12:34:00 2013
+Tested:     10 @ Tue Apr  2 12:34:00 2013
+Tested:    100 @ Tue Apr  2 12:34:00 2013
+Tested:   1000 @ Tue Apr  2 12:34:00 2013
+Ready:    2999 @ Tue Apr  2 12:34:00 2013
+Seconds taken: 0.3059 (9802.86 p/s)
 
 overall accuracy:        0.964655  (2893/2999), of which 106 exact matches 
 There were 20 ties of which 17 (85.00%) were correctly resolved
 =,=,=,=,-,=,o,=,+,p,a,l,T,T { T 1.00000 }        0.042833826649366
 =,=,=,=,+,sxr,a,=,-,p,@,r,T,T { T 1.00000 }        0.024432329872196
 =,=,=,=,-,p,E,n,+,S,O,n,E,E { E 1.00000 }        0.087037055690999
-=,=,=,=,=,=,=,=,+,sl,o,r,T,T { T 5.00000 }        0.042950570183478
+=,=,=,=,=,=,=,=,+,sl,o,r,T,T { T 5.00000 }        0.042950570183477
 =,=,=,=,=,=,=,=,+,sx,M,w,T,T { T 12.0000 }        0.042902000940960
 =,=,=,=,-,p,O,s,+,t,y,r,T,T { T 3.00000 }        0.10343608331729
 =,=,=,=,+,tr,A,=,-,p,@,r,T,T { T 6.00000 }        0.024447388283841
@@ -418,20 +418,20 @@ There were 20 ties of which 17 (85.00%) were correctly resolved
 +,h,a,=,-,v,@,m,-,pl,a,ts,J,J { J 1.00000 }        0.16728099756874
 =,=,=,=,=,=,=,=,+,z,e,=,T,T { T 14.0000 }        0.042846276513673
 =,=,=,=,-,k,A,l,+,k,u,n,T,T { T 1.00000 }        0.067305889215143
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.4 (c) ILK 1998 - 2013.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jan 25 17:36:37 2011
+Tue Apr  2 12:34:00 2013
 
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/dimin.train
-Start:          0 @ Tue Jan 25 17:36:37 2011
-Finished:    2999 @ Tue Jan 25 17:36:37 2011
-Calculating Entropy         Tue Jan 25 17:36:37 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:    2999 @ Tue Apr  2 12:34:00 2013
+Calculating Entropy         Tue Apr  2 12:34:00 2013
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -450,19 +450,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 27 milliseconds and 132 microseconds
+Preparation took 0 seconds, 14 milliseconds and 617 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: ./tests/dimin.train
-Start:          0 @ Tue Jan 25 17:36:37 2011
-Finished:    2999 @ Tue Jan 25 17:36:37 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:    2999 @ Tue Apr  2 12:34:00 2013
 
 Phase 3: Learning from Datafile: ./tests/dimin.train
-Start:          0 @ Tue Jan 25 17:36:37 2011
-Finished:    2999 @ Tue Jan 25 17:36:37 2011
+Start:          0 @ Tue Apr  2 12:34:00 2013
+Finished:    2999 @ Tue Apr  2 12:34:00 2013
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 75 milliseconds and 147 microseconds
+Learning took 0 seconds, 32 milliseconds and 159 microseconds
 
 Starting to test using Leave One Out
 Writing output in:          out5
@@ -487,7 +487,7 @@ Weighting     : GainRatio
 Feature 1	 : 0.024891535617620
 Feature 2	 : 0.027552191321752
 Feature 3	 : 0.018676787182524
-Feature 4	 : 0.052620750282779
+Feature 4	 : 0.052620750282780
 Feature 5	 : 0.047699230752236
 Feature 6	 : 0.024471910753751
 Feature 7	 : 0.034953203413051
@@ -497,20 +497,20 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Tue Jan 25 17:36:37 2011
-Tested:      2 @ Tue Jan 25 17:36:37 2011
-Tested:      3 @ Tue Jan 25 17:36:37 2011
-Tested:      4 @ Tue Jan 25 17:36:37 2011
-Tested:      5 @ Tue Jan 25 17:36:37 2011
-Tested:      6 @ Tue Jan 25 17:36:37 2011
-Tested:      7 @ Tue Jan 25 17:36:37 2011
-Tested:      8 @ Tue Jan 25 17:36:37 2011
-Tested:      9 @ Tue Jan 25 17:36:37 2011
-Tested:     10 @ Tue Jan 25 17:36:37 2011
-Tested:    100 @ Tue Jan 25 17:36:37 2011
-Tested:   1000 @ Tue Jan 25 17:36:38 2011, 100: Tue Jan 25 17:36:37 2011
-Ready:    2999 @ Tue Jan 25 17:36:39 2011
-Seconds taken: 2.2261 (1347.18 p/s)
+Tested:      1 @ Tue Apr  2 12:34:00 2013
+Tested:      2 @ Tue Apr  2 12:34:00 2013
+Tested:      3 @ Tue Apr  2 12:34:00 2013
+Tested:      4 @ Tue Apr  2 12:34:00 2013
+Tested:      5 @ Tue Apr  2 12:34:00 2013
+Tested:      6 @ Tue Apr  2 12:34:00 2013
+Tested:      7 @ Tue Apr  2 12:34:00 2013
+Tested:      8 @ Tue Apr  2 12:34:00 2013
+Tested:      9 @ Tue Apr  2 12:34:00 2013
+Tested:     10 @ Tue Apr  2 12:34:00 2013
+Tested:    100 @ Tue Apr  2 12:34:00 2013
+Tested:   1000 @ Tue Apr  2 12:34:01 2013, 100: Tue Apr  2 12:34:00 2013
+Ready:    2999 @ Tue Apr  2 12:34:01 2013
+Seconds taken: 1.0809 (2774.60 p/s)
 
 overall accuracy:        0.961987  (2885/2999), of which 193 exact matches 
 There were 26 ties of which 17 (65.38%) were correctly resolved
@@ -555,7 +555,7 @@ There were 26 ties of which 17 (65.38%) were correctly resolved
 =,=,=,=,=,=,=,=,+,p,u,p,T,J { J 1.00000 }        0.015156963975466
 =,=,=,=,+,k,A,k,-,t,},s,J,J { J 1.00000 }        0.011368068127770
 =,=,=,=,=,=,=,=,+,sp,K,l,T,T { T 1.00000 }        0.0066970442653676
-=,=,=,=,+,st,},t,-,s,@,l,T,T { T 1.00000 }        0.0046406887387994
+=,=,=,=,+,st,},t,-,s,@,l,T,T { T 1.00000 }        0.0046406887387993
 =,=,=,=,=,=,=,=,+,sn,O,t,J,J { J 1.00000 }        0.0036386750973419
 =,=,=,=,-,x,O,r,+,d,K,n,T,T { T 1.00000 }        0.011334106507784
 =,=,=,=,+,kn,i,l,-,b,A,Nk,J,J { J 1.00000 }        0.010393038296323
@@ -564,20 +564,20 @@ There were 26 ties of which 17 (65.38%) were correctly resolved
 +,h,a,=,-,v,@,m,-,pl,a,ts,J,J { J 1.00000 }        0.016393445987366
 =,=,=,=,=,=,=,=,+,z,e,=,T,T { T 1.00000 }        0.0017337795612510
 =,=,=,=,-,k,A,l,+,k,u,n,T,T { T 1.00000 }        0.0084317312278659
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.4 (c) ILK 1998 - 2013.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jan 25 17:36:39 2011
+Tue Apr  2 12:34:01 2013
 
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/dimin.train
-Start:          0 @ Tue Jan 25 17:36:39 2011
-Finished:    2999 @ Tue Jan 25 17:36:40 2011
-Calculating Entropy         Tue Jan 25 17:36:40 2011
+Start:          0 @ Tue Apr  2 12:34:01 2013
+Finished:    2999 @ Tue Apr  2 12:34:01 2013
+Calculating Entropy         Tue Apr  2 12:34:01 2013
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -596,19 +596,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 26 milliseconds and 934 microseconds
+Preparation took 0 seconds, 14 milliseconds and 763 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: ./tests/dimin.train
-Start:          0 @ Tue Jan 25 17:36:40 2011
-Finished:    2999 @ Tue Jan 25 17:36:40 2011
+Start:          0 @ Tue Apr  2 12:34:01 2013
+Finished:    2999 @ Tue Apr  2 12:34:01 2013
 
 Phase 3: Learning from Datafile: ./tests/dimin.train
-Start:          0 @ Tue Jan 25 17:36:40 2011
-Finished:    2999 @ Tue Jan 25 17:36:40 2011
+Start:          0 @ Tue Apr  2 12:34:01 2013
+Finished:    2999 @ Tue Apr  2 12:34:01 2013
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 73 milliseconds and 899 microseconds
+Learning took 0 seconds, 32 milliseconds and 343 microseconds
 
 Starting to test using Leave One Out using SLOPPY metric calculations
 Writing output in:          out6
@@ -633,7 +633,7 @@ Weighting     : GainRatio
 Feature 1	 : 0.024891535617620
 Feature 2	 : 0.027552191321752
 Feature 3	 : 0.018676787182524
-Feature 4	 : 0.052620750282779
+Feature 4	 : 0.052620750282780
 Feature 5	 : 0.047699230752236
 Feature 6	 : 0.024471910753751
 Feature 7	 : 0.034953203413051
@@ -643,20 +643,20 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Tue Jan 25 17:36:40 2011
-Tested:      2 @ Tue Jan 25 17:36:40 2011
-Tested:      3 @ Tue Jan 25 17:36:40 2011
-Tested:      4 @ Tue Jan 25 17:36:40 2011
-Tested:      5 @ Tue Jan 25 17:36:40 2011
-Tested:      6 @ Tue Jan 25 17:36:40 2011
-Tested:      7 @ Tue Jan 25 17:36:40 2011
-Tested:      8 @ Tue Jan 25 17:36:40 2011
-Tested:      9 @ Tue Jan 25 17:36:40 2011
-Tested:     10 @ Tue Jan 25 17:36:40 2011
-Tested:    100 @ Tue Jan 25 17:36:40 2011
-Tested:   1000 @ Tue Jan 25 17:36:40 2011
-Ready:    2999 @ Tue Jan 25 17:36:40 2011
-Seconds taken: 0.2589 (11584.74 p/s)
+Tested:      1 @ Tue Apr  2 12:34:01 2013
+Tested:      2 @ Tue Apr  2 12:34:01 2013
+Tested:      3 @ Tue Apr  2 12:34:01 2013
+Tested:      4 @ Tue Apr  2 12:34:01 2013
+Tested:      5 @ Tue Apr  2 12:34:01 2013
+Tested:      6 @ Tue Apr  2 12:34:01 2013
+Tested:      7 @ Tue Apr  2 12:34:01 2013
+Tested:      8 @ Tue Apr  2 12:34:01 2013
+Tested:      9 @ Tue Apr  2 12:34:01 2013
+Tested:     10 @ Tue Apr  2 12:34:01 2013
+Tested:    100 @ Tue Apr  2 12:34:01 2013
+Tested:   1000 @ Tue Apr  2 12:34:01 2013
+Ready:    2999 @ Tue Apr  2 12:34:01 2013
+Seconds taken: 0.1316 (22782.18 p/s)
 
 overall accuracy:        0.962654  (2887/2999), of which 193 exact matches 
 There were 24 ties of which 16 (66.67%) were correctly resolved
@@ -693,7 +693,7 @@ There were 24 ties of which 16 (66.67%) were correctly resolved
 =,=,=,=,=,=,=,=,+,x,o,t,J,J { J 1.00000 }        0.0074170387415075
 =,=,=,=,-,pr,@,=,+,z,E,nt,J,J { J 1.00000 }        0.011313106600565
 =,=,=,=,+,sn,I,=,-,p,@,r,T,T { T 1.00000 }        0.0016685393695740
-=,=,=,=,-,b,u,=,+,r,I,n,E,E { E 1.00000 }        0.0053885415333992
+=,=,=,=,-,b,u,=,+,r,I,n,E,E { E 1.00000 }        0.0053885415333993
 +,sp,O,n,-,s,@,=,-,z,A,k,J,J { J 1.00000 }        0.012352817201712
 =,=,=,=,=,=,=,=,+,sn,u,p,J,J { J 1.00000 }        0.0014837952219760
 =,=,=,=,+,sn,u,p,-,r,K,s,J,J { J 1.00000 }        0.014520087686345

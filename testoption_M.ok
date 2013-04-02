@@ -1,8 +1,8 @@
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.4 (c) ILK 1998 - 2013.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Aug 11 16:37:10 2011
+Tue Apr  2 12:33:20 2013
 
 Error: SetOption 'MAXBESTS: 5' failed.
 Illegal value for this option
@@ -13,20 +13,20 @@ Warning: This Experiment is invalid due to errors
 Warning: This Experiment is invalid due to errors
 Warning: This Experiment is invalid due to errors
 Warning: This Experiment is invalid due to errors
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.4 (c) ILK 1998 - 2013.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Aug 11 16:37:10 2011
+Tue Apr  2 12:33:20 2013
 
 Examine datafile 'tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.train
-Start:          0 @ Thu Aug 11 16:37:10 2011
-Finished:    2999 @ Thu Aug 11 16:37:10 2011
-Calculating Entropy         Thu Aug 11 16:37:10 2011
+Start:          0 @ Tue Apr  2 12:33:20 2013
+Finished:    2999 @ Tue Apr  2 12:33:20 2013
+Calculating Entropy         Tue Apr  2 12:33:20 2013
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -45,19 +45,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 27 milliseconds and 219 microseconds
+Preparation took 0 seconds, 16 milliseconds and 93 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: tests/dimin.train
-Start:          0 @ Thu Aug 11 16:37:10 2011
-Finished:    2999 @ Thu Aug 11 16:37:10 2011
+Start:          0 @ Tue Apr  2 12:33:20 2013
+Finished:    2999 @ Tue Apr  2 12:33:20 2013
 
 Phase 3: Learning from Datafile: tests/dimin.train
-Start:          0 @ Thu Aug 11 16:37:10 2011
-Finished:    2999 @ Thu Aug 11 16:37:10 2011
+Start:          0 @ Tue Apr  2 12:33:20 2013
+Finished:    2999 @ Tue Apr  2 12:33:20 2013
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 72 milliseconds and 705 microseconds
+Learning took 0 seconds, 32 milliseconds and 416 microseconds
 Examine datafile 'tests/dimin.test' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
@@ -72,7 +72,7 @@ Weighting     : GainRatio
 Feature 1	 : 0.024891535617620
 Feature 2	 : 0.027552191321752
 Feature 3	 : 0.018676787182524
-Feature 4	 : 0.052620750282779
+Feature 4	 : 0.052620750282780
 Feature 5	 : 0.047699230752236
 Feature 6	 : 0.024471910753751
 Feature 7	 : 0.034953203413051
@@ -82,36 +82,36 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Thu Aug 11 16:37:10 2011
-Tested:      2 @ Thu Aug 11 16:37:10 2011
-Tested:      3 @ Thu Aug 11 16:37:10 2011
-Tested:      4 @ Thu Aug 11 16:37:10 2011
-Tested:      5 @ Thu Aug 11 16:37:10 2011
-Tested:      6 @ Thu Aug 11 16:37:10 2011
-Tested:      7 @ Thu Aug 11 16:37:10 2011
-Tested:      8 @ Thu Aug 11 16:37:10 2011
-Tested:      9 @ Thu Aug 11 16:37:10 2011
-Tested:     10 @ Thu Aug 11 16:37:10 2011
-Tested:    100 @ Thu Aug 11 16:37:10 2011
-Ready:     950 @ Thu Aug 11 16:37:10 2011
-Seconds taken: 0.0832 (11415.94 p/s)
+Tested:      1 @ Tue Apr  2 12:33:20 2013
+Tested:      2 @ Tue Apr  2 12:33:20 2013
+Tested:      3 @ Tue Apr  2 12:33:20 2013
+Tested:      4 @ Tue Apr  2 12:33:20 2013
+Tested:      5 @ Tue Apr  2 12:33:20 2013
+Tested:      6 @ Tue Apr  2 12:33:20 2013
+Tested:      7 @ Tue Apr  2 12:33:20 2013
+Tested:      8 @ Tue Apr  2 12:33:20 2013
+Tested:      9 @ Tue Apr  2 12:33:20 2013
+Tested:     10 @ Tue Apr  2 12:33:20 2013
+Tested:    100 @ Tue Apr  2 12:33:20 2013
+Ready:     950 @ Tue Apr  2 12:33:20 2013
+Seconds taken: 0.0466 (20383.64 p/s)
 
 overall accuracy:        0.967368  (919/950), of which 39 exact matches 
 There were 5 ties of which 4 (80.00%) were correctly resolved
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.4 (c) ILK 1998 - 2013.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Aug 11 16:37:10 2011
+Tue Apr  2 12:33:20 2013
 
 Examine datafile 'tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.train
-Start:          0 @ Thu Aug 11 16:37:10 2011
-Finished:    2999 @ Thu Aug 11 16:37:10 2011
-Calculating Entropy         Thu Aug 11 16:37:10 2011
+Start:          0 @ Tue Apr  2 12:33:20 2013
+Finished:    2999 @ Tue Apr  2 12:33:20 2013
+Calculating Entropy         Tue Apr  2 12:33:20 2013
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -130,19 +130,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 27 milliseconds and 83 microseconds
+Preparation took 0 seconds, 14 milliseconds and 644 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: tests/dimin.train
-Start:          0 @ Thu Aug 11 16:37:10 2011
-Finished:    2999 @ Thu Aug 11 16:37:10 2011
+Start:          0 @ Tue Apr  2 12:33:20 2013
+Finished:    2999 @ Tue Apr  2 12:33:20 2013
 
 Phase 3: Learning from Datafile: tests/dimin.train
-Start:          0 @ Thu Aug 11 16:37:10 2011
-Finished:    2999 @ Thu Aug 11 16:37:10 2011
+Start:          0 @ Tue Apr  2 12:33:20 2013
+Finished:    2999 @ Tue Apr  2 12:33:20 2013
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 72 milliseconds and 531 microseconds
+Learning took 0 seconds, 32 milliseconds and 100 microseconds
 Examine datafile 'tests/dimin.test' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
@@ -157,7 +157,7 @@ Weighting     : GainRatio
 Feature 1	 : 0.024891535617620
 Feature 2	 : 0.027552191321752
 Feature 3	 : 0.018676787182524
-Feature 4	 : 0.052620750282779
+Feature 4	 : 0.052620750282780
 Feature 5	 : 0.047699230752236
 Feature 6	 : 0.024471910753751
 Feature 7	 : 0.034953203413051
@@ -167,19 +167,19 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Thu Aug 11 16:37:10 2011
-Tested:      2 @ Thu Aug 11 16:37:10 2011
-Tested:      3 @ Thu Aug 11 16:37:10 2011
-Tested:      4 @ Thu Aug 11 16:37:10 2011
-Tested:      5 @ Thu Aug 11 16:37:10 2011
-Tested:      6 @ Thu Aug 11 16:37:10 2011
-Tested:      7 @ Thu Aug 11 16:37:10 2011
-Tested:      8 @ Thu Aug 11 16:37:10 2011
-Tested:      9 @ Thu Aug 11 16:37:10 2011
-Tested:     10 @ Thu Aug 11 16:37:10 2011
-Tested:    100 @ Thu Aug 11 16:37:10 2011
-Ready:     950 @ Thu Aug 11 16:37:10 2011
-Seconds taken: 0.0842 (11278.64 p/s)
+Tested:      1 @ Tue Apr  2 12:33:20 2013
+Tested:      2 @ Tue Apr  2 12:33:20 2013
+Tested:      3 @ Tue Apr  2 12:33:20 2013
+Tested:      4 @ Tue Apr  2 12:33:20 2013
+Tested:      5 @ Tue Apr  2 12:33:20 2013
+Tested:      6 @ Tue Apr  2 12:33:20 2013
+Tested:      7 @ Tue Apr  2 12:33:20 2013
+Tested:      8 @ Tue Apr  2 12:33:20 2013
+Tested:      9 @ Tue Apr  2 12:33:20 2013
+Tested:     10 @ Tue Apr  2 12:33:20 2013
+Tested:    100 @ Tue Apr  2 12:33:20 2013
+Ready:     950 @ Tue Apr  2 12:33:20 2013
+Seconds taken: 0.0473 (20063.78 p/s)
 
 overall accuracy:        0.967368  (919/950), of which 39 exact matches 
 There were 5 ties of which 4 (80.00%) were correctly resolved
@@ -622,8 +622,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,+,n,i,r,-,br,o,t,J,J { J 1.00000 }        0.078937067850764
 # k=1, 1 Neighbor(s) at distance: 	0.078937067850764
 #	=,=,=,=,+,n,a,=,-,br,o,t,{ J 1.00000 }
--,h,A,m,-,tr,O,=,-,m,@,l,T,T { T 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
+-,h,A,m,-,tr,O,=,-,m,@,l,T,T { T 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	-,t,@,n,-,tr,O,=,-,m,@,l,{ T 1.00000 }
 =,=,=,=,=,=,=,=,+,st,E,m,E,E { E 5.00000 }        0.042844587034556
 # k=1, 5 Neighbor(s) at distance: 	0.042844587034556
@@ -663,8 +663,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,=,=,=,=,+,r,L,l,{ T 1.00000 }
 #	=,=,=,=,=,=,=,=,+,z,L,l,{ T 1.00000 }
 #	=,=,=,=,=,=,=,=,+,m,L,l,{ T 1.00000 }
-=,=,=,=,+,spr,I,N,-,v,E,rs,J,J { J 1.00000 }        0.24729728243967
-# k=1, 1 Neighbor(s) at distance: 	0.24729728243967
+=,=,=,=,+,spr,I,N,-,v,E,rs,J,J { J 1.00000 }        0.24729728243968
+# k=1, 1 Neighbor(s) at distance: 	0.24729728243968
 #	+,=,A,f,-,t,E,l,-,v,E,rs,{ J 1.00000 }
 =,=,=,=,+,p,a,=,-,l,I,N,K,E { E 1.00000 }        0.0000000000000
 # k=1, 1 Neighbor(s) at distance: 	0.0000000000000
@@ -833,8 +833,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 +,t,A,n,-,s,i,=,-,b,u,k,J,J { J 1.00000 }        0.13693740006720
 # k=1, 1 Neighbor(s) at distance: 	0.13693740006720
 #	-,t,A,=,-,l,@,=,-,b,u,k,{ J 1.00000 }
-+,=,u,s,-,t,@,r,-,m,E,s,J,J { J 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
++,=,u,s,-,t,@,r,-,m,E,s,J,J { J 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	+,b,o,=,-,t,@,r,-,m,E,s,{ J 1.00000 }
 =,=,=,=,-,x,a,=,+,z,O,n,E,E { E 1.00000 }        0.042844587034556
 # k=1, 1 Neighbor(s) at distance: 	0.042844587034556
@@ -997,8 +997,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,+,sp,O,t,-,pr,K,s,{ J 1.00000 }
 #	=,=,=,=,+,sn,u,p,-,r,K,s,{ J 1.00000 }
 #	=,=,=,=,+,sx,o,l,-,r,K,s,{ J 1.00000 }
-+,k,I,n,-,d,@,r,-,sp,E,l,E,E { E 1.00000 }        0.21015009101307
-# k=1, 1 Neighbor(s) at distance: 	0.21015009101307
++,k,I,n,-,d,@,r,-,sp,E,l,E,E { E 1.00000 }        0.21015009101308
+# k=1, 1 Neighbor(s) at distance: 	0.21015009101308
 #	+,=,y,=,-,l,@,=,-,v,E,l,{ E 1.00000 }
 =,=,=,=,-,x,@,=,+,b,A,k,J,J { J 1.00000 }        0.042844587034556
 # k=1, 1 Neighbor(s) at distance: 	0.042844587034556
@@ -1390,8 +1390,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 # k=1, 2 Neighbor(s) at distance: 	0.14697730140466
 #	=,=,=,=,-,p,O,r,+,t,i,k,{ J 1.00000 }
 #	=,=,=,=,-,b,u,=,+,t,i,k,{ J 1.00000 }
-+,sx,u,n,-,m,a,=,-,k,@,r,T,T { T 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
++,sx,u,n,-,m,a,=,-,k,@,r,T,T { T 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	+,z,O,nd,-,m,a,=,-,k,@,r,{ T 1.00000 }
 =,=,=,=,=,=,=,=,+,kn,O,l,E,E { E 10.0000 }        0.042844587034556
 # k=1, 10 Neighbor(s) at distance: 	0.042844587034556 (only 10 shown)
@@ -1412,8 +1412,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,+,p,A,=,-,k,@,r,{ T 1.00000 }
 #	=,=,=,=,+,st,A,=,-,k,@,r,{ T 1.00000 }
 #	=,=,=,=,+,pl,A,=,-,k,@,r,{ T 1.00000 }
-+,v,A,r,-,k,@,s,-,h,a,s,J,J { J 1.00000 }        0.21015009101307
-# k=1, 1 Neighbor(s) at distance: 	0.21015009101307
++,v,A,r,-,k,@,s,-,h,a,s,J,J { J 1.00000 }        0.21015009101308
+# k=1, 1 Neighbor(s) at distance: 	0.21015009101308
 #	+,l,e,=,-,p,@,l,-,v,a,s,{ J 1.00000 }
 =,=,=,=,+,=,|,=,-,v,@,l,T,T { T 2.00000 }        0.024471910753751
 # k=1, 2 Neighbor(s) at distance: 	0.024471910753751
@@ -1520,8 +1520,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,+,=,o,=,-,m,a,=,T,T { T 1.00000 }        0.042844587034556
 # k=1, 1 Neighbor(s) at distance: 	0.042844587034556
 #	=,=,=,=,+,=,o,=,-,p,a,=,{ T 1.00000 }
-+,k,a,rt,-,=,a,=,-,v,O,nt,J,J { J 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
++,k,a,rt,-,=,a,=,-,v,O,nt,J,J { J 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	+,z,i,k,-,=,a,=,-,v,O,nt,{ J 1.00000 }
 =,=,=,=,+,t,e,=,-,p,@,l,T,T { T 2.00000 }        0.024471910753751
 # k=1, 2 Neighbor(s) at distance: 	0.024471910753751
@@ -1712,8 +1712,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 # k=1, 2 Neighbor(s) at distance: 	0.024471910753751
 #	=,=,=,=,+,sn,I,=,-,p,@,l,{ T 1.00000 }
 #	=,=,=,=,+,st,I,=,-,p,@,l,{ T 1.00000 }
--,d,A,xs,-,p,A,r,-,t,K,=,T,T { T 1.00000 }        0.071297537465303
-# k=1, 1 Neighbor(s) at distance: 	0.071297537465303
+-,d,A,xs,-,p,A,r,-,t,K,=,T,T { T 1.00000 }        0.071297537465304
+# k=1, 1 Neighbor(s) at distance: 	0.071297537465304
 #	-,d,@,r,-,p,A,r,-,t,K,=,{ T 1.00000 }
 =,=,=,=,-,r,A,nt,+,s,u,n,T,T { T 1.00000 }        0.024471910753751
 # k=1, 1 Neighbor(s) at distance: 	0.024471910753751
@@ -1796,8 +1796,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,=,=,=,=,+,d,A,m,{ E 1.00000 }
 #	=,=,=,=,=,=,=,=,+,xr,A,m,{ E 1.00000 }
 #	=,=,=,=,=,=,=,=,+,sxr,A,m,{ E 1.00000 }
--,d,@,=,-,w,a,=,-,G,@,n,T,T { T 1.00000 }        0.052620750282779
-# k=1, 1 Neighbor(s) at distance: 	0.052620750282779
+-,d,@,=,-,w,a,=,-,G,@,n,T,T { T 1.00000 }        0.052620750282780
+# k=1, 1 Neighbor(s) at distance: 	0.052620750282780
 #	-,d,@,r,-,w,a,=,-,G,@,n,{ T 1.00000 }
 +,xl,a,=,-,z,@,=,-,b,A,k,J,J { J 2.00000 }        0.070700889258027
 # k=1, 2 Neighbor(s) at distance: 	0.070700889258027
@@ -1836,8 +1836,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 +,t,a,=,-,r,@,m,-,pl,a,t,J,J { J 1.00000 }        0.13885255354777
 # k=1, 1 Neighbor(s) at distance: 	0.13885255354777
 #	+,b,a,=,-,k,@,r,-,pr,a,t,{ J 1.00000 }
-+,sp,e,k,-,s,@,l,-,p,O,mp,J,J { J 1.00000 }        0.21015009101307
-# k=1, 1 Neighbor(s) at distance: 	0.21015009101307
++,sp,e,k,-,s,@,l,-,p,O,mp,J,J { J 1.00000 }        0.21015009101308
+# k=1, 1 Neighbor(s) at distance: 	0.21015009101308
 #	+,G,a,=,-,r,@,=,-,st,O,mp,{ J 1.00000 }
 =,=,=,=,=,=,=,=,+,s,u,p,J,J { T 1.00000, J 3.00000 }        0.042844587034556
 # k=1, 4 Neighbor(s) at distance: 	0.042844587034556
@@ -1983,8 +1983,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 -,m,a,=,-,t,@,=,+,l,O,t,T,J { J 1.00000 }        0.12982189252311
 # k=1, 1 Neighbor(s) at distance: 	0.12982189252311
 #	-,p,a,=,-,p,i,=,+,j,O,t,{ J 1.00000 }
--,=,O,m,+,h,K,=,-,n,I,N,K,K { E 1.00000, K 2.00000 }        0.096189073082923
-# k=1, 2 Neighbor(s) at distance: 	0.096189073082923
+-,=,O,m,+,h,K,=,-,n,I,N,K,K { E 1.00000, K 2.00000 }        0.096189073082924
+# k=1, 2 Neighbor(s) at distance: 	0.096189073082924
 #	=,=,=,=,+,h,K,=,-,n,I,N,{ E 1.00000, K 1.00000 }
 # k=2, 1 Neighbor(s) at distance: 	0.15489045148414
 #	-,=,O,n,+,d,E,=,-,k,I,N,{ K 1.00000 }
@@ -1998,8 +1998,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 +,tr,o,=,-,z,@,=,-,p,A,k,J,J { J 1.00000 }        0.070700889258027
 # k=1, 1 Neighbor(s) at distance: 	0.070700889258027
 #	+,b,u,=,-,v,@,=,-,p,A,k,{ J 1.00000 }
-+,bl,O,k,-,n,o,t,-,f,E,l,E,E { E 1.00000 }        0.23504162663069
-# k=1, 1 Neighbor(s) at distance: 	0.23504162663069
++,bl,O,k,-,n,o,t,-,f,E,l,E,E { E 1.00000 }        0.23504162663070
+# k=1, 1 Neighbor(s) at distance: 	0.23504162663070
 #	-,d,i,=,-,j,o,=,-,sp,E,l,{ E 1.00000 }
 =,=,=,=,=,=,=,=,+,r,I,N,E,E { E 1.00000 }        0.042844587034556
 # k=1, 1 Neighbor(s) at distance: 	0.042844587034556
@@ -2040,8 +2040,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 -,x,@,=,+,l,I,d,-,b,e,n,T,T { T 1.00000 }        0.10340897860451
 # k=1, 1 Neighbor(s) at distance: 	0.10340897860451
 #	-,x,@,=,+,h,o,r,-,b,e,n,{ T 1.00000 }
--,b,@,r,+,n,a,=,-,k,@,l,T,T { T 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
+-,b,@,r,+,n,a,=,-,k,@,l,T,T { T 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	-,p,i,=,+,n,a,=,-,k,@,l,{ T 1.00000 }
 +,z,E,=,-,l,@,=,-,fl,E,t,J,J { J 2.00000 }        0.16616622657536
 # k=1, 2 Neighbor(s) at distance: 	0.16616622657536
@@ -2050,8 +2050,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 -,=,O,nd,+,b,K,d,-,b,O,rt,J,J { J 1.00000 }        0.24244263872199
 # k=1, 1 Neighbor(s) at distance: 	0.24244263872199
 #	=,=,=,=,+,sx,a,m,-,sx,O,rt,{ J 1.00000 }
-+,s,},=,-,k,@,l,-,G,A,N,E,E { E 1.00000 }        0.21015009101307
-# k=1, 1 Neighbor(s) at distance: 	0.21015009101307
++,s,},=,-,k,@,l,-,G,A,N,E,E { E 1.00000 }        0.21015009101308
+# k=1, 1 Neighbor(s) at distance: 	0.21015009101308
 #	+,spl,I,n,-,t,@,r,-,t,A,N,{ E 1.00000 }
 -,tr,i,=,+,b,y,=,-,n,@,=,T,T { T 1.00000 }        0.094868689110059
 # k=1, 1 Neighbor(s) at distance: 	0.094868689110059
@@ -2235,8 +2235,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 # k=1, 2 Neighbor(s) at distance: 	0.024471910753751
 #	=,=,=,=,+,v,e,=,-,d,@,l,{ T 1.00000 }
 #	=,=,=,=,+,sx,e,=,-,d,@,l,{ T 1.00000 }
-+,d,o,t,-,kl,O,=,-,p,@,r,T,T { T 1.00000 }        0.052620750282779
-# k=1, 1 Neighbor(s) at distance: 	0.052620750282779
++,d,o,t,-,kl,O,=,-,p,@,r,T,T { T 1.00000 }        0.052620750282780
+# k=1, 1 Neighbor(s) at distance: 	0.052620750282780
 #	+,d,o,ts,-,kl,O,=,-,p,@,r,{ T 1.00000 }
 =,=,=,=,-,p,O,m,+,p,u,n,T,T { T 2.00000 }        0.10340897860451
 # k=1, 2 Neighbor(s) at distance: 	0.10340897860451
@@ -2480,8 +2480,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,-,pr,o,=,+,Gr,A,m,E,E { E 1.00000 }        0.10226970120136
 # k=1, 1 Neighbor(s) at distance: 	0.10226970120136
 #	=,=,=,=,-,m,a,=,+,d,A,m,{ E 1.00000 }
-+,m,i,=,-,m,i,=,-,s,E,t,J,J { J 1.00000 }        0.17736233303420
-# k=1, 1 Neighbor(s) at distance: 	0.17736233303420
++,m,i,=,-,m,i,=,-,s,E,t,J,J { J 1.00000 }        0.17736233303421
+# k=1, 1 Neighbor(s) at distance: 	0.17736233303421
 #	=,=,=,=,-,f,a,=,+,s,E,t,{ J 1.00000 }
 =,=,=,=,+,p,o,=,-,t,@,r,T,T { T 1.00000 }        0.024471910753751
 # k=1, 1 Neighbor(s) at distance: 	0.024471910753751
@@ -2867,8 +2867,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 # k=1, 2 Neighbor(s) at distance: 	0.12982189252311
 #	-,k,a,=,-,m,i,=,+,z,o,l,{ T 1.00000 }
 #	-,xl,a,=,-,d,i,=,+,j,o,l,{ T 1.00000 }
-+,b,e,n,-,l,I,=,-,x,a,m,P,P { P 4.00000 }        0.098849728787055
-# k=1, 4 Neighbor(s) at distance: 	0.098849728787055
++,b,e,n,-,l,I,=,-,x,a,m,P,P { P 4.00000 }        0.098849728787056
+# k=1, 4 Neighbor(s) at distance: 	0.098849728787056
 #	+,zw,E,=,-,l,I,=,-,x,a,m,{ P 1.00000 }
 #	+,bl,u,d,-,l,I,=,-,x,a,m,{ P 1.00000 }
 #	+,k,E,rn,-,l,I,=,-,x,a,m,{ P 1.00000 }
@@ -2946,8 +2946,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,=,=,=,=,+,sx,a,l,{ T 1.00000 }
 #	=,=,=,=,=,=,=,=,+,S,a,l,{ T 1.00000 }
 #	=,=,=,=,=,=,=,=,+,str,a,l,{ T 1.00000 }
-+,s,i,=,-,t,@,=,-,k,a,rt,J,J { J 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
++,s,i,=,-,t,@,=,-,k,a,rt,J,J { J 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	+,b,o,r,-,t,@,=,-,k,a,rt,{ J 1.00000 }
 =,=,=,=,+,b,A,l,-,b,u,k,J,J { J 1.00000 }        0.043983864437713
 # k=1, 1 Neighbor(s) at distance: 	0.043983864437713
@@ -3165,8 +3165,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,+,h,A,s,-,p,@,l,T,T { T 1.00000 }        0.068455775191464
 # k=1, 1 Neighbor(s) at distance: 	0.068455775191464
 #	=,=,=,=,+,=,A,=,-,p,@,l,{ T 1.00000 }
-+,=,A,f,-,l,E,=,-,G,@,r,T,T { T 1.00000 }        0.095769448219054
-# k=1, 1 Neighbor(s) at distance: 	0.095769448219054
++,=,A,f,-,l,E,=,-,G,@,r,T,T { T 1.00000 }        0.095769448219055
+# k=1, 1 Neighbor(s) at distance: 	0.095769448219055
 #	+,=,o,m,-,z,E,=,-,G,@,r,{ T 1.00000 }
 =,=,=,=,-,x,@,=,+,l,},k,J,J { J 2.00000 }        0.14996893195359
 # k=1, 2 Neighbor(s) at distance: 	0.14996893195359
@@ -3331,8 +3331,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 +,s,L,=,-,k,@,r,-,b,e,st,J,J { J 1.00000 }        0.11468475369574
 # k=1, 1 Neighbor(s) at distance: 	0.11468475369574
 #	+,vr,M,=,-,w,@,=,-,b,e,st,{ J 1.00000 }
-+,k,o,=,-,l,i,=,-,br,i,=,T,T { T 1.00000 }        0.17397794156448
-# k=1, 1 Neighbor(s) at distance: 	0.17397794156448
++,k,o,=,-,l,i,=,-,br,i,=,T,T { T 1.00000 }        0.17397794156449
+# k=1, 1 Neighbor(s) at distance: 	0.17397794156449
 #	-,k,o,=,-,t,@,=,+,r,i,=,{ T 1.00000 }
 =,=,=,=,+,sx,I,=,-,m,@,l,T,T { T 12.0000 }        0.059425114166802
 # k=1, 12 Neighbor(s) at distance: 	0.059425114166802 (only 10 shown)
@@ -3443,8 +3443,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,+,w,a,=,-,s,@,m,P,P { P 1.00000 }        0.024471910753751
 # k=1, 1 Neighbor(s) at distance: 	0.024471910753751
 #	=,=,=,=,+,br,a,=,-,s,@,m,{ P 1.00000 }
-+,b,A,k,-,sx,o,=,-,t,@,l,T,T { T 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
++,b,A,k,-,sx,o,=,-,t,@,l,T,T { T 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	+,t,e,=,-,sx,o,=,-,t,@,l,{ T 1.00000 }
 -,b,A,=,-,t,@,=,+,r,K,=,T,T { T 1.00000 }        0.024471910753751
 # k=1, 1 Neighbor(s) at distance: 	0.024471910753751
@@ -3551,8 +3551,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,=,=,=,=,+,w,E,l,{ E 1.00000 }
 #	=,=,=,=,=,=,=,=,+,s,E,l,{ E 1.00000 }
 #	=,=,=,=,=,=,=,=,+,sx,E,l,{ E 1.00000 }
-+,t,I,k,-,t,a,=,-,f,@,l,T,T { T 6.00000 }        0.098849728787055
-# k=1, 6 Neighbor(s) at distance: 	0.098849728787055
++,t,I,k,-,t,a,=,-,f,@,l,T,T { T 6.00000 }        0.098849728787056
+# k=1, 6 Neighbor(s) at distance: 	0.098849728787056
 #	+,f,e,=,-,t,a,=,-,f,@,l,{ T 1.00000 }
 #	+,m,i,=,-,t,a,=,-,f,@,l,{ T 1.00000 }
 #	+,p,e,r,-,t,a,=,-,f,@,l,{ T 1.00000 }
@@ -3719,8 +3719,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	+,w,a,=,-,t,@,r,-,k,I,p,{ E 1.00000, J 1.00000 }
 # k=2, 1 Neighbor(s) at distance: 	0.24510329442613
 #	+,t,A,N,-,g,a,=,-,sl,I,p,{ J 1.00000 }
--,d,A,xs,-,k,a,=,-,d,o,=,T,T { T 2.00000 }        0.12374126440467
-# k=1, 2 Neighbor(s) at distance: 	0.12374126440467
+-,d,A,xs,-,k,a,=,-,d,o,=,T,T { T 2.00000 }        0.12374126440468
+# k=1, 2 Neighbor(s) at distance: 	0.12374126440468
 #	+,k,E,rst,-,k,a,=,-,d,o,=,{ T 1.00000 }
 #	+,kl,a,s,-,k,a,=,-,d,o,=,{ T 1.00000 }
 =,=,=,=,=,=,=,=,+,l,O,t,T,J { J 10.0000 }        0.042844587034556
@@ -3767,8 +3767,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,=,=,=,=,+,pr,},l,{ E 1.00000 }
 #	=,=,=,=,=,=,=,=,+,kn,},l,{ E 1.00000 }
 #	=,=,=,=,=,=,=,=,+,sm,},l,{ E 1.00000 }
--,v,O,nt,-,x,@,=,-,b,E,t,J,J { J 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
+-,v,O,nt,-,x,@,=,-,b,E,t,J,J { J 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	-,m,A,ns,-,x,@,=,-,b,E,t,{ J 1.00000 }
 =,=,=,=,=,=,=,=,+,w,K,s,J,J { J 1.00000 }        0.042844587034556
 # k=1, 1 Neighbor(s) at distance: 	0.042844587034556
@@ -3801,8 +3801,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,+,h,A,l,-,t,@,r,T,T { T 1.00000 }        0.024471910753751
 # k=1, 1 Neighbor(s) at distance: 	0.024471910753751
 #	=,=,=,=,+,p,A,l,-,t,@,r,{ T 1.00000 }
-+,w,I,m,-,p,@,r,-,d,i,r,T,T { T 1.00000 }        0.095769448219054
-# k=1, 1 Neighbor(s) at distance: 	0.095769448219054
++,w,I,m,-,p,@,r,-,d,i,r,T,T { T 1.00000 }        0.095769448219055
+# k=1, 1 Neighbor(s) at distance: 	0.095769448219055
 #	+,w,u,=,-,k,@,r,-,d,i,r,{ T 1.00000 }
 =,=,=,=,+,w,I,m,-,p,@,r,T,T { T 1.00000 }        0.043983864437713
 # k=1, 1 Neighbor(s) at distance: 	0.043983864437713
@@ -3943,8 +3943,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,+,h,o,ft,-,kn,I,k,J,J { J 1.00000 }        0.14625356563907
 # k=1, 1 Neighbor(s) at distance: 	0.14625356563907
 #	=,=,=,=,+,b,i,r,-,bl,I,k,{ J 1.00000 }
-+,z,M,t,-,l,e,=,-,p,@,l,T,T { T 2.00000 }        0.098849728787055
-# k=1, 2 Neighbor(s) at distance: 	0.098849728787055
++,z,M,t,-,l,e,=,-,p,@,l,T,T { T 2.00000 }        0.098849728787056
+# k=1, 2 Neighbor(s) at distance: 	0.098849728787056
 #	+,t,e,=,-,l,e,=,-,p,@,l,{ T 1.00000 }
 #	+,=,K,s,-,l,e,=,-,p,@,l,{ T 1.00000 }
 =,=,=,=,=,=,=,=,+,m,L,s,J,J { J 3.00000 }        0.042844587034556
@@ -4427,8 +4427,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 # k=1, 2 Neighbor(s) at distance: 	0.10340897860451
 #	=,=,=,=,-,d,i,=,+,n,e,=,{ T 1.00000 }
 #	=,=,=,=,-,t,u,r,+,n,e,=,{ T 1.00000 }
--,b,u,r,-,d,@,=,+,r,K,=,T,T { T 1.00000 }        0.077092661036530
-# k=1, 1 Neighbor(s) at distance: 	0.077092661036530
+-,b,u,r,-,d,@,=,+,r,K,=,T,T { T 1.00000 }        0.077092661036531
+# k=1, 1 Neighbor(s) at distance: 	0.077092661036531
 #	-,b,u,=,-,k,@,=,+,r,K,=,{ T 1.00000 }
 =,=,=,=,=,=,=,=,+,tr,K,l,T,T { T 6.00000 }        0.042844587034556
 # k=1, 6 Neighbor(s) at distance: 	0.042844587034556
@@ -4513,8 +4513,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 # k=1, 2 Neighbor(s) at distance: 	0.10340897860451
 #	=,=,=,=,+,k,E,rst,-,m,A,n,{ E 1.00000 }
 #	=,=,=,=,+,l,o,ts,-,m,A,n,{ E 1.00000 }
--,b,A,N,+,k,E,t,-,h,A,m,E,E { E 1.00000 }        0.24729728243967
-# k=1, 1 Neighbor(s) at distance: 	0.24729728243967
+-,b,A,N,+,k,E,t,-,h,A,m,E,E { E 1.00000 }        0.24729728243968
+# k=1, 1 Neighbor(s) at distance: 	0.24729728243968
 #	+,b,o,=,-,t,@,r,-,h,A,m,{ E 1.00000 }
 =,=,=,=,+,dr,O,=,-,p,@,l,T,T { T 1.00000 }        0.024471910753751
 # k=1, 1 Neighbor(s) at distance: 	0.024471910753751
@@ -5019,8 +5019,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,+,n,i,r,-,br,o,t,J,J { J 1.00000 }        0.078937067850764
 # k=1, 1 Neighbor(s) at distance: 	0.078937067850764
 #	=,=,=,=,+,n,a,=,-,br,o,t,{ J 1.00000 }
--,h,A,m,-,tr,O,=,-,m,@,l,T,T { T 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
+-,h,A,m,-,tr,O,=,-,m,@,l,T,T { T 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	-,t,@,n,-,tr,O,=,-,m,@,l,{ T 1.00000 }
 =,=,=,=,=,=,=,=,+,st,E,m,E,E { E 5.00000 }        0.042844587034556
 # k=1, 5 Neighbor(s) at distance: 	0.042844587034556
@@ -5060,8 +5060,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,=,=,=,=,+,r,L,l,{ T 1.00000 }
 #	=,=,=,=,=,=,=,=,+,z,L,l,{ T 1.00000 }
 #	=,=,=,=,=,=,=,=,+,m,L,l,{ T 1.00000 }
-=,=,=,=,+,spr,I,N,-,v,E,rs,J,J { J 1.00000 }        0.24729728243967
-# k=1, 1 Neighbor(s) at distance: 	0.24729728243967
+=,=,=,=,+,spr,I,N,-,v,E,rs,J,J { J 1.00000 }        0.24729728243968
+# k=1, 1 Neighbor(s) at distance: 	0.24729728243968
 #	+,=,A,f,-,t,E,l,-,v,E,rs,{ J 1.00000 }
 =,=,=,=,+,p,a,=,-,l,I,N,K,E { E 1.00000 }        0.0000000000000
 # k=1, 1 Neighbor(s) at distance: 	0.0000000000000
@@ -5234,8 +5234,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 +,t,A,n,-,s,i,=,-,b,u,k,J,J { J 1.00000 }        0.13693740006720
 # k=1, 1 Neighbor(s) at distance: 	0.13693740006720
 #	-,t,A,=,-,l,@,=,-,b,u,k,{ J 1.00000 }
-+,=,u,s,-,t,@,r,-,m,E,s,J,J { J 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
++,=,u,s,-,t,@,r,-,m,E,s,J,J { J 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	+,b,o,=,-,t,@,r,-,m,E,s,{ J 1.00000 }
 =,=,=,=,-,x,a,=,+,z,O,n,E,E { E 1.00000 }        0.042844587034556
 # k=1, 1 Neighbor(s) at distance: 	0.042844587034556
@@ -5398,8 +5398,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,+,sp,O,t,-,pr,K,s,{ J 1.00000 }
 #	=,=,=,=,+,sn,u,p,-,r,K,s,{ J 1.00000 }
 #	=,=,=,=,+,sx,o,l,-,r,K,s,{ J 1.00000 }
-+,k,I,n,-,d,@,r,-,sp,E,l,E,E { E 1.00000 }        0.21015009101307
-# k=1, 1 Neighbor(s) at distance: 	0.21015009101307
++,k,I,n,-,d,@,r,-,sp,E,l,E,E { E 1.00000 }        0.21015009101308
+# k=1, 1 Neighbor(s) at distance: 	0.21015009101308
 #	+,=,y,=,-,l,@,=,-,v,E,l,{ E 1.00000 }
 =,=,=,=,-,x,@,=,+,b,A,k,J,J { J 1.00000 }        0.042844587034556
 # k=1, 1 Neighbor(s) at distance: 	0.042844587034556
@@ -5797,8 +5797,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 # k=1, 2 Neighbor(s) at distance: 	0.14697730140466
 #	=,=,=,=,-,p,O,r,+,t,i,k,{ J 1.00000 }
 #	=,=,=,=,-,b,u,=,+,t,i,k,{ J 1.00000 }
-+,sx,u,n,-,m,a,=,-,k,@,r,T,T { T 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
++,sx,u,n,-,m,a,=,-,k,@,r,T,T { T 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	+,z,O,nd,-,m,a,=,-,k,@,r,{ T 1.00000 }
 =,=,=,=,=,=,=,=,+,kn,O,l,E,E { E 10.0000 }        0.042844587034556
 # k=1, 10 Neighbor(s) at distance: 	0.042844587034556
@@ -5819,8 +5819,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,+,p,A,=,-,k,@,r,{ T 1.00000 }
 #	=,=,=,=,+,st,A,=,-,k,@,r,{ T 1.00000 }
 #	=,=,=,=,+,pl,A,=,-,k,@,r,{ T 1.00000 }
-+,v,A,r,-,k,@,s,-,h,a,s,J,J { J 1.00000 }        0.21015009101307
-# k=1, 1 Neighbor(s) at distance: 	0.21015009101307
++,v,A,r,-,k,@,s,-,h,a,s,J,J { J 1.00000 }        0.21015009101308
+# k=1, 1 Neighbor(s) at distance: 	0.21015009101308
 #	+,l,e,=,-,p,@,l,-,v,a,s,{ J 1.00000 }
 =,=,=,=,+,=,|,=,-,v,@,l,T,T { T 2.00000 }        0.024471910753751
 # k=1, 2 Neighbor(s) at distance: 	0.024471910753751
@@ -5927,8 +5927,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,+,=,o,=,-,m,a,=,T,T { T 1.00000 }        0.042844587034556
 # k=1, 1 Neighbor(s) at distance: 	0.042844587034556
 #	=,=,=,=,+,=,o,=,-,p,a,=,{ T 1.00000 }
-+,k,a,rt,-,=,a,=,-,v,O,nt,J,J { J 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
++,k,a,rt,-,=,a,=,-,v,O,nt,J,J { J 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	+,z,i,k,-,=,a,=,-,v,O,nt,{ J 1.00000 }
 =,=,=,=,+,t,e,=,-,p,@,l,T,T { T 2.00000 }        0.024471910753751
 # k=1, 2 Neighbor(s) at distance: 	0.024471910753751
@@ -6124,8 +6124,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 # k=1, 2 Neighbor(s) at distance: 	0.024471910753751
 #	=,=,=,=,+,sn,I,=,-,p,@,l,{ T 1.00000 }
 #	=,=,=,=,+,st,I,=,-,p,@,l,{ T 1.00000 }
--,d,A,xs,-,p,A,r,-,t,K,=,T,T { T 1.00000 }        0.071297537465303
-# k=1, 1 Neighbor(s) at distance: 	0.071297537465303
+-,d,A,xs,-,p,A,r,-,t,K,=,T,T { T 1.00000 }        0.071297537465304
+# k=1, 1 Neighbor(s) at distance: 	0.071297537465304
 #	-,d,@,r,-,p,A,r,-,t,K,=,{ T 1.00000 }
 =,=,=,=,-,r,A,nt,+,s,u,n,T,T { T 1.00000 }        0.024471910753751
 # k=1, 1 Neighbor(s) at distance: 	0.024471910753751
@@ -6208,8 +6208,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,=,=,=,=,+,d,A,m,{ E 1.00000 }
 #	=,=,=,=,=,=,=,=,+,xr,A,m,{ E 1.00000 }
 #	=,=,=,=,=,=,=,=,+,sxr,A,m,{ E 1.00000 }
--,d,@,=,-,w,a,=,-,G,@,n,T,T { T 1.00000 }        0.052620750282779
-# k=1, 1 Neighbor(s) at distance: 	0.052620750282779
+-,d,@,=,-,w,a,=,-,G,@,n,T,T { T 1.00000 }        0.052620750282780
+# k=1, 1 Neighbor(s) at distance: 	0.052620750282780
 #	-,d,@,r,-,w,a,=,-,G,@,n,{ T 1.00000 }
 +,xl,a,=,-,z,@,=,-,b,A,k,J,J { J 2.00000 }        0.070700889258027
 # k=1, 2 Neighbor(s) at distance: 	0.070700889258027
@@ -6254,8 +6254,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 +,t,a,=,-,r,@,m,-,pl,a,t,J,J { J 1.00000 }        0.13885255354777
 # k=1, 1 Neighbor(s) at distance: 	0.13885255354777
 #	+,b,a,=,-,k,@,r,-,pr,a,t,{ J 1.00000 }
-+,sp,e,k,-,s,@,l,-,p,O,mp,J,J { J 1.00000 }        0.21015009101307
-# k=1, 1 Neighbor(s) at distance: 	0.21015009101307
++,sp,e,k,-,s,@,l,-,p,O,mp,J,J { J 1.00000 }        0.21015009101308
+# k=1, 1 Neighbor(s) at distance: 	0.21015009101308
 #	+,G,a,=,-,r,@,=,-,st,O,mp,{ J 1.00000 }
 =,=,=,=,=,=,=,=,+,s,u,p,J,J { T 1.00000, J 3.00000 }        0.042844587034556
 # k=1, 4 Neighbor(s) at distance: 	0.042844587034556
@@ -6405,8 +6405,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 -,m,a,=,-,t,@,=,+,l,O,t,T,J { J 1.00000 }        0.12982189252311
 # k=1, 1 Neighbor(s) at distance: 	0.12982189252311
 #	-,p,a,=,-,p,i,=,+,j,O,t,{ J 1.00000 }
--,=,O,m,+,h,K,=,-,n,I,N,K,K { E 1.00000, K 2.00000 }        0.096189073082923
-# k=1, 2 Neighbor(s) at distance: 	0.096189073082923
+-,=,O,m,+,h,K,=,-,n,I,N,K,K { E 1.00000, K 2.00000 }        0.096189073082924
+# k=1, 2 Neighbor(s) at distance: 	0.096189073082924
 #	=,=,=,=,+,h,K,=,-,n,I,N,{ E 1.00000, K 1.00000 }
 # k=2, 1 Neighbor(s) at distance: 	0.15489045148414
 #	-,=,O,n,+,d,E,=,-,k,I,N,{ K 1.00000 }
@@ -6420,8 +6420,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 +,tr,o,=,-,z,@,=,-,p,A,k,J,J { J 1.00000 }        0.070700889258027
 # k=1, 1 Neighbor(s) at distance: 	0.070700889258027
 #	+,b,u,=,-,v,@,=,-,p,A,k,{ J 1.00000 }
-+,bl,O,k,-,n,o,t,-,f,E,l,E,E { E 1.00000 }        0.23504162663069
-# k=1, 1 Neighbor(s) at distance: 	0.23504162663069
++,bl,O,k,-,n,o,t,-,f,E,l,E,E { E 1.00000 }        0.23504162663070
+# k=1, 1 Neighbor(s) at distance: 	0.23504162663070
 #	-,d,i,=,-,j,o,=,-,sp,E,l,{ E 1.00000 }
 =,=,=,=,=,=,=,=,+,r,I,N,E,E { E 1.00000 }        0.042844587034556
 # k=1, 1 Neighbor(s) at distance: 	0.042844587034556
@@ -6462,8 +6462,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 -,x,@,=,+,l,I,d,-,b,e,n,T,T { T 1.00000 }        0.10340897860451
 # k=1, 1 Neighbor(s) at distance: 	0.10340897860451
 #	-,x,@,=,+,h,o,r,-,b,e,n,{ T 1.00000 }
--,b,@,r,+,n,a,=,-,k,@,l,T,T { T 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
+-,b,@,r,+,n,a,=,-,k,@,l,T,T { T 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	-,p,i,=,+,n,a,=,-,k,@,l,{ T 1.00000 }
 +,z,E,=,-,l,@,=,-,fl,E,t,J,J { J 2.00000 }        0.16616622657536
 # k=1, 2 Neighbor(s) at distance: 	0.16616622657536
@@ -6472,8 +6472,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 -,=,O,nd,+,b,K,d,-,b,O,rt,J,J { J 1.00000 }        0.24244263872199
 # k=1, 1 Neighbor(s) at distance: 	0.24244263872199
 #	=,=,=,=,+,sx,a,m,-,sx,O,rt,{ J 1.00000 }
-+,s,},=,-,k,@,l,-,G,A,N,E,E { E 1.00000 }        0.21015009101307
-# k=1, 1 Neighbor(s) at distance: 	0.21015009101307
++,s,},=,-,k,@,l,-,G,A,N,E,E { E 1.00000 }        0.21015009101308
+# k=1, 1 Neighbor(s) at distance: 	0.21015009101308
 #	+,spl,I,n,-,t,@,r,-,t,A,N,{ E 1.00000 }
 -,tr,i,=,+,b,y,=,-,n,@,=,T,T { T 1.00000 }        0.094868689110059
 # k=1, 1 Neighbor(s) at distance: 	0.094868689110059
@@ -6714,8 +6714,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 # k=1, 2 Neighbor(s) at distance: 	0.024471910753751
 #	=,=,=,=,+,v,e,=,-,d,@,l,{ T 1.00000 }
 #	=,=,=,=,+,sx,e,=,-,d,@,l,{ T 1.00000 }
-+,d,o,t,-,kl,O,=,-,p,@,r,T,T { T 1.00000 }        0.052620750282779
-# k=1, 1 Neighbor(s) at distance: 	0.052620750282779
++,d,o,t,-,kl,O,=,-,p,@,r,T,T { T 1.00000 }        0.052620750282780
+# k=1, 1 Neighbor(s) at distance: 	0.052620750282780
 #	+,d,o,ts,-,kl,O,=,-,p,@,r,{ T 1.00000 }
 =,=,=,=,-,p,O,m,+,p,u,n,T,T { T 2.00000 }        0.10340897860451
 # k=1, 2 Neighbor(s) at distance: 	0.10340897860451
@@ -6962,8 +6962,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,-,pr,o,=,+,Gr,A,m,E,E { E 1.00000 }        0.10226970120136
 # k=1, 1 Neighbor(s) at distance: 	0.10226970120136
 #	=,=,=,=,-,m,a,=,+,d,A,m,{ E 1.00000 }
-+,m,i,=,-,m,i,=,-,s,E,t,J,J { J 1.00000 }        0.17736233303420
-# k=1, 1 Neighbor(s) at distance: 	0.17736233303420
++,m,i,=,-,m,i,=,-,s,E,t,J,J { J 1.00000 }        0.17736233303421
+# k=1, 1 Neighbor(s) at distance: 	0.17736233303421
 #	=,=,=,=,-,f,a,=,+,s,E,t,{ J 1.00000 }
 =,=,=,=,+,p,o,=,-,t,@,r,T,T { T 1.00000 }        0.024471910753751
 # k=1, 1 Neighbor(s) at distance: 	0.024471910753751
@@ -7359,8 +7359,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 # k=1, 2 Neighbor(s) at distance: 	0.12982189252311
 #	-,k,a,=,-,m,i,=,+,z,o,l,{ T 1.00000 }
 #	-,xl,a,=,-,d,i,=,+,j,o,l,{ T 1.00000 }
-+,b,e,n,-,l,I,=,-,x,a,m,P,P { P 4.00000 }        0.098849728787055
-# k=1, 4 Neighbor(s) at distance: 	0.098849728787055
++,b,e,n,-,l,I,=,-,x,a,m,P,P { P 4.00000 }        0.098849728787056
+# k=1, 4 Neighbor(s) at distance: 	0.098849728787056
 #	+,zw,E,=,-,l,I,=,-,x,a,m,{ P 1.00000 }
 #	+,bl,u,d,-,l,I,=,-,x,a,m,{ P 1.00000 }
 #	+,k,E,rn,-,l,I,=,-,x,a,m,{ P 1.00000 }
@@ -7443,8 +7443,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,=,=,=,=,+,sx,a,l,{ T 1.00000 }
 #	=,=,=,=,=,=,=,=,+,S,a,l,{ T 1.00000 }
 #	=,=,=,=,=,=,=,=,+,str,a,l,{ T 1.00000 }
-+,s,i,=,-,t,@,=,-,k,a,rt,J,J { J 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
++,s,i,=,-,t,@,=,-,k,a,rt,J,J { J 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	+,b,o,r,-,t,@,=,-,k,a,rt,{ J 1.00000 }
 =,=,=,=,+,b,A,l,-,b,u,k,J,J { J 1.00000 }        0.043983864437713
 # k=1, 1 Neighbor(s) at distance: 	0.043983864437713
@@ -7667,8 +7667,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,+,h,A,s,-,p,@,l,T,T { T 1.00000 }        0.068455775191464
 # k=1, 1 Neighbor(s) at distance: 	0.068455775191464
 #	=,=,=,=,+,=,A,=,-,p,@,l,{ T 1.00000 }
-+,=,A,f,-,l,E,=,-,G,@,r,T,T { T 1.00000 }        0.095769448219054
-# k=1, 1 Neighbor(s) at distance: 	0.095769448219054
++,=,A,f,-,l,E,=,-,G,@,r,T,T { T 1.00000 }        0.095769448219055
+# k=1, 1 Neighbor(s) at distance: 	0.095769448219055
 #	+,=,o,m,-,z,E,=,-,G,@,r,{ T 1.00000 }
 =,=,=,=,-,x,@,=,+,l,},k,J,J { J 2.00000 }        0.14996893195359
 # k=1, 2 Neighbor(s) at distance: 	0.14996893195359
@@ -7835,8 +7835,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 +,s,L,=,-,k,@,r,-,b,e,st,J,J { J 1.00000 }        0.11468475369574
 # k=1, 1 Neighbor(s) at distance: 	0.11468475369574
 #	+,vr,M,=,-,w,@,=,-,b,e,st,{ J 1.00000 }
-+,k,o,=,-,l,i,=,-,br,i,=,T,T { T 1.00000 }        0.17397794156448
-# k=1, 1 Neighbor(s) at distance: 	0.17397794156448
++,k,o,=,-,l,i,=,-,br,i,=,T,T { T 1.00000 }        0.17397794156449
+# k=1, 1 Neighbor(s) at distance: 	0.17397794156449
 #	-,k,o,=,-,t,@,=,+,r,i,=,{ T 1.00000 }
 =,=,=,=,+,sx,I,=,-,m,@,l,T,T { T 12.0000 }        0.059425114166802
 # k=1, 12 Neighbor(s) at distance: 	0.059425114166802
@@ -8006,8 +8006,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,+,w,a,=,-,s,@,m,P,P { P 1.00000 }        0.024471910753751
 # k=1, 1 Neighbor(s) at distance: 	0.024471910753751
 #	=,=,=,=,+,br,a,=,-,s,@,m,{ P 1.00000 }
-+,b,A,k,-,sx,o,=,-,t,@,l,T,T { T 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
++,b,A,k,-,sx,o,=,-,t,@,l,T,T { T 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	+,t,e,=,-,sx,o,=,-,t,@,l,{ T 1.00000 }
 -,b,A,=,-,t,@,=,+,r,K,=,T,T { T 1.00000 }        0.024471910753751
 # k=1, 1 Neighbor(s) at distance: 	0.024471910753751
@@ -8114,8 +8114,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,=,=,=,=,+,w,E,l,{ E 1.00000 }
 #	=,=,=,=,=,=,=,=,+,s,E,l,{ E 1.00000 }
 #	=,=,=,=,=,=,=,=,+,sx,E,l,{ E 1.00000 }
-+,t,I,k,-,t,a,=,-,f,@,l,T,T { T 6.00000 }        0.098849728787055
-# k=1, 6 Neighbor(s) at distance: 	0.098849728787055
++,t,I,k,-,t,a,=,-,f,@,l,T,T { T 6.00000 }        0.098849728787056
+# k=1, 6 Neighbor(s) at distance: 	0.098849728787056
 #	+,f,e,=,-,t,a,=,-,f,@,l,{ T 1.00000 }
 #	+,m,i,=,-,t,a,=,-,f,@,l,{ T 1.00000 }
 #	+,p,e,r,-,t,a,=,-,f,@,l,{ T 1.00000 }
@@ -8284,8 +8284,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	+,w,a,=,-,t,@,r,-,k,I,p,{ E 1.00000, J 1.00000 }
 # k=2, 1 Neighbor(s) at distance: 	0.24510329442613
 #	+,t,A,N,-,g,a,=,-,sl,I,p,{ J 1.00000 }
--,d,A,xs,-,k,a,=,-,d,o,=,T,T { T 2.00000 }        0.12374126440467
-# k=1, 2 Neighbor(s) at distance: 	0.12374126440467
+-,d,A,xs,-,k,a,=,-,d,o,=,T,T { T 2.00000 }        0.12374126440468
+# k=1, 2 Neighbor(s) at distance: 	0.12374126440468
 #	+,k,E,rst,-,k,a,=,-,d,o,=,{ T 1.00000 }
 #	+,kl,a,s,-,k,a,=,-,d,o,=,{ T 1.00000 }
 =,=,=,=,=,=,=,=,+,l,O,t,T,J { J 10.0000 }        0.042844587034556
@@ -8332,8 +8332,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 #	=,=,=,=,=,=,=,=,+,pr,},l,{ E 1.00000 }
 #	=,=,=,=,=,=,=,=,+,kn,},l,{ E 1.00000 }
 #	=,=,=,=,=,=,=,=,+,sm,},l,{ E 1.00000 }
--,v,O,nt,-,x,@,=,-,b,E,t,J,J { J 1.00000 }        0.098849728787055
-# k=1, 1 Neighbor(s) at distance: 	0.098849728787055
+-,v,O,nt,-,x,@,=,-,b,E,t,J,J { J 1.00000 }        0.098849728787056
+# k=1, 1 Neighbor(s) at distance: 	0.098849728787056
 #	-,m,A,ns,-,x,@,=,-,b,E,t,{ J 1.00000 }
 =,=,=,=,=,=,=,=,+,w,K,s,J,J { J 1.00000 }        0.042844587034556
 # k=1, 1 Neighbor(s) at distance: 	0.042844587034556
@@ -8366,8 +8366,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,+,h,A,l,-,t,@,r,T,T { T 1.00000 }        0.024471910753751
 # k=1, 1 Neighbor(s) at distance: 	0.024471910753751
 #	=,=,=,=,+,p,A,l,-,t,@,r,{ T 1.00000 }
-+,w,I,m,-,p,@,r,-,d,i,r,T,T { T 1.00000 }        0.095769448219054
-# k=1, 1 Neighbor(s) at distance: 	0.095769448219054
++,w,I,m,-,p,@,r,-,d,i,r,T,T { T 1.00000 }        0.095769448219055
+# k=1, 1 Neighbor(s) at distance: 	0.095769448219055
 #	+,w,u,=,-,k,@,r,-,d,i,r,{ T 1.00000 }
 =,=,=,=,+,w,I,m,-,p,@,r,T,T { T 1.00000 }        0.043983864437713
 # k=1, 1 Neighbor(s) at distance: 	0.043983864437713
@@ -8510,8 +8510,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 =,=,=,=,+,h,o,ft,-,kn,I,k,J,J { J 1.00000 }        0.14625356563907
 # k=1, 1 Neighbor(s) at distance: 	0.14625356563907
 #	=,=,=,=,+,b,i,r,-,bl,I,k,{ J 1.00000 }
-+,z,M,t,-,l,e,=,-,p,@,l,T,T { T 2.00000 }        0.098849728787055
-# k=1, 2 Neighbor(s) at distance: 	0.098849728787055
++,z,M,t,-,l,e,=,-,p,@,l,T,T { T 2.00000 }        0.098849728787056
+# k=1, 2 Neighbor(s) at distance: 	0.098849728787056
 #	+,t,e,=,-,l,e,=,-,p,@,l,{ T 1.00000 }
 #	+,=,K,s,-,l,e,=,-,p,@,l,{ T 1.00000 }
 =,=,=,=,=,=,=,=,+,m,L,s,J,J { J 3.00000 }        0.042844587034556
@@ -9003,8 +9003,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 # k=1, 2 Neighbor(s) at distance: 	0.10340897860451
 #	=,=,=,=,-,d,i,=,+,n,e,=,{ T 1.00000 }
 #	=,=,=,=,-,t,u,r,+,n,e,=,{ T 1.00000 }
--,b,u,r,-,d,@,=,+,r,K,=,T,T { T 1.00000 }        0.077092661036530
-# k=1, 1 Neighbor(s) at distance: 	0.077092661036530
+-,b,u,r,-,d,@,=,+,r,K,=,T,T { T 1.00000 }        0.077092661036531
+# k=1, 1 Neighbor(s) at distance: 	0.077092661036531
 #	-,b,u,=,-,k,@,=,+,r,K,=,{ T 1.00000 }
 =,=,=,=,=,=,=,=,+,tr,K,l,T,T { T 6.00000 }        0.042844587034556
 # k=1, 6 Neighbor(s) at distance: 	0.042844587034556
@@ -9094,8 +9094,8 @@ There were 5 ties of which 4 (80.00%) were correctly resolved
 # k=1, 2 Neighbor(s) at distance: 	0.10340897860451
 #	=,=,=,=,+,k,E,rst,-,m,A,n,{ E 1.00000 }
 #	=,=,=,=,+,l,o,ts,-,m,A,n,{ E 1.00000 }
--,b,A,N,+,k,E,t,-,h,A,m,E,E { E 1.00000 }        0.24729728243967
-# k=1, 1 Neighbor(s) at distance: 	0.24729728243967
+-,b,A,N,+,k,E,t,-,h,A,m,E,E { E 1.00000 }        0.24729728243968
+# k=1, 1 Neighbor(s) at distance: 	0.24729728243968
 #	+,b,o,=,-,t,@,r,-,h,A,m,{ E 1.00000 }
 =,=,=,=,+,dr,O,=,-,p,@,l,T,T { T 1.00000 }        0.024471910753751
 # k=1, 1 Neighbor(s) at distance: 	0.024471910753751

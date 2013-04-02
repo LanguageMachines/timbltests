@@ -1,17 +1,17 @@
-TiMBL 6.3.2 (c) ILK 1998 - 2010.
+TiMBL 6.4.4 (c) ILK 1998 - 2013.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Dec 21 17:40:37 2010
+Tue Apr  2 12:33:33 2013
 
 Examine datafile './tests/kwart.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/kwart.train
-Start:          0 @ Tue Dec 21 17:40:37 2010
-Finished:   50000 @ Tue Dec 21 17:40:38 2010
-Calculating Entropy         Tue Dec 21 17:40:38 2010
+Start:          0 @ Tue Apr  2 12:33:34 2013
+Finished:   50000 @ Tue Apr  2 12:33:34 2013
+Calculating Entropy         Tue Apr  2 12:33:34 2013
 Lines of data     : 50000
 DB Entropy        : 1.1247965
 Number of Classes : 3
@@ -26,32 +26,32 @@ Feats	Vals	InfoGain	GainRatio
     7     44	0.32499390	0.074939666
     8     44	0.048351684	0.011172195
 
-Preparation took 0 seconds, 616 milliseconds and 139 microseconds
+Preparation took 0 seconds, 341 milliseconds and 49 microseconds
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 2, 3, 1, 4 >
 Phase 2: Learning from Datafile: ./tests/kwart.train
-Start:          0 @ Tue Dec 21 17:40:38 2010
-Finished:    5000 @ Tue Dec 21 17:40:38 2010
+Start:          0 @ Tue Apr  2 12:33:34 2013
+Finished:    5000 @ Tue Apr  2 12:33:34 2013
 
 Size of InstanceBase = 29027 Nodes, (1161080 bytes), 34.87 % compression
-Learning took 0 seconds, 58 milliseconds and 646 microseconds
+Learning took 0 seconds, 37 milliseconds and 445 microseconds
 Phase 2: Appending from Datafile: ./tests/kwart.train (starting at line 5001)
-Start:       5001 @ Tue Dec 21 17:40:38 2010
-Learning:    5000 @ Tue Dec 21 17:40:40 2010	 added:107
-Learning:    5001 @ Tue Dec 21 17:40:40 2010	 added:1
-Learning:    5002 @ Tue Dec 21 17:40:40 2010	 added:0
-Learning:    5003 @ Tue Dec 21 17:40:40 2010	 added:0
-Learning:    5004 @ Tue Dec 21 17:40:40 2010	 added:0
-Learning:    5005 @ Tue Dec 21 17:40:40 2010	 added:0
-Learning:    5006 @ Tue Dec 21 17:40:40 2010	 added:0
-Learning:    5007 @ Tue Dec 21 17:40:40 2010	 added:0
-Learning:    5008 @ Tue Dec 21 17:40:40 2010	 added:0
-Learning:    5009 @ Tue Dec 21 17:40:40 2010	 added:0
-Learning:    5010 @ Tue Dec 21 17:40:40 2010	 added:0
-Learning:    5100 @ Tue Dec 21 17:40:40 2010	 added:0
-Learning:    6000 @ Tue Dec 21 17:40:40 2010	 added:13
-Learning:   15000 @ Tue Dec 21 17:40:43 2010	 added:185
-Finished:   44999 @ Tue Dec 21 17:40:52 2010
+Start:       5001 @ Tue Apr  2 12:33:34 2013
+Learning:    5000 @ Tue Apr  2 12:33:35 2013	 added:107
+Learning:    5001 @ Tue Apr  2 12:33:35 2013	 added:1
+Learning:    5002 @ Tue Apr  2 12:33:35 2013	 added:0
+Learning:    5003 @ Tue Apr  2 12:33:35 2013	 added:0
+Learning:    5004 @ Tue Apr  2 12:33:35 2013	 added:0
+Learning:    5005 @ Tue Apr  2 12:33:35 2013	 added:0
+Learning:    5006 @ Tue Apr  2 12:33:35 2013	 added:0
+Learning:    5007 @ Tue Apr  2 12:33:35 2013	 added:0
+Learning:    5008 @ Tue Apr  2 12:33:35 2013	 added:0
+Learning:    5009 @ Tue Apr  2 12:33:35 2013	 added:0
+Learning:    5010 @ Tue Apr  2 12:33:35 2013	 added:0
+Learning:    5100 @ Tue Apr  2 12:33:35 2013	 added:0
+Learning:    6000 @ Tue Apr  2 12:33:35 2013	 added:13
+Learning:   15000 @ Tue Apr  2 12:33:35 2013	 added:185
+Finished:   44999 @ Tue Apr  2 12:33:38 2013
 in total added 1123 new entries
 
 Size of InstanceBase = 35875 Nodes, (1435000 bytes), 34.36 % compression
@@ -98,21 +98,171 @@ Feature 6	 : 0.185198463671305
 Feature 7	 : 0.072315399807409
 Feature 8	 : 0.010872317130899
 
-Tested:      1 @ Tue Dec 21 17:40:53 2010
-Tested:      2 @ Tue Dec 21 17:40:53 2010
-Tested:      3 @ Tue Dec 21 17:40:53 2010
-Tested:      4 @ Tue Dec 21 17:40:53 2010
-Tested:      5 @ Tue Dec 21 17:40:53 2010
-Tested:      6 @ Tue Dec 21 17:40:53 2010
-Tested:      7 @ Tue Dec 21 17:40:53 2010
-Tested:      8 @ Tue Dec 21 17:40:53 2010
-Tested:      9 @ Tue Dec 21 17:40:53 2010
-Tested:     10 @ Tue Dec 21 17:40:53 2010
-Tested:    100 @ Tue Dec 21 17:40:53 2010
-Tested:   1000 @ Tue Dec 21 17:40:54 2010
-Tested:  10000 @ Tue Dec 21 17:41:02 2010
-Ready:   10000 @ Tue Dec 21 17:41:02 2010
-Seconds taken: 9.7505 (1025.59 p/s)
+Tested:      1 @ Tue Apr  2 12:33:38 2013
+Tested:      2 @ Tue Apr  2 12:33:38 2013
+Tested:      3 @ Tue Apr  2 12:33:38 2013
+Tested:      4 @ Tue Apr  2 12:33:38 2013
+Tested:      5 @ Tue Apr  2 12:33:38 2013
+Tested:      6 @ Tue Apr  2 12:33:38 2013
+Tested:      7 @ Tue Apr  2 12:33:38 2013
+Tested:      8 @ Tue Apr  2 12:33:38 2013
+Tested:      9 @ Tue Apr  2 12:33:38 2013
+Tested:     10 @ Tue Apr  2 12:33:38 2013
+Tested:    100 @ Tue Apr  2 12:33:38 2013
+Tested:   1000 @ Tue Apr  2 12:33:39 2013
+Tested:  10000 @ Tue Apr  2 12:33:41 2013
+Ready:   10000 @ Tue Apr  2 12:33:41 2013
+Seconds taken: 2.6773 (3735.08 p/s)
 
 overall accuracy:        0.933800  (9338/10000), of which 273 exact matches 
 There were 9 ties of which 8 (88.89%) were correctly resolved
+539c539
+< KOMMA,officer,financial,chief,KOMMA,NN,JJ,JJ,I,I { I 1.00000 }        0.0073288573166342
+---
+> KOMMA,officer,financial,chief,KOMMA,NN,JJ,JJ,I,I { I 1.00000 }        0.0073288573166341
+947c947
+< success,a,be,would,NN,DT,VB,MD,I,I { I 1.00000 }        0.030174880374301
+---
+> success,a,be,would,NN,DT,VB,MD,I,I { I 1.00000 }        0.030174880374300
+966c966
+< free,--,Skies,Friendly,JJ,:,NNPS,NNP,O,O { O 1.00000 }        0.10117986430217
+---
+> free,--,Skies,Friendly,JJ,:,NNPS,NNP,O,O { O 1.00000 }        0.10117986430216
+1250c1250
+< strong,by,bolstered,KOMMA,JJ,IN,VBN,KOMMA,O,O { O 1.00000 }        0.0099319088570230
+---
+> strong,by,bolstered,KOMMA,JJ,IN,VBN,KOMMA,O,O { O 1.00000 }        0.0099319088570229
+1319c1319
+< with,industry,the,lead,IN,NN,DT,VB,I,I { I 1.00000 }        0.0028676167000836
+---
+> with,industry,the,lead,IN,NN,DT,VB,I,I { I 1.00000 }        0.0028676167000835
+1390c1390
+< 's,Merck,KOMMA,Mevacor,POS,NNP,KOMMA,NNP,I,I { I 1.00000 }        0.044950075666008
+---
+> 's,Merck,KOMMA,Mevacor,POS,NNP,KOMMA,NNP,I,I { I 1.00000 }        0.044950075666007
+2264,2265c2264,2265
+< -RCB-,PUNT,UPUNTSPUNT,-LCB-,),PUNT,NNP,(,I,I { I 1.00000 }        0.016609666302271
+< results,-RCB-,PUNT,UPUNTSPUNT,NNS,),PUNT,NNP,I,O { O 1.00000 }        0.024058715601345
+---
+> -RCB-,PUNT,UPUNTSPUNT,-LCB-,),PUNT,NNP,(,I,I { I 1.00000 }        0.016609666302270
+> results,-RCB-,PUNT,UPUNTSPUNT,NNS,),PUNT,NNP,I,O { O 1.00000 }        0.024058715601344
+2507c2507
+< he,KOMMA,least,at,PRP,KOMMA,JJS,IN,O,O { O 1.00000 }        0.025654921116168
+---
+> he,KOMMA,least,at,PRP,KOMMA,JJS,IN,O,O { O 1.00000 }        0.025654921116167
+2833c2833
+< the,both,in,ingrained,DT,DT,IN,JJ,O,O { O 1.00000 }        0.062491698484280
+---
+> the,both,in,ingrained,DT,DT,IN,JJ,O,O { O 1.00000 }        0.062491698484279
+2872c2872
+< a,such,Is,PUNT,DT,JJ,VBZ,PUNT,I,O { O 1.00000 }        0.050546717176767
+---
+> a,such,Is,PUNT,DT,JJ,VBZ,PUNT,I,O { O 1.00000 }        0.050546717176766
+2876c2876
+< In,?,?,justified,IN,PUNT,PUNT,VBN,O,O { O 1.00000 }        0.036603015937349
+---
+> In,?,?,justified,IN,PUNT,PUNT,VBN,O,O { O 1.00000 }        0.036603015937348
+2903c2903
+< ice,last,the,ago,NN,JJ,DT,RB,I,I { I 1.00000 }        0.069453113797909
+---
+> ice,last,the,ago,NN,JJ,DT,RB,I,I { I 1.00000 }        0.069453113797908
+2934c2934
+< blame,would,nobody,--,VB,MD,NN,:,O,O { O 1.00000 }        0.0053001176477766
+---
+> blame,would,nobody,--,VB,MD,NN,:,O,O { O 1.00000 }        0.0053001176477765
+3052c3052
+< restructure,to,plans,Service,VB,TO,VBZ,NNP,O,O { O 1.00000 }        0.018044213468306
+---
+> restructure,to,plans,Service,VB,TO,VBZ,NNP,O,O { O 1.00000 }        0.018044213468305
+3135c3135
+< KOMMA,officer,financial,chief,KOMMA,NN,JJ,JJ,I,I { I 1.00000 }        0.0073288573166342
+---
+> KOMMA,officer,financial,chief,KOMMA,NN,JJ,JJ,I,I { I 1.00000 }        0.0073288573166341
+3726c3726
+< dealt,be,to,enemies,VBN,VB,TO,NNS,O,O { O 1.00000 }        0.081088492125779
+---
+> dealt,be,to,enemies,VBN,VB,TO,NNS,O,O { O 1.00000 }        0.081088492125778
+3843c3843
+< 's,Panama,of,crucible,POS,NNP,IN,NN,I,I { I 1.00000 }        0.033844871345537
+---
+> 's,Panama,of,crucible,POS,NNP,IN,NN,I,I { I 1.00000 }        0.033844871345536
+4058c4058
+< UPUNTSPUNT,The,:,necessity,NNP,DT,:,NN,I,I { I 1.00000 }        0.044110550788566
+---
+> UPUNTSPUNT,The,:,necessity,NNP,DT,:,NN,I,I { I 1.00000 }        0.044110550788565
+4212c4212
+< 's,Noriega,MrPUNT,KOMMA,POS,NNP,NNP,KOMMA,I,I { I 1.00000 }        0.0059223325652766
+---
+> 's,Noriega,MrPUNT,KOMMA,POS,NNP,NNP,KOMMA,I,I { I 1.00000 }        0.0059223325652765
+4359c4359
+< stomach,little,and,span,NN,JJ,CC,NN,I,I { I 1.00000 }        0.081088492125779
+---
+> stomach,little,and,span,NN,JJ,CC,NN,I,I { I 1.00000 }        0.081088492125778
+5319c5319
+< support,critical,the,Torrijos,NN,JJ,DT,NNP,I,I { I 1.00000 }        0.029549516766459
+---
+> support,critical,the,Torrijos,NN,JJ,DT,NNP,I,I { I 1.00000 }        0.029549516766458
+5938c5938
+< as,charges,gun-running,the,RB,NNS,JJ,DT,I,I { I 1.00000 }        0.084494302221857
+---
+> as,charges,gun-running,the,RB,NNS,JJ,DT,I,I { I 1.00000 }        0.084494302221856
+6197c6197
+< MrPUNT,from,prodding,After,NNP,IN,VBG,IN,O,O { O 1.00000 }        0.075979758257702
+---
+> MrPUNT,from,prodding,After,NNP,IN,VBG,IN,O,O { O 1.00000 }        0.075979758257701
+6212c6212
+< let,to,Washington,in,VB,TO,NNP,IN,O,O { O 1.00000 }        0.0084570804666134
+---
+> let,to,Washington,in,VB,TO,NNP,IN,O,O { O 1.00000 }        0.0084570804666133
+6717c6717
+< serious,KOMMA,quiet,``,JJ,KOMMA,JJ,``,I,I { I 1.00000 }        0.0072184430604744
+---
+> serious,KOMMA,quiet,``,JJ,KOMMA,JJ,``,I,I { I 1.00000 }        0.0072184430604743
+7044c7044
+< -RCB-,PUNT,UPUNTSPUNT,-LCB-,),PUNT,NNP,(,I,I { I 1.00000 }        0.016609666302271
+---
+> -RCB-,PUNT,UPUNTSPUNT,-LCB-,),PUNT,NNP,(,I,I { I 1.00000 }        0.016609666302270
+7327c7327
+< Americans,the,how,plaintively,NNPS,DT,WRB,RB,I,I { I 1.00000 }        0.047326833935289
+---
+> Americans,the,how,plaintively,NNPS,DT,WRB,RB,I,I { I 1.00000 }        0.047326833935288
+7527c7527
+< earnings,actual,when,company,NNS,JJ,WRB,NN,I,I { I 1.00000 }        0.0097464825654465
+---
+> earnings,actual,when,company,NNS,JJ,WRB,NN,I,I { I 1.00000 }        0.0097464825654464
+7586c7586
+< rate,annual,PROCENT,3PUNT3,NN,JJ,NN,CD,I,I { I 1.00000 }        0.029732071913045
+---
+> rate,annual,PROCENT,3PUNT3,NN,JJ,NN,CD,I,I { I 1.00000 }        0.029732071913044
+7700c7700
+< industry,UPUNTSPUNT,said,also,NN,NNP,VBD,RB,I,I { I 1.00000 }        0.0093205061508033
+---
+> industry,UPUNTSPUNT,said,also,NN,NNP,VBD,RB,I,I { I 1.00000 }        0.0093205061508032
+7837c7837
+< Some,PUNT,PUNT,PROCENT,DT,PUNT,PUNT,NN,O,O { O 1.00000 }        0.0015693147715058
+---
+> Some,PUNT,PUNT,PROCENT,DT,PUNT,PUNT,NN,O,O { O 1.00000 }        0.0015693147715057
+8270c8270
+< PROCENT,8PUNT9,--,steep,NN,CD,:,JJ,I,I { I 1.00000 }        0.038417649278913
+---
+> PROCENT,8PUNT9,--,steep,NN,CD,:,JJ,I,I { I 1.00000 }        0.038417649278912
+8542c8542
+< of,promotion,for,year,IN,NN,IN,NN,I,I { I 1.00000 }        0.0061322803588881
+---
+> of,promotion,for,year,IN,NN,IN,NN,I,I { I 1.00000 }        0.0061322803588880
+8909c8909
+< KOMMA,market,over-the-counter,Nasdaq,KOMMA,NN,JJ,NNP,I,I { I 2.00000 }        0.0084380182584232
+---
+> KOMMA,market,over-the-counter,Nasdaq,KOMMA,NN,JJ,NNP,I,I { I 2.00000 }        0.0084380182584231
+8964c8964
+< recent,the,during,cheap,JJ,DT,IN,NN,I,I { I 1.00000 }        0.0076096538061886
+---
+> recent,the,during,cheap,JJ,DT,IN,NN,I,I { I 1.00000 }        0.0076096538061885
+9374c9374
+< as,traded,KOMMA,1\/2,RB,VBD,KOMMA,CD,O,I { I 1.00000 }        0.039931627218231
+---
+> as,traded,KOMMA,1\/2,RB,VBD,KOMMA,CD,O,I { I 1.00000 }        0.039931627218230
+9690c9690
+< improved,earnings,third-quarter,that,VBN,NNS,JJ,IN,I,I { I 1.00000 }        0.021383493385047
+---
+> improved,earnings,third-quarter,that,VBN,NNS,JJ,IN,I,I { I 1.00000 }        0.021383493385046
