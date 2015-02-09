@@ -1,18 +1,19 @@
 #!/bin/sh
 
 $comm -f ./tests/example.train -t leave_one_out -I /tmp/dimtree +vdi+db -o out1
-cat < out1 
-$comm -f ./tests/example.train -t leave_one_out -i /tmp/dimtree +vdi+db 
-$comm -t leave_one_out -i /tmp/dimtree +vdi+db 
-$comm -f ./tests/example.train -t leave_one_out -x +vdi+db  -o out2  
-cat < out2 
-$comm -f ./tests/example.train -t leave_one_out +vdi+db +x -o out3 
-cat < out3 
+cat < out1
+$comm -f ./tests/example.train -t leave_one_out -i /tmp/dimtree +vdi+db
+$comm -t leave_one_out -i /tmp/dimtree +vdi+db
+$comm -f ./tests/example.train -t leave_one_out -x +vdi+db  -o out2
+cat < out2
+$comm -f ./tests/example.train -t leave_one_out +vdi+db +x -o out3
+cat < out3
 
 $comm -f ./tests/dimin.train -t leave_one_out +vdb+di -e 100 -o out4
 tail -50 < out4
-$comm -f ./tests/dimin.train -t leave_one_out -mM +vdb+di -e 100 +x -o out5 
+$comm -f ./tests/dimin.train -t leave_one_out -mM +vdb+di -e 100 +x -o out5
 tail -50 < out5
 $comm -f ./tests/dimin.train -t leave_one_out -mM +vdb+di --sloppy=true -e 100 +x -o out6
 tail -50 < out6
-
+$comm -f ./tests/oneline.train -t leave_one_out -o out7 -m O:I1 -d Z -w x2 -a 0 -k 11 +D -G -N 5000
+cat out7
