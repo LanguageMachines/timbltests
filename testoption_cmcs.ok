@@ -1,17 +1,17 @@
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jan 25 17:06:48 2011
+Mon Feb 16 11:32:30 2015
 
 Examine datafile './tests/big.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/big.train
-Start:          0 @ Tue Jan 25 17:06:48 2011
-Finished:   24474 @ Tue Jan 25 17:06:48 2011
-Calculating Entropy         Tue Jan 25 17:06:48 2011
+Start:          0 @ Mon Feb 16 11:32:30 2015
+Finished:   24474 @ Mon Feb 16 11:32:31 2015
+Calculating Entropy         Mon Feb 16 11:32:31 2015
 Lines of data     : 24474
 DB Entropy        : 1.1174908
 Number of Classes : 3
@@ -26,19 +26,19 @@ Feats	Vals	InfoGain	GainRatio
     7     42	0.33206154	0.077459835
     8     42	0.051069063	0.011935177
 
-Preparation took 0 seconds, 295 milliseconds and 466 microseconds
+Preparation took 0 seconds, 324 milliseconds and 224 microseconds
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 2, 3, 1, 4 >
 Phase 2: Building multi index on Datafile: ./tests/big.train
-Start:          0 @ Tue Jan 25 17:06:48 2011
-Finished:   24474 @ Tue Jan 25 17:06:49 2011
+Start:          0 @ Mon Feb 16 11:32:31 2015
+Finished:   24474 @ Mon Feb 16 11:32:31 2015
 
 Phase 3: Learning from Datafile: ./tests/big.train
-Start:          0 @ Tue Jan 25 17:06:49 2011
-Finished:   24474 @ Tue Jan 25 17:06:49 2011
+Start:          0 @ Mon Feb 16 11:32:31 2015
+Finished:   24474 @ Mon Feb 16 11:32:31 2015
 
 Size of InstanceBase = 123834 Nodes, (4953360 bytes), 41.94 % compression
-Learning took 0 seconds, 769 milliseconds and 199 microseconds
+Learning took 0 seconds, 548 milliseconds and 276 microseconds
 Examine datafile './tests/big.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -69,27 +69,27 @@ Feature 6	 : 0.195263485848034
 Feature 7	 : 0.077459834970599
 Feature 8	 : 0.011935176670302
 
-Tested:      1 @ Tue Jan 25 17:06:49 2011
-Tested:      2 @ Tue Jan 25 17:06:49 2011
-Tested:      3 @ Tue Jan 25 17:06:49 2011
-Tested:      4 @ Tue Jan 25 17:06:49 2011
-Tested:      5 @ Tue Jan 25 17:06:49 2011
-Tested:      6 @ Tue Jan 25 17:06:49 2011
-Tested:      7 @ Tue Jan 25 17:06:49 2011
-Tested:      8 @ Tue Jan 25 17:06:49 2011
-Tested:      9 @ Tue Jan 25 17:06:49 2011
-Tested:     10 @ Tue Jan 25 17:06:49 2011
-Ready:      50 @ Tue Jan 25 17:06:49 2011
-Seconds taken: 0.1612 (310.20 p/s)
+Tested:      1 @ Mon Feb 16 11:32:31 2015
+Tested:      2 @ Mon Feb 16 11:32:31 2015
+Tested:      3 @ Mon Feb 16 11:32:31 2015
+Tested:      4 @ Mon Feb 16 11:32:31 2015
+Tested:      5 @ Mon Feb 16 11:32:31 2015
+Tested:      6 @ Mon Feb 16 11:32:31 2015
+Tested:      7 @ Mon Feb 16 11:32:31 2015
+Tested:      8 @ Mon Feb 16 11:32:31 2015
+Tested:      9 @ Mon Feb 16 11:32:31 2015
+Tested:     10 @ Mon Feb 16 11:32:31 2015
+Ready:      50 @ Mon Feb 16 11:32:31 2015
+Seconds taken: 0.0606 (825.46 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
      I |    	27   	5   	15   	3 	0.84375 	0.90000 	0.25000 	0.87097 	0.82500
      O |    	14   	3   	29   	4 	0.82353 	0.77778 	0.09375 	0.80000 	0.84201
      B |    	1   	0   	48   	1 	1.00000 	0.50000 	0.00000 	0.66667 	0.75000
-F-Score beta=1, microav: 0.835684
+F-Score beta=1, microav: 0.837247
 F-Score beta=1, macroav: 0.779211
-AUC, microav:            0.830865
+AUC, microav:            0.828125
 AUC, macroav:            0.805671
 overall accuracy:        0.840000  (42/50), of which 1 exact matches 
 
@@ -121,20 +121,20 @@ include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 5.00000 }        0.005170012495
 KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I { I 2.00000 }        0.031611976872135
 among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { O 1.00000 }        0.025661551443415
 other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { O 1.00000 }        0.018611892516076
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jan 25 17:06:49 2011
+Mon Feb 16 11:32:31 2015
 
 Examine datafile './tests/big.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/big.train
-Start:          0 @ Tue Jan 25 17:06:50 2011
-Finished:   24474 @ Tue Jan 25 17:06:50 2011
-Calculating Entropy         Tue Jan 25 17:06:50 2011
+Start:          0 @ Mon Feb 16 11:32:31 2015
+Finished:   24474 @ Mon Feb 16 11:32:32 2015
+Calculating Entropy         Mon Feb 16 11:32:32 2015
 Lines of data     : 24474
 DB Entropy        : 1.1174908
 Number of Classes : 3
@@ -149,19 +149,19 @@ Feats	Vals	InfoGain	GainRatio
     7     42	0.33206154	0.077459835
     8     42	0.051069063	0.011935177
 
-Preparation took 0 seconds, 303 milliseconds and 153 microseconds
+Preparation took 0 seconds, 222 milliseconds and 443 microseconds
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 2, 3, 1, 4 >
 Phase 2: Building multi index on Datafile: ./tests/big.train
-Start:          0 @ Tue Jan 25 17:06:50 2011
-Finished:   24474 @ Tue Jan 25 17:06:50 2011
+Start:          0 @ Mon Feb 16 11:32:32 2015
+Finished:   24474 @ Mon Feb 16 11:32:32 2015
 
 Phase 3: Learning from Datafile: ./tests/big.train
-Start:          0 @ Tue Jan 25 17:06:50 2011
-Finished:   24474 @ Tue Jan 25 17:06:51 2011
+Start:          0 @ Mon Feb 16 11:32:32 2015
+Finished:   24474 @ Mon Feb 16 11:32:32 2015
 
 Size of InstanceBase = 123834 Nodes, (4953360 bytes), 41.94 % compression
-Learning took 0 seconds, 764 milliseconds and 478 microseconds
+Learning took 0 seconds, 457 milliseconds and 877 microseconds
 Examine datafile './tests/big.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -192,22 +192,22 @@ Feature 6	 : 0.195263485848034
 Feature 7	 : 0.077459834970599
 Feature 8	 : 0.011935176670302
 
-Tested:      1 @ Tue Jan 25 17:06:51 2011
-Tested:      2 @ Tue Jan 25 17:06:51 2011
-Tested:      3 @ Tue Jan 25 17:06:51 2011
-Tested:      4 @ Tue Jan 25 17:06:51 2011
-Tested:      5 @ Tue Jan 25 17:06:51 2011
-Tested:      6 @ Tue Jan 25 17:06:51 2011
-Tested:      7 @ Tue Jan 25 17:06:51 2011
-Tested:      8 @ Tue Jan 25 17:06:51 2011
-Tested:      9 @ Tue Jan 25 17:06:51 2011
-Tested:     10 @ Tue Jan 25 17:06:51 2011
-Ready:      50 @ Tue Jan 25 17:06:52 2011
-Seconds taken: 1.0802 (46.29 p/s)
+Tested:      1 @ Mon Feb 16 11:32:32 2015
+Tested:      2 @ Mon Feb 16 11:32:32 2015
+Tested:      3 @ Mon Feb 16 11:32:32 2015
+Tested:      4 @ Mon Feb 16 11:32:32 2015
+Tested:      5 @ Mon Feb 16 11:32:32 2015
+Tested:      6 @ Mon Feb 16 11:32:32 2015
+Tested:      7 @ Mon Feb 16 11:32:32 2015
+Tested:      8 @ Mon Feb 16 11:32:32 2015
+Tested:      9 @ Mon Feb 16 11:32:32 2015
+Tested:     10 @ Mon Feb 16 11:32:32 2015
+Ready:      50 @ Mon Feb 16 11:32:33 2015
+Seconds taken: 0.4288 (116.60 p/s)
 
-F-Score beta=1, microav: 0.835684
+F-Score beta=1, microav: 0.837247
 F-Score beta=1, macroav: 0.779211
-AUC, microav:            0.830865
+AUC, microav:            0.828125
 AUC, macroav:            0.805671
 overall accuracy:        0.840000  (42/50), of which 1 exact matches 
 
@@ -239,20 +239,20 @@ include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 5.00000 }
 KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I { I 2.00000 }
 among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { O 1.00000 }
 other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { O 1.00000 }
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jan 25 17:06:52 2011
+Mon Feb 16 11:32:33 2015
 
 Examine datafile './tests/big.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/big.train
-Start:          0 @ Tue Jan 25 17:06:52 2011
-Finished:   24474 @ Tue Jan 25 17:06:52 2011
-Calculating Entropy         Tue Jan 25 17:06:52 2011
+Start:          0 @ Mon Feb 16 11:32:33 2015
+Finished:   24474 @ Mon Feb 16 11:32:33 2015
+Calculating Entropy         Mon Feb 16 11:32:33 2015
 Lines of data     : 24474
 DB Entropy        : 1.1174908
 Number of Classes : 3
@@ -267,19 +267,19 @@ Feats	Vals	InfoGain	GainRatio
     7     42	0.33206154	0.077459835
     8     42	0.051069063	0.011935177
 
-Preparation took 0 seconds, 302 milliseconds and 648 microseconds
+Preparation took 0 seconds, 219 milliseconds and 387 microseconds
 Feature Permutation based on GainRatio :
 < 6, 2, 7, 3, 1, 5, 4, 8 >
 Phase 2: Building multi index on Datafile: ./tests/big.train
-Start:          0 @ Tue Jan 25 17:06:52 2011
-Finished:   24474 @ Tue Jan 25 17:06:53 2011
+Start:          0 @ Mon Feb 16 11:32:33 2015
+Finished:   24474 @ Mon Feb 16 11:32:33 2015
 
 Phase 3: Learning from Datafile: ./tests/big.train
-Start:          0 @ Tue Jan 25 17:06:53 2011
-Finished:   24474 @ Tue Jan 25 17:06:53 2011
+Start:          0 @ Mon Feb 16 11:32:33 2015
+Finished:   24474 @ Mon Feb 16 11:32:33 2015
 
 Size of InstanceBase = 1456 Nodes, (58240 bytes), 99.32 % compression
-Learning took 0 seconds, 878 milliseconds and 951 microseconds
+Learning took 0 seconds, 507 milliseconds and 510 microseconds
 Examine datafile './tests/big.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -298,27 +298,27 @@ Feature 6	 : 0.195263485848034
 Feature 7	 : 0.077459834970599
 Feature 8	 : 0.011935176670302
 
-Tested:      1 @ Tue Jan 25 17:06:53 2011
-Tested:      2 @ Tue Jan 25 17:06:53 2011
-Tested:      3 @ Tue Jan 25 17:06:53 2011
-Tested:      4 @ Tue Jan 25 17:06:53 2011
-Tested:      5 @ Tue Jan 25 17:06:53 2011
-Tested:      6 @ Tue Jan 25 17:06:53 2011
-Tested:      7 @ Tue Jan 25 17:06:53 2011
-Tested:      8 @ Tue Jan 25 17:06:53 2011
-Tested:      9 @ Tue Jan 25 17:06:53 2011
-Tested:     10 @ Tue Jan 25 17:06:53 2011
-Ready:      50 @ Tue Jan 25 17:06:53 2011
-Seconds taken: 0.0018 (28089.89 p/s)
+Tested:      1 @ Mon Feb 16 11:32:33 2015
+Tested:      2 @ Mon Feb 16 11:32:33 2015
+Tested:      3 @ Mon Feb 16 11:32:33 2015
+Tested:      4 @ Mon Feb 16 11:32:33 2015
+Tested:      5 @ Mon Feb 16 11:32:33 2015
+Tested:      6 @ Mon Feb 16 11:32:33 2015
+Tested:      7 @ Mon Feb 16 11:32:33 2015
+Tested:      8 @ Mon Feb 16 11:32:33 2015
+Tested:      9 @ Mon Feb 16 11:32:33 2015
+Tested:     10 @ Mon Feb 16 11:32:33 2015
+Ready:      50 @ Mon Feb 16 11:32:33 2015
+Seconds taken: 0.0013 (39682.54 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
      I |    	29   	0   	20   	1 	1.00000 	0.96667 	0.00000 	0.98305 	0.98333
      O |    	18   	1   	31   	0 	0.94737 	1.00000 	0.03125 	0.97297 	0.98438
      B |    	2   	0   	48   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
-F-Score beta=1, microav: 0.979002
+F-Score beta=1, microav: 0.980101
 F-Score beta=1, macroav: 0.985341
-AUC, microav:            0.984137
+AUC, microav:            0.984375
 AUC, macroav:            0.989236
 overall accuracy:        0.980000  (49/50)
 

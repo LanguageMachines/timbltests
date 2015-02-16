@@ -1,17 +1,17 @@
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan 24 14:05:56 2011
+Mon Feb 16 11:33:26 2015
 
 Examine datafile 'tests/hapax.smalltrain' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Jan 24 14:05:56 2011
-Finished:   28405 @ Mon Jan 24 14:05:57 2011
-Calculating Entropy         Mon Jan 24 14:05:57 2011
+Start:          0 @ Mon Feb 16 11:33:26 2015
+Finished:   28405 @ Mon Feb 16 11:33:27 2015
+Calculating Entropy         Mon Feb 16 11:33:27 2015
 Lines of data     : 28405
 DB Entropy        : 9.6917779
 Number of Classes : 4947
@@ -32,19 +32,19 @@ Feats	Vals	InfoGain	GainRatio
    13   4949	5.4111923	0.55835478
    14   4949	5.3881113	0.55597648
 
-Preparation took 0 seconds, 798 milliseconds and 218 microseconds
+Preparation took 0 seconds, 698 milliseconds and 819 microseconds
 Feature Permutation based on GainRatio/Values :
 < 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
 Phase 2: Building multi index on Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Jan 24 14:05:57 2011
-Finished:   28405 @ Mon Jan 24 14:05:58 2011
+Start:          0 @ Mon Feb 16 11:33:27 2015
+Finished:   28405 @ Mon Feb 16 11:33:27 2015
 
 Phase 3: Learning from Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Jan 24 14:05:58 2011
-Finished:   28405 @ Mon Jan 24 14:05:59 2011
+Start:          0 @ Mon Feb 16 11:33:27 2015
+Finished:   28405 @ Mon Feb 16 11:33:28 2015
 
 Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
-Learning took 1 seconds, 303 milliseconds and 310 microseconds
+Learning took 0 seconds, 799 milliseconds and 745 microseconds
 Examine datafile 'tests/hapax.smalltest' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -57,7 +57,7 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 Feature 1	 : 0.556045835795306
-Feature 2	 : 0.558467880783746
+Feature 2	 : 0.558467880783747
 Feature 3	 : 0.560307560110388
 Feature 4	 : 0.567901848648317
 Feature 5	 : 0.575818740110730
@@ -71,18 +71,18 @@ Feature 12	 : 0.560245296566752
 Feature 13	 : 0.558354776963652
 Feature 14	 : 0.555976477380017
 
-Tested:      1 @ Mon Jan 24 14:05:59 2011
-Tested:      2 @ Mon Jan 24 14:05:59 2011
-Tested:      3 @ Mon Jan 24 14:05:59 2011
-Tested:      4 @ Mon Jan 24 14:05:59 2011
-Tested:      5 @ Mon Jan 24 14:05:59 2011
-Tested:      6 @ Mon Jan 24 14:05:59 2011
-Tested:      7 @ Mon Jan 24 14:05:59 2011
-Tested:      8 @ Mon Jan 24 14:05:59 2011
-Tested:      9 @ Mon Jan 24 14:05:59 2011
-Tested:     10 @ Mon Jan 24 14:05:59 2011
-Ready:      86 @ Mon Jan 24 14:06:00 2011
-Seconds taken: 1.6588 (51.84 p/s)
+Tested:      1 @ Mon Feb 16 11:33:28 2015
+Tested:      2 @ Mon Feb 16 11:33:28 2015
+Tested:      3 @ Mon Feb 16 11:33:28 2015
+Tested:      4 @ Mon Feb 16 11:33:28 2015
+Tested:      5 @ Mon Feb 16 11:33:28 2015
+Tested:      6 @ Mon Feb 16 11:33:28 2015
+Tested:      7 @ Mon Feb 16 11:33:28 2015
+Tested:      8 @ Mon Feb 16 11:33:28 2015
+Tested:      9 @ Mon Feb 16 11:33:28 2015
+Tested:     10 @ Mon Feb 16 11:33:28 2015
+Ready:      86 @ Mon Feb 16 11:33:29 2015
+Seconds taken: 0.9131 (94.18 p/s)
 
 overall accuracy:        0.081395  (7/86)
 There were 14 ties of which 0 (0.00%) were correctly resolved
@@ -172,20 +172,20 @@ or conversation ? ' So she was in her own mind ( as well considering Nasdaq 14:L
 conversation ? ' So she was considering her own mind ( as well as in and 14:L
 ? ' So she was considering in own mind ( as well as she her T 14:L
 ' So she was considering in her mind ( as well as she could own and 14:L
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan 24 14:06:01 2011
+Mon Feb 16 11:33:29 2015
 
 Examine datafile 'tests/hapax.smalltrain' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Jan 24 14:06:01 2011
-Finished:   28405 @ Mon Jan 24 14:06:01 2011
-Calculating Entropy         Mon Jan 24 14:06:01 2011
+Start:          0 @ Mon Feb 16 11:33:29 2015
+Finished:   28405 @ Mon Feb 16 11:33:29 2015
+Calculating Entropy         Mon Feb 16 11:33:29 2015
 Lines of data     : 28405
 DB Entropy        : 9.6917779
 Number of Classes : 4947
@@ -206,19 +206,19 @@ Feats	Vals	InfoGain	GainRatio
    13   4949	5.4111923	0.55835478
    14   4949	5.3881113	0.55597648
 
-Preparation took 0 seconds, 796 milliseconds and 716 microseconds
+Preparation took 0 seconds, 535 milliseconds and 998 microseconds
 Feature Permutation based on GainRatio :
 < 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
 Phase 2: Building multi index on Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Jan 24 14:06:02 2011
-Finished:   28405 @ Mon Jan 24 14:06:02 2011
+Start:          0 @ Mon Feb 16 11:33:29 2015
+Finished:   28405 @ Mon Feb 16 11:33:30 2015
 
 Phase 3: Learning from Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Jan 24 14:06:02 2011
-Finished:   28405 @ Mon Jan 24 14:06:03 2011
+Start:          0 @ Mon Feb 16 11:33:30 2015
+Finished:   28405 @ Mon Feb 16 11:33:30 2015
 
 Size of InstanceBase = 20619 Nodes, (824760 bytes), 94.68 % compression
-Learning took 1 seconds, 443 milliseconds and 171 microseconds
+Learning took 0 seconds, 875 milliseconds and 338 microseconds
 Examine datafile 'tests/hapax.smalltest' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -229,7 +229,7 @@ Writing output in:          o2
 Algorithm     : IGTree
 Weighting     : GainRatio
 Feature 1	 : 0.556045835795306
-Feature 2	 : 0.558467880783746
+Feature 2	 : 0.558467880783747
 Feature 3	 : 0.560307560110388
 Feature 4	 : 0.567901848648317
 Feature 5	 : 0.575818740110730
@@ -243,18 +243,18 @@ Feature 12	 : 0.560245296566752
 Feature 13	 : 0.558354776963652
 Feature 14	 : 0.555976477380017
 
-Tested:      1 @ Mon Jan 24 14:06:03 2011
-Tested:      2 @ Mon Jan 24 14:06:03 2011
-Tested:      3 @ Mon Jan 24 14:06:03 2011
-Tested:      4 @ Mon Jan 24 14:06:03 2011
-Tested:      5 @ Mon Jan 24 14:06:03 2011
-Tested:      6 @ Mon Jan 24 14:06:03 2011
-Tested:      7 @ Mon Jan 24 14:06:03 2011
-Tested:      8 @ Mon Jan 24 14:06:03 2011
-Tested:      9 @ Mon Jan 24 14:06:03 2011
-Tested:     10 @ Mon Jan 24 14:06:03 2011
-Ready:      86 @ Mon Jan 24 14:06:03 2011
-Seconds taken: 0.0062 (13924.87 p/s)
+Tested:      1 @ Mon Feb 16 11:33:30 2015
+Tested:      2 @ Mon Feb 16 11:33:30 2015
+Tested:      3 @ Mon Feb 16 11:33:30 2015
+Tested:      4 @ Mon Feb 16 11:33:30 2015
+Tested:      5 @ Mon Feb 16 11:33:30 2015
+Tested:      6 @ Mon Feb 16 11:33:30 2015
+Tested:      7 @ Mon Feb 16 11:33:30 2015
+Tested:      8 @ Mon Feb 16 11:33:30 2015
+Tested:      9 @ Mon Feb 16 11:33:30 2015
+Tested:     10 @ Mon Feb 16 11:33:30 2015
+Ready:      86 @ Mon Feb 16 11:33:30 2015
+Seconds taken: 0.0039 (21916.41 p/s)
 
 overall accuracy:        0.116279  (10/86)
 _ _ _ _ _ _ _ _ _ _ _ _ _ CHAPTER _ _ 1:N
@@ -343,20 +343,20 @@ or conversation ? ' So she was in her own mind ( as well considering found 2:N
 conversation ? ' So she was considering her own mind ( as well as in . 0:N
 ? ' So she was considering in own mind ( as well as she her the 1:N
 ' So she was considering in her mind ( as well as she could own state's 1:L
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan 24 14:06:03 2011
+Mon Feb 16 11:33:30 2015
 
 Examine datafile 'tests/hapax.smalltrain' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Jan 24 14:06:03 2011
-Finished:   28405 @ Mon Jan 24 14:06:04 2011
-Calculating Entropy         Mon Jan 24 14:06:04 2011
+Start:          0 @ Mon Feb 16 11:33:30 2015
+Finished:   28405 @ Mon Feb 16 11:33:31 2015
+Calculating Entropy         Mon Feb 16 11:33:31 2015
 Lines of data     : 28405
 DB Entropy        : 9.6917779
 Number of Classes : 4947
@@ -377,19 +377,19 @@ Feats	Vals	InfoGain	GainRatio
    13   4949	5.4111923	0.55835478
    14   4949	5.3881113	0.55597648
 
-Preparation took 0 seconds, 792 milliseconds and 200 microseconds
+Preparation took 0 seconds, 536 milliseconds and 222 microseconds
 Feature Permutation based on GainRatio :
 < 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
 Phase 2: Building multi index on Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Jan 24 14:06:04 2011
-Finished:   28405 @ Mon Jan 24 14:06:05 2011
+Start:          0 @ Mon Feb 16 11:33:31 2015
+Finished:   28405 @ Mon Feb 16 11:33:31 2015
 
 Phase 3: Learning from Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Jan 24 14:06:05 2011
-Finished:   28405 @ Mon Jan 24 14:06:06 2011
+Start:          0 @ Mon Feb 16 11:33:31 2015
+Finished:   28405 @ Mon Feb 16 11:33:32 2015
 
 Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
-Learning took 1 seconds, 302 milliseconds and 52 microseconds
+Learning took 0 seconds, 799 milliseconds and 369 microseconds
 Examine datafile 'tests/hapax.smalltest' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -402,7 +402,7 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 Feature 1	 : 0.556045835795306
-Feature 2	 : 0.558467880783746
+Feature 2	 : 0.558467880783747
 Feature 3	 : 0.560307560110388
 Feature 4	 : 0.567901848648317
 Feature 5	 : 0.575818740110730
@@ -416,18 +416,18 @@ Feature 12	 : 0.560245296566752
 Feature 13	 : 0.558354776963652
 Feature 14	 : 0.555976477380017
 
-Tested:      1 @ Mon Jan 24 14:06:06 2011
-Tested:      2 @ Mon Jan 24 14:06:06 2011
-Tested:      3 @ Mon Jan 24 14:06:06 2011
-Tested:      4 @ Mon Jan 24 14:06:06 2011
-Tested:      5 @ Mon Jan 24 14:06:06 2011
-Tested:      6 @ Mon Jan 24 14:06:06 2011
-Tested:      7 @ Mon Jan 24 14:06:06 2011
-Tested:      8 @ Mon Jan 24 14:06:06 2011
-Tested:      9 @ Mon Jan 24 14:06:06 2011
-Tested:     10 @ Mon Jan 24 14:06:06 2011
-Ready:      86 @ Mon Jan 24 14:06:06 2011
-Seconds taken: 0.0532 (1616.33 p/s)
+Tested:      1 @ Mon Feb 16 11:33:32 2015
+Tested:      2 @ Mon Feb 16 11:33:32 2015
+Tested:      3 @ Mon Feb 16 11:33:32 2015
+Tested:      4 @ Mon Feb 16 11:33:32 2015
+Tested:      5 @ Mon Feb 16 11:33:32 2015
+Tested:      6 @ Mon Feb 16 11:33:32 2015
+Tested:      7 @ Mon Feb 16 11:33:32 2015
+Tested:      8 @ Mon Feb 16 11:33:32 2015
+Tested:      9 @ Mon Feb 16 11:33:32 2015
+Tested:     10 @ Mon Feb 16 11:33:32 2015
+Ready:      86 @ Mon Feb 16 11:33:32 2015
+Seconds taken: 0.0362 (2374.90 p/s)
 
 overall accuracy:        0.116279  (10/86)
 _ _ _ _ _ _ _ _ _ _ _ _ _ CHAPTER _ _ 14:L
@@ -516,20 +516,20 @@ or conversation ? ' So she was in her own mind ( as well considering found 2:N
 conversation ? ' So she was considering her own mind ( as well as in . 0:N
 ? ' So she was considering in own mind ( as well as she her the 1:N
 ' So she was considering in her mind ( as well as she could own state's 1:N
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan 24 14:06:06 2011
+Mon Feb 16 11:33:32 2015
 
 Examine datafile 'tests/hapax.smalltrain' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Jan 24 14:06:06 2011
-Finished:   28405 @ Mon Jan 24 14:06:07 2011
-Calculating Entropy         Mon Jan 24 14:06:07 2011
+Start:          0 @ Mon Feb 16 11:33:32 2015
+Finished:   28405 @ Mon Feb 16 11:33:32 2015
+Calculating Entropy         Mon Feb 16 11:33:32 2015
 Lines of data     : 28405
 DB Entropy        : 9.6917779
 Number of Classes : 4947
@@ -550,19 +550,19 @@ Feats	Vals	InfoGain	GainRatio
    13   4949	5.4111923	0.55835478
    14   4949	5.3881113	0.55597648
 
-Preparation took 0 seconds, 793 milliseconds and 355 microseconds
+Preparation took 0 seconds, 533 milliseconds and 757 microseconds
 Feature Permutation based on GainRatio :
 < 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
 Phase 2: Building multi index on Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Jan 24 14:06:07 2011
-Finished:   28405 @ Mon Jan 24 14:06:07 2011
+Start:          0 @ Mon Feb 16 11:33:32 2015
+Finished:   28405 @ Mon Feb 16 11:33:33 2015
 
 Phase 3: Learning from Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Jan 24 14:06:07 2011
-Finished:   28405 @ Mon Jan 24 14:06:08 2011
+Start:          0 @ Mon Feb 16 11:33:33 2015
+Finished:   28405 @ Mon Feb 16 11:33:33 2015
 
 Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
-Learning took 1 seconds, 289 milliseconds and 407 microseconds
+Learning took 0 seconds, 799 milliseconds and 693 microseconds
 Examine datafile 'tests/hapax.smalltest' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -575,7 +575,7 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 Feature 1	 : 0.556045835795306
-Feature 2	 : 0.558467880783746
+Feature 2	 : 0.558467880783747
 Feature 3	 : 0.560307560110388
 Feature 4	 : 0.567901848648317
 Feature 5	 : 0.575818740110730
@@ -589,18 +589,18 @@ Feature 12	 : 0.560245296566752
 Feature 13	 : 0.558354776963652
 Feature 14	 : 0.555976477380017
 
-Tested:      1 @ Mon Jan 24 14:06:08 2011
-Tested:      2 @ Mon Jan 24 14:06:08 2011
-Tested:      3 @ Mon Jan 24 14:06:08 2011
-Tested:      4 @ Mon Jan 24 14:06:08 2011
-Tested:      5 @ Mon Jan 24 14:06:08 2011
-Tested:      6 @ Mon Jan 24 14:06:08 2011
-Tested:      7 @ Mon Jan 24 14:06:08 2011
-Tested:      8 @ Mon Jan 24 14:06:08 2011
-Tested:      9 @ Mon Jan 24 14:06:08 2011
-Tested:     10 @ Mon Jan 24 14:06:08 2011
-Ready:      86 @ Mon Jan 24 14:06:09 2011
-Seconds taken: 0.4948 (173.81 p/s)
+Tested:      1 @ Mon Feb 16 11:33:33 2015
+Tested:      2 @ Mon Feb 16 11:33:33 2015
+Tested:      3 @ Mon Feb 16 11:33:33 2015
+Tested:      4 @ Mon Feb 16 11:33:33 2015
+Tested:      5 @ Mon Feb 16 11:33:33 2015
+Tested:      6 @ Mon Feb 16 11:33:33 2015
+Tested:      7 @ Mon Feb 16 11:33:33 2015
+Tested:      8 @ Mon Feb 16 11:33:33 2015
+Tested:      9 @ Mon Feb 16 11:33:33 2015
+Tested:     10 @ Mon Feb 16 11:33:33 2015
+Ready:      86 @ Mon Feb 16 11:33:34 2015
+Seconds taken: 0.2828 (304.11 p/s)
 
 overall accuracy:        0.127907  (11/86)
 There were 24 ties of which 2 (8.33%) were correctly resolved

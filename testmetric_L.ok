@@ -1,17 +1,17 @@
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 27 10:59:12 2011
+Mon Feb 16 11:33:35 2015
 
 Examine datafile './tests/hapax.train' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/hapax.train
-Start:          0 @ Thu Jan 27 10:59:12 2011
-Finished:    4000 @ Thu Jan 27 10:59:12 2011
-Calculating Entropy         Thu Jan 27 10:59:12 2011
+Start:          0 @ Mon Feb 16 11:33:35 2015
+Finished:    4000 @ Mon Feb 16 11:33:35 2015
+Calculating Entropy         Mon Feb 16 11:33:35 2015
 Lines of data     : 4000
 DB Entropy        : 8.6951931
 Number of Classes : 1222
@@ -32,19 +32,19 @@ Feats	Vals	InfoGain	GainRatio
    13   1225	5.9499452	0.68433572
    14   1224	5.9100747	0.67989149
 
-Preparation took 0 seconds, 85 milliseconds and 227 microseconds
+Preparation took 0 seconds, 103 milliseconds and 785 microseconds
 Feature Permutation based on GainRatio/Values :
 < 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
 Phase 2: Building multi index on Datafile: ./tests/hapax.train
-Start:          0 @ Thu Jan 27 10:59:12 2011
-Finished:    4000 @ Thu Jan 27 10:59:12 2011
+Start:          0 @ Mon Feb 16 11:33:35 2015
+Finished:    4000 @ Mon Feb 16 11:33:35 2015
 
 Phase 3: Learning from Datafile: ./tests/hapax.train
-Start:          0 @ Thu Jan 27 10:59:12 2011
-Finished:    4000 @ Thu Jan 27 10:59:12 2011
+Start:          0 @ Mon Feb 16 11:33:35 2015
+Finished:    4000 @ Mon Feb 16 11:33:35 2015
 
 Size of InstanceBase = 47953 Nodes, (1918120 bytes), 6.36 % compression
-Learning took 0 seconds, 141 milliseconds and 39 microseconds
+Learning took 0 seconds, 157 milliseconds and 996 microseconds
 Examine datafile './tests/hapax.test.small' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -73,33 +73,33 @@ Total Size of value-matrices 7056 Bytes
 
 Weighting     : GainRatio
 Feature 1	 : 0.680390137410835
-Feature 2	 : 0.684882492824440
+Feature 2	 : 0.684882492824441
 Feature 3	 : 0.688003618597120
 Feature 4	 : 0.691793888834576
 Feature 5	 : 0.694720033488966
 Feature 6	 : 0.701254034219590
 Feature 7	 : 0.728672488559079
-Feature 8	 : 0.728589225693429
+Feature 8	 : 0.728589225693430
 Feature 9	 : 0.700980972627888
 Feature 10	 : 0.694486560028006
-Feature 11	 : 0.691455227339083
+Feature 11	 : 0.691455227339084
 Feature 12	 : 0.687621834992482
 Feature 13	 : 0.684335723012490
 Feature 14	 : 0.679891487432342
 
-Tested:      1 @ Thu Jan 27 10:59:12 2011
-Tested:      2 @ Thu Jan 27 10:59:12 2011
-Tested:      3 @ Thu Jan 27 10:59:12 2011
-Tested:      4 @ Thu Jan 27 10:59:12 2011
-Tested:      5 @ Thu Jan 27 10:59:12 2011
-Tested:      6 @ Thu Jan 27 10:59:12 2011
-Tested:      7 @ Thu Jan 27 10:59:12 2011
-Tested:      8 @ Thu Jan 27 10:59:12 2011
-Tested:      9 @ Thu Jan 27 10:59:12 2011
-Tested:     10 @ Thu Jan 27 10:59:13 2011
-Tested:    100 @ Thu Jan 27 10:59:15 2011, 10: Thu Jan 27 10:59:12 2011
-Ready:     200 @ Thu Jan 27 10:59:17 2011
-Seconds taken: 4.5440 (44.01 p/s)
+Tested:      1 @ Mon Feb 16 11:33:35 2015
+Tested:      2 @ Mon Feb 16 11:33:35 2015
+Tested:      3 @ Mon Feb 16 11:33:35 2015
+Tested:      4 @ Mon Feb 16 11:33:35 2015
+Tested:      5 @ Mon Feb 16 11:33:35 2015
+Tested:      6 @ Mon Feb 16 11:33:35 2015
+Tested:      7 @ Mon Feb 16 11:33:35 2015
+Tested:      8 @ Mon Feb 16 11:33:35 2015
+Tested:      9 @ Mon Feb 16 11:33:35 2015
+Tested:     10 @ Mon Feb 16 11:33:35 2015
+Tested:    100 @ Mon Feb 16 11:33:37 2015, 10: Mon Feb 16 11:33:35 2015
+Ready:     200 @ Mon Feb 16 11:33:38 2015
+Seconds taken: 3.4463 (58.03 p/s)
 
 overall accuracy:        0.045000  (9/200)
 _ _ _ _ _ _ _ _ _ _ _ _ _ CHAPTER _ _ { _ 1.00000 }        4.7592404120264
@@ -185,7 +185,7 @@ Alice ` without pictures or conversation ? So she was considering in her own ' p
 without pictures or conversation ? ' So was considering in her own mind ( she a { a 1.00000 }        39.508974503313
 pictures or conversation ? ' So she considering in her own mind ( as was stock { stock 1.00000 }        37.638233063154
 or conversation ? ' So she was in her own mind ( as well considering _ { _ 1.00000 }        31.183431495783
-conversation ? ' So she was considering her own mind ( as well as in Limited { Limited 1.00000 }        35.683953832173
+conversation ? ' So she was considering her own mind ( as well as in Limited { Limited 1.00000 }        35.683953832174
 ? ' So she was considering in own mind ( as well as she her its { its 2.00000 }        30.628873021329
 ' So she was considering in her mind ( as well as she could own was { was 1.00000 }        30.083783267815
 So she was considering in her own ( as well as she could , mind market { market 1.00000 }        29.860340611369
@@ -250,7 +250,7 @@ by her . There was nothing so remarkable in that ; nor did Alice VERY also { als
 her . There was nothing so VERY in that ; nor did Alice think remarkable million { million 2.00000 }        30.593639745040
 . There was nothing so VERY remarkable that ; nor did Alice think it in , { , 2.00000 }        34.357735987959
 There was nothing so VERY remarkable in ; nor did Alice think it so that " { " 1.00000 }        34.661615780093
-was nothing so VERY remarkable in that nor did Alice think it so VERY ; decade { decade 1.00000 }        32.623741244477
+was nothing so VERY remarkable in that nor did Alice think it so VERY ; decade { decade 1.00000 }        32.623741244478
 nothing so VERY remarkable in that ; did Alice think it so VERY much nor said { said 1.00000 }        34.696779388776
 so VERY remarkable in that ; nor Alice think it so VERY much out did could { could 1.00000 }        33.398885201105
 VERY remarkable in that ; nor did think it so VERY much out of Alice But { But 1.00000 }        32.605123799776

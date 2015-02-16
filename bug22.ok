@@ -1,8 +1,8 @@
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan 24 12:06:30 2011
+Mon Feb 16 11:33:54 2015
 
 Starting Cross validation test on files:
 ./tests/klein_1.train
@@ -10,7 +10,6 @@ Starting Cross validation test on files:
 ./tests/klein_3.train
 ./tests/klein_4.train
 ./tests/klein_5.train
-Preparation took 0 seconds, 0 milliseconds and 222 microseconds
 Examine datafile './tests/klein_1.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -44,27 +43,27 @@ Feature 6	 : 0.291933402045204
 Feature 7	 : 0.218198052865363
 Feature 8	 : 0.103295521355847
 
-Tested:      1 @ Mon Jan 24 12:06:30 2011
-Tested:      2 @ Mon Jan 24 12:06:30 2011
-Tested:      3 @ Mon Jan 24 12:06:30 2011
-Tested:      4 @ Mon Jan 24 12:06:30 2011
-Tested:      5 @ Mon Jan 24 12:06:30 2011
-Tested:      6 @ Mon Jan 24 12:06:30 2011
-Tested:      7 @ Mon Jan 24 12:06:30 2011
-Tested:      8 @ Mon Jan 24 12:06:30 2011
-Tested:      9 @ Mon Jan 24 12:06:30 2011
-Tested:     10 @ Mon Jan 24 12:06:30 2011
-Ready:      10 @ Mon Jan 24 12:06:30 2011
-Seconds taken: 0.0005 (19193.86 p/s)
+Tested:      1 @ Mon Feb 16 11:33:54 2015
+Tested:      2 @ Mon Feb 16 11:33:54 2015
+Tested:      3 @ Mon Feb 16 11:33:54 2015
+Tested:      4 @ Mon Feb 16 11:33:54 2015
+Tested:      5 @ Mon Feb 16 11:33:54 2015
+Tested:      6 @ Mon Feb 16 11:33:54 2015
+Tested:      7 @ Mon Feb 16 11:33:54 2015
+Tested:      8 @ Mon Feb 16 11:33:54 2015
+Tested:      9 @ Mon Feb 16 11:33:54 2015
+Tested:     10 @ Mon Feb 16 11:33:54 2015
+Ready:      10 @ Mon Feb 16 11:33:54 2015
+Seconds taken: 0.0004 (22675.74 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
      I |    	5   	0   	3   	2 	1.00000 	0.71429 	0.00000 	0.83333 	0.85714
      O |    	2   	2   	6   	0 	0.50000 	1.00000 	0.25000 	0.66667 	0.87500
      B |    	1   	0   	9   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
-F-Score beta=1, microav: 0.771930
+F-Score beta=1, microav: 0.816667
 F-Score beta=1, macroav: 0.833333
-AUC, microav:            0.867951
+AUC, microav:            0.875000
 AUC, macroav:            0.910714
 overall accuracy:        0.800000  (8/10)
 Examine datafile './tests/klein_2.train' gave the following results:
@@ -100,27 +99,27 @@ Feature 6	 : 0.305378526354465
 Feature 7	 : 0.222168743865479
 Feature 8	 : 0.123944137808201
 
-Tested:      1 @ Mon Jan 24 12:06:30 2011
-Tested:      2 @ Mon Jan 24 12:06:30 2011
-Tested:      3 @ Mon Jan 24 12:06:30 2011
-Tested:      4 @ Mon Jan 24 12:06:30 2011
-Tested:      5 @ Mon Jan 24 12:06:30 2011
-Tested:      6 @ Mon Jan 24 12:06:30 2011
-Tested:      7 @ Mon Jan 24 12:06:30 2011
-Tested:      8 @ Mon Jan 24 12:06:30 2011
-Tested:      9 @ Mon Jan 24 12:06:30 2011
-Tested:     10 @ Mon Jan 24 12:06:30 2011
-Ready:      10 @ Mon Jan 24 12:06:30 2011
-Seconds taken: 0.0010 (10493.18 p/s)
+Tested:      1 @ Mon Feb 16 11:33:54 2015
+Tested:      2 @ Mon Feb 16 11:33:54 2015
+Tested:      3 @ Mon Feb 16 11:33:54 2015
+Tested:      4 @ Mon Feb 16 11:33:54 2015
+Tested:      5 @ Mon Feb 16 11:33:54 2015
+Tested:      6 @ Mon Feb 16 11:33:54 2015
+Tested:      7 @ Mon Feb 16 11:33:54 2015
+Tested:      8 @ Mon Feb 16 11:33:54 2015
+Tested:      9 @ Mon Feb 16 11:33:54 2015
+Tested:     10 @ Mon Feb 16 11:33:54 2015
+Ready:      10 @ Mon Feb 16 11:33:54 2015
+Seconds taken: 0.0004 (24390.24 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
      I |    	5   	0   	3   	2 	1.00000 	0.71429 	0.00000 	0.83333 	0.85714
      O |    	3   	1   	6   	0 	0.75000 	1.00000 	0.14286 	0.85714 	0.92857
      B |    	0   	1   	9   	0 	0.00000 	 (nan)	 	0.10000 	 (nan)	 	 (nan)	
-F-Score beta=1, microav: 0.842593
+F-Score beta=1, microav: 0.840476
 F-Score beta=1, macroav: 0.845238
-AUC, microav:            0.884921
+AUC, microav:            0.878571
 AUC, macroav:            0.892857
 overall accuracy:        0.800000  (8/10)
 Examine datafile './tests/klein_3.train' gave the following results:
@@ -151,32 +150,32 @@ Feature 1	 : 0.211572632756454
 Feature 2	 : 0.216136783583368
 Feature 3	 : 0.205278026077873
 Feature 4	 : 0.171342647360174
-Feature 5	 : 0.191597849237134
+Feature 5	 : 0.191597849237135
 Feature 6	 : 0.276090486447543
 Feature 7	 : 0.204411289106452
 Feature 8	 : 0.081023332351012
 
-Tested:      1 @ Mon Jan 24 12:06:30 2011
-Tested:      2 @ Mon Jan 24 12:06:30 2011
-Tested:      3 @ Mon Jan 24 12:06:30 2011
-Tested:      4 @ Mon Jan 24 12:06:30 2011
-Tested:      5 @ Mon Jan 24 12:06:30 2011
-Tested:      6 @ Mon Jan 24 12:06:30 2011
-Tested:      7 @ Mon Jan 24 12:06:30 2011
-Tested:      8 @ Mon Jan 24 12:06:30 2011
-Tested:      9 @ Mon Jan 24 12:06:30 2011
-Tested:     10 @ Mon Jan 24 12:06:30 2011
-Ready:      10 @ Mon Jan 24 12:06:30 2011
-Seconds taken: 0.0009 (10917.03 p/s)
+Tested:      1 @ Mon Feb 16 11:33:54 2015
+Tested:      2 @ Mon Feb 16 11:33:54 2015
+Tested:      3 @ Mon Feb 16 11:33:54 2015
+Tested:      4 @ Mon Feb 16 11:33:54 2015
+Tested:      5 @ Mon Feb 16 11:33:54 2015
+Tested:      6 @ Mon Feb 16 11:33:54 2015
+Tested:      7 @ Mon Feb 16 11:33:54 2015
+Tested:      8 @ Mon Feb 16 11:33:54 2015
+Tested:      9 @ Mon Feb 16 11:33:54 2015
+Tested:     10 @ Mon Feb 16 11:33:54 2015
+Ready:      10 @ Mon Feb 16 11:33:54 2015
+Seconds taken: 0.0004 (25188.92 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
      I |    	6   	1   	3   	0 	0.85714 	1.00000 	0.25000 	0.92308 	0.87500
      O |    	2   	0   	7   	1 	1.00000 	0.66667 	0.00000 	0.80000 	0.83333
      B |    	1   	0   	9   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
-F-Score beta=1, microav: 0.879757
+F-Score beta=1, microav: 0.893846
 F-Score beta=1, macroav: 0.907692
-AUC, microav:            0.862939
+AUC, microav:            0.875000
 AUC, macroav:            0.902778
 overall accuracy:        0.900000  (9/10)
 Examine datafile './tests/klein_4.train' gave the following results:
@@ -212,25 +211,25 @@ Feature 6	 : 0.298999207112076
 Feature 7	 : 0.205649984076972
 Feature 8	 : 0.147975374298064
 
-Tested:      1 @ Mon Jan 24 12:06:30 2011
-Tested:      2 @ Mon Jan 24 12:06:30 2011
-Tested:      3 @ Mon Jan 24 12:06:30 2011
-Tested:      4 @ Mon Jan 24 12:06:30 2011
-Tested:      5 @ Mon Jan 24 12:06:30 2011
-Tested:      6 @ Mon Jan 24 12:06:30 2011
-Tested:      7 @ Mon Jan 24 12:06:30 2011
-Tested:      8 @ Mon Jan 24 12:06:30 2011
-Tested:      9 @ Mon Jan 24 12:06:30 2011
-Tested:     10 @ Mon Jan 24 12:06:30 2011
-Ready:      10 @ Mon Jan 24 12:06:30 2011
-Seconds taken: 0.0009 (10752.69 p/s)
+Tested:      1 @ Mon Feb 16 11:33:54 2015
+Tested:      2 @ Mon Feb 16 11:33:54 2015
+Tested:      3 @ Mon Feb 16 11:33:54 2015
+Tested:      4 @ Mon Feb 16 11:33:54 2015
+Tested:      5 @ Mon Feb 16 11:33:54 2015
+Tested:      6 @ Mon Feb 16 11:33:54 2015
+Tested:      7 @ Mon Feb 16 11:33:54 2015
+Tested:      8 @ Mon Feb 16 11:33:54 2015
+Tested:      9 @ Mon Feb 16 11:33:54 2015
+Tested:     10 @ Mon Feb 16 11:33:54 2015
+Ready:      10 @ Mon Feb 16 11:33:54 2015
+Seconds taken: 0.0004 (24937.66 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
      I |    	5   	2   	3   	0 	0.71429 	1.00000 	0.40000 	0.83333 	0.80000
      O |    	3   	0   	5   	2 	1.00000 	0.60000 	0.00000 	0.75000 	0.80000
      B |    	0   	0   	10   	0 	 (nan)	 	 (nan)	 	0.00000 	 (nan)	 	 (nan)	
-F-Score beta=1, microav: 0.805556
+F-Score beta=1, microav: 0.791667
 F-Score beta=1, macroav: 0.791667
 AUC, microav:            0.800000
 AUC, macroav:            0.800000
@@ -268,16 +267,16 @@ Feature 6	 : 0.296622220584837
 Feature 7	 : 0.211488928619078
 Feature 8	 : 0.101959907286607
 
-Tested:      1 @ Mon Jan 24 12:06:30 2011
-Tested:      2 @ Mon Jan 24 12:06:30 2011
-Tested:      3 @ Mon Jan 24 12:06:30 2011
-Tested:      4 @ Mon Jan 24 12:06:30 2011
-Tested:      5 @ Mon Jan 24 12:06:30 2011
-Tested:      6 @ Mon Jan 24 12:06:30 2011
-Tested:      7 @ Mon Jan 24 12:06:30 2011
-Tested:      8 @ Mon Jan 24 12:06:30 2011
-Ready:       8 @ Mon Jan 24 12:06:30 2011
-Seconds taken: 0.0008 (10296.01 p/s)
+Tested:      1 @ Mon Feb 16 11:33:54 2015
+Tested:      2 @ Mon Feb 16 11:33:54 2015
+Tested:      3 @ Mon Feb 16 11:33:54 2015
+Tested:      4 @ Mon Feb 16 11:33:54 2015
+Tested:      5 @ Mon Feb 16 11:33:54 2015
+Tested:      6 @ Mon Feb 16 11:33:54 2015
+Tested:      7 @ Mon Feb 16 11:33:54 2015
+Tested:      8 @ Mon Feb 16 11:33:54 2015
+Ready:       8 @ Mon Feb 16 11:33:54 2015
+Seconds taken: 0.0003 (24390.24 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC

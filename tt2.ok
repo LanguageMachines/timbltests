@@ -1,17 +1,17 @@
-TiMBL 6.3.1 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Oct 11 18:14:12 2010
+Mon Feb 16 11:34:10 2015
 
 Examine datafile 'tests/klein.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/klein.train
-Start:          0 @ Mon Oct 11 18:14:12 2010
-Finished:     220 @ Mon Oct 11 18:14:12 2010
-Calculating Entropy         Mon Oct 11 18:14:12 2010
+Start:          0 @ Mon Feb 16 11:34:10 2015
+Finished:     220 @ Mon Feb 16 11:34:10 2015
+Calculating Entropy         Mon Feb 16 11:34:10 2015
 Lines of data     : 220
 DB Entropy        : 1.0973232
 Number of Classes : 3
@@ -26,26 +26,26 @@ Feats	Vals	X-square	Variance	InfoGain	GainRatio
     7     24	117.56486	0.26719286	0.46696345	0.11793486
     8     24	50.626817	0.11506095	0.16987195	0.042889176
 
-Preparation took 0 seconds, 2 milliseconds and 473 microseconds
+Preparation took 0 seconds, 2 milliseconds and 53 microseconds
 Saving Weights in tt2.wgt
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 2, 1, 4, 3 >
 Phase 2: Building multi index on Datafile: tests/klein.train
-Start:          0 @ Mon Oct 11 18:14:12 2010
-Finished:     220 @ Mon Oct 11 18:14:12 2010
+Start:          0 @ Mon Feb 16 11:34:10 2015
+Finished:     220 @ Mon Feb 16 11:34:10 2015
 
 Phase 3: Learning from Datafile: tests/klein.train
-Start:          0 @ Mon Oct 11 18:14:12 2010
-Finished:     220 @ Mon Oct 11 18:14:12 2010
+Start:          0 @ Mon Feb 16 11:34:10 2015
+Finished:     220 @ Mon Feb 16 11:34:10 2015
 
 Size of InstanceBase = 1347 Nodes, (53880 bytes), 23.47 % compression
-Learning took 0 seconds, 4 milliseconds and 505 microseconds
+Learning took 0 seconds, 3 milliseconds and 535 microseconds
 Writing Instance-Base in: tt2.tree
-TiMBL 6.3.1 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Oct 11 18:14:12 2010
+Mon Feb 16 11:34:10 2015
 
 Reading Instance-Base from: tt2.tree
 
@@ -73,27 +73,27 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 
-Tested:      1 @ Mon Oct 11 18:14:12 2010
-Tested:      2 @ Mon Oct 11 18:14:12 2010
-Tested:      3 @ Mon Oct 11 18:14:12 2010
-Tested:      4 @ Mon Oct 11 18:14:12 2010
-Tested:      5 @ Mon Oct 11 18:14:12 2010
-Tested:      6 @ Mon Oct 11 18:14:12 2010
-Tested:      7 @ Mon Oct 11 18:14:12 2010
-Tested:      8 @ Mon Oct 11 18:14:12 2010
-Tested:      9 @ Mon Oct 11 18:14:12 2010
-Tested:     10 @ Mon Oct 11 18:14:12 2010
-Ready:      50 @ Mon Oct 11 18:14:12 2010
-Seconds taken: 0.0036 (13732.49 p/s)
+Tested:      1 @ Mon Feb 16 11:34:10 2015
+Tested:      2 @ Mon Feb 16 11:34:10 2015
+Tested:      3 @ Mon Feb 16 11:34:10 2015
+Tested:      4 @ Mon Feb 16 11:34:10 2015
+Tested:      5 @ Mon Feb 16 11:34:10 2015
+Tested:      6 @ Mon Feb 16 11:34:10 2015
+Tested:      7 @ Mon Feb 16 11:34:10 2015
+Tested:      8 @ Mon Feb 16 11:34:10 2015
+Tested:      9 @ Mon Feb 16 11:34:10 2015
+Tested:     10 @ Mon Feb 16 11:34:10 2015
+Ready:      50 @ Mon Feb 16 11:34:10 2015
+Seconds taken: 0.0032 (15610.37 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
      I |    	28   	2   	18   	2 	0.93333 	0.93333 	0.10000 	0.93333 	0.91667
      O |    	16   	3   	30   	1 	0.84211 	0.94118 	0.09091 	0.88889 	0.92513
      B |    	1   	0   	48   	1 	1.00000 	0.50000 	0.00000 	0.66667 	0.75000
-F-Score beta=1, microav: 0.909899
+F-Score beta=1, microav: 0.907029
 F-Score beta=1, macroav: 0.829630
-AUC, microav:            0.917177
+AUC, microav:            0.912801
 AUC, macroav:            0.863933
 overall accuracy:        0.900000  (45/50)
 There was 1 tie of which 0 (0.00%) was correctly resolved
@@ -136,27 +136,27 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 
-Tested:      1 @ Mon Oct 11 18:14:12 2010
-Tested:      2 @ Mon Oct 11 18:14:12 2010
-Tested:      3 @ Mon Oct 11 18:14:12 2010
-Tested:      4 @ Mon Oct 11 18:14:12 2010
-Tested:      5 @ Mon Oct 11 18:14:12 2010
-Tested:      6 @ Mon Oct 11 18:14:12 2010
-Tested:      7 @ Mon Oct 11 18:14:12 2010
-Tested:      8 @ Mon Oct 11 18:14:12 2010
-Tested:      9 @ Mon Oct 11 18:14:12 2010
-Tested:     10 @ Mon Oct 11 18:14:12 2010
-Ready:      50 @ Mon Oct 11 18:14:12 2010
-Seconds taken: 0.0049 (10218.68 p/s)
+Tested:      1 @ Mon Feb 16 11:34:10 2015
+Tested:      2 @ Mon Feb 16 11:34:10 2015
+Tested:      3 @ Mon Feb 16 11:34:10 2015
+Tested:      4 @ Mon Feb 16 11:34:10 2015
+Tested:      5 @ Mon Feb 16 11:34:10 2015
+Tested:      6 @ Mon Feb 16 11:34:10 2015
+Tested:      7 @ Mon Feb 16 11:34:10 2015
+Tested:      8 @ Mon Feb 16 11:34:10 2015
+Tested:      9 @ Mon Feb 16 11:34:10 2015
+Tested:     10 @ Mon Feb 16 11:34:10 2015
+Ready:      50 @ Mon Feb 16 11:34:10 2015
+Seconds taken: 0.0040 (12632.64 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
      I |    	28   	0   	20   	2 	1.00000 	0.93333 	0.00000 	0.96552 	0.96667
      O |    	17   	3   	30   	0 	0.85000 	1.00000 	0.09091 	0.91892 	0.95455
      B |    	2   	0   	48   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
-F-Score beta=1, microav: 0.946658
+F-Score beta=1, microav: 0.950758
 F-Score beta=1, macroav: 0.961479
-AUC, microav:            0.962204
+AUC, microav:            0.963822
 AUC, macroav:            0.973737
 overall accuracy:        0.940000  (47/50), of which 1 exact matches 
 There was 1 tie of which 1 (100.00%) was correctly resolved
@@ -200,27 +200,27 @@ Feature 6	 : 0.857474697673593
 Feature 7	 : 0.466963453214180
 Feature 8	 : 0.169871945230703
 
-Tested:      1 @ Mon Oct 11 18:14:13 2010
-Tested:      2 @ Mon Oct 11 18:14:13 2010
-Tested:      3 @ Mon Oct 11 18:14:13 2010
-Tested:      4 @ Mon Oct 11 18:14:13 2010
-Tested:      5 @ Mon Oct 11 18:14:13 2010
-Tested:      6 @ Mon Oct 11 18:14:13 2010
-Tested:      7 @ Mon Oct 11 18:14:13 2010
-Tested:      8 @ Mon Oct 11 18:14:13 2010
-Tested:      9 @ Mon Oct 11 18:14:13 2010
-Tested:     10 @ Mon Oct 11 18:14:13 2010
-Ready:      50 @ Mon Oct 11 18:14:13 2010
-Seconds taken: 0.0107 (4657.23 p/s)
+Tested:      1 @ Mon Feb 16 11:34:10 2015
+Tested:      2 @ Mon Feb 16 11:34:10 2015
+Tested:      3 @ Mon Feb 16 11:34:10 2015
+Tested:      4 @ Mon Feb 16 11:34:10 2015
+Tested:      5 @ Mon Feb 16 11:34:10 2015
+Tested:      6 @ Mon Feb 16 11:34:10 2015
+Tested:      7 @ Mon Feb 16 11:34:10 2015
+Tested:      8 @ Mon Feb 16 11:34:10 2015
+Tested:      9 @ Mon Feb 16 11:34:10 2015
+Tested:     10 @ Mon Feb 16 11:34:10 2015
+Ready:      50 @ Mon Feb 16 11:34:10 2015
+Seconds taken: 0.0042 (11927.48 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
      I |    	28   	0   	20   	2 	1.00000 	0.93333 	0.00000 	0.96552 	0.96667
      O |    	17   	3   	30   	0 	0.85000 	1.00000 	0.09091 	0.91892 	0.95455
      B |    	2   	0   	48   	0 	1.00000 	1.00000 	0.00000 	1.00000 	1.00000
-F-Score beta=1, microav: 0.946658
+F-Score beta=1, microav: 0.950758
 F-Score beta=1, macroav: 0.961479
-AUC, microav:            0.962204
+AUC, microav:            0.963822
 AUC, macroav:            0.973737
 overall accuracy:        0.940000  (47/50), of which 1 exact matches 
 There was 1 tie of which 1 (100.00%) was correctly resolved
@@ -255,27 +255,27 @@ Feature 6	 : 0.857474697673593
 Feature 7	 : 0.466963453214180
 Feature 8	 : 0.169871945230703
 
-Tested:      1 @ Mon Oct 11 18:14:13 2010
-Tested:      2 @ Mon Oct 11 18:14:13 2010
-Tested:      3 @ Mon Oct 11 18:14:13 2010
-Tested:      4 @ Mon Oct 11 18:14:13 2010
-Tested:      5 @ Mon Oct 11 18:14:13 2010
-Tested:      6 @ Mon Oct 11 18:14:13 2010
-Tested:      7 @ Mon Oct 11 18:14:13 2010
-Tested:      8 @ Mon Oct 11 18:14:13 2010
-Tested:      9 @ Mon Oct 11 18:14:13 2010
-Tested:     10 @ Mon Oct 11 18:14:13 2010
-Ready:      50 @ Mon Oct 11 18:14:13 2010
-Seconds taken: 0.0075 (6711.41 p/s)
+Tested:      1 @ Mon Feb 16 11:34:10 2015
+Tested:      2 @ Mon Feb 16 11:34:10 2015
+Tested:      3 @ Mon Feb 16 11:34:10 2015
+Tested:      4 @ Mon Feb 16 11:34:10 2015
+Tested:      5 @ Mon Feb 16 11:34:10 2015
+Tested:      6 @ Mon Feb 16 11:34:10 2015
+Tested:      7 @ Mon Feb 16 11:34:10 2015
+Tested:      8 @ Mon Feb 16 11:34:10 2015
+Tested:      9 @ Mon Feb 16 11:34:10 2015
+Tested:     10 @ Mon Feb 16 11:34:10 2015
+Ready:      50 @ Mon Feb 16 11:34:10 2015
+Seconds taken: 0.0032 (15441.63 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
      I |    	27   	2   	18   	3 	0.93103 	0.90000 	0.10000 	0.91525 	0.90000
      O |    	16   	4   	29   	1 	0.80000 	0.94118 	0.12121 	0.86486 	0.90998
      B |    	1   	0   	48   	1 	1.00000 	0.50000 	0.00000 	0.66667 	0.75000
-F-Score beta=1, microav: 0.889663
+F-Score beta=1, microav: 0.887626
 F-Score beta=1, macroav: 0.815595
-AUC, microav:            0.901447
+AUC, microav:            0.897341
 AUC, macroav:            0.853327
 overall accuracy:        0.880000  (44/50)
 There was 1 tie of which 0 (0.00%) was correctly resolved

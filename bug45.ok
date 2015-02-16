@@ -1,38 +1,38 @@
-TiMBL 6.3.2 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Jan  5 12:40:52 2011
+Mon Feb 16 11:34:04 2015
 
 Error:-q is missing for TRIBL algorithm
-TiMBL 6.3.2 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Jan  5 12:40:52 2011
+Mon Feb 16 11:34:04 2015
 
 Error:invalid -q option. Must be > 0 
-TiMBL 6.3.2 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Jan  5 12:40:52 2011
+Mon Feb 16 11:34:04 2015
 
 Error:-q option only valid for TRIBL algorithm
-TiMBL 6.3.2 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Jan  5 12:40:52 2011
+Mon Feb 16 11:34:04 2015
 
 Examine datafile 'tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.train
-Start:          0 @ Wed Jan  5 12:40:52 2011
-Finished:    2999 @ Wed Jan  5 12:40:52 2011
-Calculating Entropy         Wed Jan  5 12:40:52 2011
+Start:          0 @ Mon Feb 16 11:34:04 2015
+Finished:    2999 @ Mon Feb 16 11:34:04 2015
+Calculating Entropy         Mon Feb 16 11:34:04 2015
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -51,19 +51,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 27 milliseconds and 447 microseconds
+Preparation took 0 seconds, 47 milliseconds and 194 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 Phase 2: Building multi index on Datafile: tests/dimin.train
-Start:          0 @ Wed Jan  5 12:40:52 2011
-Finished:    2999 @ Wed Jan  5 12:40:52 2011
+Start:          0 @ Mon Feb 16 11:34:04 2015
+Finished:    2999 @ Mon Feb 16 11:34:04 2015
 
 Phase 3: Learning from Datafile: tests/dimin.train
-Start:          0 @ Wed Jan  5 12:40:52 2011
-Finished:    2999 @ Wed Jan  5 12:40:52 2011
+Start:          0 @ Mon Feb 16 11:34:04 2015
+Finished:    2999 @ Mon Feb 16 11:34:04 2015
 
 Size of InstanceBase = 22705 Nodes, (908200 bytes), 40.69 % compression
-Learning took 0 seconds, 74 milliseconds and 191 microseconds
+Learning took 0 seconds, 104 milliseconds and 341 microseconds
 Examine datafile 'tests/dimin.test' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
@@ -78,7 +78,7 @@ Weighting     : GainRatio
 Feature 1	 : 0.024891535617620
 Feature 2	 : 0.027552191321752
 Feature 3	 : 0.018676787182524
-Feature 4	 : 0.052620750282779
+Feature 4	 : 0.052620750282780
 Feature 5	 : 0.047699230752236
 Feature 6	 : 0.024471910753751
 Feature 7	 : 0.034953203413051
@@ -88,19 +88,19 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Wed Jan  5 12:40:52 2011
-Tested:      2 @ Wed Jan  5 12:40:52 2011
-Tested:      3 @ Wed Jan  5 12:40:52 2011
-Tested:      4 @ Wed Jan  5 12:40:52 2011
-Tested:      5 @ Wed Jan  5 12:40:52 2011
-Tested:      6 @ Wed Jan  5 12:40:52 2011
-Tested:      7 @ Wed Jan  5 12:40:52 2011
-Tested:      8 @ Wed Jan  5 12:40:52 2011
-Tested:      9 @ Wed Jan  5 12:40:52 2011
-Tested:     10 @ Wed Jan  5 12:40:52 2011
-Tested:    100 @ Wed Jan  5 12:40:52 2011
-Ready:     950 @ Wed Jan  5 12:40:52 2011
-Seconds taken: 0.0368 (25840.50 p/s)
+Tested:      1 @ Mon Feb 16 11:34:04 2015
+Tested:      2 @ Mon Feb 16 11:34:04 2015
+Tested:      3 @ Mon Feb 16 11:34:04 2015
+Tested:      4 @ Mon Feb 16 11:34:04 2015
+Tested:      5 @ Mon Feb 16 11:34:04 2015
+Tested:      6 @ Mon Feb 16 11:34:04 2015
+Tested:      7 @ Mon Feb 16 11:34:04 2015
+Tested:      8 @ Mon Feb 16 11:34:04 2015
+Tested:      9 @ Mon Feb 16 11:34:04 2015
+Tested:     10 @ Mon Feb 16 11:34:04 2015
+Tested:    100 @ Mon Feb 16 11:34:04 2015
+Ready:     950 @ Mon Feb 16 11:34:04 2015
+Seconds taken: 0.0700 (13572.20 p/s)
 
 overall accuracy:        0.967368  (919/950), of which 39 exact matches 
 There were 5 ties of which 4 (80.00%) were correctly resolved

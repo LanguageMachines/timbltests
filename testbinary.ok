@@ -1,17 +1,17 @@
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jan 25 17:46:11 2011
+Mon Feb 16 11:34:19 2015
 
 Examine datafile './tests/bin.train' gave the following results:
 Number of Features: 10
 InputFormat       : Sparse Binary
 
 Phase 1: Reading Datafile: ./tests/bin.train
-Start:          0 @ Tue Jan 25 17:46:11 2011
-Finished:      11 @ Tue Jan 25 17:46:11 2011
-Calculating Entropy         Tue Jan 25 17:46:11 2011
+Start:          0 @ Mon Feb 16 11:34:19 2015
+Finished:      11 @ Mon Feb 16 11:34:19 2015
+Calculating Entropy         Mon Feb 16 11:34:19 2015
 Lines of data     : 11
 DB Entropy        : 1.8676339
 Number of Classes : 4
@@ -28,19 +28,19 @@ Feats	Vals	InfoGain	GainRatio
     9      2	0.18905267	0.43015692
    10      2	0.14448676	0.32875484
 
-Preparation took 0 seconds, 0 milliseconds and 432 microseconds
+Preparation took 0 seconds, 0 milliseconds and 446 microseconds
 Feature Permutation based on GainRatio/Values :
 < 3, 7, 2, 4, 6, 9, 1, 8, 10, 5 >
 Phase 2: Building multi index on Datafile: ./tests/bin.train
-Start:          0 @ Tue Jan 25 17:46:11 2011
-Finished:      11 @ Tue Jan 25 17:46:11 2011
+Start:          0 @ Mon Feb 16 11:34:19 2015
+Finished:      11 @ Mon Feb 16 11:34:19 2015
 
 Phase 3: Learning from Datafile: ./tests/bin.train
-Start:          0 @ Tue Jan 25 17:46:11 2011
-Finished:      11 @ Tue Jan 25 17:46:11 2011
+Start:          0 @ Mon Feb 16 11:34:19 2015
+Finished:      11 @ Mon Feb 16 11:34:19 2015
 
 Size of InstanceBase = 80 Nodes, (3200 bytes), 27.27 % compression
-Learning took 0 seconds, 0 milliseconds and 498 microseconds
+Learning took 0 seconds, 0 milliseconds and 431 microseconds
 Examine datafile './tests/bin.test' gave the following results:
 Number of Features: 10
 InputFormat       : Sparse Binary
@@ -52,41 +52,41 @@ Algorithm     : IB1
 Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
-Feature 1	 : 0.328754835971760
+Feature 1	 : 0.328754835971759
 Feature 2	 : 0.468397761455250
 Feature 3	 : 0.633873909227737
-Feature 4	 : 0.430156916130981
-Feature 5	 : 0.273578989019172
-Feature 6	 : 0.430156916130981
+Feature 4	 : 0.430156916130980
+Feature 5	 : 0.273578989019171
+Feature 6	 : 0.430156916130980
 Feature 7	 : 0.633873909227736
-Feature 8	 : 0.328754835971760
-Feature 9	 : 0.430156916130981
-Feature 10	 : 0.328754835971760
+Feature 8	 : 0.328754835971759
+Feature 9	 : 0.430156916130980
+Feature 10	 : 0.328754835971759
 
-Warning:testfile, skipped line #1
+Warning: testfile, skipped line #1
 1,7,,aap
-Tested:      1 @ Tue Jan 25 17:46:11 2011
-Tested:      2 @ Tue Jan 25 17:46:11 2011
-Ready:       2 @ Tue Jan 25 17:46:11 2011
-Seconds taken: 0.0004 (4750.59 p/s)
+Tested:      1 @ Mon Feb 16 11:34:19 2015
+Tested:      2 @ Mon Feb 16 11:34:19 2015
+Ready:       2 @ Mon Feb 16 11:34:19 2015
+Seconds taken: 0.0004 (4739.34 p/s)
 
 overall accuracy:        1.000000  (2/2)
 3,9,noot,noot { noot 1.00000 }        0.43015691613098
 5,6,mies,mies { mies 1.00000 }        0.27357898901917
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jan 25 17:46:11 2011
+Mon Feb 16 11:34:19 2015
 
 Examine datafile './tests/bin.train' gave the following results:
 Number of Features: 10
 InputFormat       : Sparse Binary
 
 Phase 1: Reading Datafile: ./tests/bin.train
-Start:          0 @ Tue Jan 25 17:46:11 2011
-Finished:      11 @ Tue Jan 25 17:46:11 2011
-Calculating Entropy         Tue Jan 25 17:46:11 2011
+Start:          0 @ Mon Feb 16 11:34:19 2015
+Finished:      11 @ Mon Feb 16 11:34:19 2015
+Calculating Entropy         Mon Feb 16 11:34:19 2015
 Lines of data     : 11
 DB Entropy        : 1.8676339
 Number of Classes : 4
@@ -103,19 +103,19 @@ Feats	Vals	InfoGain	GainRatio
     9      2	0.18905267	0.43015692
    10      2	0.14448676	0.32875484
 
-Preparation took 0 seconds, 0 milliseconds and 431 microseconds
+Preparation took 0 seconds, 0 milliseconds and 434 microseconds
 Feature Permutation based on GainRatio/Values :
 < 3, 7, 2, 4, 6, 9, 1, 8, 10, 5 >
 Phase 2: Building multi index on Datafile: ./tests/bin.train
-Start:          0 @ Tue Jan 25 17:46:11 2011
-Finished:      11 @ Tue Jan 25 17:46:11 2011
+Start:          0 @ Mon Feb 16 11:34:19 2015
+Finished:      11 @ Mon Feb 16 11:34:19 2015
 
 Phase 3: Learning from Datafile: ./tests/bin.train
-Start:          0 @ Tue Jan 25 17:46:11 2011
-Finished:      11 @ Tue Jan 25 17:46:11 2011
+Start:          0 @ Mon Feb 16 11:34:19 2015
+Finished:      11 @ Mon Feb 16 11:34:19 2015
 
 Size of InstanceBase = 80 Nodes, (3200 bytes), 27.27 % compression
-Learning took 0 seconds, 0 milliseconds and 508 microseconds
+Learning took 0 seconds, 0 milliseconds and 422 microseconds
 Examine datafile './tests/bin.test' gave the following results:
 Number of Features: 10
 InputFormat       : Sparse Binary
@@ -127,23 +127,23 @@ Algorithm     : IB1
 Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
-Feature 1	 : 0.328754835971760
+Feature 1	 : 0.328754835971759
 Feature 2	 : 0.468397761455250
 Feature 3	 : 0.633873909227737
-Feature 4	 : 0.430156916130981
-Feature 5	 : 0.273578989019172
-Feature 6	 : 0.430156916130981
+Feature 4	 : 0.430156916130980
+Feature 5	 : 0.273578989019171
+Feature 6	 : 0.430156916130980
 Feature 7	 : 0.633873909227736
-Feature 8	 : 0.328754835971760
-Feature 9	 : 0.430156916130981
-Feature 10	 : 0.328754835971760
+Feature 8	 : 0.328754835971759
+Feature 9	 : 0.430156916130980
+Feature 10	 : 0.328754835971759
 
-Warning:testfile, skipped line #1
+Warning: testfile, skipped line #1
 1,7,,aap
-Tested:      1 @ Tue Jan 25 17:46:11 2011
-Tested:      2 @ Tue Jan 25 17:46:11 2011
-Ready:       2 @ Tue Jan 25 17:46:11 2011
-Seconds taken: 0.0004 (4716.98 p/s)
+Tested:      1 @ Mon Feb 16 11:34:19 2015
+Tested:      2 @ Mon Feb 16 11:34:19 2015
+Ready:       2 @ Mon Feb 16 11:34:19 2015
+Seconds taken: 0.0004 (4878.05 p/s)
 
 overall accuracy:        1.000000  (2/2)
 3,9,noot,noot { noot 1.00000 }        0.43015691613098

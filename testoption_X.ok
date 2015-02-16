@@ -1,17 +1,17 @@
-TiMBL 6.4.3 (c) ILK 1998 - 2012.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Apr 17 11:32:42 2012
+Mon Feb 16 11:33:34 2015
 
 Examine datafile './tests/xmlexample.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/xmlexample.train
-Start:          0 @ Tue Apr 17 11:32:42 2012
-Finished:      15 @ Tue Apr 17 11:32:42 2012
-Calculating Entropy         Tue Apr 17 11:32:42 2012
+Start:          0 @ Mon Feb 16 11:33:34 2015
+Finished:      15 @ Mon Feb 16 11:33:34 2015
+Calculating Entropy         Mon Feb 16 11:33:34 2015
 Lines of data     : 14
 SkippedLines      : 1
 DB Entropy        : 0.98522814
@@ -22,20 +22,96 @@ Feats	Vals	InfoGain	GainRatio
     2      4	0.49261407	0.28567144
     3      2	0.16125624	0.16367401
 
-Preparation took 0 seconds, 0 milliseconds and 244 microseconds
+Preparation took 0 seconds, 0 milliseconds and 380 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 2 >
 Phase 2: Building multi index on Datafile: ./tests/xmlexample.train
-Start:          0 @ Tue Apr 17 11:32:42 2012
-Finished:      14 @ Tue Apr 17 11:32:42 2012
+Start:          0 @ Mon Feb 16 11:33:34 2015
+Finished:      14 @ Mon Feb 16 11:33:34 2015
 
 Phase 3: Learning from Datafile: ./tests/xmlexample.train
-Start:          0 @ Tue Apr 17 11:32:42 2012
-Finished:      14 @ Tue Apr 17 11:32:42 2012
+Start:          0 @ Mon Feb 16 11:33:34 2015
+Finished:      14 @ Mon Feb 16 11:33:34 2015
 
 Size of InstanceBase = 25 Nodes, (1000 bytes), 30.56 % compression
-Learning took 0 seconds, 0 milliseconds and 286 microseconds
+Learning took 0 seconds, 0 milliseconds and 455 microseconds
 Writing Instance-Base in: out.xml
-<?xml version="1.0"?>
-<root><!--Version 4--><target>&gt;</target><nodes nodecount="3"><node><feature>B</feature><nodes nodecount="2"><node><feature>2</feature><nodes nodecount="3"><node><feature>geel</feature><distribution>{ &gt; 1.00000 }</distribution></node><node><feature>rood</feature><distribution>{ &gt; 2.00000, &lt; 1.00000 }</distribution></node><node><feature>&amp;apos;</feature><distribution>{ &lt; 1.00000 }</distribution></node></nodes></node><node><feature>3</feature><nodes nodecount="2"><node><feature>geel</feature><distribution>{ &gt; 1.00000 }</distribution></node><node><feature>rood</feature><distribution>{ &gt; 3.00000 }</distribution></node></nodes></node></nodes></node><node><feature>&amp;</feature><nodes nodecount="1"><node><feature>2</feature><nodes nodecount="2"><node><feature>geel</feature><distribution>{ &lt; 1.00000 }</distribution></node><node><feature>wit</feature><distribution>{ &lt; 2.00000 }</distribution></node></nodes></node></nodes></node><node><feature>C</feature><nodes nodecount="1"><node><feature>3</feature><nodes nodecount="2"><node><feature>rood</feature><distribution>{ &gt; 1.00000 }</distribution></node><node><feature>wit</feature><distribution>{ &lt; 1.00000 }</distribution></node></nodes></node></nodes></node></nodes></root>
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!--Version 4-->
+  <target>&gt;</target>
+  <nodes nodecount="3">
+    <node>
+      <feature>B</feature>
+      <nodes nodecount="2">
+        <node>
+          <feature>2</feature>
+          <nodes nodecount="3">
+            <node>
+              <feature>geel</feature>
+              <distribution>{ &gt; 1.00000 }</distribution>
+            </node>
+            <node>
+              <feature>rood</feature>
+              <distribution>{ &gt; 2.00000, &lt; 1.00000 }</distribution>
+            </node>
+            <node>
+              <feature>&amp;apos;</feature>
+              <distribution>{ &lt; 1.00000 }</distribution>
+            </node>
+          </nodes>
+        </node>
+        <node>
+          <feature>3</feature>
+          <nodes nodecount="2">
+            <node>
+              <feature>geel</feature>
+              <distribution>{ &gt; 1.00000 }</distribution>
+            </node>
+            <node>
+              <feature>rood</feature>
+              <distribution>{ &gt; 3.00000 }</distribution>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+    <node>
+      <feature>&amp;</feature>
+      <nodes nodecount="1">
+        <node>
+          <feature>2</feature>
+          <nodes nodecount="2">
+            <node>
+              <feature>geel</feature>
+              <distribution>{ &lt; 1.00000 }</distribution>
+            </node>
+            <node>
+              <feature>wit</feature>
+              <distribution>{ &lt; 2.00000 }</distribution>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+    <node>
+      <feature>C</feature>
+      <nodes nodecount="1">
+        <node>
+          <feature>3</feature>
+          <nodes nodecount="2">
+            <node>
+              <feature>rood</feature>
+              <distribution>{ &gt; 1.00000 }</distribution>
+            </node>
+            <node>
+              <feature>wit</feature>
+              <distribution>{ &lt; 1.00000 }</distribution>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+</root>
 

@@ -1,8 +1,8 @@
-TiMBL 6.3.1 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Jul 27 11:23:26 2010
+Mon Feb 16 11:34:10 2015
 
 Starting Cross validation test on files:
 ./tests/klein_1.train
@@ -10,7 +10,6 @@ Starting Cross validation test on files:
 ./tests/klein_3.train
 ./tests/klein_4.train
 ./tests/klein_5.train
-Preparation took 0 seconds, 0 milliseconds and 202 microseconds
 Examine datafile './tests/klein_1.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -45,18 +44,18 @@ Feature 6	 : 0.291933402045204
 Feature 7	 : 0.218198052865363
 Feature 8	 : 0.103295521355847
 
-Tested:      1 @ Tue Jul 27 11:23:26 2010
-Tested:      2 @ Tue Jul 27 11:23:26 2010
-Tested:      3 @ Tue Jul 27 11:23:26 2010
-Tested:      4 @ Tue Jul 27 11:23:26 2010
-Tested:      5 @ Tue Jul 27 11:23:26 2010
-Tested:      6 @ Tue Jul 27 11:23:26 2010
-Tested:      7 @ Tue Jul 27 11:23:26 2010
-Tested:      8 @ Tue Jul 27 11:23:26 2010
-Tested:      9 @ Tue Jul 27 11:23:26 2010
-Tested:     10 @ Tue Jul 27 11:23:26 2010
-Ready:      10 @ Tue Jul 27 11:23:26 2010
-Seconds taken: 0.0005 (19801.98 p/s)
+Tested:      1 @ Mon Feb 16 11:34:10 2015
+Tested:      2 @ Mon Feb 16 11:34:10 2015
+Tested:      3 @ Mon Feb 16 11:34:10 2015
+Tested:      4 @ Mon Feb 16 11:34:10 2015
+Tested:      5 @ Mon Feb 16 11:34:10 2015
+Tested:      6 @ Mon Feb 16 11:34:10 2015
+Tested:      7 @ Mon Feb 16 11:34:10 2015
+Tested:      8 @ Mon Feb 16 11:34:10 2015
+Tested:      9 @ Mon Feb 16 11:34:10 2015
+Tested:     10 @ Mon Feb 16 11:34:10 2015
+Ready:      10 @ Mon Feb 16 11:34:10 2015
+Seconds taken: 0.0005 (21008.40 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile './tests/klein_2.train' gave the following results:
@@ -93,18 +92,18 @@ Feature 6	 : 0.305378526354465
 Feature 7	 : 0.222168743865479
 Feature 8	 : 0.123944137808201
 
-Tested:      1 @ Tue Jul 27 11:23:26 2010
-Tested:      2 @ Tue Jul 27 11:23:26 2010
-Tested:      3 @ Tue Jul 27 11:23:26 2010
-Tested:      4 @ Tue Jul 27 11:23:26 2010
-Tested:      5 @ Tue Jul 27 11:23:26 2010
-Tested:      6 @ Tue Jul 27 11:23:26 2010
-Tested:      7 @ Tue Jul 27 11:23:26 2010
-Tested:      8 @ Tue Jul 27 11:23:26 2010
-Tested:      9 @ Tue Jul 27 11:23:26 2010
-Tested:     10 @ Tue Jul 27 11:23:26 2010
-Ready:      10 @ Tue Jul 27 11:23:26 2010
-Seconds taken: 0.0009 (11325.03 p/s)
+Tested:      1 @ Mon Feb 16 11:34:10 2015
+Tested:      2 @ Mon Feb 16 11:34:10 2015
+Tested:      3 @ Mon Feb 16 11:34:10 2015
+Tested:      4 @ Mon Feb 16 11:34:10 2015
+Tested:      5 @ Mon Feb 16 11:34:10 2015
+Tested:      6 @ Mon Feb 16 11:34:10 2015
+Tested:      7 @ Mon Feb 16 11:34:10 2015
+Tested:      8 @ Mon Feb 16 11:34:10 2015
+Tested:      9 @ Mon Feb 16 11:34:10 2015
+Tested:     10 @ Mon Feb 16 11:34:10 2015
+Ready:      10 @ Mon Feb 16 11:34:10 2015
+Seconds taken: 0.0004 (24509.80 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile './tests/klein_3.train' gave the following results:
@@ -136,23 +135,23 @@ Feature 1	 : 0.211572632756454
 Feature 2	 : 0.000000000000000
 Feature 3	 : 0.205278026077873
 Feature 4	 : 0.171342647360174
-Feature 5	 : 0.191597849237134
+Feature 5	 : 0.191597849237135
 Feature 6	 : 0.276090486447543
 Feature 7	 : 0.204411289106452
 Feature 8	 : 0.081023332351012
 
-Tested:      1 @ Tue Jul 27 11:23:27 2010
-Tested:      2 @ Tue Jul 27 11:23:27 2010
-Tested:      3 @ Tue Jul 27 11:23:27 2010
-Tested:      4 @ Tue Jul 27 11:23:27 2010
-Tested:      5 @ Tue Jul 27 11:23:27 2010
-Tested:      6 @ Tue Jul 27 11:23:27 2010
-Tested:      7 @ Tue Jul 27 11:23:27 2010
-Tested:      8 @ Tue Jul 27 11:23:27 2010
-Tested:      9 @ Tue Jul 27 11:23:27 2010
-Tested:     10 @ Tue Jul 27 11:23:27 2010
-Ready:      10 @ Tue Jul 27 11:23:27 2010
-Seconds taken: 0.0008 (12106.54 p/s)
+Tested:      1 @ Mon Feb 16 11:34:10 2015
+Tested:      2 @ Mon Feb 16 11:34:10 2015
+Tested:      3 @ Mon Feb 16 11:34:10 2015
+Tested:      4 @ Mon Feb 16 11:34:10 2015
+Tested:      5 @ Mon Feb 16 11:34:10 2015
+Tested:      6 @ Mon Feb 16 11:34:10 2015
+Tested:      7 @ Mon Feb 16 11:34:10 2015
+Tested:      8 @ Mon Feb 16 11:34:10 2015
+Tested:      9 @ Mon Feb 16 11:34:10 2015
+Tested:     10 @ Mon Feb 16 11:34:10 2015
+Ready:      10 @ Mon Feb 16 11:34:10 2015
+Seconds taken: 0.0004 (25316.46 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile './tests/klein_4.train' gave the following results:
@@ -189,18 +188,18 @@ Feature 6	 : 0.298999207112076
 Feature 7	 : 0.205649984076972
 Feature 8	 : 0.147975374298064
 
-Tested:      1 @ Tue Jul 27 11:23:27 2010
-Tested:      2 @ Tue Jul 27 11:23:27 2010
-Tested:      3 @ Tue Jul 27 11:23:27 2010
-Tested:      4 @ Tue Jul 27 11:23:27 2010
-Tested:      5 @ Tue Jul 27 11:23:27 2010
-Tested:      6 @ Tue Jul 27 11:23:27 2010
-Tested:      7 @ Tue Jul 27 11:23:27 2010
-Tested:      8 @ Tue Jul 27 11:23:27 2010
-Tested:      9 @ Tue Jul 27 11:23:27 2010
-Tested:     10 @ Tue Jul 27 11:23:27 2010
-Ready:      10 @ Tue Jul 27 11:23:27 2010
-Seconds taken: 0.0009 (11682.24 p/s)
+Tested:      1 @ Mon Feb 16 11:34:10 2015
+Tested:      2 @ Mon Feb 16 11:34:10 2015
+Tested:      3 @ Mon Feb 16 11:34:10 2015
+Tested:      4 @ Mon Feb 16 11:34:10 2015
+Tested:      5 @ Mon Feb 16 11:34:10 2015
+Tested:      6 @ Mon Feb 16 11:34:10 2015
+Tested:      7 @ Mon Feb 16 11:34:10 2015
+Tested:      8 @ Mon Feb 16 11:34:10 2015
+Tested:      9 @ Mon Feb 16 11:34:10 2015
+Tested:     10 @ Mon Feb 16 11:34:10 2015
+Ready:      10 @ Mon Feb 16 11:34:10 2015
+Seconds taken: 0.0004 (24813.90 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile './tests/klein_5.train' gave the following results:
@@ -237,15 +236,15 @@ Feature 6	 : 0.296622220584837
 Feature 7	 : 0.211488928619078
 Feature 8	 : 0.101959907286607
 
-Tested:      1 @ Tue Jul 27 11:23:27 2010
-Tested:      2 @ Tue Jul 27 11:23:27 2010
-Tested:      3 @ Tue Jul 27 11:23:27 2010
-Tested:      4 @ Tue Jul 27 11:23:27 2010
-Tested:      5 @ Tue Jul 27 11:23:27 2010
-Tested:      6 @ Tue Jul 27 11:23:27 2010
-Tested:      7 @ Tue Jul 27 11:23:27 2010
-Tested:      8 @ Tue Jul 27 11:23:27 2010
-Ready:       8 @ Tue Jul 27 11:23:27 2010
-Seconds taken: 0.0007 (11544.01 p/s)
+Tested:      1 @ Mon Feb 16 11:34:10 2015
+Tested:      2 @ Mon Feb 16 11:34:10 2015
+Tested:      3 @ Mon Feb 16 11:34:10 2015
+Tested:      4 @ Mon Feb 16 11:34:10 2015
+Tested:      5 @ Mon Feb 16 11:34:10 2015
+Tested:      6 @ Mon Feb 16 11:34:10 2015
+Tested:      7 @ Mon Feb 16 11:34:10 2015
+Tested:      8 @ Mon Feb 16 11:34:10 2015
+Ready:       8 @ Mon Feb 16 11:34:10 2015
+Seconds taken: 0.0003 (24539.88 p/s)
 
 overall accuracy:        1.000000  (8/8)

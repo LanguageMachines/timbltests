@@ -1,17 +1,17 @@
-TiMBL 6.4.2 (c) ILK 1998 - 2011.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Dec  1 10:07:55 2011
+Mon Feb 16 11:34:35 2015
 
 Examine datafile './tests/align.data' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/align.data
-Start:          0 @ Thu Dec  1 10:07:55 2011
-Finished:   50000 @ Thu Dec  1 10:07:56 2011
-Calculating Entropy         Thu Dec  1 10:07:56 2011
+Start:          0 @ Mon Feb 16 11:34:35 2015
+Finished:   50000 @ Mon Feb 16 11:34:35 2015
+Calculating Entropy         Mon Feb 16 11:34:35 2015
 Lines of data     : 50000
 DB Entropy        : 14.797393
 Number of Classes : 36941
@@ -25,19 +25,19 @@ Feats	Vals	InfoGain	GainRatio
     6   5296	7.7859356	0.93097480
     7   5319	7.5803945	0.92715345
 
-Preparation took 0 seconds, 921 milliseconds and 672 microseconds
+Preparation took 0 seconds, 617 milliseconds and 207 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 5, 6, 7, 3, 4 >
 Phase 2: Building multi index on Datafile: ./tests/align.data
-Start:          0 @ Thu Dec  1 10:07:56 2011
-Finished:   50000 @ Thu Dec  1 10:07:57 2011
+Start:          0 @ Mon Feb 16 11:34:35 2015
+Finished:   50000 @ Mon Feb 16 11:34:36 2015
 
 Phase 3: Learning from Datafile: ./tests/align.data
-Start:          0 @ Thu Dec  1 10:07:57 2011
-Finished:   50000 @ Thu Dec  1 10:07:58 2011
+Start:          0 @ Mon Feb 16 11:34:36 2015
+Finished:   50000 @ Mon Feb 16 11:34:36 2015
 
 Size of InstanceBase = 287204 Nodes, (11488160 bytes), 20.72 % compression
-Learning took 1 seconds, 546 milliseconds and 917 microseconds
+Learning took 0 seconds, 939 milliseconds and 466 microseconds
 Examine datafile './tests/align.test' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
@@ -57,37 +57,37 @@ Feature 5	 : 0.950158299294629
 Feature 6	 : 0.930974803272551
 Feature 7	 : 0.927153449509075
 
-Tested:      1 @ Thu Dec  1 10:07:58 2011
-Tested:      2 @ Thu Dec  1 10:07:58 2011
-Tested:      3 @ Thu Dec  1 10:07:58 2011
-Tested:      4 @ Thu Dec  1 10:07:58 2011
-Tested:      5 @ Thu Dec  1 10:07:58 2011
-Tested:      6 @ Thu Dec  1 10:07:58 2011
-Tested:      7 @ Thu Dec  1 10:07:58 2011
-Tested:      8 @ Thu Dec  1 10:07:58 2011
-Tested:      9 @ Thu Dec  1 10:07:58 2011
-Tested:     10 @ Thu Dec  1 10:07:58 2011
-Tested:    100 @ Thu Dec  1 10:08:00 2011
-Tested:   1000 @ Thu Dec  1 10:08:22 2011
-Ready:    1000 @ Thu Dec  1 10:08:22 2011
-Seconds taken: 24.0342 (41.61 p/s)
+Tested:      1 @ Mon Feb 16 11:34:36 2015
+Tested:      2 @ Mon Feb 16 11:34:36 2015
+Tested:      3 @ Mon Feb 16 11:34:36 2015
+Tested:      4 @ Mon Feb 16 11:34:36 2015
+Tested:      5 @ Mon Feb 16 11:34:36 2015
+Tested:      6 @ Mon Feb 16 11:34:36 2015
+Tested:      7 @ Mon Feb 16 11:34:36 2015
+Tested:      8 @ Mon Feb 16 11:34:36 2015
+Tested:      9 @ Mon Feb 16 11:34:36 2015
+Tested:     10 @ Mon Feb 16 11:34:36 2015
+Tested:    100 @ Mon Feb 16 11:34:38 2015
+Tested:   1000 @ Mon Feb 16 11:34:49 2015
+Ready:    1000 @ Mon Feb 16 11:34:49 2015
+Seconds taken: 13.0274 (76.76 p/s)
 
 overall accuracy:        0.000000  (0/1000), of which 13 exact matches 
 There were 439 ties of which 0 (0.00%) were correctly resolved
-TiMBL 6.4.2 (c) ILK 1998 - 2011.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Dec  1 10:08:23 2011
+Mon Feb 16 11:34:50 2015
 
 Examine datafile './tests/align.data' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/align.data
-Start:          0 @ Thu Dec  1 10:08:23 2011
-Finished:   50000 @ Thu Dec  1 10:08:23 2011
-Calculating Entropy         Thu Dec  1 10:08:23 2011
+Start:          0 @ Mon Feb 16 11:34:50 2015
+Finished:   50000 @ Mon Feb 16 11:34:50 2015
+Calculating Entropy         Mon Feb 16 11:34:50 2015
 Lines of data     : 50000
 DB Entropy        : 14.797393
 Number of Classes : 36941
@@ -101,19 +101,19 @@ Feats	Vals	InfoGain	GainRatio
     6   5296	7.7859356	0.93097480
     7   5319	7.5803945	0.92715345
 
-Preparation took 0 seconds, 941 milliseconds and 40 microseconds
+Preparation took 0 seconds, 615 milliseconds and 843 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 5, 6, 7, 3, 4 >
 Phase 2: Building multi index on Datafile: ./tests/align.data
-Start:          0 @ Thu Dec  1 10:08:24 2011
-Finished:   50000 @ Thu Dec  1 10:08:24 2011
+Start:          0 @ Mon Feb 16 11:34:50 2015
+Finished:   50000 @ Mon Feb 16 11:34:51 2015
 
 Phase 3: Learning from Datafile: ./tests/align.data
-Start:          0 @ Thu Dec  1 10:08:24 2011
-Finished:   50000 @ Thu Dec  1 10:08:25 2011
+Start:          0 @ Mon Feb 16 11:34:51 2015
+Finished:   50000 @ Mon Feb 16 11:34:51 2015
 
 Size of InstanceBase = 287204 Nodes, (11488160 bytes), 20.72 % compression
-Learning took 1 seconds, 648 milliseconds and 539 microseconds
+Learning took 0 seconds, 945 milliseconds and 801 microseconds
 Examine datafile './tests/align.test' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
@@ -133,37 +133,37 @@ Feature 5	 : 0.950158299294629
 Feature 6	 : 0.930974803272551
 Feature 7	 : 0.927153449509075
 
-Tested:      1 @ Thu Dec  1 10:08:26 2011
-Tested:      2 @ Thu Dec  1 10:08:26 2011
-Tested:      3 @ Thu Dec  1 10:08:26 2011
-Tested:      4 @ Thu Dec  1 10:08:26 2011
-Tested:      5 @ Thu Dec  1 10:08:26 2011
-Tested:      6 @ Thu Dec  1 10:08:26 2011
-Tested:      7 @ Thu Dec  1 10:08:26 2011
-Tested:      8 @ Thu Dec  1 10:08:26 2011
-Tested:      9 @ Thu Dec  1 10:08:26 2011
-Tested:     10 @ Thu Dec  1 10:08:26 2011
-Tested:    100 @ Thu Dec  1 10:08:27 2011
-Tested:   1000 @ Thu Dec  1 10:08:41 2011
-Ready:    1000 @ Thu Dec  1 10:08:41 2011
-Seconds taken: 15.7387 (63.54 p/s)
+Tested:      1 @ Mon Feb 16 11:34:51 2015
+Tested:      2 @ Mon Feb 16 11:34:51 2015
+Tested:      3 @ Mon Feb 16 11:34:51 2015
+Tested:      4 @ Mon Feb 16 11:34:51 2015
+Tested:      5 @ Mon Feb 16 11:34:51 2015
+Tested:      6 @ Mon Feb 16 11:34:51 2015
+Tested:      7 @ Mon Feb 16 11:34:51 2015
+Tested:      8 @ Mon Feb 16 11:34:51 2015
+Tested:      9 @ Mon Feb 16 11:34:51 2015
+Tested:     10 @ Mon Feb 16 11:34:52 2015
+Tested:    100 @ Mon Feb 16 11:34:52 2015
+Tested:   1000 @ Mon Feb 16 11:35:02 2015
+Ready:    1000 @ Mon Feb 16 11:35:02 2015
+Seconds taken: 10.1977 (98.06 p/s)
 
 overall accuracy:        0.000000  (0/1000), of which 13 exact matches 
 There were 439 ties of which 0 (0.00%) were correctly resolved
-TiMBL 6.4.2 (c) ILK 1998 - 2011.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Dec  1 10:08:42 2011
+Mon Feb 16 11:35:02 2015
 
 Examine datafile './tests/align.data' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/align.data
-Start:          0 @ Thu Dec  1 10:08:42 2011
-Finished:   50000 @ Thu Dec  1 10:08:43 2011
-Calculating Entropy         Thu Dec  1 10:08:43 2011
+Start:          0 @ Mon Feb 16 11:35:02 2015
+Finished:   50000 @ Mon Feb 16 11:35:02 2015
+Calculating Entropy         Mon Feb 16 11:35:02 2015
 Lines of data     : 50000
 DB Entropy        : 14.797393
 Number of Classes : 36941
@@ -177,19 +177,19 @@ Feats	Vals	InfoGain	GainRatio
     6   5296	7.7859356	0.93097480
     7   5319	7.5803945	0.92715345
 
-Preparation took 0 seconds, 943 milliseconds and 843 microseconds
+Preparation took 0 seconds, 627 milliseconds and 724 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 5, 6, 7, 3, 4 >
 Phase 2: Building multi index on Datafile: ./tests/align.data
-Start:          0 @ Thu Dec  1 10:08:43 2011
-Finished:   50000 @ Thu Dec  1 10:08:43 2011
+Start:          0 @ Mon Feb 16 11:35:03 2015
+Finished:   50000 @ Mon Feb 16 11:35:03 2015
 
 Phase 3: Learning from Datafile: ./tests/align.data
-Start:          0 @ Thu Dec  1 10:08:43 2011
-Finished:   50000 @ Thu Dec  1 10:08:44 2011
+Start:          0 @ Mon Feb 16 11:35:03 2015
+Finished:   50000 @ Mon Feb 16 11:35:03 2015
 
 Size of InstanceBase = 287204 Nodes, (11488160 bytes), 20.72 % compression
-Learning took 1 seconds, 554 milliseconds and 850 microseconds
+Learning took 0 seconds, 946 milliseconds and 62 microseconds
 Examine datafile './tests/align.test' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
@@ -209,20 +209,20 @@ Feature 5	 : 0.950158299294629
 Feature 6	 : 0.930974803272551
 Feature 7	 : 0.927153449509075
 
-Tested:      1 @ Thu Dec  1 10:08:45 2011
-Tested:      2 @ Thu Dec  1 10:08:45 2011
-Tested:      3 @ Thu Dec  1 10:08:45 2011
-Tested:      4 @ Thu Dec  1 10:08:45 2011
-Tested:      5 @ Thu Dec  1 10:08:45 2011
-Tested:      6 @ Thu Dec  1 10:08:45 2011
-Tested:      7 @ Thu Dec  1 10:08:45 2011
-Tested:      8 @ Thu Dec  1 10:08:45 2011
-Tested:      9 @ Thu Dec  1 10:08:45 2011
-Tested:     10 @ Thu Dec  1 10:08:45 2011
-Tested:    100 @ Thu Dec  1 10:08:46 2011
-Tested:   1000 @ Thu Dec  1 10:09:00 2011
-Ready:    1000 @ Thu Dec  1 10:09:00 2011
-Seconds taken: 14.6104 (68.44 p/s)
+Tested:      1 @ Mon Feb 16 11:35:04 2015
+Tested:      2 @ Mon Feb 16 11:35:04 2015
+Tested:      3 @ Mon Feb 16 11:35:04 2015
+Tested:      4 @ Mon Feb 16 11:35:04 2015
+Tested:      5 @ Mon Feb 16 11:35:04 2015
+Tested:      6 @ Mon Feb 16 11:35:04 2015
+Tested:      7 @ Mon Feb 16 11:35:04 2015
+Tested:      8 @ Mon Feb 16 11:35:04 2015
+Tested:      9 @ Mon Feb 16 11:35:04 2015
+Tested:     10 @ Mon Feb 16 11:35:04 2015
+Tested:    100 @ Mon Feb 16 11:35:04 2015
+Tested:   1000 @ Mon Feb 16 11:35:09 2015
+Ready:    1000 @ Mon Feb 16 11:35:09 2015
+Seconds taken: 4.5301 (220.74 p/s)
 
 overall accuracy:        0.000000  (0/1000), of which 13 exact matches 
 There were 439 ties of which 0 (0.00%) were correctly resolved
@@ -326,20 +326,20 @@ stof inderdaad binnen de europese unie maken ? of^the^european { of^the^european
 inderdaad binnen de europese unie maken en ? within^europe^. { within^europe^. 1.00000, different^eu^governments 1.00000 }        2.7890242719221
 binnen de europese unie maken en verhandelen ? european^union^is { european^union^is 1.00000 }        2.8082077679442
 de europese unie maken en verhandelen == ? is^incoherent^and { is^incoherent^and 1.00000 }        2.8310787524382
-TiMBL 6.4.2 (c) ILK 1998 - 2011.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Dec  1 10:09:00 2011
+Mon Feb 16 11:35:09 2015
 
 Examine datafile './tests/hapax.smalltrain' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/hapax.smalltrain
-Start:          0 @ Thu Dec  1 10:09:00 2011
-Finished:   28405 @ Thu Dec  1 10:09:01 2011
-Calculating Entropy         Thu Dec  1 10:09:01 2011
+Start:          0 @ Mon Feb 16 11:35:09 2015
+Finished:   28405 @ Mon Feb 16 11:35:10 2015
+Calculating Entropy         Mon Feb 16 11:35:10 2015
 Lines of data     : 28405
 DB Entropy        : 9.6917779
 Number of Classes : 4947
@@ -360,19 +360,19 @@ Feats	Vals	InfoGain	GainRatio
    13   4949	5.4111923	0.55835478
    14   4949	5.3881113	0.55597648
 
-Preparation took 0 seconds, 800 milliseconds and 920 microseconds
+Preparation took 0 seconds, 731 milliseconds and 724 microseconds
 Feature Permutation based on GainRatio/Values :
 < 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
 Phase 2: Building multi index on Datafile: ./tests/hapax.smalltrain
-Start:          0 @ Thu Dec  1 10:09:01 2011
-Finished:   28405 @ Thu Dec  1 10:09:02 2011
+Start:          0 @ Mon Feb 16 11:35:10 2015
+Finished:   28405 @ Mon Feb 16 11:35:10 2015
 
 Phase 3: Learning from Datafile: ./tests/hapax.smalltrain
-Start:          0 @ Thu Dec  1 10:09:02 2011
-Finished:   28405 @ Thu Dec  1 10:09:02 2011
+Start:          0 @ Mon Feb 16 11:35:10 2015
+Finished:   28405 @ Mon Feb 16 11:35:11 2015
 
 Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
-Learning took 1 seconds, 237 milliseconds and 841 microseconds
+Learning took 0 seconds, 806 milliseconds and 226 microseconds
 Examine datafile './tests/hapax.smalltest' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -401,7 +401,7 @@ Total Size of value-matrices 85680 Bytes
 
 Weighting     : GainRatio
 Feature 1	 : 0.556045835795306
-Feature 2	 : 0.558467880783746
+Feature 2	 : 0.558467880783747
 Feature 3	 : 0.560307560110388
 Feature 4	 : 0.567901848648317
 Feature 5	 : 0.575818740110730
@@ -415,34 +415,34 @@ Feature 12	 : 0.560245296566752
 Feature 13	 : 0.558354776963652
 Feature 14	 : 0.555976477380017
 Decay         : Inverse Linear Distance
-Tested:      1 @ Thu Dec  1 10:09:03 2011
-Tested:      2 @ Thu Dec  1 10:09:03 2011
-Tested:      3 @ Thu Dec  1 10:09:04 2011
-Tested:      4 @ Thu Dec  1 10:09:04 2011
-Tested:      5 @ Thu Dec  1 10:09:04 2011
-Tested:      6 @ Thu Dec  1 10:09:04 2011
-Tested:      7 @ Thu Dec  1 10:09:04 2011
-Tested:      8 @ Thu Dec  1 10:09:05 2011
-Tested:      9 @ Thu Dec  1 10:09:05 2011
-Tested:     10 @ Thu Dec  1 10:09:05 2011
-Ready:      86 @ Thu Dec  1 10:09:54 2011
-Seconds taken: 51.0569 (1.68 p/s)
+Tested:      1 @ Mon Feb 16 11:35:11 2015
+Tested:      2 @ Mon Feb 16 11:35:11 2015
+Tested:      3 @ Mon Feb 16 11:35:11 2015
+Tested:      4 @ Mon Feb 16 11:35:11 2015
+Tested:      5 @ Mon Feb 16 11:35:11 2015
+Tested:      6 @ Mon Feb 16 11:35:12 2015
+Tested:      7 @ Mon Feb 16 11:35:12 2015
+Tested:      8 @ Mon Feb 16 11:35:12 2015
+Tested:      9 @ Mon Feb 16 11:35:12 2015
+Tested:     10 @ Mon Feb 16 11:35:12 2015
+Ready:      86 @ Mon Feb 16 11:35:39 2015
+Seconds taken: 28.3842 (3.03 p/s)
 
 overall accuracy:        0.104651  (9/86)
-TiMBL 6.4.2 (c) ILK 1998 - 2011.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Dec  1 10:09:55 2011
+Mon Feb 16 11:35:40 2015
 
 Examine datafile './tests/hapax.smalltrain' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/hapax.smalltrain
-Start:          0 @ Thu Dec  1 10:09:55 2011
-Finished:   28405 @ Thu Dec  1 10:09:55 2011
-Calculating Entropy         Thu Dec  1 10:09:55 2011
+Start:          0 @ Mon Feb 16 11:35:40 2015
+Finished:   28405 @ Mon Feb 16 11:35:40 2015
+Calculating Entropy         Mon Feb 16 11:35:40 2015
 Lines of data     : 28405
 DB Entropy        : 9.6917779
 Number of Classes : 4947
@@ -463,19 +463,19 @@ Feats	Vals	InfoGain	GainRatio
    13   4949	5.4111923	0.55835478
    14   4949	5.3881113	0.55597648
 
-Preparation took 0 seconds, 800 milliseconds and 248 microseconds
+Preparation took 0 seconds, 539 milliseconds and 86 microseconds
 Feature Permutation based on GainRatio/Values :
 < 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
 Phase 2: Building multi index on Datafile: ./tests/hapax.smalltrain
-Start:          0 @ Thu Dec  1 10:09:55 2011
-Finished:   28405 @ Thu Dec  1 10:09:56 2011
+Start:          0 @ Mon Feb 16 11:35:40 2015
+Finished:   28405 @ Mon Feb 16 11:35:41 2015
 
 Phase 3: Learning from Datafile: ./tests/hapax.smalltrain
-Start:          0 @ Thu Dec  1 10:09:56 2011
-Finished:   28405 @ Thu Dec  1 10:09:57 2011
+Start:          0 @ Mon Feb 16 11:35:41 2015
+Finished:   28405 @ Mon Feb 16 11:35:41 2015
 
 Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
-Learning took 1 seconds, 231 milliseconds and 173 microseconds
+Learning took 0 seconds, 808 milliseconds and 68 microseconds
 Examine datafile './tests/hapax.smalltest' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -504,7 +504,7 @@ Total Size of value-matrices 85680 Bytes
 
 Weighting     : GainRatio
 Feature 1	 : 0.556045835795306
-Feature 2	 : 0.558467880783746
+Feature 2	 : 0.558467880783747
 Feature 3	 : 0.560307560110388
 Feature 4	 : 0.567901848648317
 Feature 5	 : 0.575818740110730
@@ -518,34 +518,34 @@ Feature 12	 : 0.560245296566752
 Feature 13	 : 0.558354776963652
 Feature 14	 : 0.555976477380017
 Decay         : Inverse Linear Distance
-Tested:      1 @ Thu Dec  1 10:09:59 2011
-Tested:      2 @ Thu Dec  1 10:09:59 2011
-Tested:      3 @ Thu Dec  1 10:09:59 2011
-Tested:      4 @ Thu Dec  1 10:09:59 2011
-Tested:      5 @ Thu Dec  1 10:09:59 2011
-Tested:      6 @ Thu Dec  1 10:09:59 2011
-Tested:      7 @ Thu Dec  1 10:10:00 2011
-Tested:      8 @ Thu Dec  1 10:10:00 2011
-Tested:      9 @ Thu Dec  1 10:10:00 2011
-Tested:     10 @ Thu Dec  1 10:10:01 2011
-Ready:      86 @ Thu Dec  1 10:10:38 2011
-Seconds taken: 39.6319 (2.17 p/s)
+Tested:      1 @ Mon Feb 16 11:35:42 2015
+Tested:      2 @ Mon Feb 16 11:35:42 2015
+Tested:      3 @ Mon Feb 16 11:35:42 2015
+Tested:      4 @ Mon Feb 16 11:35:42 2015
+Tested:      5 @ Mon Feb 16 11:35:42 2015
+Tested:      6 @ Mon Feb 16 11:35:42 2015
+Tested:      7 @ Mon Feb 16 11:35:42 2015
+Tested:      8 @ Mon Feb 16 11:35:42 2015
+Tested:      9 @ Mon Feb 16 11:35:42 2015
+Tested:     10 @ Mon Feb 16 11:35:43 2015
+Ready:      86 @ Mon Feb 16 11:36:02 2015
+Seconds taken: 19.8842 (4.33 p/s)
 
 overall accuracy:        0.104651  (9/86)
-TiMBL 6.4.2 (c) ILK 1998 - 2011.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Dec  1 10:10:39 2011
+Mon Feb 16 11:36:02 2015
 
 Examine datafile './tests/hapax.smalltrain' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/hapax.smalltrain
-Start:          0 @ Thu Dec  1 10:10:39 2011
-Finished:   28405 @ Thu Dec  1 10:10:40 2011
-Calculating Entropy         Thu Dec  1 10:10:40 2011
+Start:          0 @ Mon Feb 16 11:36:02 2015
+Finished:   28405 @ Mon Feb 16 11:36:03 2015
+Calculating Entropy         Mon Feb 16 11:36:03 2015
 Lines of data     : 28405
 DB Entropy        : 9.6917779
 Number of Classes : 4947
@@ -566,19 +566,19 @@ Feats	Vals	InfoGain	GainRatio
    13   4949	5.4111923	0.55835478
    14   4949	5.3881113	0.55597648
 
-Preparation took 0 seconds, 797 milliseconds and 974 microseconds
+Preparation took 1 seconds, 15 milliseconds and 549 microseconds
 Feature Permutation based on GainRatio/Values :
 < 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
 Phase 2: Building multi index on Datafile: ./tests/hapax.smalltrain
-Start:          0 @ Thu Dec  1 10:10:40 2011
-Finished:   28405 @ Thu Dec  1 10:10:40 2011
+Start:          0 @ Mon Feb 16 11:36:03 2015
+Finished:   28405 @ Mon Feb 16 11:36:03 2015
 
 Phase 3: Learning from Datafile: ./tests/hapax.smalltrain
-Start:          0 @ Thu Dec  1 10:10:40 2011
-Finished:   28405 @ Thu Dec  1 10:10:41 2011
+Start:          0 @ Mon Feb 16 11:36:03 2015
+Finished:   28405 @ Mon Feb 16 11:36:04 2015
 
 Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
-Learning took 1 seconds, 233 milliseconds and 840 microseconds
+Learning took 0 seconds, 805 milliseconds and 591 microseconds
 Examine datafile './tests/hapax.smalltest' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -607,7 +607,7 @@ Total Size of value-matrices 85680 Bytes
 
 Weighting     : GainRatio
 Feature 1	 : 0.556045835795306
-Feature 2	 : 0.558467880783746
+Feature 2	 : 0.558467880783747
 Feature 3	 : 0.560307560110388
 Feature 4	 : 0.567901848648317
 Feature 5	 : 0.575818740110730
@@ -621,18 +621,18 @@ Feature 12	 : 0.560245296566752
 Feature 13	 : 0.558354776963652
 Feature 14	 : 0.555976477380017
 Decay         : Inverse Linear Distance
-Tested:      1 @ Thu Dec  1 10:10:46 2011
-Tested:      2 @ Thu Dec  1 10:10:46 2011
-Tested:      3 @ Thu Dec  1 10:10:46 2011
-Tested:      4 @ Thu Dec  1 10:10:46 2011
-Tested:      5 @ Thu Dec  1 10:10:46 2011
-Tested:      6 @ Thu Dec  1 10:10:46 2011
-Tested:      7 @ Thu Dec  1 10:10:46 2011
-Tested:      8 @ Thu Dec  1 10:10:47 2011
-Tested:      9 @ Thu Dec  1 10:10:48 2011
-Tested:     10 @ Thu Dec  1 10:10:48 2011
-Ready:      86 @ Thu Dec  1 10:11:27 2011
-Seconds taken: 40.8111 (2.11 p/s)
+Tested:      1 @ Mon Feb 16 11:36:05 2015
+Tested:      2 @ Mon Feb 16 11:36:05 2015
+Tested:      3 @ Mon Feb 16 11:36:05 2015
+Tested:      4 @ Mon Feb 16 11:36:05 2015
+Tested:      5 @ Mon Feb 16 11:36:05 2015
+Tested:      6 @ Mon Feb 16 11:36:05 2015
+Tested:      7 @ Mon Feb 16 11:36:05 2015
+Tested:      8 @ Mon Feb 16 11:36:05 2015
+Tested:      9 @ Mon Feb 16 11:36:05 2015
+Tested:     10 @ Mon Feb 16 11:36:05 2015
+Ready:      86 @ Mon Feb 16 11:36:14 2015
+Seconds taken: 8.9591 (9.60 p/s)
 
 overall accuracy:        0.104651  (9/86)
 _ _ _ _ _ _ _ _ _ _ _ _ _ CHAPTER _ _ { _ 1.56853 }        0.55597647738002
@@ -694,7 +694,7 @@ reading , but it had no pictures conversations in it , ` and what or in { of 0.3
 but it had no pictures or conversations it , ` and what is the in Tuesday { . 0.506239, Tuesday 1.00000 }        5.7050900170802
 it had no pictures or conversations in , ` and what is the use it the { the 1.00000, evening 0.0753445 }        5.5971884538066
 had no pictures or conversations in it ` and what is the use of , said { Tuesday 0.260270, said 1.00000 }        5.8624560397033
-no pictures or conversations in it , and what is the use of a ` Compuserve { Paraguay 0.729031, Compuserve 2.00000 }        5.1696028492103
+no pictures or conversations in it , and what is the use of a ` Compuserve { Paraguay 0.729031, Compuserve 2.00000 }        5.1696028492104
 pictures or conversations in it , ` what is the use of a book and 3.0 { this 0.302299, 3.0 2.00000 }        5.1841125569861
 or conversations in it , ` and is the use of a book , what , { , 2.00000, Uruguay 0.0892584 }        5.0852617300014
 conversations in it , ` and what the use of a book , ' is and { and 2.00000, from 0.482458 }        5.1692901117311

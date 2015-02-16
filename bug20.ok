@@ -1,14 +1,13 @@
-TiMBL 6.3.1 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Oct 28 18:16:10 2010
+Mon Feb 16 11:33:50 2015
 
 Starting Cross validation test on files:
 ./test_cv/dummy_data.dat_1
 ./test_cv/dummy_data.dat_2
 ./test_cv/dummy_data.dat_3
-Preparation took 0 seconds, 0 milliseconds and 100 microseconds
 Reading weights from test_cv/test_weights
 Examine datafile './test_cv/dummy_data.dat_1' gave the following results:
 Number of Features: 3
@@ -38,12 +37,12 @@ Feature 1	 : 0.738064654828046
 Feature 2	 : 0.822144954051390
 Feature 3	 : 0.615027758167667
 
-Tested:      1 @ Thu Oct 28 18:16:10 2010
-Tested:      2 @ Thu Oct 28 18:16:10 2010
-Tested:      3 @ Thu Oct 28 18:16:10 2010
-Tested:      4 @ Thu Oct 28 18:16:10 2010
-Ready:       4 @ Thu Oct 28 18:16:10 2010
-Seconds taken: 0.0002 (18181.82 p/s)
+Tested:      1 @ Mon Feb 16 11:33:50 2015
+Tested:      2 @ Mon Feb 16 11:33:50 2015
+Tested:      3 @ Mon Feb 16 11:33:50 2015
+Tested:      4 @ Mon Feb 16 11:33:50 2015
+Ready:       4 @ Mon Feb 16 11:33:50 2015
+Seconds taken: 0.0002 (20833.33 p/s)
 
 overall accuracy:        0.000000  (0/4)
 There were 2 ties of which 0 (0.00%) were correctly resolved
@@ -76,12 +75,12 @@ Feature 1	 : 0.738064654828046
 Feature 2	 : 0.822144954051390
 Feature 3	 : 0.615027758167667
 
-Tested:      1 @ Thu Oct 28 18:16:10 2010
-Tested:      2 @ Thu Oct 28 18:16:10 2010
-Tested:      3 @ Thu Oct 28 18:16:10 2010
-Tested:      4 @ Thu Oct 28 18:16:10 2010
-Ready:       4 @ Thu Oct 28 18:16:10 2010
-Seconds taken: 0.0003 (11764.71 p/s)
+Tested:      1 @ Mon Feb 16 11:33:50 2015
+Tested:      2 @ Mon Feb 16 11:33:50 2015
+Tested:      3 @ Mon Feb 16 11:33:50 2015
+Tested:      4 @ Mon Feb 16 11:33:50 2015
+Ready:       4 @ Mon Feb 16 11:33:50 2015
+Seconds taken: 0.0002 (26315.79 p/s)
 
 overall accuracy:        0.000000  (0/4), of which 1 exact matches 
 There was 1 tie of which 0 (0.00%) was correctly resolved
@@ -114,26 +113,25 @@ Feature 1	 : 0.738064654828046
 Feature 2	 : 0.822144954051390
 Feature 3	 : 0.615027758167667
 
-Tested:      1 @ Thu Oct 28 18:16:10 2010
-Tested:      2 @ Thu Oct 28 18:16:10 2010
-Tested:      3 @ Thu Oct 28 18:16:10 2010
-Tested:      4 @ Thu Oct 28 18:16:10 2010
-Ready:       4 @ Thu Oct 28 18:16:10 2010
-Seconds taken: 0.0003 (11730.21 p/s)
+Tested:      1 @ Mon Feb 16 11:33:50 2015
+Tested:      2 @ Mon Feb 16 11:33:50 2015
+Tested:      3 @ Mon Feb 16 11:33:50 2015
+Tested:      4 @ Mon Feb 16 11:33:50 2015
+Ready:       4 @ Mon Feb 16 11:33:50 2015
+Seconds taken: 0.0001 (26845.64 p/s)
 
 overall accuracy:        0.000000  (0/4), of which 2 exact matches 
 There were 4 ties of which 0 (0.00%) were correctly resolved
-TiMBL 6.3.1 (c) ILK 1998 - 2010.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Oct 28 18:16:10 2010
+Mon Feb 16 11:33:50 2015
 
 Starting Cross validation test on files:
 ./test_cv/dummy_data.dat_1
 ./test_cv/dummy_data.dat_2
 ./test_cv/dummy_data.dat_3
-Preparation took 0 seconds, 0 milliseconds and 86 microseconds
 Reading Probability Arrays from test_cv/bug20.probs
 Examine datafile './test_cv/dummy_data.dat_1' gave the following results:
 Number of Features: 3
@@ -159,16 +157,16 @@ Size of value-matrix[3] = 48 Bytes
 Total Size of value-matrices 144 Bytes 
 
 Weighting     : GainRatio
-Feature 1	 : 0.738064654828046
+Feature 1	 : 0.738064654828047
 Feature 2	 : 0.822144954051390
 Feature 3	 : 0.615027758167667
 
-Tested:      1 @ Thu Oct 28 18:16:10 2010
-Tested:      2 @ Thu Oct 28 18:16:10 2010
-Tested:      3 @ Thu Oct 28 18:16:10 2010
-Tested:      4 @ Thu Oct 28 18:16:10 2010
-Ready:       4 @ Thu Oct 28 18:16:10 2010
-Seconds taken: 0.0002 (19138.76 p/s)
+Tested:      1 @ Mon Feb 16 11:33:50 2015
+Tested:      2 @ Mon Feb 16 11:33:50 2015
+Tested:      3 @ Mon Feb 16 11:33:50 2015
+Tested:      4 @ Mon Feb 16 11:33:50 2015
+Ready:       4 @ Mon Feb 16 11:33:50 2015
+Seconds taken: 0.0002 (22222.22 p/s)
 
 overall accuracy:        0.000000  (0/4), of which 1 exact matches 
 There were 3 ties of which 0 (0.00%) were correctly resolved
@@ -201,12 +199,12 @@ Feature 1	 : 0.750000000000000
 Feature 2	 : 0.807513879083833
 Feature 3	 : 1.000000000000000
 
-Tested:      1 @ Thu Oct 28 18:16:10 2010
-Tested:      2 @ Thu Oct 28 18:16:10 2010
-Tested:      3 @ Thu Oct 28 18:16:10 2010
-Tested:      4 @ Thu Oct 28 18:16:10 2010
-Ready:       4 @ Thu Oct 28 18:16:10 2010
-Seconds taken: 0.0003 (13157.89 p/s)
+Tested:      1 @ Mon Feb 16 11:33:50 2015
+Tested:      2 @ Mon Feb 16 11:33:50 2015
+Tested:      3 @ Mon Feb 16 11:33:50 2015
+Tested:      4 @ Mon Feb 16 11:33:50 2015
+Ready:       4 @ Mon Feb 16 11:33:50 2015
+Seconds taken: 0.0001 (29197.08 p/s)
 
 overall accuracy:        0.250000  (1/4), of which 2 exact matches 
 Reading Probability Arrays from test_cv/bug20.probs
@@ -238,12 +236,12 @@ Feature 1	 : 1.000000000000000
 Feature 2	 : 0.500000000000000
 Feature 3	 : 0.839874782024115
 
-Tested:      1 @ Thu Oct 28 18:16:10 2010
-Tested:      2 @ Thu Oct 28 18:16:10 2010
-Tested:      3 @ Thu Oct 28 18:16:10 2010
-Tested:      4 @ Thu Oct 28 18:16:10 2010
-Ready:       4 @ Thu Oct 28 18:16:10 2010
-Seconds taken: 0.0003 (13071.90 p/s)
+Tested:      1 @ Mon Feb 16 11:33:50 2015
+Tested:      2 @ Mon Feb 16 11:33:50 2015
+Tested:      3 @ Mon Feb 16 11:33:50 2015
+Tested:      4 @ Mon Feb 16 11:33:50 2015
+Ready:       4 @ Mon Feb 16 11:33:50 2015
+Seconds taken: 0.0001 (28985.51 p/s)
 
 overall accuracy:        0.000000  (0/4), of which 2 exact matches 
 There were 2 ties of which 0 (0.00%) were correctly resolved

@@ -1,8 +1,8 @@
-TiMBL 6.4.3 (c) ILK 1998 - 2012.
+TiMBL 6.4.6 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Apr 11 16:20:22 2012
+Mon Feb 16 11:30:27 2015
 
 usage: timbl -f data-file {-t test-file} [options]
 Algorithm and Metric options:
@@ -59,7 +59,7 @@ Input options:
 -f f      : read from Datafile 'f'
 -f f      : OR: use filenames from 'f' for CV test
 -F format : Assume the specified inputformat
-            (Compact, C4.5, ARFF, Columns, Binary, Sparse )
+            (Compact, C4.5, ARFF, Columns, Tabbed, Binary, Sparse )
 -l n      : length of Features (Compact format only)
 -i f      : read the InstanceBase from file 'f' (skips phase 1 & 2 )
 --matrixin=<f> read ValueDifference Matrices from file 'f'
@@ -99,7 +99,7 @@ Output options:
   You may combine levels using '+' e.g. +v p+db or -v o+di
 -G        : normalize distibutions (+vdb option only)
     Probability    : normalize between 0 and 1
-             O     : does the same 
+             0     : does the same 
     addFactor:<f>  : add f to all possible targets
                      then normalize between 0 and 1 (default f=1.0)
              1:<f> : does the same
