@@ -3,6 +3,15 @@
 # defaults:
 #
 
+if test "$api_bin" = "";
+then api_bin="../timbl/demos/"
+fi
+
+if [ ! -d $api_bin ]
+then echo "api_bin not set"
+exit
+fi
+
 exec="$VG $api_bin"
 
 $exec/api_test1
@@ -14,7 +23,7 @@ cat < my_second_test.out
 $exec/api_test3
 
 $exec/api_test4
-cat < inc3.out 
+cat < inc3.out
 
 $exec/api_test5
 
