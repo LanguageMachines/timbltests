@@ -1,17 +1,17 @@
-TiMBL 6.4.3 (c) ILK 1998 - 2012.
+TiMBL 6.4.7 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Apr 11 15:56:48 2012
+Mon Nov 23 14:24:23 2015
 
 Examine datafile './tests/example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/example.train
-Start:          0 @ Wed Apr 11 15:56:48 2012
-Finished:      29 @ Wed Apr 11 15:56:48 2012
-Calculating Entropy         Wed Apr 11 15:56:48 2012
+Start:          0 @ Mon Nov 23 14:24:23 2015
+Finished:      29 @ Mon Nov 23 14:24:23 2015
+Calculating Entropy         Mon Nov 23 14:24:23 2015
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -21,20 +21,20 @@ Feats	Vals	X-square	Variance	InfoGain	GainRatio
     2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
     3      4	1.7745197	0.061190335	0.044887336	0.023802575
 
-Preparation took 0 seconds, 0 milliseconds and 291 microseconds
+Preparation took 0 seconds, 0 milliseconds and 82 microseconds
 Saving Weights in /tmp/test.wgths
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 2 >
 Phase 2: Building multi index on Datafile: ./tests/example.train
-Start:          0 @ Wed Apr 11 15:56:48 2012
-Finished:      29 @ Wed Apr 11 15:56:48 2012
+Start:          0 @ Mon Nov 23 14:24:23 2015
+Finished:      29 @ Mon Nov 23 14:24:23 2015
 
 Phase 3: Learning from Datafile: ./tests/example.train
-Start:          0 @ Wed Apr 11 15:56:48 2012
-Finished:      29 @ Wed Apr 11 15:56:48 2012
+Start:          0 @ Mon Nov 23 14:24:23 2015
+Finished:      29 @ Mon Nov 23 14:24:23 2015
 
 Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
-Learning took 0 seconds, 0 milliseconds and 457 microseconds
+Learning took 0 seconds, 0 milliseconds and 93 microseconds
 Reading weights from /tmp/test.wgths
 Examine datafile './tests/example.test' gave the following results:
 Number of Features: 3
@@ -56,17 +56,17 @@ Feature 1	 : 1.000000000000000
 Feature 2	 : 1.000000000000000
 Feature 3	 : 1.000000000000000
 
-Tested:      1 @ Wed Apr 11 15:56:48 2012
-Tested:      2 @ Wed Apr 11 15:56:48 2012
+Tested:      1 @ Mon Nov 23 14:24:23 2015
+Tested:      2 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Wed Apr 11 15:56:48 2012
+Tested:      3 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Wed Apr 11 15:56:48 2012
-Tested:      5 @ Wed Apr 11 15:56:48 2012
-Ready:       5 @ Wed Apr 11 15:56:48 2012
-Seconds taken: 0.0003 (17421.60 p/s)
+Tested:      4 @ Mon Nov 23 14:24:23 2015
+Tested:      5 @ Mon Nov 23 14:24:23 2015
+Ready:       5 @ Mon Nov 23 14:24:23 2015
+Seconds taken: 0.0001 (51546.39 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 Reading weights from /tmp/test.wgths
@@ -90,20 +90,20 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.023802575094251
 
-Tested:      1 @ Wed Apr 11 15:56:48 2012
-Tested:      2 @ Wed Apr 11 15:56:48 2012
+Tested:      1 @ Mon Nov 23 14:24:23 2015
+Tested:      2 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Wed Apr 11 15:56:48 2012
+Tested:      3 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Wed Apr 11 15:56:48 2012
-Tested:      5 @ Wed Apr 11 15:56:48 2012
-Ready:       5 @ Wed Apr 11 15:56:48 2012
-Seconds taken: 0.0002 (23148.15 p/s)
+Tested:      4 @ Mon Nov 23 14:24:23 2015
+Tested:      5 @ Mon Nov 23 14:24:23 2015
+Ready:       5 @ Mon Nov 23 14:24:23 2015
+Seconds taken: 0.0001 (96153.85 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
-invalid weighting option: 
+option-error: missing value for option 'w'
 Warning: Skipped a line from indirect testfile:
 '-t ./tests/example.test -w -mM:O2'
 Reading weights from /tmp/test.wgths
@@ -127,22 +127,22 @@ Feature 1	 : 0.211556564857227
 Feature 2	 : 0.006044814088628
 Feature 3	 : 0.044887335693993
 
-Tested:      1 @ Wed Apr 11 15:56:48 2012
-Tested:      2 @ Wed Apr 11 15:56:48 2012
+Tested:      1 @ Mon Nov 23 14:24:23 2015
+Tested:      2 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Wed Apr 11 15:56:48 2012
+Tested:      3 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Wed Apr 11 15:56:48 2012
-Tested:      5 @ Wed Apr 11 15:56:48 2012
-Ready:       5 @ Wed Apr 11 15:56:48 2012
-Seconds taken: 0.0003 (17793.59 p/s)
+Tested:      4 @ Mon Nov 23 14:24:23 2015
+Tested:      5 @ Mon Nov 23 14:24:23 2015
+Ready:       5 @ Mon Nov 23 14:24:23 2015
+Seconds taken: 0.0001 (45045.05 p/s)
 
 overall accuracy:        0.800000  (4/5), of which 2 exact matches 
+option-error: spurious value: './tests/example.test' in options
 Warning: Skipped a line from indirect testfile:
 '-w2 ./tests/example.test -mM'
-missing a Testfile name 
 Reading weights from /tmp/test.wgths
 Examine datafile './tests/example.test' gave the following results:
 Number of Features: 3
@@ -159,17 +159,17 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.023802575094251
 
-Tested:      1 @ Wed Apr 11 15:56:48 2012
-Tested:      2 @ Wed Apr 11 15:56:48 2012
+Tested:      1 @ Mon Nov 23 14:24:23 2015
+Tested:      2 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Wed Apr 11 15:56:48 2012
+Tested:      3 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Wed Apr 11 15:56:48 2012
-Tested:      5 @ Wed Apr 11 15:56:48 2012
-Ready:       5 @ Wed Apr 11 15:56:48 2012
-Seconds taken: 0.0002 (23041.47 p/s)
+Tested:      4 @ Mon Nov 23 14:24:23 2015
+Tested:      5 @ Mon Nov 23 14:24:23 2015
+Ready:       5 @ Mon Nov 23 14:24:23 2015
+Seconds taken: 0.0001 (72463.77 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 Examine datafile './tests/example.test' gave the following results:
@@ -187,17 +187,17 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.023802575094251
 
-Tested:      1 @ Wed Apr 11 15:56:48 2012
-Tested:      2 @ Wed Apr 11 15:56:48 2012
+Tested:      1 @ Mon Nov 23 14:24:23 2015
+Tested:      2 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Wed Apr 11 15:56:48 2012
+Tested:      3 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Wed Apr 11 15:56:48 2012
-Tested:      5 @ Wed Apr 11 15:56:48 2012
-Ready:       5 @ Wed Apr 11 15:56:48 2012
-Seconds taken: 0.0002 (22222.22 p/s)
+Tested:      4 @ Mon Nov 23 14:24:23 2015
+Tested:      5 @ Mon Nov 23 14:24:23 2015
+Ready:       5 @ Mon Nov 23 14:24:23 2015
+Seconds taken: 0.0001 (92592.59 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 Examine datafile './tests/example.test' gave the following results:
@@ -249,17 +249,17 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : User Defined  (/tmp/test.wgths)
 
-Tested:      1 @ Wed Apr 11 15:56:48 2012
-Tested:      2 @ Wed Apr 11 15:56:48 2012
+Tested:      1 @ Mon Nov 23 14:24:23 2015
+Tested:      2 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Wed Apr 11 15:56:48 2012
+Tested:      3 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Wed Apr 11 15:56:48 2012
-Tested:      5 @ Wed Apr 11 15:56:48 2012
-Ready:       5 @ Wed Apr 11 15:56:48 2012
-Seconds taken: 0.0002 (22321.43 p/s)
+Tested:      4 @ Mon Nov 23 14:24:23 2015
+Tested:      5 @ Mon Nov 23 14:24:23 2015
+Ready:       5 @ Mon Nov 23 14:24:23 2015
+Seconds taken: 0.0001 (80645.16 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 Examine datafile './tests/example.test' gave the following results:
@@ -311,17 +311,17 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : User Defined  (/tmp/test.wgths)
 
-Tested:      1 @ Wed Apr 11 15:56:48 2012
-Tested:      2 @ Wed Apr 11 15:56:48 2012
+Tested:      1 @ Mon Nov 23 14:24:23 2015
+Tested:      2 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Wed Apr 11 15:56:48 2012
+Tested:      3 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Wed Apr 11 15:56:48 2012
-Tested:      5 @ Wed Apr 11 15:56:48 2012
-Ready:       5 @ Wed Apr 11 15:56:48 2012
-Seconds taken: 0.0002 (20920.50 p/s)
+Tested:      4 @ Mon Nov 23 14:24:23 2015
+Tested:      5 @ Mon Nov 23 14:24:23 2015
+Ready:       5 @ Mon Nov 23 14:24:23 2015
+Seconds taken: 0.0001 (70422.54 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 Examine datafile './tests/example.test' gave the following results:
@@ -373,17 +373,17 @@ Global metric : Overlap, prefering exact matches
 Deviant Feature Metrics:(none)
 Weighting     : User Defined  (/tmp/test.wgths)
 
-Tested:      1 @ Wed Apr 11 15:56:48 2012
-Tested:      2 @ Wed Apr 11 15:56:48 2012
+Tested:      1 @ Mon Nov 23 14:24:23 2015
+Tested:      2 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Wed Apr 11 15:56:48 2012
+Tested:      3 @ Mon Nov 23 14:24:23 2015
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Wed Apr 11 15:56:48 2012
-Tested:      5 @ Wed Apr 11 15:56:48 2012
-Ready:       5 @ Wed Apr 11 15:56:48 2012
-Seconds taken: 0.0002 (22123.89 p/s)
+Tested:      4 @ Mon Nov 23 14:24:23 2015
+Tested:      5 @ Mon Nov 23 14:24:23 2015
+Ready:       5 @ Mon Nov 23 14:24:23 2015
+Seconds taken: 0.0001 (90909.09 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 C,rood,3,+,-        0.0000000000000

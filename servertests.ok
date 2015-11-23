@@ -1,19 +1,19 @@
 Testing Servers
-TiMBL Server 1.10-NT (c) ILK 1998 - 2015.
+TiMBL Server 0.10 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.4.6
-Wed Oct 14 11:46:08 2015
-20151014:114608:063:timblserver:trainName = ./tests/dimin.train
+based on timbl 6.4.7
+Mon Nov 23 14:36:18 2015
+20151123:143618:588:timblserver:trainName = ./tests/dimin.train
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -default-Phase 1: Reading Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:46:08 2015
--default-Finished:    2999 @ Wed Oct 14 11:46:08 2015
--default-Calculating Entropy         Wed Oct 14 11:46:08 2015
+-default-Start:          0 @ Mon Nov 23 14:36:18 2015
+-default-Finished:    2999 @ Mon Nov 23 14:36:18 2015
+-default-Calculating Entropy         Mon Nov 23 14:36:18 2015
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -32,22 +32,22 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--default-Preparation took 0 seconds, 20 milliseconds and 795 microseconds
+-default-Preparation took 0 seconds, 6 milliseconds and 669 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -default-Phase 2: Building multi index on Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:46:08 2015
--default-Finished:    2999 @ Wed Oct 14 11:46:08 2015
+-default-Start:          0 @ Mon Nov 23 14:36:18 2015
+-default-Finished:    2999 @ Mon Nov 23 14:36:18 2015
 -default-
 Phase 3: Learning from Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:46:08 2015
--default-Finished:    2999 @ Wed Oct 14 11:46:08 2015
+-default-Start:          0 @ Mon Nov 23 14:36:18 2015
+-default-Finished:    2999 @ Mon Nov 23 14:36:18 2015
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--default-Learning took 0 seconds, 52 milliseconds and 476 microseconds
-20151014:114608:151:timblserver:started experiment default with parameters: -f./tests/dimin.train +vF -vS 
-20151014:114608:151:timblserver:Starting a tcp server on port 17345
-20151014:114608:152:timblserver:switching logging to file /tmp/server1.log
+-default-Learning took 0 seconds, 15 milliseconds and 420 microseconds
+20151123:143618:614:timblserver:started experiment default with parameters: -f./tests/dimin.train +vF -vS
+20151123:143618:615:timblserver:Starting a tcp server on port 17345
+20151123:143618:615:timblserver:switching logging to file /tmp/server1.log
 Starting Client on node:localhost.localdomain, port:17345
 ERROR { Unknown basename: dimin0}
 STATUS
@@ -179,8 +179,8 @@ CATEGORY {T} DISTRIBUTION { T 2.00000 } DISTANCE {0.0428446} MATCH_DEPTH {12} NE
 #	=,=,=,=,=,=,=,=,+,x,e,w,{ T 1.00000 }
 #	=,=,=,=,=,=,=,=,+,m,e,w,{ T 1.00000 }
 ENDNEIGHBORS
-ERROR { Illegal option, -M, only the following options are allowed: C d G k l L p Q v x  }
-OK
+ERROR { option-error: invalid option 'M': valid options: C:d:G::k:l:L:p:q:v:x }
+ERROR { A preceding error prevents any operation on this Timbl Object
 reading input from: ./tests/dimin.test
 writing output to: /tmp/dimin2-1.out
 Starting Client on node:localhost.localdomain, port:17345
@@ -1176,106 +1176,106 @@ Starting Client on node:localhost.localdomain, port:17345
 =,=,=,=,-,x,A,r,+,n,a,l,T --> CATEGORY {T}
 =,=,=,=,=,=,=,=,+,h,o,rn,T --> CATEGORY {T}
 +,k,o,=,-,n,I,Ns,-,k,a,rs,J --> CATEGORY {J}
-20151014:114608:152:timblserver:Started logging 
-20151014:114608:152:timblserver:debugging is off
-20151014:114608:152:timblserver:running as a dæmon
-20151014:114608:153:timblserver:wrote PID=16844 to /tmp/run/pid1
-20151014:114608:153:timblserver:Starting Server on port:17345
-20151014:114628:077:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114628:078:timblserver:Thread 140340870440704 on socket 5, started at: Wed Oct 14 11:46:28 2015
-20151014:114629:139:timblserver:Thread 140340870440704 terminated, 13 instances processed 
-20151014:114629:139:timblserver:Socket total = 0
-20151014:114629:139:timblserver:Thread 140340870440704, terminated at: Wed Oct 14 11:46:29 2015
-20151014:114629:148:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114629:148:timblserver:Thread 140340870440704 on socket 6, started at: Wed Oct 14 11:46:29 2015
-20151014:114630:524:timblserver:Thread 140340870440704 terminated, 950 instances processed 
-20151014:114630:524:timblserver:Socket total = 0
-20151014:114630:524:timblserver:Thread 140340870440704, terminated at: Wed Oct 14 11:46:30 2015
-20151014:114630:530:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114630:530:timblserver:Thread 140340870440704 on socket 5, started at: Wed Oct 14 11:46:30 2015
-20151014:114631:913:timblserver:Thread 140340870440704 terminated, 950 instances processed 
-20151014:114631:913:timblserver:Socket total = 0
-20151014:114631:913:timblserver:Thread 140340870440704, terminated at: Wed Oct 14 11:46:31 2015
-20151014:114631:919:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114631:919:timblserver:Thread 140340870440704 on socket 6, started at: Wed Oct 14 11:46:31 2015
-20151014:114633:296:timblserver:Thread 140340870440704 terminated, 950 instances processed 
-20151014:114633:296:timblserver:Socket total = 0
-20151014:114633:296:timblserver:Thread 140340870440704, terminated at: Wed Oct 14 11:46:33 2015
-20151014:114633:302:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114633:302:timblserver:Thread 140340870440704 on socket 5, started at: Wed Oct 14 11:46:33 2015
-20151014:114634:305:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114634:306:timblserver:Thread 140340862048000 on socket 6, started at: Wed Oct 14 11:46:34 2015
-20151014:114634:464:timblserver:Thread 140340870440704 terminated, 950 instances processed 
-20151014:114634:464:timblserver:Socket total = 1
-20151014:114634:464:timblserver:Thread 140340870440704, terminated at: Wed Oct 14 11:46:34 2015
-20151014:114635:310:timblserver:Accepting Connection #7 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114635:310:timblserver:Thread 140340870440704 on socket 7, started at: Wed Oct 14 11:46:35 2015
-20151014:114635:527:timblserver:Thread 140340862048000 terminated, 950 instances processed 
-20151014:114635:527:timblserver:Socket total = 1
-20151014:114635:527:timblserver:Thread 140340862048000, terminated at: Wed Oct 14 11:46:35 2015
-20151014:114636:315:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114636:324:timblserver:Thread 140340862048000 on socket 5, started at: Wed Oct 14 11:46:36 2015
-20151014:114636:515:timblserver:Thread 140340870440704 terminated, 950 instances processed 
-20151014:114636:515:timblserver:Socket total = 1
-20151014:114636:515:timblserver:Thread 140340870440704, terminated at: Wed Oct 14 11:46:36 2015
-20151014:114637:318:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114637:318:timblserver:Thread 140340870440704 on socket 6, started at: Wed Oct 14 11:46:37 2015
-20151014:114637:553:timblserver:Thread 140340862048000 terminated, 950 instances processed 
-20151014:114637:553:timblserver:Socket total = 1
-20151014:114637:553:timblserver:Thread 140340862048000, terminated at: Wed Oct 14 11:46:37 2015
-20151014:114638:318:timblserver:Accepting Connection #7 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114638:318:timblserver:Thread 140340862048000 on socket 7, started at: Wed Oct 14 11:46:38 2015
-20151014:114638:540:timblserver:Thread 140340870440704 terminated, 950 instances processed 
-20151014:114638:540:timblserver:Socket total = 1
-20151014:114638:541:timblserver:Thread 140340870440704, terminated at: Wed Oct 14 11:46:38 2015
-20151014:114639:324:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114639:324:timblserver:Thread 140340870440704 on socket 5, started at: Wed Oct 14 11:46:39 2015
-20151014:114639:545:timblserver:Thread 140340862048000 terminated, 950 instances processed 
-20151014:114639:545:timblserver:Socket total = 1
-20151014:114639:545:timblserver:Thread 140340862048000, terminated at: Wed Oct 14 11:46:39 2015
-20151014:114640:327:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114640:327:timblserver:Thread 140340862048000 on socket 6, started at: Wed Oct 14 11:46:40 2015
-20151014:114640:553:timblserver:Thread 140340870440704 terminated, 950 instances processed 
-20151014:114640:553:timblserver:Socket total = 1
-20151014:114640:553:timblserver:Thread 140340870440704, terminated at: Wed Oct 14 11:46:40 2015
-20151014:114641:329:timblserver:Accepting Connection #7 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114641:332:timblserver:Thread 140340870440704 on socket 7, started at: Wed Oct 14 11:46:41 2015
-20151014:114641:553:timblserver:Thread 140340862048000 terminated, 950 instances processed 
-20151014:114641:553:timblserver:Socket total = 1
-20151014:114641:553:timblserver:Thread 140340862048000, terminated at: Wed Oct 14 11:46:41 2015
-20151014:114642:338:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114642:339:timblserver:Thread 140340862048000 on socket 5, started at: Wed Oct 14 11:46:42 2015
-20151014:114642:564:timblserver:Thread 140340870440704 terminated, 950 instances processed 
-20151014:114642:564:timblserver:Socket total = 1
-20151014:114642:564:timblserver:Thread 140340870440704, terminated at: Wed Oct 14 11:46:42 2015
-20151014:114643:347:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114643:347:timblserver:Thread 140340870440704 on socket 6, started at: Wed Oct 14 11:46:43 2015
-20151014:114643:557:timblserver:Thread 140340862048000 terminated, 950 instances processed 
-20151014:114643:557:timblserver:Socket total = 1
-20151014:114643:557:timblserver:Thread 140340862048000, terminated at: Wed Oct 14 11:46:43 2015
-20151014:114644:342:timblserver:Accepting Connection #7 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114644:342:timblserver:Thread 140340862048000 on socket 7, started at: Wed Oct 14 11:46:44 2015
-20151014:114644:583:timblserver:Thread 140340870440704 terminated, 950 instances processed 
-20151014:114644:583:timblserver:Socket total = 1
-20151014:114644:583:timblserver:Thread 140340870440704, terminated at: Wed Oct 14 11:46:44 2015
-20151014:114645:584:timblserver:Thread 140340862048000 terminated, 950 instances processed 
-20151014:114645:584:timblserver:Socket total = 0
-20151014:114645:584:timblserver:Thread 140340862048000, terminated at: Wed Oct 14 11:46:45 2015
-TiMBL Server 1.10-NT (c) ILK 1998 - 2015.
+20151123:143618:615:timblserver:Started logging 
+20151123:143618:615:timblserver:debugging is off
+20151123:143618:615:timblserver:running as a dæmon
+20151123:143618:615:timblserver:wrote PID=27560 to /tmp/run/pid1
+20151123:143618:615:timblserver:Starting Server on port:17345
+20151123:143628:589:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143628:589:timblserver:Thread 139928221820672 on socket 5, started at: Mon Nov 23 14:36:28 2015
+20151123:143629:603:timblserver:Thread 139928221820672 terminated, 13 instances processed 
+20151123:143629:603:timblserver:Socket total = 0
+20151123:143629:603:timblserver:Thread 139928221820672, terminated at: Mon Nov 23 14:36:29 2015
+20151123:143629:607:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143629:607:timblserver:Thread 139928221820672 on socket 6, started at: Mon Nov 23 14:36:29 2015
+20151123:143630:651:timblserver:Thread 139928221820672 terminated, 950 instances processed 
+20151123:143630:651:timblserver:Socket total = 0
+20151123:143630:651:timblserver:Thread 139928221820672, terminated at: Mon Nov 23 14:36:30 2015
+20151123:143630:653:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143630:653:timblserver:Thread 139928221820672 on socket 5, started at: Mon Nov 23 14:36:30 2015
+20151123:143631:697:timblserver:Thread 139928221820672 terminated, 950 instances processed 
+20151123:143631:697:timblserver:Socket total = 0
+20151123:143631:697:timblserver:Thread 139928221820672, terminated at: Mon Nov 23 14:36:31 2015
+20151123:143631:699:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143631:699:timblserver:Thread 139928221820672 on socket 6, started at: Mon Nov 23 14:36:31 2015
+20151123:143632:745:timblserver:Thread 139928221820672 terminated, 950 instances processed 
+20151123:143632:745:timblserver:Socket total = 0
+20151123:143632:745:timblserver:Thread 139928221820672, terminated at: Mon Nov 23 14:36:32 2015
+20151123:143632:747:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143632:748:timblserver:Thread 139928221820672 on socket 5, started at: Mon Nov 23 14:36:32 2015
+20151123:143633:749:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143633:749:timblserver:Thread 139928213427968 on socket 6, started at: Mon Nov 23 14:36:33 2015
+20151123:143633:793:timblserver:Thread 139928221820672 terminated, 950 instances processed 
+20151123:143633:793:timblserver:Socket total = 1
+20151123:143633:793:timblserver:Thread 139928221820672, terminated at: Mon Nov 23 14:36:33 2015
+20151123:143634:750:timblserver:Accepting Connection #7 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143634:750:timblserver:Thread 139928221820672 on socket 7, started at: Mon Nov 23 14:36:34 2015
+20151123:143634:793:timblserver:Thread 139928213427968 terminated, 950 instances processed 
+20151123:143634:793:timblserver:Socket total = 1
+20151123:143634:793:timblserver:Thread 139928213427968, terminated at: Mon Nov 23 14:36:34 2015
+20151123:143635:750:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143635:751:timblserver:Thread 139928213427968 on socket 5, started at: Mon Nov 23 14:36:35 2015
+20151123:143635:793:timblserver:Thread 139928221820672 terminated, 950 instances processed 
+20151123:143635:793:timblserver:Socket total = 1
+20151123:143635:793:timblserver:Thread 139928221820672, terminated at: Mon Nov 23 14:36:35 2015
+20151123:143636:752:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143636:752:timblserver:Thread 139928221820672 on socket 6, started at: Mon Nov 23 14:36:36 2015
+20151123:143636:797:timblserver:Thread 139928213427968 terminated, 950 instances processed 
+20151123:143636:797:timblserver:Socket total = 1
+20151123:143636:797:timblserver:Thread 139928213427968, terminated at: Mon Nov 23 14:36:36 2015
+20151123:143637:755:timblserver:Accepting Connection #7 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143637:755:timblserver:Thread 139928213427968 on socket 7, started at: Mon Nov 23 14:36:37 2015
+20151123:143637:795:timblserver:Thread 139928221820672 terminated, 950 instances processed 
+20151123:143637:795:timblserver:Socket total = 1
+20151123:143637:795:timblserver:Thread 139928221820672, terminated at: Mon Nov 23 14:36:37 2015
+20151123:143638:755:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143638:755:timblserver:Thread 139928221820672 on socket 5, started at: Mon Nov 23 14:36:38 2015
+20151123:143638:798:timblserver:Thread 139928213427968 terminated, 950 instances processed 
+20151123:143638:798:timblserver:Socket total = 1
+20151123:143638:798:timblserver:Thread 139928213427968, terminated at: Mon Nov 23 14:36:38 2015
+20151123:143639:756:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143639:756:timblserver:Thread 139928213427968 on socket 6, started at: Mon Nov 23 14:36:39 2015
+20151123:143639:797:timblserver:Thread 139928221820672 terminated, 950 instances processed 
+20151123:143639:798:timblserver:Socket total = 1
+20151123:143639:798:timblserver:Thread 139928221820672, terminated at: Mon Nov 23 14:36:39 2015
+20151123:143640:763:timblserver:Accepting Connection #7 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143640:763:timblserver:Thread 139928221820672 on socket 7, started at: Mon Nov 23 14:36:40 2015
+20151123:143640:819:timblserver:Thread 139928213427968 terminated, 950 instances processed 
+20151123:143640:819:timblserver:Socket total = 1
+20151123:143640:819:timblserver:Thread 139928213427968, terminated at: Mon Nov 23 14:36:40 2015
+20151123:143641:760:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143641:760:timblserver:Thread 139928213427968 on socket 5, started at: Mon Nov 23 14:36:41 2015
+20151123:143641:812:timblserver:Thread 139928221820672 terminated, 950 instances processed 
+20151123:143641:812:timblserver:Socket total = 1
+20151123:143641:812:timblserver:Thread 139928221820672, terminated at: Mon Nov 23 14:36:41 2015
+20151123:143642:761:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143642:761:timblserver:Thread 139928221820672 on socket 6, started at: Mon Nov 23 14:36:42 2015
+20151123:143642:807:timblserver:Thread 139928213427968 terminated, 950 instances processed 
+20151123:143642:807:timblserver:Socket total = 1
+20151123:143642:807:timblserver:Thread 139928213427968, terminated at: Mon Nov 23 14:36:42 2015
+20151123:143643:761:timblserver:Accepting Connection #7 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143643:761:timblserver:Thread 139928213427968 on socket 7, started at: Mon Nov 23 14:36:43 2015
+20151123:143643:808:timblserver:Thread 139928221820672 terminated, 950 instances processed 
+20151123:143643:808:timblserver:Socket total = 1
+20151123:143643:808:timblserver:Thread 139928221820672, terminated at: Mon Nov 23 14:36:43 2015
+20151123:143644:808:timblserver:Thread 139928213427968 terminated, 950 instances processed 
+20151123:143644:808:timblserver:Socket total = 0
+20151123:143644:808:timblserver:Thread 139928213427968, terminated at: Mon Nov 23 14:36:44 2015
+TiMBL Server 0.10 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.4.6
-Wed Oct 14 11:47:05 2015
-20151014:114705:354:timblserver:trainName = ./tests/dimin.train
+based on timbl 6.4.7
+Mon Nov 23 14:36:54 2015
+20151123:143654:764:timblserver:trainName = ./tests/dimin.train
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -default-Phase 1: Reading Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:47:05 2015
--default-Finished:    2999 @ Wed Oct 14 11:47:05 2015
--default-Calculating Entropy         Wed Oct 14 11:47:05 2015
+-default-Start:          0 @ Mon Nov 23 14:36:54 2015
+-default-Finished:    2999 @ Mon Nov 23 14:36:54 2015
+-default-Calculating Entropy         Mon Nov 23 14:36:54 2015
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -1294,22 +1294,22 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--default-Preparation took 0 seconds, 22 milliseconds and 765 microseconds
+-default-Preparation took 0 seconds, 6 milliseconds and 653 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 -default-Phase 2: Building multi index on Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:47:05 2015
--default-Finished:    2999 @ Wed Oct 14 11:47:05 2015
+-default-Start:          0 @ Mon Nov 23 14:36:54 2015
+-default-Finished:    2999 @ Mon Nov 23 14:36:54 2015
 -default-
 Phase 3: Learning from Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:47:05 2015
--default-Finished:    2999 @ Wed Oct 14 11:47:05 2015
+-default-Start:          0 @ Mon Nov 23 14:36:54 2015
+-default-Finished:    2999 @ Mon Nov 23 14:36:54 2015
 
 Size of InstanceBase = 191 Nodes, (7640 bytes), 99.50 % compression
--default-Learning took 0 seconds, 60 milliseconds and 931 microseconds
-20151014:114705:450:timblserver:started experiment default with parameters: -f./tests/dimin.train -a1 +D +vF -vS 
-20151014:114705:450:timblserver:Starting a tcp server on port 17346
-20151014:114705:450:timblserver:switching logging to file /tmp/server2.log
+-default-Learning took 0 seconds, 17 milliseconds and 114 microseconds
+20151123:143654:792:timblserver:started experiment default with parameters: -f./tests/dimin.train -a1 +D +vF -vS
+20151123:143654:792:timblserver:Starting a tcp server on port 17346
+20151123:143654:792:timblserver:switching logging to file /tmp/server2.log
 Starting Client on node:localhost.localdomain, port:17346
 ERROR { Unknown basename: dimin0}
 STATUS
@@ -1410,7 +1410,7 @@ ERROR { Unknown basename: dimin2}
 CATEGORY {T} DISTRIBUTION { T 469.000, E 13.0000 } DISTANCE {0.549581} MATCH_DEPTH {1}
 CATEGORY {T} DISTRIBUTION { T 385.000, E 90.0000 } DISTANCE {0.549581} MATCH_DEPTH {1}
 CATEGORY {T} DISTRIBUTION { T 1440.00, E 295.000, J 1126.00, P 77.0000, K 61.0000 } DISTANCE {0.874953} MATCH_DEPTH {0}
-ERROR { Illegal option, -M, only the following options are allowed: C d G k l L p Q v x  }
+ERROR { option-error: invalid option 'M': valid options: C:d:G::k:l:L:p:q:v:x }
 reading input from: ./tests/dimin.test
 writing output to: /tmp/dimin2.out
 Starting Client on node:localhost.localdomain, port:17346
@@ -2364,118 +2364,118 @@ Starting Client on node:localhost.localdomain, port:17346
 =,=,=,=,-,x,A,r,+,n,a,l,T --> CATEGORY {T}
 =,=,=,=,=,=,=,=,+,h,o,rn,T --> CATEGORY {T}
 +,k,o,=,-,n,I,Ns,-,k,a,rs,J --> CATEGORY {J}
-20151014:114705:450:timblserver:Started logging 
-20151014:114705:450:timblserver:debugging is off
-20151014:114705:450:timblserver:running as a dæmon
-20151014:114705:451:timblserver:wrote PID=16905 to /tmp/run/pid2
-20151014:114705:451:timblserver:Starting Server on port:17346
-20151014:114725:358:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114725:359:timblserver:Thread 139833046644480 on socket 5, started at: Wed Oct 14 11:47:25 2015
-20151014:114726:385:timblserver:Thread 139833046644480 terminated, 13 instances processed 
-20151014:114726:385:timblserver:Socket total = 0
-20151014:114726:385:timblserver:Thread 139833046644480, terminated at: Wed Oct 14 11:47:26 2015
-20151014:114726:392:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114726:392:timblserver:Thread 139833046644480 on socket 6, started at: Wed Oct 14 11:47:26 2015
-20151014:114727:515:timblserver:Thread 139833046644480 terminated, 950 instances processed 
-20151014:114727:515:timblserver:Socket total = 0
-20151014:114727:515:timblserver:Thread 139833046644480, terminated at: Wed Oct 14 11:47:27 2015
-TiMBL Server 1.10-NT (c) ILK 1998 - 2015.
+20151123:143654:792:timblserver:Started logging 
+20151123:143654:792:timblserver:debugging is off
+20151123:143654:792:timblserver:running as a dæmon
+20151123:143654:793:timblserver:wrote PID=27624 to /tmp/run/pid2
+20151123:143654:793:timblserver:Starting Server on port:17346
+20151123:143659:767:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143659:767:timblserver:Thread 139818954733312 on socket 5, started at: Mon Nov 23 14:36:59 2015
+20151123:143700:776:timblserver:Thread 139818954733312 terminated, 13 instances processed 
+20151123:143700:776:timblserver:Socket total = 0
+20151123:143700:776:timblserver:Thread 139818954733312, terminated at: Mon Nov 23 14:37:00 2015
+20151123:143700:779:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143700:779:timblserver:Thread 139818954733312 on socket 6, started at: Mon Nov 23 14:37:00 2015
+20151123:143701:806:timblserver:Thread 139818954733312 terminated, 950 instances processed 
+20151123:143701:806:timblserver:Socket total = 0
+20151123:143701:806:timblserver:Thread 139818954733312, terminated at: Mon Nov 23 14:37:01 2015
+TiMBL Server 0.10 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.4.6
-Wed Oct 14 11:47:47 2015
-20151014:114747:525:timblserver:trainName = dimin.train
+based on timbl 6.4.7
+Mon Nov 23 14:37:11 2015
+20151123:143711:811:timblserver:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin0-Phase 1: Reading Datafile: dimin.train
--dimin0-Start:          0 @ Wed Oct 14 11:47:47 2015
--dimin0-Finished:    2999 @ Wed Oct 14 11:47:47 2015
--dimin0-Calculating Entropy         Wed Oct 14 11:47:47 2015
--dimin0-Preparation took 0 seconds, 21 milliseconds and 399 microseconds
+-dimin0-Start:          0 @ Mon Nov 23 14:37:11 2015
+-dimin0-Finished:    2999 @ Mon Nov 23 14:37:11 2015
+-dimin0-Calculating Entropy         Mon Nov 23 14:37:11 2015
+-dimin0-Preparation took 0 seconds, 6 milliseconds and 534 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -dimin0-Phase 2: Building multi index on Datafile: dimin.train
--dimin0-Start:          0 @ Wed Oct 14 11:47:47 2015
--dimin0-Finished:    2999 @ Wed Oct 14 11:47:47 2015
+-dimin0-Start:          0 @ Mon Nov 23 14:37:11 2015
+-dimin0-Finished:    2999 @ Mon Nov 23 14:37:11 2015
 -dimin0-
 Phase 3: Learning from Datafile: dimin.train
--dimin0-Start:          0 @ Wed Oct 14 11:47:47 2015
--dimin0-Finished:    2999 @ Wed Oct 14 11:47:47 2015
+-dimin0-Start:          0 @ Mon Nov 23 14:37:11 2015
+-dimin0-Finished:    2999 @ Mon Nov 23 14:37:11 2015
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--dimin0-Learning took 0 seconds, 53 milliseconds and 129 microseconds
-20151014:114747:611:timblserver:started experiment dimin0 with parameters: -aIB1 +vdi+db+n -f dimin.train
-20151014:114747:611:timblserver:trainName = dimin.train
+-dimin0-Learning took 0 seconds, 13 milliseconds and 890 microseconds
+20151123:143711:835:timblserver:started experiment dimin0 with parameters: -aIB1 +vdi+db+n -f dimin.train
+20151123:143711:835:timblserver:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin1-Phase 1: Reading Datafile: dimin.train
--dimin1-Start:          0 @ Wed Oct 14 11:47:47 2015
--dimin1-Finished:    2999 @ Wed Oct 14 11:47:47 2015
--dimin1-Calculating Entropy         Wed Oct 14 11:47:47 2015
--dimin1-Preparation took 0 seconds, 23 milliseconds and 404 microseconds
+-dimin1-Start:          0 @ Mon Nov 23 14:37:11 2015
+-dimin1-Finished:    2999 @ Mon Nov 23 14:37:11 2015
+-dimin1-Calculating Entropy         Mon Nov 23 14:37:11 2015
+-dimin1-Preparation took 0 seconds, 5 milliseconds and 696 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 -dimin1-Phase 2: Building multi index on Datafile: dimin.train
--dimin1-Start:          0 @ Wed Oct 14 11:47:47 2015
--dimin1-Finished:    2999 @ Wed Oct 14 11:47:47 2015
+-dimin1-Start:          0 @ Mon Nov 23 14:37:11 2015
+-dimin1-Finished:    2999 @ Mon Nov 23 14:37:11 2015
 -dimin1-
 Phase 3: Learning from Datafile: dimin.train
--dimin1-Start:          0 @ Wed Oct 14 11:47:47 2015
--dimin1-Finished:    2999 @ Wed Oct 14 11:47:47 2015
+-dimin1-Start:          0 @ Mon Nov 23 14:37:11 2015
+-dimin1-Finished:    2999 @ Mon Nov 23 14:37:11 2015
 
 Size of InstanceBase = 191 Nodes, (7640 bytes), 99.50 % compression
--dimin1-Learning took 0 seconds, 65 milliseconds and 365 microseconds
-20151014:114747:710:timblserver:started experiment dimin1 with parameters: -aIGTREE +vdi+db +D -f dimin.train
-20151014:114747:711:timblserver:trainName = dimin.train
+-dimin1-Learning took 0 seconds, 16 milliseconds and 127 microseconds
+20151123:143711:861:timblserver:started experiment dimin1 with parameters: -aIGTREE +vdi+db +D -f dimin.train
+20151123:143711:861:timblserver:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin2-Phase 1: Reading Datafile: dimin.train
--dimin2-Start:          0 @ Wed Oct 14 11:47:47 2015
--dimin2-Finished:    2999 @ Wed Oct 14 11:47:47 2015
--dimin2-Calculating Entropy         Wed Oct 14 11:47:47 2015
--dimin2-Preparation took 0 seconds, 25 milliseconds and 409 microseconds
+-dimin2-Start:          0 @ Mon Nov 23 14:37:11 2015
+-dimin2-Finished:    2999 @ Mon Nov 23 14:37:11 2015
+-dimin2-Calculating Entropy         Mon Nov 23 14:37:11 2015
+-dimin2-Preparation took 0 seconds, 6 milliseconds and 191 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 -dimin2-Phase 2: Building multi index on Datafile: dimin.train
--dimin2-Start:          0 @ Wed Oct 14 11:47:47 2015
--dimin2-Finished:    2999 @ Wed Oct 14 11:47:47 2015
+-dimin2-Start:          0 @ Mon Nov 23 14:37:11 2015
+-dimin2-Finished:    2999 @ Mon Nov 23 14:37:11 2015
 -dimin2-
 Phase 3: Learning from Datafile: dimin.train
--dimin2-Start:          0 @ Wed Oct 14 11:47:47 2015
--dimin2-Finished:    2999 @ Wed Oct 14 11:47:47 2015
+-dimin2-Start:          0 @ Mon Nov 23 14:37:11 2015
+-dimin2-Finished:    2999 @ Mon Nov 23 14:37:11 2015
 
 Size of InstanceBase = 22705 Nodes, (908200 bytes), 40.69 % compression
--dimin2-Learning took 0 seconds, 55 milliseconds and 21 microseconds
-20151014:114747:804:timblserver:started experiment dimin2 with parameters: -aTRIBL +vdi+db+n -q3 -f dimin.train
-20151014:114747:804:timblserver:trainName = dimin.train
+-dimin2-Learning took 0 seconds, 14 milliseconds and 276 microseconds
+20151123:143711:885:timblserver:started experiment dimin2 with parameters: -aTRIBL +vdi+db+n -q3 -f dimin.train
+20151123:143711:885:timblserver:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin3-Phase 1: Reading Datafile: dimin.train
--dimin3-Start:          0 @ Wed Oct 14 11:47:47 2015
--dimin3-Finished:    2999 @ Wed Oct 14 11:47:47 2015
--dimin3-Calculating Entropy         Wed Oct 14 11:47:47 2015
--dimin3-Preparation took 0 seconds, 21 milliseconds and 996 microseconds
+-dimin3-Start:          0 @ Mon Nov 23 14:37:11 2015
+-dimin3-Finished:    2999 @ Mon Nov 23 14:37:11 2015
+-dimin3-Calculating Entropy         Mon Nov 23 14:37:11 2015
+-dimin3-Preparation took 0 seconds, 5 milliseconds and 982 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -dimin3-Phase 2: Building multi index on Datafile: dimin.train
--dimin3-Start:          0 @ Wed Oct 14 11:47:47 2015
--dimin3-Finished:    2999 @ Wed Oct 14 11:47:47 2015
+-dimin3-Start:          0 @ Mon Nov 23 14:37:11 2015
+-dimin3-Finished:    2999 @ Mon Nov 23 14:37:11 2015
 -dimin3-
 Phase 3: Learning from Datafile: dimin.train
--dimin3-Start:          0 @ Wed Oct 14 11:47:47 2015
--dimin3-Finished:    2999 @ Wed Oct 14 11:47:47 2015
+-dimin3-Start:          0 @ Mon Nov 23 14:37:11 2015
+-dimin3-Finished:    2999 @ Mon Nov 23 14:37:11 2015
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--dimin3-Learning took 0 seconds, 55 milliseconds and 121 microseconds
+-dimin3-Learning took 0 seconds, 14 milliseconds and 141 microseconds
 -dimin3-Reading matrices from ./tests/dimin.mat
 -dimin3-read ValueMatrix for feature 1
 -dimin3-read ValueMatrix for feature 2
@@ -2489,9 +2489,9 @@ Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
 -dimin3-read ValueMatrix for feature 10
 -dimin3-read ValueMatrix for feature 11
 -dimin3-read ValueMatrix for feature 12
-20151014:114747:895:timblserver:started experiment dimin3 with parameters: -aIB1 +vdi+db+n -mM -f dimin.train --matrixin=./tests/dimin.mat
-20151014:114747:895:timblserver:Starting a tcp server on port 17000
-20151014:114747:895:timblserver:switching logging to file /tmp/server3.log
+20151123:143711:909:timblserver:started experiment dimin3 with parameters: -aIB1 +vdi+db+n -mM -f dimin.train --matrixin=./tests/dimin.mat
+20151123:143711:910:timblserver:Starting a tcp server on port 17000
+20151123:143711:910:timblserver:switching logging to file /tmp/server3.log
 Starting Client on node:localhost.localdomain, port:17000
 selected base: 'dimin0'
 STATUS
@@ -2626,16 +2626,16 @@ CATEGORY {T} DISTRIBUTION { T 2.00000 } DISTANCE {0.0428446} NEIGHBORS
 #	=,=,=,=,=,=,=,=,+,x,e,w,{ T 1.00000 }
 #	=,=,=,=,=,=,=,=,+,m,e,w,{ T 1.00000 }
 ENDNEIGHBORS
-ERROR { Illegal option, -M, only the following options are allowed: C d G k l L p Q v x  }
-OK
+ERROR { option-error: invalid option 'M': valid options: C:d:G::k:l:L:p:q:v:x }
+ERROR { A preceding error prevents any operation on this Timbl Object
 reading input from: ./tests/dimin.test
-writing output to: /tmp/dimin2.out
-Starting Client on node:localhost.localdomain, port:17000
 reading input from: ./tests/dimin.test
 writing output to: /tmp/dimin0.out
 Starting Client on node:localhost.localdomain, port:17000
-Setting base to :dimin0
+writing output to: /tmp/dimin2.out
+Starting Client on node:localhost.localdomain, port:17000
 Setting base to :dimin2
+Setting base to :dimin0
 =,=,=,=,=,=,=,=,+,p,e,=,T --> CATEGORY {T} DISTRIBUTION { T 1.00000 } DISTANCE {0} NEIGHBORS 
 # k=1, 1 Neighbor(s) at distance: 	0.0000000000000
 #	=,=,=,=,=,=,=,=,+,p,e,=,{ T 1.00000 }
@@ -13604,46 +13604,46 @@ ENDNEIGHBORS
 # k=1, 1 Neighbor(s) at distance: 	0.26904542822415
 #	=,=,=,=,=,=,=,=,+,k,a,rs,{ J 1.00000 }
 ENDNEIGHBORS 
-20151014:114747:895:timblserver:Started logging 
-20151014:114747:895:timblserver:debugging is off
-20151014:114747:895:timblserver:running as a dæmon
-20151014:114747:896:timblserver:wrote PID=16919 to /tmp/run/pid3
-20151014:114747:896:timblserver:Starting Server on port:17000
-20151014:114807:535:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114807:535:timblserver:Thread 140132218341120 on socket 5, started at: Wed Oct 14 11:48:07 2015
-20151014:114807:537:timblserver:Thread 140132218341120, on Socket 5, started.
-20151014:114807:575:timblserver:Thread 140132218341120, on Socket 5, started.
-20151014:114807:576:timblserver:Thread 140132218341120, on Socket 5, started.
-20151014:114807:581:timblserver:Thread 140132218341120 terminated, 13 instances processed 
-20151014:114807:582:timblserver:Socket total = 0
-20151014:114807:582:timblserver:Thread 140132218341120, terminated at: Wed Oct 14 11:48:07 2015
-20151014:114807:589:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114807:593:timblserver:Thread 140132218341120 on socket 6, started at: Wed Oct 14 11:48:07 2015
-20151014:114807:598:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114807:598:timblserver:Thread 140132209948416 on socket 5, started at: Wed Oct 14 11:48:07 2015
-20151014:114807:598:timblserver:Thread 140132209948416, on Socket 5, started.
-20151014:114807:694:timblserver:Thread 140132218341120, on Socket 6, started.
-20151014:114808:079:timblserver:Thread 140132209948416 terminated, 950 instances processed 
-20151014:114808:079:timblserver:Socket total = 1
-20151014:114808:079:timblserver:Thread 140132209948416, terminated at: Wed Oct 14 11:48:08 2015
-20151014:114808:277:timblserver:Thread 140132218341120 terminated, 950 instances processed 
-20151014:114808:277:timblserver:Socket total = 0
-20151014:114808:277:timblserver:Thread 140132218341120, terminated at: Wed Oct 14 11:48:08 2015
-TiMBL Server 1.10-NT (c) ILK 1998 - 2015.
+20151123:143711:910:timblserver:Started logging 
+20151123:143711:910:timblserver:debugging is off
+20151123:143711:910:timblserver:running as a dæmon
+20151123:143711:910:timblserver:wrote PID=27638 to /tmp/run/pid3
+20151123:143711:910:timblserver:Starting Server on port:17000
+20151123:143731:812:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143731:812:timblserver:Thread 140243890669312 on socket 5, started at: Mon Nov 23 14:37:31 2015
+20151123:143731:813:timblserver:Thread 140243890669312, on Socket 5, started.
+20151123:143731:824:timblserver:Thread 140243890669312, on Socket 5, started.
+20151123:143731:824:timblserver:Thread 140243890669312, on Socket 5, started.
+20151123:143731:826:timblserver:Thread 140243890669312 terminated, 13 instances processed 
+20151123:143731:826:timblserver:Socket total = 0
+20151123:143731:826:timblserver:Thread 140243890669312, terminated at: Mon Nov 23 14:37:31 2015
+20151123:143731:829:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143731:829:timblserver:Thread 140243890669312 on socket 6, started at: Mon Nov 23 14:37:31 2015
+20151123:143731:829:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143731:829:timblserver:Thread 140243890669312, on Socket 6, started.
+20151123:143731:830:timblserver:Thread 140243882276608 on socket 5, started at: Mon Nov 23 14:37:31 2015
+20151123:143731:830:timblserver:Thread 140243882276608, on Socket 5, started.
+20151123:143731:948:timblserver:Thread 140243890669312 terminated, 950 instances processed 
+20151123:143731:948:timblserver:Socket total = 1
+20151123:143731:948:timblserver:Thread 140243890669312, terminated at: Mon Nov 23 14:37:31 2015
+20151123:143731:959:timblserver:Thread 140243882276608 terminated, 950 instances processed 
+20151123:143731:959:timblserver:Socket total = 0
+20151123:143731:959:timblserver:Thread 140243882276608, terminated at: Mon Nov 23 14:37:31 2015
+TiMBL Server 0.10 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.4.6
-Wed Oct 14 11:48:27 2015
-20151014:114827:609:timblserver:trainName = ./tests/dimin.train
+based on timbl 6.4.7
+Mon Nov 23 14:37:41 2015
+20151123:143741:836:timblserver:trainName = ./tests/dimin.train
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -default-Phase 1: Reading Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:48:27 2015
--default-Finished:    2999 @ Wed Oct 14 11:48:27 2015
--default-Calculating Entropy         Wed Oct 14 11:48:27 2015
+-default-Start:          0 @ Mon Nov 23 14:37:41 2015
+-default-Finished:    2999 @ Mon Nov 23 14:37:41 2015
+-default-Calculating Entropy         Mon Nov 23 14:37:41 2015
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -13662,22 +13662,22 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--default-Preparation took 0 seconds, 21 milliseconds and 37 microseconds
+-default-Preparation took 0 seconds, 7 milliseconds and 230 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 12, 7, 4, 3, 10, 8, 2, 6, 1 >
 -default-Phase 2: Building multi index on Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:48:27 2015
--default-Finished:    2999 @ Wed Oct 14 11:48:27 2015
+-default-Start:          0 @ Mon Nov 23 14:37:41 2015
+-default-Finished:    2999 @ Mon Nov 23 14:37:41 2015
 -default-
 Phase 3: Learning from Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:48:27 2015
--default-Finished:    2999 @ Wed Oct 14 11:48:27 2015
+-default-Start:          0 @ Mon Nov 23 14:37:41 2015
+-default-Finished:    2999 @ Mon Nov 23 14:37:41 2015
 
 Size of InstanceBase = 18721 Nodes, (748840 bytes), 46.99 % compression
--default-Learning took 0 seconds, 53 milliseconds and 122 microseconds
-20151014:114827:694:timblserver:started experiment default with parameters: -f./tests/dimin.train -mO:I1 +vF -vS 
-20151014:114827:694:timblserver:Starting a tcp server on port 17347
-20151014:114827:695:timblserver:switching logging to file /tmp/server4.log
+-default-Learning took 0 seconds, 13 milliseconds and 711 microseconds
+20151123:143741:863:timblserver:started experiment default with parameters: -f./tests/dimin.train -mO:I1 +vF -vS
+20151123:143741:863:timblserver:Starting a tcp server on port 17347
+20151123:143741:863:timblserver:switching logging to file /tmp/server4.log
 Starting Client on node:localhost.localdomain, port:17347
 ERROR { Unknown basename: dimin0}
 STATUS
@@ -13801,33 +13801,33 @@ CATEGORY {T} DISTRIBUTION { T 2.00000 } DISTANCE {0.0428446} MATCH_DEPTH {12} NE
 #	-*-,=,=,=,=,=,=,=,+,x,e,w,{ T 1.00000 }
 #	-*-,=,=,=,=,=,=,=,+,m,e,w,{ T 1.00000 }
 ENDNEIGHBORS
-ERROR { Illegal option, -M, only the following options are allowed: C d G k l L p Q v x  }
-OK
-20151014:114827:695:timblserver:Started logging 
-20151014:114827:695:timblserver:debugging is off
-20151014:114827:695:timblserver:running as a dæmon
-20151014:114827:695:timblserver:wrote PID=16936 to /tmp/run/pid4
-20151014:114827:695:timblserver:Starting Server on port:17347
-20151014:114847:617:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114847:617:timblserver:Thread 140454068434688 on socket 5, started at: Wed Oct 14 11:48:47 2015
-20151014:114848:659:timblserver:Thread 140454068434688 terminated, 13 instances processed 
-20151014:114848:659:timblserver:Socket total = 0
-20151014:114848:659:timblserver:Thread 140454068434688, terminated at: Wed Oct 14 11:48:48 2015
-TiMBL Server 1.10-NT (c) ILK 1998 - 2015.
+ERROR { option-error: invalid option 'M': valid options: C:d:G::k:l:L:p:q:v:x }
+ERROR { A preceding error prevents any operation on this Timbl Object
+20151123:143741:863:timblserver:Started logging 
+20151123:143741:863:timblserver:debugging is off
+20151123:143741:863:timblserver:running as a dæmon
+20151123:143741:863:timblserver:wrote PID=27655 to /tmp/run/pid4
+20151123:143741:863:timblserver:Starting Server on port:17347
+20151123:143746:836:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143746:836:timblserver:Thread 140456769992448 on socket 5, started at: Mon Nov 23 14:37:46 2015
+20151123:143747:849:timblserver:Thread 140456769992448 terminated, 13 instances processed 
+20151123:143747:849:timblserver:Socket total = 0
+20151123:143747:849:timblserver:Thread 140456769992448, terminated at: Mon Nov 23 14:37:47 2015
+TiMBL Server 0.10 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.4.6
-Wed Oct 14 11:48:48 2015
-20151014:114848:669:timblserver:trainName = ./tests/dimin.train
+based on timbl 6.4.7
+Mon Nov 23 14:37:47 2015
+20151123:143747:853:timblserver:trainName = ./tests/dimin.train
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -default-Phase 1: Reading Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:48:48 2015
--default-Finished:    2999 @ Wed Oct 14 11:48:48 2015
--default-Calculating Entropy         Wed Oct 14 11:48:48 2015
+-default-Start:          0 @ Mon Nov 23 14:37:47 2015
+-default-Finished:    2999 @ Mon Nov 23 14:37:47 2015
+-default-Calculating Entropy         Mon Nov 23 14:37:47 2015
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -13846,19 +13846,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--default-Preparation took 0 seconds, 20 milliseconds and 995 microseconds
+-default-Preparation took 0 seconds, 5 milliseconds and 809 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 10, 8, 2, 6, 3 >
 -default-Phase 2: Building multi index on Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:48:48 2015
--default-Finished:    2999 @ Wed Oct 14 11:48:48 2015
+-default-Start:          0 @ Mon Nov 23 14:37:47 2015
+-default-Finished:    2999 @ Mon Nov 23 14:37:47 2015
 -default-
 Phase 3: Learning from Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:48:48 2015
--default-Finished:    2999 @ Wed Oct 14 11:48:48 2015
+-default-Start:          0 @ Mon Nov 23 14:37:47 2015
+-default-Finished:    2999 @ Mon Nov 23 14:37:47 2015
 
 Size of InstanceBase = 17355 Nodes, (694200 bytes), 50.86 % compression
--default-Learning took 0 seconds, 53 milliseconds and 363 microseconds
+-default-Learning took 0 seconds, 13 milliseconds and 821 microseconds
 -default-Reading matrices from ./tests/dimin.mat
 -default-read ValueMatrix for feature 1
 -default-read ValueMatrix for feature 2
@@ -13872,9 +13872,9 @@ Warning:-default-Ignoring entry for feature 3 which is NOT set to a storable met
 -default-read ValueMatrix for feature 10
 -default-read ValueMatrix for feature 11
 -default-read ValueMatrix for feature 12
-20151014:114848:761:timblserver:started experiment default with parameters: -f./tests/dimin.train -mM:I3 --matrixin=./tests/dimin.mat +vF -vS 
-20151014:114848:761:timblserver:Starting a tcp server on port 17348
-20151014:114848:761:timblserver:switching logging to file /tmp/server5.log
+20151123:143747:877:timblserver:started experiment default with parameters: -f./tests/dimin.train -mM:I3 --matrixin=./tests/dimin.mat +vF -vS
+20151123:143747:877:timblserver:Starting a tcp server on port 17348
+20151123:143747:877:timblserver:switching logging to file /tmp/server5.log
 Starting Client on node:localhost.localdomain, port:17348
 ERROR { Unknown basename: dimin0}
 STATUS
@@ -13995,33 +13995,33 @@ CATEGORY {T} DISTRIBUTION { T 1.00000 } DISTANCE {0.00728985} MATCH_DEPTH {12} N
 # k=1, 1 Neighbor(s) at distance: 	0.0072898522434163
 #	=,=,-*-,=,=,=,=,=,+,m,e,w,{ T 1.00000 }
 ENDNEIGHBORS
-ERROR { Illegal option, -M, only the following options are allowed: C d G k l L p Q v x  }
-OK
-20151014:114848:761:timblserver:Started logging 
-20151014:114848:762:timblserver:debugging is off
-20151014:114848:762:timblserver:running as a dæmon
-20151014:114848:762:timblserver:wrote PID=16946 to /tmp/run/pid5
-20151014:114848:762:timblserver:Starting Server on port:17348
-20151014:114908:676:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114908:676:timblserver:Thread 140548670543616 on socket 5, started at: Wed Oct 14 11:49:08 2015
-20151014:114909:725:timblserver:Thread 140548670543616 terminated, 13 instances processed 
-20151014:114909:725:timblserver:Socket total = 0
-20151014:114909:725:timblserver:Thread 140548670543616, terminated at: Wed Oct 14 11:49:09 2015
-TiMBL Server 1.10-NT (c) ILK 1998 - 2015.
+ERROR { option-error: invalid option 'M': valid options: C:d:G::k:l:L:p:q:v:x }
+ERROR { A preceding error prevents any operation on this Timbl Object
+20151123:143747:877:timblserver:Started logging 
+20151123:143747:877:timblserver:debugging is off
+20151123:143747:877:timblserver:running as a dæmon
+20151123:143747:878:timblserver:wrote PID=27667 to /tmp/run/pid5
+20151123:143747:878:timblserver:Starting Server on port:17348
+20151123:143752:855:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143752:855:timblserver:Thread 140439186704128 on socket 5, started at: Mon Nov 23 14:37:52 2015
+20151123:143753:870:timblserver:Thread 140439186704128 terminated, 13 instances processed 
+20151123:143753:870:timblserver:Socket total = 0
+20151123:143753:870:timblserver:Thread 140439186704128, terminated at: Mon Nov 23 14:37:53 2015
+TiMBL Server 0.10 (c) ILK 1998 - 2015.
 Tilburg Memory Based Learner
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.4.6
-Wed Oct 14 11:49:09 2015
-20151014:114909:733:timblserver:trainName = ./tests/dimin.train
+based on timbl 6.4.7
+Mon Nov 23 14:37:53 2015
+20151123:143753:874:timblserver:trainName = ./tests/dimin.train
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -default-Phase 1: Reading Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:49:09 2015
--default-Finished:    2999 @ Wed Oct 14 11:49:09 2015
--default-Calculating Entropy         Wed Oct 14 11:49:09 2015
+-default-Start:          0 @ Mon Nov 23 14:37:53 2015
+-default-Finished:    2999 @ Mon Nov 23 14:37:53 2015
+-default-Calculating Entropy         Mon Nov 23 14:37:53 2015
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -14040,22 +14040,22 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--default-Preparation took 0 seconds, 21 milliseconds and 426 microseconds
+-default-Preparation took 0 seconds, 6 milliseconds and 606 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -default-Phase 2: Building multi index on Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:49:09 2015
--default-Finished:    2999 @ Wed Oct 14 11:49:09 2015
+-default-Start:          0 @ Mon Nov 23 14:37:53 2015
+-default-Finished:    2999 @ Mon Nov 23 14:37:53 2015
 -default-
 Phase 3: Learning from Datafile: ./tests/dimin.train
--default-Start:          0 @ Wed Oct 14 11:49:09 2015
--default-Finished:    2999 @ Wed Oct 14 11:49:09 2015
+-default-Start:          0 @ Mon Nov 23 14:37:53 2015
+-default-Finished:    2999 @ Mon Nov 23 14:37:53 2015
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--default-Learning took 0 seconds, 53 milliseconds and 254 microseconds
-20151014:114909:819:timblserver:started experiment default with parameters: -f./tests/dimin.train +vF -vS 
-20151014:114909:819:timblserver:Starting a tcp server on port 17349
-20151014:114909:820:timblserver:switching logging to file /tmp/server6.log
+-default-Learning took 0 seconds, 15 milliseconds and 876 microseconds
+20151123:143753:900:timblserver:started experiment default with parameters: -f./tests/dimin.train +vF -vS
+20151123:143753:900:timblserver:Starting a tcp server on port 17349
+20151123:143753:900:timblserver:switching logging to file /tmp/server6.log
 Starting Client on node:localhost.localdomain, port:17349
 OK
 CATEGORY {T} DISTRIBUTION { T 1.00000 } DISTANCE {0}
@@ -14077,23 +14077,23 @@ CATEGORY {P} DISTRIBUTION { P 1.00000 } DISTANCE {0}
 CATEGORY {T} DISTRIBUTION { T 1.00000 } DISTANCE {0.0997233}
 CATEGORY {J} DISTRIBUTION { J 1.00000 } DISTANCE {0.123322}
 CATEGORY {J} DISTRIBUTION { J 4.00000 } DISTANCE {0.0428446}
-20151014:114909:820:timblserver:Started logging 
-20151014:114909:820:timblserver:debugging is off
-20151014:114909:820:timblserver:running as a dæmon
-20151014:114909:821:timblserver:wrote PID=16956 to /tmp/run/pid6
-20151014:114909:821:timblserver:Starting Server on port:17349
-20151014:114929:740:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114929:741:timblserver:Thread 140311039391488 on socket 5, started at: Wed Oct 14 11:49:29 2015
-20151014:114929:746:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114929:746:timblserver:Thread 140311030998784 on socket 6, started at: Wed Oct 14 11:49:29 2015
-20151014:114929:748:timblserver:Accepting Connection #7 from remote host: localhost.localdomain [127.0.0.1]
-20151014:114929:748:timblserver:Thread 140311022606080 on socket 7, started at: Wed Oct 14 11:49:29 2015
-20151014:114930:763:timblserver:Thread 140311039391488 terminated, 5 instances processed 
-20151014:114930:763:timblserver:Socket total = 2
-20151014:114930:763:timblserver:Thread 140311039391488, terminated at: Wed Oct 14 11:49:30 2015
-20151014:114930:781:timblserver:Thread 140311030998784 terminated, 5 instances processed 
-20151014:114930:781:timblserver:Socket total = 1
-20151014:114930:781:timblserver:Thread 140311030998784, terminated at: Wed Oct 14 11:49:30 2015
-20151014:114930:783:timblserver:Thread 140311022606080 terminated, 5 instances processed 
-20151014:114930:783:timblserver:Socket total = 0
-20151014:114930:783:timblserver:Thread 140311022606080, terminated at: Wed Oct 14 11:49:30 2015
+20151123:143753:900:timblserver:Started logging 
+20151123:143753:901:timblserver:debugging is off
+20151123:143753:901:timblserver:running as a dæmon
+20151123:143753:901:timblserver:wrote PID=27677 to /tmp/run/pid6
+20151123:143753:901:timblserver:Starting Server on port:17349
+20151123:143803:879:timblserver:Accepting Connection #5 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143803:880:timblserver:Accepting Connection #6 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143803:880:timblserver:Thread 140652143064832 on socket 5, started at: Mon Nov 23 14:38:03 2015
+20151123:143803:880:timblserver:Thread 140652134672128 on socket 6, started at: Mon Nov 23 14:38:03 2015
+20151123:143803:880:timblserver:Accepting Connection #7 from remote host: localhost.localdomain [127.0.0.1]
+20151123:143803:880:timblserver:Thread 140652058769152 on socket 7, started at: Mon Nov 23 14:38:03 2015
+20151123:143804:889:timblserver:Thread 140652134672128 terminated, 5 instances processed 
+20151123:143804:889:timblserver:Socket total = 2
+20151123:143804:889:timblserver:Thread 140652134672128, terminated at: Mon Nov 23 14:38:04 2015
+20151123:143804:892:timblserver:Thread 140652143064832 terminated, 5 instances processed 
+20151123:143804:892:timblserver:Socket total = 1
+20151123:143804:892:timblserver:Thread 140652143064832, terminated at: Mon Nov 23 14:38:04 2015
+20151123:143804:893:timblserver:Thread 140652058769152 terminated, 5 instances processed 
+20151123:143804:893:timblserver:Socket total = 0
+20151123:143804:893:timblserver:Thread 140652058769152, terminated at: Mon Nov 23 14:38:04 2015
