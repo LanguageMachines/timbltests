@@ -3,6 +3,5 @@
 # defaults:
 #
 
+$comm -V
 $comm -h
-
-
