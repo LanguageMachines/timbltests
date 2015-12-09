@@ -11,5 +11,4 @@ sleep 4
 
 kill `cat /tmp/bug42.pid`
 
-cat < /tmp/bug42.log 
-
+cat < /tmp/bug42.log
