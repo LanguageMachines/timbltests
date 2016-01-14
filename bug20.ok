@@ -1,8 +1,9 @@
-TiMBL 6.4.6 (c) ILK 1998 - 2015.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 16 11:33:50 2015
+Thu Jan 14 09:08:53 2016
 
 Starting Cross validation test on files:
 ./test_cv/dummy_data.dat_1
@@ -37,12 +38,12 @@ Feature 1	 : 0.738064654828046
 Feature 2	 : 0.822144954051390
 Feature 3	 : 0.615027758167667
 
-Tested:      1 @ Mon Feb 16 11:33:50 2015
-Tested:      2 @ Mon Feb 16 11:33:50 2015
-Tested:      3 @ Mon Feb 16 11:33:50 2015
-Tested:      4 @ Mon Feb 16 11:33:50 2015
-Ready:       4 @ Mon Feb 16 11:33:50 2015
-Seconds taken: 0.0002 (20833.33 p/s)
+Tested:      1 @ Thu Jan 14 09:08:53 2016
+Tested:      2 @ Thu Jan 14 09:08:53 2016
+Tested:      3 @ Thu Jan 14 09:08:53 2016
+Tested:      4 @ Thu Jan 14 09:08:53 2016
+Ready:       4 @ Thu Jan 14 09:08:53 2016
+Seconds taken: 0.0001 (36036.04 p/s)
 
 overall accuracy:        0.000000  (0/4)
 There were 2 ties of which 0 (0.00%) were correctly resolved
@@ -75,12 +76,12 @@ Feature 1	 : 0.738064654828046
 Feature 2	 : 0.822144954051390
 Feature 3	 : 0.615027758167667
 
-Tested:      1 @ Mon Feb 16 11:33:50 2015
-Tested:      2 @ Mon Feb 16 11:33:50 2015
-Tested:      3 @ Mon Feb 16 11:33:50 2015
-Tested:      4 @ Mon Feb 16 11:33:50 2015
-Ready:       4 @ Mon Feb 16 11:33:50 2015
-Seconds taken: 0.0002 (26315.79 p/s)
+Tested:      1 @ Thu Jan 14 09:08:53 2016
+Tested:      2 @ Thu Jan 14 09:08:53 2016
+Tested:      3 @ Thu Jan 14 09:08:53 2016
+Tested:      4 @ Thu Jan 14 09:08:53 2016
+Ready:       4 @ Thu Jan 14 09:08:53 2016
+Seconds taken: 0.0001 (51282.05 p/s)
 
 overall accuracy:        0.000000  (0/4), of which 1 exact matches 
 There was 1 tie of which 0 (0.00%) was correctly resolved
@@ -113,20 +114,21 @@ Feature 1	 : 0.738064654828046
 Feature 2	 : 0.822144954051390
 Feature 3	 : 0.615027758167667
 
-Tested:      1 @ Mon Feb 16 11:33:50 2015
-Tested:      2 @ Mon Feb 16 11:33:50 2015
-Tested:      3 @ Mon Feb 16 11:33:50 2015
-Tested:      4 @ Mon Feb 16 11:33:50 2015
-Ready:       4 @ Mon Feb 16 11:33:50 2015
-Seconds taken: 0.0001 (26845.64 p/s)
+Tested:      1 @ Thu Jan 14 09:08:53 2016
+Tested:      2 @ Thu Jan 14 09:08:53 2016
+Tested:      3 @ Thu Jan 14 09:08:53 2016
+Tested:      4 @ Thu Jan 14 09:08:53 2016
+Ready:       4 @ Thu Jan 14 09:08:53 2016
+Seconds taken: 0.0001 (51948.05 p/s)
 
 overall accuracy:        0.000000  (0/4), of which 2 exact matches 
 There were 4 ties of which 0 (0.00%) were correctly resolved
-TiMBL 6.4.6 (c) ILK 1998 - 2015.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 16 11:33:50 2015
+Thu Jan 14 09:08:53 2016
 
 Starting Cross validation test on files:
 ./test_cv/dummy_data.dat_1
@@ -161,12 +163,12 @@ Feature 1	 : 0.738064654828047
 Feature 2	 : 0.822144954051390
 Feature 3	 : 0.615027758167667
 
-Tested:      1 @ Mon Feb 16 11:33:50 2015
-Tested:      2 @ Mon Feb 16 11:33:50 2015
-Tested:      3 @ Mon Feb 16 11:33:50 2015
-Tested:      4 @ Mon Feb 16 11:33:50 2015
-Ready:       4 @ Mon Feb 16 11:33:50 2015
-Seconds taken: 0.0002 (22222.22 p/s)
+Tested:      1 @ Thu Jan 14 09:08:53 2016
+Tested:      2 @ Thu Jan 14 09:08:53 2016
+Tested:      3 @ Thu Jan 14 09:08:53 2016
+Tested:      4 @ Thu Jan 14 09:08:53 2016
+Ready:       4 @ Thu Jan 14 09:08:53 2016
+Seconds taken: 0.0001 (47058.82 p/s)
 
 overall accuracy:        0.000000  (0/4), of which 1 exact matches 
 There were 3 ties of which 0 (0.00%) were correctly resolved
@@ -199,12 +201,12 @@ Feature 1	 : 0.750000000000000
 Feature 2	 : 0.807513879083833
 Feature 3	 : 1.000000000000000
 
-Tested:      1 @ Mon Feb 16 11:33:50 2015
-Tested:      2 @ Mon Feb 16 11:33:50 2015
-Tested:      3 @ Mon Feb 16 11:33:50 2015
-Tested:      4 @ Mon Feb 16 11:33:50 2015
-Ready:       4 @ Mon Feb 16 11:33:50 2015
-Seconds taken: 0.0001 (29197.08 p/s)
+Tested:      1 @ Thu Jan 14 09:08:53 2016
+Tested:      2 @ Thu Jan 14 09:08:53 2016
+Tested:      3 @ Thu Jan 14 09:08:53 2016
+Tested:      4 @ Thu Jan 14 09:08:53 2016
+Ready:       4 @ Thu Jan 14 09:08:53 2016
+Seconds taken: 0.0001 (62500.00 p/s)
 
 overall accuracy:        0.250000  (1/4), of which 2 exact matches 
 Reading Probability Arrays from test_cv/bug20.probs
@@ -236,12 +238,12 @@ Feature 1	 : 1.000000000000000
 Feature 2	 : 0.500000000000000
 Feature 3	 : 0.839874782024115
 
-Tested:      1 @ Mon Feb 16 11:33:50 2015
-Tested:      2 @ Mon Feb 16 11:33:50 2015
-Tested:      3 @ Mon Feb 16 11:33:50 2015
-Tested:      4 @ Mon Feb 16 11:33:50 2015
-Ready:       4 @ Mon Feb 16 11:33:50 2015
-Seconds taken: 0.0001 (28985.51 p/s)
+Tested:      1 @ Thu Jan 14 09:08:53 2016
+Tested:      2 @ Thu Jan 14 09:08:53 2016
+Tested:      3 @ Thu Jan 14 09:08:53 2016
+Tested:      4 @ Thu Jan 14 09:08:53 2016
+Ready:       4 @ Thu Jan 14 09:08:53 2016
+Seconds taken: 0.0001 (61538.46 p/s)
 
 overall accuracy:        0.000000  (0/4), of which 2 exact matches 
 There were 2 ties of which 0 (0.00%) were correctly resolved

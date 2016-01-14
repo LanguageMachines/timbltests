@@ -1,17 +1,18 @@
-TiMBL 6.3.4 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Mar 14 16:07:05 2011
+Thu Jan 14 09:19:58 2016
 
 Examine datafile './tests/cv_1.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Mar 14 16:07:05 2011
-Finished:      38 @ Mon Mar 14 16:07:05 2011
-Calculating Entropy         Mon Mar 14 16:07:05 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 38
 DB Entropy        : 1.1239577
 Number of Classes : 3
@@ -26,25 +27,26 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.86079976	0.21819805
     8     17	0.40001621	0.10329552
 
-Preparation took 0 seconds, 0 milliseconds and 715 microseconds
+Preparation took 0 seconds, 0 milliseconds and 281 microseconds
 Feature Permutation based on Default Ordering :
 < 1, 2, 3, 4, 5, 6, 7, 8 >
 Phase 2: Building multi index on Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Mar 14 16:07:05 2011
-Finished:      38 @ Mon Mar 14 16:07:05 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Phase 3: Learning from Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Mar 14 16:07:05 2011
-Finished:      38 @ Mon Mar 14 16:07:05 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Size of InstanceBase = 335 Nodes, (13400 bytes), 2.05 % compression
-Learning took 0 seconds, 1 milliseconds and 29 microseconds
+Learning took 0 seconds, 0 milliseconds and 385 microseconds
 Writing Instance-Base in: ib2test1.tree
-TiMBL 6.3.4 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Mar 14 16:07:05 2011
+Thu Jan 14 09:19:58 2016
 
 Reading Instance-Base from: ib2test1.tree
 
@@ -56,47 +58,47 @@ Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_2.train
-Start:          0 @ Mon Mar 14 16:07:05 2011
-Examining:      1 @ Mon Mar 14 16:07:05 2011
-Examining:      2 @ Mon Mar 14 16:07:05 2011
-Examining:      3 @ Mon Mar 14 16:07:05 2011
-Examining:      4 @ Mon Mar 14 16:07:05 2011
-Examining:      5 @ Mon Mar 14 16:07:05 2011
-Examining:      6 @ Mon Mar 14 16:07:05 2011
-Examining:      7 @ Mon Mar 14 16:07:05 2011
-Examining:      8 @ Mon Mar 14 16:07:05 2011
-Examining:      9 @ Mon Mar 14 16:07:05 2011
-Examining:     10 @ Mon Mar 14 16:07:05 2011
-Examining:     11 @ Mon Mar 14 16:07:05 2011
-Examining:     12 @ Mon Mar 14 16:07:05 2011
-Examining:     13 @ Mon Mar 14 16:07:05 2011
-Examining:     14 @ Mon Mar 14 16:07:05 2011
-Examining:     15 @ Mon Mar 14 16:07:05 2011
-Examining:     16 @ Mon Mar 14 16:07:05 2011
-Examining:     17 @ Mon Mar 14 16:07:05 2011
-Examining:     18 @ Mon Mar 14 16:07:05 2011
-Examining:     19 @ Mon Mar 14 16:07:05 2011
-Examining:     20 @ Mon Mar 14 16:07:05 2011
-Examining:     21 @ Mon Mar 14 16:07:05 2011
-Examining:     22 @ Mon Mar 14 16:07:05 2011
-Examining:     23 @ Mon Mar 14 16:07:05 2011
-Examining:     24 @ Mon Mar 14 16:07:05 2011
-Examining:     25 @ Mon Mar 14 16:07:05 2011
-Examining:     26 @ Mon Mar 14 16:07:05 2011
-Examining:     27 @ Mon Mar 14 16:07:05 2011
-Examining:     28 @ Mon Mar 14 16:07:05 2011
-Examining:     29 @ Mon Mar 14 16:07:05 2011
-Examining:     30 @ Mon Mar 14 16:07:05 2011
-Examining:     31 @ Mon Mar 14 16:07:05 2011
-Examining:     32 @ Mon Mar 14 16:07:05 2011
-Examining:     33 @ Mon Mar 14 16:07:05 2011
-Examining:     34 @ Mon Mar 14 16:07:05 2011
-Examining:     35 @ Mon Mar 14 16:07:05 2011
-Examining:     36 @ Mon Mar 14 16:07:05 2011
-Examining:     37 @ Mon Mar 14 16:07:05 2011
-Examining:     38 @ Mon Mar 14 16:07:05 2011
-Finished:      38 @ Mon Mar 14 16:07:05 2011
-Calculating Entropy         Mon Mar 14 16:07:05 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Examining:      1 @ Thu Jan 14 09:19:58 2016
+Examining:      2 @ Thu Jan 14 09:19:58 2016
+Examining:      3 @ Thu Jan 14 09:19:58 2016
+Examining:      4 @ Thu Jan 14 09:19:58 2016
+Examining:      5 @ Thu Jan 14 09:19:58 2016
+Examining:      6 @ Thu Jan 14 09:19:58 2016
+Examining:      7 @ Thu Jan 14 09:19:58 2016
+Examining:      8 @ Thu Jan 14 09:19:58 2016
+Examining:      9 @ Thu Jan 14 09:19:58 2016
+Examining:     10 @ Thu Jan 14 09:19:58 2016
+Examining:     11 @ Thu Jan 14 09:19:58 2016
+Examining:     12 @ Thu Jan 14 09:19:58 2016
+Examining:     13 @ Thu Jan 14 09:19:58 2016
+Examining:     14 @ Thu Jan 14 09:19:58 2016
+Examining:     15 @ Thu Jan 14 09:19:58 2016
+Examining:     16 @ Thu Jan 14 09:19:58 2016
+Examining:     17 @ Thu Jan 14 09:19:58 2016
+Examining:     18 @ Thu Jan 14 09:19:58 2016
+Examining:     19 @ Thu Jan 14 09:19:58 2016
+Examining:     20 @ Thu Jan 14 09:19:58 2016
+Examining:     21 @ Thu Jan 14 09:19:58 2016
+Examining:     22 @ Thu Jan 14 09:19:58 2016
+Examining:     23 @ Thu Jan 14 09:19:58 2016
+Examining:     24 @ Thu Jan 14 09:19:58 2016
+Examining:     25 @ Thu Jan 14 09:19:58 2016
+Examining:     26 @ Thu Jan 14 09:19:58 2016
+Examining:     27 @ Thu Jan 14 09:19:58 2016
+Examining:     28 @ Thu Jan 14 09:19:58 2016
+Examining:     29 @ Thu Jan 14 09:19:58 2016
+Examining:     30 @ Thu Jan 14 09:19:58 2016
+Examining:     31 @ Thu Jan 14 09:19:58 2016
+Examining:     32 @ Thu Jan 14 09:19:58 2016
+Examining:     33 @ Thu Jan 14 09:19:58 2016
+Examining:     34 @ Thu Jan 14 09:19:58 2016
+Examining:     35 @ Thu Jan 14 09:19:58 2016
+Examining:     36 @ Thu Jan 14 09:19:58 2016
+Examining:     37 @ Thu Jan 14 09:19:58 2016
+Examining:     38 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 38
 DB Entropy        : 1.17093636
 Number of Classes : 3
@@ -111,48 +113,48 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.83647568	0.21450128
     8     17	0.37061205	0.09772324
 
-Preparation took 0 seconds, 0 milliseconds and 995 microseconds
+Preparation took 0 seconds, 0 milliseconds and 346 microseconds
 Phase 2: Appending from Datafile: ./tests/cv_2.train (starting at line 1)
-Start:          1 @ Mon Mar 14 16:07:05 2011
-Learning:       0 @ Mon Mar 14 16:07:05 2011	 added:1
-Learning:       1 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       2 @ Mon Mar 14 16:07:05 2011	 added:1
-Learning:       3 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       4 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       5 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       6 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       7 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       8 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       9 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      10 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      11 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      12 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      13 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      14 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      15 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      16 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      17 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      18 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      19 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      20 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      21 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      22 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      23 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      24 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      25 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      26 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      27 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      28 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      29 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      30 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      31 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      32 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      33 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      34 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      35 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      36 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      37 @ Mon Mar 14 16:07:05 2011	 added:0
-Finished:      37 @ Mon Mar 14 16:07:05 2011
+Start:          1 @ Thu Jan 14 09:19:58 2016
+Learning:       0 @ Thu Jan 14 09:19:58 2016	 added:1
+Learning:       1 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       2 @ Thu Jan 14 09:19:58 2016	 added:1
+Learning:       3 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       4 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       5 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       6 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       7 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       8 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       9 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      10 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      11 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      12 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      13 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      14 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      15 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      16 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      17 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      18 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      19 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      20 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      21 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      22 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      23 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      24 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      25 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      26 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      27 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      28 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      29 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      30 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      31 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      32 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      33 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      34 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      35 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      36 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      37 @ Thu Jan 14 09:19:58 2016	 added:0
+Finished:      37 @ Thu Jan 14 09:19:58 2016
 in total added 2 new entries
 
 Size of InstanceBase = 350 Nodes, (14000 bytes), 2.78 % compression
@@ -819,96 +821,97 @@ Features
 )
 ]
 )
-TiMBL 6.3.4 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Mar 14 16:07:05 2011
+Thu Jan 14 09:19:58 2016
 
 Examine datafile './tests/cv_12.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Mar 14 16:07:05 2011
-Examining:      1 @ Mon Mar 14 16:07:05 2011
-Examining:      2 @ Mon Mar 14 16:07:05 2011
-Examining:      3 @ Mon Mar 14 16:07:05 2011
-Examining:      4 @ Mon Mar 14 16:07:05 2011
-Examining:      5 @ Mon Mar 14 16:07:05 2011
-Examining:      6 @ Mon Mar 14 16:07:05 2011
-Examining:      7 @ Mon Mar 14 16:07:05 2011
-Examining:      8 @ Mon Mar 14 16:07:05 2011
-Examining:      9 @ Mon Mar 14 16:07:05 2011
-Examining:     10 @ Mon Mar 14 16:07:05 2011
-Examining:     11 @ Mon Mar 14 16:07:05 2011
-Examining:     12 @ Mon Mar 14 16:07:05 2011
-Examining:     13 @ Mon Mar 14 16:07:05 2011
-Examining:     14 @ Mon Mar 14 16:07:05 2011
-Examining:     15 @ Mon Mar 14 16:07:05 2011
-Examining:     16 @ Mon Mar 14 16:07:05 2011
-Examining:     17 @ Mon Mar 14 16:07:05 2011
-Examining:     18 @ Mon Mar 14 16:07:05 2011
-Examining:     19 @ Mon Mar 14 16:07:05 2011
-Examining:     20 @ Mon Mar 14 16:07:05 2011
-Examining:     21 @ Mon Mar 14 16:07:05 2011
-Examining:     22 @ Mon Mar 14 16:07:05 2011
-Examining:     23 @ Mon Mar 14 16:07:05 2011
-Examining:     24 @ Mon Mar 14 16:07:05 2011
-Examining:     25 @ Mon Mar 14 16:07:05 2011
-Examining:     26 @ Mon Mar 14 16:07:05 2011
-Examining:     27 @ Mon Mar 14 16:07:05 2011
-Examining:     28 @ Mon Mar 14 16:07:05 2011
-Examining:     29 @ Mon Mar 14 16:07:05 2011
-Examining:     30 @ Mon Mar 14 16:07:05 2011
-Examining:     31 @ Mon Mar 14 16:07:05 2011
-Examining:     32 @ Mon Mar 14 16:07:05 2011
-Examining:     33 @ Mon Mar 14 16:07:05 2011
-Examining:     34 @ Mon Mar 14 16:07:05 2011
-Examining:     35 @ Mon Mar 14 16:07:05 2011
-Examining:     36 @ Mon Mar 14 16:07:05 2011
-Examining:     37 @ Mon Mar 14 16:07:05 2011
-Examining:     38 @ Mon Mar 14 16:07:05 2011
-Examining:     39 @ Mon Mar 14 16:07:05 2011
-Examining:     40 @ Mon Mar 14 16:07:05 2011
-Examining:     41 @ Mon Mar 14 16:07:05 2011
-Examining:     42 @ Mon Mar 14 16:07:05 2011
-Examining:     43 @ Mon Mar 14 16:07:05 2011
-Examining:     44 @ Mon Mar 14 16:07:05 2011
-Examining:     45 @ Mon Mar 14 16:07:05 2011
-Examining:     46 @ Mon Mar 14 16:07:05 2011
-Examining:     47 @ Mon Mar 14 16:07:05 2011
-Examining:     48 @ Mon Mar 14 16:07:05 2011
-Examining:     49 @ Mon Mar 14 16:07:05 2011
-Examining:     50 @ Mon Mar 14 16:07:05 2011
-Examining:     51 @ Mon Mar 14 16:07:05 2011
-Examining:     52 @ Mon Mar 14 16:07:05 2011
-Examining:     53 @ Mon Mar 14 16:07:05 2011
-Examining:     54 @ Mon Mar 14 16:07:05 2011
-Examining:     55 @ Mon Mar 14 16:07:05 2011
-Examining:     56 @ Mon Mar 14 16:07:05 2011
-Examining:     57 @ Mon Mar 14 16:07:05 2011
-Examining:     58 @ Mon Mar 14 16:07:05 2011
-Examining:     59 @ Mon Mar 14 16:07:05 2011
-Examining:     60 @ Mon Mar 14 16:07:05 2011
-Examining:     61 @ Mon Mar 14 16:07:05 2011
-Examining:     62 @ Mon Mar 14 16:07:05 2011
-Examining:     63 @ Mon Mar 14 16:07:05 2011
-Examining:     64 @ Mon Mar 14 16:07:05 2011
-Examining:     65 @ Mon Mar 14 16:07:05 2011
-Examining:     66 @ Mon Mar 14 16:07:05 2011
-Examining:     67 @ Mon Mar 14 16:07:05 2011
-Examining:     68 @ Mon Mar 14 16:07:05 2011
-Examining:     69 @ Mon Mar 14 16:07:05 2011
-Examining:     70 @ Mon Mar 14 16:07:05 2011
-Examining:     71 @ Mon Mar 14 16:07:05 2011
-Examining:     72 @ Mon Mar 14 16:07:05 2011
-Examining:     73 @ Mon Mar 14 16:07:05 2011
-Examining:     74 @ Mon Mar 14 16:07:05 2011
-Examining:     75 @ Mon Mar 14 16:07:05 2011
-Examining:     76 @ Mon Mar 14 16:07:05 2011
-Finished:      76 @ Mon Mar 14 16:07:05 2011
-Calculating Entropy         Mon Mar 14 16:07:05 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Examining:      1 @ Thu Jan 14 09:19:58 2016
+Examining:      2 @ Thu Jan 14 09:19:58 2016
+Examining:      3 @ Thu Jan 14 09:19:58 2016
+Examining:      4 @ Thu Jan 14 09:19:58 2016
+Examining:      5 @ Thu Jan 14 09:19:58 2016
+Examining:      6 @ Thu Jan 14 09:19:58 2016
+Examining:      7 @ Thu Jan 14 09:19:58 2016
+Examining:      8 @ Thu Jan 14 09:19:58 2016
+Examining:      9 @ Thu Jan 14 09:19:58 2016
+Examining:     10 @ Thu Jan 14 09:19:58 2016
+Examining:     11 @ Thu Jan 14 09:19:58 2016
+Examining:     12 @ Thu Jan 14 09:19:58 2016
+Examining:     13 @ Thu Jan 14 09:19:58 2016
+Examining:     14 @ Thu Jan 14 09:19:58 2016
+Examining:     15 @ Thu Jan 14 09:19:58 2016
+Examining:     16 @ Thu Jan 14 09:19:58 2016
+Examining:     17 @ Thu Jan 14 09:19:58 2016
+Examining:     18 @ Thu Jan 14 09:19:58 2016
+Examining:     19 @ Thu Jan 14 09:19:58 2016
+Examining:     20 @ Thu Jan 14 09:19:58 2016
+Examining:     21 @ Thu Jan 14 09:19:58 2016
+Examining:     22 @ Thu Jan 14 09:19:58 2016
+Examining:     23 @ Thu Jan 14 09:19:58 2016
+Examining:     24 @ Thu Jan 14 09:19:58 2016
+Examining:     25 @ Thu Jan 14 09:19:58 2016
+Examining:     26 @ Thu Jan 14 09:19:58 2016
+Examining:     27 @ Thu Jan 14 09:19:58 2016
+Examining:     28 @ Thu Jan 14 09:19:58 2016
+Examining:     29 @ Thu Jan 14 09:19:58 2016
+Examining:     30 @ Thu Jan 14 09:19:58 2016
+Examining:     31 @ Thu Jan 14 09:19:58 2016
+Examining:     32 @ Thu Jan 14 09:19:58 2016
+Examining:     33 @ Thu Jan 14 09:19:58 2016
+Examining:     34 @ Thu Jan 14 09:19:58 2016
+Examining:     35 @ Thu Jan 14 09:19:58 2016
+Examining:     36 @ Thu Jan 14 09:19:58 2016
+Examining:     37 @ Thu Jan 14 09:19:58 2016
+Examining:     38 @ Thu Jan 14 09:19:58 2016
+Examining:     39 @ Thu Jan 14 09:19:58 2016
+Examining:     40 @ Thu Jan 14 09:19:58 2016
+Examining:     41 @ Thu Jan 14 09:19:58 2016
+Examining:     42 @ Thu Jan 14 09:19:58 2016
+Examining:     43 @ Thu Jan 14 09:19:58 2016
+Examining:     44 @ Thu Jan 14 09:19:58 2016
+Examining:     45 @ Thu Jan 14 09:19:58 2016
+Examining:     46 @ Thu Jan 14 09:19:58 2016
+Examining:     47 @ Thu Jan 14 09:19:58 2016
+Examining:     48 @ Thu Jan 14 09:19:58 2016
+Examining:     49 @ Thu Jan 14 09:19:58 2016
+Examining:     50 @ Thu Jan 14 09:19:58 2016
+Examining:     51 @ Thu Jan 14 09:19:58 2016
+Examining:     52 @ Thu Jan 14 09:19:58 2016
+Examining:     53 @ Thu Jan 14 09:19:58 2016
+Examining:     54 @ Thu Jan 14 09:19:58 2016
+Examining:     55 @ Thu Jan 14 09:19:58 2016
+Examining:     56 @ Thu Jan 14 09:19:58 2016
+Examining:     57 @ Thu Jan 14 09:19:58 2016
+Examining:     58 @ Thu Jan 14 09:19:58 2016
+Examining:     59 @ Thu Jan 14 09:19:58 2016
+Examining:     60 @ Thu Jan 14 09:19:58 2016
+Examining:     61 @ Thu Jan 14 09:19:58 2016
+Examining:     62 @ Thu Jan 14 09:19:58 2016
+Examining:     63 @ Thu Jan 14 09:19:58 2016
+Examining:     64 @ Thu Jan 14 09:19:58 2016
+Examining:     65 @ Thu Jan 14 09:19:58 2016
+Examining:     66 @ Thu Jan 14 09:19:58 2016
+Examining:     67 @ Thu Jan 14 09:19:58 2016
+Examining:     68 @ Thu Jan 14 09:19:58 2016
+Examining:     69 @ Thu Jan 14 09:19:58 2016
+Examining:     70 @ Thu Jan 14 09:19:58 2016
+Examining:     71 @ Thu Jan 14 09:19:58 2016
+Examining:     72 @ Thu Jan 14 09:19:58 2016
+Examining:     73 @ Thu Jan 14 09:19:58 2016
+Examining:     74 @ Thu Jan 14 09:19:58 2016
+Examining:     75 @ Thu Jan 14 09:19:58 2016
+Examining:     76 @ Thu Jan 14 09:19:58 2016
+Finished:      76 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 76
 DB Entropy        : 1.1709364
 Number of Classes : 3
@@ -923,94 +926,94 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.83647568	0.21450128
     8     17	0.37061205	0.097723243
 
-Preparation took 0 seconds, 1 milliseconds and 944 microseconds
+Preparation took 0 seconds, 0 milliseconds and 675 microseconds
 Feature Permutation based on Default Ordering :
 < 1, 2, 3, 4, 5, 6, 7, 8 >
 Phase 2: Learning from Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Mar 14 16:07:05 2011
-Learning:       1 @ Mon Mar 14 16:07:05 2011
-Learning:       2 @ Mon Mar 14 16:07:05 2011
-Learning:       3 @ Mon Mar 14 16:07:05 2011
-Learning:       4 @ Mon Mar 14 16:07:05 2011
-Learning:       5 @ Mon Mar 14 16:07:05 2011
-Learning:       6 @ Mon Mar 14 16:07:05 2011
-Learning:       7 @ Mon Mar 14 16:07:05 2011
-Learning:       8 @ Mon Mar 14 16:07:05 2011
-Learning:       9 @ Mon Mar 14 16:07:05 2011
-Learning:      10 @ Mon Mar 14 16:07:05 2011
-Learning:      11 @ Mon Mar 14 16:07:05 2011
-Learning:      12 @ Mon Mar 14 16:07:05 2011
-Learning:      13 @ Mon Mar 14 16:07:05 2011
-Learning:      14 @ Mon Mar 14 16:07:05 2011
-Learning:      15 @ Mon Mar 14 16:07:05 2011
-Learning:      16 @ Mon Mar 14 16:07:05 2011
-Learning:      17 @ Mon Mar 14 16:07:05 2011
-Learning:      18 @ Mon Mar 14 16:07:05 2011
-Learning:      19 @ Mon Mar 14 16:07:05 2011
-Learning:      20 @ Mon Mar 14 16:07:05 2011
-Learning:      21 @ Mon Mar 14 16:07:05 2011
-Learning:      22 @ Mon Mar 14 16:07:05 2011
-Learning:      23 @ Mon Mar 14 16:07:05 2011
-Learning:      24 @ Mon Mar 14 16:07:05 2011
-Learning:      25 @ Mon Mar 14 16:07:05 2011
-Learning:      26 @ Mon Mar 14 16:07:05 2011
-Learning:      27 @ Mon Mar 14 16:07:05 2011
-Learning:      28 @ Mon Mar 14 16:07:05 2011
-Learning:      29 @ Mon Mar 14 16:07:05 2011
-Learning:      30 @ Mon Mar 14 16:07:05 2011
-Learning:      31 @ Mon Mar 14 16:07:05 2011
-Learning:      32 @ Mon Mar 14 16:07:05 2011
-Learning:      33 @ Mon Mar 14 16:07:05 2011
-Learning:      34 @ Mon Mar 14 16:07:05 2011
-Learning:      35 @ Mon Mar 14 16:07:05 2011
-Learning:      36 @ Mon Mar 14 16:07:05 2011
-Learning:      37 @ Mon Mar 14 16:07:05 2011
-Learning:      38 @ Mon Mar 14 16:07:05 2011
-Finished:      38 @ Mon Mar 14 16:07:05 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Learning:       1 @ Thu Jan 14 09:19:58 2016
+Learning:       2 @ Thu Jan 14 09:19:58 2016
+Learning:       3 @ Thu Jan 14 09:19:58 2016
+Learning:       4 @ Thu Jan 14 09:19:58 2016
+Learning:       5 @ Thu Jan 14 09:19:58 2016
+Learning:       6 @ Thu Jan 14 09:19:58 2016
+Learning:       7 @ Thu Jan 14 09:19:58 2016
+Learning:       8 @ Thu Jan 14 09:19:58 2016
+Learning:       9 @ Thu Jan 14 09:19:58 2016
+Learning:      10 @ Thu Jan 14 09:19:58 2016
+Learning:      11 @ Thu Jan 14 09:19:58 2016
+Learning:      12 @ Thu Jan 14 09:19:58 2016
+Learning:      13 @ Thu Jan 14 09:19:58 2016
+Learning:      14 @ Thu Jan 14 09:19:58 2016
+Learning:      15 @ Thu Jan 14 09:19:58 2016
+Learning:      16 @ Thu Jan 14 09:19:58 2016
+Learning:      17 @ Thu Jan 14 09:19:58 2016
+Learning:      18 @ Thu Jan 14 09:19:58 2016
+Learning:      19 @ Thu Jan 14 09:19:58 2016
+Learning:      20 @ Thu Jan 14 09:19:58 2016
+Learning:      21 @ Thu Jan 14 09:19:58 2016
+Learning:      22 @ Thu Jan 14 09:19:58 2016
+Learning:      23 @ Thu Jan 14 09:19:58 2016
+Learning:      24 @ Thu Jan 14 09:19:58 2016
+Learning:      25 @ Thu Jan 14 09:19:58 2016
+Learning:      26 @ Thu Jan 14 09:19:58 2016
+Learning:      27 @ Thu Jan 14 09:19:58 2016
+Learning:      28 @ Thu Jan 14 09:19:58 2016
+Learning:      29 @ Thu Jan 14 09:19:58 2016
+Learning:      30 @ Thu Jan 14 09:19:58 2016
+Learning:      31 @ Thu Jan 14 09:19:58 2016
+Learning:      32 @ Thu Jan 14 09:19:58 2016
+Learning:      33 @ Thu Jan 14 09:19:58 2016
+Learning:      34 @ Thu Jan 14 09:19:58 2016
+Learning:      35 @ Thu Jan 14 09:19:58 2016
+Learning:      36 @ Thu Jan 14 09:19:58 2016
+Learning:      37 @ Thu Jan 14 09:19:58 2016
+Learning:      38 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Size of InstanceBase = 335 Nodes, (13400 bytes), 2.05 % compression
-Learning took 0 seconds, 0 milliseconds and 897 microseconds
+Learning took 0 seconds, 0 milliseconds and 296 microseconds
 Phase 2: Appending from Datafile: ./tests/cv_12.train (starting at line 39)
-Start:         39 @ Mon Mar 14 16:07:05 2011
-Learning:       0 @ Mon Mar 14 16:07:05 2011	 added:1
-Learning:       1 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       2 @ Mon Mar 14 16:07:05 2011	 added:1
-Learning:       3 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       4 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       5 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       6 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       7 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       8 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       9 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      10 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      11 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      12 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      13 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      14 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      15 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      16 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      17 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      18 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      19 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      20 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      21 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      22 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      23 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      24 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      25 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      26 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      27 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      28 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      29 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      30 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      31 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      32 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      33 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      34 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      35 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      36 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      37 @ Mon Mar 14 16:07:05 2011	 added:0
-Finished:      37 @ Mon Mar 14 16:07:05 2011
+Start:         39 @ Thu Jan 14 09:19:58 2016
+Learning:       0 @ Thu Jan 14 09:19:58 2016	 added:1
+Learning:       1 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       2 @ Thu Jan 14 09:19:58 2016	 added:1
+Learning:       3 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       4 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       5 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       6 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       7 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       8 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       9 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      10 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      11 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      12 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      13 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      14 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      15 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      16 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      17 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      18 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      19 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      20 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      21 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      22 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      23 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      24 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      25 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      26 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      27 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      28 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      29 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      30 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      31 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      32 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      33 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      34 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      35 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      36 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      37 @ Thu Jan 14 09:19:58 2016	 added:0
+Finished:      37 @ Thu Jan 14 09:19:58 2016
 in total added 2 new entries
 
 Size of InstanceBase = 350 Nodes, (14000 bytes), 2.78 % compression
@@ -1677,11 +1680,12 @@ Features
 )
 ]
 )
-TiMBL 6.3.4 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Mar 14 16:07:05 2011
+Thu Jan 14 09:19:58 2016
 
 Reading Instance-Base from: ib2test12.tree
 
@@ -1693,47 +1697,47 @@ Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_3.train
-Start:          0 @ Mon Mar 14 16:07:05 2011
-Examining:      1 @ Mon Mar 14 16:07:05 2011
-Examining:      2 @ Mon Mar 14 16:07:05 2011
-Examining:      3 @ Mon Mar 14 16:07:05 2011
-Examining:      4 @ Mon Mar 14 16:07:05 2011
-Examining:      5 @ Mon Mar 14 16:07:05 2011
-Examining:      6 @ Mon Mar 14 16:07:05 2011
-Examining:      7 @ Mon Mar 14 16:07:05 2011
-Examining:      8 @ Mon Mar 14 16:07:05 2011
-Examining:      9 @ Mon Mar 14 16:07:05 2011
-Examining:     10 @ Mon Mar 14 16:07:05 2011
-Examining:     11 @ Mon Mar 14 16:07:05 2011
-Examining:     12 @ Mon Mar 14 16:07:05 2011
-Examining:     13 @ Mon Mar 14 16:07:05 2011
-Examining:     14 @ Mon Mar 14 16:07:05 2011
-Examining:     15 @ Mon Mar 14 16:07:05 2011
-Examining:     16 @ Mon Mar 14 16:07:05 2011
-Examining:     17 @ Mon Mar 14 16:07:05 2011
-Examining:     18 @ Mon Mar 14 16:07:05 2011
-Examining:     19 @ Mon Mar 14 16:07:05 2011
-Examining:     20 @ Mon Mar 14 16:07:05 2011
-Examining:     21 @ Mon Mar 14 16:07:05 2011
-Examining:     22 @ Mon Mar 14 16:07:05 2011
-Examining:     23 @ Mon Mar 14 16:07:05 2011
-Examining:     24 @ Mon Mar 14 16:07:05 2011
-Examining:     25 @ Mon Mar 14 16:07:05 2011
-Examining:     26 @ Mon Mar 14 16:07:05 2011
-Examining:     27 @ Mon Mar 14 16:07:05 2011
-Examining:     28 @ Mon Mar 14 16:07:05 2011
-Examining:     29 @ Mon Mar 14 16:07:05 2011
-Examining:     30 @ Mon Mar 14 16:07:05 2011
-Examining:     31 @ Mon Mar 14 16:07:05 2011
-Examining:     32 @ Mon Mar 14 16:07:05 2011
-Examining:     33 @ Mon Mar 14 16:07:05 2011
-Examining:     34 @ Mon Mar 14 16:07:05 2011
-Examining:     35 @ Mon Mar 14 16:07:05 2011
-Examining:     36 @ Mon Mar 14 16:07:05 2011
-Examining:     37 @ Mon Mar 14 16:07:05 2011
-Examining:     38 @ Mon Mar 14 16:07:05 2011
-Finished:      38 @ Mon Mar 14 16:07:05 2011
-Calculating Entropy         Mon Mar 14 16:07:05 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Examining:      1 @ Thu Jan 14 09:19:58 2016
+Examining:      2 @ Thu Jan 14 09:19:58 2016
+Examining:      3 @ Thu Jan 14 09:19:58 2016
+Examining:      4 @ Thu Jan 14 09:19:58 2016
+Examining:      5 @ Thu Jan 14 09:19:58 2016
+Examining:      6 @ Thu Jan 14 09:19:58 2016
+Examining:      7 @ Thu Jan 14 09:19:58 2016
+Examining:      8 @ Thu Jan 14 09:19:58 2016
+Examining:      9 @ Thu Jan 14 09:19:58 2016
+Examining:     10 @ Thu Jan 14 09:19:58 2016
+Examining:     11 @ Thu Jan 14 09:19:58 2016
+Examining:     12 @ Thu Jan 14 09:19:58 2016
+Examining:     13 @ Thu Jan 14 09:19:58 2016
+Examining:     14 @ Thu Jan 14 09:19:58 2016
+Examining:     15 @ Thu Jan 14 09:19:58 2016
+Examining:     16 @ Thu Jan 14 09:19:58 2016
+Examining:     17 @ Thu Jan 14 09:19:58 2016
+Examining:     18 @ Thu Jan 14 09:19:58 2016
+Examining:     19 @ Thu Jan 14 09:19:58 2016
+Examining:     20 @ Thu Jan 14 09:19:58 2016
+Examining:     21 @ Thu Jan 14 09:19:58 2016
+Examining:     22 @ Thu Jan 14 09:19:58 2016
+Examining:     23 @ Thu Jan 14 09:19:58 2016
+Examining:     24 @ Thu Jan 14 09:19:58 2016
+Examining:     25 @ Thu Jan 14 09:19:58 2016
+Examining:     26 @ Thu Jan 14 09:19:58 2016
+Examining:     27 @ Thu Jan 14 09:19:58 2016
+Examining:     28 @ Thu Jan 14 09:19:58 2016
+Examining:     29 @ Thu Jan 14 09:19:58 2016
+Examining:     30 @ Thu Jan 14 09:19:58 2016
+Examining:     31 @ Thu Jan 14 09:19:58 2016
+Examining:     32 @ Thu Jan 14 09:19:58 2016
+Examining:     33 @ Thu Jan 14 09:19:58 2016
+Examining:     34 @ Thu Jan 14 09:19:58 2016
+Examining:     35 @ Thu Jan 14 09:19:58 2016
+Examining:     36 @ Thu Jan 14 09:19:58 2016
+Examining:     37 @ Thu Jan 14 09:19:58 2016
+Examining:     38 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 38
 DB Entropy        : 1.10659293
 Number of Classes : 3
@@ -1748,48 +1752,48 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.77615142	0.20071612
     8     17	0.31577870	0.08279677
 
-Preparation took 0 seconds, 0 milliseconds and 991 microseconds
+Preparation took 0 seconds, 0 milliseconds and 369 microseconds
 Phase 2: Appending from Datafile: ./tests/cv_3.train (starting at line 1)
-Start:          1 @ Mon Mar 14 16:07:05 2011
-Learning:       0 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       1 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       2 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       3 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       4 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       5 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       6 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       7 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       8 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       9 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      10 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      11 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      12 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      13 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      14 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      15 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      16 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      17 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      18 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      19 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      20 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      21 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      22 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      23 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      24 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      25 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      26 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      27 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      28 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      29 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      30 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      31 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      32 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      33 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      34 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      35 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      36 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      37 @ Mon Mar 14 16:07:05 2011	 added:0
-Finished:      37 @ Mon Mar 14 16:07:05 2011
+Start:          1 @ Thu Jan 14 09:19:58 2016
+Learning:       0 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       1 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       2 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       3 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       4 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       5 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       6 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       7 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       8 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       9 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      10 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      11 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      12 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      13 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      14 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      15 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      16 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      17 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      18 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      19 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      20 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      21 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      22 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      23 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      24 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      25 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      26 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      27 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      28 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      29 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      30 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      31 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      32 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      33 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      34 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      35 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      36 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      37 @ Thu Jan 14 09:19:58 2016	 added:0
+Finished:      37 @ Thu Jan 14 09:19:58 2016
 in total added 0 new entries
 
 Size of InstanceBase = 350 Nodes, (14000 bytes), 2.78 % compression
@@ -1827,53 +1831,54 @@ Feature 6	 : 0.270599797601837
 Feature 7	 : 0.200716117938111
 Feature 8	 : 0.082796774612031
 
-Tested:      1 @ Mon Mar 14 16:07:05 2011
-Tested:      2 @ Mon Mar 14 16:07:05 2011
-Tested:      3 @ Mon Mar 14 16:07:05 2011
-Tested:      4 @ Mon Mar 14 16:07:05 2011
-Tested:      5 @ Mon Mar 14 16:07:05 2011
-Tested:      6 @ Mon Mar 14 16:07:05 2011
-Tested:      7 @ Mon Mar 14 16:07:05 2011
-Tested:      8 @ Mon Mar 14 16:07:05 2011
-Tested:      9 @ Mon Mar 14 16:07:05 2011
-Tested:     10 @ Mon Mar 14 16:07:05 2011
-Tested:     11 @ Mon Mar 14 16:07:05 2011
-Tested:     12 @ Mon Mar 14 16:07:05 2011
-Tested:     13 @ Mon Mar 14 16:07:05 2011
-Tested:     14 @ Mon Mar 14 16:07:05 2011
-Tested:     15 @ Mon Mar 14 16:07:05 2011
-Tested:     16 @ Mon Mar 14 16:07:05 2011
-Tested:     17 @ Mon Mar 14 16:07:05 2011
-Tested:     18 @ Mon Mar 14 16:07:05 2011
-Tested:     19 @ Mon Mar 14 16:07:05 2011
-Tested:     20 @ Mon Mar 14 16:07:05 2011
-Tested:     21 @ Mon Mar 14 16:07:05 2011
-Tested:     22 @ Mon Mar 14 16:07:05 2011
-Tested:     23 @ Mon Mar 14 16:07:05 2011
-Tested:     24 @ Mon Mar 14 16:07:05 2011
-Tested:     25 @ Mon Mar 14 16:07:05 2011
-Tested:     26 @ Mon Mar 14 16:07:05 2011
-Tested:     27 @ Mon Mar 14 16:07:05 2011
-Tested:     28 @ Mon Mar 14 16:07:05 2011
-Tested:     29 @ Mon Mar 14 16:07:05 2011
-Tested:     30 @ Mon Mar 14 16:07:05 2011
-Tested:     31 @ Mon Mar 14 16:07:05 2011
-Tested:     32 @ Mon Mar 14 16:07:05 2011
-Tested:     33 @ Mon Mar 14 16:07:05 2011
-Tested:     34 @ Mon Mar 14 16:07:05 2011
-Tested:     35 @ Mon Mar 14 16:07:05 2011
-Tested:     36 @ Mon Mar 14 16:07:05 2011
-Tested:     37 @ Mon Mar 14 16:07:05 2011
-Tested:     38 @ Mon Mar 14 16:07:05 2011
-Ready:      38 @ Mon Mar 14 16:07:05 2011
-Seconds taken: 0.0015 (25148.91 p/s)
+Tested:      1 @ Thu Jan 14 09:19:58 2016
+Tested:      2 @ Thu Jan 14 09:19:58 2016
+Tested:      3 @ Thu Jan 14 09:19:58 2016
+Tested:      4 @ Thu Jan 14 09:19:58 2016
+Tested:      5 @ Thu Jan 14 09:19:58 2016
+Tested:      6 @ Thu Jan 14 09:19:58 2016
+Tested:      7 @ Thu Jan 14 09:19:58 2016
+Tested:      8 @ Thu Jan 14 09:19:58 2016
+Tested:      9 @ Thu Jan 14 09:19:58 2016
+Tested:     10 @ Thu Jan 14 09:19:58 2016
+Tested:     11 @ Thu Jan 14 09:19:58 2016
+Tested:     12 @ Thu Jan 14 09:19:58 2016
+Tested:     13 @ Thu Jan 14 09:19:58 2016
+Tested:     14 @ Thu Jan 14 09:19:58 2016
+Tested:     15 @ Thu Jan 14 09:19:58 2016
+Tested:     16 @ Thu Jan 14 09:19:58 2016
+Tested:     17 @ Thu Jan 14 09:19:58 2016
+Tested:     18 @ Thu Jan 14 09:19:58 2016
+Tested:     19 @ Thu Jan 14 09:19:58 2016
+Tested:     20 @ Thu Jan 14 09:19:58 2016
+Tested:     21 @ Thu Jan 14 09:19:58 2016
+Tested:     22 @ Thu Jan 14 09:19:58 2016
+Tested:     23 @ Thu Jan 14 09:19:58 2016
+Tested:     24 @ Thu Jan 14 09:19:58 2016
+Tested:     25 @ Thu Jan 14 09:19:58 2016
+Tested:     26 @ Thu Jan 14 09:19:58 2016
+Tested:     27 @ Thu Jan 14 09:19:58 2016
+Tested:     28 @ Thu Jan 14 09:19:58 2016
+Tested:     29 @ Thu Jan 14 09:19:58 2016
+Tested:     30 @ Thu Jan 14 09:19:58 2016
+Tested:     31 @ Thu Jan 14 09:19:58 2016
+Tested:     32 @ Thu Jan 14 09:19:58 2016
+Tested:     33 @ Thu Jan 14 09:19:58 2016
+Tested:     34 @ Thu Jan 14 09:19:58 2016
+Tested:     35 @ Thu Jan 14 09:19:58 2016
+Tested:     36 @ Thu Jan 14 09:19:58 2016
+Tested:     37 @ Thu Jan 14 09:19:58 2016
+Tested:     38 @ Thu Jan 14 09:19:58 2016
+Ready:      38 @ Thu Jan 14 09:19:58 2016
+Seconds taken: 0.0006 (66666.67 p/s)
 
 overall accuracy:        1.000000  (38/38), of which 30 exact matches 
-TiMBL 6.3.4 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Mar 14 16:07:05 2011
+Thu Jan 14 09:19:58 2016
 
 Reading Instance-Base from: ib2test123.tree
 
@@ -1885,47 +1890,47 @@ Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_4.train
-Start:          0 @ Mon Mar 14 16:07:05 2011
-Examining:      1 @ Mon Mar 14 16:07:05 2011
-Examining:      2 @ Mon Mar 14 16:07:05 2011
-Examining:      3 @ Mon Mar 14 16:07:05 2011
-Examining:      4 @ Mon Mar 14 16:07:05 2011
-Examining:      5 @ Mon Mar 14 16:07:05 2011
-Examining:      6 @ Mon Mar 14 16:07:05 2011
-Examining:      7 @ Mon Mar 14 16:07:05 2011
-Examining:      8 @ Mon Mar 14 16:07:05 2011
-Examining:      9 @ Mon Mar 14 16:07:05 2011
-Examining:     10 @ Mon Mar 14 16:07:05 2011
-Examining:     11 @ Mon Mar 14 16:07:05 2011
-Examining:     12 @ Mon Mar 14 16:07:05 2011
-Examining:     13 @ Mon Mar 14 16:07:05 2011
-Examining:     14 @ Mon Mar 14 16:07:05 2011
-Examining:     15 @ Mon Mar 14 16:07:05 2011
-Examining:     16 @ Mon Mar 14 16:07:05 2011
-Examining:     17 @ Mon Mar 14 16:07:05 2011
-Examining:     18 @ Mon Mar 14 16:07:05 2011
-Examining:     19 @ Mon Mar 14 16:07:05 2011
-Examining:     20 @ Mon Mar 14 16:07:05 2011
-Examining:     21 @ Mon Mar 14 16:07:05 2011
-Examining:     22 @ Mon Mar 14 16:07:05 2011
-Examining:     23 @ Mon Mar 14 16:07:05 2011
-Examining:     24 @ Mon Mar 14 16:07:05 2011
-Examining:     25 @ Mon Mar 14 16:07:05 2011
-Examining:     26 @ Mon Mar 14 16:07:05 2011
-Examining:     27 @ Mon Mar 14 16:07:05 2011
-Examining:     28 @ Mon Mar 14 16:07:05 2011
-Examining:     29 @ Mon Mar 14 16:07:05 2011
-Examining:     30 @ Mon Mar 14 16:07:05 2011
-Examining:     31 @ Mon Mar 14 16:07:05 2011
-Examining:     32 @ Mon Mar 14 16:07:05 2011
-Examining:     33 @ Mon Mar 14 16:07:05 2011
-Examining:     34 @ Mon Mar 14 16:07:05 2011
-Examining:     35 @ Mon Mar 14 16:07:05 2011
-Examining:     36 @ Mon Mar 14 16:07:05 2011
-Examining:     37 @ Mon Mar 14 16:07:05 2011
-Examining:     38 @ Mon Mar 14 16:07:05 2011
-Finished:      38 @ Mon Mar 14 16:07:05 2011
-Calculating Entropy         Mon Mar 14 16:07:05 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Examining:      1 @ Thu Jan 14 09:19:58 2016
+Examining:      2 @ Thu Jan 14 09:19:58 2016
+Examining:      3 @ Thu Jan 14 09:19:58 2016
+Examining:      4 @ Thu Jan 14 09:19:58 2016
+Examining:      5 @ Thu Jan 14 09:19:58 2016
+Examining:      6 @ Thu Jan 14 09:19:58 2016
+Examining:      7 @ Thu Jan 14 09:19:58 2016
+Examining:      8 @ Thu Jan 14 09:19:58 2016
+Examining:      9 @ Thu Jan 14 09:19:58 2016
+Examining:     10 @ Thu Jan 14 09:19:58 2016
+Examining:     11 @ Thu Jan 14 09:19:58 2016
+Examining:     12 @ Thu Jan 14 09:19:58 2016
+Examining:     13 @ Thu Jan 14 09:19:58 2016
+Examining:     14 @ Thu Jan 14 09:19:58 2016
+Examining:     15 @ Thu Jan 14 09:19:58 2016
+Examining:     16 @ Thu Jan 14 09:19:58 2016
+Examining:     17 @ Thu Jan 14 09:19:58 2016
+Examining:     18 @ Thu Jan 14 09:19:58 2016
+Examining:     19 @ Thu Jan 14 09:19:58 2016
+Examining:     20 @ Thu Jan 14 09:19:58 2016
+Examining:     21 @ Thu Jan 14 09:19:58 2016
+Examining:     22 @ Thu Jan 14 09:19:58 2016
+Examining:     23 @ Thu Jan 14 09:19:58 2016
+Examining:     24 @ Thu Jan 14 09:19:58 2016
+Examining:     25 @ Thu Jan 14 09:19:58 2016
+Examining:     26 @ Thu Jan 14 09:19:58 2016
+Examining:     27 @ Thu Jan 14 09:19:58 2016
+Examining:     28 @ Thu Jan 14 09:19:58 2016
+Examining:     29 @ Thu Jan 14 09:19:58 2016
+Examining:     30 @ Thu Jan 14 09:19:58 2016
+Examining:     31 @ Thu Jan 14 09:19:58 2016
+Examining:     32 @ Thu Jan 14 09:19:58 2016
+Examining:     33 @ Thu Jan 14 09:19:58 2016
+Examining:     34 @ Thu Jan 14 09:19:58 2016
+Examining:     35 @ Thu Jan 14 09:19:58 2016
+Examining:     36 @ Thu Jan 14 09:19:58 2016
+Examining:     37 @ Thu Jan 14 09:19:58 2016
+Examining:     38 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 38
 DB Entropy        : 1.14161953
 Number of Classes : 3
@@ -1940,48 +1945,48 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.77748794	0.20180982
     8     17	0.39263209	0.10418443
 
-Preparation took 0 seconds, 0 milliseconds and 988 microseconds
+Preparation took 0 seconds, 0 milliseconds and 350 microseconds
 Phase 2: Appending from Datafile: ./tests/cv_4.train (starting at line 1)
-Start:          1 @ Mon Mar 14 16:07:05 2011
-Learning:       0 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       1 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       2 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       3 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       4 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       5 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       6 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       7 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       8 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:       9 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      10 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      11 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      12 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      13 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      14 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      15 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      16 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      17 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      18 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      19 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      20 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      21 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      22 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      23 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      24 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      25 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      26 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      27 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      28 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      29 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      30 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      31 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      32 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      33 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      34 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      35 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      36 @ Mon Mar 14 16:07:05 2011	 added:0
-Learning:      37 @ Mon Mar 14 16:07:05 2011	 added:0
-Finished:      37 @ Mon Mar 14 16:07:05 2011
+Start:          1 @ Thu Jan 14 09:19:58 2016
+Learning:       0 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       1 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       2 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       3 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       4 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       5 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       6 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       7 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       8 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:       9 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      10 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      11 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      12 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      13 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      14 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      15 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      16 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      17 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      18 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      19 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      20 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      21 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      22 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      23 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      24 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      25 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      26 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      27 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      28 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      29 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      30 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      31 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      32 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      33 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      34 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      35 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      36 @ Thu Jan 14 09:19:58 2016	 added:0
+Learning:      37 @ Thu Jan 14 09:19:58 2016	 added:0
+Finished:      37 @ Thu Jan 14 09:19:58 2016
 in total added 0 new entries
 
 Size of InstanceBase = 350 Nodes, (14000 bytes), 2.78 % compression
@@ -2018,47 +2023,47 @@ Feature 6	 : 0.282627476981307
 Feature 7	 : 0.201809823932089
 Feature 8	 : 0.104184430697219
 
-Tested:      1 @ Mon Mar 14 16:07:05 2011
-Tested:      2 @ Mon Mar 14 16:07:05 2011
-Tested:      3 @ Mon Mar 14 16:07:05 2011
-Tested:      4 @ Mon Mar 14 16:07:05 2011
-Tested:      5 @ Mon Mar 14 16:07:05 2011
-Tested:      6 @ Mon Mar 14 16:07:05 2011
-Tested:      7 @ Mon Mar 14 16:07:05 2011
-Tested:      8 @ Mon Mar 14 16:07:05 2011
-Tested:      9 @ Mon Mar 14 16:07:05 2011
-Tested:     10 @ Mon Mar 14 16:07:05 2011
-Tested:     11 @ Mon Mar 14 16:07:05 2011
-Tested:     12 @ Mon Mar 14 16:07:05 2011
-Tested:     13 @ Mon Mar 14 16:07:05 2011
-Tested:     14 @ Mon Mar 14 16:07:05 2011
-Tested:     15 @ Mon Mar 14 16:07:05 2011
-Tested:     16 @ Mon Mar 14 16:07:05 2011
-Tested:     17 @ Mon Mar 14 16:07:05 2011
-Tested:     18 @ Mon Mar 14 16:07:05 2011
-Tested:     19 @ Mon Mar 14 16:07:05 2011
-Tested:     20 @ Mon Mar 14 16:07:05 2011
-Tested:     21 @ Mon Mar 14 16:07:05 2011
-Tested:     22 @ Mon Mar 14 16:07:05 2011
-Tested:     23 @ Mon Mar 14 16:07:05 2011
-Tested:     24 @ Mon Mar 14 16:07:05 2011
-Tested:     25 @ Mon Mar 14 16:07:05 2011
-Tested:     26 @ Mon Mar 14 16:07:05 2011
-Tested:     27 @ Mon Mar 14 16:07:05 2011
-Tested:     28 @ Mon Mar 14 16:07:05 2011
-Tested:     29 @ Mon Mar 14 16:07:05 2011
-Tested:     30 @ Mon Mar 14 16:07:05 2011
-Tested:     31 @ Mon Mar 14 16:07:05 2011
-Tested:     32 @ Mon Mar 14 16:07:05 2011
-Tested:     33 @ Mon Mar 14 16:07:05 2011
-Tested:     34 @ Mon Mar 14 16:07:05 2011
-Tested:     35 @ Mon Mar 14 16:07:05 2011
-Tested:     36 @ Mon Mar 14 16:07:05 2011
-Tested:     37 @ Mon Mar 14 16:07:05 2011
-Tested:     38 @ Mon Mar 14 16:07:05 2011
-Tested:     39 @ Mon Mar 14 16:07:05 2011
-Tested:     40 @ Mon Mar 14 16:07:05 2011
-Ready:      40 @ Mon Mar 14 16:07:05 2011
-Seconds taken: 0.0016 (25412.96 p/s)
+Tested:      1 @ Thu Jan 14 09:19:58 2016
+Tested:      2 @ Thu Jan 14 09:19:58 2016
+Tested:      3 @ Thu Jan 14 09:19:58 2016
+Tested:      4 @ Thu Jan 14 09:19:58 2016
+Tested:      5 @ Thu Jan 14 09:19:58 2016
+Tested:      6 @ Thu Jan 14 09:19:58 2016
+Tested:      7 @ Thu Jan 14 09:19:58 2016
+Tested:      8 @ Thu Jan 14 09:19:58 2016
+Tested:      9 @ Thu Jan 14 09:19:58 2016
+Tested:     10 @ Thu Jan 14 09:19:58 2016
+Tested:     11 @ Thu Jan 14 09:19:58 2016
+Tested:     12 @ Thu Jan 14 09:19:58 2016
+Tested:     13 @ Thu Jan 14 09:19:58 2016
+Tested:     14 @ Thu Jan 14 09:19:58 2016
+Tested:     15 @ Thu Jan 14 09:19:58 2016
+Tested:     16 @ Thu Jan 14 09:19:58 2016
+Tested:     17 @ Thu Jan 14 09:19:58 2016
+Tested:     18 @ Thu Jan 14 09:19:58 2016
+Tested:     19 @ Thu Jan 14 09:19:58 2016
+Tested:     20 @ Thu Jan 14 09:19:58 2016
+Tested:     21 @ Thu Jan 14 09:19:58 2016
+Tested:     22 @ Thu Jan 14 09:19:58 2016
+Tested:     23 @ Thu Jan 14 09:19:58 2016
+Tested:     24 @ Thu Jan 14 09:19:58 2016
+Tested:     25 @ Thu Jan 14 09:19:58 2016
+Tested:     26 @ Thu Jan 14 09:19:58 2016
+Tested:     27 @ Thu Jan 14 09:19:58 2016
+Tested:     28 @ Thu Jan 14 09:19:58 2016
+Tested:     29 @ Thu Jan 14 09:19:58 2016
+Tested:     30 @ Thu Jan 14 09:19:58 2016
+Tested:     31 @ Thu Jan 14 09:19:58 2016
+Tested:     32 @ Thu Jan 14 09:19:58 2016
+Tested:     33 @ Thu Jan 14 09:19:58 2016
+Tested:     34 @ Thu Jan 14 09:19:58 2016
+Tested:     35 @ Thu Jan 14 09:19:58 2016
+Tested:     36 @ Thu Jan 14 09:19:58 2016
+Tested:     37 @ Thu Jan 14 09:19:58 2016
+Tested:     38 @ Thu Jan 14 09:19:58 2016
+Tested:     39 @ Thu Jan 14 09:19:58 2016
+Tested:     40 @ Thu Jan 14 09:19:58 2016
+Ready:      40 @ Thu Jan 14 09:19:58 2016
+Seconds taken: 0.0005 (75757.58 p/s)
 
 overall accuracy:        1.000000  (40/40), of which 32 exact matches 

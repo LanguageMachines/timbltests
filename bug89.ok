@@ -1,17 +1,18 @@
-TiMBL 6.4.2 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Oct 31 12:27:39 2011
+Thu Jan 14 09:19:52 2016
 
 Examine datafile 'tests/bug89.train' gave the following results:
 Number of Features: 6
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: tests/bug89.train
-Start:          0 @ Mon Oct 31 12:27:39 2011
-Finished:      21 @ Mon Oct 31 12:27:39 2011
-Calculating Entropy         Mon Oct 31 12:27:39 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:      21 @ Thu Jan 14 09:19:52 2016
+Calculating Entropy         Thu Jan 14 09:19:52 2016
 Lines of data     : 21
 DB Entropy        : 1.0488413
 Number of Classes : 3
@@ -24,19 +25,19 @@ Feats	Vals	X-square	Variance	InfoGain	GainRatio
     5     18	30.800000	0.73333333	0.95360317	0.23221216
     6     21	42.000000	1.0000000	1.0488413	0.23878995
 
-Preparation took 0 seconds, 0 milliseconds and 371 microseconds
+Preparation took 0 seconds, 0 milliseconds and 175 microseconds
 Feature Permutation based on GainRatio/Values :
 < 3, 2, 4, 5, 1, 6 >
 Phase 2: Building multi index on Datafile: tests/bug89.train
-Start:          0 @ Mon Oct 31 12:27:39 2011
-Finished:      21 @ Mon Oct 31 12:27:39 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:      21 @ Thu Jan 14 09:19:52 2016
 
 Phase 3: Learning from Datafile: tests/bug89.train
-Start:          0 @ Mon Oct 31 12:27:39 2011
-Finished:      21 @ Mon Oct 31 12:27:39 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:      21 @ Thu Jan 14 09:19:52 2016
 
 Size of InstanceBase = 132 Nodes, (5280 bytes), 10.20 % compression
-Learning took 0 seconds, 0 milliseconds and 314 microseconds
+Learning took 0 seconds, 0 milliseconds and 196 microseconds
 Examine datafile 'tests/bug89.test' gave the following results:
 Number of Features: 6
 InputFormat       : Columns
@@ -63,25 +64,26 @@ Feature 4	 : 22.586666666666662
 Feature 5	 : 30.799999999999979
 Feature 6	 : 41.999999999999993
 Decay         : Exponential Decay a=1.000000 b= 1.000000
-Tested:      1 @ Mon Oct 31 12:27:39 2011
-Ready:       1 @ Mon Oct 31 12:27:39 2011
-Seconds taken: 0.0002 (4807.69 p/s)
+Tested:      1 @ Thu Jan 14 09:19:52 2016
+Ready:       1 @ Thu Jan 14 09:19:52 2016
+Seconds taken: 0.0001 (12048.19 p/s)
 
 overall accuracy:        0.000000  (0/1)
-TiMBL 6.4.2 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Oct 31 12:27:39 2011
+Thu Jan 14 09:19:52 2016
 
 Examine datafile 'tests/bug89.train' gave the following results:
 Number of Features: 6
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: tests/bug89.train
-Start:          0 @ Mon Oct 31 12:27:39 2011
-Finished:      21 @ Mon Oct 31 12:27:39 2011
-Calculating Entropy         Mon Oct 31 12:27:39 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:      21 @ Thu Jan 14 09:19:52 2016
+Calculating Entropy         Thu Jan 14 09:19:52 2016
 Lines of data     : 21
 DB Entropy        : 1.0488413
 Number of Classes : 3
@@ -94,19 +96,19 @@ Feats	Vals	X-square	Variance	InfoGain	GainRatio
     5     18	30.800000	0.73333333	0.95360317	0.23221216
     6     21	42.000000	1.0000000	1.0488413	0.23878995
 
-Preparation took 0 seconds, 0 milliseconds and 358 microseconds
+Preparation took 0 seconds, 0 milliseconds and 166 microseconds
 Feature Permutation based on GainRatio/Values :
 < 3, 2, 4, 5, 1, 6 >
 Phase 2: Building multi index on Datafile: tests/bug89.train
-Start:          0 @ Mon Oct 31 12:27:39 2011
-Finished:      21 @ Mon Oct 31 12:27:39 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:      21 @ Thu Jan 14 09:19:52 2016
 
 Phase 3: Learning from Datafile: tests/bug89.train
-Start:          0 @ Mon Oct 31 12:27:39 2011
-Finished:      21 @ Mon Oct 31 12:27:39 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:      21 @ Thu Jan 14 09:19:52 2016
 
 Size of InstanceBase = 132 Nodes, (5280 bytes), 10.20 % compression
-Learning took 0 seconds, 0 milliseconds and 315 microseconds
+Learning took 0 seconds, 0 milliseconds and 187 microseconds
 Examine datafile 'tests/bug89.test' gave the following results:
 Number of Features: 6
 InputFormat       : Columns
@@ -133,9 +135,9 @@ Feature 4	 : 22.586666666666662
 Feature 5	 : 30.799999999999979
 Feature 6	 : 41.999999999999993
 Decay         : Exponential Decay a=1.000000 b= 1.000000
-Tested:      1 @ Mon Oct 31 12:27:39 2011
-Ready:       1 @ Mon Oct 31 12:27:39 2011
-Seconds taken: 0.0002 (4926.11 p/s)
+Tested:      1 @ Thu Jan 14 09:19:52 2016
+Ready:       1 @ Thu Jan 14 09:19:52 2016
+Seconds taken: 0.0001 (13157.89 p/s)
 
 overall accuracy:        0.000000  (0/1)
 63361 van D2 is ook 52299 ? T1 { T1 1.77636e-15, T2 6.66134e-16, T3 2.22045e-16 }        756.37333333333

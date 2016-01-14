@@ -1,17 +1,18 @@
-TiMBL 6.4.4 (c) ILK 1998 - 2013.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Apr  2 12:33:33 2013
+Thu Jan 14 09:46:28 2016
 
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/dimin.train
-Start:          0 @ Tue Apr  2 12:33:33 2013
-Finished:    2999 @ Tue Apr  2 12:33:33 2013
-Calculating Entropy         Tue Apr  2 12:33:33 2013
+Start:          0 @ Thu Jan 14 09:46:28 2016
+Finished:    2999 @ Thu Jan 14 09:46:28 2016
+Calculating Entropy         Thu Jan 14 09:46:28 2016
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -30,19 +31,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 14 milliseconds and 676 microseconds
+Preparation took 0 seconds, 11 milliseconds and 207 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: ./tests/dimin.train
-Start:          0 @ Tue Apr  2 12:33:33 2013
-Finished:    2999 @ Tue Apr  2 12:33:33 2013
+Start:          0 @ Thu Jan 14 09:46:28 2016
+Finished:    2999 @ Thu Jan 14 09:46:28 2016
 
 Phase 3: Learning from Datafile: ./tests/dimin.train
-Start:          0 @ Tue Apr  2 12:33:33 2013
-Finished:    2999 @ Tue Apr  2 12:33:33 2013
+Start:          0 @ Thu Jan 14 09:46:28 2016
+Finished:    2999 @ Thu Jan 14 09:46:28 2016
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 32 milliseconds and 222 microseconds
+Learning took 0 seconds, 26 milliseconds and 108 microseconds
 Examine datafile './tests/dimin.test' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
@@ -67,19 +68,19 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Tue Apr  2 12:33:33 2013
-Tested:      2 @ Tue Apr  2 12:33:33 2013
-Tested:      3 @ Tue Apr  2 12:33:33 2013
-Tested:      4 @ Tue Apr  2 12:33:33 2013
-Tested:      5 @ Tue Apr  2 12:33:33 2013
-Tested:      6 @ Tue Apr  2 12:33:33 2013
-Tested:      7 @ Tue Apr  2 12:33:33 2013
-Tested:      8 @ Tue Apr  2 12:33:33 2013
-Tested:      9 @ Tue Apr  2 12:33:33 2013
-Tested:     10 @ Tue Apr  2 12:33:33 2013
-Tested:    100 @ Tue Apr  2 12:33:33 2013
-Ready:     950 @ Tue Apr  2 12:33:33 2013
-Seconds taken: 0.0298 (31861.02 p/s)
+Tested:      1 @ Thu Jan 14 09:46:28 2016
+Tested:      2 @ Thu Jan 14 09:46:28 2016
+Tested:      3 @ Thu Jan 14 09:46:28 2016
+Tested:      4 @ Thu Jan 14 09:46:28 2016
+Tested:      5 @ Thu Jan 14 09:46:28 2016
+Tested:      6 @ Thu Jan 14 09:46:28 2016
+Tested:      7 @ Thu Jan 14 09:46:28 2016
+Tested:      8 @ Thu Jan 14 09:46:28 2016
+Tested:      9 @ Thu Jan 14 09:46:28 2016
+Tested:     10 @ Thu Jan 14 09:46:28 2016
+Tested:    100 @ Thu Jan 14 09:46:28 2016
+Ready:     950 @ Thu Jan 14 09:46:28 2016
+Seconds taken: 0.0250 (37925.67 p/s)
 
 overall accuracy:        0.967368  (919/950), of which 39 exact matches 
 There were 5 ties of which 4 (80.00%) were correctly resolved

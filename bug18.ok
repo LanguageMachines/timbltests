@@ -1,17 +1,18 @@
-TiMBL 6.4.4 (c) ILK 1998 - 2013.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Apr  2 12:33:33 2013
+Thu Jan 14 09:08:46 2016
 
 Examine datafile './tests/kwart.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/kwart.train
-Start:          0 @ Tue Apr  2 12:33:34 2013
-Finished:   50000 @ Tue Apr  2 12:33:34 2013
-Calculating Entropy         Tue Apr  2 12:33:34 2013
+Start:          0 @ Thu Jan 14 09:08:46 2016
+Finished:   50000 @ Thu Jan 14 09:08:46 2016
+Calculating Entropy         Thu Jan 14 09:08:46 2016
 Lines of data     : 50000
 DB Entropy        : 1.1247965
 Number of Classes : 3
@@ -26,32 +27,32 @@ Feats	Vals	InfoGain	GainRatio
     7     44	0.32499390	0.074939666
     8     44	0.048351684	0.011172195
 
-Preparation took 0 seconds, 341 milliseconds and 49 microseconds
+Preparation took 0 seconds, 275 milliseconds and 343 microseconds
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 2, 3, 1, 4 >
 Phase 2: Learning from Datafile: ./tests/kwart.train
-Start:          0 @ Tue Apr  2 12:33:34 2013
-Finished:    5000 @ Tue Apr  2 12:33:34 2013
+Start:          0 @ Thu Jan 14 09:08:46 2016
+Finished:    5000 @ Thu Jan 14 09:08:46 2016
 
 Size of InstanceBase = 29027 Nodes, (1161080 bytes), 34.87 % compression
-Learning took 0 seconds, 37 milliseconds and 445 microseconds
+Learning took 0 seconds, 26 milliseconds and 393 microseconds
 Phase 2: Appending from Datafile: ./tests/kwart.train (starting at line 5001)
-Start:       5001 @ Tue Apr  2 12:33:34 2013
-Learning:    5000 @ Tue Apr  2 12:33:35 2013	 added:107
-Learning:    5001 @ Tue Apr  2 12:33:35 2013	 added:1
-Learning:    5002 @ Tue Apr  2 12:33:35 2013	 added:0
-Learning:    5003 @ Tue Apr  2 12:33:35 2013	 added:0
-Learning:    5004 @ Tue Apr  2 12:33:35 2013	 added:0
-Learning:    5005 @ Tue Apr  2 12:33:35 2013	 added:0
-Learning:    5006 @ Tue Apr  2 12:33:35 2013	 added:0
-Learning:    5007 @ Tue Apr  2 12:33:35 2013	 added:0
-Learning:    5008 @ Tue Apr  2 12:33:35 2013	 added:0
-Learning:    5009 @ Tue Apr  2 12:33:35 2013	 added:0
-Learning:    5010 @ Tue Apr  2 12:33:35 2013	 added:0
-Learning:    5100 @ Tue Apr  2 12:33:35 2013	 added:0
-Learning:    6000 @ Tue Apr  2 12:33:35 2013	 added:13
-Learning:   15000 @ Tue Apr  2 12:33:35 2013	 added:185
-Finished:   44999 @ Tue Apr  2 12:33:38 2013
+Start:       5001 @ Thu Jan 14 09:08:46 2016
+Learning:    5000 @ Thu Jan 14 09:08:47 2016	 added:107
+Learning:    5001 @ Thu Jan 14 09:08:47 2016	 added:1
+Learning:    5002 @ Thu Jan 14 09:08:47 2016	 added:0
+Learning:    5003 @ Thu Jan 14 09:08:47 2016	 added:0
+Learning:    5004 @ Thu Jan 14 09:08:47 2016	 added:0
+Learning:    5005 @ Thu Jan 14 09:08:47 2016	 added:0
+Learning:    5006 @ Thu Jan 14 09:08:47 2016	 added:0
+Learning:    5007 @ Thu Jan 14 09:08:47 2016	 added:0
+Learning:    5008 @ Thu Jan 14 09:08:47 2016	 added:0
+Learning:    5009 @ Thu Jan 14 09:08:47 2016	 added:0
+Learning:    5010 @ Thu Jan 14 09:08:47 2016	 added:0
+Learning:    5100 @ Thu Jan 14 09:08:47 2016	 added:0
+Learning:    6000 @ Thu Jan 14 09:08:47 2016	 added:13
+Learning:   15000 @ Thu Jan 14 09:08:47 2016	 added:185
+Finished:   44999 @ Thu Jan 14 09:08:50 2016
 in total added 1123 new entries
 
 Size of InstanceBase = 35875 Nodes, (1435000 bytes), 34.36 % compression
@@ -98,21 +99,21 @@ Feature 6	 : 0.185198463671305
 Feature 7	 : 0.072315399807409
 Feature 8	 : 0.010872317130899
 
-Tested:      1 @ Tue Apr  2 12:33:38 2013
-Tested:      2 @ Tue Apr  2 12:33:38 2013
-Tested:      3 @ Tue Apr  2 12:33:38 2013
-Tested:      4 @ Tue Apr  2 12:33:38 2013
-Tested:      5 @ Tue Apr  2 12:33:38 2013
-Tested:      6 @ Tue Apr  2 12:33:38 2013
-Tested:      7 @ Tue Apr  2 12:33:38 2013
-Tested:      8 @ Tue Apr  2 12:33:38 2013
-Tested:      9 @ Tue Apr  2 12:33:38 2013
-Tested:     10 @ Tue Apr  2 12:33:38 2013
-Tested:    100 @ Tue Apr  2 12:33:38 2013
-Tested:   1000 @ Tue Apr  2 12:33:39 2013
-Tested:  10000 @ Tue Apr  2 12:33:41 2013
-Ready:   10000 @ Tue Apr  2 12:33:41 2013
-Seconds taken: 2.6773 (3735.08 p/s)
+Tested:      1 @ Thu Jan 14 09:08:50 2016
+Tested:      2 @ Thu Jan 14 09:08:50 2016
+Tested:      3 @ Thu Jan 14 09:08:50 2016
+Tested:      4 @ Thu Jan 14 09:08:50 2016
+Tested:      5 @ Thu Jan 14 09:08:50 2016
+Tested:      6 @ Thu Jan 14 09:08:50 2016
+Tested:      7 @ Thu Jan 14 09:08:50 2016
+Tested:      8 @ Thu Jan 14 09:08:50 2016
+Tested:      9 @ Thu Jan 14 09:08:50 2016
+Tested:     10 @ Thu Jan 14 09:08:50 2016
+Tested:    100 @ Thu Jan 14 09:08:50 2016
+Tested:   1000 @ Thu Jan 14 09:08:50 2016
+Tested:  10000 @ Thu Jan 14 09:08:53 2016
+Ready:   10000 @ Thu Jan 14 09:08:53 2016
+Seconds taken: 2.3324 (4287.47 p/s)
 
 overall accuracy:        0.933800  (9338/10000), of which 273 exact matches 
 There were 9 ties of which 8 (88.89%) were correctly resolved

@@ -1,17 +1,18 @@
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Aug 10 16:55:39 2011
+Thu Jan 14 09:43:16 2016
 
 Examine datafile 'tests/numeric2.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/numeric2.train
-Start:          0 @ Wed Aug 10 16:55:39 2011
-Finished:     145 @ Wed Aug 10 16:55:39 2011
-Calculating Entropy         Wed Aug 10 16:55:39 2011
+Start:          0 @ Thu Jan 14 09:43:16 2016
+Finished:     145 @ Thu Jan 14 09:43:16 2016
+Calculating Entropy         Thu Jan 14 09:43:16 2016
 Lines of data     : 145
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -21,19 +22,19 @@ Feats	Vals	InfoGain	GainRatio
     2      3	0.0060448141	0.0040988196
     3     86	0.079657007	0.019766169 NUMERIC
 
-Preparation took 0 seconds, 1 milliseconds and 10 microseconds
+Preparation took 0 seconds, 0 milliseconds and 409 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 3 >
 Phase 2: Building multi index on Datafile: tests/numeric2.train
-Start:          0 @ Wed Aug 10 16:55:39 2011
-Finished:     145 @ Wed Aug 10 16:55:39 2011
+Start:          0 @ Thu Jan 14 09:43:16 2016
+Finished:     145 @ Thu Jan 14 09:43:16 2016
 
 Phase 3: Learning from Datafile: tests/numeric2.train
-Start:          0 @ Wed Aug 10 16:55:39 2011
-Finished:     145 @ Wed Aug 10 16:55:39 2011
+Start:          0 @ Thu Jan 14 09:43:16 2016
+Finished:     145 @ Thu Jan 14 09:43:16 2016
 
 Size of InstanceBase = 237 Nodes, (9480 bytes), 48.03 % compression
-Learning took 0 seconds, 1 milliseconds and 626 microseconds
+Learning took 0 seconds, 0 milliseconds and 579 microseconds
 Examine datafile 'tests/numeric2.test' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
@@ -50,31 +51,32 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.019766169082693
 
-Tested:      1 @ Wed Aug 10 16:55:39 2011
-Tested:      2 @ Wed Aug 10 16:55:39 2011
-Tested:      3 @ Wed Aug 10 16:55:39 2011
-Tested:      4 @ Wed Aug 10 16:55:39 2011
-Tested:      5 @ Wed Aug 10 16:55:39 2011
-Tested:      6 @ Wed Aug 10 16:55:39 2011
-Tested:      7 @ Wed Aug 10 16:55:39 2011
-Ready:       7 @ Wed Aug 10 16:55:39 2011
-Seconds taken: 0.0007 (9589.04 p/s)
+Tested:      1 @ Thu Jan 14 09:43:16 2016
+Tested:      2 @ Thu Jan 14 09:43:16 2016
+Tested:      3 @ Thu Jan 14 09:43:16 2016
+Tested:      4 @ Thu Jan 14 09:43:16 2016
+Tested:      5 @ Thu Jan 14 09:43:16 2016
+Tested:      6 @ Thu Jan 14 09:43:16 2016
+Tested:      7 @ Thu Jan 14 09:43:16 2016
+Ready:       7 @ Thu Jan 14 09:43:16 2016
+Seconds taken: 0.0003 (24911.03 p/s)
 
 overall accuracy:        0.571429  (4/7), of which 2 exact matches 
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Aug 10 16:55:39 2011
+Thu Jan 14 09:43:16 2016
 
 Examine datafile 'tests/numeric2.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/numeric2.train
-Start:          0 @ Wed Aug 10 16:55:39 2011
-Finished:     145 @ Wed Aug 10 16:55:39 2011
-Calculating Entropy         Wed Aug 10 16:55:39 2011
+Start:          0 @ Thu Jan 14 09:43:16 2016
+Finished:     145 @ Thu Jan 14 09:43:16 2016
+Calculating Entropy         Thu Jan 14 09:43:16 2016
 Lines of data     : 145
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -84,19 +86,19 @@ Feats	Vals	InfoGain	GainRatio
     2      3	0.0060448141	0.0040988196
     3     86	6.6398055e-06	7.0968540e-06 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 982 microseconds
+Preparation took 0 seconds, 0 milliseconds and 396 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 3 >
 Phase 2: Building multi index on Datafile: tests/numeric2.train
-Start:          0 @ Wed Aug 10 16:55:39 2011
-Finished:     145 @ Wed Aug 10 16:55:39 2011
+Start:          0 @ Thu Jan 14 09:43:16 2016
+Finished:     145 @ Thu Jan 14 09:43:16 2016
 
 Phase 3: Learning from Datafile: tests/numeric2.train
-Start:          0 @ Wed Aug 10 16:55:39 2011
-Finished:     145 @ Wed Aug 10 16:55:39 2011
+Start:          0 @ Thu Jan 14 09:43:16 2016
+Finished:     145 @ Thu Jan 14 09:43:16 2016
 
 Size of InstanceBase = 237 Nodes, (9480 bytes), 48.03 % compression
-Learning took 0 seconds, 1 milliseconds and 639 microseconds
+Learning took 0 seconds, 0 milliseconds and 577 microseconds
 Examine datafile 'tests/numeric2.test' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
@@ -113,31 +115,32 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.000007096853991
 
-Tested:      1 @ Wed Aug 10 16:55:39 2011
-Tested:      2 @ Wed Aug 10 16:55:39 2011
-Tested:      3 @ Wed Aug 10 16:55:39 2011
-Tested:      4 @ Wed Aug 10 16:55:39 2011
-Tested:      5 @ Wed Aug 10 16:55:39 2011
-Tested:      6 @ Wed Aug 10 16:55:39 2011
-Tested:      7 @ Wed Aug 10 16:55:39 2011
-Ready:       7 @ Wed Aug 10 16:55:39 2011
-Seconds taken: 0.0007 (9549.80 p/s)
+Tested:      1 @ Thu Jan 14 09:43:16 2016
+Tested:      2 @ Thu Jan 14 09:43:16 2016
+Tested:      3 @ Thu Jan 14 09:43:16 2016
+Tested:      4 @ Thu Jan 14 09:43:16 2016
+Tested:      5 @ Thu Jan 14 09:43:16 2016
+Tested:      6 @ Thu Jan 14 09:43:16 2016
+Tested:      7 @ Thu Jan 14 09:43:16 2016
+Ready:       7 @ Thu Jan 14 09:43:16 2016
+Seconds taken: 0.0003 (25735.29 p/s)
 
 overall accuracy:        0.571429  (4/7), of which 2 exact matches 
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Aug 10 16:55:39 2011
+Thu Jan 14 09:43:16 2016
 
 Examine datafile 'tests/numeric2.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/numeric2.train
-Start:          0 @ Wed Aug 10 16:55:39 2011
-Finished:     145 @ Wed Aug 10 16:55:39 2011
-Calculating Entropy         Wed Aug 10 16:55:39 2011
+Start:          0 @ Thu Jan 14 09:43:16 2016
+Finished:     145 @ Thu Jan 14 09:43:16 2016
+Calculating Entropy         Thu Jan 14 09:43:16 2016
 Lines of data     : 145
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -147,19 +150,19 @@ Feats	Vals	InfoGain	GainRatio
     2      3	0.0060448141	0.0040988196
     3     86	0.59609002	0.098684286 NUMERIC
 
-Preparation took 0 seconds, 1 milliseconds and 89 microseconds
+Preparation took 0 seconds, 0 milliseconds and 427 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 3 >
 Phase 2: Building multi index on Datafile: tests/numeric2.train
-Start:          0 @ Wed Aug 10 16:55:39 2011
-Finished:     145 @ Wed Aug 10 16:55:39 2011
+Start:          0 @ Thu Jan 14 09:43:16 2016
+Finished:     145 @ Thu Jan 14 09:43:16 2016
 
 Phase 3: Learning from Datafile: tests/numeric2.train
-Start:          0 @ Wed Aug 10 16:55:39 2011
-Finished:     145 @ Wed Aug 10 16:55:39 2011
+Start:          0 @ Thu Jan 14 09:43:16 2016
+Finished:     145 @ Thu Jan 14 09:43:16 2016
 
 Size of InstanceBase = 237 Nodes, (9480 bytes), 48.03 % compression
-Learning took 0 seconds, 1 milliseconds and 692 microseconds
+Learning took 0 seconds, 0 milliseconds and 682 microseconds
 Examine datafile 'tests/numeric2.test' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
@@ -176,15 +179,15 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.098684286146440
 
-Tested:      1 @ Wed Aug 10 16:55:39 2011
-Tested:      2 @ Wed Aug 10 16:55:39 2011
-Tested:      3 @ Wed Aug 10 16:55:39 2011
-Tested:      4 @ Wed Aug 10 16:55:39 2011
-Tested:      5 @ Wed Aug 10 16:55:39 2011
-Tested:      6 @ Wed Aug 10 16:55:39 2011
-Tested:      7 @ Wed Aug 10 16:55:39 2011
-Ready:       7 @ Wed Aug 10 16:55:39 2011
-Seconds taken: 0.0007 (9575.92 p/s)
+Tested:      1 @ Thu Jan 14 09:43:16 2016
+Tested:      2 @ Thu Jan 14 09:43:16 2016
+Tested:      3 @ Thu Jan 14 09:43:16 2016
+Tested:      4 @ Thu Jan 14 09:43:16 2016
+Tested:      5 @ Thu Jan 14 09:43:16 2016
+Tested:      6 @ Thu Jan 14 09:43:16 2016
+Tested:      7 @ Thu Jan 14 09:43:16 2016
+Ready:       7 @ Thu Jan 14 09:43:16 2016
+Seconds taken: 0.0004 (15730.34 p/s)
 
 overall accuracy:        0.571429  (4/7), of which 2 exact matches 
 C,rood,3,+,- { + 1.00000, - 2.00000 }        0.0000000000000

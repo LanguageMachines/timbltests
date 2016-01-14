@@ -1,17 +1,18 @@
-TiMBL 6.4.6 (c) ILK 1998 - 2015.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 16 11:34:10 2015
+Thu Jan 14 09:50:23 2016
 
 Examine datafile 'tests/klein.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/klein.train
-Start:          0 @ Mon Feb 16 11:34:10 2015
-Finished:     220 @ Mon Feb 16 11:34:10 2015
-Calculating Entropy         Mon Feb 16 11:34:10 2015
+Start:          0 @ Thu Jan 14 09:50:23 2016
+Finished:     220 @ Thu Jan 14 09:50:23 2016
+Calculating Entropy         Thu Jan 14 09:50:23 2016
 Lines of data     : 220
 DB Entropy        : 1.0973232
 Number of Classes : 3
@@ -26,26 +27,27 @@ Feats	Vals	InfoGain	GainRatio
     7     24	0.46696345	0.11793486
     8     24	0.16987195	0.042889176
 
-Preparation took 0 seconds, 4 milliseconds and 764 microseconds
+Preparation took 0 seconds, 1 milliseconds and 118 microseconds
 Feature Permutation based on GainRatio :
 < 6, 2, 3, 1, 7, 4, 5, 8 >
 Phase 2: Building multi index on Datafile: tests/klein.train
-Start:          0 @ Mon Feb 16 11:34:10 2015
-Finished:     220 @ Mon Feb 16 11:34:10 2015
+Start:          0 @ Thu Jan 14 09:50:23 2016
+Finished:     220 @ Thu Jan 14 09:50:23 2016
 
 Phase 3: Learning from Datafile: tests/klein.train
-Start:          0 @ Mon Feb 16 11:34:10 2015
-Finished:     220 @ Mon Feb 16 11:34:10 2015
+Start:          0 @ Thu Jan 14 09:50:23 2016
+Finished:     220 @ Thu Jan 14 09:50:23 2016
 
 Size of InstanceBase = 37 Nodes, (1480 bytes), 98.13 % compression
-Learning took 0 seconds, 9 milliseconds and 117 microseconds
+Learning took 0 seconds, 2 milliseconds and 210 microseconds
 Writing Instance-Base in: tt3.tree
 Saving Weights in tt3.tree.wgt
-TiMBL 6.4.6 (c) ILK 1998 - 2015.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 16 11:34:10 2015
+Thu Jan 14 09:50:23 2016
 
 Reading Instance-Base from: tt3.tree
 Feature Permutation based on Data File Ordering :
@@ -74,17 +76,17 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.0428891762659316
 
-Tested:      1 @ Mon Feb 16 11:34:10 2015
-Tested:      2 @ Mon Feb 16 11:34:10 2015
-Tested:      3 @ Mon Feb 16 11:34:10 2015
-Tested:      4 @ Mon Feb 16 11:34:10 2015
-Tested:      5 @ Mon Feb 16 11:34:10 2015
-Tested:      6 @ Mon Feb 16 11:34:10 2015
-Tested:      7 @ Mon Feb 16 11:34:10 2015
-Tested:      8 @ Mon Feb 16 11:34:10 2015
-Tested:      9 @ Mon Feb 16 11:34:10 2015
-Tested:     10 @ Mon Feb 16 11:34:10 2015
-Ready:      50 @ Mon Feb 16 11:34:10 2015
-Seconds taken: 0.0021 (24096.39 p/s)
+Tested:      1 @ Thu Jan 14 09:50:23 2016
+Tested:      2 @ Thu Jan 14 09:50:23 2016
+Tested:      3 @ Thu Jan 14 09:50:23 2016
+Tested:      4 @ Thu Jan 14 09:50:23 2016
+Tested:      5 @ Thu Jan 14 09:50:23 2016
+Tested:      6 @ Thu Jan 14 09:50:23 2016
+Tested:      7 @ Thu Jan 14 09:50:23 2016
+Tested:      8 @ Thu Jan 14 09:50:23 2016
+Tested:      9 @ Thu Jan 14 09:50:23 2016
+Tested:     10 @ Thu Jan 14 09:50:23 2016
+Ready:      50 @ Thu Jan 14 09:50:23 2016
+Seconds taken: 0.0004 (123456.79 p/s)
 
 overall accuracy:        0.960000  (48/50)

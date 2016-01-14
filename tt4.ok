@@ -1,17 +1,18 @@
-TiMBL 6.3.1 (c) ILK 1998 - 2010.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Sep 23 16:06:55 2010
+Thu Jan 14 10:02:54 2016
 
 Examine datafile 'tests/klein.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/klein.train
-Start:          0 @ Thu Sep 23 16:06:55 2010
-Finished:     220 @ Thu Sep 23 16:06:55 2010
-Calculating Entropy         Thu Sep 23 16:06:55 2010
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:     220 @ Thu Jan 14 10:02:54 2016
+Calculating Entropy         Thu Jan 14 10:02:54 2016
 Lines of data     : 220
 DB Entropy        : 1.0973232
 Number of Classes : 3
@@ -26,19 +27,19 @@ Feats	Vals	InfoGain	GainRatio
     7     24	0.46696345	0.11793486
     8     24	0.16987195	0.042889176
 
-Preparation took 0 seconds, 2 milliseconds and 357 microseconds
+Preparation took 0 seconds, 1 milliseconds and 111 microseconds
 Feature Permutation based on GainRatio :
 < 6, 2, 3, 1, 7, 4, 5, 8 >
 Phase 2: Building multi index on Datafile: tests/klein.train
-Start:          0 @ Thu Sep 23 16:06:55 2010
-Finished:     220 @ Thu Sep 23 16:06:55 2010
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:     220 @ Thu Jan 14 10:02:54 2016
 
 Phase 3: Learning from Datafile: tests/klein.train
-Start:          0 @ Thu Sep 23 16:06:55 2010
-Finished:     220 @ Thu Sep 23 16:06:55 2010
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:     220 @ Thu Jan 14 10:02:54 2016
 
 Size of InstanceBase = 1684 Nodes, (67360 bytes), 14.95 % compression
-Learning took 0 seconds, 4 milliseconds and 752 microseconds
+Learning took 0 seconds, 2 milliseconds and 1 microseconds
 Examine datafile './tests/klein.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -59,18 +60,18 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 
-Tested:      1 @ Thu Sep 23 16:06:56 2010
-Tested:      2 @ Thu Sep 23 16:06:56 2010
-Tested:      3 @ Thu Sep 23 16:06:56 2010
-Tested:      4 @ Thu Sep 23 16:06:56 2010
-Tested:      5 @ Thu Sep 23 16:06:56 2010
-Tested:      6 @ Thu Sep 23 16:06:56 2010
-Tested:      7 @ Thu Sep 23 16:06:56 2010
-Tested:      8 @ Thu Sep 23 16:06:56 2010
-Tested:      9 @ Thu Sep 23 16:06:56 2010
-Tested:     10 @ Thu Sep 23 16:06:56 2010
-Ready:      50 @ Thu Sep 23 16:06:56 2010
-Seconds taken: 0.0018 (27839.64 p/s)
+Tested:      1 @ Thu Jan 14 10:02:54 2016
+Tested:      2 @ Thu Jan 14 10:02:54 2016
+Tested:      3 @ Thu Jan 14 10:02:54 2016
+Tested:      4 @ Thu Jan 14 10:02:54 2016
+Tested:      5 @ Thu Jan 14 10:02:54 2016
+Tested:      6 @ Thu Jan 14 10:02:54 2016
+Tested:      7 @ Thu Jan 14 10:02:54 2016
+Tested:      8 @ Thu Jan 14 10:02:54 2016
+Tested:      9 @ Thu Jan 14 10:02:54 2016
+Tested:     10 @ Thu Jan 14 10:02:54 2016
+Ready:      50 @ Thu Jan 14 10:02:54 2016
+Seconds taken: 0.0007 (67204.30 p/s)
 
 overall accuracy:        0.920000  (46/50)
 There was 1 tie of which 1 (100.00%) was correctly resolved
@@ -103,34 +104,35 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 
-Tested:      1 @ Thu Sep 23 16:06:56 2010
-Tested:      2 @ Thu Sep 23 16:06:56 2010
-Tested:      3 @ Thu Sep 23 16:06:56 2010
-Tested:      4 @ Thu Sep 23 16:06:56 2010
-Tested:      5 @ Thu Sep 23 16:06:56 2010
-Tested:      6 @ Thu Sep 23 16:06:56 2010
-Tested:      7 @ Thu Sep 23 16:06:56 2010
-Tested:      8 @ Thu Sep 23 16:06:56 2010
-Tested:      9 @ Thu Sep 23 16:06:56 2010
-Tested:     10 @ Thu Sep 23 16:06:56 2010
-Ready:      50 @ Thu Sep 23 16:06:56 2010
-Seconds taken: 0.0034 (14649.87 p/s)
+Tested:      1 @ Thu Jan 14 10:02:54 2016
+Tested:      2 @ Thu Jan 14 10:02:54 2016
+Tested:      3 @ Thu Jan 14 10:02:54 2016
+Tested:      4 @ Thu Jan 14 10:02:54 2016
+Tested:      5 @ Thu Jan 14 10:02:54 2016
+Tested:      6 @ Thu Jan 14 10:02:54 2016
+Tested:      7 @ Thu Jan 14 10:02:54 2016
+Tested:      8 @ Thu Jan 14 10:02:54 2016
+Tested:      9 @ Thu Jan 14 10:02:54 2016
+Tested:     10 @ Thu Jan 14 10:02:54 2016
+Ready:      50 @ Thu Jan 14 10:02:54 2016
+Seconds taken: 0.0007 (66934.40 p/s)
 
 overall accuracy:        0.900000  (45/50)
-TiMBL 6.3.1 (c) ILK 1998 - 2010.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Sep 23 16:06:56 2010
+Thu Jan 14 10:02:54 2016
 
 Examine datafile 'tests/klein.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/klein.train
-Start:          0 @ Thu Sep 23 16:06:56 2010
-Finished:     220 @ Thu Sep 23 16:06:56 2010
-Calculating Entropy         Thu Sep 23 16:06:56 2010
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:     220 @ Thu Jan 14 10:02:54 2016
+Calculating Entropy         Thu Jan 14 10:02:54 2016
 Lines of data     : 220
 DB Entropy        : 1.0973232
 Number of Classes : 3
@@ -145,19 +147,19 @@ Feats	Vals	InfoGain	GainRatio
     7     24	0.46696345	0.11793486
     8     24	0.16987195	0.042889176
 
-Preparation took 0 seconds, 2 milliseconds and 737 microseconds
+Preparation took 0 seconds, 1 milliseconds and 212 microseconds
 Feature Permutation based on GainRatio :
 < 6, 2, 3, 1, 7, 4, 5, 8 >
 Phase 2: Building multi index on Datafile: tests/klein.train
-Start:          0 @ Thu Sep 23 16:06:56 2010
-Finished:     220 @ Thu Sep 23 16:06:56 2010
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:     220 @ Thu Jan 14 10:02:54 2016
 
 Phase 3: Learning from Datafile: tests/klein.train
-Start:          0 @ Thu Sep 23 16:06:56 2010
-Finished:     220 @ Thu Sep 23 16:06:56 2010
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:     220 @ Thu Jan 14 10:02:54 2016
 
 Size of InstanceBase = 1684 Nodes, (67360 bytes), 14.95 % compression
-Learning took 0 seconds, 4 milliseconds and 699 microseconds
+Learning took 0 seconds, 2 milliseconds and 4 microseconds
 Examine datafile './tests/klein.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -178,18 +180,18 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 
-Tested:      1 @ Thu Sep 23 16:06:56 2010
-Tested:      2 @ Thu Sep 23 16:06:56 2010
-Tested:      3 @ Thu Sep 23 16:06:56 2010
-Tested:      4 @ Thu Sep 23 16:06:56 2010
-Tested:      5 @ Thu Sep 23 16:06:56 2010
-Tested:      6 @ Thu Sep 23 16:06:56 2010
-Tested:      7 @ Thu Sep 23 16:06:56 2010
-Tested:      8 @ Thu Sep 23 16:06:56 2010
-Tested:      9 @ Thu Sep 23 16:06:56 2010
-Tested:     10 @ Thu Sep 23 16:06:56 2010
-Ready:      50 @ Thu Sep 23 16:06:56 2010
-Seconds taken: 0.0014 (36258.16 p/s)
+Tested:      1 @ Thu Jan 14 10:02:54 2016
+Tested:      2 @ Thu Jan 14 10:02:54 2016
+Tested:      3 @ Thu Jan 14 10:02:54 2016
+Tested:      4 @ Thu Jan 14 10:02:54 2016
+Tested:      5 @ Thu Jan 14 10:02:54 2016
+Tested:      6 @ Thu Jan 14 10:02:54 2016
+Tested:      7 @ Thu Jan 14 10:02:54 2016
+Tested:      8 @ Thu Jan 14 10:02:54 2016
+Tested:      9 @ Thu Jan 14 10:02:54 2016
+Tested:     10 @ Thu Jan 14 10:02:54 2016
+Ready:      50 @ Thu Jan 14 10:02:54 2016
+Seconds taken: 0.0006 (90909.09 p/s)
 
 overall accuracy:        0.980000  (49/50)
 Examine datafile './tests/klein.test' gave the following results:
@@ -219,34 +221,35 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 
-Tested:      1 @ Thu Sep 23 16:06:56 2010
-Tested:      2 @ Thu Sep 23 16:06:56 2010
-Tested:      3 @ Thu Sep 23 16:06:56 2010
-Tested:      4 @ Thu Sep 23 16:06:56 2010
-Tested:      5 @ Thu Sep 23 16:06:56 2010
-Tested:      6 @ Thu Sep 23 16:06:56 2010
-Tested:      7 @ Thu Sep 23 16:06:56 2010
-Tested:      8 @ Thu Sep 23 16:06:56 2010
-Tested:      9 @ Thu Sep 23 16:06:56 2010
-Tested:     10 @ Thu Sep 23 16:06:56 2010
-Ready:      50 @ Thu Sep 23 16:06:56 2010
-Seconds taken: 0.0024 (21240.44 p/s)
+Tested:      1 @ Thu Jan 14 10:02:54 2016
+Tested:      2 @ Thu Jan 14 10:02:54 2016
+Tested:      3 @ Thu Jan 14 10:02:54 2016
+Tested:      4 @ Thu Jan 14 10:02:54 2016
+Tested:      5 @ Thu Jan 14 10:02:54 2016
+Tested:      6 @ Thu Jan 14 10:02:54 2016
+Tested:      7 @ Thu Jan 14 10:02:54 2016
+Tested:      8 @ Thu Jan 14 10:02:54 2016
+Tested:      9 @ Thu Jan 14 10:02:54 2016
+Tested:     10 @ Thu Jan 14 10:02:54 2016
+Ready:      50 @ Thu Jan 14 10:02:54 2016
+Seconds taken: 0.0005 (96525.10 p/s)
 
 overall accuracy:        0.980000  (49/50)
-TiMBL 6.3.1 (c) ILK 1998 - 2010.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Sep 23 16:06:56 2010
+Thu Jan 14 10:02:54 2016
 
 Examine datafile 'tests/klein.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/klein.train
-Start:          0 @ Thu Sep 23 16:06:56 2010
-Finished:     220 @ Thu Sep 23 16:06:56 2010
-Calculating Entropy         Thu Sep 23 16:06:56 2010
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:     220 @ Thu Jan 14 10:02:54 2016
+Calculating Entropy         Thu Jan 14 10:02:54 2016
 Lines of data     : 220
 DB Entropy        : 1.0973232
 Number of Classes : 3
@@ -261,19 +264,19 @@ Feats	Vals	InfoGain	GainRatio
     7     24	0.46696345	0.11793486
     8     24	0.16987195	0.042889176
 
-Preparation took 0 seconds, 2 milliseconds and 323 microseconds
+Preparation took 0 seconds, 1 milliseconds and 113 microseconds
 Feature Permutation based on GainRatio :
 < 6, 2, 3, 1, 7, 4, 5, 8 >
 Phase 2: Building multi index on Datafile: tests/klein.train
-Start:          0 @ Thu Sep 23 16:06:56 2010
-Finished:     220 @ Thu Sep 23 16:06:56 2010
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:     220 @ Thu Jan 14 10:02:54 2016
 
 Phase 3: Learning from Datafile: tests/klein.train
-Start:          0 @ Thu Sep 23 16:06:56 2010
-Finished:     220 @ Thu Sep 23 16:06:56 2010
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:     220 @ Thu Jan 14 10:02:54 2016
 
 Size of InstanceBase = 1684 Nodes, (67360 bytes), 14.95 % compression
-Learning took 0 seconds, 4 milliseconds and 729 microseconds
+Learning took 0 seconds, 1 milliseconds and 906 microseconds
 Examine datafile './tests/klein.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -294,18 +297,18 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 
-Tested:      1 @ Thu Sep 23 16:06:56 2010
-Tested:      2 @ Thu Sep 23 16:06:56 2010
-Tested:      3 @ Thu Sep 23 16:06:56 2010
-Tested:      4 @ Thu Sep 23 16:06:56 2010
-Tested:      5 @ Thu Sep 23 16:06:56 2010
-Tested:      6 @ Thu Sep 23 16:06:56 2010
-Tested:      7 @ Thu Sep 23 16:06:56 2010
-Tested:      8 @ Thu Sep 23 16:06:56 2010
-Tested:      9 @ Thu Sep 23 16:06:56 2010
-Tested:     10 @ Thu Sep 23 16:06:56 2010
-Ready:      50 @ Thu Sep 23 16:06:56 2010
-Seconds taken: 0.0013 (38226.30 p/s)
+Tested:      1 @ Thu Jan 14 10:02:54 2016
+Tested:      2 @ Thu Jan 14 10:02:54 2016
+Tested:      3 @ Thu Jan 14 10:02:54 2016
+Tested:      4 @ Thu Jan 14 10:02:54 2016
+Tested:      5 @ Thu Jan 14 10:02:54 2016
+Tested:      6 @ Thu Jan 14 10:02:54 2016
+Tested:      7 @ Thu Jan 14 10:02:54 2016
+Tested:      8 @ Thu Jan 14 10:02:54 2016
+Tested:      9 @ Thu Jan 14 10:02:54 2016
+Tested:     10 @ Thu Jan 14 10:02:54 2016
+Ready:      50 @ Thu Jan 14 10:02:54 2016
+Seconds taken: 0.0005 (96153.85 p/s)
 
 overall accuracy:        0.960000  (48/50)
 Examine datafile './tests/klein.test' gave the following results:
@@ -333,17 +336,17 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 
-Tested:      1 @ Thu Sep 23 16:06:56 2010
-Tested:      2 @ Thu Sep 23 16:06:56 2010
-Tested:      3 @ Thu Sep 23 16:06:56 2010
-Tested:      4 @ Thu Sep 23 16:06:56 2010
-Tested:      5 @ Thu Sep 23 16:06:56 2010
-Tested:      6 @ Thu Sep 23 16:06:56 2010
-Tested:      7 @ Thu Sep 23 16:06:56 2010
-Tested:      8 @ Thu Sep 23 16:06:56 2010
-Tested:      9 @ Thu Sep 23 16:06:56 2010
-Tested:     10 @ Thu Sep 23 16:06:56 2010
-Ready:      50 @ Thu Sep 23 16:06:56 2010
-Seconds taken: 0.0022 (22522.52 p/s)
+Tested:      1 @ Thu Jan 14 10:02:54 2016
+Tested:      2 @ Thu Jan 14 10:02:54 2016
+Tested:      3 @ Thu Jan 14 10:02:54 2016
+Tested:      4 @ Thu Jan 14 10:02:54 2016
+Tested:      5 @ Thu Jan 14 10:02:54 2016
+Tested:      6 @ Thu Jan 14 10:02:54 2016
+Tested:      7 @ Thu Jan 14 10:02:54 2016
+Tested:      8 @ Thu Jan 14 10:02:54 2016
+Tested:      9 @ Thu Jan 14 10:02:54 2016
+Tested:     10 @ Thu Jan 14 10:02:54 2016
+Ready:      50 @ Thu Jan 14 10:02:54 2016
+Seconds taken: 0.0005 (102459.02 p/s)
 
 overall accuracy:        0.960000  (48/50)

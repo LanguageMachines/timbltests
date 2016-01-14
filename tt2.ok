@@ -1,17 +1,18 @@
-TiMBL 6.4.6 (c) ILK 1998 - 2015.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 16 11:34:10 2015
+Thu Jan 14 09:50:23 2016
 
 Examine datafile 'tests/klein.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/klein.train
-Start:          0 @ Mon Feb 16 11:34:10 2015
-Finished:     220 @ Mon Feb 16 11:34:10 2015
-Calculating Entropy         Mon Feb 16 11:34:10 2015
+Start:          0 @ Thu Jan 14 09:50:23 2016
+Finished:     220 @ Thu Jan 14 09:50:23 2016
+Calculating Entropy         Thu Jan 14 09:50:23 2016
 Lines of data     : 220
 DB Entropy        : 1.0973232
 Number of Classes : 3
@@ -26,26 +27,27 @@ Feats	Vals	X-square	Variance	InfoGain	GainRatio
     7     24	117.56486	0.26719286	0.46696345	0.11793486
     8     24	50.626817	0.11506095	0.16987195	0.042889176
 
-Preparation took 0 seconds, 2 milliseconds and 53 microseconds
+Preparation took 0 seconds, 1 milliseconds and 86 microseconds
 Saving Weights in tt2.wgt
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 2, 1, 4, 3 >
 Phase 2: Building multi index on Datafile: tests/klein.train
-Start:          0 @ Mon Feb 16 11:34:10 2015
-Finished:     220 @ Mon Feb 16 11:34:10 2015
+Start:          0 @ Thu Jan 14 09:50:23 2016
+Finished:     220 @ Thu Jan 14 09:50:23 2016
 
 Phase 3: Learning from Datafile: tests/klein.train
-Start:          0 @ Mon Feb 16 11:34:10 2015
-Finished:     220 @ Mon Feb 16 11:34:10 2015
+Start:          0 @ Thu Jan 14 09:50:23 2016
+Finished:     220 @ Thu Jan 14 09:50:23 2016
 
 Size of InstanceBase = 1347 Nodes, (53880 bytes), 23.47 % compression
-Learning took 0 seconds, 3 milliseconds and 535 microseconds
+Learning took 0 seconds, 1 milliseconds and 929 microseconds
 Writing Instance-Base in: tt2.tree
-TiMBL 6.4.6 (c) ILK 1998 - 2015.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 16 11:34:10 2015
+Thu Jan 14 09:50:23 2016
 
 Reading Instance-Base from: tt2.tree
 
@@ -73,18 +75,18 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 
-Tested:      1 @ Mon Feb 16 11:34:10 2015
-Tested:      2 @ Mon Feb 16 11:34:10 2015
-Tested:      3 @ Mon Feb 16 11:34:10 2015
-Tested:      4 @ Mon Feb 16 11:34:10 2015
-Tested:      5 @ Mon Feb 16 11:34:10 2015
-Tested:      6 @ Mon Feb 16 11:34:10 2015
-Tested:      7 @ Mon Feb 16 11:34:10 2015
-Tested:      8 @ Mon Feb 16 11:34:10 2015
-Tested:      9 @ Mon Feb 16 11:34:10 2015
-Tested:     10 @ Mon Feb 16 11:34:10 2015
-Ready:      50 @ Mon Feb 16 11:34:10 2015
-Seconds taken: 0.0032 (15610.37 p/s)
+Tested:      1 @ Thu Jan 14 09:50:23 2016
+Tested:      2 @ Thu Jan 14 09:50:23 2016
+Tested:      3 @ Thu Jan 14 09:50:23 2016
+Tested:      4 @ Thu Jan 14 09:50:23 2016
+Tested:      5 @ Thu Jan 14 09:50:23 2016
+Tested:      6 @ Thu Jan 14 09:50:23 2016
+Tested:      7 @ Thu Jan 14 09:50:23 2016
+Tested:      8 @ Thu Jan 14 09:50:23 2016
+Tested:      9 @ Thu Jan 14 09:50:23 2016
+Tested:     10 @ Thu Jan 14 09:50:23 2016
+Ready:      50 @ Thu Jan 14 09:50:23 2016
+Seconds taken: 0.0019 (26441.04 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
@@ -136,18 +138,18 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 
-Tested:      1 @ Mon Feb 16 11:34:10 2015
-Tested:      2 @ Mon Feb 16 11:34:10 2015
-Tested:      3 @ Mon Feb 16 11:34:10 2015
-Tested:      4 @ Mon Feb 16 11:34:10 2015
-Tested:      5 @ Mon Feb 16 11:34:10 2015
-Tested:      6 @ Mon Feb 16 11:34:10 2015
-Tested:      7 @ Mon Feb 16 11:34:10 2015
-Tested:      8 @ Mon Feb 16 11:34:10 2015
-Tested:      9 @ Mon Feb 16 11:34:10 2015
-Tested:     10 @ Mon Feb 16 11:34:10 2015
-Ready:      50 @ Mon Feb 16 11:34:10 2015
-Seconds taken: 0.0040 (12632.64 p/s)
+Tested:      1 @ Thu Jan 14 09:50:23 2016
+Tested:      2 @ Thu Jan 14 09:50:23 2016
+Tested:      3 @ Thu Jan 14 09:50:23 2016
+Tested:      4 @ Thu Jan 14 09:50:23 2016
+Tested:      5 @ Thu Jan 14 09:50:23 2016
+Tested:      6 @ Thu Jan 14 09:50:23 2016
+Tested:      7 @ Thu Jan 14 09:50:23 2016
+Tested:      8 @ Thu Jan 14 09:50:23 2016
+Tested:      9 @ Thu Jan 14 09:50:23 2016
+Tested:     10 @ Thu Jan 14 09:50:23 2016
+Ready:      50 @ Thu Jan 14 09:50:23 2016
+Seconds taken: 0.0021 (23474.18 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
@@ -200,18 +202,18 @@ Feature 6	 : 0.857474697673593
 Feature 7	 : 0.466963453214180
 Feature 8	 : 0.169871945230703
 
-Tested:      1 @ Mon Feb 16 11:34:10 2015
-Tested:      2 @ Mon Feb 16 11:34:10 2015
-Tested:      3 @ Mon Feb 16 11:34:10 2015
-Tested:      4 @ Mon Feb 16 11:34:10 2015
-Tested:      5 @ Mon Feb 16 11:34:10 2015
-Tested:      6 @ Mon Feb 16 11:34:10 2015
-Tested:      7 @ Mon Feb 16 11:34:10 2015
-Tested:      8 @ Mon Feb 16 11:34:10 2015
-Tested:      9 @ Mon Feb 16 11:34:10 2015
-Tested:     10 @ Mon Feb 16 11:34:10 2015
-Ready:      50 @ Mon Feb 16 11:34:10 2015
-Seconds taken: 0.0042 (11927.48 p/s)
+Tested:      1 @ Thu Jan 14 09:50:23 2016
+Tested:      2 @ Thu Jan 14 09:50:23 2016
+Tested:      3 @ Thu Jan 14 09:50:23 2016
+Tested:      4 @ Thu Jan 14 09:50:23 2016
+Tested:      5 @ Thu Jan 14 09:50:23 2016
+Tested:      6 @ Thu Jan 14 09:50:23 2016
+Tested:      7 @ Thu Jan 14 09:50:23 2016
+Tested:      8 @ Thu Jan 14 09:50:23 2016
+Tested:      9 @ Thu Jan 14 09:50:23 2016
+Tested:     10 @ Thu Jan 14 09:50:23 2016
+Ready:      50 @ Thu Jan 14 09:50:23 2016
+Seconds taken: 0.0026 (19091.26 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
@@ -255,18 +257,18 @@ Feature 6	 : 0.857474697673593
 Feature 7	 : 0.466963453214180
 Feature 8	 : 0.169871945230703
 
-Tested:      1 @ Mon Feb 16 11:34:10 2015
-Tested:      2 @ Mon Feb 16 11:34:10 2015
-Tested:      3 @ Mon Feb 16 11:34:10 2015
-Tested:      4 @ Mon Feb 16 11:34:10 2015
-Tested:      5 @ Mon Feb 16 11:34:10 2015
-Tested:      6 @ Mon Feb 16 11:34:10 2015
-Tested:      7 @ Mon Feb 16 11:34:10 2015
-Tested:      8 @ Mon Feb 16 11:34:10 2015
-Tested:      9 @ Mon Feb 16 11:34:10 2015
-Tested:     10 @ Mon Feb 16 11:34:10 2015
-Ready:      50 @ Mon Feb 16 11:34:10 2015
-Seconds taken: 0.0032 (15441.63 p/s)
+Tested:      1 @ Thu Jan 14 09:50:23 2016
+Tested:      2 @ Thu Jan 14 09:50:23 2016
+Tested:      3 @ Thu Jan 14 09:50:23 2016
+Tested:      4 @ Thu Jan 14 09:50:23 2016
+Tested:      5 @ Thu Jan 14 09:50:23 2016
+Tested:      6 @ Thu Jan 14 09:50:23 2016
+Tested:      7 @ Thu Jan 14 09:50:23 2016
+Tested:      8 @ Thu Jan 14 09:50:23 2016
+Tested:      9 @ Thu Jan 14 09:50:23 2016
+Tested:     10 @ Thu Jan 14 09:50:23 2016
+Ready:      50 @ Thu Jan 14 09:50:23 2016
+Seconds taken: 0.0019 (26695.14 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC

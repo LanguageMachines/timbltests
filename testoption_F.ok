@@ -1,24 +1,26 @@
-TiMBL 6.4.3 (c) ILK 1998 - 2012.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Oct 11 14:35:50 2012
+Thu Jan 14 09:49:45 2016
 
 Error: -F Compact specified, but Feature Length not set. (-l option)
 Error: Unable to initialize from file :'tests/example.train'
 
-TiMBL 6.4.3 (c) ILK 1998 - 2012.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Oct 11 14:35:50 2012
+Thu Jan 14 09:49:45 2016
 
 Examine datafile 'tests/example.train' gave the following results:
 Number of Features: 9
 InputFormat       : Compact, (Feature Length = 1)
 
 Phase 1: Reading Datafile: tests/example.train
-Start:          0 @ Thu Oct 11 14:35:50 2012
+Start:          0 @ Thu Jan 14 09:49:45 2016
 Warning: datafile, skipped line #12
 C,wit,3,+
 Warning: datafile, skipped line #13
@@ -31,8 +33,8 @@ Warning: datafile, skipped line #19
 C,wit,3,+
 Warning: datafile, skipped line #20
 C,wit,3,+
-Finished:      29 @ Thu Oct 11 14:35:50 2012
-Calculating Entropy         Thu Oct 11 14:35:50 2012
+Finished:      29 @ Thu Jan 14 09:49:45 2016
+Calculating Entropy         Thu Jan 14 09:49:45 2016
 Lines of data     : 23
 SkippedLines      : 6
 Warning: The following feature(s) have only 1 value: 2, 7, 9
@@ -50,30 +52,32 @@ Feats	Vals	InfoGain	GainRatio
     8      4	0.018105964	0.0092276419
     9      1	0.0000000	0.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 192 microseconds
-TiMBL 6.4.3 (c) ILK 1998 - 2012.
+Preparation took 0 seconds, 0 milliseconds and 122 microseconds
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Oct 11 14:35:50 2012
+Thu Jan 14 09:49:45 2016
 
 Warning: empty data file
 Error: Unable to initialize from file :'tests/example.train'
 
-TiMBL 6.4.3 (c) ILK 1998 - 2012.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Oct 11 14:35:50 2012
+Thu Jan 14 09:49:45 2016
 
 Examine datafile 'tests/example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/example.train
-Start:          0 @ Thu Oct 11 14:35:50 2012
-Finished:      29 @ Thu Oct 11 14:35:50 2012
-Calculating Entropy         Thu Oct 11 14:35:50 2012
+Start:          0 @ Thu Jan 14 09:49:45 2016
+Finished:      29 @ Thu Jan 14 09:49:45 2016
+Calculating Entropy         Thu Jan 14 09:49:45 2016
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -83,28 +87,31 @@ Feats	Vals	InfoGain	GainRatio
     2      3	0.0060448141	0.0040988196
     3      4	0.044887336	0.023802575
 
-Preparation took 0 seconds, 0 milliseconds and 152 microseconds
-TiMBL 6.4.3 (c) ILK 1998 - 2012.
+Preparation took 0 seconds, 0 milliseconds and 104 microseconds
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Oct 11 14:35:50 2012
+Thu Jan 14 09:49:45 2016
 
 Error: Unable to initialize from file :'tests/example.train'
 
-TiMBL 6.4.3 (c) ILK 1998 - 2012.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Oct 11 14:35:50 2012
+Thu Jan 14 09:49:45 2016
 
 Error: Unable to initialize from file :'tests/example.train'
 
-TiMBL 6.4.3 (c) ILK 1998 - 2012.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Oct 11 14:35:50 2012
+Thu Jan 14 09:49:45 2016
 
 Error:illegal value for -F option: Wrong
 usage:  timbl -f data-file {-t test-file}

@@ -1,17 +1,18 @@
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan 24 16:49:36 2011
+Thu Jan 14 09:19:56 2016
 
 Examine datafile './tests/utf8.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/utf8.train
-Start:          0 @ Mon Jan 24 16:49:36 2011
-Finished:      28 @ Mon Jan 24 16:49:36 2011
-Calculating Entropy         Mon Jan 24 16:49:36 2011
+Start:          0 @ Thu Jan 14 09:19:56 2016
+Finished:      28 @ Thu Jan 14 09:19:56 2016
+Calculating Entropy         Thu Jan 14 09:19:56 2016
 Lines of data     : 28
 DB Entropy        : 3.8073549
 Number of Classes : 14
@@ -20,19 +21,19 @@ Feats	Vals	InfoGain	GainRatio
     1     28	3.8073549	0.79198540
     2     28	3.8073549	0.79198540
 
-Preparation took 0 seconds, 0 milliseconds and 385 microseconds
+Preparation took 0 seconds, 0 milliseconds and 164 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2 >
 Phase 2: Building multi index on Datafile: ./tests/utf8.train
-Start:          0 @ Mon Jan 24 16:49:36 2011
-Finished:      28 @ Mon Jan 24 16:49:36 2011
+Start:          0 @ Thu Jan 14 09:19:56 2016
+Finished:      28 @ Thu Jan 14 09:19:56 2016
 
 Phase 3: Learning from Datafile: ./tests/utf8.train
-Start:          0 @ Mon Jan 24 16:49:36 2011
-Finished:      28 @ Mon Jan 24 16:49:36 2011
+Start:          0 @ Thu Jan 14 09:19:56 2016
+Finished:      28 @ Thu Jan 14 09:19:56 2016
 
 Size of InstanceBase = 84 Nodes, (3360 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 539 microseconds
+Learning took 0 seconds, 0 milliseconds and 214 microseconds
 Examine datafile './tests/utf8.test' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
@@ -47,18 +48,18 @@ Weighting     : GainRatio
 Feature 1	 : 0.791985402323491
 Feature 2	 : 0.791985402323491
 
-Tested:      1 @ Mon Jan 24 16:49:36 2011
-Tested:      2 @ Mon Jan 24 16:49:36 2011
-Tested:      3 @ Mon Jan 24 16:49:36 2011
-Tested:      4 @ Mon Jan 24 16:49:36 2011
-Tested:      5 @ Mon Jan 24 16:49:36 2011
-Tested:      6 @ Mon Jan 24 16:49:36 2011
-Tested:      7 @ Mon Jan 24 16:49:36 2011
-Tested:      8 @ Mon Jan 24 16:49:36 2011
-Tested:      9 @ Mon Jan 24 16:49:36 2011
-Tested:     10 @ Mon Jan 24 16:49:36 2011
-Ready:      14 @ Mon Jan 24 16:49:36 2011
-Seconds taken: 0.0009 (14799.15 p/s)
+Tested:      1 @ Thu Jan 14 09:19:56 2016
+Tested:      2 @ Thu Jan 14 09:19:56 2016
+Tested:      3 @ Thu Jan 14 09:19:56 2016
+Tested:      4 @ Thu Jan 14 09:19:56 2016
+Tested:      5 @ Thu Jan 14 09:19:56 2016
+Tested:      6 @ Thu Jan 14 09:19:56 2016
+Tested:      7 @ Thu Jan 14 09:19:56 2016
+Tested:      8 @ Thu Jan 14 09:19:56 2016
+Tested:      9 @ Thu Jan 14 09:19:56 2016
+Tested:     10 @ Thu Jan 14 09:19:56 2016
+Ready:      14 @ Thu Jan 14 09:19:56 2016
+Seconds taken: 0.0002 (72538.86 p/s)
 
 overall accuracy:        0.928571  (13/14)
 There was 1 tie of which 0 (0.00%) was correctly resolved
@@ -76,20 +77,21 @@ nopahinasti,śaknomyattum,sanskriet-t,sanskriet-t
 thể ăn,mà không hại gì,vietnamees,vietnamees
 나는,있어요,koreaans,koreaans
 Би шил,идэй надад,mongools,mongools
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan 24 16:49:36 2011
+Thu Jan 14 09:19:56 2016
 
 Examine datafile './tests/utf8.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/utf8.train
-Start:          0 @ Mon Jan 24 16:49:36 2011
-Finished:      28 @ Mon Jan 24 16:49:36 2011
-Calculating Entropy         Mon Jan 24 16:49:36 2011
+Start:          0 @ Thu Jan 14 09:19:56 2016
+Finished:      28 @ Thu Jan 14 09:19:56 2016
+Calculating Entropy         Thu Jan 14 09:19:56 2016
 Lines of data     : 28
 DB Entropy        : 3.8073549
 Number of Classes : 14
@@ -98,19 +100,19 @@ Feats	Vals	InfoGain	GainRatio
     1     28	3.8073549	0.79198540
     2     28	3.8073549	0.79198540
 
-Preparation took 0 seconds, 0 milliseconds and 356 microseconds
+Preparation took 0 seconds, 0 milliseconds and 286 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2 >
 Phase 2: Building multi index on Datafile: ./tests/utf8.train
-Start:          0 @ Mon Jan 24 16:49:36 2011
-Finished:      28 @ Mon Jan 24 16:49:36 2011
+Start:          0 @ Thu Jan 14 09:19:56 2016
+Finished:      28 @ Thu Jan 14 09:19:56 2016
 
 Phase 3: Learning from Datafile: ./tests/utf8.train
-Start:          0 @ Mon Jan 24 16:49:36 2011
-Finished:      28 @ Mon Jan 24 16:49:36 2011
+Start:          0 @ Thu Jan 14 09:19:56 2016
+Finished:      28 @ Thu Jan 14 09:19:56 2016
 
 Size of InstanceBase = 84 Nodes, (3360 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 515 microseconds
+Learning took 0 seconds, 0 milliseconds and 309 microseconds
 Writing Instance-Base in: ./tests/utf8.tree
 # Status: complete
 # Permutation: < 1, 2 >
@@ -277,11 +279,12 @@ Features
 )
 ]
 )
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan 24 16:49:36 2011
+Thu Jan 14 09:19:56 2016
 
 Reading Instance-Base from: ./tests/utf8.tree
 
@@ -302,18 +305,18 @@ Weighting     : GainRatio
 Feature 1	 : 0.791985402323491
 Feature 2	 : 0.791985402323491
 
-Tested:      1 @ Mon Jan 24 16:49:36 2011
-Tested:      2 @ Mon Jan 24 16:49:36 2011
-Tested:      3 @ Mon Jan 24 16:49:36 2011
-Tested:      4 @ Mon Jan 24 16:49:36 2011
-Tested:      5 @ Mon Jan 24 16:49:36 2011
-Tested:      6 @ Mon Jan 24 16:49:36 2011
-Tested:      7 @ Mon Jan 24 16:49:36 2011
-Tested:      8 @ Mon Jan 24 16:49:36 2011
-Tested:      9 @ Mon Jan 24 16:49:36 2011
-Tested:     10 @ Mon Jan 24 16:49:36 2011
-Ready:      14 @ Mon Jan 24 16:49:36 2011
-Seconds taken: 0.0005 (27613.41 p/s)
+Tested:      1 @ Thu Jan 14 09:19:56 2016
+Tested:      2 @ Thu Jan 14 09:19:56 2016
+Tested:      3 @ Thu Jan 14 09:19:56 2016
+Tested:      4 @ Thu Jan 14 09:19:56 2016
+Tested:      5 @ Thu Jan 14 09:19:56 2016
+Tested:      6 @ Thu Jan 14 09:19:56 2016
+Tested:      7 @ Thu Jan 14 09:19:56 2016
+Tested:      8 @ Thu Jan 14 09:19:56 2016
+Tested:      9 @ Thu Jan 14 09:19:56 2016
+Tested:     10 @ Thu Jan 14 09:19:56 2016
+Ready:      14 @ Thu Jan 14 09:19:56 2016
+Seconds taken: 0.0002 (68965.52 p/s)
 
 overall accuracy:        0.928571  (13/14)
 There was 1 tie of which 0 (0.00%) was correctly resolved

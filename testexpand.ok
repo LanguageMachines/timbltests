@@ -1,17 +1,18 @@
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Aug  1 11:46:30 2011
+Thu Jan 14 09:19:58 2016
 
 Examine datafile './tests/cv_1.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Aug  1 11:46:30 2011
-Finished:      38 @ Mon Aug  1 11:46:30 2011
-Calculating Entropy         Mon Aug  1 11:46:30 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 38
 DB Entropy        : 1.1239577
 Number of Classes : 3
@@ -26,25 +27,26 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.86079976	0.21819805
     8     17	0.40001621	0.10329552
 
-Preparation took 0 seconds, 0 milliseconds and 710 microseconds
+Preparation took 0 seconds, 0 milliseconds and 343 microseconds
 Feature Permutation based on Default Ordering :
 < 1, 2, 3, 4, 5, 6, 7, 8 >
 Phase 2: Building multi index on Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Aug  1 11:46:30 2011
-Finished:      38 @ Mon Aug  1 11:46:30 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Phase 3: Learning from Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Aug  1 11:46:30 2011
-Finished:      38 @ Mon Aug  1 11:46:30 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Size of InstanceBase = 335 Nodes, (13400 bytes), 2.05 % compression
-Learning took 0 seconds, 1 milliseconds and 28 microseconds
+Learning took 0 seconds, 0 milliseconds and 426 microseconds
 Writing Instance-Base in: test1.tree
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Aug  1 11:46:30 2011
+Thu Jan 14 09:19:58 2016
 
 Reading Instance-Base from: test1.tree
 
@@ -56,9 +58,9 @@ Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_2.train
-Start:          0 @ Mon Aug  1 11:46:30 2011
-Finished:      38 @ Mon Aug  1 11:46:30 2011
-Calculating Entropy         Mon Aug  1 11:46:30 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 38
 DB Entropy        : 1.17093636
 Number of Classes : 3
@@ -73,27 +75,28 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.83647568	0.21450128
     8     17	0.37061205	0.09772324
 
-Preparation took 0 seconds, 0 milliseconds and 555 microseconds
+Preparation took 0 seconds, 0 milliseconds and 228 microseconds
 Phase 2: Expanding from Datafile: ./tests/cv_2.train
-Start:          0 @ Mon Aug  1 11:46:30 2011
-Finished:      38 @ Mon Aug  1 11:46:30 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Size of InstanceBase = 419 Nodes, (16760 bytes), 3.01 % compression
 Writing Instance-Base in: test2.tree
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Aug  1 11:46:30 2011
+Thu Jan 14 09:19:58 2016
 
 Examine datafile './tests/cv_12.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Aug  1 11:46:30 2011
-Finished:      76 @ Mon Aug  1 11:46:30 2011
-Calculating Entropy         Mon Aug  1 11:46:30 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      76 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 76
 DB Entropy        : 1.1709364
 Number of Classes : 3
@@ -108,34 +111,35 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.83647568	0.21450128
     8     17	0.37061205	0.097723243
 
-Preparation took 0 seconds, 1 milliseconds and 177 microseconds
+Preparation took 0 seconds, 0 milliseconds and 424 microseconds
 Feature Permutation based on Default Ordering :
 < 1, 2, 3, 4, 5, 6, 7, 8 >
 Phase 2: Building multi index on Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Aug  1 11:46:30 2011
-Finished:      76 @ Mon Aug  1 11:46:30 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      76 @ Thu Jan 14 09:19:58 2016
 
 Phase 3: Learning from Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Aug  1 11:46:30 2011
-Finished:      76 @ Mon Aug  1 11:46:30 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      76 @ Thu Jan 14 09:19:58 2016
 
 Size of InstanceBase = 419 Nodes, (16760 bytes), 3.01 % compression
-Learning took 0 seconds, 1 milliseconds and 846 microseconds
+Learning took 0 seconds, 0 milliseconds and 685 microseconds
 Writing Instance-Base in: test12.tree
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Aug  1 11:46:30 2011
+Thu Jan 14 09:19:58 2016
 
 Examine datafile './tests/cv_1.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      38 @ Mon Aug  1 11:46:31 2011
-Calculating Entropy         Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 38
 DB Entropy        : 1.1239577
 Number of Classes : 3
@@ -150,26 +154,27 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.86079976	0.21819805
     8     17	0.40001621	0.10329552
 
-Preparation took 0 seconds, 0 milliseconds and 694 microseconds
+Preparation took 0 seconds, 0 milliseconds and 265 microseconds
 Feature Permutation based on Default Ordering :
 < 1, 2, 3, 4, 5, 6, 7, 8 >
 Phase 2: Building multi index on Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      38 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Phase 3: Learning from Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      38 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Size of InstanceBase = 15 Nodes, (600 bytes), 95.61 % compression
-Learning took 0 seconds, 1 milliseconds and 168 microseconds
+Learning took 0 seconds, 0 milliseconds and 429 microseconds
 Writing Instance-Base in: testIG-1.tree
 Saving Weights in testIG-1.tree.wgt
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Aug  1 11:46:31 2011
+Thu Jan 14 09:19:58 2016
 
 Reading Instance-Base from: testIG-1.tree
 Feature Permutation based on Data File Ordering :
@@ -177,20 +182,21 @@ Feature Permutation based on Data File Ordering :
 Reading weights from testIG-1.tree.wgt
 FatalError: Expand not supported for IGTree
 Stopped, sorry
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Aug  1 11:46:31 2011
+Thu Jan 14 09:19:58 2016
 
 Examine datafile './tests/cv_12.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      76 @ Mon Aug  1 11:46:31 2011
-Calculating Entropy         Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      76 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 76
 DB Entropy        : 1.1709364
 Number of Classes : 3
@@ -205,35 +211,36 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.83647568	0.21450128
     8     17	0.37061205	0.097723243
 
-Preparation took 0 seconds, 1 milliseconds and 65 microseconds
+Preparation took 0 seconds, 0 milliseconds and 428 microseconds
 Feature Permutation based on Default Ordering :
 < 1, 2, 3, 4, 5, 6, 7, 8 >
 Phase 2: Building multi index on Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      76 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      76 @ Thu Jan 14 09:19:58 2016
 
 Phase 3: Learning from Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      76 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      76 @ Thu Jan 14 09:19:58 2016
 
 Size of InstanceBase = 20 Nodes, (800 bytes), 95.37 % compression
-Learning took 0 seconds, 2 milliseconds and 46 microseconds
+Learning took 0 seconds, 0 milliseconds and 727 microseconds
 Writing Instance-Base in: testIG-12.tree
 Saving Weights in testIG-12.tree.wgt
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Aug  1 11:46:31 2011
+Thu Jan 14 09:19:58 2016
 
 Examine datafile './tests/cv_1.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      38 @ Mon Aug  1 11:46:31 2011
-Calculating Entropy         Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 38
 DB Entropy        : 1.1239577
 Number of Classes : 3
@@ -248,25 +255,26 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.86079976	0.21819805
     8     17	0.40001621	0.10329552
 
-Preparation took 0 seconds, 0 milliseconds and 745 microseconds
+Preparation took 0 seconds, 0 milliseconds and 265 microseconds
 Feature Permutation based on Default Ordering :
 < 1, 2, 3, 4, 5, 6, 7, 8 >
 Phase 2: Building multi index on Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      38 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Phase 3: Learning from Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      38 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Size of InstanceBase = 335 Nodes, (13400 bytes), 2.05 % compression
-Learning took 0 seconds, 1 milliseconds and 197 microseconds
+Learning took 0 seconds, 0 milliseconds and 380 microseconds
 Writing Instance-Base in: testTR1-1.tree
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Aug  1 11:46:31 2011
+Thu Jan 14 09:19:58 2016
 
 Reading Instance-Base from: testTR1-1.tree
 
@@ -278,9 +286,9 @@ Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_2.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      38 @ Mon Aug  1 11:46:31 2011
-Calculating Entropy         Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 38
 DB Entropy        : 1.17093636
 Number of Classes : 3
@@ -295,27 +303,28 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.83647568	0.21450128
     8     17	0.37061205	0.09772324
 
-Preparation took 0 seconds, 0 milliseconds and 553 microseconds
+Preparation took 0 seconds, 0 milliseconds and 302 microseconds
 Phase 2: Expanding from Datafile: ./tests/cv_2.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      38 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Size of InstanceBase = 419 Nodes, (16760 bytes), 3.01 % compression
 Writing Instance-Base in: testTR1-2.tree
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Aug  1 11:46:31 2011
+Thu Jan 14 09:19:58 2016
 
 Examine datafile './tests/cv_12.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      76 @ Mon Aug  1 11:46:31 2011
-Calculating Entropy         Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      76 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 76
 DB Entropy        : 1.1709364
 Number of Classes : 3
@@ -330,34 +339,35 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.83647568	0.21450128
     8     17	0.37061205	0.097723243
 
-Preparation took 0 seconds, 1 milliseconds and 60 microseconds
+Preparation took 0 seconds, 0 milliseconds and 430 microseconds
 Feature Permutation based on Default Ordering :
 < 1, 2, 3, 4, 5, 6, 7, 8 >
 Phase 2: Building multi index on Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      76 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      76 @ Thu Jan 14 09:19:58 2016
 
 Phase 3: Learning from Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      76 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      76 @ Thu Jan 14 09:19:58 2016
 
 Size of InstanceBase = 419 Nodes, (16760 bytes), 3.01 % compression
-Learning took 0 seconds, 1 milliseconds and 914 microseconds
+Learning took 0 seconds, 0 milliseconds and 670 microseconds
 Writing Instance-Base in: testTR1-12.tree
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Aug  1 11:46:31 2011
+Thu Jan 14 09:19:58 2016
 
 Examine datafile './tests/cv_1.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      38 @ Mon Aug  1 11:46:31 2011
-Calculating Entropy         Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 38
 DB Entropy        : 1.1239577
 Number of Classes : 3
@@ -372,25 +382,26 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.86079976	0.21819805
     8     17	0.40001621	0.10329552
 
-Preparation took 0 seconds, 0 milliseconds and 727 microseconds
+Preparation took 0 seconds, 0 milliseconds and 269 microseconds
 Feature Permutation based on Default Ordering :
 < 1, 2, 3, 4, 5, 6, 7, 8 >
 Phase 2: Building multi index on Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      38 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Phase 3: Learning from Datafile: ./tests/cv_1.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      38 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Size of InstanceBase = 335 Nodes, (13400 bytes), 2.05 % compression
-Learning took 0 seconds, 1 milliseconds and 20 microseconds
+Learning took 0 seconds, 0 milliseconds and 389 microseconds
 Writing Instance-Base in: testTR2-1.tree
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Aug  1 11:46:31 2011
+Thu Jan 14 09:19:58 2016
 
 Reading Instance-Base from: testTR2-1.tree
 
@@ -402,9 +413,9 @@ Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_2.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      38 @ Mon Aug  1 11:46:31 2011
-Calculating Entropy         Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 38
 DB Entropy        : 1.17093636
 Number of Classes : 3
@@ -419,27 +430,28 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.83647568	0.21450128
     8     17	0.37061205	0.09772324
 
-Preparation took 0 seconds, 0 milliseconds and 662 microseconds
+Preparation took 0 seconds, 0 milliseconds and 222 microseconds
 Phase 2: Expanding from Datafile: ./tests/cv_2.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      38 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      38 @ Thu Jan 14 09:19:58 2016
 
 Size of InstanceBase = 419 Nodes, (16760 bytes), 3.01 % compression
 Writing Instance-Base in: testTR2-2.tree
-TiMBL 6.4.1 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Aug  1 11:46:31 2011
+Thu Jan 14 09:19:58 2016
 
 Examine datafile './tests/cv_12.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      76 @ Mon Aug  1 11:46:31 2011
-Calculating Entropy         Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      76 @ Thu Jan 14 09:19:58 2016
+Calculating Entropy         Thu Jan 14 09:19:58 2016
 Lines of data     : 76
 DB Entropy        : 1.1709364
 Number of Classes : 3
@@ -454,17 +466,17 @@ Feats	Vals	InfoGain	GainRatio
     7     18	0.83647568	0.21450128
     8     17	0.37061205	0.097723243
 
-Preparation took 0 seconds, 1 milliseconds and 98 microseconds
+Preparation took 0 seconds, 0 milliseconds and 422 microseconds
 Feature Permutation based on Default Ordering :
 < 1, 2, 3, 4, 5, 6, 7, 8 >
 Phase 2: Building multi index on Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      76 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      76 @ Thu Jan 14 09:19:58 2016
 
 Phase 3: Learning from Datafile: ./tests/cv_12.train
-Start:          0 @ Mon Aug  1 11:46:31 2011
-Finished:      76 @ Mon Aug  1 11:46:31 2011
+Start:          0 @ Thu Jan 14 09:19:58 2016
+Finished:      76 @ Thu Jan 14 09:19:58 2016
 
 Size of InstanceBase = 419 Nodes, (16760 bytes), 3.01 % compression
-Learning took 0 seconds, 1 milliseconds and 874 microseconds
+Learning took 0 seconds, 0 milliseconds and 669 microseconds
 Writing Instance-Base in: testTR2-12.tree

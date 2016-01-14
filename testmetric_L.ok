@@ -1,17 +1,18 @@
-TiMBL 6.4.6 (c) ILK 1998 - 2015.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 16 11:33:35 2015
+Thu Jan 14 09:19:31 2016
 
 Examine datafile './tests/hapax.train' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/hapax.train
-Start:          0 @ Mon Feb 16 11:33:35 2015
-Finished:    4000 @ Mon Feb 16 11:33:35 2015
-Calculating Entropy         Mon Feb 16 11:33:35 2015
+Start:          0 @ Thu Jan 14 09:19:31 2016
+Finished:    4000 @ Thu Jan 14 09:19:31 2016
+Calculating Entropy         Thu Jan 14 09:19:31 2016
 Lines of data     : 4000
 DB Entropy        : 8.6951931
 Number of Classes : 1222
@@ -32,19 +33,19 @@ Feats	Vals	InfoGain	GainRatio
    13   1225	5.9499452	0.68433572
    14   1224	5.9100747	0.67989149
 
-Preparation took 0 seconds, 103 milliseconds and 785 microseconds
+Preparation took 0 seconds, 55 milliseconds and 551 microseconds
 Feature Permutation based on GainRatio/Values :
 < 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
 Phase 2: Building multi index on Datafile: ./tests/hapax.train
-Start:          0 @ Mon Feb 16 11:33:35 2015
-Finished:    4000 @ Mon Feb 16 11:33:35 2015
+Start:          0 @ Thu Jan 14 09:19:31 2016
+Finished:    4000 @ Thu Jan 14 09:19:31 2016
 
 Phase 3: Learning from Datafile: ./tests/hapax.train
-Start:          0 @ Mon Feb 16 11:33:35 2015
-Finished:    4000 @ Mon Feb 16 11:33:35 2015
+Start:          0 @ Thu Jan 14 09:19:31 2016
+Finished:    4000 @ Thu Jan 14 09:19:31 2016
 
 Size of InstanceBase = 47953 Nodes, (1918120 bytes), 6.36 % compression
-Learning took 0 seconds, 157 milliseconds and 996 microseconds
+Learning took 0 seconds, 87 milliseconds and 163 microseconds
 Examine datafile './tests/hapax.test.small' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -87,19 +88,19 @@ Feature 12	 : 0.687621834992482
 Feature 13	 : 0.684335723012490
 Feature 14	 : 0.679891487432342
 
-Tested:      1 @ Mon Feb 16 11:33:35 2015
-Tested:      2 @ Mon Feb 16 11:33:35 2015
-Tested:      3 @ Mon Feb 16 11:33:35 2015
-Tested:      4 @ Mon Feb 16 11:33:35 2015
-Tested:      5 @ Mon Feb 16 11:33:35 2015
-Tested:      6 @ Mon Feb 16 11:33:35 2015
-Tested:      7 @ Mon Feb 16 11:33:35 2015
-Tested:      8 @ Mon Feb 16 11:33:35 2015
-Tested:      9 @ Mon Feb 16 11:33:35 2015
-Tested:     10 @ Mon Feb 16 11:33:35 2015
-Tested:    100 @ Mon Feb 16 11:33:37 2015, 10: Mon Feb 16 11:33:35 2015
-Ready:     200 @ Mon Feb 16 11:33:38 2015
-Seconds taken: 3.4463 (58.03 p/s)
+Tested:      1 @ Thu Jan 14 09:19:31 2016
+Tested:      2 @ Thu Jan 14 09:19:31 2016
+Tested:      3 @ Thu Jan 14 09:19:31 2016
+Tested:      4 @ Thu Jan 14 09:19:31 2016
+Tested:      5 @ Thu Jan 14 09:19:31 2016
+Tested:      6 @ Thu Jan 14 09:19:31 2016
+Tested:      7 @ Thu Jan 14 09:19:31 2016
+Tested:      8 @ Thu Jan 14 09:19:31 2016
+Tested:      9 @ Thu Jan 14 09:19:31 2016
+Tested:     10 @ Thu Jan 14 09:19:31 2016
+Tested:    100 @ Thu Jan 14 09:19:32 2016, 10: Thu Jan 14 09:19:31 2016
+Ready:     200 @ Thu Jan 14 09:19:33 2016
+Seconds taken: 1.5511 (128.94 p/s)
 
 overall accuracy:        0.045000  (9/200)
 _ _ _ _ _ _ _ _ _ _ _ _ _ CHAPTER _ _ { _ 1.00000 }        4.7592404120264

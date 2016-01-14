@@ -1,17 +1,18 @@
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan 24 12:06:30 2011
+Thu Jan 14 09:08:55 2016
 
 Examine datafile 'tests/bug26.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug26.train
-Start:          0 @ Mon Jan 24 12:06:30 2011
-Finished:      29 @ Mon Jan 24 12:06:30 2011
-Calculating Entropy         Mon Jan 24 12:06:30 2011
+Start:          0 @ Thu Jan 14 09:08:55 2016
+Finished:      29 @ Thu Jan 14 09:08:55 2016
+Calculating Entropy         Thu Jan 14 09:08:55 2016
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -21,25 +22,26 @@ Feats	Vals	InfoGain	GainRatio
     2      5	0.062249179	0.030433063
     3      5	0.024392020	0.011399513 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 352 microseconds
+Preparation took 0 seconds, 0 milliseconds and 138 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 3 >
 Phase 2: Building multi index on Datafile: tests/bug26.train
-Start:          0 @ Mon Jan 24 12:06:30 2011
-Finished:      29 @ Mon Jan 24 12:06:30 2011
+Start:          0 @ Thu Jan 14 09:08:55 2016
+Finished:      29 @ Thu Jan 14 09:08:55 2016
 
 Phase 3: Learning from Datafile: tests/bug26.train
-Start:          0 @ Mon Jan 24 12:06:30 2011
-Finished:      29 @ Mon Jan 24 12:06:30 2011
+Start:          0 @ Thu Jan 14 09:08:55 2016
+Finished:      29 @ Thu Jan 14 09:08:55 2016
 
 Size of InstanceBase = 51 Nodes, (2040 bytes), 29.17 % compression
-Learning took 0 seconds, 0 milliseconds and 429 microseconds
+Learning took 0 seconds, 0 milliseconds and 155 microseconds
 Writing Instance-Base in: tests/bug26.tree
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan 24 12:06:30 2011
+Thu Jan 14 09:08:55 2016
 
 Reading Instance-Base from: tests/bug26.tree
 
@@ -61,15 +63,15 @@ Feature 1	 : 0.120349398760858
 Feature 2	 : 0.030433063314477
 Feature 3	 : 0.011399512855398
 
-Tested:      1 @ Mon Jan 24 12:06:30 2011
-Tested:      2 @ Mon Jan 24 12:06:30 2011
-Tested:      3 @ Mon Jan 24 12:06:30 2011
-Tested:      4 @ Mon Jan 24 12:06:30 2011
-Tested:      5 @ Mon Jan 24 12:06:30 2011
-Tested:      6 @ Mon Jan 24 12:06:30 2011
-Tested:      7 @ Mon Jan 24 12:06:30 2011
-Ready:       7 @ Mon Jan 24 12:06:30 2011
-Seconds taken: 0.0003 (24822.70 p/s)
+Tested:      1 @ Thu Jan 14 09:08:55 2016
+Tested:      2 @ Thu Jan 14 09:08:55 2016
+Tested:      3 @ Thu Jan 14 09:08:55 2016
+Tested:      4 @ Thu Jan 14 09:08:55 2016
+Tested:      5 @ Thu Jan 14 09:08:55 2016
+Tested:      6 @ Thu Jan 14 09:08:55 2016
+Tested:      7 @ Thu Jan 14 09:08:55 2016
+Ready:       7 @ Thu Jan 14 09:08:55 2016
+Seconds taken: 0.0001 (63636.36 p/s)
 
 overall accuracy:        0.714286  (5/7), of which 2 exact matches 
 Examine datafile './tests/bug26.test' gave the following results:
@@ -88,15 +90,15 @@ Feature 1	 : 0.120349398760858
 Feature 2	 : 0.030433063314477
 Feature 3	 : 0.011399512855398
 
-Tested:      1 @ Mon Jan 24 12:06:30 2011
-Tested:      2 @ Mon Jan 24 12:06:30 2011
-Tested:      3 @ Mon Jan 24 12:06:30 2011
-Tested:      4 @ Mon Jan 24 12:06:30 2011
-Tested:      5 @ Mon Jan 24 12:06:30 2011
-Tested:      6 @ Mon Jan 24 12:06:30 2011
-Tested:      7 @ Mon Jan 24 12:06:30 2011
-Ready:       7 @ Mon Jan 24 12:06:30 2011
-Seconds taken: 0.0007 (9708.74 p/s)
+Tested:      1 @ Thu Jan 14 09:08:55 2016
+Tested:      2 @ Thu Jan 14 09:08:55 2016
+Tested:      3 @ Thu Jan 14 09:08:55 2016
+Tested:      4 @ Thu Jan 14 09:08:55 2016
+Tested:      5 @ Thu Jan 14 09:08:55 2016
+Tested:      6 @ Thu Jan 14 09:08:55 2016
+Tested:      7 @ Thu Jan 14 09:08:55 2016
+Ready:       7 @ Thu Jan 14 09:08:55 2016
+Seconds taken: 0.0001 (51851.85 p/s)
 
 overall accuracy:        0.714286  (5/7), of which 2 exact matches 
 Examine datafile './tests/bug26.test' gave the following results:
@@ -119,15 +121,15 @@ Feature 1	 : 0.120349398760858
 Feature 2	 : 0.030433063314477
 Feature 3	 : 0.011399512855398
 
-Tested:      1 @ Mon Jan 24 12:06:31 2011
-Tested:      2 @ Mon Jan 24 12:06:31 2011
-Tested:      3 @ Mon Jan 24 12:06:31 2011
-Tested:      4 @ Mon Jan 24 12:06:31 2011
-Tested:      5 @ Mon Jan 24 12:06:31 2011
-Tested:      6 @ Mon Jan 24 12:06:31 2011
-Tested:      7 @ Mon Jan 24 12:06:31 2011
-Ready:       7 @ Mon Jan 24 12:06:31 2011
-Seconds taken: 0.0005 (14705.88 p/s)
+Tested:      1 @ Thu Jan 14 09:08:55 2016
+Tested:      2 @ Thu Jan 14 09:08:55 2016
+Tested:      3 @ Thu Jan 14 09:08:55 2016
+Tested:      4 @ Thu Jan 14 09:08:55 2016
+Tested:      5 @ Thu Jan 14 09:08:55 2016
+Tested:      6 @ Thu Jan 14 09:08:55 2016
+Tested:      7 @ Thu Jan 14 09:08:55 2016
+Ready:       7 @ Thu Jan 14 09:08:55 2016
+Seconds taken: 0.0002 (43478.26 p/s)
 
 overall accuracy:        0.571429  (4/7), of which 3 exact matches 
 There was 1 tie of which 1 (100.00%) was correctly resolved
@@ -152,15 +154,15 @@ Feature 1	 : 0.120349398760858
 Feature 2	 : 0.030433063314477
 Feature 3	 : 0.011399512855398
 
-Tested:      1 @ Mon Jan 24 12:06:31 2011
-Tested:      2 @ Mon Jan 24 12:06:31 2011
-Tested:      3 @ Mon Jan 24 12:06:31 2011
-Tested:      4 @ Mon Jan 24 12:06:31 2011
-Tested:      5 @ Mon Jan 24 12:06:31 2011
-Tested:      6 @ Mon Jan 24 12:06:31 2011
-Tested:      7 @ Mon Jan 24 12:06:31 2011
-Ready:       7 @ Mon Jan 24 12:06:31 2011
-Seconds taken: 0.0007 (9562.84 p/s)
+Tested:      1 @ Thu Jan 14 09:08:55 2016
+Tested:      2 @ Thu Jan 14 09:08:55 2016
+Tested:      3 @ Thu Jan 14 09:08:55 2016
+Tested:      4 @ Thu Jan 14 09:08:55 2016
+Tested:      5 @ Thu Jan 14 09:08:55 2016
+Tested:      6 @ Thu Jan 14 09:08:55 2016
+Tested:      7 @ Thu Jan 14 09:08:55 2016
+Ready:       7 @ Thu Jan 14 09:08:55 2016
+Seconds taken: 0.0001 (49645.39 p/s)
 
 overall accuracy:        0.714286  (5/7), of which 2 exact matches 
 Examine datafile './tests/bug26.test' gave the following results:
@@ -183,15 +185,15 @@ Feature 1	 : 0.120349398760858
 Feature 2	 : 0.030433063314477
 Feature 3	 : 0.011399512855398
 
-Tested:      1 @ Mon Jan 24 12:06:31 2011
-Tested:      2 @ Mon Jan 24 12:06:31 2011
-Tested:      3 @ Mon Jan 24 12:06:31 2011
-Tested:      4 @ Mon Jan 24 12:06:31 2011
-Tested:      5 @ Mon Jan 24 12:06:31 2011
-Tested:      6 @ Mon Jan 24 12:06:31 2011
-Tested:      7 @ Mon Jan 24 12:06:31 2011
-Ready:       7 @ Mon Jan 24 12:06:31 2011
-Seconds taken: 0.0005 (15418.50 p/s)
+Tested:      1 @ Thu Jan 14 09:08:55 2016
+Tested:      2 @ Thu Jan 14 09:08:55 2016
+Tested:      3 @ Thu Jan 14 09:08:55 2016
+Tested:      4 @ Thu Jan 14 09:08:55 2016
+Tested:      5 @ Thu Jan 14 09:08:55 2016
+Tested:      6 @ Thu Jan 14 09:08:55 2016
+Tested:      7 @ Thu Jan 14 09:08:55 2016
+Ready:       7 @ Thu Jan 14 09:08:55 2016
+Seconds taken: 0.0001 (79545.45 p/s)
 
 overall accuracy:        0.571429  (4/7), of which 3 exact matches 
 There was 1 tie of which 1 (100.00%) was correctly resolved
@@ -217,15 +219,15 @@ Feature 1	 : 0.120349398760858
 Feature 2	 : 0.030433063314477
 Feature 3	 : 0.011399512855398
 
-Tested:      1 @ Mon Jan 24 12:06:31 2011
-Tested:      2 @ Mon Jan 24 12:06:31 2011
-Tested:      3 @ Mon Jan 24 12:06:31 2011
-Tested:      4 @ Mon Jan 24 12:06:31 2011
-Tested:      5 @ Mon Jan 24 12:06:31 2011
-Tested:      6 @ Mon Jan 24 12:06:31 2011
-Tested:      7 @ Mon Jan 24 12:06:31 2011
-Ready:       7 @ Mon Jan 24 12:06:31 2011
-Seconds taken: 0.0005 (14285.71 p/s)
+Tested:      1 @ Thu Jan 14 09:08:55 2016
+Tested:      2 @ Thu Jan 14 09:08:55 2016
+Tested:      3 @ Thu Jan 14 09:08:55 2016
+Tested:      4 @ Thu Jan 14 09:08:55 2016
+Tested:      5 @ Thu Jan 14 09:08:55 2016
+Tested:      6 @ Thu Jan 14 09:08:55 2016
+Tested:      7 @ Thu Jan 14 09:08:55 2016
+Ready:       7 @ Thu Jan 14 09:08:55 2016
+Seconds taken: 0.0001 (76086.96 p/s)
 
 overall accuracy:        0.571429  (4/7), of which 3 exact matches 
 There was 1 tie of which 1 (100.00%) was correctly resolved

@@ -1,17 +1,18 @@
-TiMBL 6.4.6 (c) ILK 1998 - 2015.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 16 11:34:05 2015
+Thu Jan 14 10:02:51 2016
 
 Examine datafile 'tests/zestiende.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/zestiende.train
-Start:          0 @ Mon Feb 16 11:34:05 2015
-Finished:      88 @ Mon Feb 16 11:34:05 2015
-Calculating Entropy         Mon Feb 16 11:34:05 2015
+Start:          0 @ Thu Jan 14 10:02:51 2016
+Finished:      88 @ Thu Jan 14 10:02:51 2016
+Calculating Entropy         Thu Jan 14 10:02:51 2016
 Lines of data     : 88
 DB Entropy        : 1.1756882
 Number of Classes : 3
@@ -26,25 +27,26 @@ Feats	Vals	InfoGain	GainRatio
     7     17	0.60927542	0.16525080
     8     17	0.31055305	0.084251159
 
-Preparation took 0 seconds, 1 milliseconds and 886 microseconds
+Preparation took 0 seconds, 0 milliseconds and 506 microseconds
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 3, 2, 1, 4 >
 Phase 2: Building multi index on Datafile: tests/zestiende.train
-Start:          0 @ Mon Feb 16 11:34:05 2015
-Finished:      88 @ Mon Feb 16 11:34:05 2015
+Start:          0 @ Thu Jan 14 10:02:51 2016
+Finished:      88 @ Thu Jan 14 10:02:51 2016
 
 Phase 3: Learning from Datafile: tests/zestiende.train
-Start:          0 @ Mon Feb 16 11:34:05 2015
-Finished:      88 @ Mon Feb 16 11:34:05 2015
+Start:          0 @ Thu Jan 14 10:02:51 2016
+Finished:      88 @ Thu Jan 14 10:02:51 2016
 
 Size of InstanceBase = 660 Nodes, (26400 bytes), 16.67 % compression
-Learning took 0 seconds, 2 milliseconds and 823 microseconds
+Learning took 0 seconds, 0 milliseconds and 769 microseconds
 Writing Instance-Base in: ib_tree1
-TiMBL 6.4.6 (c) ILK 1998 - 2015.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 16 11:34:05 2015
+Thu Jan 14 10:02:51 2016
 
 Reading Instance-Base from: ib_tree1
 
@@ -71,27 +73,28 @@ Feature 6	 : 0.232025058388336
 Feature 7	 : 0.165250804887967
 Feature 8	 : 0.084251158864471
 
-Tested:      1 @ Mon Feb 16 11:34:05 2015
-Tested:      2 @ Mon Feb 16 11:34:05 2015
-Ready:       2 @ Mon Feb 16 11:34:05 2015
-Seconds taken: 0.0004 (5012.53 p/s)
+Tested:      1 @ Thu Jan 14 10:02:51 2016
+Tested:      2 @ Thu Jan 14 10:02:51 2016
+Ready:       2 @ Thu Jan 14 10:02:51 2016
+Seconds taken: 0.0001 (18181.82 p/s)
 
 overall accuracy:        1.000000  (2/2)
 There was 1 tie of which 1 (100.00%) was correctly resolved
-TiMBL 6.4.6 (c) ILK 1998 - 2015.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 16 11:34:05 2015
+Thu Jan 14 10:02:51 2016
 
 Examine datafile 'tests/zestiende.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/zestiende.train
-Start:          0 @ Mon Feb 16 11:34:05 2015
-Finished:      88 @ Mon Feb 16 11:34:05 2015
-Calculating Entropy         Mon Feb 16 11:34:05 2015
+Start:          0 @ Thu Jan 14 10:02:51 2016
+Finished:      88 @ Thu Jan 14 10:02:51 2016
+Calculating Entropy         Thu Jan 14 10:02:51 2016
 Lines of data     : 88
 DB Entropy        : 1.1756882
 Number of Classes : 3
@@ -106,19 +109,19 @@ Feats	Vals	InfoGain	GainRatio
     7     17	0.60927542	0.16525080
     8     17	0.31055305	0.084251159
 
-Preparation took 0 seconds, 1 milliseconds and 869 microseconds
+Preparation took 0 seconds, 0 milliseconds and 599 microseconds
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 3, 2, 1, 4 >
 Phase 2: Building multi index on Datafile: tests/zestiende.train
-Start:          0 @ Mon Feb 16 11:34:05 2015
-Finished:      88 @ Mon Feb 16 11:34:05 2015
+Start:          0 @ Thu Jan 14 10:02:51 2016
+Finished:      88 @ Thu Jan 14 10:02:51 2016
 
 Phase 3: Learning from Datafile: tests/zestiende.train
-Start:          0 @ Mon Feb 16 11:34:05 2015
-Finished:      88 @ Mon Feb 16 11:34:05 2015
+Start:          0 @ Thu Jan 14 10:02:51 2016
+Finished:      88 @ Thu Jan 14 10:02:51 2016
 
 Size of InstanceBase = 660 Nodes, (26400 bytes), 16.67 % compression
-Learning took 0 seconds, 2 milliseconds and 843 microseconds
+Learning took 0 seconds, 0 milliseconds and 829 microseconds
 Examine datafile 'tests/one.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -139,10 +142,10 @@ Feature 6	 : 0.232025058388336
 Feature 7	 : 0.165250804887967
 Feature 8	 : 0.084251158864471
 
-Tested:      1 @ Mon Feb 16 11:34:05 2015
-Tested:      2 @ Mon Feb 16 11:34:05 2015
-Ready:       2 @ Mon Feb 16 11:34:05 2015
-Seconds taken: 0.0004 (5291.01 p/s)
+Tested:      1 @ Thu Jan 14 10:02:51 2016
+Tested:      2 @ Thu Jan 14 10:02:51 2016
+Ready:       2 @ Thu Jan 14 10:02:51 2016
+Seconds taken: 0.0001 (18867.92 p/s)
 
 overall accuracy:        1.000000  (2/2)
 There was 1 tie of which 1 (100.00%) was correctly resolved

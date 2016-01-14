@@ -1,17 +1,18 @@
-TiMBL 6.4.6 (c) ILK 1998 - 2015.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 16 12:00:48 2015
+Thu Jan 14 10:02:54 2016
 
 Examine datafile 'tests/dot_product.train' gave the following results:
 Number of Features: 4
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dot_product.train
-Start:          0 @ Mon Feb 16 12:00:48 2015
-Finished:       8 @ Mon Feb 16 12:00:48 2015
-Calculating Entropy         Mon Feb 16 12:00:48 2015
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:       8 @ Thu Jan 14 10:02:54 2016
+Calculating Entropy         Thu Jan 14 10:02:54 2016
 Lines of data     : 8
 DB Entropy        : 3.0000000
 Number of Classes : 8
@@ -22,19 +23,19 @@ Feats	Vals	InfoGain	GainRatio
     3      3	1.2987949	1.0000000
     4      2	0.81127812	1.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 392 microseconds
+Preparation took 0 seconds, 0 milliseconds and 91 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 4, 2, 3 >
 Phase 2: Building multi index on Datafile: tests/dot_product.train
-Start:          0 @ Mon Feb 16 12:00:48 2015
-Finished:       8 @ Mon Feb 16 12:00:48 2015
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:       8 @ Thu Jan 14 10:02:54 2016
 
 Phase 3: Learning from Datafile: tests/dot_product.train
-Start:          0 @ Mon Feb 16 12:00:48 2015
-Finished:       8 @ Mon Feb 16 12:00:48 2015
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:       8 @ Thu Jan 14 10:02:54 2016
 
 Size of InstanceBase = 27 Nodes, (1080 bytes), 32.50 % compression
-Learning took 0 seconds, 0 milliseconds and 408 microseconds
+Learning took 0 seconds, 0 milliseconds and 87 microseconds
 Examine datafile 'tests/dot_product.test' gave the following results:
 Number of Features: 4
 InputFormat       : C4.5
@@ -51,18 +52,18 @@ Feature 2	 : 1.000000000000000
 Feature 3	 : 1.000000000000000
 Feature 4	 : 1.000000000000000
 
-Tested:      1 @ Mon Feb 16 12:00:48 2015
-Tested:      2 @ Mon Feb 16 12:00:48 2015
-Tested:      3 @ Mon Feb 16 12:00:48 2015
-Tested:      4 @ Mon Feb 16 12:00:48 2015
-Tested:      5 @ Mon Feb 16 12:00:48 2015
-Tested:      6 @ Mon Feb 16 12:00:48 2015
-Tested:      7 @ Mon Feb 16 12:00:48 2015
-Tested:      8 @ Mon Feb 16 12:00:48 2015
-Tested:      9 @ Mon Feb 16 12:00:48 2015
-Tested:     10 @ Mon Feb 16 12:00:48 2015
-Ready:      12 @ Mon Feb 16 12:00:48 2015
-Seconds taken: 0.0008 (15267.18 p/s)
+Tested:      1 @ Thu Jan 14 10:02:54 2016
+Tested:      2 @ Thu Jan 14 10:02:54 2016
+Tested:      3 @ Thu Jan 14 10:02:54 2016
+Tested:      4 @ Thu Jan 14 10:02:54 2016
+Tested:      5 @ Thu Jan 14 10:02:54 2016
+Tested:      6 @ Thu Jan 14 10:02:54 2016
+Tested:      7 @ Thu Jan 14 10:02:54 2016
+Tested:      8 @ Thu Jan 14 10:02:54 2016
+Tested:      9 @ Thu Jan 14 10:02:54 2016
+Tested:     10 @ Thu Jan 14 10:02:54 2016
+Ready:      12 @ Thu Jan 14 10:02:54 2016
+Seconds taken: 0.0002 (76923.08 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
@@ -106,20 +107,21 @@ Confusion Matrix:
 1,1,1,1,pqrs,x { x 1.00000, z 1.00000 }        2.0000000000000
 0,1.1,100000,0,fout,raar { raar 1.00000 }        1.0000000000000
 0,1.1,2,0,raar,raar { raar 1.00000 }        0.0000000000000
-TiMBL 6.4.6 (c) ILK 1998 - 2015.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 16 12:00:48 2015
+Thu Jan 14 10:02:54 2016
 
 Examine datafile 'tests/dot_product.train' gave the following results:
 Number of Features: 4
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dot_product.train
-Start:          0 @ Mon Feb 16 12:00:48 2015
-Finished:       8 @ Mon Feb 16 12:00:48 2015
-Calculating Entropy         Mon Feb 16 12:00:48 2015
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:       8 @ Thu Jan 14 10:02:54 2016
+Calculating Entropy         Thu Jan 14 10:02:54 2016
 Lines of data     : 8
 DB Entropy        : 3.0000000
 Number of Classes : 8
@@ -130,19 +132,19 @@ Feats	Vals	InfoGain	GainRatio
     3      3	1.2987949	1.0000000 NUMERIC
     4      2	0.81127812	1.0000000 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 541 microseconds
+Preparation took 0 seconds, 0 milliseconds and 108 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 4, 2, 3 >
 Phase 2: Building multi index on Datafile: tests/dot_product.train
-Start:          0 @ Mon Feb 16 12:00:48 2015
-Finished:       8 @ Mon Feb 16 12:00:48 2015
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:       8 @ Thu Jan 14 10:02:54 2016
 
 Phase 3: Learning from Datafile: tests/dot_product.train
-Start:          0 @ Mon Feb 16 12:00:48 2015
-Finished:       8 @ Mon Feb 16 12:00:48 2015
+Start:          0 @ Thu Jan 14 10:02:54 2016
+Finished:       8 @ Thu Jan 14 10:02:54 2016
 
 Size of InstanceBase = 27 Nodes, (1080 bytes), 32.50 % compression
-Learning took 0 seconds, 0 milliseconds and 414 microseconds
+Learning took 0 seconds, 0 milliseconds and 84 microseconds
 Examine datafile 'tests/dot_product.test' gave the following results:
 Number of Features: 4
 InputFormat       : C4.5
@@ -159,18 +161,18 @@ Feature 2	 : 1.000000000000000
 Feature 3	 : 1.000000000000000
 Feature 4	 : 1.000000000000000
 
-Tested:      1 @ Mon Feb 16 12:00:48 2015
-Tested:      2 @ Mon Feb 16 12:00:48 2015
-Tested:      3 @ Mon Feb 16 12:00:48 2015
-Tested:      4 @ Mon Feb 16 12:00:48 2015
-Tested:      5 @ Mon Feb 16 12:00:48 2015
-Tested:      6 @ Mon Feb 16 12:00:48 2015
-Tested:      7 @ Mon Feb 16 12:00:48 2015
-Tested:      8 @ Mon Feb 16 12:00:48 2015
-Tested:      9 @ Mon Feb 16 12:00:48 2015
-Tested:     10 @ Mon Feb 16 12:00:48 2015
-Ready:      12 @ Mon Feb 16 12:00:48 2015
-Seconds taken: 0.0020 (5908.42 p/s)
+Tested:      1 @ Thu Jan 14 10:02:54 2016
+Tested:      2 @ Thu Jan 14 10:02:54 2016
+Tested:      3 @ Thu Jan 14 10:02:54 2016
+Tested:      4 @ Thu Jan 14 10:02:54 2016
+Tested:      5 @ Thu Jan 14 10:02:54 2016
+Tested:      6 @ Thu Jan 14 10:02:54 2016
+Tested:      7 @ Thu Jan 14 10:02:54 2016
+Tested:      8 @ Thu Jan 14 10:02:54 2016
+Tested:      9 @ Thu Jan 14 10:02:54 2016
+Tested:     10 @ Thu Jan 14 10:02:54 2016
+Ready:      12 @ Thu Jan 14 10:02:54 2016
+Seconds taken: 0.0005 (26258.21 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC

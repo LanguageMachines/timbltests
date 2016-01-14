@@ -1,15 +1,17 @@
-TiMBL 6.4.7 (c) ILK 1998 - 2015.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Nov 25 10:18:12 2015
+Thu Jan 14 09:43:16 2016
 
-TiMBL 6.4.7, compiled on Nov 25 2015, 09:52:49
-TiMBL 6.4.7 (c) ILK 1998 - 2015.
+TiMBL 6.4.7, compiled on Jan  5 2016, 11:08:28
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Nov 25 10:18:12 2015
+Thu Jan 14 09:43:16 2016
 
 usage: timbl -f data-file {-t test-file} [options]
 Algorithm and Metric options:

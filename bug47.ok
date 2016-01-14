@@ -1,17 +1,18 @@
-TiMBL 6.3.4 (c) ILK 1998 - 2011.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Mar 10 15:10:34 2011
+Thu Jan 14 09:19:52 2016
 
 Examine datafile 'tests/bug47.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug47.train
-Start:          0 @ Thu Mar 10 15:10:34 2011
-Finished:       2 @ Thu Mar 10 15:10:34 2011
-Calculating Entropy         Thu Mar 10 15:10:34 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:       2 @ Thu Jan 14 09:19:52 2016
+Calculating Entropy         Thu Jan 14 09:19:52 2016
 Lines of data     : 2
 DB Entropy        : 1.0000000
 Number of Classes : 2
@@ -21,19 +22,19 @@ Feats	Vals	InfoGain	GainRatio
     2      2	1.0000000	1.0000000 NUMERIC
     3      2	1.0000000	1.0000000 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 246 microseconds
+Preparation took 0 seconds, 0 milliseconds and 96 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 3 >
 Phase 2: Building multi index on Datafile: tests/bug47.train
-Start:          0 @ Thu Mar 10 15:10:34 2011
-Finished:       2 @ Thu Mar 10 15:10:34 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:       2 @ Thu Jan 14 09:19:52 2016
 
 Phase 3: Learning from Datafile: tests/bug47.train
-Start:          0 @ Thu Mar 10 15:10:34 2011
-Finished:       2 @ Thu Mar 10 15:10:34 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:       2 @ Thu Jan 14 09:19:52 2016
 
 Size of InstanceBase = 8 Nodes, (320 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 168 microseconds
+Learning took 0 seconds, 0 milliseconds and 92 microseconds
 Examine datafile 'tests/bug47.test' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5

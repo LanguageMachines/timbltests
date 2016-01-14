@@ -1,17 +1,18 @@
-TiMBL 6.3.3 (c) ILK 1998 - 2010.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan 24 12:15:20 2011
+Thu Jan 14 09:08:55 2016
 
 Examine datafile 'tests/bug29.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug29.train
-Start:          0 @ Mon Jan 24 12:15:20 2011
-Finished:       8 @ Mon Jan 24 12:15:20 2011
-Calculating Entropy         Mon Jan 24 12:15:20 2011
+Start:          0 @ Thu Jan 14 09:08:55 2016
+Finished:       8 @ Thu Jan 14 09:08:55 2016
+Calculating Entropy         Thu Jan 14 09:08:55 2016
 Lines of data     : 8
 DB Entropy        : 1.0000000
 Number of Classes : 2
@@ -20,19 +21,19 @@ Feats	Vals	InfoGain	GainRatio
     1      4	0.50000000	0.25000000
     2      6	0.50000000	0.20000000
 
-Preparation took 0 seconds, 0 milliseconds and 213 microseconds
+Preparation took 0 seconds, 0 milliseconds and 77 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2 >
 Phase 2: Building multi index on Datafile: tests/bug29.train
-Start:          0 @ Mon Jan 24 12:15:20 2011
-Finished:       8 @ Mon Jan 24 12:15:20 2011
+Start:          0 @ Thu Jan 14 09:08:55 2016
+Finished:       8 @ Thu Jan 14 09:08:55 2016
 
 Phase 3: Learning from Datafile: tests/bug29.train
-Start:          0 @ Mon Jan 24 12:15:20 2011
-Finished:       8 @ Mon Jan 24 12:15:20 2011
+Start:          0 @ Thu Jan 14 09:08:55 2016
+Finished:       8 @ Thu Jan 14 09:08:55 2016
 
 Size of InstanceBase = 20 Nodes, (800 bytes), 16.67 % compression
-Learning took 0 seconds, 0 milliseconds and 234 microseconds
+Learning took 0 seconds, 0 milliseconds and 80 microseconds
 Examine datafile 'tests/bug29.test' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
@@ -51,12 +52,12 @@ Weighting     : GainRatio
 Feature 1	 : 0.250000000000000
 Feature 2	 : 0.200000000000000
 
-Tested:      1 @ Mon Jan 24 12:15:20 2011
-Tested:      2 @ Mon Jan 24 12:15:20 2011
-Tested:      3 @ Mon Jan 24 12:15:20 2011
-Tested:      4 @ Mon Jan 24 12:15:20 2011
-Ready:       4 @ Mon Jan 24 12:15:20 2011
-Seconds taken: 0.0006 (7272.73 p/s)
+Tested:      1 @ Thu Jan 14 09:08:55 2016
+Tested:      2 @ Thu Jan 14 09:08:55 2016
+Tested:      3 @ Thu Jan 14 09:08:55 2016
+Tested:      4 @ Thu Jan 14 09:08:55 2016
+Ready:       4 @ Thu Jan 14 09:08:55 2016
+Seconds taken: 0.0003 (13745.70 p/s)
 
 overall accuracy:        1.000000  (4/4), of which 3 exact matches 
 There were 4 ties of which 4 (100.00%) were correctly resolved

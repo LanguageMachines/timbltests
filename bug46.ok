@@ -1,17 +1,18 @@
-TiMBL 6.3.2 (c) ILK 1998 - 2010.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan  3 16:47:56 2011
+Thu Jan 14 09:19:52 2016
 
 Examine datafile 'tests/bug46.train' gave the following results:
 Number of Features: 3
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: tests/bug46.train
-Start:          0 @ Mon Jan  3 16:47:56 2011
-Finished:     203 @ Mon Jan  3 16:47:56 2011
-Calculating Entropy         Mon Jan  3 16:47:56 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:     203 @ Thu Jan 14 09:19:52 2016
+Calculating Entropy         Thu Jan 14 09:19:52 2016
 Lines of data     : 203
 DB Entropy        : 5.7023543
 Number of Classes : 79
@@ -21,19 +22,19 @@ Feats	Vals	InfoGain	GainRatio
     2     79	4.9465861	0.87661302
     3     66	4.0057091	0.76866671
 
-Preparation took 0 seconds, 0 milliseconds and 997 microseconds
+Preparation took 0 seconds, 0 milliseconds and 831 microseconds
 Feature Permutation based on GainRatio/Values :
 < 3, 2, 1 >
 Phase 2: Building multi index on Datafile: tests/bug46.train
-Start:          0 @ Mon Jan  3 16:47:56 2011
-Finished:     203 @ Mon Jan  3 16:47:56 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:     203 @ Thu Jan 14 09:19:52 2016
 
 Phase 3: Learning from Datafile: tests/bug46.train
-Start:          0 @ Mon Jan  3 16:47:56 2011
-Finished:     203 @ Mon Jan  3 16:47:56 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:     203 @ Thu Jan 14 09:19:52 2016
 
 Size of InstanceBase = 569 Nodes, (22760 bytes), 20.53 % compression
-Learning took 0 seconds, 2 milliseconds and 100 microseconds
+Learning took 0 seconds, 1 milliseconds and 459 microseconds
 Examine datafile 'tests/bug46.test' gave the following results:
 Number of Features: 3
 InputFormat       : Columns
@@ -49,10 +50,10 @@ Feature 1	 : 0.720553704711043
 Feature 2	 : 0.876613024356217
 Feature 3	 : 0.768666710473351
 
-Tested:      1 @ Mon Jan  3 16:47:56 2011
-Tested:      2 @ Mon Jan  3 16:47:56 2011
-Ready:       2 @ Mon Jan  3 16:47:56 2011
-Seconds taken: 0.0002 (8888.89 p/s)
+Tested:      1 @ Thu Jan 14 09:19:52 2016
+Tested:      2 @ Thu Jan 14 09:19:52 2016
+Ready:       2 @ Thu Jan 14 09:19:52 2016
+Seconds taken: 0.0001 (17241.38 p/s)
 
 overall accuracy:        0.000000  (0/2), of which 1 exact matches 
 There was 1 tie of which 0 (0.00%) was correctly resolved
@@ -65,20 +66,21 @@ een schutter . ? shooter { shot 1.00000, shooter 1.00000 }        0.720553704711
 schutter . __ ? . { . 1.00000 }        0.0000000000000
 # k=1, 1 Neighbor(s) at distance: 	0.0000000000000
 #	schutter . __ { . 1.00000 }
-TiMBL 6.3.2 (c) ILK 1998 - 2010.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan  3 16:47:56 2011
+Thu Jan 14 09:19:52 2016
 
 Examine datafile 'tests/bug46.train' gave the following results:
 Number of Features: 3
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: tests/bug46.train
-Start:          0 @ Mon Jan  3 16:47:56 2011
-Finished:     203 @ Mon Jan  3 16:47:56 2011
-Calculating Entropy         Mon Jan  3 16:47:56 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:     203 @ Thu Jan 14 09:19:52 2016
+Calculating Entropy         Thu Jan 14 09:19:52 2016
 Lines of data     : 203
 DB Entropy        : 5.7023543
 Number of Classes : 79
@@ -88,19 +90,19 @@ Feats	Vals	InfoGain	GainRatio
     2     79	4.9465861	0.87661302
     3     66	4.0057091	0.76866671
 
-Preparation took 0 seconds, 0 milliseconds and 979 microseconds
+Preparation took 0 seconds, 0 milliseconds and 638 microseconds
 Feature Permutation based on GainRatio :
 < 2, 3, 1 >
 Phase 2: Building multi index on Datafile: tests/bug46.train
-Start:          0 @ Mon Jan  3 16:47:56 2011
-Finished:     203 @ Mon Jan  3 16:47:56 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:     203 @ Thu Jan 14 09:19:52 2016
 
 Phase 3: Learning from Datafile: tests/bug46.train
-Start:          0 @ Mon Jan  3 16:47:56 2011
-Finished:     203 @ Mon Jan  3 16:47:56 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:     203 @ Thu Jan 14 09:19:52 2016
 
 Size of InstanceBase = 582 Nodes, (23280 bytes), 18.72 % compression
-Learning took 0 seconds, 2 milliseconds and 121 microseconds
+Learning took 0 seconds, 1 milliseconds and 177 microseconds
 Examine datafile 'tests/bug46.test' gave the following results:
 Number of Features: 3
 InputFormat       : Columns
@@ -116,10 +118,10 @@ Feature 1	 : 0.720553704711043
 Feature 2	 : 0.876613024356217
 Feature 3	 : 0.768666710473351
 
-Tested:      1 @ Mon Jan  3 16:47:56 2011
-Tested:      2 @ Mon Jan  3 16:47:56 2011
-Ready:       2 @ Mon Jan  3 16:47:56 2011
-Seconds taken: 0.0003 (6211.18 p/s)
+Tested:      1 @ Thu Jan 14 09:19:52 2016
+Tested:      2 @ Thu Jan 14 09:19:52 2016
+Ready:       2 @ Thu Jan 14 09:19:52 2016
+Seconds taken: 0.0001 (14925.37 p/s)
 
 overall accuracy:        0.000000  (0/2), of which 1 exact matches 
 There was 1 tie of which 0 (0.00%) was correctly resolved
@@ -140,20 +142,21 @@ een schutter . ? shooter { shot 2.00000, sniper 3.00000, shooter 4.00000, mob 1.
 schutter . __ ? . { . 1.00000 }        0.0000000000000
 # k=1, 1 Neighbor(s) at distance: 	0.0000000000000
 #	schutter . __ { . 1.00000 }
-TiMBL 6.3.2 (c) ILK 1998 - 2010.
+TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jan  3 16:47:56 2011
+Thu Jan 14 09:19:52 2016
 
 Examine datafile 'tests/bug46.train' gave the following results:
 Number of Features: 3
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: tests/bug46.train
-Start:          0 @ Mon Jan  3 16:47:56 2011
-Finished:     203 @ Mon Jan  3 16:47:56 2011
-Calculating Entropy         Mon Jan  3 16:47:56 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:     203 @ Thu Jan 14 09:19:52 2016
+Calculating Entropy         Thu Jan 14 09:19:52 2016
 Lines of data     : 203
 DB Entropy        : 5.7023543
 Number of Classes : 79
@@ -163,19 +166,19 @@ Feats	Vals	InfoGain	GainRatio
     2     79	4.9465861	0.87661302
     3     66	4.0057091	0.76866671
 
-Preparation took 0 seconds, 0 milliseconds and 974 microseconds
+Preparation took 0 seconds, 0 milliseconds and 637 microseconds
 Feature Permutation based on GainRatio :
 < 2, 3, 1 >
 Phase 2: Building multi index on Datafile: tests/bug46.train
-Start:          0 @ Mon Jan  3 16:47:56 2011
-Finished:     203 @ Mon Jan  3 16:47:56 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:     203 @ Thu Jan 14 09:19:52 2016
 
 Phase 3: Learning from Datafile: tests/bug46.train
-Start:          0 @ Mon Jan  3 16:47:56 2011
-Finished:     203 @ Mon Jan  3 16:47:56 2011
+Start:          0 @ Thu Jan 14 09:19:52 2016
+Finished:     203 @ Thu Jan 14 09:19:52 2016
 
 Size of InstanceBase = 582 Nodes, (23280 bytes), 18.72 % compression
-Learning took 0 seconds, 2 milliseconds and 86 microseconds
+Learning took 0 seconds, 1 milliseconds and 227 microseconds
 Examine datafile 'tests/bug46.test' gave the following results:
 Number of Features: 3
 InputFormat       : Columns
@@ -191,10 +194,10 @@ Feature 1	 : 0.720553704711043
 Feature 2	 : 0.876613024356217
 Feature 3	 : 0.768666710473351
 
-Tested:      1 @ Mon Jan  3 16:47:56 2011
-Tested:      2 @ Mon Jan  3 16:47:56 2011
-Ready:       2 @ Mon Jan  3 16:47:56 2011
-Seconds taken: 0.0004 (4854.37 p/s)
+Tested:      1 @ Thu Jan 14 09:19:52 2016
+Tested:      2 @ Thu Jan 14 09:19:52 2016
+Ready:       2 @ Thu Jan 14 09:19:52 2016
+Seconds taken: 0.0001 (14925.37 p/s)
 
 overall accuracy:        0.000000  (0/2), of which 1 exact matches 
 There was 1 tie of which 0 (0.00%) was correctly resolved

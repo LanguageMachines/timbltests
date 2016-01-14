@@ -5,19 +5,19 @@ cat < test.out1
 cat < sparse.tree
 
 $comm -t ./tests/sparse_string.test -F Sparse -N10 +vDB+DI -i sparse.tree -o test.out2
-cat < test.out2 
+cat < test.out2
 
-$comm -f ./tests/sparse_string_num.train -t ./tests/sparse_string_num.test -F Sparse -N9 +vDB+DI -mD:O3 
-$comm -f ./tests/sparse_string_num.train -t ./tests/sparse_string_num.test -F Sparse -N9 +vDB+DI -mC:O3 
+$comm -f ./tests/sparse_string_num.train -t ./tests/sparse_string_num.test -F Sparse -N9 +vDB+DI -mD:O3
+$comm -f ./tests/sparse_string_num.train -t ./tests/sparse_string_num.test -F Sparse -N9 +vDB+DI -mC:O3
 
-$comm -f ./tests/sparse_string_num.train -t ./tests/sparse_string_num.test -F Sparse -N9 +vDB+DI -mD:I3 -o test.out3 
-cat < test.out3 
-$comm -f ./tests/sparse_string_num.train -t ./tests/sparse_string_num.test -F Sparse -N9 +vDB+DI -mC:I3 -o test.out4 
-cat < test.out4 
+$comm -f ./tests/sparse_string_num.train -t ./tests/sparse_string_num.test -F Sparse -N9 +vDB+DI -mD:I3 -o test.out3
+cat < test.out3
+$comm -f ./tests/sparse_string_num.train -t ./tests/sparse_string_num.test -F Sparse -N9 +vDB+DI -mC:I3 -o test.out4
+cat < test.out4
 
 $comm -f ./tests/sparse_string_num.train -t ./tests/sparse_string_num.test -F Sparse -N9 +vDB+DI -mN -o test.out5
-cat < test.out5 
+cat < test.out5
 $comm -f ./tests/sparse_string_num.train -t ./tests/sparse_string_num.test -F Sparse -N9 +vDB+DI -mD -o test.out6
-cat < test.out6 
+cat < test.out6
 $comm -f ./tests/sparse_string_num.train -t ./tests/sparse_string_num.test -F Sparse -N9 +vDB+DI -mC -o test.out7
-cat < test.out7 
+cat < test.out7
