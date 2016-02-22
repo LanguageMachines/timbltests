@@ -1,17 +1,17 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.8 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:43:16 2016
+Mon Feb 22 12:13:16 2016
 
-TiMBL 6.4.7, compiled on Jan  5 2016, 11:08:28
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.8, compiled on Feb 22 2016, 11:30:38
+TiMBL 6.4.8 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:43:16 2016
+Mon Feb 22 12:13:16 2016
 
 usage: timbl -f data-file {-t test-file} [options]
 Algorithm and Metric options:
@@ -120,7 +120,7 @@ Output options:
 -o s      : use s as output filename
 -O d      : save output using path 'd'
 Internal representation options:
--B n      : number of bins used for discretization of numeric feature values
+-B n      : number of bins used for discretization of numeric feature values (default B=20)
 -c n      : clipping frequency for prestoring MVDM matrices
 +D        : store distributions on all nodes
             (necessary for using +v db with IGTree, but wastes memory otherwise)
