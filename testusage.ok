@@ -3,15 +3,15 @@ Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 22 12:13:16 2016
+Mon Jun 20 11:44:26 2016
 
-TiMBL 6.4.8, compiled on Feb 22 2016, 11:30:38
+TiMBL 6.4.8, compiled on Jun 13 2016, 11:16:49
 TiMBL 6.4.8 (c) CLST/ILK/CLIPS 1998 - 2016.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Feb 22 12:13:16 2016
+Mon Jun 20 11:44:26 2016
 
 usage: timbl -f data-file {-t test-file} [options]
 Algorithm and Metric options:
@@ -88,8 +88,8 @@ Output options:
 -n f      : create names file 'f'
 -p n      : show progress every n lines (default p = 100,000)
 -U f      : save value_class probabilities in file 'f'
--V        : Show VERSION
-+v or -v level : set or unset verbosity level, where level is
+-V or --version : Show VERSION
++v or -v level  : set or unset verbosity level, where level is
       s:  work silently
       o:  show all options set
       b:  show node/branch count and branching factor
