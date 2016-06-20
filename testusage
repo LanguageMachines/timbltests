@@ -4,4 +4,6 @@
 #
 
 $comm -V
+$comm --version
 $comm -h
+$comm --help
