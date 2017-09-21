@@ -3,7 +3,7 @@
 # defaults:
 #
 
-echo Testing Servers 
+echo Testing Servers
 exec="$VG $timbl_bin/timblserver"
 client="$VG $timbl_bin/timblclient"
 
@@ -37,4 +37,3 @@ cat /tmp/http4.out
 
 kill `cat /tmp/run/pid7`
 cat /tmp/server7.log
-

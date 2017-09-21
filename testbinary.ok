@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:58 2016
+Thu Sep 21 14:59:04 2017
 
 Examine datafile './tests/bin.train' gave the following results:
 Number of Features: 10
 InputFormat       : Sparse Binary
 
 Phase 1: Reading Datafile: ./tests/bin.train
-Start:          0 @ Thu Jan 14 09:19:58 2016
-Finished:      11 @ Thu Jan 14 09:19:58 2016
-Calculating Entropy         Thu Jan 14 09:19:58 2016
+Start:          0 @ Thu Sep 21 14:59:04 2017
+Finished:      11 @ Thu Sep 21 14:59:04 2017
+Calculating Entropy         Thu Sep 21 14:59:04 2017
 Lines of data     : 11
 DB Entropy        : 1.8676339
 Number of Classes : 4
@@ -29,19 +29,19 @@ Feats	Vals	InfoGain	GainRatio
     9      2	0.18905267	0.43015692
    10      2	0.14448676	0.32875484
 
-Preparation took 0 seconds, 0 milliseconds and 101 microseconds
+Preparation took 0 seconds, 0 milliseconds and 145 microseconds
 Feature Permutation based on GainRatio/Values :
 < 3, 7, 2, 4, 6, 9, 1, 8, 10, 5 >
 Phase 2: Building multi index on Datafile: ./tests/bin.train
-Start:          0 @ Thu Jan 14 09:19:58 2016
-Finished:      11 @ Thu Jan 14 09:19:58 2016
+Start:          0 @ Thu Sep 21 14:59:04 2017
+Finished:      11 @ Thu Sep 21 14:59:04 2017
 
 Phase 3: Learning from Datafile: ./tests/bin.train
-Start:          0 @ Thu Jan 14 09:19:58 2016
-Finished:      11 @ Thu Jan 14 09:19:58 2016
+Start:          0 @ Thu Sep 21 14:59:04 2017
+Finished:      11 @ Thu Sep 21 14:59:04 2017
 
 Size of InstanceBase = 80 Nodes, (3200 bytes), 27.27 % compression
-Learning took 0 seconds, 0 milliseconds and 87 microseconds
+Learning took 0 seconds, 0 milliseconds and 98 microseconds
 Examine datafile './tests/bin.test' gave the following results:
 Number of Features: 10
 InputFormat       : Sparse Binary
@@ -66,29 +66,29 @@ Feature 10	 : 0.328754835971759
 
 Warning: testfile, skipped line #1
 1,7,,aap
-Tested:      1 @ Thu Jan 14 09:19:58 2016
-Tested:      2 @ Thu Jan 14 09:19:58 2016
-Ready:       2 @ Thu Jan 14 09:19:58 2016
-Seconds taken: 0.0001 (21052.63 p/s)
+Tested:      1 @ Thu Sep 21 14:59:04 2017
+Tested:      2 @ Thu Sep 21 14:59:04 2017
+Ready:       2 @ Thu Sep 21 14:59:04 2017
+Seconds taken: 0.0001 (23529.41 p/s)
 
-overall accuracy:        1.000000  (2/2)
-3,9,noot,noot { noot 1.00000 }        0.43015691613098
+overall accuracy:        0.500000  (1/2)
+3,9,?,noot { noot 1.00000 }        0.43015691613098
 5,6,mies,mies { mies 1.00000 }        0.27357898901917
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:58 2016
+Thu Sep 21 14:59:04 2017
 
 Examine datafile './tests/bin.train' gave the following results:
 Number of Features: 10
 InputFormat       : Sparse Binary
 
 Phase 1: Reading Datafile: ./tests/bin.train
-Start:          0 @ Thu Jan 14 09:19:58 2016
-Finished:      11 @ Thu Jan 14 09:19:58 2016
-Calculating Entropy         Thu Jan 14 09:19:58 2016
+Start:          0 @ Thu Sep 21 14:59:04 2017
+Finished:      11 @ Thu Sep 21 14:59:04 2017
+Calculating Entropy         Thu Sep 21 14:59:04 2017
 Lines of data     : 11
 DB Entropy        : 1.8676339
 Number of Classes : 4
@@ -105,19 +105,19 @@ Feats	Vals	InfoGain	GainRatio
     9      2	0.18905267	0.43015692
    10      2	0.14448676	0.32875484
 
-Preparation took 0 seconds, 0 milliseconds and 89 microseconds
+Preparation took 0 seconds, 0 milliseconds and 133 microseconds
 Feature Permutation based on GainRatio/Values :
 < 3, 7, 2, 4, 6, 9, 1, 8, 10, 5 >
 Phase 2: Building multi index on Datafile: ./tests/bin.train
-Start:          0 @ Thu Jan 14 09:19:58 2016
-Finished:      11 @ Thu Jan 14 09:19:58 2016
+Start:          0 @ Thu Sep 21 14:59:04 2017
+Finished:      11 @ Thu Sep 21 14:59:04 2017
 
 Phase 3: Learning from Datafile: ./tests/bin.train
-Start:          0 @ Thu Jan 14 09:19:58 2016
-Finished:      11 @ Thu Jan 14 09:19:58 2016
+Start:          0 @ Thu Sep 21 14:59:04 2017
+Finished:      11 @ Thu Sep 21 14:59:04 2017
 
 Size of InstanceBase = 80 Nodes, (3200 bytes), 27.27 % compression
-Learning took 0 seconds, 0 milliseconds and 81 microseconds
+Learning took 0 seconds, 0 milliseconds and 111 microseconds
 Examine datafile './tests/bin.test' gave the following results:
 Number of Features: 10
 InputFormat       : Sparse Binary
@@ -142,11 +142,11 @@ Feature 10	 : 0.328754835971759
 
 Warning: testfile, skipped line #1
 1,7,,aap
-Tested:      1 @ Thu Jan 14 09:19:58 2016
-Tested:      2 @ Thu Jan 14 09:19:58 2016
-Ready:       2 @ Thu Jan 14 09:19:58 2016
-Seconds taken: 0.0001 (25316.46 p/s)
+Tested:      1 @ Thu Sep 21 14:59:04 2017
+Tested:      2 @ Thu Sep 21 14:59:04 2017
+Ready:       2 @ Thu Sep 21 14:59:04 2017
+Seconds taken: 0.0001 (25974.03 p/s)
 
-overall accuracy:        1.000000  (2/2)
-3,9,noot,noot { noot 1.00000 }        0.43015691613098
+overall accuracy:        0.500000  (1/2)
+3,9,?,noot { noot 1.00000 }        0.43015691613098
 5,6,mies,mies { mies 1.00000 }        0.27357898901917
