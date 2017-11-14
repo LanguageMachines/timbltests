@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2017.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 10:02:54 2016
+Tue Nov 14 13:03:37 2017
 
 Examine datafile 'tests/dot_product.train' gave the following results:
 Number of Features: 4
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dot_product.train
-Start:          0 @ Thu Jan 14 10:02:54 2016
-Finished:       8 @ Thu Jan 14 10:02:54 2016
-Calculating Entropy         Thu Jan 14 10:02:54 2016
+Start:          0 @ Tue Nov 14 13:03:37 2017
+Finished:       8 @ Tue Nov 14 13:03:37 2017
+Calculating Entropy         Tue Nov 14 13:03:37 2017
 Lines of data     : 8
 DB Entropy        : 3.0000000
 Number of Classes : 8
@@ -23,19 +23,19 @@ Feats	Vals	InfoGain	GainRatio
     3      3	1.2987949	1.0000000
     4      2	0.81127812	1.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 91 microseconds
+Preparation took 0 seconds, 0 milliseconds and 77 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 4, 2, 3 >
 Phase 2: Building multi index on Datafile: tests/dot_product.train
-Start:          0 @ Thu Jan 14 10:02:54 2016
-Finished:       8 @ Thu Jan 14 10:02:54 2016
+Start:          0 @ Tue Nov 14 13:03:37 2017
+Finished:       8 @ Tue Nov 14 13:03:37 2017
 
 Phase 3: Learning from Datafile: tests/dot_product.train
-Start:          0 @ Thu Jan 14 10:02:54 2016
-Finished:       8 @ Thu Jan 14 10:02:54 2016
+Start:          0 @ Tue Nov 14 13:03:37 2017
+Finished:       8 @ Tue Nov 14 13:03:37 2017
 
 Size of InstanceBase = 27 Nodes, (1080 bytes), 32.50 % compression
-Learning took 0 seconds, 0 milliseconds and 87 microseconds
+Learning took 0 seconds, 0 milliseconds and 136 microseconds
 Examine datafile 'tests/dot_product.test' gave the following results:
 Number of Features: 4
 InputFormat       : C4.5
@@ -52,18 +52,18 @@ Feature 2	 : 1.000000000000000
 Feature 3	 : 1.000000000000000
 Feature 4	 : 1.000000000000000
 
-Tested:      1 @ Thu Jan 14 10:02:54 2016
-Tested:      2 @ Thu Jan 14 10:02:54 2016
-Tested:      3 @ Thu Jan 14 10:02:54 2016
-Tested:      4 @ Thu Jan 14 10:02:54 2016
-Tested:      5 @ Thu Jan 14 10:02:54 2016
-Tested:      6 @ Thu Jan 14 10:02:54 2016
-Tested:      7 @ Thu Jan 14 10:02:54 2016
-Tested:      8 @ Thu Jan 14 10:02:54 2016
-Tested:      9 @ Thu Jan 14 10:02:54 2016
-Tested:     10 @ Thu Jan 14 10:02:54 2016
-Ready:      12 @ Thu Jan 14 10:02:54 2016
-Seconds taken: 0.0002 (76923.08 p/s)
+Tested:      1 @ Tue Nov 14 13:03:37 2017
+Tested:      2 @ Tue Nov 14 13:03:37 2017
+Tested:      3 @ Tue Nov 14 13:03:37 2017
+Tested:      4 @ Tue Nov 14 13:03:37 2017
+Tested:      5 @ Tue Nov 14 13:03:37 2017
+Tested:      6 @ Tue Nov 14 13:03:37 2017
+Tested:      7 @ Tue Nov 14 13:03:37 2017
+Tested:      8 @ Tue Nov 14 13:03:37 2017
+Tested:      9 @ Tue Nov 14 13:03:37 2017
+Tested:     10 @ Tue Nov 14 13:03:37 2017
+Ready:      12 @ Tue Nov 14 13:03:37 2017
+Seconds taken: 0.0002 (57971.01 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
@@ -107,21 +107,21 @@ Confusion Matrix:
 1,1,1,1,pqrs,x { x 1.00000, z 1.00000 }        2.0000000000000
 0,1.1,100000,0,fout,raar { raar 1.00000 }        1.0000000000000
 0,1.1,2,0,raar,raar { raar 1.00000 }        0.0000000000000
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2017.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 10:02:54 2016
+Tue Nov 14 13:03:37 2017
 
 Examine datafile 'tests/dot_product.train' gave the following results:
 Number of Features: 4
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dot_product.train
-Start:          0 @ Thu Jan 14 10:02:54 2016
-Finished:       8 @ Thu Jan 14 10:02:54 2016
-Calculating Entropy         Thu Jan 14 10:02:54 2016
+Start:          0 @ Tue Nov 14 13:03:37 2017
+Finished:       8 @ Tue Nov 14 13:03:37 2017
+Calculating Entropy         Tue Nov 14 13:03:37 2017
 Lines of data     : 8
 DB Entropy        : 3.0000000
 Number of Classes : 8
@@ -132,19 +132,19 @@ Feats	Vals	InfoGain	GainRatio
     3      3	1.2987949	1.0000000 NUMERIC
     4      2	0.81127812	1.0000000 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 108 microseconds
+Preparation took 0 seconds, 0 milliseconds and 124 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 4, 2, 3 >
 Phase 2: Building multi index on Datafile: tests/dot_product.train
-Start:          0 @ Thu Jan 14 10:02:54 2016
-Finished:       8 @ Thu Jan 14 10:02:54 2016
+Start:          0 @ Tue Nov 14 13:03:37 2017
+Finished:       8 @ Tue Nov 14 13:03:37 2017
 
 Phase 3: Learning from Datafile: tests/dot_product.train
-Start:          0 @ Thu Jan 14 10:02:54 2016
-Finished:       8 @ Thu Jan 14 10:02:54 2016
+Start:          0 @ Tue Nov 14 13:03:37 2017
+Finished:       8 @ Tue Nov 14 13:03:37 2017
 
 Size of InstanceBase = 27 Nodes, (1080 bytes), 32.50 % compression
-Learning took 0 seconds, 0 milliseconds and 84 microseconds
+Learning took 0 seconds, 0 milliseconds and 82 microseconds
 Examine datafile 'tests/dot_product.test' gave the following results:
 Number of Features: 4
 InputFormat       : C4.5
@@ -161,18 +161,18 @@ Feature 2	 : 1.000000000000000
 Feature 3	 : 1.000000000000000
 Feature 4	 : 1.000000000000000
 
-Tested:      1 @ Thu Jan 14 10:02:54 2016
-Tested:      2 @ Thu Jan 14 10:02:54 2016
-Tested:      3 @ Thu Jan 14 10:02:54 2016
-Tested:      4 @ Thu Jan 14 10:02:54 2016
-Tested:      5 @ Thu Jan 14 10:02:54 2016
-Tested:      6 @ Thu Jan 14 10:02:54 2016
-Tested:      7 @ Thu Jan 14 10:02:54 2016
-Tested:      8 @ Thu Jan 14 10:02:54 2016
-Tested:      9 @ Thu Jan 14 10:02:54 2016
-Tested:     10 @ Thu Jan 14 10:02:54 2016
-Ready:      12 @ Thu Jan 14 10:02:54 2016
-Seconds taken: 0.0005 (26258.21 p/s)
+Tested:      1 @ Tue Nov 14 13:03:37 2017
+Tested:      2 @ Tue Nov 14 13:03:37 2017
+Tested:      3 @ Tue Nov 14 13:03:37 2017
+Tested:      4 @ Tue Nov 14 13:03:37 2017
+Tested:      5 @ Tue Nov 14 13:03:37 2017
+Tested:      6 @ Tue Nov 14 13:03:37 2017
+Tested:      7 @ Tue Nov 14 13:03:37 2017
+Tested:      8 @ Tue Nov 14 13:03:37 2017
+Tested:      9 @ Tue Nov 14 13:03:37 2017
+Tested:     10 @ Tue Nov 14 13:03:37 2017
+Ready:      12 @ Tue Nov 14 13:03:37 2017
+Seconds taken: 0.0006 (21621.62 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
@@ -204,15 +204,15 @@ Confusion Matrix:
   raar |      0      0      0      0      0      0      0      1 
    -*- |      0      0      0      0      0      0      0      4 
 
-1,0,0,0,p,p { p 1.00000, x 1.00000 }        1.0000000000000
-0,1,0,0,q,raar { raar 1.00000 }        1.0999999046326
-0,0,1,0,r,raar { raar 1.00000 }        2.0000000000000
-0,0,0,1,s,s { s 1.00000, z 1.00000 }        1.0000000000000
-0,0,0,0,null,p { p 1.00000, q 1.00000, r 1.00000, s 1.00000, null 1.00000, x 1.00000, z 1.00000, raar 1.00000 }        0.0000000000000
-1,1,0,0,x,x { x 1.00000 }        2.0000000000000
-0,0,1,1,z,z { z 1.00000, raar 1.00000 }        2.0000000000000
-1,1,1,0,pqr,raar { raar 1.00000 }        3.0999999046326
-1,0,1,0,pr,raar { raar 1.00000 }        2.0000000000000
-1,1,1,1,pqrs,raar { raar 1.00000 }        3.0999999046326
-0,1.1,100000,0,fout,raar { raar 1.00000 }        200001.21000004
-0,1.1,2,0,raar,raar { raar 1.00000 }        5.2100000381470
+1,0,0,0,p,p { p 1.00000, x 1.00000 }        0.99999999953434
+0,1,0,0,q,raar { raar 1.00000 }        0.99999999948777
+0,0,1,0,r,raar { raar 1.00000 }        0.99999999906868
+0,0,0,1,s,s { s 1.00000, z 1.00000 }        0.99999999953434
+0,0,0,0,null,p { p 1.00000, q 1.00000, r 1.00000, s 1.00000, null 1.00000, x 1.00000, z 1.00000, raar 1.00000 }        1.0000000000000
+1,1,0,0,x,x { x 1.00000 }        0.99999999906868
+0,0,1,1,z,z { z 1.00000, raar 1.00000 }        0.99999999906868
+1,1,1,0,pqr,raar { raar 1.00000 }        0.99999999855645
+1,0,1,0,pr,raar { raar 1.00000 }        0.99999999906868
+1,1,1,1,pqrs,raar { raar 1.00000 }        0.99999999855645
+0,1.1,100000,0,fout,raar { raar 1.00000 }        0.99990686717904
+0,1.1,2,0,raar,raar { raar 1.00000 }        0.99999999757390
