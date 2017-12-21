@@ -3,16 +3,16 @@ Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Nov 14 13:03:39 2017
+Thu Dec 21 17:40:53 2017
 
 Examine datafile './tests/data.expand' gave the following results:
 Number of Features: 12
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/data.expand
-Start:          0 @ Tue Nov 14 13:03:39 2017
-Finished:       9 @ Tue Nov 14 13:03:39 2017
-Calculating Entropy         Tue Nov 14 13:03:39 2017
+Start:          0 @ Thu Dec 21 17:40:53 2017
+Finished:       9 @ Thu Dec 21 17:40:53 2017
+Calculating Entropy         Thu Dec 21 17:40:53 2017
 Lines of data     : 9
 Warning: The following feature(s) have only 1 value: 1-2, 6
 DB Entropy        : 0.91829583
@@ -32,19 +32,19 @@ Feats	Vals	InfoGain	GainRatio
    11      3	0.30609861	0.19312672 NUMERIC
    12      2	0.17884894	0.19476179 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 190 microseconds
+Preparation took 0 seconds, 0 milliseconds and 181 microseconds
 Feature Permutation based on GainRatio/Values :
 < 8, 4, 5, 10, 12, 7, 3, 11, 1, 2, 6, 9 >
 Phase 2: Building multi index on Datafile: ./tests/data.expand
-Start:          0 @ Tue Nov 14 13:03:39 2017
-Finished:       9 @ Tue Nov 14 13:03:39 2017
+Start:          0 @ Thu Dec 21 17:40:53 2017
+Finished:       9 @ Thu Dec 21 17:40:53 2017
 
 Phase 3: Learning from Datafile: ./tests/data.expand
-Start:          0 @ Tue Nov 14 13:03:39 2017
-Finished:       9 @ Tue Nov 14 13:03:39 2017
+Start:          0 @ Thu Dec 21 17:40:53 2017
+Finished:       9 @ Thu Dec 21 17:40:53 2017
 
 Size of InstanceBase = 78 Nodes, (3120 bytes), 14.29 % compression
-Learning took 0 seconds, 0 milliseconds and 122 microseconds
+Learning took 0 seconds, 0 milliseconds and 109 microseconds
 Examine datafile './tests/data.test.expand' gave the following results:
 Number of Features: 12
 InputFormat       : Columns
@@ -72,36 +72,36 @@ Feature 10	 : 0.194761791322118
 Feature 11	 : 0.193126721428565
 Feature 12	 : 0.194761791322118
 
-Tested:      1 @ Tue Nov 14 13:03:39 2017
-Tested:      2 @ Tue Nov 14 13:03:39 2017
-Tested:      3 @ Tue Nov 14 13:03:39 2017
-Tested:      4 @ Tue Nov 14 13:03:39 2017
-Tested:      5 @ Tue Nov 14 13:03:39 2017
-Ready:       5 @ Tue Nov 14 13:03:39 2017
-Seconds taken: 0.0016 (3045.07 p/s)
+Tested:      1 @ Thu Dec 21 17:40:53 2017
+Tested:      2 @ Thu Dec 21 17:40:53 2017
+Tested:      3 @ Thu Dec 21 17:40:53 2017
+Tested:      4 @ Thu Dec 21 17:40:53 2017
+Tested:      5 @ Thu Dec 21 17:40:53 2017
+Ready:       5 @ Thu Dec 21 17:40:53 2017
+Seconds taken: 0.0020 (2464.27 p/s)
 
-overall accuracy:        0.600000  (3/5)
-There was 1 tie of which 1 (100.00%) was correctly resolved
-0.5 0.6 0.8 0.1 0.5 0.6 0.8 0.1 0.5 0.6 0.8 0.1 y x { x 1.00000 }        0.030266692937188
+overall accuracy:        0.400000  (2/5)
+There were 2 ties of which 0 (0.00%) were correctly resolved
+0.5 0.6 0.8 0.1 0.5 0.6 0.8 0.1 0.5 0.6 0.8 0.1 y y { y 1.00000 }        0.14134113427885
 0.5 0.6 0.8 0.1 0.2 0.6 0.7 0.8 0.5 0.1 0.1 0.8 x x { x 1.00000 }        3.3306690738755e-16
-0.5 0.6 0.7 0.8 0.5 0.1 0.1 0.8 0.2 0.1 0.7 0.8 y x { x 1.00000 }        0.049726180164701
-0.5 0.6 0.7 0.8 0.5 0.6 0.7 0.8 0.5 0.6 0.8 0.1 x x { x 2.00000, y 1.00000 }        0.0094564299419096
-0.5 0.6 0.8 0.1 0.5 0.6 0.7 0.8 0.5 0.6 0.8 0.1 x x { x 1.00000 }        0.016612643385648
+0.5 0.6 0.7 0.8 0.5 0.1 0.1 0.8 0.2 0.1 0.7 0.8 y x { x 1.00000 }        0.013595901330186
+0.5 0.6 0.7 0.8 0.5 0.6 0.7 0.8 0.5 0.6 0.8 0.1 x y { x 1.00000, y 2.00000 }        0.0094564299419096
+0.5 0.6 0.8 0.1 0.5 0.6 0.7 0.8 0.5 0.6 0.8 0.1 x y { x 1.00000, y 2.00000 }        0.10402645521706
 TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2017.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Nov 14 13:03:39 2017
+Thu Dec 21 17:40:53 2017
 
 Examine datafile './tests/data.expand' gave the following results:
 Number of Features: 12
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/data.expand
-Start:          0 @ Tue Nov 14 13:03:39 2017
-Finished:       9 @ Tue Nov 14 13:03:39 2017
-Calculating Entropy         Tue Nov 14 13:03:39 2017
+Start:          0 @ Thu Dec 21 17:40:53 2017
+Finished:       9 @ Thu Dec 21 17:40:53 2017
+Calculating Entropy         Thu Dec 21 17:40:53 2017
 Lines of data     : 9
 Warning: The following feature(s) have only 1 value: 1-2, 6
 DB Entropy        : 0.91829583
@@ -121,19 +121,19 @@ Feats	Vals	InfoGain	GainRatio
    11      3	0.30609861	0.19312672 NUMERIC
    12      2	0.17884894	0.19476179 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 157 microseconds
+Preparation took 0 seconds, 0 milliseconds and 164 microseconds
 Feature Permutation based on GainRatio/Values :
 < 8, 4, 5, 10, 12, 7, 3, 11, 1, 2, 6, 9 >
 Phase 2: Building multi index on Datafile: ./tests/data.expand
-Start:          0 @ Tue Nov 14 13:03:39 2017
-Finished:       9 @ Tue Nov 14 13:03:39 2017
+Start:          0 @ Thu Dec 21 17:40:53 2017
+Finished:       9 @ Thu Dec 21 17:40:53 2017
 
 Phase 3: Learning from Datafile: ./tests/data.expand
-Start:          0 @ Tue Nov 14 13:03:39 2017
-Finished:       9 @ Tue Nov 14 13:03:39 2017
+Start:          0 @ Thu Dec 21 17:40:53 2017
+Finished:       9 @ Thu Dec 21 17:40:53 2017
 
 Size of InstanceBase = 78 Nodes, (3120 bytes), 14.29 % compression
-Learning took 0 seconds, 0 milliseconds and 101 microseconds
+Learning took 0 seconds, 0 milliseconds and 111 microseconds
 Examine datafile './tests/data.test.expand' gave the following results:
 Number of Features: 12
 InputFormat       : Columns
@@ -161,13 +161,13 @@ Feature 10	 : 0.194761791322118
 Feature 11	 : 0.193126721428565
 Feature 12	 : 0.194761791322118
 
-Tested:      1 @ Tue Nov 14 13:03:39 2017
-Tested:      2 @ Tue Nov 14 13:03:39 2017
-Tested:      3 @ Tue Nov 14 13:03:39 2017
-Tested:      4 @ Tue Nov 14 13:03:39 2017
-Tested:      5 @ Tue Nov 14 13:03:39 2017
-Ready:       5 @ Tue Nov 14 13:03:39 2017
-Seconds taken: 0.0007 (7022.47 p/s)
+Tested:      1 @ Thu Dec 21 17:40:53 2017
+Tested:      2 @ Thu Dec 21 17:40:53 2017
+Tested:      3 @ Thu Dec 21 17:40:53 2017
+Tested:      4 @ Thu Dec 21 17:40:53 2017
+Tested:      5 @ Thu Dec 21 17:40:53 2017
+Ready:       5 @ Thu Dec 21 17:40:53 2017
+Seconds taken: 0.0009 (5875.44 p/s)
 
 overall accuracy:        0.400000  (2/5)
 There were 3 ties of which 1 (33.33%) were correctly resolved
@@ -181,16 +181,16 @@ Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Nov 14 13:03:39 2017
+Thu Dec 21 17:40:53 2017
 
 Examine datafile './tests/dot_product.train' gave the following results:
 Number of Features: 4
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/dot_product.train
-Start:          0 @ Tue Nov 14 13:03:39 2017
-Finished:       8 @ Tue Nov 14 13:03:39 2017
-Calculating Entropy         Tue Nov 14 13:03:39 2017
+Start:          0 @ Thu Dec 21 17:40:53 2017
+Finished:       8 @ Thu Dec 21 17:40:53 2017
+Calculating Entropy         Thu Dec 21 17:40:53 2017
 Lines of data     : 8
 DB Entropy        : 3.0000000
 Number of Classes : 8
@@ -201,19 +201,19 @@ Feats	Vals	InfoGain	GainRatio
     3      3	1.2987949	1.0000000 NUMERIC
     4      2	0.81127812	1.0000000 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 114 microseconds
+Preparation took 0 seconds, 0 milliseconds and 100 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 4, 2, 3 >
 Phase 2: Building multi index on Datafile: ./tests/dot_product.train
-Start:          0 @ Tue Nov 14 13:03:39 2017
-Finished:       8 @ Tue Nov 14 13:03:39 2017
+Start:          0 @ Thu Dec 21 17:40:53 2017
+Finished:       8 @ Thu Dec 21 17:40:53 2017
 
 Phase 3: Learning from Datafile: ./tests/dot_product.train
-Start:          0 @ Tue Nov 14 13:03:39 2017
-Finished:       8 @ Tue Nov 14 13:03:39 2017
+Start:          0 @ Thu Dec 21 17:40:53 2017
+Finished:       8 @ Thu Dec 21 17:40:53 2017
 
 Size of InstanceBase = 27 Nodes, (1080 bytes), 32.50 % compression
-Learning took 0 seconds, 0 milliseconds and 83 microseconds
+Learning took 0 seconds, 0 milliseconds and 72 microseconds
 Examine datafile './tests/dot_product.test' gave the following results:
 Number of Features: 4
 InputFormat       : C4.5
@@ -230,18 +230,18 @@ Feature 2	 : 1.000000000000000
 Feature 3	 : 1.000000000000000
 Feature 4	 : 1.000000000000000
 
-Tested:      1 @ Tue Nov 14 13:03:39 2017
-Tested:      2 @ Tue Nov 14 13:03:39 2017
-Tested:      3 @ Tue Nov 14 13:03:39 2017
-Tested:      4 @ Tue Nov 14 13:03:39 2017
-Tested:      5 @ Tue Nov 14 13:03:39 2017
-Tested:      6 @ Tue Nov 14 13:03:39 2017
-Tested:      7 @ Tue Nov 14 13:03:39 2017
-Tested:      8 @ Tue Nov 14 13:03:39 2017
-Tested:      9 @ Tue Nov 14 13:03:39 2017
-Tested:     10 @ Tue Nov 14 13:03:39 2017
-Ready:      12 @ Tue Nov 14 13:03:39 2017
-Seconds taken: 0.0005 (24590.16 p/s)
+Tested:      1 @ Thu Dec 21 17:40:53 2017
+Tested:      2 @ Thu Dec 21 17:40:53 2017
+Tested:      3 @ Thu Dec 21 17:40:53 2017
+Tested:      4 @ Thu Dec 21 17:40:53 2017
+Tested:      5 @ Thu Dec 21 17:40:53 2017
+Tested:      6 @ Thu Dec 21 17:40:53 2017
+Tested:      7 @ Thu Dec 21 17:40:53 2017
+Tested:      8 @ Thu Dec 21 17:40:53 2017
+Tested:      9 @ Thu Dec 21 17:40:53 2017
+Tested:     10 @ Thu Dec 21 17:40:53 2017
+Ready:      12 @ Thu Dec 21 17:40:53 2017
+Seconds taken: 0.0006 (19017.43 p/s)
 
 overall accuracy:        0.416667  (5/12)
 There were 4 ties of which 3 (75.00%) were correctly resolved
@@ -262,16 +262,16 @@ Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Nov 14 13:03:39 2017
+Thu Dec 21 17:40:53 2017
 
 Examine datafile './tests/dot_product.train' gave the following results:
 Number of Features: 4
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/dot_product.train
-Start:          0 @ Tue Nov 14 13:03:39 2017
-Finished:       8 @ Tue Nov 14 13:03:39 2017
-Calculating Entropy         Tue Nov 14 13:03:39 2017
+Start:          0 @ Thu Dec 21 17:40:53 2017
+Finished:       8 @ Thu Dec 21 17:40:53 2017
+Calculating Entropy         Thu Dec 21 17:40:53 2017
 Lines of data     : 8
 DB Entropy        : 3.0000000
 Number of Classes : 8
@@ -282,19 +282,19 @@ Feats	Vals	InfoGain	GainRatio
     3      3	1.2987949	1.0000000 NUMERIC
     4      2	0.81127812	1.0000000 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 184 microseconds
+Preparation took 0 seconds, 0 milliseconds and 134 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 4, 2, 3 >
 Phase 2: Building multi index on Datafile: ./tests/dot_product.train
-Start:          0 @ Tue Nov 14 13:03:39 2017
-Finished:       8 @ Tue Nov 14 13:03:39 2017
+Start:          0 @ Thu Dec 21 17:40:53 2017
+Finished:       8 @ Thu Dec 21 17:40:53 2017
 
 Phase 3: Learning from Datafile: ./tests/dot_product.train
-Start:          0 @ Tue Nov 14 13:03:39 2017
-Finished:       8 @ Tue Nov 14 13:03:39 2017
+Start:          0 @ Thu Dec 21 17:40:53 2017
+Finished:       8 @ Thu Dec 21 17:40:53 2017
 
 Size of InstanceBase = 27 Nodes, (1080 bytes), 32.50 % compression
-Learning took 0 seconds, 0 milliseconds and 89 microseconds
+Learning took 0 seconds, 0 milliseconds and 92 microseconds
 Examine datafile './tests/dot_product.test' gave the following results:
 Number of Features: 4
 InputFormat       : C4.5
@@ -311,21 +311,21 @@ Feature 2	 : 1.000000000000000
 Feature 3	 : 1.000000000000000
 Feature 4	 : 1.000000000000000
 
-Tested:      1 @ Tue Nov 14 13:03:39 2017
-Tested:      2 @ Tue Nov 14 13:03:39 2017
-Tested:      3 @ Tue Nov 14 13:03:39 2017
-Tested:      4 @ Tue Nov 14 13:03:39 2017
-Tested:      5 @ Tue Nov 14 13:03:39 2017
-Tested:      6 @ Tue Nov 14 13:03:39 2017
-Tested:      7 @ Tue Nov 14 13:03:39 2017
-Tested:      8 @ Tue Nov 14 13:03:39 2017
-Tested:      9 @ Tue Nov 14 13:03:39 2017
-Tested:     10 @ Tue Nov 14 13:03:39 2017
-Ready:      12 @ Tue Nov 14 13:03:39 2017
-Seconds taken: 0.0009 (13528.75 p/s)
+Tested:      1 @ Thu Dec 21 17:40:53 2017
+Tested:      2 @ Thu Dec 21 17:40:53 2017
+Tested:      3 @ Thu Dec 21 17:40:53 2017
+Tested:      4 @ Thu Dec 21 17:40:53 2017
+Tested:      5 @ Thu Dec 21 17:40:53 2017
+Tested:      6 @ Thu Dec 21 17:40:53 2017
+Tested:      7 @ Thu Dec 21 17:40:53 2017
+Tested:      8 @ Thu Dec 21 17:40:53 2017
+Tested:      9 @ Thu Dec 21 17:40:53 2017
+Tested:     10 @ Thu Dec 21 17:40:53 2017
+Ready:      12 @ Thu Dec 21 17:40:53 2017
+Seconds taken: 0.0020 (5870.84 p/s)
 
 overall accuracy:        0.583333  (7/12), of which 1 exact matches 
-There was 1 tie of which 0 (0.00%) was correctly resolved
+There were 3 ties of which 0 (0.00%) were correctly resolved
 1,0,0,0,p,p { p 1.00000 }        2.2204460492503e-16
 0,1,0,0,q,q { q 1.00000 }        2.2204460492503e-16
 0,0,1,0,r,r { r 1.00000 }        2.2204460492503e-16
@@ -333,8 +333,8 @@ There was 1 tie of which 0 (0.00%) was correctly resolved
 0,0,0,0,null,p { p 1.00000, q 1.00000, r 1.00000, s 1.00000, null 1.00000, x 1.00000, z 1.00000, raar 1.00000 }        1.0000000000000
 1,1,0,0,x,x { x 1.00000 }        2.2204460492503e-16
 0,0,1,1,z,z { z 1.00000 }        2.2204460492503e-16
-1,1,1,0,pqr,raar { raar 1.00000 }        0.039653773246376
-1,0,1,0,pr,raar { raar 1.00000 }        0.12378409132335
-1,1,1,1,pqrs,raar { raar 1.00000 }        0.039653773246376
+1,1,1,0,pqr,x { x 1.00000 }        0.18350341907227
+1,0,1,0,pr,p { p 1.00000, r 1.00000 }        0.29289321881345
+1,1,1,1,pqrs,x { x 1.00000, z 1.00000 }        0.29289321881345
 0,1.1,100000,0,fout,r { r 1.00000 }        6.0499827370109e-11
 0,1.1,2,0,raar,raar { raar 1.00000 }        0.0000000000000
