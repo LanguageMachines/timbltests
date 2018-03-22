@@ -1,0 +1,50 @@
+TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2018.
+Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 22 11:05:09 2018
+
+Examine datafile 'tests/bug27.train' gave the following results:
+Number of Features: 3
+InputFormat       : C4.5
+
+Phase 1: Reading Datafile: tests/bug27.train
+Start:          0 @ Thu Mar 22 11:05:09 2018
+Finished:      29 @ Thu Mar 22 11:05:09 2018
+Calculating Entropy         Thu Mar 22 11:05:09 2018
+Lines of data     : 29
+DB Entropy        : 0.97844933
+Number of Classes : 2
+
+Feats	Vals	InfoGain	GainRatio
+    1      4	0.19803780	0.12034940
+    2      5	0.062249179	0.030433063
+    3      5	0.024392020	0.011399513 NUMERIC
+
+Preparation took 0 seconds, 0 milliseconds and 152 microseconds
+Feature Permutation based on GainRatio/Values :
+< 1, 2, 3 >
+Phase 2: Building multi index on Datafile: tests/bug27.train
+Start:          0 @ Thu Mar 22 11:05:09 2018
+Finished:      29 @ Thu Mar 22 11:05:09 2018
+
+Phase 3: Learning from Datafile: tests/bug27.train
+Start:          0 @ Thu Mar 22 11:05:09 2018
+Finished:      29 @ Thu Mar 22 11:05:09 2018
+
+Size of InstanceBase = 51 Nodes, (2040 bytes), 29.17 % compression
+Learning took 0 seconds, 0 milliseconds and 126 microseconds
+Writing Instance-Base in: tests/bug27.tree
+TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2018.
+Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+Thu Mar 22 11:05:09 2018
+
+Reading Instance-Base from: tests/bug27.tree
+
+Size of InstanceBase = 51 Nodes, (2040 bytes), 29.17 % compression
+Feature Permutation based on Data File Ordering :
+< 1, 2, 3 >

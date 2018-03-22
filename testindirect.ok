@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2018.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:50:25 2016
+Thu Mar 22 11:56:13 2018
 
 Examine datafile './tests/example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:50:25 2016
-Finished:      29 @ Thu Jan 14 09:50:25 2016
-Calculating Entropy         Thu Jan 14 09:50:25 2016
+Start:          0 @ Thu Mar 22 11:56:13 2018
+Finished:      29 @ Thu Mar 22 11:56:13 2018
+Calculating Entropy         Thu Mar 22 11:56:13 2018
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -22,20 +22,20 @@ Feats	Vals	X-square	Variance	InfoGain	GainRatio
     2      3	0.24522059	0.0084558824	0.0060448141	0.0040988196
     3      4	1.7745197	0.061190335	0.044887336	0.023802575
 
-Preparation took 0 seconds, 0 milliseconds and 110 microseconds
+Preparation took 0 seconds, 0 milliseconds and 146 microseconds
 Saving Weights in /tmp/test.wgths
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 2 >
 Phase 2: Building multi index on Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:50:25 2016
-Finished:      29 @ Thu Jan 14 09:50:25 2016
+Start:          0 @ Thu Mar 22 11:56:13 2018
+Finished:      29 @ Thu Mar 22 11:56:13 2018
 
 Phase 3: Learning from Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:50:25 2016
-Finished:      29 @ Thu Jan 14 09:50:25 2016
+Start:          0 @ Thu Mar 22 11:56:13 2018
+Finished:      29 @ Thu Mar 22 11:56:13 2018
 
 Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
-Learning took 0 seconds, 0 milliseconds and 146 microseconds
+Learning took 0 seconds, 0 milliseconds and 165 microseconds
 Reading weights from /tmp/test.wgths
 Examine datafile './tests/example.test' gave the following results:
 Number of Features: 3
@@ -57,17 +57,17 @@ Feature 1	 : 1.000000000000000
 Feature 2	 : 1.000000000000000
 Feature 3	 : 1.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:50:25 2016
-Tested:      2 @ Thu Jan 14 09:50:25 2016
+Tested:      1 @ Thu Mar 22 11:56:13 2018
+Tested:      2 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Thu Jan 14 09:50:25 2016
+Tested:      3 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Thu Jan 14 09:50:25 2016
-Tested:      5 @ Thu Jan 14 09:50:25 2016
-Ready:       5 @ Thu Jan 14 09:50:25 2016
-Seconds taken: 0.0001 (51020.41 p/s)
+Tested:      4 @ Thu Mar 22 11:56:13 2018
+Tested:      5 @ Thu Mar 22 11:56:13 2018
+Ready:       5 @ Thu Mar 22 11:56:13 2018
+Seconds taken: 0.0003 (17361.11 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 Reading weights from /tmp/test.wgths
@@ -91,17 +91,17 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.023802575094251
 
-Tested:      1 @ Thu Jan 14 09:50:25 2016
-Tested:      2 @ Thu Jan 14 09:50:25 2016
+Tested:      1 @ Thu Mar 22 11:56:13 2018
+Tested:      2 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Thu Jan 14 09:50:25 2016
+Tested:      3 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Thu Jan 14 09:50:25 2016
-Tested:      5 @ Thu Jan 14 09:50:25 2016
-Ready:       5 @ Thu Jan 14 09:50:25 2016
-Seconds taken: 0.0001 (63291.14 p/s)
+Tested:      4 @ Thu Mar 22 11:56:13 2018
+Tested:      5 @ Thu Mar 22 11:56:13 2018
+Ready:       5 @ Thu Mar 22 11:56:13 2018
+Seconds taken: 0.0001 (34965.03 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 option-error: missing value for option 'w'
@@ -128,22 +128,22 @@ Feature 1	 : 0.211556564857227
 Feature 2	 : 0.006044814088628
 Feature 3	 : 0.044887335693993
 
-Tested:      1 @ Thu Jan 14 09:50:25 2016
-Tested:      2 @ Thu Jan 14 09:50:25 2016
+Tested:      1 @ Thu Mar 22 11:56:13 2018
+Tested:      2 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Thu Jan 14 09:50:25 2016
+Tested:      3 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Thu Jan 14 09:50:25 2016
-Tested:      5 @ Thu Jan 14 09:50:25 2016
-Ready:       5 @ Thu Jan 14 09:50:25 2016
-Seconds taken: 0.0001 (61728.40 p/s)
+Tested:      4 @ Thu Mar 22 11:56:13 2018
+Tested:      5 @ Thu Mar 22 11:56:13 2018
+Ready:       5 @ Thu Mar 22 11:56:13 2018
+Seconds taken: 0.0001 (49019.61 p/s)
 
 overall accuracy:        0.800000  (4/5), of which 2 exact matches 
-option-error: spurious value: './tests/example.test' in options
 Warning: Skipped a line from indirect testfile:
 '-w2 ./tests/example.test -mM'
+missing a Testfile name (-t option)
 Reading weights from /tmp/test.wgths
 Examine datafile './tests/example.test' gave the following results:
 Number of Features: 3
@@ -160,17 +160,17 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.023802575094251
 
-Tested:      1 @ Thu Jan 14 09:50:25 2016
-Tested:      2 @ Thu Jan 14 09:50:25 2016
+Tested:      1 @ Thu Mar 22 11:56:13 2018
+Tested:      2 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Thu Jan 14 09:50:25 2016
+Tested:      3 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Thu Jan 14 09:50:25 2016
-Tested:      5 @ Thu Jan 14 09:50:25 2016
-Ready:       5 @ Thu Jan 14 09:50:25 2016
-Seconds taken: 0.0001 (68493.15 p/s)
+Tested:      4 @ Thu Mar 22 11:56:13 2018
+Tested:      5 @ Thu Mar 22 11:56:13 2018
+Ready:       5 @ Thu Mar 22 11:56:13 2018
+Seconds taken: 0.0001 (60240.96 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 Examine datafile './tests/example.test' gave the following results:
@@ -188,17 +188,17 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.023802575094251
 
-Tested:      1 @ Thu Jan 14 09:50:25 2016
-Tested:      2 @ Thu Jan 14 09:50:25 2016
+Tested:      1 @ Thu Mar 22 11:56:13 2018
+Tested:      2 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Thu Jan 14 09:50:25 2016
+Tested:      3 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Thu Jan 14 09:50:25 2016
-Tested:      5 @ Thu Jan 14 09:50:25 2016
-Ready:       5 @ Thu Jan 14 09:50:25 2016
-Seconds taken: 0.0001 (66666.67 p/s)
+Tested:      4 @ Thu Mar 22 11:56:13 2018
+Tested:      5 @ Thu Mar 22 11:56:13 2018
+Ready:       5 @ Thu Mar 22 11:56:13 2018
+Seconds taken: 0.0001 (65789.47 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 Examine datafile './tests/example.test' gave the following results:
@@ -250,16 +250,16 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : User Defined  (/tmp/test.wgths)
 
-Tested:      1 @ Thu Jan 14 09:50:25 2016
-Tested:      2 @ Thu Jan 14 09:50:25 2016
+Tested:      1 @ Thu Mar 22 11:56:13 2018
+Tested:      2 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Thu Jan 14 09:50:25 2016
+Tested:      3 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Thu Jan 14 09:50:25 2016
-Tested:      5 @ Thu Jan 14 09:50:25 2016
-Ready:       5 @ Thu Jan 14 09:50:25 2016
+Tested:      4 @ Thu Mar 22 11:56:13 2018
+Tested:      5 @ Thu Mar 22 11:56:13 2018
+Ready:       5 @ Thu Mar 22 11:56:13 2018
 Seconds taken: 0.0001 (65789.47 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
@@ -312,17 +312,17 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : User Defined  (/tmp/test.wgths)
 
-Tested:      1 @ Thu Jan 14 09:50:25 2016
-Tested:      2 @ Thu Jan 14 09:50:25 2016
+Tested:      1 @ Thu Mar 22 11:56:13 2018
+Tested:      2 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Thu Jan 14 09:50:25 2016
+Tested:      3 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Thu Jan 14 09:50:25 2016
-Tested:      5 @ Thu Jan 14 09:50:25 2016
-Ready:       5 @ Thu Jan 14 09:50:25 2016
-Seconds taken: 0.0001 (65789.47 p/s)
+Tested:      4 @ Thu Mar 22 11:56:13 2018
+Tested:      5 @ Thu Mar 22 11:56:13 2018
+Ready:       5 @ Thu Mar 22 11:56:13 2018
+Seconds taken: 0.0001 (62500.00 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 Examine datafile './tests/example.test' gave the following results:
@@ -374,17 +374,17 @@ Global metric : Overlap, prefering exact matches
 Deviant Feature Metrics:(none)
 Weighting     : User Defined  (/tmp/test.wgths)
 
-Tested:      1 @ Thu Jan 14 09:50:25 2016
-Tested:      2 @ Thu Jan 14 09:50:25 2016
+Tested:      1 @ Thu Mar 22 11:56:13 2018
+Tested:      2 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Thu Jan 14 09:50:25 2016
+Tested:      3 @ Thu Mar 22 11:56:13 2018
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Thu Jan 14 09:50:25 2016
-Tested:      5 @ Thu Jan 14 09:50:25 2016
-Ready:       5 @ Thu Jan 14 09:50:25 2016
-Seconds taken: 0.0001 (64935.06 p/s)
+Tested:      4 @ Thu Mar 22 11:56:13 2018
+Tested:      5 @ Thu Mar 22 11:56:13 2018
+Ready:       5 @ Thu Mar 22 11:56:13 2018
+Seconds taken: 0.0002 (33333.33 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 C,rood,3,+,-        0.0000000000000

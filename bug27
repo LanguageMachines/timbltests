@@ -1,0 +1,4 @@
+#!/bin/sh
+
+$comm -f tests/bug27.train -I tests/bug27.tree -mO:N3
+$comm -i tests/bug27.tree -t @bug27.test -mO:N3
