@@ -1,25 +1,25 @@
-TiMBL 6.4.8 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.13 (c) CLST/ILK/CLIPS 1998 - 2018.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jun 20 12:10:00 2016
+Tue May 29 12:17:27 2018
 
-TiMBL 6.4.8, compiled on Jun 13 2016, 11:16:49
-TiMBL 6.4.8 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.13, compiled on May 29 2018, 10:18:27
+TiMBL 6.4.13 (c) CLST/ILK/CLIPS 1998 - 2018.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jun 20 12:10:00 2016
+Tue May 29 12:17:27 2018
 
-TiMBL 6.4.8, compiled on Jun 13 2016, 11:16:49
-TiMBL 6.4.8 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.13, compiled on May 29 2018, 10:18:27
+TiMBL 6.4.13 (c) CLST/ILK/CLIPS 1998 - 2018.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jun 20 12:10:00 2016
+Tue May 29 12:17:27 2018
 
 usage: timbl -f data-file {-t test-file} [options]
 Algorithm and Metric options:
@@ -121,7 +121,7 @@ Output options:
                      then normalize between 0 and 1 (default f=1.0)
              1:<f> : does the same
     logProbability : Add 1 to the target Weight, take the 10Log and
-                     then normalize between 0 and 1 (default f=1.0)
+                     then normalize between 0 and 1.
              2     : does the same
 -W f      : calculate and save all Weights in file 'f'
 +% or -%  : do or don't save test result (%) to file
@@ -153,12 +153,12 @@ Internal representation options:
        1/S: using 1/SplitInfo
 +x or -x  : Do or don't use the exact match shortcut 
             (IB1 and IB2 only, default is -x)
-TiMBL 6.4.8 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.13 (c) CLST/ILK/CLIPS 1998 - 2018.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jun 20 12:10:00 2016
+Tue May 29 12:17:27 2018
 
 usage: timbl -f data-file {-t test-file} [options]
 Algorithm and Metric options:
@@ -260,7 +260,7 @@ Output options:
                      then normalize between 0 and 1 (default f=1.0)
              1:<f> : does the same
     logProbability : Add 1 to the target Weight, take the 10Log and
-                     then normalize between 0 and 1 (default f=1.0)
+                     then normalize between 0 and 1.
              2     : does the same
 -W f      : calculate and save all Weights in file 'f'
 +% or -%  : do or don't save test result (%) to file
