@@ -3,6 +3,8 @@
 $comm -f tests/numeric2.train -t tests/numeric2.test -mO:N3 +vdi+db -o testB.out1
 $comm -f tests/numeric2.train -t tests/numeric2.test -B2 -mO:N3 +vdi+db -o testB.out2
 $comm -f tests/numeric2.train -t tests/numeric2.test -B200 -mO:N3 +vdi+db -o testB.out3
+$comm -f tests/numeric2.train -t tests/numeric2.test -B200 --limit 2 -mO:N3 +vdi+db -o testB.out4
 cat < testB.out1
 cat < testB.out2
 cat < testB.out3
+cat < testB.out4
