@@ -3,23 +3,23 @@ Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue May 29 12:17:27 2018
+Sun Jun  3 23:22:04 2018
 
-TiMBL 6.4.13, compiled on May 29 2018, 10:18:27
+TiMBL 6.4.13, compiled on Jun  1 2018, 15:07:06
 TiMBL 6.4.13 (c) CLST/ILK/CLIPS 1998 - 2018.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue May 29 12:17:27 2018
+Sun Jun  3 23:22:04 2018
 
-TiMBL 6.4.13, compiled on May 29 2018, 10:18:27
+TiMBL 6.4.13, compiled on Jun  1 2018, 15:07:06
 TiMBL 6.4.13 (c) CLST/ILK/CLIPS 1998 - 2018.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue May 29 12:17:27 2018
+Sun Jun  3 23:22:04 2018
 
 usage: timbl -f data-file {-t test-file} [options]
 Algorithm and Metric options:
@@ -135,6 +135,8 @@ Internal representation options:
 +H or -H  : write hashed trees (default +H)
 -M n      : size of MaxBests Array
 -N n      : Number of features (default 2500)
+--limit l : limit the number of features used to the 'l' with the highest weights.
+            (will restart Timbl with an adapted -m option)
 --Treeorder=<value>      : ordering of the Tree :
        DO: none
        GRO: using GainRatio
@@ -158,7 +160,7 @@ Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue May 29 12:17:27 2018
+Sun Jun  3 23:22:04 2018
 
 usage: timbl -f data-file {-t test-file} [options]
 Algorithm and Metric options:
@@ -274,6 +276,8 @@ Internal representation options:
 +H or -H  : write hashed trees (default +H)
 -M n      : size of MaxBests Array
 -N n      : Number of features (default 2500)
+--limit l : limit the number of features used to the 'l' with the highest weights.
+            (will restart Timbl with an adapted -m option)
 --Treeorder=<value>      : ordering of the Tree :
        DO: none
        GRO: using GainRatio
