@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+$comm -f ./tests/hapax.train -t ./tests/hapax.test.small +vdi+db -e10 -mL:I5:M3 --limit=7 -o test.out1
+cat < test.out1
