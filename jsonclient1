@@ -8,8 +8,8 @@ expect "Welcome to the Timbl server.\r"
 log_file -noappend jsonin.1.log
 send { {"command":"base","params":"dimin1"} }
 send "\n"
-send { {"command":"classify","params":"+,m,I,=,-,d,A,G,-,d,\},t,J"} }
+send { {"command":"classify","params":"+,m,I,=,-,d,A,G,-,d,-,t,J"} }
 send "\n"
-expect -re ".*\]" # the send json
-expect -re ".*\]" # the received json
+expect -re ".*\}" # the send json
+expect -re ".*\}" # the received json
 log_file
