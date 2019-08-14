@@ -1,0 +1,31 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+echo Testing Servers
+exec="$VG $timbl_bin/timblserver"
+client="$VG $timbl_bin/timblclient"
+
+if test x"${VG}" = x; then
+  doD="--daemonize=yes"
+else
+  doD="--daemonize=no"
+fi
+
+if test ! -d /tmp/run/ ; then
+  mkdir /tmp/run/
+fi
+rm -rf /tmp/server*.log
+rm -rf /tmp/run/pid*
+
+$exec $doD --config=./tests/jsonserver.cfg --debug=yes --logfile=/tmp/server8.log --pidfile=/tmp/run/pid8 &
+sleep 5
+
+./jsonclient1 &
+./jsonclient2 &
+./jsonclient3 &
+
+sleep 5
+kill `cat /tmp/run/pid8`
+cat /tmp/server8.log

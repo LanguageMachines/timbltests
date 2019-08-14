@@ -1,0 +1,15 @@
+#!/usr/bin/expect -f
+#
+spawn telnet localhost 7360
+expect "Trying 127.0.0.1..."
+expect "Connected to localhost."
+expect "Escape character is '^]'."
+expect "Welcome to the Timbl server.\r"
+log_file -noappend jsonin.1.log
+send { {"command":"base","params":"dimin1"} }
+send "\n"
+send { {"command":"classify","params":"+,m,I,=,-,d,A,G,-,d,\},t,J"} }
+send "\n"
+expect -re ".*\]" # the send json
+expect -re ".*\]" # the received json
+log_file
