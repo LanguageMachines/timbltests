@@ -15,4 +15,5 @@ send { {"command":"classify","params":"=,=,=,=,=,=,=,=,+,br,L,t,J"} }
 send "\n"
 expect -re ".*\n" # the send json
 expect -re ".*\n" # the received json
+expect -re ".*\n" # the received json
 log_file
