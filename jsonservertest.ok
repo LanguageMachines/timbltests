@@ -1,0 +1,99 @@
+Testing Servers
+TiMBL Server 0.22 (c) CLTS/ILK/CLIPS 1998 - 2019.
+Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
+Induction of Linguistic Knowledge Research Group, Tilburg University
+CLiPS Computational Linguistics Group, University of Antwerp
+based on timbl 6.4.14
+Thu Aug 15 14:02:21 201920190815:140221:325:timblserver:trainName = dimin.train
+Examine datafile 'dimin.train' gave the following results:
+Number of Features: 12
+InputFormat       : C4.5
+
+-dimin1-Phase 1: Reading Datafile: dimin.train
+-dimin1-Start:          0 @ Thu Aug 15 14:02:21 2019
+-dimin1-Finished:    2999 @ Thu Aug 15 14:02:21 2019
+-dimin1-Calculating Entropy         Thu Aug 15 14:02:21 2019
+-dimin1-Preparation took 0 seconds, 5 milliseconds and 707 microseconds
+Feature Permutation based on GainRatio/Values :
+< 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
+-dimin1-Phase 2: Building multi index on Datafile: dimin.train
+-dimin1-Start:          0 @ Thu Aug 15 14:02:21 2019
+-dimin1-Finished:    2999 @ Thu Aug 15 14:02:21 2019
+-dimin1-
+Phase 3: Learning from Datafile: dimin.train
+-dimin1-Start:          0 @ Thu Aug 15 14:02:21 2019
+-dimin1-Finished:    2999 @ Thu Aug 15 14:02:21 2019
+
+Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
+-dimin1-Learning took 0 seconds, 17 milliseconds and 484 microseconds
+20190815:140221:353:timblserver:started experiment dimin1 with parameters: -aIB1 +vdi+db+n -f dimin.train
+20190815:140221:354:timblserver:trainName = dimin.train
+Examine datafile 'dimin.train' gave the following results:
+Number of Features: 12
+InputFormat       : C4.5
+
+-dimin2-Phase 1: Reading Datafile: dimin.train
+-dimin2-Start:          0 @ Thu Aug 15 14:02:21 2019
+-dimin2-Finished:    2999 @ Thu Aug 15 14:02:21 2019
+-dimin2-Calculating Entropy         Thu Aug 15 14:02:21 2019
+-dimin2-Preparation took 0 seconds, 5 milliseconds and 234 microseconds
+Feature Permutation based on GainRatio :
+< 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
+-dimin2-Phase 2: Building multi index on Datafile: dimin.train
+-dimin2-Start:          0 @ Thu Aug 15 14:02:21 2019
+-dimin2-Finished:    2999 @ Thu Aug 15 14:02:21 2019
+-dimin2-
+Phase 3: Learning from Datafile: dimin.train
+-dimin2-Start:          0 @ Thu Aug 15 14:02:21 2019
+-dimin2-Finished:    2999 @ Thu Aug 15 14:02:21 2019
+
+Size of InstanceBase = 191 Nodes, (7640 bytes), 99.50 % compression
+-dimin2-Learning took 0 seconds, 19 milliseconds and 402 microseconds
+20190815:140221:382:timblserver:started experiment dimin2 with parameters: -aIGTREE +vdi+db +D -f dimin.train
+20190815:140221:382:timblserver:trainName = dimin.train
+Examine datafile 'dimin.train' gave the following results:
+Number of Features: 12
+InputFormat       : C4.5
+
+-dimin3-Phase 1: Reading Datafile: dimin.train
+-dimin3-Start:          0 @ Thu Aug 15 14:02:21 2019
+-dimin3-Finished:    2999 @ Thu Aug 15 14:02:21 2019
+-dimin3-Calculating Entropy         Thu Aug 15 14:02:21 2019
+-dimin3-Preparation took 0 seconds, 5 milliseconds and 789 microseconds
+Feature Permutation based on GainRatio :
+< 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
+-dimin3-Phase 2: Building multi index on Datafile: dimin.train
+-dimin3-Start:          0 @ Thu Aug 15 14:02:21 2019
+-dimin3-Finished:    2999 @ Thu Aug 15 14:02:21 2019
+-dimin3-
+Phase 3: Learning from Datafile: dimin.train
+-dimin3-Start:          0 @ Thu Aug 15 14:02:21 2019
+-dimin3-Finished:    2999 @ Thu Aug 15 14:02:21 2019
+
+Size of InstanceBase = 22705 Nodes, (908200 bytes), 40.69 % compression
+-dimin3-Learning took 0 seconds, 17 milliseconds and 52 microseconds
+20190815:140221:409:timblserver:started experiment dimin3 with parameters: -aTRIBL +vdi+db+n -q3 -f dimin.train
+20190815:140221:409:timblserver:Starting a json server on port 7360
+20190815:140221:409:timblserver:switching logging to file /tmp/server8.log
+ {"command":"base","params":"dimin1"} 
+ {"command":"classify","params":"=,=,=,=,=,=,=,=,+,br,L,t,J"} 
+{"category":"J","distance":0.04284458703455569,"distribution":"{ J 4.00000 }","neighbors":{"distance":"0.0428446","k":"1","neigbor":[{"distribution":"{ J 1.00000 }","instance":"=,=,=,=,=,=,=,=,+,r,L,t,"},{"distribution":"{ J 1.00000 }","instance":"=,=,=,=,=,=,=,=,+,kr,L,t,"},{"distribution":"{ J 1.00000 }","instance":"=,=,=,=,=,=,=,=,+,sx,L,t,"},{"distribution":"{ J 1.00000 }","instance":"=,=,=,=,=,=,=,=,+,fl,L,t,"}],"total":"4"}}
+ {"command":"base","params":"dimin2"} 
+ {"command":"classify","params":"+,m,I,=,-,d,A,G,-,d,-,t,J"} 
+{"category":"J","distance":0.5495809463018172,"distribution":"{ T 1.00000, J 266.000 }"}
+ 
+ {"command":"base","params":"dimin3"} 
+ {"command":"classify","params":"+,m,I,=,-,d,A,G,-,d,-,t,J"} 
+{"category":"J","distance":0.5495809463018172,"distribution":"{ T 1.00000, J 266.000 }"}
+20190815:140221:409:timblserver:debugging is off
+20190815:140221:409:timblserver:running as a dæmon
+20190815:140221:409:timblserver:Started logging 
+20190815:140221:410:timblserver:Starting Server on port:7360
+20190815:140221:410:timblserver:wrote PID=10609 to /tmp/run/pid8
+20190815:140226:330:timblserver:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20190815:140226:330:timblserver:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20190815:140226:330:timblserver:Thread 140047810557696 on socket 6, started at: Thu Aug 15 14:02:26 2019
+20190815:140226:330:timblserver:Thread 140047887247104 on socket 5, started at: Thu Aug 15 14:02:26 2019
+20190815:140226:331:timblserver:Accepting Connection #7 from remote host: localhost [127.0.0.1]
+20190815:140226:331:timblserver:Thread 140047802164992 on socket 7, started at: Thu Aug 15 14:02:26 2019
