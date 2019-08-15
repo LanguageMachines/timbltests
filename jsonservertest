@@ -19,13 +19,17 @@ fi
 rm -rf /tmp/server*.log
 rm -rf /tmp/run/pid*
 
-$exec $doD --config=./tests/jsonserver.cfg --debug=yes --logfile=/tmp/server8.log --pidfile=/tmp/run/pid8 &
+$exec $doD --config=./tests/jsonserver.cfg --logfile=/tmp/server8.log --pidfile=/tmp/run/pid8 &
 sleep 5
 
-./jsonclient1 &
-./jsonclient2 &
-./jsonclient3 &
+./jsonclient1 > tests/jsonclient1.out &
+./jsonclient2 > tests/jsonclient2.out &
+./jsonclient3 > tests/jsonslinet3.out &
 
 sleep 5
 kill `cat /tmp/run/pid8`
-cat /tmp/server8.log
+
+cat jsonin.1.log
+cat jsonin.2.log
+cat jsonin.3.log
+sort /tmp/server8.log

@@ -5,11 +5,13 @@ expect "Trying 127.0.0.1..."
 expect "Connected to localhost."
 expect "Escape character is '^]'."
 expect "Welcome to the Timbl server.\r"
+expect -re "avaliable.*3\n" # the bases line
 log_file -noappend jsonin.3.log
 send { {"command":"base","params":"dimin3"} }
 send "\n"
 send { {"command":"classify","params":"+,m,I,=,-,d,A,G,-,d,-,t,J"} }
 send "\n"
-expect -re ".*\]" # the send json
-expect -re ".*\]" # the received json
+expect -re ".*\n" # the send json
+expect -re ".*\n" # the send json
+expect -re ".*\n" # the received json
 log_file
