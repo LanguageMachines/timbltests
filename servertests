@@ -28,7 +28,7 @@ rm -rf /tmp/run/pid*
 $exec $doD -f ./tests/dimin.train -S 17345 --logfile=/tmp/server1.log --pidfile=/tmp/run/pid1&
 sleep 10
 
-\rm /tmp/dimin.out
+\rm -f /tmp/dimin.out
 $client -n $lh -p 17345 < ./tests/dimin.test.scr > /tmp/dimin.out
 cat /tmp/dimin.out
 $client -n $lh -p 17345  -i ./tests/dimin.test -o /tmp/dimin2-1.out --batch
@@ -67,7 +67,7 @@ rm -rf /tmp/server2.log
 $exec $doD -f ./tests/dimin.train -a1 +D -S 17346 --logfile=/tmp/server2.log --pidfile=/tmp/run/pid2 &
 sleep 5
 
-\rm /tmp/dimin.out
+\rm -f /tmp/dimin.out
 $client -n $lh -p 17346 < ./tests/dimin.test.scr > /tmp/dimin.out
 cat /tmp/dimin.out
 $client -n $lh -p 17346  -i ./tests/dimin.test -o /tmp/dimin2.out --batch
@@ -80,7 +80,7 @@ rm -rf /tmp/server3.log
 $exec $doD --config=./tests/tcpserver.cfg +vCD --logfile=/tmp/server3.log --pidfile=/tmp/run/pid3 &
 sleep 20
 
-\rm /tmp/dimin.out
+\rm -f /tmp/dimin.out
 $client -n $lh -p 17000 < ./tests/dimin.test.scr > /tmp/dimin.out
 cat /tmp/dimin.out
 $client -n $lh -p 17000  -i ./tests/dimin.test -o /tmp/dimin0.out --batch -b dimin0 &
@@ -95,7 +95,7 @@ rm -rf /tmp/server4.log
 $exec $doD -f ./tests/dimin.train -mO:I1 -S 17347 --logfile=/tmp/server4.log --pidfile=/tmp/run/pid4&
 sleep 5
 
-\rm /tmp/dimin4.out
+\rm -f /tmp/dimin4.out
 $client -n $lh -p 17347 < ./tests/dimin.test.scr > /tmp/dimin4.out
 cat /tmp/dimin4.out
 kill `cat /tmp/run/pid4`
@@ -105,13 +105,13 @@ rm -rf /tmp/server5.log
 $exec $doD -f ./tests/dimin.train -mM:I3 --matrixin=./tests/dimin.mat -S 17348 --logfile=/tmp/server5.log --pidfile=/tmp/run/pid5&
 sleep 5
 
-\rm /tmp/dimin5.out
+\rm -f /tmp/dimin5.out
 $client -n $lh -p 17348 < ./tests/dimin.test.scr > /tmp/dimin5.out
 cat /tmp/dimin5.out
 kill `cat /tmp/run/pid5`
 cat /tmp/server5.log
 
-\rm /tmp/dimin6-*.out
+\rm -f /tmp/dimin6-*.out
 $exec $doD -f ./tests/dimin.train -S 17349 --logfile=/tmp/server6.log --pidfile=/tmp/run/pid6&
 sleep 10
 

@@ -16,9 +16,9 @@ fi
 if test ! -d /tmp/run/ ; then
   mkdir /tmp/run/
 fi
-rm -rf /tmp/server*.log
-rm -rf /tmp/run/pid*
-rm -rf jsonin.*.log
+\rm -rf /tmp/server*.log
+\rm -rf /tmp/run/pid*
+\rm -rf jsonin.*.log
 
 $exec $doD --config=./tests/jsonserver.cfg --logfile=/tmp/server8.log --pidfile=/tmp/run/pid8 &
 
