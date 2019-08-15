@@ -18,18 +18,24 @@ if test ! -d /tmp/run/ ; then
 fi
 rm -rf /tmp/server*.log
 rm -rf /tmp/run/pid*
+rm -rf jsonin.*.log
 
 $exec $doD --config=./tests/jsonserver.cfg --logfile=/tmp/server8.log --pidfile=/tmp/run/pid8 &
-sleep 5
+
+sleep 4
 
 ./jsonclient1 > tests/jsonclient1.out &
 ./jsonclient2 > tests/jsonclient2.out &
-./jsonclient3 > tests/jsonslinet3.out &
+./jsonclient3 > tests/jsonclient3.out &
+./jsonclient4 > tests/jsonclient4.out &
 
-sleep 5
-kill `cat /tmp/run/pid8`
+sleep 20
 
 cat jsonin.1.log
 cat jsonin.2.log
 cat jsonin.3.log
-sort /tmp/server8.log
+cat jsonin.4.log
+
+kill `cat /tmp/run/pid8`
+
+cat /tmp/server8.log
