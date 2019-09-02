@@ -6,7 +6,7 @@ expect "Trying 127.0.0.1..."
 expect "Connected to localhost."
 expect "Escape character is '^]'."
 expect -exact "Welcome to the Timbl server.\r"
-expect -re "avaliable.*3\n" # the bases line
+expect -re "available.*3\n" # the bases line
 log_file -noappend jsonin.2.log
 send { {"command":"base","params":"dimin2"} }
 send "\n"
