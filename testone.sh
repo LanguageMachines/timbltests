@@ -1,11 +1,22 @@
-# /bin/sh
+#!/bin/bash
 OK="\033[1;32m OK  \033[0m"
 FAIL="\033[1;31m  FAILED  \033[0m"
 
-if test "$timbl_bin" = "";
-then echo "timbl_bin not set"
-exit
+if [ "$timbl_bin" == "" ];
+then
+  timbl_bin=/home/sloot/usr/local/bin
+  if [ ! -d $timbl_bin ];
+  then
+     timbl_bin=/exp/sloot/usr/local/bin
+     if [ ! -d $timbl_bin ];
+     then
+       echo "cannot find timbl executables "
+       exit
+     fi
+  fi
 fi
+
+export timbl_bin=$timbl_bin # for the clients!
 
 if test "$comm" = "";
 then export comm="$VG $timbl_bin/timbl";
@@ -13,7 +24,7 @@ fi
 
 for file in $1
 do if test -x $file
-   then 
+   then
    	\rm -f $file.diff
 	\rm -f $file.tmp
 	\rm -f test*.out*
