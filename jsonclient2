@@ -5,12 +5,12 @@ spawn telnet localhost 7360
 expect "Trying 127.0.0.1..."
 expect "Connected to localhost."
 expect "Escape character is '^]'."
-expect -exact "Welcome to the Timbl server.\r"
-expect -re "available.*3\n" # the bases line
+expect -re "available.*\n" # the bases line
 log_file -noappend jsonin.2.log
 send { {"command":"base","param":"dimin2"} }
 send "\n"
 expect -re ".*\n" # the send json
+expect -re ".*dimin2.*\n" # the received json
 send { {"command":"classify","param":"+,m,I,=,-,d,A,G,-,d,-,t,J"} }
 send "\n"
 expect -re ".*\n" # the send json
