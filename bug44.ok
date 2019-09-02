@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:51 2016
+Mon Sep  2 15:22:47 2019
 
 Examine datafile 'tests/bug44.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:51 2016
-Finished:       4 @ Thu Jan 14 09:19:51 2016
-Calculating Entropy         Thu Jan 14 09:19:51 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
+Calculating Entropy         Mon Sep  2 15:22:47 2019
 Lines of data     : 4
 Warning: The following feature(s) have only 1 value: 1-2
 DB Entropy        : 1.0000000
@@ -22,19 +22,19 @@ Feats	Vals	InfoGain	GainRatio
     1      1	0.0000000	0.0000000
     2      1	0.0000000	0.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 60 microseconds
+Preparation took 0 seconds, 0 milliseconds and 95 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2 >
 Phase 2: Building multi index on Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:51 2016
-Finished:       4 @ Thu Jan 14 09:19:51 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
 
 Phase 3: Learning from Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:51 2016
-Finished:       4 @ Thu Jan 14 09:19:51 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
 
 Size of InstanceBase = 3 Nodes, (120 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 56 microseconds
+Learning took 0 seconds, 0 milliseconds and 79 microseconds
 Examine datafile 'tests/bug44.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
@@ -49,12 +49,12 @@ Weighting     : GainRatio
 Feature 1	 : 0.000000000000000
 Feature 2	 : 0.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:19:52 2016
-Tested:      2 @ Thu Jan 14 09:19:52 2016
-Tested:      3 @ Thu Jan 14 09:19:52 2016
-Tested:      4 @ Thu Jan 14 09:19:52 2016
-Ready:       4 @ Thu Jan 14 09:19:52 2016
-Seconds taken: 0.0001 (61538.46 p/s)
+Tested:      1 @ Mon Sep  2 15:22:47 2019
+Tested:      2 @ Mon Sep  2 15:22:47 2019
+Tested:      3 @ Mon Sep  2 15:22:47 2019
+Tested:      4 @ Mon Sep  2 15:22:47 2019
+Ready:       4 @ Mon Sep  2 15:22:47 2019
+Seconds taken: 0.0001 (48780.49 p/s)
 0,0,b,
 # k=1	{ b 2.00000, a 2.00000 }	0.0000000000000
 0,0,a,
@@ -63,21 +63,21 @@ Seconds taken: 0.0001 (61538.46 p/s)
 # k=1	{ b 2.00000, a 2.00000 }	0.0000000000000
 0,0,a,
 # k=1	{ b 2.00000, a 2.00000 }	0.0000000000000
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:52 2016
+Mon Sep  2 15:22:47 2019
 
 Examine datafile 'tests/bug44.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:       4 @ Thu Jan 14 09:19:52 2016
-Calculating Entropy         Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
+Calculating Entropy         Mon Sep  2 15:22:47 2019
 Lines of data     : 4
 Warning: The following feature(s) have only 1 value: 1-2
 DB Entropy        : 1.0000000
@@ -87,19 +87,19 @@ Feats	Vals	InfoGain	GainRatio
     1      1	0.0000000	0.0000000
     2      1	0.0000000	0.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 58 microseconds
+Preparation took 0 seconds, 0 milliseconds and 78 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2 >
 Phase 2: Building multi index on Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:       4 @ Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
 
 Phase 3: Learning from Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:       4 @ Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
 
 Size of InstanceBase = 3 Nodes, (120 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 54 microseconds
+Learning took 0 seconds, 0 milliseconds and 64 microseconds
 Examine datafile 'tests/bug44.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
@@ -114,12 +114,12 @@ Weighting     : GainRatio
 Feature 1	 : 0.000000000000000
 Feature 2	 : 0.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:19:52 2016
-Tested:      2 @ Thu Jan 14 09:19:52 2016
-Tested:      3 @ Thu Jan 14 09:19:52 2016
-Tested:      4 @ Thu Jan 14 09:19:52 2016
-Ready:       4 @ Thu Jan 14 09:19:52 2016
-Seconds taken: 0.0001 (36036.04 p/s)
+Tested:      1 @ Mon Sep  2 15:22:47 2019
+Tested:      2 @ Mon Sep  2 15:22:47 2019
+Tested:      3 @ Mon Sep  2 15:22:47 2019
+Tested:      4 @ Mon Sep  2 15:22:47 2019
+Ready:       4 @ Mon Sep  2 15:22:47 2019
+Seconds taken: 0.0002 (25641.03 p/s)
 
 overall accuracy:        0.500000  (2/4), of which 4 exact matches 
 There were 4 ties of which 2 (50.00%) were correctly resolved
@@ -135,21 +135,21 @@ There were 4 ties of which 2 (50.00%) were correctly resolved
 0,0,a,b { b 2.00000, a 2.00000 }        0.0000000000000
 # k=1, 4 Neighbor(s) at distance: 	0.0000000000000
 #	0,0,{ b 2.00000, a 2.00000 }
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:52 2016
+Mon Sep  2 15:22:47 2019
 
 Examine datafile 'tests/bug44.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:       4 @ Thu Jan 14 09:19:52 2016
-Calculating Entropy         Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
+Calculating Entropy         Mon Sep  2 15:22:47 2019
 Lines of data     : 4
 Warning: The following feature(s) have only 1 value: 1-2
 DB Entropy        : 1.0000000
@@ -159,19 +159,19 @@ Feats	Vals	InfoGain	GainRatio
     1      1	0.0000000	0.0000000
     2      1	0.0000000	0.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 54 microseconds
+Preparation took 0 seconds, 0 milliseconds and 183 microseconds
 Feature Permutation based on GainRatio :
 < 1, 2 >
 Phase 2: Building multi index on Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:       4 @ Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
 
 Phase 3: Learning from Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:       4 @ Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
 
 Size of InstanceBase = 0 Nodes, (0 bytes), 100.00 % compression
-Learning took 0 seconds, 0 milliseconds and 53 microseconds
+Learning took 0 seconds, 0 milliseconds and 121 microseconds
 Examine datafile 'tests/bug44.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
@@ -184,12 +184,12 @@ Weighting     : GainRatio
 Feature 1	 : 0.000000000000000
 Feature 2	 : 0.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:19:52 2016
-Tested:      2 @ Thu Jan 14 09:19:52 2016
-Tested:      3 @ Thu Jan 14 09:19:52 2016
-Tested:      4 @ Thu Jan 14 09:19:52 2016
-Ready:       4 @ Thu Jan 14 09:19:52 2016
-Seconds taken: 0.0000 (88888.89 p/s)
+Tested:      1 @ Mon Sep  2 15:22:47 2019
+Tested:      2 @ Mon Sep  2 15:22:47 2019
+Tested:      3 @ Mon Sep  2 15:22:47 2019
+Tested:      4 @ Mon Sep  2 15:22:47 2019
+Ready:       4 @ Mon Sep  2 15:22:47 2019
+Seconds taken: 0.0001 (57971.01 p/s)
 
 overall accuracy:        0.500000  (2/4)
 There were 4 ties of which 2 (50.00%) were correctly resolved
@@ -197,21 +197,21 @@ There were 4 ties of which 2 (50.00%) were correctly resolved
 0,0,a,b { b 2.00000, a 2.00000 }        0.0000000000000
 0,0,b,b { b 2.00000, a 2.00000 }        0.0000000000000
 0,0,a,b { b 2.00000, a 2.00000 }        0.0000000000000
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:52 2016
+Mon Sep  2 15:22:47 2019
 
 Examine datafile 'tests/bug44.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:       4 @ Thu Jan 14 09:19:52 2016
-Calculating Entropy         Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
+Calculating Entropy         Mon Sep  2 15:22:47 2019
 Lines of data     : 4
 Warning: The following feature(s) have only 1 value: 1-2
 DB Entropy        : 1.0000000
@@ -221,19 +221,19 @@ Feats	Vals	InfoGain	GainRatio
     1      1	0.0000000	0.0000000
     2      1	0.0000000	0.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 56 microseconds
+Preparation took 0 seconds, 0 milliseconds and 87 microseconds
 Feature Permutation based on GainRatio :
 < 1, 2 >
 Phase 2: Building multi index on Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:       4 @ Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
 
 Phase 3: Learning from Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:       4 @ Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
 
 Size of InstanceBase = 3 Nodes, (120 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 56 microseconds
+Learning took 0 seconds, 0 milliseconds and 86 microseconds
 Examine datafile 'tests/bug44.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
@@ -248,12 +248,12 @@ Weighting     : GainRatio
 Feature 1	 : 0.000000000000000
 Feature 2	 : 0.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:19:52 2016
-Tested:      2 @ Thu Jan 14 09:19:52 2016
-Tested:      3 @ Thu Jan 14 09:19:52 2016
-Tested:      4 @ Thu Jan 14 09:19:52 2016
-Ready:       4 @ Thu Jan 14 09:19:52 2016
-Seconds taken: 0.0001 (38461.54 p/s)
+Tested:      1 @ Mon Sep  2 15:22:47 2019
+Tested:      2 @ Mon Sep  2 15:22:47 2019
+Tested:      3 @ Mon Sep  2 15:22:47 2019
+Tested:      4 @ Mon Sep  2 15:22:47 2019
+Ready:       4 @ Mon Sep  2 15:22:47 2019
+Seconds taken: 0.0001 (29197.08 p/s)
 
 overall accuracy:        0.500000  (2/4), of which 4 exact matches 
 There were 4 ties of which 2 (50.00%) were correctly resolved
@@ -269,21 +269,21 @@ There were 4 ties of which 2 (50.00%) were correctly resolved
 0,0,a,b { b 2.00000, a 2.00000 }        0.0000000000000
 # k=1, 4 Neighbor(s) at distance: 	0.0000000000000
 #	0,0,{ b 2.00000, a 2.00000 }
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:52 2016
+Mon Sep  2 15:22:47 2019
 
 Examine datafile 'tests/bug44.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:       4 @ Thu Jan 14 09:19:52 2016
-Calculating Entropy         Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
+Calculating Entropy         Mon Sep  2 15:22:47 2019
 Lines of data     : 4
 Warning: The following feature(s) have only 1 value: 1-2
 DB Entropy        : 1.0000000
@@ -293,19 +293,19 @@ Feats	Vals	InfoGain	GainRatio
     1      1	0.0000000	0.0000000
     2      1	0.0000000	0.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 53 microseconds
+Preparation took 0 seconds, 0 milliseconds and 109 microseconds
 Feature Permutation based on GainRatio :
 < 1, 2 >
 Phase 2: Building multi index on Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:       4 @ Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
 
 Phase 3: Learning from Datafile: tests/bug44.train
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:       4 @ Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       4 @ Mon Sep  2 15:22:47 2019
 
 Size of InstanceBase = 3 Nodes, (120 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 50 microseconds
+Learning took 0 seconds, 0 milliseconds and 98 microseconds
 Examine datafile 'tests/bug44.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
@@ -320,12 +320,12 @@ Weighting     : GainRatio
 Feature 1	 : 0.000000000000000
 Feature 2	 : 0.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:19:52 2016
-Tested:      2 @ Thu Jan 14 09:19:52 2016
-Tested:      3 @ Thu Jan 14 09:19:52 2016
-Tested:      4 @ Thu Jan 14 09:19:52 2016
-Ready:       4 @ Thu Jan 14 09:19:52 2016
-Seconds taken: 0.0001 (54054.05 p/s)
+Tested:      1 @ Mon Sep  2 15:22:47 2019
+Tested:      2 @ Mon Sep  2 15:22:47 2019
+Tested:      3 @ Mon Sep  2 15:22:47 2019
+Tested:      4 @ Mon Sep  2 15:22:47 2019
+Ready:       4 @ Mon Sep  2 15:22:47 2019
+Seconds taken: 0.0001 (30075.19 p/s)
 
 overall accuracy:        0.500000  (2/4), of which 4 exact matches 
 There were 4 ties of which 2 (50.00%) were correctly resolved

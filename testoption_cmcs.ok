@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:44:44 2016
+Mon Sep  2 15:14:10 2019
 
 Examine datafile './tests/big.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/big.train
-Start:          0 @ Thu Jan 14 09:44:44 2016
-Finished:   24474 @ Thu Jan 14 09:44:44 2016
-Calculating Entropy         Thu Jan 14 09:44:44 2016
+Start:          0 @ Mon Sep  2 15:14:10 2019
+Finished:   24474 @ Mon Sep  2 15:14:10 2019
+Calculating Entropy         Mon Sep  2 15:14:10 2019
 Lines of data     : 24474
 DB Entropy        : 1.1174908
 Number of Classes : 3
@@ -27,19 +27,19 @@ Feats	Vals	InfoGain	GainRatio
     7     42	0.33206154	0.077459835
     8     42	0.051069063	0.011935177
 
-Preparation took 0 seconds, 131 milliseconds and 681 microseconds
+Preparation took 0 seconds, 73 milliseconds and 333 microseconds
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 2, 3, 1, 4 >
 Phase 2: Building multi index on Datafile: ./tests/big.train
-Start:          0 @ Thu Jan 14 09:44:44 2016
-Finished:   24474 @ Thu Jan 14 09:44:44 2016
+Start:          0 @ Mon Sep  2 15:14:10 2019
+Finished:   24474 @ Mon Sep  2 15:14:10 2019
 
 Phase 3: Learning from Datafile: ./tests/big.train
-Start:          0 @ Thu Jan 14 09:44:44 2016
-Finished:   24474 @ Thu Jan 14 09:44:45 2016
+Start:          0 @ Mon Sep  2 15:14:10 2019
+Finished:   24474 @ Mon Sep  2 15:14:10 2019
 
 Size of InstanceBase = 123834 Nodes, (4953360 bytes), 41.94 % compression
-Learning took 0 seconds, 268 milliseconds and 668 microseconds
+Learning took 0 seconds, 188 milliseconds and 81 microseconds
 Examine datafile './tests/big.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -70,18 +70,18 @@ Feature 6	 : 0.195263485848034
 Feature 7	 : 0.077459834970599
 Feature 8	 : 0.011935176670302
 
-Tested:      1 @ Thu Jan 14 09:44:45 2016
-Tested:      2 @ Thu Jan 14 09:44:45 2016
-Tested:      3 @ Thu Jan 14 09:44:45 2016
-Tested:      4 @ Thu Jan 14 09:44:45 2016
-Tested:      5 @ Thu Jan 14 09:44:45 2016
-Tested:      6 @ Thu Jan 14 09:44:45 2016
-Tested:      7 @ Thu Jan 14 09:44:45 2016
-Tested:      8 @ Thu Jan 14 09:44:45 2016
-Tested:      9 @ Thu Jan 14 09:44:45 2016
-Tested:     10 @ Thu Jan 14 09:44:45 2016
-Ready:      50 @ Thu Jan 14 09:44:45 2016
-Seconds taken: 0.0804 (622.15 p/s)
+Tested:      1 @ Mon Sep  2 15:14:10 2019
+Tested:      2 @ Mon Sep  2 15:14:10 2019
+Tested:      3 @ Mon Sep  2 15:14:10 2019
+Tested:      4 @ Mon Sep  2 15:14:10 2019
+Tested:      5 @ Mon Sep  2 15:14:10 2019
+Tested:      6 @ Mon Sep  2 15:14:10 2019
+Tested:      7 @ Mon Sep  2 15:14:10 2019
+Tested:      8 @ Mon Sep  2 15:14:10 2019
+Tested:      9 @ Mon Sep  2 15:14:10 2019
+Tested:     10 @ Mon Sep  2 15:14:10 2019
+Ready:      50 @ Mon Sep  2 15:14:10 2019
+Seconds taken: 0.0695 (719.03 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC
@@ -122,21 +122,21 @@ include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 5.00000 }        0.005170012495
 KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I { I 2.00000 }        0.031611976872135
 among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { O 1.00000 }        0.025661551443415
 other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { O 1.00000 }        0.018611892516076
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:44:45 2016
+Mon Sep  2 15:14:10 2019
 
 Examine datafile './tests/big.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/big.train
-Start:          0 @ Thu Jan 14 09:44:45 2016
-Finished:   24474 @ Thu Jan 14 09:44:45 2016
-Calculating Entropy         Thu Jan 14 09:44:45 2016
+Start:          0 @ Mon Sep  2 15:14:10 2019
+Finished:   24474 @ Mon Sep  2 15:14:10 2019
+Calculating Entropy         Mon Sep  2 15:14:10 2019
 Lines of data     : 24474
 DB Entropy        : 1.1174908
 Number of Classes : 3
@@ -151,19 +151,19 @@ Feats	Vals	InfoGain	GainRatio
     7     42	0.33206154	0.077459835
     8     42	0.051069063	0.011935177
 
-Preparation took 0 seconds, 131 milliseconds and 153 microseconds
+Preparation took 0 seconds, 70 milliseconds and 654 microseconds
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 2, 3, 1, 4 >
 Phase 2: Building multi index on Datafile: ./tests/big.train
-Start:          0 @ Thu Jan 14 09:44:45 2016
-Finished:   24474 @ Thu Jan 14 09:44:45 2016
+Start:          0 @ Mon Sep  2 15:14:10 2019
+Finished:   24474 @ Mon Sep  2 15:14:10 2019
 
 Phase 3: Learning from Datafile: ./tests/big.train
-Start:          0 @ Thu Jan 14 09:44:45 2016
-Finished:   24474 @ Thu Jan 14 09:44:45 2016
+Start:          0 @ Mon Sep  2 15:14:10 2019
+Finished:   24474 @ Mon Sep  2 15:14:10 2019
 
 Size of InstanceBase = 123834 Nodes, (4953360 bytes), 41.94 % compression
-Learning took 0 seconds, 272 milliseconds and 757 microseconds
+Learning took 0 seconds, 186 milliseconds and 386 microseconds
 Examine datafile './tests/big.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -194,18 +194,18 @@ Feature 6	 : 0.195263485848034
 Feature 7	 : 0.077459834970599
 Feature 8	 : 0.011935176670302
 
-Tested:      1 @ Thu Jan 14 09:44:45 2016
-Tested:      2 @ Thu Jan 14 09:44:45 2016
-Tested:      3 @ Thu Jan 14 09:44:45 2016
-Tested:      4 @ Thu Jan 14 09:44:45 2016
-Tested:      5 @ Thu Jan 14 09:44:45 2016
-Tested:      6 @ Thu Jan 14 09:44:45 2016
-Tested:      7 @ Thu Jan 14 09:44:45 2016
-Tested:      8 @ Thu Jan 14 09:44:45 2016
-Tested:      9 @ Thu Jan 14 09:44:45 2016
-Tested:     10 @ Thu Jan 14 09:44:45 2016
-Ready:      50 @ Thu Jan 14 09:44:46 2016
-Seconds taken: 0.5738 (87.14 p/s)
+Tested:      1 @ Mon Sep  2 15:14:10 2019
+Tested:      2 @ Mon Sep  2 15:14:10 2019
+Tested:      3 @ Mon Sep  2 15:14:10 2019
+Tested:      4 @ Mon Sep  2 15:14:10 2019
+Tested:      5 @ Mon Sep  2 15:14:10 2019
+Tested:      6 @ Mon Sep  2 15:14:10 2019
+Tested:      7 @ Mon Sep  2 15:14:10 2019
+Tested:      8 @ Mon Sep  2 15:14:10 2019
+Tested:      9 @ Mon Sep  2 15:14:10 2019
+Tested:     10 @ Mon Sep  2 15:14:10 2019
+Ready:      50 @ Mon Sep  2 15:14:11 2019
+Seconds taken: 0.5173 (96.65 p/s)
 
 F-Score beta=1, microav: 0.837247
 F-Score beta=1, macroav: 0.779211
@@ -241,21 +241,21 @@ include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 5.00000 }
 KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I { I 2.00000 }
 among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { O 1.00000 }
 other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { O 1.00000 }
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:44:46 2016
+Mon Sep  2 15:14:11 2019
 
 Examine datafile './tests/big.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/big.train
-Start:          0 @ Thu Jan 14 09:44:46 2016
-Finished:   24474 @ Thu Jan 14 09:44:46 2016
-Calculating Entropy         Thu Jan 14 09:44:46 2016
+Start:          0 @ Mon Sep  2 15:14:11 2019
+Finished:   24474 @ Mon Sep  2 15:14:11 2019
+Calculating Entropy         Mon Sep  2 15:14:11 2019
 Lines of data     : 24474
 DB Entropy        : 1.1174908
 Number of Classes : 3
@@ -270,19 +270,19 @@ Feats	Vals	InfoGain	GainRatio
     7     42	0.33206154	0.077459835
     8     42	0.051069063	0.011935177
 
-Preparation took 0 seconds, 129 milliseconds and 29 microseconds
+Preparation took 0 seconds, 73 milliseconds and 66 microseconds
 Feature Permutation based on GainRatio :
 < 6, 2, 7, 3, 1, 5, 4, 8 >
 Phase 2: Building multi index on Datafile: ./tests/big.train
-Start:          0 @ Thu Jan 14 09:44:46 2016
-Finished:   24474 @ Thu Jan 14 09:44:46 2016
+Start:          0 @ Mon Sep  2 15:14:11 2019
+Finished:   24474 @ Mon Sep  2 15:14:11 2019
 
 Phase 3: Learning from Datafile: ./tests/big.train
-Start:          0 @ Thu Jan 14 09:44:46 2016
-Finished:   24474 @ Thu Jan 14 09:44:46 2016
+Start:          0 @ Mon Sep  2 15:14:11 2019
+Finished:   24474 @ Mon Sep  2 15:14:11 2019
 
 Size of InstanceBase = 1456 Nodes, (58240 bytes), 99.32 % compression
-Learning took 0 seconds, 294 milliseconds and 701 microseconds
+Learning took 0 seconds, 210 milliseconds and 43 microseconds
 Examine datafile './tests/big.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -301,18 +301,18 @@ Feature 6	 : 0.195263485848034
 Feature 7	 : 0.077459834970599
 Feature 8	 : 0.011935176670302
 
-Tested:      1 @ Thu Jan 14 09:44:46 2016
-Tested:      2 @ Thu Jan 14 09:44:46 2016
-Tested:      3 @ Thu Jan 14 09:44:46 2016
-Tested:      4 @ Thu Jan 14 09:44:46 2016
-Tested:      5 @ Thu Jan 14 09:44:46 2016
-Tested:      6 @ Thu Jan 14 09:44:46 2016
-Tested:      7 @ Thu Jan 14 09:44:46 2016
-Tested:      8 @ Thu Jan 14 09:44:46 2016
-Tested:      9 @ Thu Jan 14 09:44:46 2016
-Tested:     10 @ Thu Jan 14 09:44:46 2016
-Ready:      50 @ Thu Jan 14 09:44:46 2016
-Seconds taken: 0.0007 (75987.84 p/s)
+Tested:      1 @ Mon Sep  2 15:14:11 2019
+Tested:      2 @ Mon Sep  2 15:14:11 2019
+Tested:      3 @ Mon Sep  2 15:14:11 2019
+Tested:      4 @ Mon Sep  2 15:14:11 2019
+Tested:      5 @ Mon Sep  2 15:14:11 2019
+Tested:      6 @ Mon Sep  2 15:14:11 2019
+Tested:      7 @ Mon Sep  2 15:14:11 2019
+Tested:      8 @ Mon Sep  2 15:14:11 2019
+Tested:      9 @ Mon Sep  2 15:14:11 2019
+Tested:     10 @ Mon Sep  2 15:14:11 2019
+Ready:      50 @ Mon Sep  2 15:14:11 2019
+Seconds taken: 0.0005 (97276.26 p/s)
 
 Scores per Value Class:
 class  |	TP	FP	TN	FN	precision	recall(TPR)	FPR		F-score		AUC

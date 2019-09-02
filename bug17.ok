@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:46 2016
+Mon Sep  2 15:20:03 2019
 
 Examine datafile 'tests/example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/example.train
-Start:          0 @ Thu Jan 14 09:08:46 2016
-Finished:      29 @ Thu Jan 14 09:08:46 2016
-Calculating Entropy         Thu Jan 14 09:08:46 2016
+Start:          0 @ Mon Sep  2 15:20:03 2019
+Finished:      29 @ Mon Sep  2 15:20:03 2019
+Calculating Entropy         Mon Sep  2 15:20:03 2019
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -22,27 +22,27 @@ Feats	Vals	InfoGain	GainRatio
     2      3	0.0060448141	0.0040988196
     3      4	0.044887336	0.023802575
 
-Preparation took 0 seconds, 0 milliseconds and 182 microseconds
+Preparation took 0 seconds, 0 milliseconds and 123 microseconds
 Feature Permutation based on GainRatio :
 < 1, 3, 2 >
 Phase 2: Building multi index on Datafile: tests/example.train
-Start:          0 @ Thu Jan 14 09:08:46 2016
-Finished:      29 @ Thu Jan 14 09:08:46 2016
+Start:          0 @ Mon Sep  2 15:20:03 2019
+Finished:      29 @ Mon Sep  2 15:20:03 2019
 
 Phase 3: Learning from Datafile: tests/example.train
-Start:          0 @ Thu Jan 14 09:08:46 2016
-Finished:      29 @ Thu Jan 14 09:08:46 2016
+Start:          0 @ Mon Sep  2 15:20:03 2019
+Finished:      29 @ Mon Sep  2 15:20:03 2019
 
 Size of InstanceBase = 7 Nodes, (280 bytes), 85.42 % compression
-Learning took 0 seconds, 0 milliseconds and 194 microseconds
+Learning took 0 seconds, 0 milliseconds and 180 microseconds
 Writing Instance-Base in: bug17.tree
 Saving Weights in bug17.tree.wgt
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:46 2016
+Mon Sep  2 15:20:03 2019
 
 Reading Instance-Base from: bug17.tree
 Error: Instance base doesn't contain Distributions, +D option impossible

@@ -1,22 +1,22 @@
-TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Nov 14 13:03:41 2017
+Mon Sep  2 16:08:54 2019
 
 Examine datafile './tests/sparse_string.train' gave the following results:
 Number of Features: 10
 InputFormat       : Sparse
 
 Phase 1: Reading Datafile: ./tests/sparse_string.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
 Warning: datafile, skipped line #3
 (1,test2)(4, test4)
 Warning: datafile, skipped line #5
 ( 112913242749723423040, test4) test
-Finished:       5 @ Tue Nov 14 13:03:41 2017
-Calculating Entropy         Tue Nov 14 13:03:41 2017
+Finished:       5 @ Mon Sep  2 16:08:54 2019
+Calculating Entropy         Mon Sep  2 16:08:54 2019
 Lines of data     : 3
 SkippedLines      : 2
 Warning: The following feature(s) have only 1 value: 3, 5, 7, 9-10
@@ -35,23 +35,23 @@ Feats	Vals	InfoGain	GainRatio
     9      1	0.0000000	0.0000000
    10      1	0.0000000	0.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 136 microseconds
+Preparation took 0 seconds, 0 milliseconds and 255 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 4, 6, 8, 3, 5, 7, 9, 10 >
 Phase 2: Building multi index on Datafile: ./tests/sparse_string.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
 Warning: datafile, skipped line #3
 (1,test2)(4, test4)
 Warning: datafile, skipped line #5
 ( 112913242749723423040, test4) test
-Finished:       3 @ Tue Nov 14 13:03:41 2017
+Finished:       3 @ Mon Sep  2 16:08:54 2019
 
 Phase 3: Learning from Datafile: ./tests/sparse_string.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       3 @ Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       3 @ Mon Sep  2 16:08:54 2019
 
 Size of InstanceBase = 32 Nodes, (1280 bytes), 3.03 % compression
-Learning took 0 seconds, 0 milliseconds and 81 microseconds
+Learning took 0 seconds, 0 milliseconds and 179 microseconds
 Writing Instance-Base in: sparse.tree
 Examine datafile './tests/sparse_string.test' gave the following results:
 Number of Features: 10
@@ -75,11 +75,11 @@ Feature 8	 : 1.000000000000000
 Feature 9	 : 0.000000000000000
 Feature 10	 : 0.000000000000000
 
-Tested:      1 @ Tue Nov 14 13:03:41 2017
-Tested:      2 @ Tue Nov 14 13:03:41 2017
-Tested:      3 @ Tue Nov 14 13:03:41 2017
-Ready:       3 @ Tue Nov 14 13:03:41 2017
-Seconds taken: 0.0001 (32608.70 p/s)
+Tested:      1 @ Mon Sep  2 16:08:54 2019
+Tested:      2 @ Mon Sep  2 16:08:54 2019
+Tested:      3 @ Mon Sep  2 16:08:54 2019
+Ready:       3 @ Mon Sep  2 16:08:54 2019
+Seconds taken: 0.0001 (22900.76 p/s)
 
 overall accuracy:        0.333333  (1/3), of which 2 exact matches 
 (2,test)(7,raar?)klaar,raar { raar 1.00000 }        1.0000000000000
@@ -160,12 +160,12 @@ Features
 )
 ]
 )
-TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Nov 14 13:03:41 2017
+Mon Sep  2 16:08:54 2019
 
 Reading Instance-Base from: sparse.tree
 
@@ -195,55 +195,55 @@ Feature 8	 : 1.000000000000000
 Feature 9	 : 0.000000000000000
 Feature 10	 : 0.000000000000000
 
-Tested:      1 @ Tue Nov 14 13:03:41 2017
-Tested:      2 @ Tue Nov 14 13:03:41 2017
-Tested:      3 @ Tue Nov 14 13:03:41 2017
-Ready:       3 @ Tue Nov 14 13:03:41 2017
-Seconds taken: 0.0001 (31250.00 p/s)
+Tested:      1 @ Mon Sep  2 16:08:54 2019
+Tested:      2 @ Mon Sep  2 16:08:54 2019
+Tested:      3 @ Mon Sep  2 16:08:54 2019
+Ready:       3 @ Mon Sep  2 16:08:54 2019
+Seconds taken: 0.0001 (21739.13 p/s)
 
 overall accuracy:        0.333333  (1/3), of which 2 exact matches 
 (2,test)(7,raar?)klaar,raar { raar 1.00000 }        1.0000000000000
 (1,test2)(4,test4)over,over { over 1.00000 }        0.0000000000000
 (1,test2)(4,test4)waar,over { over 1.00000 }        0.0000000000000
-TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Nov 14 13:03:41 2017
+Mon Sep  2 16:08:54 2019
 
 Error:Similarity metric D only accepts -I specifications: -m D:O3
 usage:  timbl -f data-file {-t test-file}
 or see: timbl -h
         for all possible options
 
-TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Nov 14 13:03:41 2017
+Mon Sep  2 16:08:54 2019
 
 Error:Similarity metric C only accepts -I specifications: -m C:O3
 usage:  timbl -f data-file {-t test-file}
 or see: timbl -h
         for all possible options
 
-TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Nov 14 13:03:41 2017
+Mon Sep  2 16:08:54 2019
 
 Examine datafile './tests/sparse_string_num.train' gave the following results:
 Number of Features: 9
 InputFormat       : Sparse
 
 Phase 1: Reading Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       9 @ Tue Nov 14 13:03:41 2017
-Calculating Entropy         Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       9 @ Mon Sep  2 16:08:54 2019
+Calculating Entropy         Mon Sep  2 16:08:54 2019
 Lines of data     : 8
 SkippedLines      : 1
 DB Entropy        : 2.5000000
@@ -260,19 +260,19 @@ Feats	Vals	InfoGain	GainRatio
     8      2	0.81127812	1.0000000 NUMERIC
     9      2	0.29356444	0.54007293 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 209 microseconds
+Preparation took 0 seconds, 0 milliseconds and 329 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 4, 5, 7, 8, 2, 9, 6, 3 >
 Phase 2: Building multi index on Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       8 @ Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       8 @ Mon Sep  2 16:08:54 2019
 
 Phase 3: Learning from Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       8 @ Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       8 @ Mon Sep  2 16:08:54 2019
 
 Size of InstanceBase = 35 Nodes, (1400 bytes), 22.22 % compression
-Learning took 0 seconds, 0 milliseconds and 149 microseconds
+Learning took 0 seconds, 0 milliseconds and 240 microseconds
 Examine datafile './tests/sparse_string_num.test' gave the following results:
 Number of Features: 9
 InputFormat       : Sparse
@@ -295,32 +295,32 @@ Feature 7	 : 1.000000000000000
 Feature 8	 : 1.000000000000000
 Feature 9	 : 0.540072933158727
 
-Tested:      1 @ Tue Nov 14 13:03:41 2017
-Tested:      2 @ Tue Nov 14 13:03:41 2017
-Tested:      3 @ Tue Nov 14 13:03:41 2017
-Ready:       3 @ Tue Nov 14 13:03:41 2017
-Seconds taken: 0.0004 (8310.25 p/s)
+Tested:      1 @ Mon Sep  2 16:08:54 2019
+Tested:      2 @ Mon Sep  2 16:08:54 2019
+Tested:      3 @ Mon Sep  2 16:08:54 2019
+Ready:       3 @ Mon Sep  2 16:08:54 2019
+Seconds taken: 0.0006 (4709.58 p/s)
 
 overall accuracy:        0.333333  (1/3)
 There were 2 ties of which 1 (50.00%) were correctly resolved
 (2,3)(7,88)klaar,mies { mies 2.00000 }        0.99999979510903
 (1,2)(4,4)over,over { over 1.00000, wim 1.00000 }        0.99999999068677
 (1,2)(4,4)waar,over { over 1.00000, wim 1.00000 }        0.99999999068677
-TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Nov 14 13:03:41 2017
+Mon Sep  2 16:08:54 2019
 
 Examine datafile './tests/sparse_string_num.train' gave the following results:
 Number of Features: 9
 InputFormat       : Sparse
 
 Phase 1: Reading Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       9 @ Tue Nov 14 13:03:41 2017
-Calculating Entropy         Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       9 @ Mon Sep  2 16:08:54 2019
+Calculating Entropy         Mon Sep  2 16:08:54 2019
 Lines of data     : 8
 SkippedLines      : 1
 DB Entropy        : 2.5000000
@@ -337,19 +337,19 @@ Feats	Vals	InfoGain	GainRatio
     8      2	0.81127812	1.0000000 NUMERIC
     9      2	0.29356444	0.54007293 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 202 microseconds
+Preparation took 0 seconds, 0 milliseconds and 311 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 4, 5, 7, 8, 2, 9, 6, 3 >
 Phase 2: Building multi index on Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       8 @ Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       8 @ Mon Sep  2 16:08:54 2019
 
 Phase 3: Learning from Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       8 @ Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       8 @ Mon Sep  2 16:08:54 2019
 
 Size of InstanceBase = 35 Nodes, (1400 bytes), 22.22 % compression
-Learning took 0 seconds, 0 milliseconds and 139 microseconds
+Learning took 0 seconds, 0 milliseconds and 128 microseconds
 Examine datafile './tests/sparse_string_num.test' gave the following results:
 Number of Features: 9
 InputFormat       : Sparse
@@ -372,32 +372,32 @@ Feature 7	 : 1.000000000000000
 Feature 8	 : 1.000000000000000
 Feature 9	 : 0.540072933158727
 
-Tested:      1 @ Tue Nov 14 13:03:41 2017
-Tested:      2 @ Tue Nov 14 13:03:41 2017
-Tested:      3 @ Tue Nov 14 13:03:41 2017
-Ready:       3 @ Tue Nov 14 13:03:41 2017
-Seconds taken: 0.0009 (3452.24 p/s)
+Tested:      1 @ Mon Sep  2 16:08:54 2019
+Tested:      2 @ Mon Sep  2 16:08:54 2019
+Tested:      3 @ Mon Sep  2 16:08:54 2019
+Ready:       3 @ Mon Sep  2 16:08:54 2019
+Seconds taken: 0.0008 (3947.37 p/s)
 
 overall accuracy:        0.333333  (1/3), of which 2 exact matches 
 There were 2 ties of which 1 (50.00%) were correctly resolved
 (2,3)(7,88)klaar,mies { mies 2.00000 }        0.059242076714429
 (1,2)(4,4)over,over { over 1.00000, wim 1.00000 }        0.0000000000000
 (1,2)(4,4)waar,over { over 1.00000, wim 1.00000 }        0.0000000000000
-TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Nov 14 13:03:41 2017
+Mon Sep  2 16:08:54 2019
 
 Examine datafile './tests/sparse_string_num.train' gave the following results:
 Number of Features: 9
 InputFormat       : Sparse
 
 Phase 1: Reading Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       9 @ Tue Nov 14 13:03:41 2017
-Calculating Entropy         Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       9 @ Mon Sep  2 16:08:54 2019
+Calculating Entropy         Mon Sep  2 16:08:54 2019
 Lines of data     : 8
 SkippedLines      : 1
 DB Entropy        : 2.5000000
@@ -414,19 +414,19 @@ Feats	Vals	InfoGain	GainRatio
     8      2	0.81127812	1.0000000 NUMERIC
     9      2	0.29356444	0.54007293 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 223 microseconds
+Preparation took 0 seconds, 0 milliseconds and 170 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 4, 5, 7, 8, 2, 9, 6 >
 Phase 2: Building multi index on Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       8 @ Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       8 @ Mon Sep  2 16:08:54 2019
 
 Phase 3: Learning from Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       8 @ Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       8 @ Mon Sep  2 16:08:54 2019
 
 Size of InstanceBase = 39 Nodes, (1560 bytes), 22.00 % compression
-Learning took 0 seconds, 0 milliseconds and 157 microseconds
+Learning took 0 seconds, 0 milliseconds and 121 microseconds
 Examine datafile './tests/sparse_string_num.test' gave the following results:
 Number of Features: 9
 InputFormat       : Sparse
@@ -448,32 +448,32 @@ Feature 7	 : 1.000000000000000
 Feature 8	 : 1.000000000000000
 Feature 9	 : 0.540072933158727
 
-Tested:      1 @ Tue Nov 14 13:03:41 2017
-Tested:      2 @ Tue Nov 14 13:03:41 2017
-Tested:      3 @ Tue Nov 14 13:03:41 2017
-Ready:       3 @ Tue Nov 14 13:03:41 2017
-Seconds taken: 0.0002 (15873.02 p/s)
+Tested:      1 @ Mon Sep  2 16:08:54 2019
+Tested:      2 @ Mon Sep  2 16:08:54 2019
+Tested:      3 @ Mon Sep  2 16:08:54 2019
+Ready:       3 @ Mon Sep  2 16:08:54 2019
+Seconds taken: 0.0001 (23809.52 p/s)
 
 overall accuracy:        0.000000  (0/3), of which 2 exact matches 
 There were 2 ties of which 0 (0.00%) were correctly resolved
 (2,3)(7,88)klaar,mies { mies 2.00000 }        17.543397285925
 (1,2)(4,4)over,mies { over 1.00000, wim 1.00000, mies 2.00000 }        0.0000000000000
 (1,2)(4,4)waar,mies { over 1.00000, wim 1.00000, mies 2.00000 }        0.0000000000000
-TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Nov 14 13:03:41 2017
+Mon Sep  2 16:08:54 2019
 
 Examine datafile './tests/sparse_string_num.train' gave the following results:
 Number of Features: 9
 InputFormat       : Sparse
 
 Phase 1: Reading Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       9 @ Tue Nov 14 13:03:41 2017
-Calculating Entropy         Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       9 @ Mon Sep  2 16:08:54 2019
+Calculating Entropy         Mon Sep  2 16:08:54 2019
 Lines of data     : 8
 SkippedLines      : 1
 DB Entropy        : 2.5000000
@@ -490,19 +490,19 @@ Feats	Vals	InfoGain	GainRatio
     8      2	0.81127812	1.0000000 NUMERIC
     9      2	0.29356444	0.54007293 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 226 microseconds
+Preparation took 0 seconds, 0 milliseconds and 167 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 4, 5, 7, 8, 2, 9, 6 >
 Phase 2: Building multi index on Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       8 @ Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       8 @ Mon Sep  2 16:08:54 2019
 
 Phase 3: Learning from Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       8 @ Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       8 @ Mon Sep  2 16:08:54 2019
 
 Size of InstanceBase = 39 Nodes, (1560 bytes), 22.00 % compression
-Learning took 0 seconds, 0 milliseconds and 268 microseconds
+Learning took 0 seconds, 0 milliseconds and 128 microseconds
 Examine datafile './tests/sparse_string_num.test' gave the following results:
 Number of Features: 9
 InputFormat       : Sparse
@@ -524,32 +524,32 @@ Feature 7	 : 1.000000000000000
 Feature 8	 : 1.000000000000000
 Feature 9	 : 0.540072933158727
 
-Tested:      1 @ Tue Nov 14 13:03:41 2017
-Tested:      2 @ Tue Nov 14 13:03:41 2017
-Tested:      3 @ Tue Nov 14 13:03:41 2017
-Ready:       3 @ Tue Nov 14 13:03:41 2017
-Seconds taken: 0.0004 (6928.41 p/s)
+Tested:      1 @ Mon Sep  2 16:08:54 2019
+Tested:      2 @ Mon Sep  2 16:08:54 2019
+Tested:      3 @ Mon Sep  2 16:08:54 2019
+Ready:       3 @ Mon Sep  2 16:08:54 2019
+Seconds taken: 0.0003 (8928.57 p/s)
 
 overall accuracy:        0.333333  (1/3)
 There were 2 ties of which 1 (50.00%) were correctly resolved
 (2,3)(7,88)klaar,mies { mies 2.00000 }        0.99999979510903
 (1,2)(4,4)over,over { over 1.00000, wim 1.00000 }        0.99999999068677
 (1,2)(4,4)waar,over { over 1.00000, wim 1.00000 }        0.99999999068677
-TiMBL 6.5 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Nov 14 13:03:41 2017
+Mon Sep  2 16:08:54 2019
 
 Examine datafile './tests/sparse_string_num.train' gave the following results:
 Number of Features: 9
 InputFormat       : Sparse
 
 Phase 1: Reading Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       9 @ Tue Nov 14 13:03:41 2017
-Calculating Entropy         Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       9 @ Mon Sep  2 16:08:54 2019
+Calculating Entropy         Mon Sep  2 16:08:54 2019
 Lines of data     : 8
 SkippedLines      : 1
 DB Entropy        : 2.5000000
@@ -566,19 +566,19 @@ Feats	Vals	InfoGain	GainRatio
     8      2	0.81127812	1.0000000 NUMERIC
     9      2	0.29356444	0.54007293 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 242 microseconds
+Preparation took 0 seconds, 0 milliseconds and 166 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 4, 5, 7, 8, 2, 9, 6 >
 Phase 2: Building multi index on Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       8 @ Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       8 @ Mon Sep  2 16:08:54 2019
 
 Phase 3: Learning from Datafile: ./tests/sparse_string_num.train
-Start:          0 @ Tue Nov 14 13:03:41 2017
-Finished:       8 @ Tue Nov 14 13:03:41 2017
+Start:          0 @ Mon Sep  2 16:08:54 2019
+Finished:       8 @ Mon Sep  2 16:08:54 2019
 
 Size of InstanceBase = 39 Nodes, (1560 bytes), 22.00 % compression
-Learning took 0 seconds, 0 milliseconds and 130 microseconds
+Learning took 0 seconds, 0 milliseconds and 121 microseconds
 Examine datafile './tests/sparse_string_num.test' gave the following results:
 Number of Features: 9
 InputFormat       : Sparse
@@ -600,11 +600,11 @@ Feature 7	 : 1.000000000000000
 Feature 8	 : 1.000000000000000
 Feature 9	 : 0.540072933158727
 
-Tested:      1 @ Tue Nov 14 13:03:41 2017
-Tested:      2 @ Tue Nov 14 13:03:41 2017
-Tested:      3 @ Tue Nov 14 13:03:41 2017
-Ready:       3 @ Tue Nov 14 13:03:41 2017
-Seconds taken: 0.0008 (3726.71 p/s)
+Tested:      1 @ Mon Sep  2 16:08:54 2019
+Tested:      2 @ Mon Sep  2 16:08:54 2019
+Tested:      3 @ Mon Sep  2 16:08:54 2019
+Ready:       3 @ Mon Sep  2 16:08:54 2019
+Seconds taken: 0.0012 (2500.00 p/s)
 
 overall accuracy:        0.333333  (1/3), of which 2 exact matches 
 There were 2 ties of which 1 (50.00%) were correctly resolved

@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:49:51 2016
+Mon Sep  2 15:19:55 2019
 
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/dimin.train
-Start:          0 @ Thu Jan 14 09:49:51 2016
-Finished:    2999 @ Thu Jan 14 09:49:51 2016
-Calculating Entropy         Thu Jan 14 09:49:51 2016
+Start:          0 @ Mon Sep  2 15:19:55 2019
+Finished:    2999 @ Mon Sep  2 15:19:55 2019
+Calculating Entropy         Mon Sep  2 15:19:55 2019
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -31,16 +31,16 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 11 milliseconds and 737 microseconds
+Preparation took 0 seconds, 6 milliseconds and 984 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: ./tests/dimin.train
-Start:          0 @ Thu Jan 14 09:49:51 2016
-Finished:    2999 @ Thu Jan 14 09:49:51 2016
+Start:          0 @ Mon Sep  2 15:19:55 2019
+Finished:    2999 @ Mon Sep  2 15:19:55 2019
 
 Phase 3: Learning from Datafile: ./tests/dimin.train
-Start:          0 @ Thu Jan 14 09:49:51 2016
-Finished:    2999 @ Thu Jan 14 09:49:51 2016
+Start:          0 @ Mon Sep  2 15:19:55 2019
+Finished:    2999 @ Mon Sep  2 15:19:55 2019
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
 branching info:
@@ -59,23 +59,23 @@ branching info:
       11 |       2 |      2733 |      2733 |         0 |      1.08 |      0.00
       12 |       6 |      2945 |         0 |      2945 |      0.00 |      0.00
 total: nodes = 16287 endnodes = 2945 factor = 5.53
-Learning took 0 seconds, 25 milliseconds and 345 microseconds
+Learning took 0 seconds, 16 milliseconds and 673 microseconds
 Writing Instance-Base in: tree
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:49:51 2016
+Mon Sep  2 15:19:55 2019
 
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/dimin.train
-Start:          0 @ Thu Jan 14 09:49:51 2016
-Finished:    2999 @ Thu Jan 14 09:49:51 2016
-Calculating Entropy         Thu Jan 14 09:49:51 2016
+Start:          0 @ Mon Sep  2 15:19:55 2019
+Finished:    2999 @ Mon Sep  2 15:19:55 2019
+Calculating Entropy         Mon Sep  2 15:19:55 2019
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -94,16 +94,16 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 11 milliseconds and 195 microseconds
+Preparation took 0 seconds, 5 milliseconds and 299 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 Phase 2: Building multi index on Datafile: ./tests/dimin.train
-Start:          0 @ Thu Jan 14 09:49:51 2016
-Finished:    2999 @ Thu Jan 14 09:49:51 2016
+Start:          0 @ Mon Sep  2 15:19:55 2019
+Finished:    2999 @ Mon Sep  2 15:19:55 2019
 
 Phase 3: Learning from Datafile: ./tests/dimin.train
-Start:          0 @ Thu Jan 14 09:49:51 2016
-Finished:    2999 @ Thu Jan 14 09:49:51 2016
+Start:          0 @ Mon Sep  2 15:19:55 2019
+Finished:    2999 @ Mon Sep  2 15:19:55 2019
 
 Size of InstanceBase = 191 Nodes, (7640 bytes), 99.50 % compression
 branching info:
@@ -121,6 +121,6 @@ branching info:
       10 |       1 |         2 |         2 |         0 |      1.50 |      0.00
       11 |       6 |         3 |         0 |         3 |      0.00 |      0.00
 total: nodes = 192 endnodes = 85 factor = 2.26
-Learning took 0 seconds, 26 milliseconds and 979 microseconds
+Learning took 0 seconds, 18 milliseconds and 272 microseconds
 Writing Instance-Base in: tree
 Saving Weights in tree.wgt

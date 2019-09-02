@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:55 2016
+Mon Sep  2 15:22:38 2019
 
 Examine datafile 'tests/bug39a.train' gave the following results:
 Number of Features: 1
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
-Calculating Entropy         Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
+Calculating Entropy         Mon Sep  2 15:22:38 2019
 Lines of data     : 9
 DB Entropy        : 0.91829583
 Number of Classes : 2
@@ -20,19 +20,19 @@ Number of Classes : 2
 Feats	Vals	InfoGain	GainRatio
     1      4	0.25162917	0.14356534
 
-Preparation took 0 seconds, 0 milliseconds and 68 microseconds
+Preparation took 0 seconds, 0 milliseconds and 94 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1 >
 Phase 2: Building index on Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
 
 Phase 3: Learning from Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
 
 Size of InstanceBase = 8 Nodes, (320 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 67 microseconds
+Learning took 0 seconds, 0 milliseconds and 85 microseconds
 Writing Instance-Base in: tree0
 # Status: complete
 # Permutation: < 1 >
@@ -55,21 +55,21 @@ Features
 ,4(2{ 2 1 })
 ]
 )
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:55 2016
+Mon Sep  2 15:22:38 2019
 
 Examine datafile 'tests/bug39a.train' gave the following results:
 Number of Features: 1
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
-Calculating Entropy         Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
+Calculating Entropy         Mon Sep  2 15:22:38 2019
 Lines of data     : 9
 DB Entropy        : 0.91829583
 Number of Classes : 2
@@ -77,19 +77,19 @@ Number of Classes : 2
 Feats	Vals	InfoGain	GainRatio
     1      4	0.25162917	0.14356534
 
-Preparation took 0 seconds, 0 milliseconds and 74 microseconds
+Preparation took 0 seconds, 0 milliseconds and 91 microseconds
 Feature Permutation based on GainRatio :
 < 1 >
 Phase 2: Building index on Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
 
 Phase 3: Learning from Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
 
 Size of InstanceBase = 1 Nodes, (40 bytes), 87.50 % compression
-Learning took 0 seconds, 0 milliseconds and 73 microseconds
+Learning took 0 seconds, 0 milliseconds and 93 microseconds
 Writing Instance-Base in: tree1
 Saving Weights in tree1.wgt
 # Status: pruned
@@ -110,21 +110,21 @@ Features
 (2{ 1 3, 2 6 }[1(1{ 1 2, 2 1 })
 ]
 )
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:55 2016
+Mon Sep  2 15:22:38 2019
 
 Examine datafile 'tests/bug39a.train' gave the following results:
 Number of Features: 1
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
-Calculating Entropy         Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
+Calculating Entropy         Mon Sep  2 15:22:38 2019
 Lines of data     : 9
 DB Entropy        : 0.91829583
 Number of Classes : 2
@@ -132,19 +132,19 @@ Number of Classes : 2
 Feats	Vals	InfoGain	GainRatio
     1      4	0.25162917	0.14356534
 
-Preparation took 0 seconds, 0 milliseconds and 60 microseconds
+Preparation took 0 seconds, 0 milliseconds and 136 microseconds
 Feature Permutation based on GainRatio :
 < 1 >
 Phase 2: Building index on Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
 
 Phase 3: Learning from Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
 
 Size of InstanceBase = 8 Nodes, (320 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 70 microseconds
+Learning took 0 seconds, 0 milliseconds and 135 microseconds
 Writing Instance-Base in: tree2
 # Status: complete
 # Permutation: < 1 >
@@ -167,21 +167,21 @@ Features
 ,4(2{ 2 1 })
 ]
 )
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:55 2016
+Mon Sep  2 15:22:38 2019
 
 Examine datafile 'tests/bug39a.train' gave the following results:
 Number of Features: 1
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
-Calculating Entropy         Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
+Calculating Entropy         Mon Sep  2 15:22:38 2019
 Lines of data     : 9
 DB Entropy        : 0.91829583
 Number of Classes : 2
@@ -189,19 +189,19 @@ Number of Classes : 2
 Feats	Vals	InfoGain	GainRatio
     1      4	0.25162917	0.14356534
 
-Preparation took 0 seconds, 0 milliseconds and 114 microseconds
+Preparation took 0 seconds, 0 milliseconds and 84 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1 >
 Phase 2: Learning from Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       4 @ Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       4 @ Mon Sep  2 15:22:38 2019
 
 Size of InstanceBase = 4 Nodes, (160 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 28 microseconds
+Learning took 0 seconds, 0 milliseconds and 22 microseconds
 Phase 2: Appending from Datafile: tests/bug39a.train (starting at line 5)
-Start:          5 @ Thu Jan 14 09:08:55 2016
-Learning:       4 @ Thu Jan 14 09:08:55 2016	 added:2
-Finished:       4 @ Thu Jan 14 09:08:55 2016
+Start:          5 @ Mon Sep  2 15:22:38 2019
+Learning:       4 @ Mon Sep  2 15:22:38 2019	 added:2
+Finished:       4 @ Mon Sep  2 15:22:38 2019
 in total added 2 new entries
 
 Size of InstanceBase = 4 Nodes, (160 bytes), 0.00 % compression
@@ -231,21 +231,21 @@ Features
 ,2(2{ 1 1, 2 2 })
 ]
 )
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:55 2016
+Mon Sep  2 15:22:38 2019
 
 Examine datafile 'tests/bug39a.train' gave the following results:
 Number of Features: 1
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
-Calculating Entropy         Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
+Calculating Entropy         Mon Sep  2 15:22:38 2019
 Lines of data     : 9
 DB Entropy        : 0.91829583
 Number of Classes : 2
@@ -253,19 +253,19 @@ Number of Classes : 2
 Feats	Vals	InfoGain	GainRatio
     1      4	0.25162917	0.14356534
 
-Preparation took 0 seconds, 0 milliseconds and 61 microseconds
+Preparation took 0 seconds, 0 milliseconds and 92 microseconds
 Feature Permutation based on GainRatio :
 < 1 >
 Phase 2: Building index on Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
 
 Phase 3: Learning from Datafile: tests/bug39a.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
 
 Size of InstanceBase = 8 Nodes, (320 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 67 microseconds
+Learning took 0 seconds, 0 milliseconds and 96 microseconds
 Writing Instance-Base in: tree4
 # Status: complete
 # Permutation: < 1 >

@@ -1,20 +1,20 @@
-TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Sep 20 12:21:07 2017
+Mon Sep  2 16:01:03 2019
 
 Examine datafile './tests/compact.train' gave the following results:
 Number of Features: 5
 InputFormat       : Compact, (Feature Length = 1)
 
 Phase 1: Reading Datafile: ./tests/compact.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
 Warning: datafile, skipped line #4
 klmno04
-Finished:       4 @ Wed Sep 20 12:21:07 2017
-Calculating Entropy         Wed Sep 20 12:21:07 2017
+Finished:       4 @ Mon Sep  2 16:01:03 2019
+Calculating Entropy         Mon Sep  2 16:01:03 2019
 Lines of data     : 3
 SkippedLines      : 1
 Warning: The following feature(s) have only 1 value: 5
@@ -28,28 +28,28 @@ Feats	Vals	InfoGain	GainRatio
     4      3	1.5849625	1.0000000
     5      1	0.0000000	0.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 86 microseconds
+Preparation took 0 seconds, 0 milliseconds and 133 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 3, 4, 5 >
 Phase 2: Building multi index on Datafile: ./tests/compact.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
 Warning: datafile, skipped line #4
 klmno04
-Finished:       3 @ Wed Sep 20 12:21:07 2017
+Finished:       3 @ Mon Sep  2 16:01:03 2019
 
 Phase 3: Learning from Datafile: ./tests/compact.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
-Finished:       3 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
+Finished:       3 @ Mon Sep  2 16:01:03 2019
 
 Size of InstanceBase = 18 Nodes, (720 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 56 microseconds
+Learning took 0 seconds, 0 milliseconds and 101 microseconds
 Writing Instance-Base in: compact.tree
-TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Sep 20 12:21:07 2017
+Mon Sep  2 16:01:03 2019
 
 Reading Instance-Base from: compact.tree
 
@@ -74,27 +74,27 @@ Feature 3	 : 1.000000000000000
 Feature 4	 : 1.000000000000000
 Feature 5	 : 0.000000000000000
 
-Tested:      1 @ Wed Sep 20 12:21:07 2017
-Tested:      2 @ Wed Sep 20 12:21:07 2017
-Ready:       2 @ Wed Sep 20 12:21:07 2017
-Seconds taken: 0.0001 (38461.54 p/s)
+Tested:      1 @ Mon Sep  2 16:01:03 2019
+Tested:      2 @ Mon Sep  2 16:01:03 2019
+Ready:       2 @ Mon Sep  2 16:01:03 2019
+Seconds taken: 0.0001 (24390.24 p/s)
 
 overall accuracy:        0.500000  (1/2), of which 2 exact matches 
 abcd011 { 1 1.00000 }        0.0000000000000
 ghij023 { 3 1.00000 }        0.0000000000000
-TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Sep 20 12:21:07 2017
+Mon Sep  2 16:01:03 2019
 
 Examine datafile './tests/ARFF.train' gave the following results:
 Number of Features: 1
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/ARFF.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
 Warning: datafile, skipped line #2
 @data
 Warning: datafile, skipped line #4
@@ -109,8 +109,8 @@ Warning: datafile, skipped line #8
 ok,o.k.,goed,5.
 Warning: datafile, skipped line #9
 te,kort,6.
-Finished:       9 @ Wed Sep 20 12:21:07 2017
-Calculating Entropy         Wed Sep 20 12:21:07 2017
+Finished:       9 @ Mon Sep  2 16:01:03 2019
+Calculating Entropy         Mon Sep  2 16:01:03 2019
 Lines of data     : 1
 SkippedLines      : 8
 Warning: The following feature(s) have only 1 value: 1
@@ -120,12 +120,12 @@ Number of Classes : 1
 Feats	Vals	InfoGain	GainRatio
     1      1	0.0000000	0.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 85 microseconds
+Preparation took 0 seconds, 0 milliseconds and 234 microseconds
 Warning: Training file contains only 1 class.
 Feature Permutation based on GainRatio/Values :
 < 1 >
 Phase 2: Building index on Datafile: ./tests/ARFF.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
 Warning: datafile, skipped line #2
 @data
 Warning: datafile, skipped line #4
@@ -140,21 +140,21 @@ Warning: datafile, skipped line #8
 ok,o.k.,goed,5.
 Warning: datafile, skipped line #9
 te,kort,6.
-Finished:       1 @ Wed Sep 20 12:21:07 2017
+Finished:       1 @ Mon Sep  2 16:01:03 2019
 
 Phase 3: Learning from Datafile: ./tests/ARFF.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
-Finished:       1 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
+Finished:       1 @ Mon Sep  2 16:01:03 2019
 
 Size of InstanceBase = 2 Nodes, (80 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 78 microseconds
+Learning took 0 seconds, 0 milliseconds and 265 microseconds
 Writing Instance-Base in: ARFF1.tree
-TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Sep 20 12:21:07 2017
+Mon Sep  2 16:01:03 2019
 
 Reading Instance-Base from: ARFF1.tree
 
@@ -175,7 +175,7 @@ Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 Feature 1	 : 0.000000000000000
 
-Tested:      1 @ Wed Sep 20 12:21:07 2017
+Tested:      1 @ Mon Sep  2 16:01:03 2019
 Warning: testfile, skipped line #2
 aap,noot,mies,1
 Warning: testfile, skipped line #3
@@ -184,30 +184,30 @@ Warning: testfile, skipped line #5
 aap,noot,mies,2
 Warning: testfile, skipped line #6
 wim,zus,Jet,3.
-Ready:       1 @ Wed Sep 20 12:21:07 2017
-Seconds taken: 0.0001 (20000.00 p/s)
+Ready:       1 @ Mon Sep  2 16:01:03 2019
+Seconds taken: 0.0001 (15384.62 p/s)
 
 overall accuracy:        1.000000  (1/1), of which 1 exact matches 
 % bla bla { bla 1.00000 }        0.0000000000000
-TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Sep 20 12:21:07 2017
+Mon Sep  2 16:01:03 2019
 
 Examine datafile './tests/ARFF.train' gave the following results:
 Number of Features: 3
 InputFormat       : ARFF
 
 Phase 1: Reading Datafile: ./tests/ARFF.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
 Warning: datafile, skipped line #6
 dit,is,te,lang,4.
 Warning: datafile, skipped line #8
 te,kort,6.
-Finished:       8 @ Wed Sep 20 12:21:07 2017
-Calculating Entropy         Wed Sep 20 12:21:07 2017
+Finished:       8 @ Mon Sep  2 16:01:03 2019
+Calculating Entropy         Mon Sep  2 16:01:03 2019
 Lines of data     : 4
 SkippedLines      : 4
 DB Entropy        : 2.0000000
@@ -218,30 +218,30 @@ Feats	Vals	InfoGain	GainRatio
     2      4	2.0000000	1.0000000
     3      4	2.0000000	1.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 69 microseconds
+Preparation took 0 seconds, 0 milliseconds and 129 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 3 >
 Phase 2: Building multi index on Datafile: ./tests/ARFF.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
 Warning: datafile, skipped line #6
 dit,is,te,lang,4.
 Warning: datafile, skipped line #8
 te,kort,6.
-Finished:       4 @ Wed Sep 20 12:21:07 2017
+Finished:       4 @ Mon Sep  2 16:01:03 2019
 
 Phase 3: Learning from Datafile: ./tests/ARFF.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
-Finished:       4 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
+Finished:       4 @ Mon Sep  2 16:01:03 2019
 
 Size of InstanceBase = 16 Nodes, (640 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 66 microseconds
+Learning took 0 seconds, 0 milliseconds and 103 microseconds
 Writing Instance-Base in: ARFF2.tree
-TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Sep 20 12:21:07 2017
+Mon Sep  2 16:01:03 2019
 
 Reading Instance-Base from: ARFF2.tree
 
@@ -263,33 +263,33 @@ Feature 1	 : 1.000000000000000
 Feature 2	 : 1.000000000000000
 Feature 3	 : 1.000000000000000
 
-Tested:      1 @ Wed Sep 20 12:21:07 2017
-Tested:      2 @ Wed Sep 20 12:21:07 2017
-Ready:       2 @ Wed Sep 20 12:21:07 2017
-Seconds taken: 0.0000 (40816.33 p/s)
+Tested:      1 @ Mon Sep  2 16:01:03 2019
+Tested:      2 @ Mon Sep  2 16:01:03 2019
+Ready:       2 @ Mon Sep  2 16:01:03 2019
+Seconds taken: 0.0001 (30303.03 p/s)
 
 overall accuracy:        0.000000  (0/2), of which 2 exact matches 
 aap,noot,mies,2,1 { 1 1.00000 }        0.0000000000000
 wim,zus,Jet,3,2 { 2 1.00000 }        0.0000000000000
-TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Sep 20 12:21:07 2017
+Mon Sep  2 16:01:03 2019
 
 Examine datafile './tests/c45example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/c45example.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
 Warning: datafile, skipped line #5
 dit,is,te,lang,4.
 Warning: datafile, skipped line #7
 te,kort,6.
-Finished:       7 @ Wed Sep 20 12:21:07 2017
-Calculating Entropy         Wed Sep 20 12:21:07 2017
+Finished:       7 @ Mon Sep  2 16:01:03 2019
+Calculating Entropy         Mon Sep  2 16:01:03 2019
 Lines of data     : 5
 SkippedLines      : 2
 DB Entropy        : 2.3219281
@@ -300,30 +300,30 @@ Feats	Vals	InfoGain	GainRatio
     2      4	1.9219281	1.0000000
     3      5	2.3219281	1.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 78 microseconds
+Preparation took 0 seconds, 0 milliseconds and 92 microseconds
 Feature Permutation based on GainRatio/Values :
 < 2, 1, 3 >
 Phase 2: Building multi index on Datafile: ./tests/c45example.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
 Warning: datafile, skipped line #5
 dit,is,te,lang,4.
 Warning: datafile, skipped line #7
 te,kort,6.
-Finished:       5 @ Wed Sep 20 12:21:07 2017
+Finished:       5 @ Mon Sep  2 16:01:03 2019
 
 Phase 3: Learning from Datafile: ./tests/c45example.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
-Finished:       5 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
+Finished:       5 @ Mon Sep  2 16:01:03 2019
 
 Size of InstanceBase = 19 Nodes, (760 bytes), 5.00 % compression
-Learning took 0 seconds, 0 milliseconds and 71 microseconds
+Learning took 0 seconds, 0 milliseconds and 82 microseconds
 Writing Instance-Base in: c45.tree
-TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Sep 20 12:21:07 2017
+Mon Sep  2 16:01:03 2019
 
 Reading Instance-Base from: c45.tree
 
@@ -345,29 +345,29 @@ Feature 1	 : 1.000000000000000
 Feature 2	 : 1.000000000000000
 Feature 3	 : 1.000000000000000
 
-Tested:      1 @ Wed Sep 20 12:21:07 2017
-Tested:      2 @ Wed Sep 20 12:21:07 2017
-Ready:       2 @ Wed Sep 20 12:21:07 2017
-Seconds taken: 0.0001 (38461.54 p/s)
+Tested:      1 @ Mon Sep  2 16:01:03 2019
+Tested:      2 @ Mon Sep  2 16:01:03 2019
+Ready:       2 @ Mon Sep  2 16:01:03 2019
+Seconds taken: 0.0001 (32258.06 p/s)
 
 overall accuracy:        0.500000  (1/2), of which 1 exact matches 
 aap,noot,moose,1,1 { 1 1.00000 }        1.0000000000000
 ok,o.k.,goed,6,5 { 5 1.00000 }        0.0000000000000
-TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Sep 20 12:21:07 2017
+Mon Sep  2 16:01:03 2019
 
 Examine datafile './tests/columns.train' gave the following results:
 Number of Features: 4
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/columns.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
-Finished:       5 @ Wed Sep 20 12:21:07 2017
-Calculating Entropy         Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
+Finished:       5 @ Mon Sep  2 16:01:03 2019
+Calculating Entropy         Mon Sep  2 16:01:03 2019
 Lines of data     : 5
 DB Entropy        : 1.5219281
 Number of Classes : 3
@@ -378,26 +378,26 @@ Feats	Vals	InfoGain	GainRatio
     3      4	1.1219281	0.58375134
     4      3	0.72192809	0.47435099
 
-Preparation took 0 seconds, 0 milliseconds and 64 microseconds
+Preparation took 0 seconds, 0 milliseconds and 98 microseconds
 Feature Permutation based on GainRatio/Values :
 < 4, 1, 2, 3 >
 Phase 2: Building multi index on Datafile: ./tests/columns.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
-Finished:       5 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
+Finished:       5 @ Mon Sep  2 16:01:03 2019
 
 Phase 3: Learning from Datafile: ./tests/columns.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
-Finished:       5 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
+Finished:       5 @ Mon Sep  2 16:01:03 2019
 
 Size of InstanceBase = 19 Nodes, (760 bytes), 5.00 % compression
-Learning took 0 seconds, 0 milliseconds and 58 microseconds
+Learning took 0 seconds, 0 milliseconds and 89 microseconds
 Writing Instance-Base in: columns.tree
-TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Sep 20 12:21:07 2017
+Mon Sep  2 16:01:03 2019
 
 Reading Instance-Base from: columns.tree
 
@@ -420,32 +420,32 @@ Feature 2	 : 0.583751336937043
 Feature 3	 : 0.583751336937043
 Feature 4	 : 0.474350987614032
 
-Tested:      1 @ Wed Sep 20 12:21:07 2017
+Tested:      1 @ Mon Sep  2 16:01:03 2019
 Warning: testfile, skipped line #2
 !commentaar
-Tested:      2 @ Wed Sep 20 12:21:07 2017
-Ready:       2 @ Wed Sep 20 12:21:07 2017
-Seconds taken: 0.0001 (31250.00 p/s)
+Tested:      2 @ Mon Sep  2 16:01:03 2019
+Ready:       2 @ Mon Sep  2 16:01:03 2019
+Seconds taken: 0.0001 (24096.39 p/s)
 
 overall accuracy:        0.000000  (0/2), of which 2 exact matches 
 There was 1 tie of which 0 (0.00%) was correctly resolved
 a b c d 2 1 { 1 1.00000, . 1.00000 }        0.0000000000000
 d e f j 1 2 { 2 1.00000 }        0.0000000000000
-TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Sep 20 12:21:07 2017
+Mon Sep  2 16:01:03 2019
 
 Examine datafile './tests/tabbed.train' gave the following results:
 Number of Features: 3
 InputFormat       : Tabbed
 
 Phase 1: Reading Datafile: ./tests/tabbed.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
-Finished:       6 @ Wed Sep 20 12:21:07 2017
-Calculating Entropy         Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
+Finished:       6 @ Mon Sep  2 16:01:03 2019
+Calculating Entropy         Mon Sep  2 16:01:03 2019
 Lines of data     : 6
 DB Entropy        : 1.9182958
 Number of Classes : 4
@@ -455,26 +455,26 @@ Feats	Vals	InfoGain	GainRatio
     2      5	1.5849625	0.70391809
     3      3	1.4591479	1.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 63 microseconds
+Preparation took 0 seconds, 0 milliseconds and 132 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 2 >
 Phase 2: Building multi index on Datafile: ./tests/tabbed.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
-Finished:       6 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
+Finished:       6 @ Mon Sep  2 16:01:03 2019
 
 Phase 3: Learning from Datafile: ./tests/tabbed.train
-Start:          0 @ Wed Sep 20 12:21:07 2017
-Finished:       6 @ Wed Sep 20 12:21:07 2017
+Start:          0 @ Mon Sep  2 16:01:03 2019
+Finished:       6 @ Mon Sep  2 16:01:03 2019
 
 Size of InstanceBase = 19 Nodes, (760 bytes), 20.83 % compression
-Learning took 0 seconds, 0 milliseconds and 64 microseconds
+Learning took 0 seconds, 0 milliseconds and 124 microseconds
 Writing Instance-Base in: tabbed.tree
-TiMBL 6.4.10 (c) CLST/ILK/CLIPS 1998 - 2017.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Sep 20 12:21:07 2017
+Mon Sep  2 16:01:03 2019
 
 Reading Instance-Base from: tabbed.tree
 
@@ -496,13 +496,13 @@ Feature 1	 : 1.000000000000000
 Feature 2	 : 0.703918089034135
 Feature 3	 : 1.000000000000000
 
-Tested:      1 @ Wed Sep 20 12:21:07 2017
-Tested:      2 @ Wed Sep 20 12:21:07 2017
-Tested:      3 @ Wed Sep 20 12:21:07 2017
-Tested:      4 @ Wed Sep 20 12:21:07 2017
-Tested:      5 @ Wed Sep 20 12:21:07 2017
-Ready:       5 @ Wed Sep 20 12:21:07 2017
-Seconds taken: 0.0001 (65789.47 p/s)
+Tested:      1 @ Mon Sep  2 16:01:03 2019
+Tested:      2 @ Mon Sep  2 16:01:03 2019
+Tested:      3 @ Mon Sep  2 16:01:03 2019
+Tested:      4 @ Mon Sep  2 16:01:03 2019
+Tested:      5 @ Mon Sep  2 16:01:03 2019
+Ready:       5 @ Mon Sep  2 16:01:03 2019
+Seconds taken: 0.0001 (58139.53 p/s)
 
 overall accuracy:        0.000000  (0/5), of which 1 exact matches 
 b	Hema	j	?	waren { waren 1.00000 }        0.70391808903413

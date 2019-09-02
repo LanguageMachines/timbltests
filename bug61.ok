@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:52 2016
+Mon Sep  2 15:22:47 2019
 
 Examine datafile './tests/oneclass.train1' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/oneclass.train1
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:      19 @ Thu Jan 14 09:19:52 2016
-Calculating Entropy         Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:      19 @ Mon Sep  2 15:22:47 2019
+Calculating Entropy         Mon Sep  2 15:22:47 2019
 Lines of data     : 19
 DB Entropy        : 0.0000000
 Number of Classes : 1
@@ -27,20 +27,20 @@ Feats	Vals	InfoGain	GainRatio
     7     11	0.0000000	0.0000000
     8     12	0.0000000	0.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 177 microseconds
+Preparation took 0 seconds, 0 milliseconds and 268 microseconds
 Warning: Training file contains only 1 class.
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 3, 4, 5, 6, 7, 8 >
 Phase 2: Building multi index on Datafile: ./tests/oneclass.train1
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:      19 @ Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:      19 @ Mon Sep  2 15:22:47 2019
 
 Phase 3: Learning from Datafile: ./tests/oneclass.train1
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:      19 @ Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:      19 @ Mon Sep  2 15:22:47 2019
 
 Size of InstanceBase = 170 Nodes, (6800 bytes), 0.58 % compression
-Learning took 0 seconds, 0 milliseconds and 246 microseconds
+Learning took 0 seconds, 0 milliseconds and 267 microseconds
 Examine datafile './tests/klein.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -61,35 +61,35 @@ Feature 6	 : 0.000000000000000
 Feature 7	 : 0.000000000000000
 Feature 8	 : 0.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:19:52 2016
-Tested:      2 @ Thu Jan 14 09:19:52 2016
-Tested:      3 @ Thu Jan 14 09:19:52 2016
-Tested:      4 @ Thu Jan 14 09:19:52 2016
-Tested:      5 @ Thu Jan 14 09:19:52 2016
-Tested:      6 @ Thu Jan 14 09:19:52 2016
-Tested:      7 @ Thu Jan 14 09:19:52 2016
-Tested:      8 @ Thu Jan 14 09:19:52 2016
-Tested:      9 @ Thu Jan 14 09:19:52 2016
-Tested:     10 @ Thu Jan 14 09:19:52 2016
-Ready:      50 @ Thu Jan 14 09:19:52 2016
-Seconds taken: 0.0007 (74074.07 p/s)
+Tested:      1 @ Mon Sep  2 15:22:47 2019
+Tested:      2 @ Mon Sep  2 15:22:47 2019
+Tested:      3 @ Mon Sep  2 15:22:47 2019
+Tested:      4 @ Mon Sep  2 15:22:47 2019
+Tested:      5 @ Mon Sep  2 15:22:47 2019
+Tested:      6 @ Mon Sep  2 15:22:47 2019
+Tested:      7 @ Mon Sep  2 15:22:47 2019
+Tested:      8 @ Mon Sep  2 15:22:47 2019
+Tested:      9 @ Mon Sep  2 15:22:47 2019
+Tested:     10 @ Mon Sep  2 15:22:47 2019
+Ready:      50 @ Mon Sep  2 15:22:47 2019
+Seconds taken: 0.0007 (70921.99 p/s)
 
 overall accuracy:        0.600000  (30/50), of which 50 exact matches 
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:52 2016
+Mon Sep  2 15:22:47 2019
 
 Examine datafile './tests/oneclass.train2' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/oneclass.train2
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:      18 @ Thu Jan 14 09:19:52 2016
-Calculating Entropy         Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:      18 @ Mon Sep  2 15:22:47 2019
+Calculating Entropy         Mon Sep  2 15:22:47 2019
 Lines of data     : 18
 DB Entropy        : 0.0000000
 Number of Classes : 1
@@ -104,20 +104,20 @@ Feats	Vals	InfoGain	GainRatio
     7     10	0.0000000	0.0000000
     8     11	0.0000000	0.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 166 microseconds
+Preparation took 0 seconds, 0 milliseconds and 189 microseconds
 Warning: Training file contains only 1 class.
 Feature Permutation based on GainRatio :
 < 1, 2, 3, 4, 5, 6, 7, 8 >
 Phase 2: Building multi index on Datafile: ./tests/oneclass.train2
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:      18 @ Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:      18 @ Mon Sep  2 15:22:47 2019
 
 Phase 3: Learning from Datafile: ./tests/oneclass.train2
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:      18 @ Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:      18 @ Mon Sep  2 15:22:47 2019
 
 Size of InstanceBase = 0 Nodes, (0 bytes), 100.00 % compression
-Learning took 0 seconds, 0 milliseconds and 220 microseconds
+Learning took 0 seconds, 0 milliseconds and 294 microseconds
 Examine datafile './tests/klein.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -136,35 +136,35 @@ Feature 6	 : 0.000000000000000
 Feature 7	 : 0.000000000000000
 Feature 8	 : 0.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:19:52 2016
-Tested:      2 @ Thu Jan 14 09:19:52 2016
-Tested:      3 @ Thu Jan 14 09:19:52 2016
-Tested:      4 @ Thu Jan 14 09:19:52 2016
-Tested:      5 @ Thu Jan 14 09:19:52 2016
-Tested:      6 @ Thu Jan 14 09:19:52 2016
-Tested:      7 @ Thu Jan 14 09:19:52 2016
-Tested:      8 @ Thu Jan 14 09:19:52 2016
-Tested:      9 @ Thu Jan 14 09:19:52 2016
-Tested:     10 @ Thu Jan 14 09:19:52 2016
-Ready:      50 @ Thu Jan 14 09:19:52 2016
-Seconds taken: 0.0004 (139664.80 p/s)
+Tested:      1 @ Mon Sep  2 15:22:47 2019
+Tested:      2 @ Mon Sep  2 15:22:47 2019
+Tested:      3 @ Mon Sep  2 15:22:47 2019
+Tested:      4 @ Mon Sep  2 15:22:47 2019
+Tested:      5 @ Mon Sep  2 15:22:47 2019
+Tested:      6 @ Mon Sep  2 15:22:47 2019
+Tested:      7 @ Mon Sep  2 15:22:47 2019
+Tested:      8 @ Mon Sep  2 15:22:47 2019
+Tested:      9 @ Mon Sep  2 15:22:47 2019
+Tested:     10 @ Mon Sep  2 15:22:47 2019
+Ready:      50 @ Mon Sep  2 15:22:47 2019
+Seconds taken: 0.0003 (179211.47 p/s)
 
 overall accuracy:        0.360000  (18/50)
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:52 2016
+Mon Sep  2 15:22:47 2019
 
 Examine datafile './tests/oneclass.train3' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/oneclass.train3
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:      19 @ Thu Jan 14 09:19:52 2016
-Calculating Entropy         Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:      19 @ Mon Sep  2 15:22:47 2019
+Calculating Entropy         Mon Sep  2 15:22:47 2019
 Lines of data     : 19
 DB Entropy        : 0.0000000
 Number of Classes : 1
@@ -179,27 +179,27 @@ Feats	Vals	InfoGain	GainRatio
     7     12	0.0000000	0.0000000
     8     12	0.0000000	0.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 168 microseconds
+Preparation took 0 seconds, 0 milliseconds and 188 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 3, 4, 5, 6, 7, 8 >
 Phase 2: Learning from Datafile: ./tests/oneclass.train3
-Start:          0 @ Thu Jan 14 09:19:52 2016
-Finished:       5 @ Thu Jan 14 09:19:52 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:       5 @ Mon Sep  2 15:22:47 2019
 
 Size of InstanceBase = 45 Nodes, (1800 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 35 microseconds
+Learning took 0 seconds, 0 milliseconds and 58 microseconds
 Phase 2: Appending from Datafile: ./tests/oneclass.train3 (starting at line 6)
-Start:          6 @ Thu Jan 14 09:19:52 2016
-Learning:       5 @ Thu Jan 14 09:19:52 2016	 added:0
-Learning:       6 @ Thu Jan 14 09:19:52 2016	 added:0
-Learning:       7 @ Thu Jan 14 09:19:52 2016	 added:0
-Learning:       8 @ Thu Jan 14 09:19:52 2016	 added:0
-Learning:       9 @ Thu Jan 14 09:19:52 2016	 added:0
-Learning:      10 @ Thu Jan 14 09:19:52 2016	 added:0
-Learning:      11 @ Thu Jan 14 09:19:52 2016	 added:0
-Learning:      12 @ Thu Jan 14 09:19:52 2016	 added:0
-Learning:      13 @ Thu Jan 14 09:19:52 2016	 added:0
-Finished:      13 @ Thu Jan 14 09:19:52 2016
+Start:          6 @ Mon Sep  2 15:22:47 2019
+Learning:       5 @ Mon Sep  2 15:22:47 2019	 added:0
+Learning:       6 @ Mon Sep  2 15:22:47 2019	 added:0
+Learning:       7 @ Mon Sep  2 15:22:47 2019	 added:0
+Learning:       8 @ Mon Sep  2 15:22:47 2019	 added:0
+Learning:       9 @ Mon Sep  2 15:22:47 2019	 added:0
+Learning:      10 @ Mon Sep  2 15:22:47 2019	 added:0
+Learning:      11 @ Mon Sep  2 15:22:47 2019	 added:0
+Learning:      12 @ Mon Sep  2 15:22:47 2019	 added:0
+Learning:      13 @ Mon Sep  2 15:22:47 2019	 added:0
+Finished:      13 @ Mon Sep  2 15:22:47 2019
 in total added 0 new entries
 
 Size of InstanceBase = 45 Nodes, (1800 bytes), 0.00 % compression
@@ -236,26 +236,26 @@ Feature 6	 : 0.000000000000000
 Feature 7	 : 0.000000000000000
 Feature 8	 : 0.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:19:52 2016
-Tested:      2 @ Thu Jan 14 09:19:52 2016
-Tested:      3 @ Thu Jan 14 09:19:52 2016
-Tested:      4 @ Thu Jan 14 09:19:52 2016
-Tested:      5 @ Thu Jan 14 09:19:52 2016
-Tested:      6 @ Thu Jan 14 09:19:52 2016
-Tested:      7 @ Thu Jan 14 09:19:52 2016
-Tested:      8 @ Thu Jan 14 09:19:52 2016
-Tested:      9 @ Thu Jan 14 09:19:52 2016
-Tested:     10 @ Thu Jan 14 09:19:52 2016
-Ready:      50 @ Thu Jan 14 09:19:52 2016
-Seconds taken: 0.0005 (98039.22 p/s)
+Tested:      1 @ Mon Sep  2 15:22:47 2019
+Tested:      2 @ Mon Sep  2 15:22:47 2019
+Tested:      3 @ Mon Sep  2 15:22:47 2019
+Tested:      4 @ Mon Sep  2 15:22:47 2019
+Tested:      5 @ Mon Sep  2 15:22:47 2019
+Tested:      6 @ Mon Sep  2 15:22:47 2019
+Tested:      7 @ Mon Sep  2 15:22:47 2019
+Tested:      8 @ Mon Sep  2 15:22:47 2019
+Tested:      9 @ Mon Sep  2 15:22:47 2019
+Tested:     10 @ Mon Sep  2 15:22:47 2019
+Ready:      50 @ Mon Sep  2 15:22:47 2019
+Seconds taken: 0.0005 (100401.61 p/s)
 
 overall accuracy:        0.040000  (2/50), of which 50 exact matches 
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:52 2016
+Mon Sep  2 15:22:47 2019
 
 Starting Cross validation test on files:
 tests/oneclass.train1
@@ -294,18 +294,18 @@ Feature 6	 : 0.160371071031225
 Feature 7	 : 0.0917563365986120
 Feature 8	 : 0.101165311546607
 
-Tested:      1 @ Thu Jan 14 09:19:52 2016
-Tested:      2 @ Thu Jan 14 09:19:52 2016
-Tested:      3 @ Thu Jan 14 09:19:52 2016
-Tested:      4 @ Thu Jan 14 09:19:52 2016
-Tested:      5 @ Thu Jan 14 09:19:52 2016
-Tested:      6 @ Thu Jan 14 09:19:52 2016
-Tested:      7 @ Thu Jan 14 09:19:52 2016
-Tested:      8 @ Thu Jan 14 09:19:52 2016
-Tested:      9 @ Thu Jan 14 09:19:52 2016
-Tested:     10 @ Thu Jan 14 09:19:52 2016
-Ready:      19 @ Thu Jan 14 09:19:52 2016
-Seconds taken: 0.0003 (55555.56 p/s)
+Tested:      1 @ Mon Sep  2 15:22:47 2019
+Tested:      2 @ Mon Sep  2 15:22:47 2019
+Tested:      3 @ Mon Sep  2 15:22:47 2019
+Tested:      4 @ Mon Sep  2 15:22:47 2019
+Tested:      5 @ Mon Sep  2 15:22:47 2019
+Tested:      6 @ Mon Sep  2 15:22:47 2019
+Tested:      7 @ Mon Sep  2 15:22:47 2019
+Tested:      8 @ Mon Sep  2 15:22:47 2019
+Tested:      9 @ Mon Sep  2 15:22:47 2019
+Tested:     10 @ Mon Sep  2 15:22:47 2019
+Ready:      19 @ Mon Sep  2 15:22:47 2019
+Seconds taken: 0.0004 (47738.69 p/s)
 
 overall accuracy:        0.000000  (0/19)
 There were 2 ties of which 0 (0.00%) were correctly resolved
@@ -342,18 +342,18 @@ Feature 6	 : 0.153985926443700
 Feature 7	 : 0.168320183795545
 Feature 8	 : 0.137307202171698
 
-Tested:      1 @ Thu Jan 14 09:19:52 2016
-Tested:      2 @ Thu Jan 14 09:19:52 2016
-Tested:      3 @ Thu Jan 14 09:19:52 2016
-Tested:      4 @ Thu Jan 14 09:19:52 2016
-Tested:      5 @ Thu Jan 14 09:19:52 2016
-Tested:      6 @ Thu Jan 14 09:19:52 2016
-Tested:      7 @ Thu Jan 14 09:19:52 2016
-Tested:      8 @ Thu Jan 14 09:19:52 2016
-Tested:      9 @ Thu Jan 14 09:19:52 2016
-Tested:     10 @ Thu Jan 14 09:19:52 2016
-Ready:      18 @ Thu Jan 14 09:19:52 2016
-Seconds taken: 0.0003 (54878.05 p/s)
+Tested:      1 @ Mon Sep  2 15:22:47 2019
+Tested:      2 @ Mon Sep  2 15:22:47 2019
+Tested:      3 @ Mon Sep  2 15:22:47 2019
+Tested:      4 @ Mon Sep  2 15:22:47 2019
+Tested:      5 @ Mon Sep  2 15:22:47 2019
+Tested:      6 @ Mon Sep  2 15:22:47 2019
+Tested:      7 @ Mon Sep  2 15:22:47 2019
+Tested:      8 @ Mon Sep  2 15:22:47 2019
+Tested:      9 @ Mon Sep  2 15:22:47 2019
+Tested:     10 @ Mon Sep  2 15:22:47 2019
+Ready:      18 @ Mon Sep  2 15:22:47 2019
+Seconds taken: 0.0003 (52631.58 p/s)
 
 overall accuracy:        0.000000  (0/18)
 Examine datafile 'tests/oneclass.train3' gave the following results:
@@ -389,18 +389,18 @@ Feature 6	 : 0.245831303637858
 Feature 7	 : 0.175369917557424
 Feature 8	 : 0.084001054645562
 
-Tested:      1 @ Thu Jan 14 09:19:52 2016
-Tested:      2 @ Thu Jan 14 09:19:52 2016
-Tested:      3 @ Thu Jan 14 09:19:52 2016
-Tested:      4 @ Thu Jan 14 09:19:52 2016
-Tested:      5 @ Thu Jan 14 09:19:52 2016
-Tested:      6 @ Thu Jan 14 09:19:52 2016
-Tested:      7 @ Thu Jan 14 09:19:52 2016
-Tested:      8 @ Thu Jan 14 09:19:52 2016
-Tested:      9 @ Thu Jan 14 09:19:52 2016
-Tested:     10 @ Thu Jan 14 09:19:52 2016
-Ready:      19 @ Thu Jan 14 09:19:52 2016
-Seconds taken: 0.0003 (56047.20 p/s)
+Tested:      1 @ Mon Sep  2 15:22:47 2019
+Tested:      2 @ Mon Sep  2 15:22:47 2019
+Tested:      3 @ Mon Sep  2 15:22:47 2019
+Tested:      4 @ Mon Sep  2 15:22:47 2019
+Tested:      5 @ Mon Sep  2 15:22:47 2019
+Tested:      6 @ Mon Sep  2 15:22:47 2019
+Tested:      7 @ Mon Sep  2 15:22:47 2019
+Tested:      8 @ Mon Sep  2 15:22:47 2019
+Tested:      9 @ Mon Sep  2 15:22:47 2019
+Tested:     10 @ Mon Sep  2 15:22:47 2019
+Ready:      19 @ Mon Sep  2 15:22:47 2019
+Seconds taken: 0.0004 (53370.79 p/s)
 
 overall accuracy:        0.000000  (0/19)
 There was 1 tie of which 0 (0.00%) was correctly resolved

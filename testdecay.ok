@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:57 2016
+Mon Sep  2 15:22:52 2019
 
 Examine datafile './tests/klein.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/klein.train
-Start:          0 @ Thu Jan 14 09:19:57 2016
-Finished:     220 @ Thu Jan 14 09:19:57 2016
-Calculating Entropy         Thu Jan 14 09:19:57 2016
+Start:          0 @ Mon Sep  2 15:22:52 2019
+Finished:     220 @ Mon Sep  2 15:22:52 2019
+Calculating Entropy         Mon Sep  2 15:22:52 2019
 Lines of data     : 220
 DB Entropy        : 1.0973232
 Number of Classes : 3
@@ -27,19 +27,19 @@ Feats	Vals	InfoGain	GainRatio
     7     24	0.46696345	0.11793486
     8     24	0.16987195	0.042889176
 
-Preparation took 0 seconds, 1 milliseconds and 209 microseconds
+Preparation took 0 seconds, 1 milliseconds and 73 microseconds
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 2, 3, 1, 4 >
 Phase 2: Building multi index on Datafile: ./tests/klein.train
-Start:          0 @ Thu Jan 14 09:19:57 2016
-Finished:     220 @ Thu Jan 14 09:19:57 2016
+Start:          0 @ Mon Sep  2 15:22:52 2019
+Finished:     220 @ Mon Sep  2 15:22:52 2019
 
 Phase 3: Learning from Datafile: ./tests/klein.train
-Start:          0 @ Thu Jan 14 09:19:57 2016
-Finished:     220 @ Thu Jan 14 09:19:57 2016
+Start:          0 @ Mon Sep  2 15:22:52 2019
+Finished:     220 @ Mon Sep  2 15:22:52 2019
 
 Size of InstanceBase = 1565 Nodes, (62600 bytes), 20.96 % compression
-Learning took 0 seconds, 2 milliseconds and 130 microseconds
+Learning took 0 seconds, 2 milliseconds and 301 microseconds
 Examine datafile './tests/klein.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -60,18 +60,18 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 Decay         : Inverse Linear Distance
-Tested:      1 @ Thu Jan 14 09:19:57 2016
-Tested:      2 @ Thu Jan 14 09:19:57 2016
-Tested:      3 @ Thu Jan 14 09:19:57 2016
-Tested:      4 @ Thu Jan 14 09:19:57 2016
-Tested:      5 @ Thu Jan 14 09:19:57 2016
-Tested:      6 @ Thu Jan 14 09:19:57 2016
-Tested:      7 @ Thu Jan 14 09:19:57 2016
-Tested:      8 @ Thu Jan 14 09:19:57 2016
-Tested:      9 @ Thu Jan 14 09:19:57 2016
-Tested:     10 @ Thu Jan 14 09:19:57 2016
-Ready:      50 @ Thu Jan 14 09:19:57 2016
-Seconds taken: 0.0018 (27262.81 p/s)
+Tested:      1 @ Mon Sep  2 15:22:52 2019
+Tested:      2 @ Mon Sep  2 15:22:52 2019
+Tested:      3 @ Mon Sep  2 15:22:52 2019
+Tested:      4 @ Mon Sep  2 15:22:52 2019
+Tested:      5 @ Mon Sep  2 15:22:52 2019
+Tested:      6 @ Mon Sep  2 15:22:52 2019
+Tested:      7 @ Mon Sep  2 15:22:52 2019
+Tested:      8 @ Mon Sep  2 15:22:52 2019
+Tested:      9 @ Mon Sep  2 15:22:52 2019
+Tested:     10 @ Mon Sep  2 15:22:52 2019
+Ready:      50 @ Mon Sep  2 15:22:52 2019
+Seconds taken: 0.0023 (21881.84 p/s)
 
 overall accuracy:        0.900000  (45/50)
 Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,I { I 1.00000, O 0.676965 }        0.23710535639701
@@ -124,21 +124,21 @@ include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 1.48422, O 0.645630 }        0.
 KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I { I 1.00000, O 0.287300 }        0.66561394583437
 among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { O 8.56391 }        0.60536691563724
 other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { I 1.43384, O 2.14707 }        0.65894504028406
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:57 2016
+Mon Sep  2 15:22:52 2019
 
 Examine datafile './tests/klein.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/klein.train
-Start:          0 @ Thu Jan 14 09:19:57 2016
-Finished:     220 @ Thu Jan 14 09:19:57 2016
-Calculating Entropy         Thu Jan 14 09:19:57 2016
+Start:          0 @ Mon Sep  2 15:22:52 2019
+Finished:     220 @ Mon Sep  2 15:22:52 2019
+Calculating Entropy         Mon Sep  2 15:22:52 2019
 Lines of data     : 220
 DB Entropy        : 1.0973232
 Number of Classes : 3
@@ -153,19 +153,19 @@ Feats	Vals	InfoGain	GainRatio
     7     24	0.46696345	0.11793486
     8     24	0.16987195	0.042889176
 
-Preparation took 0 seconds, 1 milliseconds and 150 microseconds
+Preparation took 0 seconds, 0 milliseconds and 687 microseconds
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 2, 3, 1, 4 >
 Phase 2: Building multi index on Datafile: ./tests/klein.train
-Start:          0 @ Thu Jan 14 09:19:57 2016
-Finished:     220 @ Thu Jan 14 09:19:57 2016
+Start:          0 @ Mon Sep  2 15:22:52 2019
+Finished:     220 @ Mon Sep  2 15:22:52 2019
 
 Phase 3: Learning from Datafile: ./tests/klein.train
-Start:          0 @ Thu Jan 14 09:19:57 2016
-Finished:     220 @ Thu Jan 14 09:19:57 2016
+Start:          0 @ Mon Sep  2 15:22:52 2019
+Finished:     220 @ Mon Sep  2 15:22:52 2019
 
 Size of InstanceBase = 1565 Nodes, (62600 bytes), 20.96 % compression
-Learning took 0 seconds, 2 milliseconds and 342 microseconds
+Learning took 0 seconds, 1 milliseconds and 446 microseconds
 Examine datafile './tests/klein.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -186,18 +186,18 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 Decay         : Inverse Distance
-Tested:      1 @ Thu Jan 14 09:19:57 2016
-Tested:      2 @ Thu Jan 14 09:19:57 2016
-Tested:      3 @ Thu Jan 14 09:19:57 2016
-Tested:      4 @ Thu Jan 14 09:19:57 2016
-Tested:      5 @ Thu Jan 14 09:19:57 2016
-Tested:      6 @ Thu Jan 14 09:19:57 2016
-Tested:      7 @ Thu Jan 14 09:19:57 2016
-Tested:      8 @ Thu Jan 14 09:19:57 2016
-Tested:      9 @ Thu Jan 14 09:19:57 2016
-Tested:     10 @ Thu Jan 14 09:19:57 2016
-Ready:      50 @ Thu Jan 14 09:19:57 2016
-Seconds taken: 0.0022 (23084.03 p/s)
+Tested:      1 @ Mon Sep  2 15:22:52 2019
+Tested:      2 @ Mon Sep  2 15:22:52 2019
+Tested:      3 @ Mon Sep  2 15:22:52 2019
+Tested:      4 @ Mon Sep  2 15:22:52 2019
+Tested:      5 @ Mon Sep  2 15:22:52 2019
+Tested:      6 @ Mon Sep  2 15:22:52 2019
+Tested:      7 @ Mon Sep  2 15:22:52 2019
+Tested:      8 @ Mon Sep  2 15:22:52 2019
+Tested:      9 @ Mon Sep  2 15:22:52 2019
+Tested:     10 @ Mon Sep  2 15:22:52 2019
+Ready:      50 @ Mon Sep  2 15:22:52 2019
+Seconds taken: 0.0015 (32808.40 p/s)
 
 overall accuracy:        0.920000  (46/50)
 Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,O { I 4.21753, O 16.3051 }        0.23710535639701
@@ -250,21 +250,21 @@ include,These,PUNT,PUNT,VBP,DT,PUNT,PUNT,I,I { I 9.00187, O 6.56272 }        0.3
 KOMMA,include,These,PUNT,KOMMA,VBP,DT,PUNT,O,I { I 10.4361, O 2.61017, B 1.27624 }        0.66561394583437
 among,KOMMA,include,These,IN,KOMMA,VBP,DT,O,O { I 3.43189, O 15.5353 }        0.60536691563724
 other,among,KOMMA,include,JJ,IN,KOMMA,VBP,O,O { I 6.55689, O 35.3624 }        0.65894504028406
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:57 2016
+Mon Sep  2 15:22:52 2019
 
 Examine datafile './tests/klein.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/klein.train
-Start:          0 @ Thu Jan 14 09:19:57 2016
-Finished:     220 @ Thu Jan 14 09:19:57 2016
-Calculating Entropy         Thu Jan 14 09:19:57 2016
+Start:          0 @ Mon Sep  2 15:22:52 2019
+Finished:     220 @ Mon Sep  2 15:22:52 2019
+Calculating Entropy         Mon Sep  2 15:22:52 2019
 Lines of data     : 220
 DB Entropy        : 1.0973232
 Number of Classes : 3
@@ -279,19 +279,19 @@ Feats	Vals	InfoGain	GainRatio
     7     24	0.46696345	0.11793486
     8     24	0.16987195	0.042889176
 
-Preparation took 0 seconds, 1 milliseconds and 175 microseconds
+Preparation took 0 seconds, 0 milliseconds and 895 microseconds
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 2, 3, 1, 4 >
 Phase 2: Building multi index on Datafile: ./tests/klein.train
-Start:          0 @ Thu Jan 14 09:19:57 2016
-Finished:     220 @ Thu Jan 14 09:19:57 2016
+Start:          0 @ Mon Sep  2 15:22:52 2019
+Finished:     220 @ Mon Sep  2 15:22:52 2019
 
 Phase 3: Learning from Datafile: ./tests/klein.train
-Start:          0 @ Thu Jan 14 09:19:57 2016
-Finished:     220 @ Thu Jan 14 09:19:57 2016
+Start:          0 @ Mon Sep  2 15:22:52 2019
+Finished:     220 @ Mon Sep  2 15:22:52 2019
 
 Size of InstanceBase = 1565 Nodes, (62600 bytes), 20.96 % compression
-Learning took 0 seconds, 1 milliseconds and 976 microseconds
+Learning took 0 seconds, 1 milliseconds and 650 microseconds
 Examine datafile './tests/klein.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -312,18 +312,18 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 Decay         : Exponential Decay a=0.031400 b= 1.000000
-Tested:      1 @ Thu Jan 14 09:19:57 2016
-Tested:      2 @ Thu Jan 14 09:19:57 2016
-Tested:      3 @ Thu Jan 14 09:19:57 2016
-Tested:      4 @ Thu Jan 14 09:19:57 2016
-Tested:      5 @ Thu Jan 14 09:19:57 2016
-Tested:      6 @ Thu Jan 14 09:19:57 2016
-Tested:      7 @ Thu Jan 14 09:19:57 2016
-Tested:      8 @ Thu Jan 14 09:19:57 2016
-Tested:      9 @ Thu Jan 14 09:19:57 2016
-Tested:     10 @ Thu Jan 14 09:19:57 2016
-Ready:      50 @ Thu Jan 14 09:19:57 2016
-Seconds taken: 0.0018 (28555.11 p/s)
+Tested:      1 @ Mon Sep  2 15:22:52 2019
+Tested:      2 @ Mon Sep  2 15:22:52 2019
+Tested:      3 @ Mon Sep  2 15:22:52 2019
+Tested:      4 @ Mon Sep  2 15:22:52 2019
+Tested:      5 @ Mon Sep  2 15:22:52 2019
+Tested:      6 @ Mon Sep  2 15:22:52 2019
+Tested:      7 @ Mon Sep  2 15:22:52 2019
+Tested:      8 @ Mon Sep  2 15:22:52 2019
+Tested:      9 @ Mon Sep  2 15:22:52 2019
+Tested:     10 @ Mon Sep  2 15:22:52 2019
+Ready:      50 @ Mon Sep  2 15:22:52 2019
+Seconds taken: 0.0020 (24461.84 p/s)
 
 overall accuracy:        0.920000  (46/50)
 Rockwell,PUNT,PUNT,PUNT,NNP,PUNT,PUNT,PUNT,I,O { I 0.992583, O 5.93016 }        0.23710535639701

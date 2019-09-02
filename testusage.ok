@@ -1,25 +1,25 @@
-TiMBL 6.4.13 (c) CLST/ILK/CLIPS 1998 - 2018.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Sun Jun  3 23:22:04 2018
+Mon Sep  2 15:01:08 2019
 
-TiMBL 6.4.13, compiled on Jun  1 2018, 15:07:06
-TiMBL 6.4.13 (c) CLST/ILK/CLIPS 1998 - 2018.
+TiMBL 6.4.14, compiled on Sep  2 2019, 09:19:45
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Sun Jun  3 23:22:04 2018
+Mon Sep  2 15:01:08 2019
 
-TiMBL 6.4.13, compiled on Jun  1 2018, 15:07:06
-TiMBL 6.4.13 (c) CLST/ILK/CLIPS 1998 - 2018.
+TiMBL 6.4.14, compiled on Sep  2 2019, 09:19:45
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Sun Jun  3 23:22:04 2018
+Mon Sep  2 15:01:08 2019
 
 usage: timbl -f data-file {-t test-file} [options]
 Algorithm and Metric options:
@@ -111,8 +111,8 @@ Output options:
       di: add distance to output file
       db: add distribution of best matched to output file
       md: add matching depth to output file.
-      k:  add a summary for all k neigbors to output file (sets -x)
-      n:  add nearest neigbors to output file (sets -x)
+      k:  add a summary for all k neighbors to output file (sets -x)
+      n:  add nearest neighbors to output file (sets -x)
   You may combine levels using '+' e.g. +v p+db or -v o+di
 -G        : normalize distibutions (+vdb option only)
     Probability    : normalize between 0 and 1
@@ -155,12 +155,12 @@ Internal representation options:
        1/S: using 1/SplitInfo
 +x or -x  : Do or don't use the exact match shortcut 
             (IB1 and IB2 only, default is -x)
-TiMBL 6.4.13 (c) CLST/ILK/CLIPS 1998 - 2018.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Sun Jun  3 23:22:04 2018
+Mon Sep  2 15:01:08 2019
 
 usage: timbl -f data-file {-t test-file} [options]
 Algorithm and Metric options:
@@ -252,8 +252,8 @@ Output options:
       di: add distance to output file
       db: add distribution of best matched to output file
       md: add matching depth to output file.
-      k:  add a summary for all k neigbors to output file (sets -x)
-      n:  add nearest neigbors to output file (sets -x)
+      k:  add a summary for all k neighbors to output file (sets -x)
+      n:  add nearest neighbors to output file (sets -x)
   You may combine levels using '+' e.g. +v p+db or -v o+di
 -G        : normalize distibutions (+vdb option only)
     Probability    : normalize between 0 and 1

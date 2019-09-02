@@ -40,9 +40,9 @@ Number of Features: 12
 InputFormat       : C4.5
 
 -test1-Phase 1: Reading Datafile: dimin.train
--test1-Start:          0 @ Mon Feb 16 10:10:47 2015
--test1-Finished:    2999 @ Mon Feb 16 10:10:47 2015
--test1-Calculating Entropy         Mon Feb 16 10:10:47 2015
+-test1-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test1-Finished:    2999 @ Mon Sep  2 15:12:09 2019
+-test1-Calculating Entropy         Mon Sep  2 15:12:09 2019
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -61,19 +61,19 @@ Feats	Vals	X-square	Variance	InfoGain	GainRatio
    11     18	2807.0418	0.23399815	0.66970458	0.18507018
    12     43	7160.3682	0.59689631	1.2780762	0.32537181
 
--test1-Preparation took 0 seconds, 47 milliseconds and 604 microseconds
+-test1-Preparation took 0 seconds, 5 milliseconds and 523 microseconds
 Feature Permutation based on Chi-Squared :
 < 12, 11, 10, 7, 4, 6, 8, 2, 5, 3, 9, 1 >
 -test1-Phase 2: Building multi index on Datafile: dimin.train
--test1-Start:          0 @ Mon Feb 16 10:10:47 2015
--test1-Finished:    2999 @ Mon Feb 16 10:10:47 2015
+-test1-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test1-Finished:    2999 @ Mon Sep  2 15:12:09 2019
 -test1-
 Phase 3: Learning from Datafile: dimin.train
--test1-Start:          0 @ Mon Feb 16 10:10:47 2015
--test1-Finished:    2999 @ Mon Feb 16 10:10:47 2015
+-test1-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test1-Finished:    2999 @ Mon Sep  2 15:12:09 2019
 
 Size of InstanceBase = 148 Nodes, (5920 bytes), 99.61 % compression
--test1-Learning took 0 seconds, 119 milliseconds and 341 microseconds
+-test1-Learning took 0 seconds, 19 milliseconds and 493 microseconds
 Examine datafile 'dimin.test' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
@@ -96,19 +96,19 @@ Feature 10	 : 914.619058199288816
 Feature 11	 : 2807.041753278295346
 Feature 12	 : 7160.368151902808677
 
--test1-Tested:      1 @ Mon Feb 16 10:10:47 2015
--test1-Tested:      2 @ Mon Feb 16 10:10:47 2015
--test1-Tested:      3 @ Mon Feb 16 10:10:47 2015
--test1-Tested:      4 @ Mon Feb 16 10:10:47 2015
--test1-Tested:      5 @ Mon Feb 16 10:10:47 2015
--test1-Tested:      6 @ Mon Feb 16 10:10:47 2015
--test1-Tested:      7 @ Mon Feb 16 10:10:47 2015
--test1-Tested:      8 @ Mon Feb 16 10:10:47 2015
--test1-Tested:      9 @ Mon Feb 16 10:10:47 2015
--test1-Tested:     10 @ Mon Feb 16 10:10:47 2015
--test1-Tested:    100 @ Mon Feb 16 10:10:47 2015
--test1-Ready:     950 @ Mon Feb 16 10:10:47 2015
-Seconds taken: 0.0342 (27816.82 p/s)
+-test1-Tested:      1 @ Mon Sep  2 15:12:09 2019
+-test1-Tested:      2 @ Mon Sep  2 15:12:09 2019
+-test1-Tested:      3 @ Mon Sep  2 15:12:09 2019
+-test1-Tested:      4 @ Mon Sep  2 15:12:09 2019
+-test1-Tested:      5 @ Mon Sep  2 15:12:09 2019
+-test1-Tested:      6 @ Mon Sep  2 15:12:09 2019
+-test1-Tested:      7 @ Mon Sep  2 15:12:09 2019
+-test1-Tested:      8 @ Mon Sep  2 15:12:09 2019
+-test1-Tested:      9 @ Mon Sep  2 15:12:09 2019
+-test1-Tested:     10 @ Mon Sep  2 15:12:09 2019
+-test1-Tested:    100 @ Mon Sep  2 15:12:09 2019
+-test1-Ready:     950 @ Mon Sep  2 15:12:09 2019
+Seconds taken: 0.0041 (229801.64 p/s)
 
 overall accuracy:        0.962105  (914/950)
 Examine datafile 'dimin.test' gave the following results:
@@ -1108,9 +1108,9 @@ Number of Features: 12
 InputFormat       : C4.5
 
 -test2-Phase 1: Reading Datafile: dimin.train
--test2-Start:          0 @ Mon Feb 16 10:10:47 2015
--test2-Finished:    2999 @ Mon Feb 16 10:10:47 2015
--test2-Calculating Entropy         Mon Feb 16 10:10:47 2015
+-test2-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test2-Finished:    2999 @ Mon Sep  2 15:12:09 2019
+-test2-Calculating Entropy         Mon Sep  2 15:12:09 2019
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -1129,31 +1129,31 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--test2-Preparation took 0 seconds, 47 milliseconds and 371 microseconds
+-test2-Preparation took 0 seconds, 6 milliseconds and 602 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -test2-Phase 2: Learning from Datafile: dimin.train
--test2-Start:          0 @ Mon Feb 16 10:10:47 2015
--test2-Finished:     100 @ Mon Feb 16 10:10:47 2015
+-test2-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test2-Finished:     100 @ Mon Sep  2 15:12:09 2019
 
 Size of InstanceBase = 954 Nodes, (38160 bytes), 26.62 % compression
--test2-Learning took 0 seconds, 1 milliseconds and 744 microseconds
+-test2-Learning took 0 seconds, 0 milliseconds and 281 microseconds
 -test2-Phase 2: Appending from Datafile: dimin.train (starting at line 101)
--test2-Start:        101 @ Mon Feb 16 10:10:47 2015
--test2-Learning:     100 @ Mon Feb 16 10:10:47 2015	 added:9
--test2-Learning:     101 @ Mon Feb 16 10:10:47 2015	 added:0
--test2-Learning:     102 @ Mon Feb 16 10:10:47 2015	 added:0
--test2-Learning:     103 @ Mon Feb 16 10:10:47 2015	 added:0
--test2-Learning:     104 @ Mon Feb 16 10:10:47 2015	 added:0
--test2-Learning:     105 @ Mon Feb 16 10:10:47 2015	 added:0
--test2-Learning:     106 @ Mon Feb 16 10:10:47 2015	 added:0
--test2-Learning:     107 @ Mon Feb 16 10:10:47 2015	 added:0
--test2-Learning:     108 @ Mon Feb 16 10:10:47 2015	 added:0
--test2-Learning:     109 @ Mon Feb 16 10:10:47 2015	 added:0
--test2-Learning:     110 @ Mon Feb 16 10:10:47 2015	 added:0
--test2-Learning:     200 @ Mon Feb 16 10:10:47 2015	 added:5
--test2-Learning:    1100 @ Mon Feb 16 10:10:47 2015	 added:65
--test2-Finished:    2898 @ Mon Feb 16 10:10:47 2015
+-test2-Start:        101 @ Mon Sep  2 15:12:09 2019
+-test2-Learning:     100 @ Mon Sep  2 15:12:09 2019	 added:9
+-test2-Learning:     101 @ Mon Sep  2 15:12:09 2019	 added:0
+-test2-Learning:     102 @ Mon Sep  2 15:12:09 2019	 added:0
+-test2-Learning:     103 @ Mon Sep  2 15:12:09 2019	 added:0
+-test2-Learning:     104 @ Mon Sep  2 15:12:09 2019	 added:0
+-test2-Learning:     105 @ Mon Sep  2 15:12:09 2019	 added:0
+-test2-Learning:     106 @ Mon Sep  2 15:12:09 2019	 added:0
+-test2-Learning:     107 @ Mon Sep  2 15:12:09 2019	 added:0
+-test2-Learning:     108 @ Mon Sep  2 15:12:09 2019	 added:0
+-test2-Learning:     109 @ Mon Sep  2 15:12:09 2019	 added:0
+-test2-Learning:     110 @ Mon Sep  2 15:12:09 2019	 added:0
+-test2-Learning:     200 @ Mon Sep  2 15:12:09 2019	 added:5
+-test2-Learning:    1100 @ Mon Sep  2 15:12:09 2019	 added:65
+-test2-Finished:    2898 @ Mon Sep  2 15:12:09 2019
 in total added 173 new entries
 
 Size of InstanceBase = 2232 Nodes, (89280 bytes), 32.40 % compression
@@ -1198,19 +1198,19 @@ Feature 10	 : 0.044544230779268
 Feature 11	 : 0.185449683494634
 Feature 12	 : 0.324719540921155
 
--test2-Tested:      1 @ Mon Feb 16 10:10:47 2015
--test2-Tested:      2 @ Mon Feb 16 10:10:47 2015
--test2-Tested:      3 @ Mon Feb 16 10:10:47 2015
--test2-Tested:      4 @ Mon Feb 16 10:10:47 2015
--test2-Tested:      5 @ Mon Feb 16 10:10:47 2015
--test2-Tested:      6 @ Mon Feb 16 10:10:47 2015
--test2-Tested:      7 @ Mon Feb 16 10:10:47 2015
--test2-Tested:      8 @ Mon Feb 16 10:10:47 2015
--test2-Tested:      9 @ Mon Feb 16 10:10:47 2015
--test2-Tested:     10 @ Mon Feb 16 10:10:47 2015
--test2-Tested:    100 @ Mon Feb 16 10:10:47 2015
--test2-Ready:     950 @ Mon Feb 16 10:10:48 2015
-Seconds taken: 0.0921 (10310.51 p/s)
+-test2-Tested:      1 @ Mon Sep  2 15:12:09 2019
+-test2-Tested:      2 @ Mon Sep  2 15:12:09 2019
+-test2-Tested:      3 @ Mon Sep  2 15:12:09 2019
+-test2-Tested:      4 @ Mon Sep  2 15:12:09 2019
+-test2-Tested:      5 @ Mon Sep  2 15:12:09 2019
+-test2-Tested:      6 @ Mon Sep  2 15:12:09 2019
+-test2-Tested:      7 @ Mon Sep  2 15:12:09 2019
+-test2-Tested:      8 @ Mon Sep  2 15:12:09 2019
+-test2-Tested:      9 @ Mon Sep  2 15:12:09 2019
+-test2-Tested:     10 @ Mon Sep  2 15:12:09 2019
+-test2-Tested:    100 @ Mon Sep  2 15:12:09 2019
+-test2-Ready:     950 @ Mon Sep  2 15:12:09 2019
+Seconds taken: 0.0206 (46138.90 p/s)
 
 overall accuracy:        0.940000  (893/950), of which 15 exact matches 
 There were 43 ties of which 31 (72.09%) were correctly resolved
@@ -2182,18 +2182,18 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 
-Tested:      1 @ Mon Feb 16 10:10:48 2015
-Tested:      2 @ Mon Feb 16 10:10:48 2015
-Tested:      3 @ Mon Feb 16 10:10:48 2015
-Tested:      4 @ Mon Feb 16 10:10:48 2015
-Tested:      5 @ Mon Feb 16 10:10:48 2015
-Tested:      6 @ Mon Feb 16 10:10:48 2015
-Tested:      7 @ Mon Feb 16 10:10:48 2015
-Tested:      8 @ Mon Feb 16 10:10:48 2015
-Tested:      9 @ Mon Feb 16 10:10:48 2015
-Tested:     10 @ Mon Feb 16 10:10:48 2015
-Ready:      10 @ Mon Feb 16 10:10:48 2015
-Seconds taken: 0.0011 (9354.54 p/s)
+Tested:      1 @ Mon Sep  2 15:12:09 2019
+Tested:      2 @ Mon Sep  2 15:12:09 2019
+Tested:      3 @ Mon Sep  2 15:12:09 2019
+Tested:      4 @ Mon Sep  2 15:12:09 2019
+Tested:      5 @ Mon Sep  2 15:12:09 2019
+Tested:      6 @ Mon Sep  2 15:12:09 2019
+Tested:      7 @ Mon Sep  2 15:12:09 2019
+Tested:      8 @ Mon Sep  2 15:12:09 2019
+Tested:      9 @ Mon Sep  2 15:12:09 2019
+Tested:     10 @ Mon Sep  2 15:12:09 2019
+Ready:      10 @ Mon Sep  2 15:12:09 2019
+Seconds taken: 0.0002 (42194.09 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile 'small_2.train' gave the following results:
@@ -2208,18 +2208,18 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 
-Tested:      1 @ Mon Feb 16 10:10:48 2015
-Tested:      2 @ Mon Feb 16 10:10:48 2015
-Tested:      3 @ Mon Feb 16 10:10:48 2015
-Tested:      4 @ Mon Feb 16 10:10:48 2015
-Tested:      5 @ Mon Feb 16 10:10:48 2015
-Tested:      6 @ Mon Feb 16 10:10:48 2015
-Tested:      7 @ Mon Feb 16 10:10:48 2015
-Tested:      8 @ Mon Feb 16 10:10:48 2015
-Tested:      9 @ Mon Feb 16 10:10:48 2015
-Tested:     10 @ Mon Feb 16 10:10:48 2015
-Ready:      10 @ Mon Feb 16 10:10:48 2015
-Seconds taken: 0.0009 (11025.36 p/s)
+Tested:      1 @ Mon Sep  2 15:12:09 2019
+Tested:      2 @ Mon Sep  2 15:12:09 2019
+Tested:      3 @ Mon Sep  2 15:12:09 2019
+Tested:      4 @ Mon Sep  2 15:12:09 2019
+Tested:      5 @ Mon Sep  2 15:12:09 2019
+Tested:      6 @ Mon Sep  2 15:12:09 2019
+Tested:      7 @ Mon Sep  2 15:12:09 2019
+Tested:      8 @ Mon Sep  2 15:12:09 2019
+Tested:      9 @ Mon Sep  2 15:12:09 2019
+Tested:     10 @ Mon Sep  2 15:12:09 2019
+Ready:      10 @ Mon Sep  2 15:12:09 2019
+Seconds taken: 0.0002 (51546.39 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile 'small_3.train' gave the following results:
@@ -2234,18 +2234,18 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 
-Tested:      1 @ Mon Feb 16 10:10:48 2015
-Tested:      2 @ Mon Feb 16 10:10:48 2015
-Tested:      3 @ Mon Feb 16 10:10:48 2015
-Tested:      4 @ Mon Feb 16 10:10:48 2015
-Tested:      5 @ Mon Feb 16 10:10:48 2015
-Tested:      6 @ Mon Feb 16 10:10:48 2015
-Tested:      7 @ Mon Feb 16 10:10:48 2015
-Tested:      8 @ Mon Feb 16 10:10:48 2015
-Tested:      9 @ Mon Feb 16 10:10:48 2015
-Tested:     10 @ Mon Feb 16 10:10:48 2015
-Ready:      10 @ Mon Feb 16 10:10:48 2015
-Seconds taken: 0.0009 (11481.06 p/s)
+Tested:      1 @ Mon Sep  2 15:12:09 2019
+Tested:      2 @ Mon Sep  2 15:12:09 2019
+Tested:      3 @ Mon Sep  2 15:12:09 2019
+Tested:      4 @ Mon Sep  2 15:12:09 2019
+Tested:      5 @ Mon Sep  2 15:12:09 2019
+Tested:      6 @ Mon Sep  2 15:12:09 2019
+Tested:      7 @ Mon Sep  2 15:12:09 2019
+Tested:      8 @ Mon Sep  2 15:12:09 2019
+Tested:      9 @ Mon Sep  2 15:12:09 2019
+Tested:     10 @ Mon Sep  2 15:12:09 2019
+Ready:      10 @ Mon Sep  2 15:12:09 2019
+Seconds taken: 0.0002 (54945.05 p/s)
 
 overall accuracy:        0.900000  (9/10)
 Examine datafile 'small_4.train' gave the following results:
@@ -2260,18 +2260,18 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 
-Tested:      1 @ Mon Feb 16 10:10:48 2015
-Tested:      2 @ Mon Feb 16 10:10:48 2015
-Tested:      3 @ Mon Feb 16 10:10:48 2015
-Tested:      4 @ Mon Feb 16 10:10:48 2015
-Tested:      5 @ Mon Feb 16 10:10:48 2015
-Tested:      6 @ Mon Feb 16 10:10:48 2015
-Tested:      7 @ Mon Feb 16 10:10:48 2015
-Tested:      8 @ Mon Feb 16 10:10:48 2015
-Tested:      9 @ Mon Feb 16 10:10:48 2015
-Tested:     10 @ Mon Feb 16 10:10:48 2015
-Ready:      10 @ Mon Feb 16 10:10:48 2015
-Seconds taken: 0.0009 (11299.44 p/s)
+Tested:      1 @ Mon Sep  2 15:12:09 2019
+Tested:      2 @ Mon Sep  2 15:12:09 2019
+Tested:      3 @ Mon Sep  2 15:12:09 2019
+Tested:      4 @ Mon Sep  2 15:12:09 2019
+Tested:      5 @ Mon Sep  2 15:12:09 2019
+Tested:      6 @ Mon Sep  2 15:12:09 2019
+Tested:      7 @ Mon Sep  2 15:12:09 2019
+Tested:      8 @ Mon Sep  2 15:12:09 2019
+Tested:      9 @ Mon Sep  2 15:12:09 2019
+Tested:     10 @ Mon Sep  2 15:12:09 2019
+Ready:      10 @ Mon Sep  2 15:12:09 2019
+Seconds taken: 0.0002 (53763.44 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile 'small_5.train' gave the following results:
@@ -2286,16 +2286,16 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 
-Tested:      1 @ Mon Feb 16 10:10:48 2015
-Tested:      2 @ Mon Feb 16 10:10:48 2015
-Tested:      3 @ Mon Feb 16 10:10:48 2015
-Tested:      4 @ Mon Feb 16 10:10:48 2015
-Tested:      5 @ Mon Feb 16 10:10:48 2015
-Tested:      6 @ Mon Feb 16 10:10:48 2015
-Tested:      7 @ Mon Feb 16 10:10:48 2015
-Tested:      8 @ Mon Feb 16 10:10:48 2015
-Ready:       8 @ Mon Feb 16 10:10:48 2015
-Seconds taken: 0.0007 (10695.19 p/s)
+Tested:      1 @ Mon Sep  2 15:12:09 2019
+Tested:      2 @ Mon Sep  2 15:12:09 2019
+Tested:      3 @ Mon Sep  2 15:12:09 2019
+Tested:      4 @ Mon Sep  2 15:12:09 2019
+Tested:      5 @ Mon Sep  2 15:12:09 2019
+Tested:      6 @ Mon Sep  2 15:12:09 2019
+Tested:      7 @ Mon Sep  2 15:12:09 2019
+Tested:      8 @ Mon Sep  2 15:12:09 2019
+Ready:       8 @ Mon Sep  2 15:12:09 2019
+Seconds taken: 0.0002 (51282.05 p/s)
 
 overall accuracy:        1.000000  (8/8)
 Current Experiment Settings :
@@ -2340,22 +2340,22 @@ Number of Features: 12
 InputFormat       : C4.5
 
 -test4-Phase 1: Reading Datafile: dimin.train
--test4-Start:          0 @ Mon Feb 16 10:10:48 2015
--test4-Finished:    2999 @ Mon Feb 16 10:10:48 2015
--test4-Calculating Entropy         Mon Feb 16 10:10:48 2015
--test4-Preparation took 0 seconds, 46 milliseconds and 947 microseconds
+-test4-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test4-Finished:    2999 @ Mon Sep  2 15:12:09 2019
+-test4-Calculating Entropy         Mon Sep  2 15:12:09 2019
+-test4-Preparation took 0 seconds, 6 milliseconds and 938 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -test4-Phase 2: Building multi index on Datafile: dimin.train
--test4-Start:          0 @ Mon Feb 16 10:10:48 2015
--test4-Finished:    2999 @ Mon Feb 16 10:10:48 2015
+-test4-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test4-Finished:    2999 @ Mon Sep  2 15:12:09 2019
 -test4-
 Phase 3: Learning from Datafile: dimin.train
--test4-Start:          0 @ Mon Feb 16 10:10:48 2015
--test4-Finished:    2999 @ Mon Feb 16 10:10:48 2015
+-test4-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test4-Finished:    2999 @ Mon Sep  2 15:12:09 2019
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--test4-Learning took 0 seconds, 105 milliseconds and 88 microseconds
+-test4-Learning took 0 seconds, 16 milliseconds and 159 microseconds
 Examine datafile 'dimin.test' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
@@ -2382,19 +2382,19 @@ Total Size of value-matrices 12736 Bytes
 
 Weighting     : GainRatio
 
--test4-Tested:      1 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      2 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      3 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      4 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      5 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      6 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      7 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      8 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      9 @ Mon Feb 16 10:10:48 2015
--test4-Tested:     10 @ Mon Feb 16 10:10:48 2015
--test4-Tested:    100 @ Mon Feb 16 10:10:48 2015
--test4-Ready:     950 @ Mon Feb 16 10:10:48 2015
-Seconds taken: 0.1385 (6858.71 p/s)
+-test4-Tested:      1 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      2 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      3 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      4 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      5 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      6 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      7 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      8 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      9 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:     10 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:    100 @ Mon Sep  2 15:12:09 2019
+-test4-Ready:     950 @ Mon Sep  2 15:12:09 2019
+Seconds taken: 0.0268 (35400.21 p/s)
 
 overall accuracy:        0.963158  (915/950), of which 62 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
@@ -2426,19 +2426,19 @@ Total Size of value-matrices 12736 Bytes
 
 Weighting     : GainRatio
 
--test4-Tested:      1 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      2 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      3 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      4 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      5 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      6 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      7 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      8 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      9 @ Mon Feb 16 10:10:48 2015
--test4-Tested:     10 @ Mon Feb 16 10:10:48 2015
--test4-Tested:    100 @ Mon Feb 16 10:10:48 2015
--test4-Ready:     950 @ Mon Feb 16 10:10:48 2015
-Seconds taken: 0.1377 (6897.40 p/s)
+-test4-Tested:      1 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      2 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      3 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      4 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      5 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      6 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      7 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      8 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      9 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:     10 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:    100 @ Mon Sep  2 15:12:09 2019
+-test4-Ready:     950 @ Mon Sep  2 15:12:09 2019
+Seconds taken: 0.0269 (35274.02 p/s)
 
 overall accuracy:        0.963158  (915/950), of which 62 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
@@ -2470,19 +2470,19 @@ Total Size of value-matrices 12736 Bytes
 
 Weighting     : GainRatio
 
--test4-Tested:      1 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      2 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      3 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      4 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      5 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      6 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      7 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      8 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      9 @ Mon Feb 16 10:10:48 2015
--test4-Tested:     10 @ Mon Feb 16 10:10:48 2015
--test4-Tested:    100 @ Mon Feb 16 10:10:48 2015
--test4-Ready:     950 @ Mon Feb 16 10:10:48 2015
-Seconds taken: 0.1376 (6903.02 p/s)
+-test4-Tested:      1 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      2 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      3 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      4 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      5 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      6 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      7 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      8 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      9 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:     10 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:    100 @ Mon Sep  2 15:12:09 2019
+-test4-Ready:     950 @ Mon Sep  2 15:12:09 2019
+Seconds taken: 0.0270 (35160.44 p/s)
 
 overall accuracy:        0.963158  (915/950), of which 62 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
@@ -2514,19 +2514,19 @@ Total Size of value-matrices 12736 Bytes
 
 Weighting     : GainRatio
 
--test4-Tested:      1 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      2 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      3 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      4 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      5 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      6 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      7 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      8 @ Mon Feb 16 10:10:48 2015
--test4-Tested:      9 @ Mon Feb 16 10:10:48 2015
--test4-Tested:     10 @ Mon Feb 16 10:10:48 2015
--test4-Tested:    100 @ Mon Feb 16 10:10:48 2015
--test4-Ready:     950 @ Mon Feb 16 10:10:49 2015
-Seconds taken: 0.0827 (11490.64 p/s)
+-test4-Tested:      1 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      2 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      3 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      4 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      5 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      6 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      7 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      8 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      9 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:     10 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:    100 @ Mon Sep  2 15:12:09 2019
+-test4-Ready:     950 @ Mon Sep  2 15:12:09 2019
+Seconds taken: 0.0272 (34884.15 p/s)
 
 overall accuracy:        0.963158  (915/950), of which 62 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
@@ -2558,19 +2558,19 @@ Total Size of value-matrices 12736 Bytes
 
 Weighting     : GainRatio
 
--test4-Tested:      1 @ Mon Feb 16 10:10:49 2015
--test4-Tested:      2 @ Mon Feb 16 10:10:49 2015
--test4-Tested:      3 @ Mon Feb 16 10:10:49 2015
--test4-Tested:      4 @ Mon Feb 16 10:10:49 2015
--test4-Tested:      5 @ Mon Feb 16 10:10:49 2015
--test4-Tested:      6 @ Mon Feb 16 10:10:49 2015
--test4-Tested:      7 @ Mon Feb 16 10:10:49 2015
--test4-Tested:      8 @ Mon Feb 16 10:10:49 2015
--test4-Tested:      9 @ Mon Feb 16 10:10:49 2015
--test4-Tested:     10 @ Mon Feb 16 10:10:49 2015
--test4-Tested:    100 @ Mon Feb 16 10:10:49 2015
--test4-Ready:     950 @ Mon Feb 16 10:10:49 2015
-Seconds taken: 0.0591 (16080.44 p/s)
+-test4-Tested:      1 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      2 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      3 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      4 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      5 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      6 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      7 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      8 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:      9 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:     10 @ Mon Sep  2 15:12:09 2019
+-test4-Tested:    100 @ Mon Sep  2 15:12:09 2019
+-test4-Ready:     950 @ Mon Sep  2 15:12:09 2019
+Seconds taken: 0.0276 (34465.24 p/s)
 
 overall accuracy:        0.963158  (915/950), of which 62 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
@@ -3531,22 +3531,22 @@ Number of Features: 12
 InputFormat       : C4.5
 
 -test5-Phase 1: Reading Datafile: dimin.train
--test5-Start:          0 @ Mon Feb 16 10:10:49 2015
--test5-Finished:    2999 @ Mon Feb 16 10:10:49 2015
--test5-Calculating Entropy         Mon Feb 16 10:10:49 2015
--test5-Preparation took 0 seconds, 47 milliseconds and 155 microseconds
+-test5-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test5-Finished:    2999 @ Mon Sep  2 15:12:09 2019
+-test5-Calculating Entropy         Mon Sep  2 15:12:09 2019
+-test5-Preparation took 0 seconds, 6 milliseconds and 558 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -test5-Phase 2: Building multi index on Datafile: dimin.train
--test5-Start:          0 @ Mon Feb 16 10:10:49 2015
--test5-Finished:    2999 @ Mon Feb 16 10:10:49 2015
+-test5-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test5-Finished:    2999 @ Mon Sep  2 15:12:09 2019
 -test5-
 Phase 3: Learning from Datafile: dimin.train
--test5-Start:          0 @ Mon Feb 16 10:10:49 2015
--test5-Finished:    2999 @ Mon Feb 16 10:10:49 2015
+-test5-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test5-Finished:    2999 @ Mon Sep  2 15:12:09 2019
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--test5-Learning took 0 seconds, 104 milliseconds and 492 microseconds
+-test5-Learning took 0 seconds, 17 milliseconds and 87 microseconds
 Classify OK on =,=,=,=,+,k,e,=,-,r,@,l,T
 # k=1	{ T 1.00000 }	0.00000000000000
 # k=2	{ T 1.00000 }	0.00318629024734
@@ -3605,22 +3605,22 @@ Number of Features: 12
 InputFormat       : C4.5
 
 -test6-Phase 1: Reading Datafile: dimin.train
--test6-Start:          0 @ Mon Feb 16 10:10:49 2015
--test6-Finished:    2999 @ Mon Feb 16 10:10:49 2015
--test6-Calculating Entropy         Mon Feb 16 10:10:49 2015
--test6-Preparation took 0 seconds, 46 milliseconds and 834 microseconds
+-test6-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test6-Finished:    2999 @ Mon Sep  2 15:12:09 2019
+-test6-Calculating Entropy         Mon Sep  2 15:12:09 2019
+-test6-Preparation took 0 seconds, 6 milliseconds and 631 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -test6-Phase 2: Building multi index on Datafile: dimin.train
--test6-Start:          0 @ Mon Feb 16 10:10:49 2015
--test6-Finished:    2999 @ Mon Feb 16 10:10:49 2015
+-test6-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test6-Finished:    2999 @ Mon Sep  2 15:12:09 2019
 -test6-
 Phase 3: Learning from Datafile: dimin.train
--test6-Start:          0 @ Mon Feb 16 10:10:49 2015
--test6-Finished:    2999 @ Mon Feb 16 10:10:49 2015
+-test6-Start:          0 @ Mon Sep  2 15:12:09 2019
+-test6-Finished:    2999 @ Mon Sep  2 15:12:09 2019
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--test6-Learning took 0 seconds, 104 milliseconds and 604 microseconds
+-test6-Learning took 0 seconds, 16 milliseconds and 953 microseconds
 resulting target: K
 resulting Distribution: { E 1.00000, K 7.00000 }
 E 1.000000 OR E 1.000000
@@ -7637,9 +7637,9 @@ HANDLE_OCCURRENCES   : 0
 CLIP_FACTOR          : 10
 
 -exp1-Phase 1: Reading Datafile: ./dimin.train
--exp1-Start:          0 @ Mon Feb 16 10:10:50 2015
--exp1-Finished:    2999 @ Mon Feb 16 10:10:50 2015
--exp1-Calculating Entropy         Mon Feb 16 10:10:50 2015
+-exp1-Start:          0 @ Mon Sep  2 15:12:10 2019
+-exp1-Finished:    2999 @ Mon Sep  2 15:12:10 2019
+-exp1-Calculating Entropy         Mon Sep  2 15:12:10 2019
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -7658,19 +7658,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--exp1-Preparation took 0 seconds, 20 milliseconds and 441 microseconds
+-exp1-Preparation took 0 seconds, 6 milliseconds and 555 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -exp1-Phase 2: Building multi index on Datafile: ./dimin.train
--exp1-Start:          0 @ Mon Feb 16 10:10:50 2015
--exp1-Finished:    2999 @ Mon Feb 16 10:10:50 2015
+-exp1-Start:          0 @ Mon Sep  2 15:12:10 2019
+-exp1-Finished:    2999 @ Mon Sep  2 15:12:10 2019
 -exp1-
 Phase 3: Learning from Datafile: ./dimin.train
--exp1-Start:          0 @ Mon Feb 16 10:10:50 2015
--exp1-Finished:    2999 @ Mon Feb 16 10:10:50 2015
+-exp1-Start:          0 @ Mon Sep  2 15:12:10 2019
+-exp1-Finished:    2999 @ Mon Sep  2 15:12:10 2019
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--exp1-Learning took 0 seconds, 44 milliseconds and 332 microseconds
+-exp1-Learning took 0 seconds, 17 milliseconds and 83 microseconds
 TSE script, executing line: 46
 === exp1.save tree.tmp
 -exp1-Writing Instance-Base in: tree.tmp
@@ -7778,19 +7778,19 @@ Feature 10	 : 0.213887591411729
 Feature 11	 : 0.669704582861074
 Feature 12	 : 1.278076245847893
 
--exp1-Tested:      1 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      2 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      3 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      4 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      5 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      6 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      7 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      8 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      9 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:     10 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:    100 @ Mon Feb 16 10:10:50 2015
--exp1-Ready:     950 @ Mon Feb 16 10:10:50 2015
-Seconds taken: 0.0575 (16510.54 p/s)
+-exp1-Tested:      1 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      2 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      3 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      4 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      5 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      6 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      7 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      8 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      9 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:     10 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:    100 @ Mon Sep  2 15:12:10 2019
+-exp1-Ready:     950 @ Mon Sep  2 15:12:10 2019
+Seconds taken: 0.0257 (37024.05 p/s)
 
 overall accuracy:        0.966316  (918/950), of which 39 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
@@ -7873,19 +7873,19 @@ Feature 10	 : 0.213887591411729
 Feature 11	 : 0.669704582861074
 Feature 12	 : 1.278076245847893
 
--exp1-Tested:      1 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      2 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      3 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      4 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      5 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      6 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      7 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      8 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:      9 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:     10 @ Mon Feb 16 10:10:50 2015
--exp1-Tested:    100 @ Mon Feb 16 10:10:50 2015
--exp1-Ready:     950 @ Mon Feb 16 10:10:50 2015
-Seconds taken: 0.0700 (13568.33 p/s)
+-exp1-Tested:      1 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      2 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      3 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      4 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      5 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      6 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      7 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      8 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:      9 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:     10 @ Mon Sep  2 15:12:10 2019
+-exp1-Tested:    100 @ Mon Sep  2 15:12:10 2019
+-exp1-Ready:     950 @ Mon Sep  2 15:12:10 2019
+Seconds taken: 0.0336 (28244.39 p/s)
 
 overall accuracy:        0.961053  (913/950), of which 62 exact matches 
 There were 7 ties of which 6 (85.71%) were correctly resolved
@@ -7967,19 +7967,19 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
--exp2-Tested:      1 @ Mon Feb 16 10:10:50 2015
--exp2-Tested:      2 @ Mon Feb 16 10:10:50 2015
--exp2-Tested:      3 @ Mon Feb 16 10:10:50 2015
--exp2-Tested:      4 @ Mon Feb 16 10:10:50 2015
--exp2-Tested:      5 @ Mon Feb 16 10:10:50 2015
--exp2-Tested:      6 @ Mon Feb 16 10:10:50 2015
--exp2-Tested:      7 @ Mon Feb 16 10:10:50 2015
--exp2-Tested:      8 @ Mon Feb 16 10:10:50 2015
--exp2-Tested:      9 @ Mon Feb 16 10:10:50 2015
--exp2-Tested:     10 @ Mon Feb 16 10:10:50 2015
--exp2-Tested:    100 @ Mon Feb 16 10:10:50 2015
--exp2-Ready:     950 @ Mon Feb 16 10:10:51 2015
-Seconds taken: 0.0969 (9805.24 p/s)
+-exp2-Tested:      1 @ Mon Sep  2 15:12:10 2019
+-exp2-Tested:      2 @ Mon Sep  2 15:12:10 2019
+-exp2-Tested:      3 @ Mon Sep  2 15:12:10 2019
+-exp2-Tested:      4 @ Mon Sep  2 15:12:10 2019
+-exp2-Tested:      5 @ Mon Sep  2 15:12:10 2019
+-exp2-Tested:      6 @ Mon Sep  2 15:12:10 2019
+-exp2-Tested:      7 @ Mon Sep  2 15:12:10 2019
+-exp2-Tested:      8 @ Mon Sep  2 15:12:10 2019
+-exp2-Tested:      9 @ Mon Sep  2 15:12:10 2019
+-exp2-Tested:     10 @ Mon Sep  2 15:12:10 2019
+-exp2-Tested:    100 @ Mon Sep  2 15:12:10 2019
+-exp2-Ready:     950 @ Mon Sep  2 15:12:10 2019
+Seconds taken: 0.0270 (35182.58 p/s)
 
 overall accuracy:        0.967368  (919/950), of which 39 exact matches 
 There were 5 ties of which 4 (80.00%) were correctly resolved
@@ -7997,24 +7997,24 @@ Number of Features: 12
 InputFormat       : C4.5
 
 -exp-Phase 1: Reading Datafile: tests/one_line
--exp-Start:          0 @ Mon Feb 16 10:10:51 2015
--exp-Finished:       1 @ Mon Feb 16 10:10:51 2015
--exp-Calculating Entropy         Mon Feb 16 10:10:51 2015
--exp-Preparation took 0 seconds, 0 milliseconds and 272 microseconds
+-exp-Start:          0 @ Mon Sep  2 15:12:10 2019
+-exp-Finished:       1 @ Mon Sep  2 15:12:10 2019
+-exp-Calculating Entropy         Mon Sep  2 15:12:10 2019
+-exp-Preparation took 0 seconds, 0 milliseconds and 82 microseconds
 Warning:-exp-Training file contains only 1 class.
 Warning:-exp-The following feature(s) have only 1 value: 1-12
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 >
 -exp-Phase 2: Building multi index on Datafile: tests/one_line
--exp-Start:          0 @ Mon Feb 16 10:10:51 2015
--exp-Finished:       1 @ Mon Feb 16 10:10:51 2015
+-exp-Start:          0 @ Mon Sep  2 15:12:10 2019
+-exp-Finished:       1 @ Mon Sep  2 15:12:10 2019
 -exp-
 Phase 3: Learning from Datafile: tests/one_line
--exp-Start:          0 @ Mon Feb 16 10:10:51 2015
--exp-Finished:       1 @ Mon Feb 16 10:10:51 2015
+-exp-Start:          0 @ Mon Sep  2 15:12:10 2019
+-exp-Finished:       1 @ Mon Sep  2 15:12:10 2019
 
 Size of InstanceBase = 13 Nodes, (520 bytes), 0.00 % compression
--exp-Learning took 0 seconds, 0 milliseconds and 336 microseconds
+-exp-Learning took 0 seconds, 0 milliseconds and 100 microseconds
 TSE script, executing line: 15
 === exp.classify "+,zw,A,rt,-,k,O,p,-,n,O,n,E" 
 classify: +,zw,A,rt,-,k,O,p,-,n,O,n,E ==> T

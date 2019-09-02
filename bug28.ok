@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:55 2016
+Mon Sep  2 15:22:38 2019
 
 Examine datafile 'tests/bug28.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug28.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
-Calculating Entropy         Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
+Calculating Entropy         Mon Sep  2 15:22:38 2019
 Lines of data     : 9
 DB Entropy        : 0.91829583
 Number of Classes : 2
@@ -22,27 +22,27 @@ Feats	Vals	InfoGain	GainRatio
     2      7	0.47385139	0.17385976
     3      4	0.30609861	0.16186606
 
-Preparation took 0 seconds, 0 milliseconds and 80 microseconds
+Preparation took 0 seconds, 0 milliseconds and 106 microseconds
 Feature Permutation based on GainRatio/Values :
 < 3, 2, 1 >
 Phase 2: Building multi index on Datafile: tests/bug28.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
 
 Phase 3: Learning from Datafile: tests/bug28.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       9 @ Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       9 @ Mon Sep  2 15:22:38 2019
 
 Size of InstanceBase = 18 Nodes, (720 bytes), 14.29 % compression
-Learning took 0 seconds, 0 milliseconds and 84 microseconds
+Learning took 0 seconds, 0 milliseconds and 109 microseconds
 Writing Instance-Base in: tree
 Saving Matrices in bug28.mat1
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:55 2016
+Mon Sep  2 15:22:38 2019
 
 Reading Instance-Base from: tree
 
@@ -71,14 +71,14 @@ Feature 1	 : 0.000000000000000
 Feature 2	 : 0.173859757830008
 Feature 3	 : 0.161866059958266
 
-Tested:      1 @ Thu Jan 14 09:08:55 2016
-Tested:      2 @ Thu Jan 14 09:08:55 2016
-Tested:      3 @ Thu Jan 14 09:08:55 2016
-Tested:      4 @ Thu Jan 14 09:08:55 2016
-Tested:      5 @ Thu Jan 14 09:08:55 2016
-Tested:      6 @ Thu Jan 14 09:08:55 2016
-Ready:       6 @ Thu Jan 14 09:08:55 2016
-Seconds taken: 0.0001 (40816.33 p/s)
+Tested:      1 @ Mon Sep  2 15:22:38 2019
+Tested:      2 @ Mon Sep  2 15:22:38 2019
+Tested:      3 @ Mon Sep  2 15:22:38 2019
+Tested:      4 @ Mon Sep  2 15:22:38 2019
+Tested:      5 @ Mon Sep  2 15:22:38 2019
+Tested:      6 @ Mon Sep  2 15:22:38 2019
+Ready:       6 @ Mon Sep  2 15:22:38 2019
+Seconds taken: 0.0002 (25000.00 p/s)
 
 overall accuracy:        0.666667  (4/6), of which 5 exact matches 
 There were 2 ties of which 1 (50.00%) were correctly resolved
@@ -89,21 +89,21 @@ dit,was,],+,-        0.0000000000000
 en,dit,[,-,-        0.0000000000000
 en,deze,[,-,-        0.0000000000000
 en,dat,een	tab,-,-        0.0000000000000
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:55 2016
+Mon Sep  2 15:22:38 2019
 
 Examine datafile 'tests/bug28.col.train' gave the following results:
 Number of Features: 3
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: tests/bug28.col.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       7 @ Thu Jan 14 09:08:55 2016
-Calculating Entropy         Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       7 @ Mon Sep  2 15:22:38 2019
+Calculating Entropy         Mon Sep  2 15:22:38 2019
 Lines of data     : 7
 DB Entropy        : 0.98522814
 Number of Classes : 2
@@ -113,27 +113,27 @@ Feats	Vals	InfoGain	GainRatio
     2      6	0.98522814	0.39070918
     3      4	0.12808528	0.065677616
 
-Preparation took 0 seconds, 0 milliseconds and 103 microseconds
+Preparation took 0 seconds, 0 milliseconds and 129 microseconds
 Feature Permutation based on GainRatio/Values :
 < 2, 3, 1 >
 Phase 2: Building multi index on Datafile: tests/bug28.col.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       7 @ Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       7 @ Mon Sep  2 15:22:38 2019
 
 Phase 3: Learning from Datafile: tests/bug28.col.train
-Start:          0 @ Thu Jan 14 09:08:55 2016
-Finished:       7 @ Thu Jan 14 09:08:55 2016
+Start:          0 @ Mon Sep  2 15:22:38 2019
+Finished:       7 @ Mon Sep  2 15:22:38 2019
 
 Size of InstanceBase = 20 Nodes, (800 bytes), 4.76 % compression
-Learning took 0 seconds, 0 milliseconds and 105 microseconds
+Learning took 0 seconds, 0 milliseconds and 132 microseconds
 Writing Instance-Base in: tree
 Saving Matrices in bug28.mat3
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:55 2016
+Mon Sep  2 15:22:38 2019
 
 Reading Instance-Base from: tree
 
@@ -162,12 +162,12 @@ Feature 1	 : 0.000000000000000
 Feature 2	 : 0.390709176333290
 Feature 3	 : 0.065677615883785
 
-Tested:      1 @ Thu Jan 14 09:08:55 2016
-Tested:      2 @ Thu Jan 14 09:08:55 2016
-Tested:      3 @ Thu Jan 14 09:08:55 2016
-Tested:      4 @ Thu Jan 14 09:08:55 2016
-Ready:       4 @ Thu Jan 14 09:08:55 2016
-Seconds taken: 0.0001 (43010.75 p/s)
+Tested:      1 @ Mon Sep  2 15:22:38 2019
+Tested:      2 @ Mon Sep  2 15:22:38 2019
+Tested:      3 @ Mon Sep  2 15:22:38 2019
+Tested:      4 @ Mon Sep  2 15:22:38 2019
+Ready:       4 @ Mon Sep  2 15:22:38 2019
+Seconds taken: 0.0001 (31496.06 p/s)
 
 overall accuracy:        0.750000  (3/4), of which 1 exact matches 
 There was 1 tie of which 1 (100.00%) was correctly resolved

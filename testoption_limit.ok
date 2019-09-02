@@ -1,18 +1,18 @@
-TiMBL 6.4.13 (c) CLST/ILK/CLIPS 1998 - 2018.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Jun  4 10:56:00 2018
+Mon Sep  2 16:02:31 2019
 
 Examine datafile './tests/hapax.train' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/hapax.train
-Start:          0 @ Mon Jun  4 10:56:00 2018
-Finished:    4000 @ Mon Jun  4 10:56:00 2018
-Calculating Entropy         Mon Jun  4 10:56:00 2018
+Start:          0 @ Mon Sep  2 16:02:31 2019
+Finished:    4000 @ Mon Sep  2 16:02:31 2019
+Calculating Entropy         Mon Sep  2 16:02:31 2019
 Lines of data     : 4000
 DB Entropy        : 8.6951931
 Number of Classes : 1222
@@ -33,7 +33,7 @@ Feats	Vals	InfoGain	GainRatio
    13   1225	5.9499452	0.68433572
    14   1224	5.9100747	0.67989149
 
-Preparation took 0 seconds, 32 milliseconds and 745 microseconds
+Preparation took 0 seconds, 38 milliseconds and 328 microseconds
 Feature Permutation based on GainRatio/Values :
 < 7, 8, 6, 9, 10, 4, 11, 3, 12, 2, 13, 1, 14, 5 >
 	--limit=7 is specified, so we retrain the data with option: -mL:I1,2,5,12-14:M8
@@ -42,9 +42,9 @@ Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/hapax.train
-Start:          0 @ Mon Jun  4 10:56:00 2018
-Finished:    4000 @ Mon Jun  4 10:56:00 2018
-Calculating Entropy         Mon Jun  4 10:56:00 2018
+Start:          0 @ Mon Sep  2 16:02:31 2019
+Finished:    4000 @ Mon Sep  2 16:02:31 2019
+Calculating Entropy         Mon Sep  2 16:02:31 2019
 Lines of data     : 4000
 DB Entropy        : 8.6951931
 Number of Classes : 1222
@@ -65,19 +65,19 @@ Feats	Vals	InfoGain	GainRatio
    13 (ignored) 
    14 (ignored) 
 
-Preparation took 0 seconds, 22 milliseconds and 103 microseconds
+Preparation took 0 seconds, 21 milliseconds and 209 microseconds
 Feature Permutation based on GainRatio/Values :
 < 7, 8, 6, 9, 10, 4, 11, 3, 1, 2, 5, 12, 13, 14 >
 Phase 2: Building multi index on Datafile: ./tests/hapax.train
-Start:          0 @ Mon Jun  4 10:56:00 2018
-Finished:    4000 @ Mon Jun  4 10:56:00 2018
+Start:          0 @ Mon Sep  2 16:02:31 2019
+Finished:    4000 @ Mon Sep  2 16:02:32 2019
 
 Phase 3: Learning from Datafile: ./tests/hapax.train
-Start:          0 @ Mon Jun  4 10:56:00 2018
-Finished:    4000 @ Mon Jun  4 10:56:00 2018
+Start:          0 @ Mon Sep  2 16:02:32 2019
+Finished:    4000 @ Mon Sep  2 16:02:32 2019
 
 Size of InstanceBase = 27542 Nodes, (1101680 bytes), 9.81 % compression
-Learning took 0 seconds, 41 milliseconds and 922 microseconds
+Learning took 0 seconds, 42 milliseconds and 581 microseconds
 Examine datafile './tests/hapax.test.small' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -116,19 +116,19 @@ Feature 12	 : 0.000000000000000
 Feature 13	 : 0.000000000000000
 Feature 14	 : 0.000000000000000
 
-Tested:      1 @ Mon Jun  4 10:56:00 2018
-Tested:      2 @ Mon Jun  4 10:56:00 2018
-Tested:      3 @ Mon Jun  4 10:56:00 2018
-Tested:      4 @ Mon Jun  4 10:56:00 2018
-Tested:      5 @ Mon Jun  4 10:56:00 2018
-Tested:      6 @ Mon Jun  4 10:56:00 2018
-Tested:      7 @ Mon Jun  4 10:56:00 2018
-Tested:      8 @ Mon Jun  4 10:56:00 2018
-Tested:      9 @ Mon Jun  4 10:56:00 2018
-Tested:     10 @ Mon Jun  4 10:56:00 2018
-Tested:    100 @ Mon Jun  4 10:56:00 2018
-Ready:     200 @ Mon Jun  4 10:56:01 2018
-Seconds taken: 0.5391 (371.01 p/s)
+Tested:      1 @ Mon Sep  2 16:02:32 2019
+Tested:      2 @ Mon Sep  2 16:02:32 2019
+Tested:      3 @ Mon Sep  2 16:02:32 2019
+Tested:      4 @ Mon Sep  2 16:02:32 2019
+Tested:      5 @ Mon Sep  2 16:02:32 2019
+Tested:      6 @ Mon Sep  2 16:02:32 2019
+Tested:      7 @ Mon Sep  2 16:02:32 2019
+Tested:      8 @ Mon Sep  2 16:02:32 2019
+Tested:      9 @ Mon Sep  2 16:02:32 2019
+Tested:     10 @ Mon Sep  2 16:02:32 2019
+Tested:    100 @ Mon Sep  2 16:02:32 2019
+Ready:     200 @ Mon Sep  2 16:02:32 2019
+Seconds taken: 0.6182 (323.53 p/s)
 
 overall accuracy:        0.050000  (10/200), of which 3 exact matches 
 There were 3 ties of which 0 (0.00%) were correctly resolved

@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:09:04 2016
+Mon Sep  2 15:22:47 2019
 
 Examine datafile 'tests/bug43.train' gave the following results:
 Number of Features: 1
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: tests/bug43.train
-Start:          0 @ Thu Jan 14 09:09:04 2016
-Finished:    1490 @ Thu Jan 14 09:09:04 2016
-Calculating Entropy         Thu Jan 14 09:09:04 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:    1490 @ Mon Sep  2 15:22:47 2019
+Calculating Entropy         Mon Sep  2 15:22:47 2019
 Lines of data     : 1490
 DB Entropy        : 8.7463455
 Number of Classes : 779
@@ -20,19 +20,19 @@ Number of Classes : 779
 Feats	Vals	InfoGain	GainRatio
     1      3	1.0760775	0.90634328
 
-Preparation took 0 seconds, 6 milliseconds and 826 microseconds
+Preparation took 0 seconds, 1 milliseconds and 611 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1 >
 Phase 2: Building index on Datafile: tests/bug43.train
-Start:          0 @ Thu Jan 14 09:09:04 2016
-Finished:    1490 @ Thu Jan 14 09:09:04 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:    1490 @ Mon Sep  2 15:22:47 2019
 
 Phase 3: Learning from Datafile: tests/bug43.train
-Start:          0 @ Thu Jan 14 09:09:04 2016
-Finished:    1490 @ Thu Jan 14 09:09:04 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:    1490 @ Mon Sep  2 15:22:47 2019
 
 Size of InstanceBase = 6 Nodes, (240 bytes), 0.00 % compression
-Learning took 0 seconds, 10 milliseconds and 845 microseconds
+Learning took 0 seconds, 5 milliseconds and 447 microseconds
 Examine datafile 'tests/bug43.test' gave the following results:
 Number of Features: 1
 InputFormat       : Columns
@@ -49,9 +49,9 @@ Total Size of value-matrices 168 Bytes
 Weighting     : GainRatio
 Feature 1	 : 0.906343276439966
 
-Tested:      1 @ Thu Jan 14 09:09:04 2016
-Ready:       1 @ Thu Jan 14 09:09:04 2016
-Seconds taken: 0.0011 (923.36 p/s)
+Tested:      1 @ Mon Sep  2 15:22:47 2019
+Ready:       1 @ Mon Sep  2 15:22:47 2019
+Seconds taken: 0.0008 (1228.50 p/s)
 
 overall accuracy:        0.000000  (0/1), of which 1 exact matches 
 There was 1 tie of which 0 (0.00%) was correctly resolved

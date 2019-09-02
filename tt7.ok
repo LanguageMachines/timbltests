@@ -1,9 +1,9 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:50:23 2016
+Mon Sep  2 15:22:50 2019
 
 Starting Cross validation test on files:
 ./tests/klein_1.train
@@ -45,18 +45,18 @@ Feature 6	 : 0.291933402045204
 Feature 7	 : 0.218198052865363
 Feature 8	 : 0.103295521355847
 
-Tested:      1 @ Thu Jan 14 09:50:23 2016
-Tested:      2 @ Thu Jan 14 09:50:23 2016
-Tested:      3 @ Thu Jan 14 09:50:23 2016
-Tested:      4 @ Thu Jan 14 09:50:23 2016
-Tested:      5 @ Thu Jan 14 09:50:23 2016
-Tested:      6 @ Thu Jan 14 09:50:23 2016
-Tested:      7 @ Thu Jan 14 09:50:23 2016
-Tested:      8 @ Thu Jan 14 09:50:23 2016
-Tested:      9 @ Thu Jan 14 09:50:23 2016
-Tested:     10 @ Thu Jan 14 09:50:23 2016
-Ready:      10 @ Thu Jan 14 09:50:23 2016
-Seconds taken: 0.0002 (46511.63 p/s)
+Tested:      1 @ Mon Sep  2 15:22:50 2019
+Tested:      2 @ Mon Sep  2 15:22:50 2019
+Tested:      3 @ Mon Sep  2 15:22:50 2019
+Tested:      4 @ Mon Sep  2 15:22:50 2019
+Tested:      5 @ Mon Sep  2 15:22:50 2019
+Tested:      6 @ Mon Sep  2 15:22:50 2019
+Tested:      7 @ Mon Sep  2 15:22:50 2019
+Tested:      8 @ Mon Sep  2 15:22:50 2019
+Tested:      9 @ Mon Sep  2 15:22:50 2019
+Tested:     10 @ Mon Sep  2 15:22:50 2019
+Ready:      10 @ Mon Sep  2 15:22:50 2019
+Seconds taken: 0.0002 (43668.12 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile './tests/klein_2.train' gave the following results:
@@ -93,18 +93,18 @@ Feature 6	 : 0.305378526354465
 Feature 7	 : 0.222168743865479
 Feature 8	 : 0.123944137808201
 
-Tested:      1 @ Thu Jan 14 09:50:23 2016
-Tested:      2 @ Thu Jan 14 09:50:23 2016
-Tested:      3 @ Thu Jan 14 09:50:23 2016
-Tested:      4 @ Thu Jan 14 09:50:23 2016
-Tested:      5 @ Thu Jan 14 09:50:23 2016
-Tested:      6 @ Thu Jan 14 09:50:23 2016
-Tested:      7 @ Thu Jan 14 09:50:23 2016
-Tested:      8 @ Thu Jan 14 09:50:23 2016
-Tested:      9 @ Thu Jan 14 09:50:23 2016
-Tested:     10 @ Thu Jan 14 09:50:23 2016
-Ready:      10 @ Thu Jan 14 09:50:23 2016
-Seconds taken: 0.0002 (53191.49 p/s)
+Tested:      1 @ Mon Sep  2 15:22:50 2019
+Tested:      2 @ Mon Sep  2 15:22:50 2019
+Tested:      3 @ Mon Sep  2 15:22:50 2019
+Tested:      4 @ Mon Sep  2 15:22:50 2019
+Tested:      5 @ Mon Sep  2 15:22:50 2019
+Tested:      6 @ Mon Sep  2 15:22:50 2019
+Tested:      7 @ Mon Sep  2 15:22:50 2019
+Tested:      8 @ Mon Sep  2 15:22:50 2019
+Tested:      9 @ Mon Sep  2 15:22:50 2019
+Tested:     10 @ Mon Sep  2 15:22:50 2019
+Ready:      10 @ Mon Sep  2 15:22:50 2019
+Seconds taken: 0.0002 (48780.49 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile './tests/klein_3.train' gave the following results:
@@ -141,18 +141,18 @@ Feature 6	 : 0.276090486447543
 Feature 7	 : 0.204411289106452
 Feature 8	 : 0.081023332351012
 
-Tested:      1 @ Thu Jan 14 09:50:23 2016
-Tested:      2 @ Thu Jan 14 09:50:23 2016
-Tested:      3 @ Thu Jan 14 09:50:23 2016
-Tested:      4 @ Thu Jan 14 09:50:23 2016
-Tested:      5 @ Thu Jan 14 09:50:23 2016
-Tested:      6 @ Thu Jan 14 09:50:23 2016
-Tested:      7 @ Thu Jan 14 09:50:23 2016
-Tested:      8 @ Thu Jan 14 09:50:23 2016
-Tested:      9 @ Thu Jan 14 09:50:23 2016
-Tested:     10 @ Thu Jan 14 09:50:23 2016
-Ready:      10 @ Thu Jan 14 09:50:23 2016
-Seconds taken: 0.0002 (55865.92 p/s)
+Tested:      1 @ Mon Sep  2 15:22:50 2019
+Tested:      2 @ Mon Sep  2 15:22:50 2019
+Tested:      3 @ Mon Sep  2 15:22:50 2019
+Tested:      4 @ Mon Sep  2 15:22:50 2019
+Tested:      5 @ Mon Sep  2 15:22:50 2019
+Tested:      6 @ Mon Sep  2 15:22:50 2019
+Tested:      7 @ Mon Sep  2 15:22:50 2019
+Tested:      8 @ Mon Sep  2 15:22:50 2019
+Tested:      9 @ Mon Sep  2 15:22:50 2019
+Tested:     10 @ Mon Sep  2 15:22:50 2019
+Ready:      10 @ Mon Sep  2 15:22:50 2019
+Seconds taken: 0.0002 (51813.47 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile './tests/klein_4.train' gave the following results:
@@ -189,18 +189,18 @@ Feature 6	 : 0.298999207112076
 Feature 7	 : 0.205649984076972
 Feature 8	 : 0.147975374298064
 
-Tested:      1 @ Thu Jan 14 09:50:23 2016
-Tested:      2 @ Thu Jan 14 09:50:23 2016
-Tested:      3 @ Thu Jan 14 09:50:23 2016
-Tested:      4 @ Thu Jan 14 09:50:23 2016
-Tested:      5 @ Thu Jan 14 09:50:23 2016
-Tested:      6 @ Thu Jan 14 09:50:23 2016
-Tested:      7 @ Thu Jan 14 09:50:23 2016
-Tested:      8 @ Thu Jan 14 09:50:23 2016
-Tested:      9 @ Thu Jan 14 09:50:23 2016
-Tested:     10 @ Thu Jan 14 09:50:23 2016
-Ready:      10 @ Thu Jan 14 09:50:23 2016
-Seconds taken: 0.0002 (54347.83 p/s)
+Tested:      1 @ Mon Sep  2 15:22:50 2019
+Tested:      2 @ Mon Sep  2 15:22:50 2019
+Tested:      3 @ Mon Sep  2 15:22:50 2019
+Tested:      4 @ Mon Sep  2 15:22:50 2019
+Tested:      5 @ Mon Sep  2 15:22:50 2019
+Tested:      6 @ Mon Sep  2 15:22:50 2019
+Tested:      7 @ Mon Sep  2 15:22:50 2019
+Tested:      8 @ Mon Sep  2 15:22:50 2019
+Tested:      9 @ Mon Sep  2 15:22:50 2019
+Tested:     10 @ Mon Sep  2 15:22:50 2019
+Ready:      10 @ Mon Sep  2 15:22:50 2019
+Seconds taken: 0.0002 (50251.26 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile './tests/klein_5.train' gave the following results:
@@ -237,15 +237,15 @@ Feature 6	 : 0.296622220584837
 Feature 7	 : 0.211488928619078
 Feature 8	 : 0.101959907286607
 
-Tested:      1 @ Thu Jan 14 09:50:23 2016
-Tested:      2 @ Thu Jan 14 09:50:23 2016
-Tested:      3 @ Thu Jan 14 09:50:23 2016
-Tested:      4 @ Thu Jan 14 09:50:23 2016
-Tested:      5 @ Thu Jan 14 09:50:23 2016
-Tested:      6 @ Thu Jan 14 09:50:23 2016
-Tested:      7 @ Thu Jan 14 09:50:23 2016
-Tested:      8 @ Thu Jan 14 09:50:23 2016
-Ready:       8 @ Thu Jan 14 09:50:23 2016
-Seconds taken: 0.0002 (53333.33 p/s)
+Tested:      1 @ Mon Sep  2 15:22:50 2019
+Tested:      2 @ Mon Sep  2 15:22:50 2019
+Tested:      3 @ Mon Sep  2 15:22:50 2019
+Tested:      4 @ Mon Sep  2 15:22:50 2019
+Tested:      5 @ Mon Sep  2 15:22:50 2019
+Tested:      6 @ Mon Sep  2 15:22:50 2019
+Tested:      7 @ Mon Sep  2 15:22:50 2019
+Tested:      8 @ Mon Sep  2 15:22:50 2019
+Ready:       8 @ Mon Sep  2 15:22:50 2019
+Seconds taken: 0.0002 (49079.75 p/s)
 
 overall accuracy:        1.000000  (8/8)

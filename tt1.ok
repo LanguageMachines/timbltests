@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:50:20 2016
+Mon Sep  2 15:22:47 2019
 
 Examine datafile 'tests/klein.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/klein.train
-Start:          0 @ Thu Jan 14 09:50:20 2016
-Finished:     220 @ Thu Jan 14 09:50:20 2016
-Calculating Entropy         Thu Jan 14 09:50:20 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:     220 @ Mon Sep  2 15:22:47 2019
+Calculating Entropy         Mon Sep  2 15:22:47 2019
 Lines of data     : 220
 DB Entropy        : 1.0973232
 Number of Classes : 3
@@ -27,36 +27,36 @@ Feats	Vals	X-square	Variance	InfoGain	GainRatio
     7     24	117.56486	0.26719286	0.46696345	0.11793486
     8     24	50.626817	0.11506095	0.16987195	0.042889176
 
-Preparation took 0 seconds, 1 milliseconds and 177 microseconds
+Preparation took 0 seconds, 1 milliseconds and 251 microseconds
 Saving Weights in ./tests/tt1.wgt
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 2, 3, 1, 4 >
 Phase 2: Building multi index on Datafile: tests/klein.train
-Start:          0 @ Thu Jan 14 09:50:20 2016
-Finished:     220 @ Thu Jan 14 09:50:20 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:     220 @ Mon Sep  2 15:22:47 2019
 
 Phase 3: Learning from Datafile: tests/klein.train
-Start:          0 @ Thu Jan 14 09:50:20 2016
-Finished:     220 @ Thu Jan 14 09:50:20 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:     220 @ Mon Sep  2 15:22:47 2019
 
 Size of InstanceBase = 1565 Nodes, (62600 bytes), 20.96 % compression
-Learning took 0 seconds, 2 milliseconds and 120 microseconds
+Learning took 0 seconds, 1 milliseconds and 628 microseconds
 Writing Instance-Base in: tt1.tree
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:50:20 2016
+Mon Sep  2 15:22:47 2019
 
 Examine datafile 'tests/klein.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/klein.train
-Start:          0 @ Thu Jan 14 09:50:20 2016
-Finished:     220 @ Thu Jan 14 09:50:20 2016
-Calculating Entropy         Thu Jan 14 09:50:20 2016
+Start:          0 @ Mon Sep  2 15:22:47 2019
+Finished:     220 @ Mon Sep  2 15:22:47 2019
+Calculating Entropy         Mon Sep  2 15:22:47 2019
 Lines of data     : 220
 DB Entropy        : 1.0973232
 Number of Classes : 3
@@ -71,22 +71,22 @@ Feats	Vals	InfoGain	GainRatio
     7     24	0.46696345	0.11793486
     8     24	0.16987195	0.042889176
 
-Preparation took 0 seconds, 1 milliseconds and 172 microseconds
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+Preparation took 0 seconds, 0 milliseconds and 795 microseconds
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:50:20 2016
+Mon Sep  2 15:22:48 2019
 
 Examine datafile 'tests/klein.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/klein.train
-Start:          0 @ Thu Jan 14 09:50:20 2016
-Finished:     220 @ Thu Jan 14 09:50:20 2016
-Calculating Entropy         Thu Jan 14 09:50:20 2016
+Start:          0 @ Mon Sep  2 15:22:48 2019
+Finished:     220 @ Mon Sep  2 15:22:48 2019
+Calculating Entropy         Mon Sep  2 15:22:48 2019
 Lines of data     : 220
 DB Entropy        : 1.0973232
 Number of Classes : 3
@@ -101,13 +101,13 @@ Feats	Vals	InfoGain	GainRatio
     7     24	0.46696345	0.11793486
     8     24	0.16987195	0.042889176
 
-Preparation took 0 seconds, 1 milliseconds and 163 microseconds
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+Preparation took 0 seconds, 0 milliseconds and 932 microseconds
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:50:20 2016
+Mon Sep  2 15:22:48 2019
 
 Reading Instance-Base from: tt1.tree
 
@@ -135,18 +135,18 @@ Feature 6	 : 1.000000000000000
 Feature 7	 : 1.000000000000000
 Feature 8	 : 1.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:50:20 2016
-Tested:      2 @ Thu Jan 14 09:50:20 2016
-Tested:      3 @ Thu Jan 14 09:50:20 2016
-Tested:      4 @ Thu Jan 14 09:50:20 2016
-Tested:      5 @ Thu Jan 14 09:50:20 2016
-Tested:      6 @ Thu Jan 14 09:50:20 2016
-Tested:      7 @ Thu Jan 14 09:50:20 2016
-Tested:      8 @ Thu Jan 14 09:50:20 2016
-Tested:      9 @ Thu Jan 14 09:50:20 2016
-Tested:     10 @ Thu Jan 14 09:50:20 2016
-Ready:      50 @ Thu Jan 14 09:50:20 2016
-Seconds taken: 0.0017 (29850.75 p/s)
+Tested:      1 @ Mon Sep  2 15:22:48 2019
+Tested:      2 @ Mon Sep  2 15:22:48 2019
+Tested:      3 @ Mon Sep  2 15:22:48 2019
+Tested:      4 @ Mon Sep  2 15:22:48 2019
+Tested:      5 @ Mon Sep  2 15:22:48 2019
+Tested:      6 @ Mon Sep  2 15:22:48 2019
+Tested:      7 @ Mon Sep  2 15:22:48 2019
+Tested:      8 @ Mon Sep  2 15:22:48 2019
+Tested:      9 @ Mon Sep  2 15:22:48 2019
+Tested:     10 @ Mon Sep  2 15:22:48 2019
+Ready:      50 @ Mon Sep  2 15:22:48 2019
+Seconds taken: 0.0022 (22696.32 p/s)
 
 overall accuracy:        0.840000  (42/50)
 There were 2 ties of which 1 (50.00%) were correctly resolved
@@ -171,18 +171,18 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 
-Tested:      1 @ Thu Jan 14 09:50:20 2016
-Tested:      2 @ Thu Jan 14 09:50:20 2016
-Tested:      3 @ Thu Jan 14 09:50:20 2016
-Tested:      4 @ Thu Jan 14 09:50:20 2016
-Tested:      5 @ Thu Jan 14 09:50:20 2016
-Tested:      6 @ Thu Jan 14 09:50:20 2016
-Tested:      7 @ Thu Jan 14 09:50:20 2016
-Tested:      8 @ Thu Jan 14 09:50:20 2016
-Tested:      9 @ Thu Jan 14 09:50:20 2016
-Tested:     10 @ Thu Jan 14 09:50:20 2016
-Ready:      50 @ Thu Jan 14 09:50:20 2016
-Seconds taken: 0.0017 (30066.15 p/s)
+Tested:      1 @ Mon Sep  2 15:22:48 2019
+Tested:      2 @ Mon Sep  2 15:22:48 2019
+Tested:      3 @ Mon Sep  2 15:22:48 2019
+Tested:      4 @ Mon Sep  2 15:22:48 2019
+Tested:      5 @ Mon Sep  2 15:22:48 2019
+Tested:      6 @ Mon Sep  2 15:22:48 2019
+Tested:      7 @ Mon Sep  2 15:22:48 2019
+Tested:      8 @ Mon Sep  2 15:22:48 2019
+Tested:      9 @ Mon Sep  2 15:22:48 2019
+Tested:     10 @ Mon Sep  2 15:22:48 2019
+Ready:      50 @ Mon Sep  2 15:22:48 2019
+Seconds taken: 0.0014 (36231.88 p/s)
 
 overall accuracy:        0.880000  (44/50)
 There was 1 tie of which 1 (100.00%) was correctly resolved
@@ -207,18 +207,18 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 
-Tested:      1 @ Thu Jan 14 09:50:20 2016
-Tested:      2 @ Thu Jan 14 09:50:20 2016
-Tested:      3 @ Thu Jan 14 09:50:20 2016
-Tested:      4 @ Thu Jan 14 09:50:20 2016
-Tested:      5 @ Thu Jan 14 09:50:20 2016
-Tested:      6 @ Thu Jan 14 09:50:20 2016
-Tested:      7 @ Thu Jan 14 09:50:20 2016
-Tested:      8 @ Thu Jan 14 09:50:20 2016
-Tested:      9 @ Thu Jan 14 09:50:20 2016
-Tested:     10 @ Thu Jan 14 09:50:20 2016
-Ready:      50 @ Thu Jan 14 09:50:20 2016
-Seconds taken: 0.0017 (29291.15 p/s)
+Tested:      1 @ Mon Sep  2 15:22:48 2019
+Tested:      2 @ Mon Sep  2 15:22:48 2019
+Tested:      3 @ Mon Sep  2 15:22:48 2019
+Tested:      4 @ Mon Sep  2 15:22:48 2019
+Tested:      5 @ Mon Sep  2 15:22:48 2019
+Tested:      6 @ Mon Sep  2 15:22:48 2019
+Tested:      7 @ Mon Sep  2 15:22:48 2019
+Tested:      8 @ Mon Sep  2 15:22:48 2019
+Tested:      9 @ Mon Sep  2 15:22:48 2019
+Tested:     10 @ Mon Sep  2 15:22:48 2019
+Ready:      50 @ Mon Sep  2 15:22:48 2019
+Seconds taken: 0.0013 (37202.38 p/s)
 
 overall accuracy:        0.880000  (44/50)
 There was 1 tie of which 1 (100.00%) was correctly resolved
@@ -253,18 +253,18 @@ Feature 6	 : 1.000000000000000
 Feature 7	 : 1.000000000000000
 Feature 8	 : 1.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:50:20 2016
-Tested:      2 @ Thu Jan 14 09:50:20 2016
-Tested:      3 @ Thu Jan 14 09:50:20 2016
-Tested:      4 @ Thu Jan 14 09:50:20 2016
-Tested:      5 @ Thu Jan 14 09:50:20 2016
-Tested:      6 @ Thu Jan 14 09:50:20 2016
-Tested:      7 @ Thu Jan 14 09:50:20 2016
-Tested:      8 @ Thu Jan 14 09:50:20 2016
-Tested:      9 @ Thu Jan 14 09:50:20 2016
-Tested:     10 @ Thu Jan 14 09:50:20 2016
-Ready:      50 @ Thu Jan 14 09:50:20 2016
-Seconds taken: 0.0023 (21978.02 p/s)
+Tested:      1 @ Mon Sep  2 15:22:48 2019
+Tested:      2 @ Mon Sep  2 15:22:48 2019
+Tested:      3 @ Mon Sep  2 15:22:48 2019
+Tested:      4 @ Mon Sep  2 15:22:48 2019
+Tested:      5 @ Mon Sep  2 15:22:48 2019
+Tested:      6 @ Mon Sep  2 15:22:48 2019
+Tested:      7 @ Mon Sep  2 15:22:48 2019
+Tested:      8 @ Mon Sep  2 15:22:48 2019
+Tested:      9 @ Mon Sep  2 15:22:48 2019
+Tested:     10 @ Mon Sep  2 15:22:48 2019
+Ready:      50 @ Mon Sep  2 15:22:48 2019
+Seconds taken: 0.0022 (22371.36 p/s)
 
 overall accuracy:        0.880000  (44/50)
 Reading weights from ./tests/tt1.wgt
@@ -298,18 +298,18 @@ Feature 6	 : 0.216438669149875
 Feature 7	 : 0.117934862496257
 Feature 8	 : 0.042889176265932
 
-Tested:      1 @ Thu Jan 14 09:50:20 2016
-Tested:      2 @ Thu Jan 14 09:50:20 2016
-Tested:      3 @ Thu Jan 14 09:50:20 2016
-Tested:      4 @ Thu Jan 14 09:50:20 2016
-Tested:      5 @ Thu Jan 14 09:50:20 2016
-Tested:      6 @ Thu Jan 14 09:50:20 2016
-Tested:      7 @ Thu Jan 14 09:50:20 2016
-Tested:      8 @ Thu Jan 14 09:50:20 2016
-Tested:      9 @ Thu Jan 14 09:50:20 2016
-Tested:     10 @ Thu Jan 14 09:50:20 2016
-Ready:      50 @ Thu Jan 14 09:50:20 2016
-Seconds taken: 0.0024 (20911.75 p/s)
+Tested:      1 @ Mon Sep  2 15:22:48 2019
+Tested:      2 @ Mon Sep  2 15:22:48 2019
+Tested:      3 @ Mon Sep  2 15:22:48 2019
+Tested:      4 @ Mon Sep  2 15:22:48 2019
+Tested:      5 @ Mon Sep  2 15:22:48 2019
+Tested:      6 @ Mon Sep  2 15:22:48 2019
+Tested:      7 @ Mon Sep  2 15:22:48 2019
+Tested:      8 @ Mon Sep  2 15:22:48 2019
+Tested:      9 @ Mon Sep  2 15:22:48 2019
+Tested:     10 @ Mon Sep  2 15:22:48 2019
+Ready:      50 @ Mon Sep  2 15:22:48 2019
+Seconds taken: 0.0021 (24131.27 p/s)
 
 overall accuracy:        0.900000  (45/50)
 Reading weights from ./tests/ig_1.w
@@ -347,17 +347,17 @@ Feature 6	 : 1.000000000000000
 Feature 7	 : 1.000000000000000
 Feature 8	 : 1.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:50:20 2016
-Tested:      2 @ Thu Jan 14 09:50:20 2016
-Tested:      3 @ Thu Jan 14 09:50:20 2016
-Tested:      4 @ Thu Jan 14 09:50:20 2016
-Tested:      5 @ Thu Jan 14 09:50:20 2016
-Tested:      6 @ Thu Jan 14 09:50:20 2016
-Tested:      7 @ Thu Jan 14 09:50:20 2016
-Tested:      8 @ Thu Jan 14 09:50:20 2016
-Tested:      9 @ Thu Jan 14 09:50:20 2016
-Tested:     10 @ Thu Jan 14 09:50:20 2016
-Ready:      50 @ Thu Jan 14 09:50:20 2016
-Seconds taken: 0.0023 (21450.02 p/s)
+Tested:      1 @ Mon Sep  2 15:22:48 2019
+Tested:      2 @ Mon Sep  2 15:22:48 2019
+Tested:      3 @ Mon Sep  2 15:22:48 2019
+Tested:      4 @ Mon Sep  2 15:22:48 2019
+Tested:      5 @ Mon Sep  2 15:22:48 2019
+Tested:      6 @ Mon Sep  2 15:22:48 2019
+Tested:      7 @ Mon Sep  2 15:22:48 2019
+Tested:      8 @ Mon Sep  2 15:22:48 2019
+Tested:      9 @ Mon Sep  2 15:22:48 2019
+Tested:     10 @ Mon Sep  2 15:22:48 2019
+Ready:      50 @ Mon Sep  2 15:22:48 2019
+Seconds taken: 0.0022 (22779.04 p/s)
 
 overall accuracy:        0.880000  (44/50)

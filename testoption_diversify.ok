@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:45:28 2016
+Mon Sep  2 15:14:11 2019
 
 Examine datafile './tests/hapax.data' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/hapax.data
-Start:          0 @ Thu Jan 14 09:45:28 2016
-Finished:   50000 @ Thu Jan 14 09:45:29 2016
-Calculating Entropy         Thu Jan 14 09:45:29 2016
+Start:          0 @ Mon Sep  2 15:14:11 2019
+Finished:   50000 @ Mon Sep  2 15:14:12 2019
+Calculating Entropy         Mon Sep  2 15:14:12 2019
 Lines of data     : 50000
 DB Entropy        : 9.9075793
 Number of Classes : 7223
@@ -33,19 +33,19 @@ Feats	Vals	InfoGain	GainRatio
    13   7223	5.2326153	0.52817082
    14   7223	5.2056050	0.52544444
 
-Preparation took 0 seconds, 951 milliseconds and 414 microseconds
+Preparation took 0 seconds, 682 milliseconds and 134 microseconds
 Feature Permutation based on GainRatio/Values :
 < 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
 Phase 2: Building multi index on Datafile: ./tests/hapax.data
-Start:          0 @ Thu Jan 14 09:45:29 2016
-Finished:   50000 @ Thu Jan 14 09:45:30 2016
+Start:          0 @ Mon Sep  2 15:14:12 2019
+Finished:   50000 @ Mon Sep  2 15:14:12 2019
 
 Phase 3: Learning from Datafile: ./tests/hapax.data
-Start:          0 @ Thu Jan 14 09:45:30 2016
-Finished:   50000 @ Thu Jan 14 09:45:31 2016
+Start:          0 @ Mon Sep  2 15:14:12 2019
+Finished:   50000 @ Mon Sep  2 15:14:13 2019
 
 Size of InstanceBase = 590466 Nodes, (23618640 bytes), 10.44 % compression
-Learning took 1 seconds, 482 milliseconds and 511 microseconds
+Learning took 1 seconds, 0 milliseconds and 365 microseconds
 Examine datafile './tests/hapax.test' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -72,20 +72,20 @@ Feature 12	 : 0.530754580234671
 Feature 13	 : 0.528170817283852
 Feature 14	 : 0.525444443436386
 
-Tested:      1 @ Thu Jan 14 09:45:31 2016
-Tested:      2 @ Thu Jan 14 09:45:31 2016
-Tested:      3 @ Thu Jan 14 09:45:31 2016
-Tested:      4 @ Thu Jan 14 09:45:31 2016
-Tested:      5 @ Thu Jan 14 09:45:31 2016
-Tested:      6 @ Thu Jan 14 09:45:31 2016
-Tested:      7 @ Thu Jan 14 09:45:31 2016
-Tested:      8 @ Thu Jan 14 09:45:31 2016
-Tested:      9 @ Thu Jan 14 09:45:31 2016
-Tested:     10 @ Thu Jan 14 09:45:31 2016
-Tested:    100 @ Thu Jan 14 09:45:33 2016
-Tested:   1000 @ Thu Jan 14 09:45:52 2016
-Ready:    1000 @ Thu Jan 14 09:45:52 2016
-Seconds taken: 21.1014 (47.39 p/s)
+Tested:      1 @ Mon Sep  2 15:14:13 2019
+Tested:      2 @ Mon Sep  2 15:14:13 2019
+Tested:      3 @ Mon Sep  2 15:14:13 2019
+Tested:      4 @ Mon Sep  2 15:14:13 2019
+Tested:      5 @ Mon Sep  2 15:14:13 2019
+Tested:      6 @ Mon Sep  2 15:14:13 2019
+Tested:      7 @ Mon Sep  2 15:14:13 2019
+Tested:      8 @ Mon Sep  2 15:14:13 2019
+Tested:      9 @ Mon Sep  2 15:14:13 2019
+Tested:     10 @ Mon Sep  2 15:14:13 2019
+Tested:    100 @ Mon Sep  2 15:14:15 2019, 1000: Mon Sep  2 15:14:33 2019
+Tested:   1000 @ Mon Sep  2 15:14:30 2019
+Ready:    1000 @ Mon Sep  2 15:14:30 2019
+Seconds taken: 16.9188 (59.11 p/s)
 
 overall accuracy:        0.051000  (51/1000)
 There were 164 ties of which 7 (4.27%) were correctly resolved
@@ -139,21 +139,21 @@ had peeped into the book her sister reading , but it had no pictures was of
 peeped into the book her sister was , but it had no pictures or reading workers
 into the book her sister was reading but it had no pictures or conversations , on
 the book her sister was reading , it had no pictures or conversations in but boosting
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:45:52 2016
+Mon Sep  2 15:14:30 2019
 
 Examine datafile './tests/hapax.data' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/hapax.data
-Start:          0 @ Thu Jan 14 09:45:52 2016
-Finished:   50000 @ Thu Jan 14 09:45:53 2016
-Calculating Entropy         Thu Jan 14 09:45:53 2016
+Start:          0 @ Mon Sep  2 15:14:30 2019
+Finished:   50000 @ Mon Sep  2 15:14:31 2019
+Calculating Entropy         Mon Sep  2 15:14:31 2019
 Lines of data     : 50000
 DB Entropy        : 9.9075793
 Number of Classes : 7223
@@ -174,19 +174,19 @@ Feats	Vals	InfoGain	GainRatio
    13   7223	5.2326153	0.52817082
    14   7223	5.2056050	0.52544444
 
-Preparation took 0 seconds, 991 milliseconds and 694 microseconds
+Preparation took 0 seconds, 751 milliseconds and 365 microseconds
 Feature Permutation based on GainRatio/Values :
 < 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
 Phase 2: Building multi index on Datafile: ./tests/hapax.data
-Start:          0 @ Thu Jan 14 09:45:53 2016
-Finished:   50000 @ Thu Jan 14 09:45:54 2016
+Start:          0 @ Mon Sep  2 15:14:31 2019
+Finished:   50000 @ Mon Sep  2 15:14:31 2019
 
 Phase 3: Learning from Datafile: ./tests/hapax.data
-Start:          0 @ Thu Jan 14 09:45:54 2016
-Finished:   50000 @ Thu Jan 14 09:45:55 2016
+Start:          0 @ Mon Sep  2 15:14:31 2019
+Finished:   50000 @ Mon Sep  2 15:14:32 2019
 
 Size of InstanceBase = 590466 Nodes, (23618640 bytes), 10.44 % compression
-Learning took 1 seconds, 709 milliseconds and 400 microseconds
+Learning took 1 seconds, 67 milliseconds and 577 microseconds
 Examine datafile './tests/hapax.test' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -213,20 +213,20 @@ Feature 12	 : 0.005310136798285
 Feature 13	 : 0.002726373847466
 Feature 14	 : 0.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:45:55 2016
-Tested:      2 @ Thu Jan 14 09:45:55 2016
-Tested:      3 @ Thu Jan 14 09:45:55 2016
-Tested:      4 @ Thu Jan 14 09:45:55 2016
-Tested:      5 @ Thu Jan 14 09:45:55 2016
-Tested:      6 @ Thu Jan 14 09:45:55 2016
-Tested:      7 @ Thu Jan 14 09:45:55 2016
-Tested:      8 @ Thu Jan 14 09:45:55 2016
-Tested:      9 @ Thu Jan 14 09:45:55 2016
-Tested:     10 @ Thu Jan 14 09:45:55 2016
-Tested:    100 @ Thu Jan 14 09:45:57 2016
-Tested:   1000 @ Thu Jan 14 09:46:12 2016
-Ready:    1000 @ Thu Jan 14 09:46:12 2016
-Seconds taken: 16.7921 (59.55 p/s)
+Tested:      1 @ Mon Sep  2 15:14:32 2019
+Tested:      2 @ Mon Sep  2 15:14:32 2019
+Tested:      3 @ Mon Sep  2 15:14:32 2019
+Tested:      4 @ Mon Sep  2 15:14:32 2019
+Tested:      5 @ Mon Sep  2 15:14:32 2019
+Tested:      6 @ Mon Sep  2 15:14:32 2019
+Tested:      7 @ Mon Sep  2 15:14:32 2019
+Tested:      8 @ Mon Sep  2 15:14:32 2019
+Tested:      9 @ Mon Sep  2 15:14:32 2019
+Tested:     10 @ Mon Sep  2 15:14:32 2019
+Tested:    100 @ Mon Sep  2 15:14:33 2019, 1000: Mon Sep  2 15:14:42 2019
+Tested:   1000 @ Mon Sep  2 15:14:45 2019
+Ready:    1000 @ Mon Sep  2 15:14:45 2019
+Seconds taken: 12.8372 (77.90 p/s)
 
 overall accuracy:        0.067000  (67/1000)
 There were 189 ties of which 8 (4.23%) were correctly resolved

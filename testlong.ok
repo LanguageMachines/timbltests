@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:19:59 2016
+Mon Sep  2 15:29:53 2019
 
 Examine datafile './tests/align.data' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/align.data
-Start:          0 @ Thu Jan 14 09:19:59 2016
-Finished:   50000 @ Thu Jan 14 09:19:59 2016
-Calculating Entropy         Thu Jan 14 09:19:59 2016
+Start:          0 @ Mon Sep  2 15:29:53 2019
+Finished:   50000 @ Mon Sep  2 15:29:53 2019
+Calculating Entropy         Mon Sep  2 15:29:53 2019
 Lines of data     : 50000
 DB Entropy        : 14.797393
 Number of Classes : 36941
@@ -26,19 +26,19 @@ Feats	Vals	InfoGain	GainRatio
     6   5296	7.7859356	0.93097480
     7   5319	7.5803945	0.92715345
 
-Preparation took 0 seconds, 547 milliseconds and 129 microseconds
+Preparation took 0 seconds, 427 milliseconds and 189 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 5, 6, 7, 3, 4 >
 Phase 2: Building multi index on Datafile: ./tests/align.data
-Start:          0 @ Thu Jan 14 09:19:59 2016
-Finished:   50000 @ Thu Jan 14 09:19:59 2016
+Start:          0 @ Mon Sep  2 15:29:53 2019
+Finished:   50000 @ Mon Sep  2 15:29:54 2019
 
 Phase 3: Learning from Datafile: ./tests/align.data
-Start:          0 @ Thu Jan 14 09:19:59 2016
-Finished:   50000 @ Thu Jan 14 09:20:00 2016
+Start:          0 @ Mon Sep  2 15:29:54 2019
+Finished:   50000 @ Mon Sep  2 15:29:54 2019
 
 Size of InstanceBase = 287204 Nodes, (11488160 bytes), 20.72 % compression
-Learning took 0 seconds, 902 milliseconds and 238 microseconds
+Learning took 0 seconds, 661 milliseconds and 874 microseconds
 Examine datafile './tests/align.test' gave the following results:
 Number of Features: 7
 InputFormat       : Columns
@@ -58,20 +58,20 @@ Feature 5	 : 0.950158299294629
 Feature 6	 : 0.930974803272551
 Feature 7	 : 0.927153449509075
 
-Tested:      1 @ Thu Jan 14 09:20:00 2016
-Tested:      2 @ Thu Jan 14 09:20:00 2016
-Tested:      3 @ Thu Jan 14 09:20:00 2016
-Tested:      4 @ Thu Jan 14 09:20:00 2016
-Tested:      5 @ Thu Jan 14 09:20:00 2016
-Tested:      6 @ Thu Jan 14 09:20:00 2016
-Tested:      7 @ Thu Jan 14 09:20:00 2016
-Tested:      8 @ Thu Jan 14 09:20:00 2016
-Tested:      9 @ Thu Jan 14 09:20:00 2016
-Tested:     10 @ Thu Jan 14 09:20:00 2016
-Tested:    100 @ Thu Jan 14 09:20:01 2016
-Tested:   1000 @ Thu Jan 14 09:20:16 2016
-Ready:    1000 @ Thu Jan 14 09:20:16 2016
-Seconds taken: 15.7496 (63.49 p/s)
+Tested:      1 @ Mon Sep  2 15:29:54 2019
+Tested:      2 @ Mon Sep  2 15:29:54 2019
+Tested:      3 @ Mon Sep  2 15:29:54 2019
+Tested:      4 @ Mon Sep  2 15:29:54 2019
+Tested:      5 @ Mon Sep  2 15:29:54 2019
+Tested:      6 @ Mon Sep  2 15:29:54 2019
+Tested:      7 @ Mon Sep  2 15:29:54 2019
+Tested:      8 @ Mon Sep  2 15:29:54 2019
+Tested:      9 @ Mon Sep  2 15:29:54 2019
+Tested:     10 @ Mon Sep  2 15:29:54 2019
+Tested:    100 @ Mon Sep  2 15:29:55 2019
+Tested:   1000 @ Mon Sep  2 15:30:09 2019
+Ready:    1000 @ Mon Sep  2 15:30:09 2019
+Seconds taken: 14.6135 (68.43 p/s)
 
 overall accuracy:        0.000000  (0/1000), of which 13 exact matches 
 There were 439 ties of which 0 (0.00%) were correctly resolved

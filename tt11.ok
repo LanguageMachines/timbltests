@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 10:02:51 2016
+Mon Sep  2 15:22:48 2019
 
 Examine datafile 'tests/kwart.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/kwart.train
-Start:          0 @ Thu Jan 14 10:02:51 2016
-Finished:   50000 @ Thu Jan 14 10:02:52 2016
-Calculating Entropy         Thu Jan 14 10:02:52 2016
+Start:          0 @ Mon Sep  2 15:22:48 2019
+Finished:   50000 @ Mon Sep  2 15:22:48 2019
+Calculating Entropy         Mon Sep  2 15:22:48 2019
 Lines of data     : 50000
 DB Entropy        : 1.1247965
 Number of Classes : 3
@@ -27,19 +27,19 @@ Feats	Vals	InfoGain	GainRatio
     7     44	0.32499390	0.074939666
     8     44	0.048351684	0.011172195
 
-Preparation took 0 seconds, 275 milliseconds and 984 microseconds
+Preparation took 0 seconds, 148 milliseconds and 486 microseconds
 Feature Permutation based on GainRatio :
 < 6, 2, 7, 3, 5, 1, 4, 8 >
 Phase 2: Building multi index on Datafile: tests/kwart.train
-Start:          0 @ Thu Jan 14 10:02:52 2016
-Finished:   50000 @ Thu Jan 14 10:02:52 2016
+Start:          0 @ Mon Sep  2 15:22:48 2019
+Finished:   50000 @ Mon Sep  2 15:22:48 2019
 
 Phase 3: Learning from Datafile: tests/kwart.train
-Start:          0 @ Thu Jan 14 10:02:52 2016
-Finished:   50000 @ Thu Jan 14 10:02:52 2016
+Start:          0 @ Mon Sep  2 15:22:48 2019
+Finished:   50000 @ Mon Sep  2 15:22:48 2019
 
 Size of InstanceBase = 284326 Nodes, (11373040 bytes), 34.50 % compression
-Learning took 0 seconds, 599 milliseconds and 393 microseconds
+Learning took 0 seconds, 412 milliseconds and 539 microseconds
 Examine datafile 'tests/kwart.test' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
@@ -70,21 +70,21 @@ Feature 6	 : 0.192372553722376
 Feature 7	 : 0.074939665912809
 Feature 8	 : 0.011172195355527
 
-Tested:      1 @ Thu Jan 14 10:02:52 2016
-Tested:      2 @ Thu Jan 14 10:02:52 2016
-Tested:      3 @ Thu Jan 14 10:02:52 2016
-Tested:      4 @ Thu Jan 14 10:02:52 2016
-Tested:      5 @ Thu Jan 14 10:02:52 2016
-Tested:      6 @ Thu Jan 14 10:02:52 2016
-Tested:      7 @ Thu Jan 14 10:02:52 2016
-Tested:      8 @ Thu Jan 14 10:02:52 2016
-Tested:      9 @ Thu Jan 14 10:02:52 2016
-Tested:     10 @ Thu Jan 14 10:02:52 2016
-Tested:    100 @ Thu Jan 14 10:02:53 2016
-Tested:   1000 @ Thu Jan 14 10:02:53 2016
-Tested:  10000 @ Thu Jan 14 10:02:54 2016
-Ready:   10000 @ Thu Jan 14 10:02:54 2016
-Seconds taken: 1.5534 (6437.50 p/s)
+Tested:      1 @ Mon Sep  2 15:22:48 2019
+Tested:      2 @ Mon Sep  2 15:22:48 2019
+Tested:      3 @ Mon Sep  2 15:22:48 2019
+Tested:      4 @ Mon Sep  2 15:22:48 2019
+Tested:      5 @ Mon Sep  2 15:22:48 2019
+Tested:      6 @ Mon Sep  2 15:22:48 2019
+Tested:      7 @ Mon Sep  2 15:22:48 2019
+Tested:      8 @ Mon Sep  2 15:22:48 2019
+Tested:      9 @ Mon Sep  2 15:22:48 2019
+Tested:     10 @ Mon Sep  2 15:22:48 2019
+Tested:    100 @ Mon Sep  2 15:22:48 2019
+Tested:   1000 @ Mon Sep  2 15:22:48 2019
+Tested:  10000 @ Mon Sep  2 15:22:50 2019
+Ready:   10000 @ Mon Sep  2 15:22:50 2019
+Seconds taken: 1.4034 (7125.42 p/s)
 
 overall accuracy:        0.958700  (9587/10000), of which 653 exact matches 
 There were 3 ties of which 2 (66.67%) were correctly resolved

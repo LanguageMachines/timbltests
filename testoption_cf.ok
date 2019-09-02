@@ -1,26 +1,26 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:43:16 2016
+Mon Sep  2 15:12:44 2019
 
 Error:Invalid option +vcf, while -G is missing!
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:43:16 2016
+Mon Sep  2 15:12:44 2019
 
 Examine datafile './tests/example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:43:16 2016
-Finished:      29 @ Thu Jan 14 09:43:16 2016
-Calculating Entropy         Thu Jan 14 09:43:16 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
+Calculating Entropy         Mon Sep  2 15:12:44 2019
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -30,19 +30,19 @@ Feats	Vals	InfoGain	GainRatio
     2      3	0.0060448141	0.0040988196
     3      4	0.044887336	0.023802575
 
-Preparation took 0 seconds, 0 milliseconds and 101 microseconds
+Preparation took 0 seconds, 0 milliseconds and 119 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 2 >
 Phase 2: Building multi index on Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:43:16 2016
-Finished:      29 @ Thu Jan 14 09:43:16 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
 
 Phase 3: Learning from Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:43:16 2016
-Finished:      29 @ Thu Jan 14 09:43:16 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
 
 Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
-Learning took 0 seconds, 0 milliseconds and 139 microseconds
+Learning took 0 seconds, 0 milliseconds and 155 microseconds
 Examine datafile './tests/example.test' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
@@ -58,17 +58,17 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.023802575094251
 
-Tested:      1 @ Thu Jan 14 09:43:16 2016
-Tested:      2 @ Thu Jan 14 09:43:16 2016
+Tested:      1 @ Mon Sep  2 15:12:44 2019
+Tested:      2 @ Mon Sep  2 15:12:44 2019
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Thu Jan 14 09:43:16 2016
+Tested:      3 @ Mon Sep  2 15:12:44 2019
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Thu Jan 14 09:43:16 2016
-Tested:      5 @ Thu Jan 14 09:43:16 2016
-Ready:       5 @ Thu Jan 14 09:43:16 2016
-Seconds taken: 0.0001 (50000.00 p/s)
+Tested:      4 @ Mon Sep  2 15:12:44 2019
+Tested:      5 @ Mon Sep  2 15:12:44 2019
+Ready:       5 @ Mon Sep  2 15:12:44 2019
+Seconds taken: 0.0001 (40000.00 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 C,rood,3,+,- [0.666667] { + 0.333333, - 0.666667 }        0.0000000000000
@@ -76,21 +76,21 @@ C,groen,3,+,+ [0.571429] { + 0.571429, - 0.428571 }        0.0040988196260971
 A,groen,-4,-,- [1.00000] { - 1.00000 }        0.027901394720348
 B,rood,400,-,+ [0.666667] { + 0.666667, - 0.333333 }        0.023802575094251
 C,wit,3,+,+ [0.750000] { + 0.750000, - 0.250000 }        0.0000000000000
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:43:16 2016
+Mon Sep  2 15:12:44 2019
 
 Examine datafile './tests/example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:43:16 2016
-Finished:      29 @ Thu Jan 14 09:43:16 2016
-Calculating Entropy         Thu Jan 14 09:43:16 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
+Calculating Entropy         Mon Sep  2 15:12:44 2019
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -100,19 +100,19 @@ Feats	Vals	InfoGain	GainRatio
     2      3	0.0060448141	0.0040988196
     3      4	0.044887336	0.023802575
 
-Preparation took 0 seconds, 0 milliseconds and 97 microseconds
+Preparation took 0 seconds, 0 milliseconds and 135 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 2 >
 Phase 2: Building multi index on Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:43:16 2016
-Finished:      29 @ Thu Jan 14 09:43:16 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
 
 Phase 3: Learning from Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:43:16 2016
-Finished:      29 @ Thu Jan 14 09:43:16 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
 
 Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
-Learning took 0 seconds, 0 milliseconds and 139 microseconds
+Learning took 0 seconds, 0 milliseconds and 180 microseconds
 Examine datafile './tests/example.test' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
@@ -128,17 +128,17 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.023802575094251
 
-Tested:      1 @ Thu Jan 14 09:43:16 2016
-Tested:      2 @ Thu Jan 14 09:43:16 2016
+Tested:      1 @ Mon Sep  2 15:12:44 2019
+Tested:      2 @ Mon Sep  2 15:12:44 2019
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Thu Jan 14 09:43:16 2016
+Tested:      3 @ Mon Sep  2 15:12:44 2019
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Thu Jan 14 09:43:16 2016
-Tested:      5 @ Thu Jan 14 09:43:16 2016
-Ready:       5 @ Thu Jan 14 09:43:16 2016
-Seconds taken: 0.0001 (52631.58 p/s)
+Tested:      4 @ Mon Sep  2 15:12:44 2019
+Tested:      5 @ Mon Sep  2 15:12:44 2019
+Ready:       5 @ Mon Sep  2 15:12:44 2019
+Seconds taken: 0.0001 (37037.04 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 C,rood,3,+,- [0.6] { + 0.400000, - 0.600000 }        0.0000000000000
@@ -146,21 +146,21 @@ C,groen,3,+,+ [0.555556] { + 0.555556, - 0.444444 }        0.0040988196260971
 A,groen,-4,-,- [0.833333] { + 0.166667, - 0.833333 }        0.027901394720348
 B,rood,400,-,+ [0.642857] { + 0.642857, - 0.357143 }        0.023802575094251
 C,wit,3,+,+ [0.666667] { + 0.666667, - 0.333333 }        0.0000000000000
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:43:16 2016
+Mon Sep  2 15:12:44 2019
 
 Examine datafile './tests/example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:43:16 2016
-Finished:      29 @ Thu Jan 14 09:43:16 2016
-Calculating Entropy         Thu Jan 14 09:43:16 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
+Calculating Entropy         Mon Sep  2 15:12:44 2019
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -170,19 +170,19 @@ Feats	Vals	InfoGain	GainRatio
     2      3	0.0060448141	0.0040988196
     3      4	0.044887336	0.023802575
 
-Preparation took 0 seconds, 0 milliseconds and 97 microseconds
+Preparation took 0 seconds, 0 milliseconds and 185 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 2 >
 Phase 2: Building multi index on Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:43:16 2016
-Finished:      29 @ Thu Jan 14 09:43:16 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
 
 Phase 3: Learning from Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:43:16 2016
-Finished:      29 @ Thu Jan 14 09:43:16 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
 
 Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
-Learning took 0 seconds, 0 milliseconds and 134 microseconds
+Learning took 0 seconds, 0 milliseconds and 219 microseconds
 Examine datafile './tests/example.test' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
@@ -198,17 +198,17 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.023802575094251
 
-Tested:      1 @ Thu Jan 14 09:43:16 2016
-Tested:      2 @ Thu Jan 14 09:43:16 2016
+Tested:      1 @ Mon Sep  2 15:12:44 2019
+Tested:      2 @ Mon Sep  2 15:12:44 2019
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Thu Jan 14 09:43:16 2016
+Tested:      3 @ Mon Sep  2 15:12:44 2019
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Thu Jan 14 09:43:16 2016
-Tested:      5 @ Thu Jan 14 09:43:16 2016
-Ready:       5 @ Thu Jan 14 09:43:16 2016
-Seconds taken: 0.0001 (53763.44 p/s)
+Tested:      4 @ Mon Sep  2 15:12:44 2019
+Tested:      5 @ Mon Sep  2 15:12:44 2019
+Ready:       5 @ Mon Sep  2 15:12:44 2019
+Seconds taken: 0.0002 (27624.31 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 C,rood,3,+,- [0.642857] { + 0.357143, - 0.642857 }        0.0000000000000
@@ -216,21 +216,21 @@ C,groen,3,+,+ [0.566667] { + 0.566667, - 0.433333 }        0.0040988196260971
 A,groen,-4,-,- [0.944444] { + 0.0555556, - 0.944444 }        0.027901394720348
 B,rood,400,-,+ [0.660000] { + 0.660000, - 0.340000 }        0.023802575094251
 C,wit,3,+,+ [0.722222] { + 0.722222, - 0.277778 }        0.0000000000000
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:43:16 2016
+Mon Sep  2 15:12:44 2019
 
 Examine datafile './tests/example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:43:16 2016
-Finished:      29 @ Thu Jan 14 09:43:16 2016
-Calculating Entropy         Thu Jan 14 09:43:16 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
+Calculating Entropy         Mon Sep  2 15:12:44 2019
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -240,19 +240,19 @@ Feats	Vals	InfoGain	GainRatio
     2      3	0.0060448141	0.0040988196
     3      4	0.044887336	0.023802575
 
-Preparation took 0 seconds, 0 milliseconds and 95 microseconds
+Preparation took 0 seconds, 0 milliseconds and 113 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 2 >
 Phase 2: Building multi index on Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:43:16 2016
-Finished:      29 @ Thu Jan 14 09:43:16 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
 
 Phase 3: Learning from Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:43:16 2016
-Finished:      29 @ Thu Jan 14 09:43:16 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
 
 Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
-Learning took 0 seconds, 0 milliseconds and 135 microseconds
+Learning took 0 seconds, 0 milliseconds and 140 microseconds
 Examine datafile './tests/example.test' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
@@ -268,17 +268,17 @@ Feature 1	 : 0.160726463858466
 Feature 2	 : 0.004098819626097
 Feature 3	 : 0.023802575094251
 
-Tested:      1 @ Thu Jan 14 09:43:16 2016
-Tested:      2 @ Thu Jan 14 09:43:16 2016
+Tested:      1 @ Mon Sep  2 15:12:44 2019
+Tested:      2 @ Mon Sep  2 15:12:44 2019
 Warning: testfile, skipped line #3
 ! commentaar
-Tested:      3 @ Thu Jan 14 09:43:16 2016
+Tested:      3 @ Mon Sep  2 15:12:44 2019
 Warning: testfile, skipped line #5
 B,fout, raar, rood,a,+
-Tested:      4 @ Thu Jan 14 09:43:16 2016
-Tested:      5 @ Thu Jan 14 09:43:16 2016
-Ready:       5 @ Thu Jan 14 09:43:16 2016
-Seconds taken: 0.0001 (53763.44 p/s)
+Tested:      4 @ Mon Sep  2 15:12:44 2019
+Tested:      5 @ Mon Sep  2 15:12:44 2019
+Ready:       5 @ Mon Sep  2 15:12:44 2019
+Seconds taken: 0.0001 (43478.26 p/s)
 
 overall accuracy:        0.600000  (3/5), of which 2 exact matches 
 C,rood,3,+,- [0.613147] { + 0.386853, - 0.613147 }        0.0000000000000

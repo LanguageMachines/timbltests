@@ -1,36 +1,36 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:18:31 2016
+Mon Sep  2 15:12:44 2019
 
 unable to find or use input file './tests/bla.hum'
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:18:31 2016
+Mon Sep  2 15:12:44 2019
 
 Warning: empty data file: ./tests/leeg.train
 Error: Unable to initialize from file :'./tests/leeg.train'
 
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:18:31 2016
+Mon Sep  2 15:12:44 2019
 
 Examine datafile './tests/example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:18:31 2016
-Finished:      29 @ Thu Jan 14 09:18:31 2016
-Calculating Entropy         Thu Jan 14 09:18:31 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
+Calculating Entropy         Mon Sep  2 15:12:44 2019
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -40,36 +40,36 @@ Feats	Vals	InfoGain	GainRatio
     2      3	0.0060448141	0.0040988196
     3      4	0.044887336	0.023802575
 
-Preparation took 0 seconds, 0 milliseconds and 115 microseconds
+Preparation took 0 seconds, 0 milliseconds and 222 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 3, 2 >
 Phase 2: Building multi index on Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:18:31 2016
-Finished:      29 @ Thu Jan 14 09:18:31 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
 
 Phase 3: Learning from Datafile: ./tests/example.train
-Start:          0 @ Thu Jan 14 09:18:31 2016
-Finished:      29 @ Thu Jan 14 09:18:31 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      29 @ Mon Sep  2 15:12:44 2019
 
 Size of InstanceBase = 34 Nodes, (1360 bytes), 29.17 % compression
-Learning took 0 seconds, 0 milliseconds and 145 microseconds
+Learning took 0 seconds, 0 milliseconds and 261 microseconds
 Warning: empty data file
 Error: unable to use the data from './tests/leeg.train', wrong Format?
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:18:31 2016
+Mon Sep  2 15:12:44 2019
 
 Examine datafile './tests/useless.train' gave the following results:
 Number of Features: 2
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: ./tests/useless.train
-Start:          0 @ Thu Jan 14 09:18:31 2016
-Finished:       3 @ Thu Jan 14 09:18:31 2016
-Calculating Entropy         Thu Jan 14 09:18:31 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:       3 @ Mon Sep  2 15:12:44 2019
+Calculating Entropy         Mon Sep  2 15:12:44 2019
 Lines of data     : 3
 DB Entropy        : 0.0000000
 Number of Classes : 1
@@ -78,27 +78,27 @@ Feats	Vals	InfoGain	GainRatio
     1      3	0.0000000	0.0000000
     2      3	0.0000000	0.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 62 microseconds
+Preparation took 0 seconds, 0 milliseconds and 93 microseconds
 Warning: Training file contains only 1 class.
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:18:31 2016
+Mon Sep  2 15:12:44 2019
 
 Examine datafile './tests/c45example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/c45example.train
-Start:          0 @ Thu Jan 14 09:18:31 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
 Warning: datafile, skipped line #5
 dit,is,te,lang,4.
 Warning: datafile, skipped line #7
 te,kort,6.
-Finished:       7 @ Thu Jan 14 09:18:31 2016
-Calculating Entropy         Thu Jan 14 09:18:31 2016
+Finished:       7 @ Mon Sep  2 15:12:44 2019
+Calculating Entropy         Mon Sep  2 15:12:44 2019
 Lines of data     : 5
 SkippedLines      : 2
 DB Entropy        : 2.3219281
@@ -109,23 +109,23 @@ Feats	Vals	InfoGain	GainRatio
     2      4	1.9219281	1.0000000
     3      5	2.3219281	1.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 80 microseconds
+Preparation took 0 seconds, 0 milliseconds and 134 microseconds
 Feature Permutation based on GainRatio/Values :
 < 2, 1, 3 >
 Phase 2: Building multi index on Datafile: ./tests/c45example.train
-Start:          0 @ Thu Jan 14 09:18:31 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
 Warning: datafile, skipped line #5
 dit,is,te,lang,4.
 Warning: datafile, skipped line #7
 te,kort,6.
-Finished:       5 @ Thu Jan 14 09:18:31 2016
+Finished:       5 @ Mon Sep  2 15:12:44 2019
 
 Phase 3: Learning from Datafile: ./tests/c45example.train
-Start:          0 @ Thu Jan 14 09:18:31 2016
-Finished:       5 @ Thu Jan 14 09:18:31 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:       5 @ Mon Sep  2 15:12:44 2019
 
 Size of InstanceBase = 19 Nodes, (760 bytes), 5.00 % compression
-Learning took 0 seconds, 0 milliseconds and 87 microseconds
+Learning took 0 seconds, 0 milliseconds and 110 microseconds
 Examine datafile './tests/c45example.test' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
@@ -141,33 +141,33 @@ Feature 1	 : 1.000000000000000
 Feature 2	 : 1.000000000000000
 Feature 3	 : 1.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:18:31 2016
-Tested:      2 @ Thu Jan 14 09:18:31 2016
-Ready:       2 @ Thu Jan 14 09:18:31 2016
-Seconds taken: 0.0001 (37037.04 p/s)
+Tested:      1 @ Mon Sep  2 15:12:44 2019
+Tested:      2 @ Mon Sep  2 15:12:44 2019
+Ready:       2 @ Mon Sep  2 15:12:44 2019
+Seconds taken: 0.0001 (33333.33 p/s)
 
 overall accuracy:        0.500000  (1/2), of which 1 exact matches 
 aap,noot,moose,1,1 { 1 1.00000 }        1.0000000000000
 ok,o.k.,goed,6,5 { 5 1.00000 }        0.0000000000000
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:18:31 2016
+Mon Sep  2 15:12:44 2019
 
 Examine datafile './tests/c45example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/c45example.train
-Start:          0 @ Thu Jan 14 09:18:31 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
 Warning: datafile, skipped line #5
 dit,is,te,lang,4.
 Warning: datafile, skipped line #7
 te,kort,6.
-Finished:       7 @ Thu Jan 14 09:18:31 2016
-Calculating Entropy         Thu Jan 14 09:18:31 2016
+Finished:       7 @ Mon Sep  2 15:12:44 2019
+Calculating Entropy         Mon Sep  2 15:12:44 2019
 Lines of data     : 5
 SkippedLines      : 2
 DB Entropy        : 2.3219281
@@ -178,23 +178,23 @@ Feats	Vals	InfoGain	GainRatio
     2      4	1.9219281	1.0000000
     3      5	2.3219281	1.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 79 microseconds
+Preparation took 0 seconds, 0 milliseconds and 133 microseconds
 Feature Permutation based on GainRatio/Values :
 < 2, 1, 3 >
 Phase 2: Building multi index on Datafile: ./tests/c45example.train
-Start:          0 @ Thu Jan 14 09:18:31 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
 Warning: datafile, skipped line #5
 dit,is,te,lang,4.
 Warning: datafile, skipped line #7
 te,kort,6.
-Finished:       5 @ Thu Jan 14 09:18:31 2016
+Finished:       5 @ Mon Sep  2 15:12:44 2019
 
 Phase 3: Learning from Datafile: ./tests/c45example.train
-Start:          0 @ Thu Jan 14 09:18:31 2016
-Finished:       5 @ Thu Jan 14 09:18:31 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:       5 @ Mon Sep  2 15:12:44 2019
 
 Size of InstanceBase = 19 Nodes, (760 bytes), 5.00 % compression
-Learning took 0 seconds, 0 milliseconds and 78 microseconds
+Learning took 0 seconds, 0 milliseconds and 115 microseconds
 Examine datafile './tests/c45example.test' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
@@ -210,32 +210,32 @@ Feature 1	 : 1.000000000000000
 Feature 2	 : 1.000000000000000
 Feature 3	 : 1.000000000000000
 
-Tested:      1 @ Thu Jan 14 09:18:31 2016
-Tested:      2 @ Thu Jan 14 09:18:31 2016
-Ready:       2 @ Thu Jan 14 09:18:31 2016
-Seconds taken: 0.0000 (41666.67 p/s)
+Tested:      1 @ Mon Sep  2 15:12:44 2019
+Tested:      2 @ Mon Sep  2 15:12:44 2019
+Ready:       2 @ Mon Sep  2 15:12:44 2019
+Seconds taken: 0.0001 (27397.26 p/s)
 
 overall accuracy:        0.500000  (1/2), of which 1 exact matches 
 aap,noot,moose,1,1 { 1 1.00000 }        1.0000000000000
 ok,o.k.,goed,6,5 { 5 1.00000 }        0.0000000000000
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:18:31 2016
+Mon Sep  2 15:12:44 2019
 
 option-error: invalid option 'A'
 usage:  timbl -f data-file {-t test-file}
 or see: timbl -h
         for all possible options
 
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:18:31 2016
+Mon Sep  2 15:12:44 2019
 
 Reading Instance-Base from: ./tests/wrong.boom
 Error: A Version 2 type InstanceBase file is found:
@@ -243,21 +243,21 @@ Error: A Version 2 type InstanceBase file is found:
         in this version of the timbl package
 Error: Found range info for feature 3, which is Not defined as Numeric!
 Warning: couldn't retrieve ranges...
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:18:31 2016
+Mon Sep  2 15:12:44 2019
 
 Examine datafile './tests/c45wierd.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/c45wierd.train
-Start:          0 @ Thu Jan 14 09:18:31 2016
-Finished:      11 @ Thu Jan 14 09:18:31 2016
-Calculating Entropy         Thu Jan 14 09:18:31 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      11 @ Mon Sep  2 15:12:44 2019
+Calculating Entropy         Mon Sep  2 15:12:44 2019
 Lines of data     : 11
 DB Entropy        : 1.2776134
 Number of Classes : 4
@@ -267,19 +267,19 @@ Feats	Vals	InfoGain	GainRatio
     2      6	1.2776134	0.62339269
     3      9	1.2776134	0.42204891
 
-Preparation took 0 seconds, 0 milliseconds and 83 microseconds
+Preparation took 0 seconds, 0 milliseconds and 97 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 3 >
 Phase 2: Building multi index on Datafile: ./tests/c45wierd.train
-Start:          0 @ Thu Jan 14 09:18:31 2016
-Finished:      11 @ Thu Jan 14 09:18:31 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      11 @ Mon Sep  2 15:12:44 2019
 
 Phase 3: Learning from Datafile: ./tests/c45wierd.train
-Start:          0 @ Thu Jan 14 09:18:31 2016
-Finished:      11 @ Thu Jan 14 09:18:31 2016
+Start:          0 @ Mon Sep  2 15:12:44 2019
+Finished:      11 @ Mon Sep  2 15:12:44 2019
 
 Size of InstanceBase = 32 Nodes, (1280 bytes), 27.27 % compression
-Learning took 0 seconds, 0 milliseconds and 96 microseconds
+Learning took 0 seconds, 0 milliseconds and 104 microseconds
 Examine datafile './tests/c45wierd.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
@@ -295,18 +295,18 @@ Feature 1	 : 1.000000000000000
 Feature 2	 : 0.623392688115037
 Feature 3	 : 0.422048913301960
 
-Tested:      1 @ Thu Jan 14 09:18:31 2016
-Tested:      2 @ Thu Jan 14 09:18:31 2016
-Tested:      3 @ Thu Jan 14 09:18:31 2016
-Tested:      4 @ Thu Jan 14 09:18:31 2016
-Tested:      5 @ Thu Jan 14 09:18:31 2016
-Tested:      6 @ Thu Jan 14 09:18:31 2016
-Tested:      7 @ Thu Jan 14 09:18:31 2016
-Tested:      8 @ Thu Jan 14 09:18:31 2016
-Tested:      9 @ Thu Jan 14 09:18:31 2016
-Tested:     10 @ Thu Jan 14 09:18:31 2016
-Ready:      11 @ Thu Jan 14 09:18:31 2016
-Seconds taken: 0.0001 (91666.67 p/s)
+Tested:      1 @ Mon Sep  2 15:12:44 2019
+Tested:      2 @ Mon Sep  2 15:12:44 2019
+Tested:      3 @ Mon Sep  2 15:12:44 2019
+Tested:      4 @ Mon Sep  2 15:12:44 2019
+Tested:      5 @ Mon Sep  2 15:12:44 2019
+Tested:      6 @ Mon Sep  2 15:12:44 2019
+Tested:      7 @ Mon Sep  2 15:12:44 2019
+Tested:      8 @ Mon Sep  2 15:12:44 2019
+Tested:      9 @ Mon Sep  2 15:12:44 2019
+Tested:     10 @ Mon Sep  2 15:12:44 2019
+Ready:      11 @ Mon Sep  2 15:12:44 2019
+Seconds taken: 0.0001 (93220.34 p/s)
 
 overall accuracy:        1.000000  (11/11), of which 11 exact matches 
 aap,noot,maas,1,1
@@ -320,12 +320,12 @@ ok,o.k.,go\\ed,6,6
 ok,o.k.,go\ ed,6,6
 ok,o.k.,go\ \ed,6,6
 ok,o.k.,go\\ ed,6,6
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:18:31 2016
+Mon Sep  2 15:12:44 2019
 
 Error: SetOption 'NEIGHBORS: 666666' failed.
 Illegal value for this option

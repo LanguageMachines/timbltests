@@ -1,18 +1,18 @@
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:53 2016
+Mon Sep  2 15:22:36 2019
 
 Examine datafile 'tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.train
-Start:          0 @ Thu Jan 14 09:08:53 2016
-Finished:    2999 @ Thu Jan 14 09:08:53 2016
-Calculating Entropy         Thu Jan 14 09:08:53 2016
+Start:          0 @ Mon Sep  2 15:22:36 2019
+Finished:    2999 @ Mon Sep  2 15:22:36 2019
+Calculating Entropy         Mon Sep  2 15:22:36 2019
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -31,24 +31,24 @@ Feats	Vals	X-square	Variance	InfoGain	GainRatio
    11     18	2807.0418	0.23399815	0.66970458	0.18507018
    12     43	7160.3682	0.59689631	1.2780762	0.32537181
 
-Preparation took 0 seconds, 11 milliseconds and 975 microseconds
+Preparation took 0 seconds, 6 milliseconds and 115 microseconds
 Saving Weights in tests/dimin.wgt
 Saving Probability Arrays in tests/dimin.prob
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:53 2016
+Mon Sep  2 15:22:36 2019
 
 Examine datafile 'tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.train
-Start:          0 @ Thu Jan 14 09:08:53 2016
-Finished:    2999 @ Thu Jan 14 09:08:53 2016
-Calculating Entropy         Thu Jan 14 09:08:53 2016
+Start:          0 @ Mon Sep  2 15:22:36 2019
+Finished:    2999 @ Mon Sep  2 15:22:36 2019
+Calculating Entropy         Mon Sep  2 15:22:36 2019
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -67,7 +67,7 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 11 milliseconds and 246 microseconds
+Preparation took 0 seconds, 6 milliseconds and 651 microseconds
 Reading weights from tests/dimin.wgt
 Calculated weights replaced by:
 Feature 1	 : 0.02489153561762
@@ -85,15 +85,15 @@ Feature 12	 : 0.325371814230901
 Feature Permutation based on weightfile :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: tests/dimin.train
-Start:          0 @ Thu Jan 14 09:08:53 2016
-Finished:    2999 @ Thu Jan 14 09:08:53 2016
+Start:          0 @ Mon Sep  2 15:22:36 2019
+Finished:    2999 @ Mon Sep  2 15:22:36 2019
 
 Phase 3: Learning from Datafile: tests/dimin.train
-Start:          0 @ Thu Jan 14 09:08:53 2016
-Finished:    2999 @ Thu Jan 14 09:08:53 2016
+Start:          0 @ Mon Sep  2 15:22:36 2019
+Finished:    2999 @ Mon Sep  2 15:22:36 2019
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 25 milliseconds and 54 microseconds
+Learning took 0 seconds, 16 milliseconds and 946 microseconds
 Reading weights from tests/dimin.wgt
 
 Starting to test using Leave One Out
@@ -129,20 +129,20 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Thu Jan 14 09:08:53 2016
-Tested:      2 @ Thu Jan 14 09:08:53 2016
-Tested:      3 @ Thu Jan 14 09:08:53 2016
-Tested:      4 @ Thu Jan 14 09:08:53 2016
-Tested:      5 @ Thu Jan 14 09:08:53 2016
-Tested:      6 @ Thu Jan 14 09:08:53 2016
-Tested:      7 @ Thu Jan 14 09:08:53 2016
-Tested:      8 @ Thu Jan 14 09:08:53 2016
-Tested:      9 @ Thu Jan 14 09:08:53 2016
-Tested:     10 @ Thu Jan 14 09:08:53 2016
-Tested:    100 @ Thu Jan 14 09:08:53 2016
-Tested:   1000 @ Thu Jan 14 09:08:53 2016
-Ready:    2999 @ Thu Jan 14 09:08:53 2016
-Seconds taken: 0.8048 (3726.53 p/s)
+Tested:      1 @ Mon Sep  2 15:22:36 2019
+Tested:      2 @ Mon Sep  2 15:22:36 2019
+Tested:      3 @ Mon Sep  2 15:22:36 2019
+Tested:      4 @ Mon Sep  2 15:22:36 2019
+Tested:      5 @ Mon Sep  2 15:22:36 2019
+Tested:      6 @ Mon Sep  2 15:22:36 2019
+Tested:      7 @ Mon Sep  2 15:22:36 2019
+Tested:      8 @ Mon Sep  2 15:22:36 2019
+Tested:      9 @ Mon Sep  2 15:22:36 2019
+Tested:     10 @ Mon Sep  2 15:22:36 2019
+Tested:    100 @ Mon Sep  2 15:22:36 2019
+Tested:   1000 @ Mon Sep  2 15:22:36 2019
+Ready:    2999 @ Mon Sep  2 15:22:36 2019
+Seconds taken: 0.7261 (4130.50 p/s)
 
 overall accuracy:        0.974992  (2924/2999), of which 193 exact matches 
 There were 22 ties of which 19 (86.36%) were correctly resolved
@@ -458,21 +458,21 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,kl,O,g,-,d,i,r,T,T { T 3.00000 }        0.0059128823442215
 ---
 > =,=,=,=,+,kl,O,g,-,d,i,r,T,T { T 3.00000 }        0.0059128823442214
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:53 2016
+Mon Sep  2 15:22:36 2019
 
 Examine datafile 'tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.train
-Start:          0 @ Thu Jan 14 09:08:53 2016
-Finished:    2999 @ Thu Jan 14 09:08:53 2016
-Calculating Entropy         Thu Jan 14 09:08:53 2016
+Start:          0 @ Mon Sep  2 15:22:36 2019
+Finished:    2999 @ Mon Sep  2 15:22:36 2019
+Calculating Entropy         Mon Sep  2 15:22:36 2019
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -491,19 +491,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 11 milliseconds and 344 microseconds
+Preparation took 0 seconds, 6 milliseconds and 158 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: tests/dimin.train
-Start:          0 @ Thu Jan 14 09:08:53 2016
-Finished:    2999 @ Thu Jan 14 09:08:53 2016
+Start:          0 @ Mon Sep  2 15:22:36 2019
+Finished:    2999 @ Mon Sep  2 15:22:36 2019
 
 Phase 3: Learning from Datafile: tests/dimin.train
-Start:          0 @ Thu Jan 14 09:08:53 2016
-Finished:    2999 @ Thu Jan 14 09:08:53 2016
+Start:          0 @ Mon Sep  2 15:22:36 2019
+Finished:    2999 @ Mon Sep  2 15:22:37 2019
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 24 milliseconds and 458 microseconds
+Learning took 0 seconds, 16 milliseconds and 758 microseconds
 Reading Probability Arrays from tests/dimin.prob
 
 Starting to test using Leave One Out
@@ -539,20 +539,20 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Thu Jan 14 09:08:53 2016
-Tested:      2 @ Thu Jan 14 09:08:53 2016
-Tested:      3 @ Thu Jan 14 09:08:53 2016
-Tested:      4 @ Thu Jan 14 09:08:53 2016
-Tested:      5 @ Thu Jan 14 09:08:53 2016
-Tested:      6 @ Thu Jan 14 09:08:53 2016
-Tested:      7 @ Thu Jan 14 09:08:53 2016
-Tested:      8 @ Thu Jan 14 09:08:53 2016
-Tested:      9 @ Thu Jan 14 09:08:53 2016
-Tested:     10 @ Thu Jan 14 09:08:53 2016
-Tested:    100 @ Thu Jan 14 09:08:54 2016
-Tested:   1000 @ Thu Jan 14 09:08:54 2016
-Ready:    2999 @ Thu Jan 14 09:08:54 2016
-Seconds taken: 0.7539 (3978.06 p/s)
+Tested:      1 @ Mon Sep  2 15:22:37 2019
+Tested:      2 @ Mon Sep  2 15:22:37 2019
+Tested:      3 @ Mon Sep  2 15:22:37 2019
+Tested:      4 @ Mon Sep  2 15:22:37 2019
+Tested:      5 @ Mon Sep  2 15:22:37 2019
+Tested:      6 @ Mon Sep  2 15:22:37 2019
+Tested:      7 @ Mon Sep  2 15:22:37 2019
+Tested:      8 @ Mon Sep  2 15:22:37 2019
+Tested:      9 @ Mon Sep  2 15:22:37 2019
+Tested:     10 @ Mon Sep  2 15:22:37 2019
+Tested:    100 @ Mon Sep  2 15:22:37 2019
+Tested:   1000 @ Mon Sep  2 15:22:37 2019
+Ready:    2999 @ Mon Sep  2 15:22:37 2019
+Seconds taken: 0.7154 (4192.03 p/s)
 
 overall accuracy:        0.975325  (2925/2999), of which 193 exact matches 
 There were 22 ties of which 19 (86.36%) were correctly resolved
@@ -1098,21 +1098,21 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,tr,A,=,-,p,@,r,T,T { T 3.00000 }        0.0016257513208754
 ---
 > =,=,=,=,+,tr,A,=,-,p,@,r,T,T { T 3.00000 }        0.0016257513208755
-TiMBL 6.4.7 (c) CLST/ILK/CLIPS 1998 - 2016.
+TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Jan 14 09:08:54 2016
+Mon Sep  2 15:22:37 2019
 
 Examine datafile 'tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.train
-Start:          0 @ Thu Jan 14 09:08:54 2016
-Finished:    2999 @ Thu Jan 14 09:08:54 2016
-Calculating Entropy         Thu Jan 14 09:08:54 2016
+Start:          0 @ Mon Sep  2 15:22:37 2019
+Finished:    2999 @ Mon Sep  2 15:22:37 2019
+Calculating Entropy         Mon Sep  2 15:22:37 2019
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -1131,7 +1131,7 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 11 milliseconds and 249 microseconds
+Preparation took 0 seconds, 5 milliseconds and 968 microseconds
 Reading weights from tests/dimin.wgt
 Calculated weights replaced by:
 Feature 1	 : 0.02489153561762
@@ -1149,15 +1149,15 @@ Feature 12	 : 0.325371814230901
 Feature Permutation based on weightfile :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: tests/dimin.train
-Start:          0 @ Thu Jan 14 09:08:54 2016
-Finished:    2999 @ Thu Jan 14 09:08:54 2016
+Start:          0 @ Mon Sep  2 15:22:37 2019
+Finished:    2999 @ Mon Sep  2 15:22:37 2019
 
 Phase 3: Learning from Datafile: tests/dimin.train
-Start:          0 @ Thu Jan 14 09:08:54 2016
-Finished:    2999 @ Thu Jan 14 09:08:54 2016
+Start:          0 @ Mon Sep  2 15:22:37 2019
+Finished:    2999 @ Mon Sep  2 15:22:37 2019
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 24 milliseconds and 378 microseconds
+Learning took 0 seconds, 17 milliseconds and 42 microseconds
 Reading weights from tests/dimin.wgt
 Reading Probability Arrays from tests/dimin.prob
 
@@ -1194,20 +1194,20 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Thu Jan 14 09:08:54 2016
-Tested:      2 @ Thu Jan 14 09:08:54 2016
-Tested:      3 @ Thu Jan 14 09:08:54 2016
-Tested:      4 @ Thu Jan 14 09:08:54 2016
-Tested:      5 @ Thu Jan 14 09:08:54 2016
-Tested:      6 @ Thu Jan 14 09:08:54 2016
-Tested:      7 @ Thu Jan 14 09:08:54 2016
-Tested:      8 @ Thu Jan 14 09:08:54 2016
-Tested:      9 @ Thu Jan 14 09:08:54 2016
-Tested:     10 @ Thu Jan 14 09:08:54 2016
-Tested:    100 @ Thu Jan 14 09:08:54 2016
-Tested:   1000 @ Thu Jan 14 09:08:55 2016
-Ready:    2999 @ Thu Jan 14 09:08:55 2016
-Seconds taken: 0.6340 (4730.28 p/s)
+Tested:      1 @ Mon Sep  2 15:22:37 2019
+Tested:      2 @ Mon Sep  2 15:22:37 2019
+Tested:      3 @ Mon Sep  2 15:22:37 2019
+Tested:      4 @ Mon Sep  2 15:22:37 2019
+Tested:      5 @ Mon Sep  2 15:22:37 2019
+Tested:      6 @ Mon Sep  2 15:22:37 2019
+Tested:      7 @ Mon Sep  2 15:22:37 2019
+Tested:      8 @ Mon Sep  2 15:22:37 2019
+Tested:      9 @ Mon Sep  2 15:22:37 2019
+Tested:     10 @ Mon Sep  2 15:22:37 2019
+Tested:    100 @ Mon Sep  2 15:22:37 2019
+Tested:   1000 @ Mon Sep  2 15:22:37 2019
+Ready:    2999 @ Mon Sep  2 15:22:38 2019
+Seconds taken: 0.5979 (5015.57 p/s)
 
 overall accuracy:        0.975325  (2925/2999), of which 193 exact matches 
 There were 22 ties of which 19 (86.36%) were correctly resolved
