@@ -8,18 +8,18 @@ expect "Escape character is '^]'."
 expect -exact "Welcome to the Timbl server.\r"
 expect -re "available.*3\n" # the bases line
 log_file -noappend jsonin.4.log
-send { {"command":"base","params":"dimin1"} }
+send { {"command":"base","param":"dimin1"} }
 send "\n"
 expect -re ".*\n" # the send json
-send { {"command":"classify","params":"=,=,=,=,=,=,=,=,+,br,L,t,J"} }
+send { {"command":"classify","param":"=,=,=,=,=,=,=,=,+,br,L,t,J"} }
 send "\n"
 expect -re ".*\n" # the send json
 expect -re ".*\n" # the received json
-send { {"command":"set","params":"-vdi -vdb -vn"} }
+send { {"command":"set","param":"-vdi -vdb -vn"} }
 send "\n"
 expect -re ".*\n" # the send json
 expect -re ".*ok.*\n" # the received json
-send { {"command":"classify","params":"=,=,=,=,=,=,=,=,+,br,L,t,J"} }
+send { {"command":"classify","param":"=,=,=,=,=,=,=,=,+,br,L,t,J"} }
 send "\n"
 expect -re ".*\n" # the send json
 expect -re ".*\n" # the received json
