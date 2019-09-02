@@ -30,7 +30,7 @@ sleep 4
 ./jsonclient4 > tests/jsonclient4.out &
 ./jsonclient5 > tests/jsonclient5.out &
 
-sleep 30
+sleep 20
 
 cat jsonin.1.log
 cat jsonin.2.log
