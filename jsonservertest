@@ -29,6 +29,7 @@ sleep 4
 ./jsonclient3 > tests/jsonclient3.out &
 ./jsonclient4 > tests/jsonclient4.out &
 ./jsonclient5 > tests/jsonclient5.out &
+./jsonclient6 > tests/jsonclient6.out &
 
 sleep 20
 
@@ -37,6 +38,7 @@ cat jsonin.2.log
 cat jsonin.3.log
 cat jsonin.4.log
 cat jsonin.5.log
+cat jsonin.6.log
 
 kill `cat /tmp/run/pid8`
 
