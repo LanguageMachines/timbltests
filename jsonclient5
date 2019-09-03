@@ -1,0 +1,27 @@
+#!/usr/bin/expect -f
+#
+set timeout 5
+spawn telnet localhost 7360
+expect "Trying 127.0.0.1..."
+expect "Connected to localhost."
+expect "Escape character is '^]'."
+expect -re "available.*\n" # the bases line
+log_file -noappend jsonin.5.log
+send { {"command":"base","param":"dimin3"} }
+send "\n"
+send_log "\n"
+expect -re ".*\n" # the send json
+expect -re ".*dimin3.*\n" # the received json
+send { {"command":"classify","param":"+,m,I,=,-,d,A,G,-,d,-,t,J"} }
+send "\n"
+expect -re ".*\n" # the send json
+expect -re ".*\n" # the received json
+send { {"command":"show", "param":"settings"} }
+send "\n"
+expect -re ".*\n" # the send json
+expect -re ".*\n" # the received json
+send { {"command":"show", "param":"weights"} }
+send "\n"
+expect -re ".*\n" # the send json
+expect -re ".*\n" # the received json
+log_file
