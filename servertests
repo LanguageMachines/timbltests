@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # defaults:
 #
@@ -10,7 +10,7 @@ client="$VG $timbl_bin/timblclient"
 lh=`hostname`
 if test "$lh" = "kokos"
 then
-  lh="localhost.localdomain"
+  lh="localhost"
 fi
 
 if test x"${VG}" = x; then
