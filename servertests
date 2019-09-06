@@ -124,3 +124,17 @@ cat /tmp/dimin6-2.out
 cat /tmp/dimin6-3.out
 kill `cat /tmp/run/pid6`
 cat /tmp/server6.log
+
+\rm -f /tmp/dimin6-*.out
+$exec $doD -f ./tests/dimin.train -S 17350 --logfile=/tmp/server7.log --pidfile=/tmp/run/pid7 +vdi+cf -G &
+sleep 10
+
+$client -n $lh -p 17350 < ./tests/dimin.test.scr1 > /tmp/dimin7-1.out &
+$client -n $lh -p 17350 < ./tests/dimin.test.scr2 > /tmp/dimin7-2.out &
+$client -n $lh -p 17350 < ./tests/dimin.test.scr3 > /tmp/dimin7-3.out &
+sleep 4
+cat /tmp/dimin7-1.out
+cat /tmp/dimin7-2.out
+cat /tmp/dimin7-3.out
+kill `cat /tmp/run/pid7`
+cat /tmp/server7.log
