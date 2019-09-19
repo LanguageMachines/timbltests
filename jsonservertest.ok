@@ -5,100 +5,100 @@ Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
 based on timbl 6.4.14
-Tue Sep  3 17:11:15 201920190903:171115:593:json_server:trainName = dimin.train
+Thu Sep 19 16:47:12 201920190919:164712:260:json_server:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin1-Phase 1: Reading Datafile: dimin.train
--dimin1-Start:          0 @ Tue Sep  3 17:11:15 2019
--dimin1-Finished:    2999 @ Tue Sep  3 17:11:15 2019
--dimin1-Calculating Entropy         Tue Sep  3 17:11:15 2019
--dimin1-Preparation took 0 seconds, 5 milliseconds and 568 microseconds
+-dimin1-Start:          0 @ Thu Sep 19 16:47:12 2019
+-dimin1-Finished:    2999 @ Thu Sep 19 16:47:12 2019
+-dimin1-Calculating Entropy         Thu Sep 19 16:47:12 2019
+-dimin1-Preparation took 0 seconds, 5 milliseconds and 871 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -dimin1-Phase 2: Building multi index on Datafile: dimin.train
--dimin1-Start:          0 @ Tue Sep  3 17:11:15 2019
--dimin1-Finished:    2999 @ Tue Sep  3 17:11:15 2019
+-dimin1-Start:          0 @ Thu Sep 19 16:47:12 2019
+-dimin1-Finished:    2999 @ Thu Sep 19 16:47:12 2019
 -dimin1-
 Phase 3: Learning from Datafile: dimin.train
--dimin1-Start:          0 @ Tue Sep  3 17:11:15 2019
--dimin1-Finished:    2999 @ Tue Sep  3 17:11:15 2019
+-dimin1-Start:          0 @ Thu Sep 19 16:47:12 2019
+-dimin1-Finished:    2999 @ Thu Sep 19 16:47:12 2019
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--dimin1-Learning took 0 seconds, 16 milliseconds and 598 microseconds
-20190903:171115:619:json_server:started experiment dimin1 with parameters: -aIB1 +vdi+db+n -f dimin.train
-20190903:171115:619:json_server:trainName = dimin.train
+-dimin1-Learning took 0 seconds, 17 milliseconds and 372 microseconds
+20190919:164712:288:json_server:started experiment dimin1 with parameters: -aIB1 +vdi+db+n -f dimin.train
+20190919:164712:289:json_server:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin2-Phase 1: Reading Datafile: dimin.train
--dimin2-Start:          0 @ Tue Sep  3 17:11:15 2019
--dimin2-Finished:    2999 @ Tue Sep  3 17:11:15 2019
--dimin2-Calculating Entropy         Tue Sep  3 17:11:15 2019
--dimin2-Preparation took 0 seconds, 5 milliseconds and 512 microseconds
+-dimin2-Start:          0 @ Thu Sep 19 16:47:12 2019
+-dimin2-Finished:    2999 @ Thu Sep 19 16:47:12 2019
+-dimin2-Calculating Entropy         Thu Sep 19 16:47:12 2019
+-dimin2-Preparation took 0 seconds, 5 milliseconds and 551 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 -dimin2-Phase 2: Building multi index on Datafile: dimin.train
--dimin2-Start:          0 @ Tue Sep  3 17:11:15 2019
--dimin2-Finished:    2999 @ Tue Sep  3 17:11:15 2019
+-dimin2-Start:          0 @ Thu Sep 19 16:47:12 2019
+-dimin2-Finished:    2999 @ Thu Sep 19 16:47:12 2019
 -dimin2-
 Phase 3: Learning from Datafile: dimin.train
--dimin2-Start:          0 @ Tue Sep  3 17:11:15 2019
--dimin2-Finished:    2999 @ Tue Sep  3 17:11:15 2019
+-dimin2-Start:          0 @ Thu Sep 19 16:47:12 2019
+-dimin2-Finished:    2999 @ Thu Sep 19 16:47:12 2019
 
 Size of InstanceBase = 191 Nodes, (7640 bytes), 99.50 % compression
--dimin2-Learning took 0 seconds, 18 milliseconds and 132 microseconds
-20190903:171115:646:json_server:started experiment dimin2 with parameters: -aIGTREE +vdi+db +D -f dimin.train
-20190903:171115:646:json_server:trainName = dimin.train
+-dimin2-Learning took 0 seconds, 18 milliseconds and 405 microseconds
+20190919:164712:316:json_server:started experiment dimin2 with parameters: -aIGTREE +vdi+db +D -f dimin.train
+20190919:164712:317:json_server:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin3-Phase 1: Reading Datafile: dimin.train
--dimin3-Start:          0 @ Tue Sep  3 17:11:15 2019
--dimin3-Finished:    2999 @ Tue Sep  3 17:11:15 2019
--dimin3-Calculating Entropy         Tue Sep  3 17:11:15 2019
--dimin3-Preparation took 0 seconds, 5 milliseconds and 574 microseconds
+-dimin3-Start:          0 @ Thu Sep 19 16:47:12 2019
+-dimin3-Finished:    2999 @ Thu Sep 19 16:47:12 2019
+-dimin3-Calculating Entropy         Thu Sep 19 16:47:12 2019
+-dimin3-Preparation took 0 seconds, 5 milliseconds and 564 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 -dimin3-Phase 2: Building multi index on Datafile: dimin.train
--dimin3-Start:          0 @ Tue Sep  3 17:11:15 2019
--dimin3-Finished:    2999 @ Tue Sep  3 17:11:15 2019
+-dimin3-Start:          0 @ Thu Sep 19 16:47:12 2019
+-dimin3-Finished:    2999 @ Thu Sep 19 16:47:12 2019
 -dimin3-
 Phase 3: Learning from Datafile: dimin.train
--dimin3-Start:          0 @ Tue Sep  3 17:11:15 2019
--dimin3-Finished:    2999 @ Tue Sep  3 17:11:15 2019
+-dimin3-Start:          0 @ Thu Sep 19 16:47:12 2019
+-dimin3-Finished:    2999 @ Thu Sep 19 16:47:12 2019
 
 Size of InstanceBase = 22705 Nodes, (908200 bytes), 40.69 % compression
--dimin3-Learning took 0 seconds, 16 milliseconds and 241 microseconds
-20190903:171115:672:json_server:started experiment dimin3 with parameters: -aTRIBL +vdi+db+n -q3 -f dimin.train
-20190903:171115:672:json_server:trainName = dimin.train
+-dimin3-Learning took 0 seconds, 16 milliseconds and 875 microseconds
+20190919:164712:343:json_server:started experiment dimin3 with parameters: -aTRIBL +vdi+db+n -q3 -f dimin.train
+20190919:164712:343:json_server:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin4-Phase 1: Reading Datafile: dimin.train
--dimin4-Start:          0 @ Tue Sep  3 17:11:15 2019
--dimin4-Finished:    2999 @ Tue Sep  3 17:11:15 2019
--dimin4-Calculating Entropy         Tue Sep  3 17:11:15 2019
--dimin4-Preparation took 0 seconds, 5 milliseconds and 372 microseconds
+-dimin4-Start:          0 @ Thu Sep 19 16:47:12 2019
+-dimin4-Finished:    2999 @ Thu Sep 19 16:47:12 2019
+-dimin4-Calculating Entropy         Thu Sep 19 16:47:12 2019
+-dimin4-Preparation took 0 seconds, 5 milliseconds and 567 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -dimin4-Phase 2: Building multi index on Datafile: dimin.train
--dimin4-Start:          0 @ Tue Sep  3 17:11:15 2019
--dimin4-Finished:    2999 @ Tue Sep  3 17:11:15 2019
+-dimin4-Start:          0 @ Thu Sep 19 16:47:12 2019
+-dimin4-Finished:    2999 @ Thu Sep 19 16:47:12 2019
 -dimin4-
 Phase 3: Learning from Datafile: dimin.train
--dimin4-Start:          0 @ Tue Sep  3 17:11:15 2019
--dimin4-Finished:    2999 @ Tue Sep  3 17:11:15 2019
+-dimin4-Start:          0 @ Thu Sep 19 16:47:12 2019
+-dimin4-Finished:    2999 @ Thu Sep 19 16:47:12 2019
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--dimin4-Learning took 0 seconds, 16 milliseconds and 86 microseconds
-20190903:171115:697:json_server:started experiment dimin4 with parameters: -aIB1 -f dimin.train
-20190903:171115:697:json_server:Starting a json server on port 7360
-20190903:171115:697:json_server:switching logging to file /tmp/server8.log
+-dimin4-Learning took 0 seconds, 16 milliseconds and 948 microseconds
+20190919:164712:369:json_server:started experiment dimin4 with parameters: -aIB1 -f dimin.train
+20190919:164712:369:json_server:Starting a json server on port 7360
+20190919:164712:369:json_server:switching logging to file /tmp/server8.log
  {"command":"base","param":"dimin1"} 
 {"base":"dimin1"}
  {"command":"classify","param":"=,=,=,=,=,=,=,=,+,br,L,t,J"} 
@@ -107,6 +107,8 @@ Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
 {"base":"dimin2"}
  {"command":"classify","param":"+,m,I,=,-,d,A,G,-,d,-,t,J"} 
 {"category":"J","distance":0.5495809463018172,"distribution":"{ T 1.00000, J 266.000 }"}
+ {"command":"classify","param":"total,fail"} 
+{"message":"mismatch between number of features in testline 'total,fail' and the Instancebase (1 vs. 12)","status":"error"}
 
  {"command":"base","param":"dimin3"} 
 {"base":"dimin3"}
@@ -137,38 +139,38 @@ Connection closed by foreign host.
 {"base":"dimin4"}
  {"command":"classify","params":["+,m,I,=,-,d,A,G,-,d,-,t,J","=,=,=,=,=,=,=,=,+,br,L,t,J"]} 
 [{"category":"J"},{"category":"J"}]
-20190903:171115:697:json_server:Started logging 
-20190903:171115:697:json_server:debugging is off
-20190903:171115:697:json_server:running as a dæmon
-20190903:171115:697:json_server:wrote PID=14416 to /tmp/run/pid8
-20190903:171115:697:json_server:Now running a json server on port 7360
-20190903:171119:602:json_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20190903:171119:602:json_server:Thread 139962574018304 on socket 5, started at: Tue Sep  3 17:11:19 2019
-20190903:171119:602:json_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20190903:171119:602:json_server:Thread 139962565625600 on socket 6, started at: Tue Sep  3 17:11:19 2019
-20190903:171119:602:json_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
-20190903:171119:602:json_server:Thread 139962557232896 on socket 7, started at: Tue Sep  3 17:11:19 2019
-20190903:171119:602:json_server:Accepting Connection #8 from remote host: localhost [127.0.0.1]
-20190903:171119:602:json_server:Thread 139962548840192 on socket 8, started at: Tue Sep  3 17:11:19 2019
-20190903:171119:603:json_server:Accepting Connection #9 from remote host: localhost [127.0.0.1]
-20190903:171119:603:json_server:Thread 139962540447488 on socket 9, started at: Tue Sep  3 17:11:19 2019
-20190903:171119:603:json_server:Accepting Connection #10 from remote host: localhost [127.0.0.1]
-20190903:171119:603:json_server:Thread 139962532054784 on socket 10, started at: Tue Sep  3 17:11:19 2019
-20190903:171119:604:json_server:7 Thread 139962557232896 terminated, 3 instances processed 
-20190903:171119:604:json_server:Socket total = 5
-20190903:171119:604:json_server:Thread 139962557232896, terminated at: Tue Sep  3 17:11:19 2019
-20190903:171119:605:json_server:9 Thread 139962540447488 terminated, 2 instances processed 
-20190903:171119:605:json_server:Socket total = 4
-20190903:171119:605:json_server:Thread 139962540447488, terminated at: Tue Sep  3 17:11:19 2019
-20190903:171119:605:json_server:6 Thread 139962565625600 terminated, 3 instances processed 
-20190903:171119:605:json_server:Socket total = 3
-20190903:171119:605:json_server:Thread 139962565625600, terminated at: Tue Sep  3 17:11:19 2019
-20190903:171119:606:json_server:10 Thread 139962532054784 terminated, 3 instances processed 
-20190903:171119:606:json_server:Socket total = 2
-20190903:171119:606:json_server:Thread 139962532054784, terminated at: Tue Sep  3 17:11:19 2019
-20190903:171119:608:json_server:8 Thread 139962548840192 terminated, 5 instances processed 
-20190903:171119:608:json_server:Socket total = 1
-20190903:171119:608:json_server:Thread 139962548840192, terminated at: Tue Sep  3 17:11:19 2019
-20190903:171124:604:json_server:5 Thread 139962574018304 terminated, 4 instances processed 
-20190903:171124:604:json_server:Socket total = 0
-20190903:171124:604:json_server:Thread 139962574018304, terminated at: Tue Sep  3 17:11:24 2019
+20190919:164712:369:json_server:Started logging 
+20190919:164712:369:json_server:debugging is off
+20190919:164712:369:json_server:running as a dæmon
+20190919:164712:370:json_server:wrote PID=15795 to /tmp/run/pid8
+20190919:164712:370:json_server:Now running a json server on port 7360
+20190919:164716:270:json_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20190919:164716:270:json_server:Thread 140533863524096 on socket 5, started at: Thu Sep 19 16:47:16 2019
+20190919:164716:270:json_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20190919:164716:270:json_server:Thread 140533855131392 on socket 6, started at: Thu Sep 19 16:47:16 2019
+20190919:164716:270:json_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
+20190919:164716:270:json_server:Thread 140533846738688 on socket 7, started at: Thu Sep 19 16:47:16 2019
+20190919:164716:271:json_server:Accepting Connection #8 from remote host: localhost [127.0.0.1]
+20190919:164716:271:json_server:Thread 140533838345984 on socket 8, started at: Thu Sep 19 16:47:16 2019
+20190919:164716:271:json_server:Accepting Connection #9 from remote host: localhost [127.0.0.1]
+20190919:164716:271:json_server:Thread 140533829953280 on socket 9, started at: Thu Sep 19 16:47:16 2019
+20190919:164716:271:json_server:Accepting Connection #10 from remote host: localhost [127.0.0.1]
+20190919:164716:271:json_server:Thread 140533821560576 on socket 10, started at: Thu Sep 19 16:47:16 2019
+20190919:164716:274:json_server:10 Thread 140533821560576 terminated, 2 instances processed 
+20190919:164716:274:json_server:Socket total = 5
+20190919:164716:274:json_server:Thread 140533821560576, terminated at: Thu Sep 19 16:47:16 2019
+20190919:164716:274:json_server:5 Thread 140533863524096 terminated, 5 instances processed 
+20190919:164716:274:json_server:Socket total = 4
+20190919:164716:274:json_server:Thread 140533863524096, terminated at: Thu Sep 19 16:47:16 2019
+20190919:164716:274:json_server:7 Thread 140533846738688 terminated, 3 instances processed 
+20190919:164716:274:json_server:Socket total = 3
+20190919:164716:274:json_server:Thread 140533846738688, terminated at: Thu Sep 19 16:47:16 2019
+20190919:164716:275:json_server:9 Thread 140533829953280 terminated, 3 instances processed 
+20190919:164716:275:json_server:Socket total = 2
+20190919:164716:275:json_server:Thread 140533829953280, terminated at: Thu Sep 19 16:47:16 2019
+20190919:164716:277:json_server:8 Thread 140533838345984 terminated, 5 instances processed 
+20190919:164716:277:json_server:Socket total = 1
+20190919:164716:277:json_server:Thread 140533838345984, terminated at: Thu Sep 19 16:47:16 2019
+20190919:164721:273:json_server:6 Thread 140533855131392 terminated, 4 instances processed 
+20190919:164721:273:json_server:Socket total = 0
+20190919:164721:273:json_server:Thread 140533855131392, terminated at: Thu Sep 19 16:47:21 2019
