@@ -1,95 +1,91 @@
 Testing Servers
-TiMBL Server 1.9-NT (c) ILK 1998 - 2015.
+TiMBL Server 0.23 (c) CLTS/ILK/CLIPS 1998 - 2019.
 Tilburg Memory Based Learner
+Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.4.6
-Tue May 12 09:53:17 2015
-
-OPTS: -aIB1 +vdi+db -f dimin.train
-20150512:095317:150:timblserver:trainName = dimin.train
+based on timbl 6.4.14
+Thu Sep 19 13:11:48 201920190919:131148:431:http_server:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin0-Phase 1: Reading Datafile: dimin.train
--dimin0-Start:          0 @ Tue May 12 09:53:17 2015
--dimin0-Finished:    2999 @ Tue May 12 09:53:17 2015
--dimin0-Calculating Entropy         Tue May 12 09:53:17 2015
--dimin0-Preparation took 0 seconds, 14 milliseconds and 426 microseconds
+-dimin0-Start:          0 @ Thu Sep 19 13:11:48 2019
+-dimin0-Finished:    2999 @ Thu Sep 19 13:11:48 2019
+-dimin0-Calculating Entropy         Thu Sep 19 13:11:48 2019
+-dimin0-Preparation took 0 seconds, 5 milliseconds and 486 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -dimin0-Phase 2: Building multi index on Datafile: dimin.train
--dimin0-Start:          0 @ Tue May 12 09:53:17 2015
--dimin0-Finished:    2999 @ Tue May 12 09:53:17 2015
+-dimin0-Start:          0 @ Thu Sep 19 13:11:48 2019
+-dimin0-Finished:    2999 @ Thu Sep 19 13:11:48 2019
 -dimin0-
 Phase 3: Learning from Datafile: dimin.train
--dimin0-Start:          0 @ Tue May 12 09:53:17 2015
--dimin0-Finished:    2999 @ Tue May 12 09:53:17 2015
+-dimin0-Start:          0 @ Thu Sep 19 13:11:48 2019
+-dimin0-Finished:    2999 @ Thu Sep 19 13:11:48 2019
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--dimin0-Learning took 0 seconds, 30 milliseconds and 367 microseconds
-20150512:095317:211:timblserver:started experiment dimin0 with parameters: -aIB1 +vdi+db -f dimin.train
-OPTS: -aIGTREE +vdi+db +D -f dimin.train
-20150512:095317:211:timblserver:trainName = dimin.train
+-dimin0-Learning took 0 seconds, 16 milliseconds and 821 microseconds
+20190919:131148:457:http_server:started experiment dimin0 with parameters: -aIB1 +vdi+db -f dimin.train
+20190919:131148:457:http_server:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin1-Phase 1: Reading Datafile: dimin.train
--dimin1-Start:          0 @ Tue May 12 09:53:17 2015
--dimin1-Finished:    2999 @ Tue May 12 09:53:17 2015
--dimin1-Calculating Entropy         Tue May 12 09:53:17 2015
--dimin1-Preparation took 0 seconds, 13 milliseconds and 551 microseconds
+-dimin1-Start:          0 @ Thu Sep 19 13:11:48 2019
+-dimin1-Finished:    2999 @ Thu Sep 19 13:11:48 2019
+-dimin1-Calculating Entropy         Thu Sep 19 13:11:48 2019
+-dimin1-Preparation took 0 seconds, 5 milliseconds and 217 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 -dimin1-Phase 2: Building multi index on Datafile: dimin.train
--dimin1-Start:          0 @ Tue May 12 09:53:17 2015
--dimin1-Finished:    2999 @ Tue May 12 09:53:17 2015
+-dimin1-Start:          0 @ Thu Sep 19 13:11:48 2019
+-dimin1-Finished:    2999 @ Thu Sep 19 13:11:48 2019
 -dimin1-
 Phase 3: Learning from Datafile: dimin.train
--dimin1-Start:          0 @ Tue May 12 09:53:17 2015
--dimin1-Finished:    2999 @ Tue May 12 09:53:17 2015
+-dimin1-Start:          0 @ Thu Sep 19 13:11:48 2019
+-dimin1-Finished:    2999 @ Thu Sep 19 13:11:48 2019
 
 Size of InstanceBase = 191 Nodes, (7640 bytes), 99.50 % compression
--dimin1-Learning took 0 seconds, 33 milliseconds and 949 microseconds
-20150512:095317:264:timblserver:started experiment dimin1 with parameters: -aIGTREE +vdi+db +D -f dimin.train
-OPTS: -aTRIBL +vdi+db+n -q3 -f dimin.train
-20150512:095317:265:timblserver:trainName = dimin.train
+-dimin1-Learning took 0 seconds, 19 milliseconds and 105 microseconds
+20190919:131148:485:http_server:started experiment dimin1 with parameters: -aIGTREE +vdi+db +D -f dimin.train
+20190919:131148:485:http_server:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin2-Phase 1: Reading Datafile: dimin.train
--dimin2-Start:          0 @ Tue May 12 09:53:17 2015
--dimin2-Finished:    2999 @ Tue May 12 09:53:17 2015
--dimin2-Calculating Entropy         Tue May 12 09:53:17 2015
--dimin2-Preparation took 0 seconds, 13 milliseconds and 455 microseconds
+-dimin2-Start:          0 @ Thu Sep 19 13:11:48 2019
+-dimin2-Finished:    2999 @ Thu Sep 19 13:11:48 2019
+-dimin2-Calculating Entropy         Thu Sep 19 13:11:48 2019
+-dimin2-Preparation took 0 seconds, 5 milliseconds and 535 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 -dimin2-Phase 2: Building multi index on Datafile: dimin.train
--dimin2-Start:          0 @ Tue May 12 09:53:17 2015
--dimin2-Finished:    2999 @ Tue May 12 09:53:17 2015
+-dimin2-Start:          0 @ Thu Sep 19 13:11:48 2019
+-dimin2-Finished:    2999 @ Thu Sep 19 13:11:48 2019
 -dimin2-
 Phase 3: Learning from Datafile: dimin.train
--dimin2-Start:          0 @ Tue May 12 09:53:17 2015
--dimin2-Finished:    2999 @ Tue May 12 09:53:17 2015
+-dimin2-Start:          0 @ Thu Sep 19 13:11:48 2019
+-dimin2-Finished:    2999 @ Thu Sep 19 13:11:48 2019
 
 Size of InstanceBase = 22705 Nodes, (908200 bytes), 40.69 % compression
--dimin2-Learning took 0 seconds, 30 milliseconds and 552 microseconds
-20150512:095317:315:timblserver:started experiment dimin2 with parameters: -aTRIBL +vdi+db+n -q3 -f dimin.train
-20150512:095317:315:timblserver:Starting a http server on port 7350
-20150512:095317:315:timblserver:switching logging to file /tmp/server7.log
---2015-05-12 09:53:27--  http://localhost:7350/dimin0?classify=%22+,p,i,=,-,k,o,=,-,l,o,=,?%22
+-dimin2-Learning took 0 seconds, 17 milliseconds and 224 microseconds
+20190919:131148:512:http_server:started experiment dimin2 with parameters: -aTRIBL +vdi+db+n -q3 -f dimin.train
+20190919:131148:512:http_server:Starting a http server on port 7350
+20190919:131148:512:http_server:switching logging to file /tmp/server7.log
+--2019-09-19 13:11:58--  http://localhost:7350/dimin0?classify=%22+,p,i,=,-,k,o,=,-,l,o,=,?%22
 Resolving localhost (localhost)... 127.0.0.1
 Connecting to localhost (localhost)|127.0.0.1|:7350... connected.
 HTTP request sent, awaiting response... 200 No headers, assuming HTTP/0.9
 Length: unspecified
 Saving to: ‘/tmp/http1.out’
 
-     0K                                                         167K=0.002s
+     0K                                                         104K=0.003s
 
-2015-05-12 09:53:28 (167 KB/s) - ‘/tmp/http1.out’ saved [278]
+2019-09-19 13:11:59 (104 KB/s) - ‘/tmp/http1.out’ saved [278]
 
 <?xml version="1.0" encoding="UTF-8"?>
 <TiMblResult algorithm="IB1">
@@ -101,32 +97,32 @@ Saving to: ‘/tmp/http1.out’
   </classification>
 </TiMblResult>
 
---2015-05-12 09:53:28--  http://localhost:7350/dimin0?set=v-di-db
+--2019-09-19 13:11:59--  http://localhost:7350/dimin0?set=v-di-db
 Resolving localhost (localhost)... 127.0.0.1
 Connecting to localhost (localhost)|127.0.0.1|:7350... connected.
 HTTP request sent, awaiting response... 200 No headers, assuming HTTP/0.9
 Length: unspecified
 Saving to: ‘/tmp/http2.out’
 
-     0K                                                         276K=0.001s
+     0K                                                         485K=0s
 
-2015-05-12 09:53:29 (276 KB/s) - ‘/tmp/http2.out’ saved [153]
+2019-09-19 13:12:00 (485 KB/s) - ‘/tmp/http2.out’ saved [153]
 
 ERROR { illegal value for +/- v option: -di-db }
 : Don't understand set='v-di-db'
 <?xml version="1.0" encoding="UTF-8"?>
 <TiMblResult algorithm="IB1"/>
 
---2015-05-12 09:53:29--  http://localhost:7350/dimin0?show=settings
+--2019-09-19 13:12:00--  http://localhost:7350/dimin0?show=settings
 Resolving localhost (localhost)... 127.0.0.1
 Connecting to localhost (localhost)|127.0.0.1|:7350... connected.
 HTTP request sent, awaiting response... 200 No headers, assuming HTTP/0.9
 Length: unspecified
 Saving to: ‘/tmp/http2.out’
 
-     0K .                                                       155K=0.009s
+     0K .                                                       441K=0.003s
 
-2015-05-12 09:53:30 (155 KB/s) - ‘/tmp/http2.out’ saved [1356]
+2019-09-19 13:12:01 (441 KB/s) - ‘/tmp/http2.out’ saved [1356]
 
 <?xml version="1.0" encoding="UTF-8"?>
 <TiMblResult algorithm="IB1">
@@ -169,16 +165,16 @@ Saving to: ‘/tmp/http2.out’
   </settings>
 </TiMblResult>
 
---2015-05-12 09:53:30--  http://localhost:7350/dimin0?classify=%22+,p,i,=,-,k,o,=,-,l,o,=,?%22
+--2019-09-19 13:12:01--  http://localhost:7350/dimin0?classify=%22+,p,i,=,-,k,o,=,-,l,o,=,?%22
 Resolving localhost (localhost)... 127.0.0.1
 Connecting to localhost (localhost)|127.0.0.1|:7350... connected.
 HTTP request sent, awaiting response... 200 No headers, assuming HTTP/0.9
 Length: unspecified
 Saving to: ‘/tmp/http3.out’
 
-     0K                                                         152K=0.002s
+     0K                                                         261K=0.001s
 
-2015-05-12 09:53:31 (152 KB/s) - ‘/tmp/http3.out’ saved [278]
+2019-09-19 13:12:02 (261 KB/s) - ‘/tmp/http3.out’ saved [278]
 
 <?xml version="1.0" encoding="UTF-8"?>
 <TiMblResult algorithm="IB1">
@@ -190,16 +186,16 @@ Saving to: ‘/tmp/http3.out’
   </classification>
 </TiMblResult>
 
---2015-05-12 09:53:31--  http://localhost:7350/dimin1?classify=%22=,=,=,=,+,sp,a,r,-,b,u,k,?%22
+--2019-09-19 13:12:02--  http://localhost:7350/dimin1?classify=%22=,=,=,=,+,sp,a,r,-,b,u,k,?%22
 Resolving localhost (localhost)... 127.0.0.1
 Connecting to localhost (localhost)|127.0.0.1|:7350... connected.
 HTTP request sent, awaiting response... 200 No headers, assuming HTTP/0.9
 Length: unspecified
 Saving to: ‘/tmp/http4.out’
 
-     0K                                                        27.0M=0s
+     0K                                                        13.4M=0s
 
-2015-05-12 09:53:32 (27.0 MB/s) - ‘/tmp/http4.out’ saved [281]
+2019-09-19 13:12:03 (13.4 MB/s) - ‘/tmp/http4.out’ saved [281]
 
 <?xml version="1.0" encoding="UTF-8"?>
 <TiMblResult algorithm="IGTree">
@@ -211,56 +207,56 @@ Saving to: ‘/tmp/http4.out’
   </classification>
 </TiMblResult>
 
-20150512:095317:315:timblserver:Started logging 
-20150512:095317:315:timblserver:debugging is on
-20150512:095317:315:timblserver:running as a dæmon
-20150512:095317:316:timblserver:wrote PID=2555 to /tmp/run/pid7
-20150512:095317:334:timblserver:Starting Server on port:7350
-20150512:095327:182:timblserver:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20150512:095327:182:timblserver:Thread 140114339645184, on Socket 5, started.
-20150512:095328:184:Thread 140114339645184, on Socket 5:params=" ,p,i,=,-,k,o,=,-,l,o,=,?"
-20150512:095328:184:Thread 140114339645184, on Socket 5:params[0]='"'
-20150512:095328:184:Thread 140114339645184, on Socket 5:params[len-1]='"'
-20150512:095328:184:Thread 140114339645184, on Socket 5:base='dimin0'
-20150512:095328:184:Thread 140114339645184, on Socket 5:command='classify'
-20150512:095328:184:Thread 140114339645184, on Socket 5:Classify( ,p,i,=,-,k,o,=,-,l,o,=,?)
-20150512:095328:184:Thread 140114339645184, on Socket 5:resultaat: T, distrib: { T 1.00000 }, distance 0.0955924
-20150512:095328:186:timblserver:Socket total = 0
-20150512:095328:186:timblserver:Thread 140114339645184, terminated at: Tue May 12 09:53:28 2015
-
-20150512:095328:190:timblserver:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20150512:095328:190:timblserver:Thread 140114339645184, on Socket 6, started.
-20150512:095329:191:Thread 140114339645184, on Socket 6:set :-v-di-db
-20150512:095329:192:Thread 140114339645184, on Socket 6:: Don't understand set='-v-di-db'
-20150512:095329:192:timblserver:Socket total = 0
-20150512:095329:192:timblserver:Thread 140114339645184, terminated at: Tue May 12 09:53:29 2015
-
-20150512:095329:196:timblserver:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20150512:095329:196:timblserver:Thread 140114339645184, on Socket 5, started.
-20150512:095330:206:timblserver:Socket total = 0
-20150512:095330:206:timblserver:Thread 140114339645184, terminated at: Tue May 12 09:53:30 2015
-
-20150512:095330:209:timblserver:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20150512:095330:209:timblserver:Thread 140114339645184, on Socket 6, started.
-20150512:095331:210:Thread 140114339645184, on Socket 6:params=" ,p,i,=,-,k,o,=,-,l,o,=,?"
-20150512:095331:210:Thread 140114339645184, on Socket 6:params[0]='"'
-20150512:095331:210:Thread 140114339645184, on Socket 6:params[len-1]='"'
-20150512:095331:210:Thread 140114339645184, on Socket 6:base='dimin0'
-20150512:095331:210:Thread 140114339645184, on Socket 6:command='classify'
-20150512:095331:210:Thread 140114339645184, on Socket 6:Classify( ,p,i,=,-,k,o,=,-,l,o,=,?)
-20150512:095331:210:Thread 140114339645184, on Socket 6:resultaat: T, distrib: { T 1.00000 }, distance 0.0955924
-20150512:095331:212:timblserver:Socket total = 0
-20150512:095331:212:timblserver:Thread 140114339645184, terminated at: Tue May 12 09:53:31 2015
-
-20150512:095331:216:timblserver:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20150512:095331:216:timblserver:Thread 140114339645184, on Socket 5, started.
-20150512:095332:217:Thread 140114339645184, on Socket 5:params="=,=,=,=, ,sp,a,r,-,b,u,k,?"
-20150512:095332:217:Thread 140114339645184, on Socket 5:params[0]='"'
-20150512:095332:217:Thread 140114339645184, on Socket 5:params[len-1]='"'
-20150512:095332:217:Thread 140114339645184, on Socket 5:base='dimin1'
-20150512:095332:217:Thread 140114339645184, on Socket 5:command='classify'
-20150512:095332:217:Thread 140114339645184, on Socket 5:Classify(=,=,=,=, ,sp,a,r,-,b,u,k,?)
-20150512:095332:217:Thread 140114339645184, on Socket 5:resultaat: J, distrib: { J 191.000 }, distance 0.549581
-20150512:095332:218:timblserver:Socket total = 0
-20150512:095332:218:timblserver:Thread 140114339645184, terminated at: Tue May 12 09:53:32 2015
-
+20190919:131148:512:http_server:Started logging 
+20190919:131148:512:http_server:debugging is on
+20190919:131148:512:http_server:running as a dæmon
+20190919:131148:513:http_server:wrote PID=22218 to /tmp/run/pid7
+20190919:131148:513:http_server:Now running a http server on port 7350
+20190919:131158:439:http_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20190919:131158:439:http_server:Thread 139745573897984 on socket 5, started at: Thu Sep 19 13:11:58 2019
+20190919:131158:439:http_server:Thread 139745573897984, on Socket 5, started.
+20190919:131159:442:Thread 139745573897984, on Socket 5:params=" ,p,i,=,-,k,o,=,-,l,o,=,?"
+20190919:131159:442:Thread 139745573897984, on Socket 5:params[0]='"'
+20190919:131159:442:Thread 139745573897984, on Socket 5:params[len-1]='"'
+20190919:131159:442:Thread 139745573897984, on Socket 5:base='dimin0'
+20190919:131159:442:Thread 139745573897984, on Socket 5:command='classify'
+20190919:131159:442:Thread 139745573897984, on Socket 5:Classify( ,p,i,=,-,k,o,=,-,l,o,=,?)
+20190919:131159:443:Thread 139745573897984, on Socket 5:resultaat: T, distrib: { T 1.00000 }, distance 0.0955924
+20190919:131159:446:http_server:Socket total = 0
+20190919:131159:446:http_server:Thread 139745573897984, terminated at: Thu Sep 19 13:11:59 2019
+20190919:131159:455:http_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20190919:131159:455:http_server:Thread 139745573897984 on socket 6, started at: Thu Sep 19 13:11:59 2019
+20190919:131159:455:http_server:Thread 139745573897984, on Socket 6, started.
+20190919:131200:457:Thread 139745573897984, on Socket 6:set :-v-di-db
+20190919:131200:457:Thread 139745573897984, on Socket 6:: Don't understand set='-v-di-db'
+20190919:131200:458:http_server:Socket total = 0
+20190919:131200:458:http_server:Thread 139745573897984, terminated at: Thu Sep 19 13:12:00 2019
+20190919:131200:462:http_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20190919:131200:462:http_server:Thread 139745573897984 on socket 5, started at: Thu Sep 19 13:12:00 2019
+20190919:131200:462:http_server:Thread 139745573897984, on Socket 5, started.
+20190919:131201:467:http_server:Socket total = 0
+20190919:131201:467:http_server:Thread 139745573897984, terminated at: Thu Sep 19 13:12:01 2019
+20190919:131201:470:http_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20190919:131201:470:http_server:Thread 139745573897984 on socket 6, started at: Thu Sep 19 13:12:01 2019
+20190919:131201:470:http_server:Thread 139745573897984, on Socket 6, started.
+20190919:131202:472:Thread 139745573897984, on Socket 6:params=" ,p,i,=,-,k,o,=,-,l,o,=,?"
+20190919:131202:472:Thread 139745573897984, on Socket 6:params[0]='"'
+20190919:131202:472:Thread 139745573897984, on Socket 6:params[len-1]='"'
+20190919:131202:472:Thread 139745573897984, on Socket 6:base='dimin0'
+20190919:131202:472:Thread 139745573897984, on Socket 6:command='classify'
+20190919:131202:472:Thread 139745573897984, on Socket 6:Classify( ,p,i,=,-,k,o,=,-,l,o,=,?)
+20190919:131202:472:Thread 139745573897984, on Socket 6:resultaat: T, distrib: { T 1.00000 }, distance 0.0955924
+20190919:131202:473:http_server:Socket total = 0
+20190919:131202:473:http_server:Thread 139745573897984, terminated at: Thu Sep 19 13:12:02 2019
+20190919:131202:478:http_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20190919:131202:478:http_server:Thread 139745573897984 on socket 5, started at: Thu Sep 19 13:12:02 2019
+20190919:131202:478:http_server:Thread 139745573897984, on Socket 5, started.
+20190919:131203:480:Thread 139745573897984, on Socket 5:params="=,=,=,=, ,sp,a,r,-,b,u,k,?"
+20190919:131203:480:Thread 139745573897984, on Socket 5:params[0]='"'
+20190919:131203:480:Thread 139745573897984, on Socket 5:params[len-1]='"'
+20190919:131203:480:Thread 139745573897984, on Socket 5:base='dimin1'
+20190919:131203:480:Thread 139745573897984, on Socket 5:command='classify'
+20190919:131203:480:Thread 139745573897984, on Socket 5:Classify(=,=,=,=, ,sp,a,r,-,b,u,k,?)
+20190919:131203:480:Thread 139745573897984, on Socket 5:resultaat: J, distrib: { J 191.000 }, distance 0.549581
+20190919:131203:481:http_server:Socket total = 0
+20190919:131203:482:http_server:Thread 139745573897984, terminated at: Thu Sep 19 13:12:03 2019
