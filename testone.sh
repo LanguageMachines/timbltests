@@ -37,5 +37,7 @@ do if test -x $file
 	echo "differences logged in $file.diff";
 	else echo -e $OK
 	fi
+   else
+       echo "testfile '$1' not found"
    fi
 done
