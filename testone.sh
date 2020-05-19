@@ -2,7 +2,7 @@
 OK="\033[1;32m OK  \033[0m"
 FAIL="\033[1;31m  FAILED  \033[0m"
 
-if [ "$timbl_bin" == "" ];
+if test "$timbl_bin" = "";
 then
   timbl_bin=/home/sloot/usr/local/bin
   if [ ! -d $timbl_bin ];
