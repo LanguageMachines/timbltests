@@ -1,39 +1,39 @@
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 6.6 (c) CLST/ILK/CLIPS 1998 - 2021.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:29:17 2019
+Mon Oct 25 10:51:59 2021
 
 Examine datafile './tests/utf8.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/utf8.train
-Start:          0 @ Mon Sep  2 15:29:17 2019
-Finished:      28 @ Mon Sep  2 15:29:17 2019
-Calculating Entropy         Mon Sep  2 15:29:17 2019
-Lines of data     : 28
-DB Entropy        : 3.8073549
-Number of Classes : 14
+Start:          0 @ Mon Oct 25 10:51:59 2021
+Finished:      30 @ Mon Oct 25 10:51:59 2021
+Calculating Entropy         Mon Oct 25 10:51:59 2021
+Lines of data     : 30
+DB Entropy        : 3.9068906
+Number of Classes : 15
 
 Feats	Vals	InfoGain	GainRatio
-    1     28	3.8073549	0.79198540
-    2     28	3.8073549	0.79198540
+    1     30	3.9068906	0.79620495
+    2     30	3.9068906	0.79620495
 
-Preparation took 0 seconds, 0 milliseconds and 165 microseconds
+Preparation took 0 seconds, 0 milliseconds and 464 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2 >
 Phase 2: Building multi index on Datafile: ./tests/utf8.train
-Start:          0 @ Mon Sep  2 15:29:17 2019
-Finished:      28 @ Mon Sep  2 15:29:17 2019
+Start:          0 @ Mon Oct 25 10:51:59 2021
+Finished:      30 @ Mon Oct 25 10:51:59 2021
 
 Phase 3: Learning from Datafile: ./tests/utf8.train
-Start:          0 @ Mon Sep  2 15:29:17 2019
-Finished:      28 @ Mon Sep  2 15:29:17 2019
+Start:          0 @ Mon Oct 25 10:51:59 2021
+Finished:      30 @ Mon Oct 25 10:51:59 2021
 
-Size of InstanceBase = 84 Nodes, (3360 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 196 microseconds
+Size of InstanceBase = 90 Nodes, (3600 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 598 microseconds
 Examine datafile './tests/utf8.test' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
@@ -45,23 +45,23 @@ Algorithm     : IB1
 Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
-Feature 1	 : 0.791985402323491
-Feature 2	 : 0.791985402323491
+Feature 1	 : 0.796204952909494
+Feature 2	 : 0.796204952909494
 
-Tested:      1 @ Mon Sep  2 15:29:17 2019
-Tested:      2 @ Mon Sep  2 15:29:17 2019
-Tested:      3 @ Mon Sep  2 15:29:17 2019
-Tested:      4 @ Mon Sep  2 15:29:17 2019
-Tested:      5 @ Mon Sep  2 15:29:17 2019
-Tested:      6 @ Mon Sep  2 15:29:17 2019
-Tested:      7 @ Mon Sep  2 15:29:17 2019
-Tested:      8 @ Mon Sep  2 15:29:17 2019
-Tested:      9 @ Mon Sep  2 15:29:17 2019
-Tested:     10 @ Mon Sep  2 15:29:17 2019
-Ready:      14 @ Mon Sep  2 15:29:17 2019
-Seconds taken: 0.0002 (67307.69 p/s)
+Tested:      1 @ Mon Oct 25 10:51:59 2021
+Tested:      2 @ Mon Oct 25 10:51:59 2021
+Tested:      3 @ Mon Oct 25 10:51:59 2021
+Tested:      4 @ Mon Oct 25 10:51:59 2021
+Tested:      5 @ Mon Oct 25 10:51:59 2021
+Tested:      6 @ Mon Oct 25 10:51:59 2021
+Tested:      7 @ Mon Oct 25 10:51:59 2021
+Tested:      8 @ Mon Oct 25 10:51:59 2021
+Tested:      9 @ Mon Oct 25 10:51:59 2021
+Tested:     10 @ Mon Oct 25 10:51:59 2021
+Ready:      15 @ Mon Oct 25 10:51:59 2021
+Seconds taken: 0.0006 (27272.73 p/s)
 
-overall accuracy:        0.928571  (13/14)
+overall accuracy:        0.933333  (14/15)
 There was 1 tie of which 0 (0.00%) was correctly resolved
 काचं,माम्,sanskriet,sanskriet
 nopahinasti,śaknomyattum,sanskriet-t,sanskriet-t
@@ -77,42 +77,43 @@ nopahinasti,śaknomyattum,sanskriet-t,sanskriet-t
 thể ăn,mà không hại gì,vietnamees,vietnamees
 나는,있어요,koreaans,koreaans
 Би шил,идэй надад,mongools,mongools
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+gráda,mañana,spaans,spaans
+TiMBL 6.6 (c) CLST/ILK/CLIPS 1998 - 2021.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:29:17 2019
+Mon Oct 25 10:51:59 2021
 
 Examine datafile './tests/utf8.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/utf8.train
-Start:          0 @ Mon Sep  2 15:29:17 2019
-Finished:      28 @ Mon Sep  2 15:29:17 2019
-Calculating Entropy         Mon Sep  2 15:29:17 2019
-Lines of data     : 28
-DB Entropy        : 3.8073549
-Number of Classes : 14
+Start:          0 @ Mon Oct 25 10:51:59 2021
+Finished:      30 @ Mon Oct 25 10:51:59 2021
+Calculating Entropy         Mon Oct 25 10:51:59 2021
+Lines of data     : 30
+DB Entropy        : 3.9068906
+Number of Classes : 15
 
 Feats	Vals	InfoGain	GainRatio
-    1     28	3.8073549	0.79198540
-    2     28	3.8073549	0.79198540
+    1     30	3.9068906	0.79620495
+    2     30	3.9068906	0.79620495
 
-Preparation took 0 seconds, 0 milliseconds and 167 microseconds
+Preparation took 0 seconds, 0 milliseconds and 222 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2 >
 Phase 2: Building multi index on Datafile: ./tests/utf8.train
-Start:          0 @ Mon Sep  2 15:29:17 2019
-Finished:      28 @ Mon Sep  2 15:29:17 2019
+Start:          0 @ Mon Oct 25 10:51:59 2021
+Finished:      30 @ Mon Oct 25 10:51:59 2021
 
 Phase 3: Learning from Datafile: ./tests/utf8.train
-Start:          0 @ Mon Sep  2 15:29:17 2019
-Finished:      28 @ Mon Sep  2 15:29:17 2019
+Start:          0 @ Mon Oct 25 10:51:59 2021
+Finished:      30 @ Mon Oct 25 10:51:59 2021
 
-Size of InstanceBase = 84 Nodes, (3360 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 196 microseconds
+Size of InstanceBase = 90 Nodes, (3600 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 274 microseconds
 Writing Instance-Base in: ./tests/utf8.tree
 # Status: complete
 # Permutation: < 1, 2 >
@@ -135,6 +136,7 @@ Classes
 12	vietnamees
 13	koreaans
 14	mongools
+15	spaans
 Features
 1	काचं
 2	शक्नोम्यत्तुम्
@@ -192,8 +194,12 @@ Features
 54	идэй\_чадна
 55	надад
 56	хортой\_биш
+57	gráda
+58	mañana
+59	gráda
+60	mañana
 
-(1{ 1 2, 2 2, 3 2, 4 2, 5 2, 6 2, 7 2, 8 2, 9 2, 10 2, 11 2, 12 2, 13 2, 14 2 }[1(1[2(1{ 1 1 })
+(1{ 1 2, 2 2, 3 2, 4 2, 5 2, 6 2, 7 2, 8 2, 9 2, 10 2, 11 2, 12 2, 13 2, 14 2, 15 2 }[1(1[2(1{ 1 1 })
 ]
 )
 ,3(1[4(1{ 1 1 })
@@ -277,18 +283,24 @@ Features
 ,55(14[56(14{ 14 1 })
 ]
 )
+,57(15[58(15{ 15 1 })
 ]
 )
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+,59(15[60(15{ 15 1 })
+]
+)
+]
+)
+TiMBL 6.6 (c) CLST/ILK/CLIPS 1998 - 2021.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:29:17 2019
+Mon Oct 25 10:51:59 2021
 
 Reading Instance-Base from: ./tests/utf8.tree
 
-Size of InstanceBase = 84 Nodes, (3360 bytes), 0.00 % compression
+Size of InstanceBase = 90 Nodes, (3600 bytes), 0.00 % compression
 Feature Permutation based on Data File Ordering :
 < 1, 2 >
 Examine datafile './tests/utf8.test' gave the following results:
@@ -302,21 +314,21 @@ Algorithm     : IB1
 Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
-Feature 1	 : 0.791985402323491
-Feature 2	 : 0.791985402323491
+Feature 1	 : 0.796204952909494
+Feature 2	 : 0.796204952909494
 
-Tested:      1 @ Mon Sep  2 15:29:17 2019
-Tested:      2 @ Mon Sep  2 15:29:17 2019
-Tested:      3 @ Mon Sep  2 15:29:17 2019
-Tested:      4 @ Mon Sep  2 15:29:17 2019
-Tested:      5 @ Mon Sep  2 15:29:17 2019
-Tested:      6 @ Mon Sep  2 15:29:17 2019
-Tested:      7 @ Mon Sep  2 15:29:17 2019
-Tested:      8 @ Mon Sep  2 15:29:17 2019
-Tested:      9 @ Mon Sep  2 15:29:17 2019
-Tested:     10 @ Mon Sep  2 15:29:17 2019
-Ready:      14 @ Mon Sep  2 15:29:17 2019
-Seconds taken: 0.0002 (61674.01 p/s)
+Tested:      1 @ Mon Oct 25 10:51:59 2021
+Tested:      2 @ Mon Oct 25 10:51:59 2021
+Tested:      3 @ Mon Oct 25 10:51:59 2021
+Tested:      4 @ Mon Oct 25 10:51:59 2021
+Tested:      5 @ Mon Oct 25 10:51:59 2021
+Tested:      6 @ Mon Oct 25 10:51:59 2021
+Tested:      7 @ Mon Oct 25 10:51:59 2021
+Tested:      8 @ Mon Oct 25 10:51:59 2021
+Tested:      9 @ Mon Oct 25 10:51:59 2021
+Tested:     10 @ Mon Oct 25 10:51:59 2021
+Ready:      15 @ Mon Oct 25 10:51:59 2021
+Seconds taken: 0.0002 (66964.29 p/s)
 
-overall accuracy:        0.928571  (13/14)
+overall accuracy:        0.933333  (14/15)
 There was 1 tie of which 0 (0.00%) was correctly resolved
