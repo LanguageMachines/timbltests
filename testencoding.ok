@@ -3,37 +3,37 @@ Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Oct 25 10:51:59 2021
+Tue Nov 16 13:46:15 2021
 
 Examine datafile './tests/utf8.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/utf8.train
-Start:          0 @ Mon Oct 25 10:51:59 2021
-Finished:      30 @ Mon Oct 25 10:51:59 2021
-Calculating Entropy         Mon Oct 25 10:51:59 2021
+Start:          0 @ Tue Nov 16 13:46:15 2021
+Finished:      30 @ Tue Nov 16 13:46:15 2021
+Calculating Entropy         Tue Nov 16 13:46:15 2021
 Lines of data     : 30
 DB Entropy        : 3.9068906
 Number of Classes : 15
 
 Feats	Vals	InfoGain	GainRatio
-    1     30	3.9068906	0.79620495
-    2     30	3.9068906	0.79620495
+    1     29	3.9068906	0.80717146
+    2     29	3.9068906	0.80717146
 
-Preparation took 0 seconds, 0 milliseconds and 464 microseconds
+Preparation took 0 seconds, 0 milliseconds and 200 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2 >
 Phase 2: Building multi index on Datafile: ./tests/utf8.train
-Start:          0 @ Mon Oct 25 10:51:59 2021
-Finished:      30 @ Mon Oct 25 10:51:59 2021
+Start:          0 @ Tue Nov 16 13:46:15 2021
+Finished:      30 @ Tue Nov 16 13:46:15 2021
 
 Phase 3: Learning from Datafile: ./tests/utf8.train
-Start:          0 @ Mon Oct 25 10:51:59 2021
-Finished:      30 @ Mon Oct 25 10:51:59 2021
+Start:          0 @ Tue Nov 16 13:46:15 2021
+Finished:      30 @ Tue Nov 16 13:46:15 2021
 
-Size of InstanceBase = 90 Nodes, (3600 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 598 microseconds
+Size of InstanceBase = 87 Nodes, (3480 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 263 microseconds
 Examine datafile './tests/utf8.test' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
@@ -45,23 +45,23 @@ Algorithm     : IB1
 Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
-Feature 1	 : 0.796204952909494
-Feature 2	 : 0.796204952909494
+Feature 1	 : 0.807171455900518
+Feature 2	 : 0.807171455900518
 
-Tested:      1 @ Mon Oct 25 10:51:59 2021
-Tested:      2 @ Mon Oct 25 10:51:59 2021
-Tested:      3 @ Mon Oct 25 10:51:59 2021
-Tested:      4 @ Mon Oct 25 10:51:59 2021
-Tested:      5 @ Mon Oct 25 10:51:59 2021
-Tested:      6 @ Mon Oct 25 10:51:59 2021
-Tested:      7 @ Mon Oct 25 10:51:59 2021
-Tested:      8 @ Mon Oct 25 10:51:59 2021
-Tested:      9 @ Mon Oct 25 10:51:59 2021
-Tested:     10 @ Mon Oct 25 10:51:59 2021
-Ready:      15 @ Mon Oct 25 10:51:59 2021
-Seconds taken: 0.0006 (27272.73 p/s)
+Tested:      1 @ Tue Nov 16 13:46:15 2021
+Tested:      2 @ Tue Nov 16 13:46:15 2021
+Tested:      3 @ Tue Nov 16 13:46:15 2021
+Tested:      4 @ Tue Nov 16 13:46:15 2021
+Tested:      5 @ Tue Nov 16 13:46:15 2021
+Tested:      6 @ Tue Nov 16 13:46:15 2021
+Tested:      7 @ Tue Nov 16 13:46:15 2021
+Tested:      8 @ Tue Nov 16 13:46:15 2021
+Tested:      9 @ Tue Nov 16 13:46:15 2021
+Tested:     10 @ Tue Nov 16 13:46:15 2021
+Ready:      15 @ Tue Nov 16 13:46:15 2021
+Seconds taken: 0.0002 (64102.56 p/s)
 
-overall accuracy:        0.933333  (14/15)
+overall accuracy:        0.933333  (14/15), of which 1 exact matches 
 There was 1 tie of which 0 (0.00%) was correctly resolved
 काचं,माम्,sanskriet,sanskriet
 nopahinasti,śaknomyattum,sanskriet-t,sanskriet-t
@@ -83,37 +83,37 @@ Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Oct 25 10:51:59 2021
+Tue Nov 16 13:46:15 2021
 
 Examine datafile './tests/utf8.train' gave the following results:
 Number of Features: 2
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/utf8.train
-Start:          0 @ Mon Oct 25 10:51:59 2021
-Finished:      30 @ Mon Oct 25 10:51:59 2021
-Calculating Entropy         Mon Oct 25 10:51:59 2021
+Start:          0 @ Tue Nov 16 13:46:15 2021
+Finished:      30 @ Tue Nov 16 13:46:15 2021
+Calculating Entropy         Tue Nov 16 13:46:15 2021
 Lines of data     : 30
 DB Entropy        : 3.9068906
 Number of Classes : 15
 
 Feats	Vals	InfoGain	GainRatio
-    1     30	3.9068906	0.79620495
-    2     30	3.9068906	0.79620495
+    1     29	3.9068906	0.80717146
+    2     29	3.9068906	0.80717146
 
-Preparation took 0 seconds, 0 milliseconds and 222 microseconds
+Preparation took 0 seconds, 0 milliseconds and 323 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2 >
 Phase 2: Building multi index on Datafile: ./tests/utf8.train
-Start:          0 @ Mon Oct 25 10:51:59 2021
-Finished:      30 @ Mon Oct 25 10:51:59 2021
+Start:          0 @ Tue Nov 16 13:46:15 2021
+Finished:      30 @ Tue Nov 16 13:46:15 2021
 
 Phase 3: Learning from Datafile: ./tests/utf8.train
-Start:          0 @ Mon Oct 25 10:51:59 2021
-Finished:      30 @ Mon Oct 25 10:51:59 2021
+Start:          0 @ Tue Nov 16 13:46:15 2021
+Finished:      30 @ Tue Nov 16 13:46:15 2021
 
-Size of InstanceBase = 90 Nodes, (3600 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 274 microseconds
+Size of InstanceBase = 87 Nodes, (3480 bytes), 0.00 % compression
+Learning took 0 seconds, 0 milliseconds and 517 microseconds
 Writing Instance-Base in: ./tests/utf8.tree
 # Status: complete
 # Permutation: < 1, 2 >
@@ -194,10 +194,8 @@ Features
 54	идэй\_чадна
 55	надад
 56	хортой\_биш
-57	gráda
-58	mañana
-59	gráda
-60	mañana
+57	gráda
+58	mañana
 
 (1{ 1 2, 2 2, 3 2, 4 2, 5 2, 6 2, 7 2, 8 2, 9 2, 10 2, 11 2, 12 2, 13 2, 14 2, 15 2 }[1(1[2(1{ 1 1 })
 ]
@@ -283,10 +281,7 @@ Features
 ,55(14[56(14{ 14 1 })
 ]
 )
-,57(15[58(15{ 15 1 })
-]
-)
-,59(15[60(15{ 15 1 })
+,57(15[58(15{ 15 2 })
 ]
 )
 ]
@@ -296,11 +291,11 @@ Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Oct 25 10:51:59 2021
+Tue Nov 16 13:46:15 2021
 
 Reading Instance-Base from: ./tests/utf8.tree
 
-Size of InstanceBase = 90 Nodes, (3600 bytes), 0.00 % compression
+Size of InstanceBase = 87 Nodes, (3480 bytes), 0.00 % compression
 Feature Permutation based on Data File Ordering :
 < 1, 2 >
 Examine datafile './tests/utf8.test' gave the following results:
@@ -314,21 +309,21 @@ Algorithm     : IB1
 Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
-Feature 1	 : 0.796204952909494
-Feature 2	 : 0.796204952909494
+Feature 1	 : 0.807171455900518
+Feature 2	 : 0.807171455900518
 
-Tested:      1 @ Mon Oct 25 10:51:59 2021
-Tested:      2 @ Mon Oct 25 10:51:59 2021
-Tested:      3 @ Mon Oct 25 10:51:59 2021
-Tested:      4 @ Mon Oct 25 10:51:59 2021
-Tested:      5 @ Mon Oct 25 10:51:59 2021
-Tested:      6 @ Mon Oct 25 10:51:59 2021
-Tested:      7 @ Mon Oct 25 10:51:59 2021
-Tested:      8 @ Mon Oct 25 10:51:59 2021
-Tested:      9 @ Mon Oct 25 10:51:59 2021
-Tested:     10 @ Mon Oct 25 10:51:59 2021
-Ready:      15 @ Mon Oct 25 10:51:59 2021
-Seconds taken: 0.0002 (66964.29 p/s)
+Tested:      1 @ Tue Nov 16 13:46:15 2021
+Tested:      2 @ Tue Nov 16 13:46:15 2021
+Tested:      3 @ Tue Nov 16 13:46:15 2021
+Tested:      4 @ Tue Nov 16 13:46:15 2021
+Tested:      5 @ Tue Nov 16 13:46:15 2021
+Tested:      6 @ Tue Nov 16 13:46:15 2021
+Tested:      7 @ Tue Nov 16 13:46:15 2021
+Tested:      8 @ Tue Nov 16 13:46:15 2021
+Tested:      9 @ Tue Nov 16 13:46:15 2021
+Tested:     10 @ Tue Nov 16 13:46:15 2021
+Ready:      15 @ Tue Nov 16 13:46:15 2021
+Seconds taken: 0.0003 (55970.15 p/s)
 
-overall accuracy:        0.933333  (14/15)
+overall accuracy:        0.933333  (14/15), of which 1 exact matches 
 There was 1 tie of which 0 (0.00%) was correctly resolved
