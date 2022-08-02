@@ -1,18 +1,18 @@
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:14:45 2019
+Tue Aug  2 12:07:57 2022
 
 Examine datafile 'tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:14:45 2019
-Finished:    2999 @ Mon Sep  2 15:14:45 2019
-Calculating Entropy         Mon Sep  2 15:14:45 2019
+Start:          0 @ Tue Aug  2 12:07:57 2022
+Finished:    2999 @ Tue Aug  2 12:07:57 2022
+Calculating Entropy         Tue Aug  2 12:07:57 2022
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -31,19 +31,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 5 milliseconds and 650 microseconds
+Preparation took 0 seconds, 15 milliseconds and 554 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:14:45 2019
-Finished:    2999 @ Mon Sep  2 15:14:45 2019
+Start:          0 @ Tue Aug  2 12:07:57 2022
+Finished:    2999 @ Tue Aug  2 12:07:57 2022
 
 Phase 3: Learning from Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:14:45 2019
-Finished:    2999 @ Mon Sep  2 15:14:45 2019
+Start:          0 @ Tue Aug  2 12:07:57 2022
+Finished:    2999 @ Tue Aug  2 12:07:57 2022
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 16 milliseconds and 704 microseconds
+Learning took 0 seconds, 33 milliseconds and 11 microseconds
 Examine datafile 'tests/dimin.test' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
@@ -82,37 +82,37 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Mon Sep  2 15:14:45 2019
-Tested:      2 @ Mon Sep  2 15:14:45 2019
-Tested:      3 @ Mon Sep  2 15:14:45 2019
-Tested:      4 @ Mon Sep  2 15:14:45 2019
-Tested:      5 @ Mon Sep  2 15:14:45 2019
-Tested:      6 @ Mon Sep  2 15:14:45 2019
-Tested:      7 @ Mon Sep  2 15:14:45 2019
-Tested:      8 @ Mon Sep  2 15:14:45 2019
-Tested:      9 @ Mon Sep  2 15:14:45 2019
-Tested:     10 @ Mon Sep  2 15:14:45 2019
-Tested:    100 @ Mon Sep  2 15:14:45 2019
-Ready:     950 @ Mon Sep  2 15:14:45 2019
-Seconds taken: 0.0295 (32233.98 p/s)
+Tested:      1 @ Tue Aug  2 12:07:57 2022
+Tested:      2 @ Tue Aug  2 12:07:57 2022
+Tested:      3 @ Tue Aug  2 12:07:57 2022
+Tested:      4 @ Tue Aug  2 12:07:57 2022
+Tested:      5 @ Tue Aug  2 12:07:57 2022
+Tested:      6 @ Tue Aug  2 12:07:57 2022
+Tested:      7 @ Tue Aug  2 12:07:57 2022
+Tested:      8 @ Tue Aug  2 12:07:57 2022
+Tested:      9 @ Tue Aug  2 12:07:57 2022
+Tested:     10 @ Tue Aug  2 12:07:57 2022
+Tested:    100 @ Tue Aug  2 12:07:57 2022
+Ready:     950 @ Tue Aug  2 12:07:57 2022
+Seconds taken: 0.0333 (28555.97 p/s)
 
 overall accuracy:        0.963158  (915/950), of which 62 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:14:45 2019
+Tue Aug  2 12:07:57 2022
 
 Examine datafile 'tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:14:45 2019
-Finished:    2999 @ Mon Sep  2 15:14:45 2019
-Calculating Entropy         Mon Sep  2 15:14:45 2019
+Start:          0 @ Tue Aug  2 12:07:57 2022
+Finished:    2999 @ Tue Aug  2 12:07:57 2022
+Calculating Entropy         Tue Aug  2 12:07:57 2022
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -131,19 +131,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 6 milliseconds and 528 microseconds
+Preparation took 0 seconds, 13 milliseconds and 435 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:14:45 2019
-Finished:    2999 @ Mon Sep  2 15:14:45 2019
+Start:          0 @ Tue Aug  2 12:07:57 2022
+Finished:    2999 @ Tue Aug  2 12:07:57 2022
 
 Phase 3: Learning from Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:14:45 2019
-Finished:    2999 @ Mon Sep  2 15:14:45 2019
+Start:          0 @ Tue Aug  2 12:07:57 2022
+Finished:    2999 @ Tue Aug  2 12:07:57 2022
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 16 milliseconds and 63 microseconds
+Learning took 0 seconds, 32 milliseconds and 657 microseconds
 Examine datafile 'tests/dimin.test' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
@@ -182,19 +182,19 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Mon Sep  2 15:14:45 2019
-Tested:      2 @ Mon Sep  2 15:14:45 2019
-Tested:      3 @ Mon Sep  2 15:14:45 2019
-Tested:      4 @ Mon Sep  2 15:14:45 2019
-Tested:      5 @ Mon Sep  2 15:14:45 2019
-Tested:      6 @ Mon Sep  2 15:14:45 2019
-Tested:      7 @ Mon Sep  2 15:14:45 2019
-Tested:      8 @ Mon Sep  2 15:14:45 2019
-Tested:      9 @ Mon Sep  2 15:14:45 2019
-Tested:     10 @ Mon Sep  2 15:14:45 2019
-Tested:    100 @ Mon Sep  2 15:14:45 2019
-Ready:     950 @ Mon Sep  2 15:14:45 2019
-Seconds taken: 0.0287 (33126.44 p/s)
+Tested:      1 @ Tue Aug  2 12:07:57 2022
+Tested:      2 @ Tue Aug  2 12:07:57 2022
+Tested:      3 @ Tue Aug  2 12:07:57 2022
+Tested:      4 @ Tue Aug  2 12:07:57 2022
+Tested:      5 @ Tue Aug  2 12:07:57 2022
+Tested:      6 @ Tue Aug  2 12:07:57 2022
+Tested:      7 @ Tue Aug  2 12:07:57 2022
+Tested:      8 @ Tue Aug  2 12:07:57 2022
+Tested:      9 @ Tue Aug  2 12:07:57 2022
+Tested:     10 @ Tue Aug  2 12:07:57 2022
+Tested:    100 @ Tue Aug  2 12:07:57 2022
+Ready:     950 @ Tue Aug  2 12:07:57 2022
+Seconds taken: 0.0355 (26782.44 p/s)
 
 overall accuracy:        0.963158  (915/950), of which 60 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
@@ -2098,21 +2098,21 @@ There were 6 ties of which 5 (83.33%) were correctly resolved
 =,=,=,=,-,x,A,r,+,n,a,l,T,T { T 1.00000 }        0.013062472262731
 =,=,=,=,=,=,=,=,+,h,o,rn,T,T { T 1.00000 }        0.0033417907062014
 +,k,o,=,-,n,I,Ns,-,k,a,rs,J,J { J 1.00000 }        0.060891788568798
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:14:45 2019
+Tue Aug  2 12:07:57 2022
 
 Examine datafile 'tests/dimin.test' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.test
-Start:          0 @ Mon Sep  2 15:14:45 2019
-Finished:     950 @ Mon Sep  2 15:14:45 2019
-Calculating Entropy         Mon Sep  2 15:14:45 2019
+Start:          0 @ Tue Aug  2 12:07:57 2022
+Finished:     950 @ Tue Aug  2 12:07:57 2022
+Calculating Entropy         Tue Aug  2 12:07:57 2022
 Lines of data     : 950
 DB Entropy        : 1.6265086
 Number of Classes : 5
@@ -2131,19 +2131,19 @@ Feats	Vals	InfoGain	GainRatio
    11     16	0.70772752	0.19748828
    12     35	1.3033629	0.33339478
 
-Preparation took 0 seconds, 1 milliseconds and 970 microseconds
+Preparation took 0 seconds, 4 milliseconds and 423 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 1, 11, 12, 4, 7, 3, 8, 2, 10, 6 >
 Phase 2: Building multi index on Datafile: tests/dimin.test
-Start:          0 @ Mon Sep  2 15:14:45 2019
-Finished:     950 @ Mon Sep  2 15:14:45 2019
+Start:          0 @ Tue Aug  2 12:07:57 2022
+Finished:     950 @ Tue Aug  2 12:07:57 2022
 
 Phase 3: Learning from Datafile: tests/dimin.test
-Start:          0 @ Mon Sep  2 15:14:45 2019
-Finished:     950 @ Mon Sep  2 15:14:45 2019
+Start:          0 @ Tue Aug  2 12:07:57 2022
+Finished:     950 @ Tue Aug  2 12:07:57 2022
 
 Size of InstanceBase = 6505 Nodes, (260200 bytes), 47.05 % compression
-Learning took 0 seconds, 5 milliseconds and 256 microseconds
+Learning took 0 seconds, 9 milliseconds and 931 microseconds
 
 Starting to test using Leave One Out
 Writing output in:          test.out3
@@ -2169,7 +2169,7 @@ Feature 1	 : 0.041069792212341
 Feature 2	 : 0.052553975265714
 Feature 3	 : 0.039351405385975
 Feature 4	 : 0.063317611911375
-Feature 5	 : 0.044294036234036
+Feature 5	 : 0.044294036234035
 Feature 6	 : 0.041130745760028
 Feature 7	 : 0.042855574177376
 Feature 8	 : 0.065019421925944
@@ -2178,37 +2178,37 @@ Feature 10	 : 0.055714207792257
 Feature 11	 : 0.197488277776039
 Feature 12	 : 0.333394778762178
 
-Tested:      1 @ Mon Sep  2 15:14:45 2019
-Tested:      2 @ Mon Sep  2 15:14:45 2019
-Tested:      3 @ Mon Sep  2 15:14:45 2019
-Tested:      4 @ Mon Sep  2 15:14:45 2019
-Tested:      5 @ Mon Sep  2 15:14:45 2019
-Tested:      6 @ Mon Sep  2 15:14:45 2019
-Tested:      7 @ Mon Sep  2 15:14:45 2019
-Tested:      8 @ Mon Sep  2 15:14:45 2019
-Tested:      9 @ Mon Sep  2 15:14:45 2019
-Tested:     10 @ Mon Sep  2 15:14:45 2019
-Tested:    100 @ Mon Sep  2 15:14:45 2019
-Ready:     950 @ Mon Sep  2 15:14:45 2019
-Seconds taken: 0.1181 (8040.90 p/s)
+Tested:      1 @ Tue Aug  2 12:07:57 2022
+Tested:      2 @ Tue Aug  2 12:07:57 2022
+Tested:      3 @ Tue Aug  2 12:07:57 2022
+Tested:      4 @ Tue Aug  2 12:07:57 2022
+Tested:      5 @ Tue Aug  2 12:07:57 2022
+Tested:      6 @ Tue Aug  2 12:07:57 2022
+Tested:      7 @ Tue Aug  2 12:07:57 2022
+Tested:      8 @ Tue Aug  2 12:07:57 2022
+Tested:      9 @ Tue Aug  2 12:07:57 2022
+Tested:     10 @ Tue Aug  2 12:07:57 2022
+Tested:    100 @ Tue Aug  2 12:07:57 2022
+Ready:     950 @ Tue Aug  2 12:07:57 2022
+Seconds taken: 0.1266 (7501.28 p/s)
 
 overall accuracy:        0.967368  (919/950), of which 30 exact matches 
 There were 2 ties of which 2 (100.00%) were correctly resolved
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:14:45 2019
+Tue Aug  2 12:07:57 2022
 
 Examine datafile 'tests/dimin.test' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.test
-Start:          0 @ Mon Sep  2 15:14:45 2019
-Finished:     950 @ Mon Sep  2 15:14:45 2019
-Calculating Entropy         Mon Sep  2 15:14:45 2019
+Start:          0 @ Tue Aug  2 12:07:57 2022
+Finished:     950 @ Tue Aug  2 12:07:57 2022
+Calculating Entropy         Tue Aug  2 12:07:57 2022
 Lines of data     : 950
 DB Entropy        : 1.6265086
 Number of Classes : 5
@@ -2227,19 +2227,19 @@ Feats	Vals	InfoGain	GainRatio
    11     16	0.70772752	0.19748828
    12     35	1.3033629	0.33339478
 
-Preparation took 0 seconds, 2 milliseconds and 187 microseconds
+Preparation took 0 seconds, 4 milliseconds and 402 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 1, 11, 12, 4, 7, 3, 8, 2, 10, 6 >
 Phase 2: Building multi index on Datafile: tests/dimin.test
-Start:          0 @ Mon Sep  2 15:14:45 2019
-Finished:     950 @ Mon Sep  2 15:14:45 2019
+Start:          0 @ Tue Aug  2 12:07:57 2022
+Finished:     950 @ Tue Aug  2 12:07:57 2022
 
 Phase 3: Learning from Datafile: tests/dimin.test
-Start:          0 @ Mon Sep  2 15:14:45 2019
-Finished:     950 @ Mon Sep  2 15:14:45 2019
+Start:          0 @ Tue Aug  2 12:07:57 2022
+Finished:     950 @ Tue Aug  2 12:07:57 2022
 
 Size of InstanceBase = 6505 Nodes, (260200 bytes), 47.05 % compression
-Learning took 0 seconds, 6 milliseconds and 311 microseconds
+Learning took 0 seconds, 10 milliseconds and 299 microseconds
 
 Starting to test using Leave One Out
 Writing output in:          test.out4
@@ -2265,7 +2265,7 @@ Feature 1	 : 0.041069792212341
 Feature 2	 : 0.052553975265714
 Feature 3	 : 0.039351405385975
 Feature 4	 : 0.063317611911375
-Feature 5	 : 0.044294036234036
+Feature 5	 : 0.044294036234035
 Feature 6	 : 0.041130745760028
 Feature 7	 : 0.042855574177376
 Feature 8	 : 0.065019421925944
@@ -2274,19 +2274,19 @@ Feature 10	 : 0.055714207792257
 Feature 11	 : 0.197488277776039
 Feature 12	 : 0.333394778762178
 
-Tested:      1 @ Mon Sep  2 15:14:45 2019
-Tested:      2 @ Mon Sep  2 15:14:45 2019
-Tested:      3 @ Mon Sep  2 15:14:45 2019
-Tested:      4 @ Mon Sep  2 15:14:45 2019
-Tested:      5 @ Mon Sep  2 15:14:45 2019
-Tested:      6 @ Mon Sep  2 15:14:45 2019
-Tested:      7 @ Mon Sep  2 15:14:45 2019
-Tested:      8 @ Mon Sep  2 15:14:45 2019
-Tested:      9 @ Mon Sep  2 15:14:45 2019
-Tested:     10 @ Mon Sep  2 15:14:45 2019
-Tested:    100 @ Mon Sep  2 15:14:45 2019
-Ready:     950 @ Mon Sep  2 15:14:46 2019
-Seconds taken: 0.1170 (8122.99 p/s)
+Tested:      1 @ Tue Aug  2 12:07:57 2022
+Tested:      2 @ Tue Aug  2 12:07:57 2022
+Tested:      3 @ Tue Aug  2 12:07:57 2022
+Tested:      4 @ Tue Aug  2 12:07:57 2022
+Tested:      5 @ Tue Aug  2 12:07:57 2022
+Tested:      6 @ Tue Aug  2 12:07:57 2022
+Tested:      7 @ Tue Aug  2 12:07:57 2022
+Tested:      8 @ Tue Aug  2 12:07:57 2022
+Tested:      9 @ Tue Aug  2 12:07:57 2022
+Tested:     10 @ Tue Aug  2 12:07:57 2022
+Tested:    100 @ Tue Aug  2 12:07:57 2022
+Ready:     950 @ Tue Aug  2 12:07:57 2022
+Seconds taken: 0.1296 (7329.91 p/s)
 
 overall accuracy:        0.968421  (920/950), of which 18 exact matches 
 There were 3 ties of which 3 (100.00%) were correctly resolved
@@ -2313,7 +2313,7 @@ There were 3 ties of which 3 (100.00%) were correctly resolved
 -,m,e,=,-,d,A,l,+,j,O,n,E,E { E 1.00000 }        0.050337721228419
 -,sn,u,=,-,p,@,=,+,r,K,=,T,T { T 1.00000 }        0.067501352069500
 =,=,=,=,=,=,=,=,+,sp,A,N,E,E { E 1.00000 }        0.036228992157009
-+,k,a,=,-,k,@,=,-,n,E,st,J,J { J 1.00000 }        0.028019634385911
++,k,a,=,-,k,@,=,-,n,E,st,J,J { J 1.00000 }        0.028019634385912
 =,=,=,=,+,v,u,=,-,r,I,N,K,K { E 1.00000, K 2.00000 }        0.014316735024237
 =,=,=,=,=,=,=,=,+,v,A,t,J,J { J 1.00000 }        0.010683938566555
 -,r,@,=,+,G,I,s,-,t,@,r,T,T { T 1.00000 }        0.043778603412401
@@ -2419,7 +2419,7 @@ There were 3 ties of which 3 (100.00%) were correctly resolved
 =,=,=,=,+,l,O,=,-,k,@,r,T,T { T 1.00000 }        0.0070850615022498
 =,=,=,=,+,tr,O,=,-,f,@,l,T,T { T 1.00000 }        0.0084873066540540
 =,=,=,=,+,t,},rf,-,p,O,t,J,J { J 1.00000 }        0.083009754724532
-+,st,e,=,-,k,@,l,-,b,a,rs,J,J { J 1.00000 }        0.069265450149859
++,st,e,=,-,k,@,l,-,b,a,rs,J,J { J 1.00000 }        0.069265450149860
 =,=,=,=,-,sx,a,=,+,b,E,l,E,E { E 1.00000 }        0.012026150080897
 =,=,=,=,=,=,=,=,+,=,K,nt,J,J { J 1.00000 }        0.0092998523333092
 +,t,A,n,-,s,i,=,-,b,u,k,J,J { J 1.00000 }        0.050510796373305
@@ -2786,7 +2786,7 @@ There were 3 ties of which 3 (100.00%) were correctly resolved
 =,=,=,=,=,=,=,=,+,l,I,xt,J,J { J 2.00000 }        0.0091782432566577
 =,=,=,=,=,=,=,=,+,l,i,s,J,J { J 1.00000 }        0.0000000000000
 -,l,@,=,-,p,a,=,-,p,i,r,T,T { T 1.00000 }        0.040191085580597
-+,n,i,=,-,j,@,=,-,st,O,k,J,J { J 1.00000 }        0.051302525061093
++,n,i,=,-,j,@,=,-,st,O,k,J,J { J 1.00000 }        0.051302525061094
 =,=,=,=,=,=,=,=,+,S,},rt,J,J { J 1.00000 }        0.023772056197465
 =,=,=,=,+,h,E,mts,-,kn,o,p,J,J { J 1.00000 }        0.095973973110368
 -,r,i,=,-,j,e,=,+,t,e,=,T,T { T 1.00000 }        0.034711155833343
@@ -3356,7 +3356,7 @@ There were 3 ties of which 3 (100.00%) were correctly resolved
 -,st,a,=,+,k,E,t,-,s,@,l,T,T { T 1.00000 }        0.081015331484613
 =,=,=,=,=,=,=,=,+,w,K,f,J,J { J 1.00000 }        0.0000000000000
 =,=,=,=,+,j,e,=,-,G,@,r,T,T { T 1.00000 }        0.0063292455882660
--,f,i,=,-,b,e,=,-,k,@,r,T,T { T 1.00000 }        0.068331606844112
+-,f,i,=,-,b,e,=,-,k,@,r,T,T { T 1.00000 }        0.068331606844111
 =,=,=,=,=,=,=,=,+,sx,O,t,J,J { T 1.00000, J 3.00000 }        0.013110449404035
 -,h,E,r,-,d,@,=,+,r,I,n,E,E { E 1.00000 }        0.051314027513513
 =,=,=,=,+,m,},=,-,m,i,=,T,T { T 1.00000 }        0.020939834728474
@@ -3527,7 +3527,7 @@ There were 3 ties of which 3 (100.00%) were correctly resolved
 =,=,=,=,-,k,A,n,+,t,e,l,T,T { T 1.00000 }        0.017559582412215
 -,v,@,r,+,pl,e,x,-,st,@,r,T,T { T 1.00000 }        0.068082154092691
 =,=,=,=,=,=,=,=,+,kl,i,k,J,J { J 2.00000 }        0.0072183727951591
--,t,e,=,-,l,@,=,+,Gr,A,m,E,E { E 1.00000 }        0.075602043477141
+-,t,e,=,-,l,@,=,+,Gr,A,m,E,E { E 1.00000 }        0.075602043477142
 =,=,=,=,=,=,=,=,+,st,i,l,T,T { T 1.00000 }        0.0058898725697022
 =,=,=,=,+,t,E,m,-,p,@,l,T,T { T 1.00000 }        0.012358316634664
 =,=,=,=,=,=,=,=,+,st,E,rn,T,T { T 1.00000 }        0.027880953055341

@@ -1,18 +1,18 @@
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:20:03 2019
+Tue Aug  2 12:01:55 2022
 
 Examine datafile './tests/kwart.train' gave the following results:
 Number of Features: 8
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/kwart.train
-Start:          0 @ Mon Sep  2 15:20:03 2019
-Finished:   50000 @ Mon Sep  2 15:20:03 2019
-Calculating Entropy         Mon Sep  2 15:20:03 2019
+Start:          0 @ Tue Aug  2 12:01:55 2022
+Finished:   50000 @ Tue Aug  2 12:01:56 2022
+Calculating Entropy         Tue Aug  2 12:01:56 2022
 Lines of data     : 50000
 DB Entropy        : 1.1247965
 Number of Classes : 3
@@ -27,32 +27,32 @@ Feats	Vals	InfoGain	GainRatio
     7     44	0.32499390	0.074939666
     8     44	0.048351684	0.011172195
 
-Preparation took 0 seconds, 151 milliseconds and 1 microseconds
+Preparation took 0 seconds, 317 milliseconds and 936 microseconds
 Feature Permutation based on GainRatio/Values :
 < 6, 7, 5, 8, 2, 3, 1, 4 >
 Phase 2: Learning from Datafile: ./tests/kwart.train
-Start:          0 @ Mon Sep  2 15:20:03 2019
-Finished:    5000 @ Mon Sep  2 15:20:03 2019
+Start:          0 @ Tue Aug  2 12:01:56 2022
+Finished:    5000 @ Tue Aug  2 12:01:56 2022
 
 Size of InstanceBase = 29027 Nodes, (1161080 bytes), 34.87 % compression
-Learning took 0 seconds, 15 milliseconds and 419 microseconds
+Learning took 0 seconds, 33 milliseconds and 310 microseconds
 Phase 2: Appending from Datafile: ./tests/kwart.train (starting at line 5001)
-Start:       5001 @ Mon Sep  2 15:20:03 2019
-Learning:    5000 @ Mon Sep  2 15:20:03 2019	 added:107
-Learning:    5001 @ Mon Sep  2 15:20:03 2019	 added:1
-Learning:    5002 @ Mon Sep  2 15:20:03 2019	 added:0
-Learning:    5003 @ Mon Sep  2 15:20:03 2019	 added:0
-Learning:    5004 @ Mon Sep  2 15:20:03 2019	 added:0
-Learning:    5005 @ Mon Sep  2 15:20:03 2019	 added:0
-Learning:    5006 @ Mon Sep  2 15:20:03 2019	 added:0
-Learning:    5007 @ Mon Sep  2 15:20:03 2019	 added:0
-Learning:    5008 @ Mon Sep  2 15:20:03 2019	 added:0
-Learning:    5009 @ Mon Sep  2 15:20:03 2019	 added:0
-Learning:    5010 @ Mon Sep  2 15:20:03 2019	 added:0
-Learning:    5100 @ Mon Sep  2 15:20:03 2019	 added:0
-Learning:    6000 @ Mon Sep  2 15:20:04 2019	 added:13
-Learning:   15000 @ Mon Sep  2 15:20:04 2019	 added:185
-Finished:   44999 @ Mon Sep  2 15:20:07 2019
+Start:       5001 @ Tue Aug  2 12:01:56 2022
+Learning:    5000 @ Tue Aug  2 12:01:56 2022	 added:107
+Learning:    5001 @ Tue Aug  2 12:01:56 2022	 added:1
+Learning:    5002 @ Tue Aug  2 12:01:56 2022	 added:0
+Learning:    5003 @ Tue Aug  2 12:01:56 2022	 added:0
+Learning:    5004 @ Tue Aug  2 12:01:56 2022	 added:0
+Learning:    5005 @ Tue Aug  2 12:01:56 2022	 added:0
+Learning:    5006 @ Tue Aug  2 12:01:56 2022	 added:0
+Learning:    5007 @ Tue Aug  2 12:01:56 2022	 added:0
+Learning:    5008 @ Tue Aug  2 12:01:56 2022	 added:0
+Learning:    5009 @ Tue Aug  2 12:01:56 2022	 added:0
+Learning:    5010 @ Tue Aug  2 12:01:56 2022	 added:0
+Learning:    5100 @ Tue Aug  2 12:01:56 2022	 added:0
+Learning:    6000 @ Tue Aug  2 12:01:56 2022	 added:13
+Learning:   15000 @ Tue Aug  2 12:01:57 2022	 added:185
+Finished:   44999 @ Tue Aug  2 12:02:00 2022
 in total added 1123 new entries
 
 Size of InstanceBase = 35875 Nodes, (1435000 bytes), 34.36 % compression
@@ -99,21 +99,21 @@ Feature 6	 : 0.185198463671305
 Feature 7	 : 0.072315399807409
 Feature 8	 : 0.010872317130899
 
-Tested:      1 @ Mon Sep  2 15:20:07 2019
-Tested:      2 @ Mon Sep  2 15:20:07 2019
-Tested:      3 @ Mon Sep  2 15:20:07 2019
-Tested:      4 @ Mon Sep  2 15:20:07 2019
-Tested:      5 @ Mon Sep  2 15:20:07 2019
-Tested:      6 @ Mon Sep  2 15:20:07 2019
-Tested:      7 @ Mon Sep  2 15:20:07 2019
-Tested:      8 @ Mon Sep  2 15:20:07 2019
-Tested:      9 @ Mon Sep  2 15:20:07 2019
-Tested:     10 @ Mon Sep  2 15:20:07 2019
-Tested:    100 @ Mon Sep  2 15:20:07 2019
-Tested:   1000 @ Mon Sep  2 15:20:07 2019
-Tested:  10000 @ Mon Sep  2 15:20:09 2019
-Ready:   10000 @ Mon Sep  2 15:20:09 2019
-Seconds taken: 2.3592 (4238.66 p/s)
+Tested:      1 @ Tue Aug  2 12:02:00 2022
+Tested:      2 @ Tue Aug  2 12:02:00 2022
+Tested:      3 @ Tue Aug  2 12:02:00 2022
+Tested:      4 @ Tue Aug  2 12:02:00 2022
+Tested:      5 @ Tue Aug  2 12:02:00 2022
+Tested:      6 @ Tue Aug  2 12:02:00 2022
+Tested:      7 @ Tue Aug  2 12:02:00 2022
+Tested:      8 @ Tue Aug  2 12:02:00 2022
+Tested:      9 @ Tue Aug  2 12:02:00 2022
+Tested:     10 @ Tue Aug  2 12:02:00 2022
+Tested:    100 @ Tue Aug  2 12:02:00 2022
+Tested:   1000 @ Tue Aug  2 12:02:00 2022
+Tested:  10000 @ Tue Aug  2 12:02:03 2022
+Ready:   10000 @ Tue Aug  2 12:02:03 2022
+Seconds taken: 2.7465 (3641.03 p/s)
 
 overall accuracy:        0.933800  (9338/10000), of which 273 exact matches 
 There were 9 ties of which 8 (88.89%) were correctly resolved
@@ -141,12 +141,20 @@ There were 9 ties of which 8 (88.89%) were correctly resolved
 < 's,Merck,KOMMA,Mevacor,POS,NNP,KOMMA,NNP,I,I { I 1.00000 }        0.044950075666008
 ---
 > 's,Merck,KOMMA,Mevacor,POS,NNP,KOMMA,NNP,I,I { I 1.00000 }        0.044950075666007
+2129c2129
+< products,household,'s,Colgate,NNS,NN,POS,NNP,I,I { I 1.00000 }        0.0080320070928447
+---
+> products,household,'s,Colgate,NNS,NN,POS,NNP,I,I { I 1.00000 }        0.0080320070928446
 2264,2265c2264,2265
 < -RCB-,PUNT,UPUNTSPUNT,-LCB-,),PUNT,NNP,(,I,I { I 1.00000 }        0.016609666302271
 < results,-RCB-,PUNT,UPUNTSPUNT,NNS,),PUNT,NNP,I,O { O 1.00000 }        0.024058715601345
 ---
 > -RCB-,PUNT,UPUNTSPUNT,-LCB-,),PUNT,NNP,(,I,I { I 1.00000 }        0.016609666302270
 > results,-RCB-,PUNT,UPUNTSPUNT,NNS,),PUNT,NNP,I,O { O 1.00000 }        0.024058715601344
+2339c2339
+< to,seats,of,number,TO,NNS,IN,NN,I,I { I 1.00000 }        0.0086657596974114
+---
+> to,seats,of,number,TO,NNS,IN,NN,I,I { I 1.00000 }        0.0086657596974113
 2507c2507
 < he,KOMMA,least,at,PRP,KOMMA,JJS,IN,O,O { O 1.00000 }        0.025654921116168
 ---
@@ -171,6 +179,10 @@ There were 9 ties of which 8 (88.89%) were correctly resolved
 < blame,would,nobody,--,VB,MD,NN,:,O,O { O 1.00000 }        0.0053001176477766
 ---
 > blame,would,nobody,--,VB,MD,NN,:,O,O { O 1.00000 }        0.0053001176477765
+2947c2947
+< in,around,scratching,and,IN,IN,VBG,CC,O,I { I 1.00000 }        0.078622004441309
+---
+> in,around,scratching,and,IN,IN,VBG,CC,O,I { I 1.00000 }        0.078622004441308
 3052c3052
 < restructure,to,plans,Service,VB,TO,VBZ,NNP,O,O { O 1.00000 }        0.018044213468306
 ---
@@ -199,14 +211,30 @@ There were 9 ties of which 8 (88.89%) were correctly resolved
 < stomach,little,and,span,NN,JJ,CC,NN,I,I { I 1.00000 }        0.081088492125779
 ---
 > stomach,little,and,span,NN,JJ,CC,NN,I,I { I 1.00000 }        0.081088492125778
+5280c5280
+< American,Some,'','',JJ,DT,'','',I,I { I 4.00000 }        0.015159887269019
+---
+> American,Some,'','',JJ,DT,'','',I,I { I 4.00000 }        0.015159887269018
 5319c5319
 < support,critical,the,Torrijos,NN,JJ,DT,NNP,I,I { I 1.00000 }        0.029549516766459
 ---
 > support,critical,the,Torrijos,NN,JJ,DT,NNP,I,I { I 1.00000 }        0.029549516766458
+5639c5639
+< discovered,services,intelligence,UPUNTSPUNT,VBN,NNS,NN,NNP,I,I { I 1.00000 }        0.026527436881794
+---
+> discovered,services,intelligence,UPUNTSPUNT,VBN,NNS,NN,NNP,I,I { I 1.00000 }        0.026527436881793
+5645c5645
+< recordings,buying,been,had,NNS,VBG,VBN,VBD,O,O { O 1.00000 }        0.081628425396789
+---
+> recordings,buying,been,had,NNS,VBG,VBN,VBD,O,O { O 1.00000 }        0.081628425396788
 5938c5938
 < as,charges,gun-running,the,RB,NNS,JJ,DT,I,I { I 1.00000 }        0.084494302221857
 ---
 > as,charges,gun-running,the,RB,NNS,JJ,DT,I,I { I 1.00000 }        0.084494302221856
+5990c5990
+< a,received,officials,UPUNTSPUNT,DT,VBD,NNS,NNP,O,O { O 1.00000 }        0.0082059615720669
+---
+> a,received,officials,UPUNTSPUNT,DT,VBD,NNS,NNP,O,O { O 1.00000 }        0.0082059615720668
 6197c6197
 < MrPUNT,from,prodding,After,NNP,IN,VBG,IN,O,O { O 1.00000 }        0.075979758257702
 ---
@@ -219,10 +247,18 @@ There were 9 ties of which 8 (88.89%) were correctly resolved
 < serious,KOMMA,quiet,``,JJ,KOMMA,JJ,``,I,I { I 1.00000 }        0.0072184430604744
 ---
 > serious,KOMMA,quiet,``,JJ,KOMMA,JJ,``,I,I { I 1.00000 }        0.0072184430604743
+6932c6932
+< ousted,then,He,PUNT,VBD,RB,PRP,PUNT,O,O { O 1.00000 }        0.033797937427613
+---
+> ousted,then,He,PUNT,VBD,RB,PRP,PUNT,O,O { O 1.00000 }        0.033797937427612
 7044c7044
 < -RCB-,PUNT,UPUNTSPUNT,-LCB-,),PUNT,NNP,(,I,I { I 1.00000 }        0.016609666302271
 ---
 > -RCB-,PUNT,UPUNTSPUNT,-LCB-,),PUNT,NNP,(,I,I { I 1.00000 }        0.016609666302270
+7298c7298
+< During,PUNT,PUNT,1988,IN,PUNT,PUNT,CD,O,O { O 1.00000 }        0.0013285310287861
+---
+> During,PUNT,PUNT,1988,IN,PUNT,PUNT,CD,O,O { O 1.00000 }        0.0013285310287860
 7327c7327
 < Americans,the,how,plaintively,NNPS,DT,WRB,RB,I,I { I 1.00000 }        0.047326833935289
 ---
@@ -247,6 +283,10 @@ There were 9 ties of which 8 (88.89%) were correctly resolved
 < PROCENT,8PUNT9,--,steep,NN,CD,:,JJ,I,I { I 1.00000 }        0.038417649278913
 ---
 > PROCENT,8PUNT9,--,steep,NN,CD,:,JJ,I,I { I 1.00000 }        0.038417649278912
+8438c8438
+< continued,a,on,depends,VBN,DT,IN,VBZ,I,I { I 1.00000 }        0.029723041541185
+---
+> continued,a,on,depends,VBN,DT,IN,VBZ,I,I { I 1.00000 }        0.029723041541184
 8542c8542
 < of,promotion,for,year,IN,NN,IN,NN,I,I { I 1.00000 }        0.0061322803588881
 ---

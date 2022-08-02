@@ -40,9 +40,9 @@ Number of Features: 12
 InputFormat       : C4.5
 
 -test1-Phase 1: Reading Datafile: dimin.train
--test1-Start:          0 @ Tue May 19 14:34:54 2020
--test1-Finished:    2999 @ Tue May 19 14:34:54 2020
--test1-Calculating Entropy         Tue May 19 14:34:54 2020
+-test1-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test1-Finished:    2999 @ Tue Aug  2 12:02:19 2022
+-test1-Calculating Entropy         Tue Aug  2 12:02:19 2022
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -61,19 +61,19 @@ Feats	Vals	X-square	Variance	InfoGain	GainRatio
    11     18	2807.0418	0.23399815	0.66970458	0.18507018
    12     43	7160.3682	0.59689631	1.2780762	0.32537181
 
--test1-Preparation took 0 seconds, 5 milliseconds and 637 microseconds
+-test1-Preparation took 0 seconds, 13 milliseconds and 945 microseconds
 Feature Permutation based on Chi-Squared :
 < 12, 11, 10, 7, 4, 6, 8, 2, 5, 3, 9, 1 >
 -test1-Phase 2: Building multi index on Datafile: dimin.train
--test1-Start:          0 @ Tue May 19 14:34:54 2020
--test1-Finished:    2999 @ Tue May 19 14:34:54 2020
+-test1-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test1-Finished:    2999 @ Tue Aug  2 12:02:19 2022
 -test1-
 Phase 3: Learning from Datafile: dimin.train
--test1-Start:          0 @ Tue May 19 14:34:54 2020
--test1-Finished:    2999 @ Tue May 19 14:34:54 2020
+-test1-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test1-Finished:    2999 @ Tue Aug  2 12:02:19 2022
 
 Size of InstanceBase = 148 Nodes, (5920 bytes), 99.61 % compression
--test1-Learning took 0 seconds, 19 milliseconds and 764 microseconds
+-test1-Learning took 0 seconds, 35 milliseconds and 203 microseconds
 Examine datafile 'dimin.test' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
@@ -96,19 +96,19 @@ Feature 10	 : 914.619058199288816
 Feature 11	 : 2807.041753278295346
 Feature 12	 : 7160.368151902808677
 
--test1-Tested:      1 @ Tue May 19 14:34:54 2020
--test1-Tested:      2 @ Tue May 19 14:34:54 2020
--test1-Tested:      3 @ Tue May 19 14:34:54 2020
--test1-Tested:      4 @ Tue May 19 14:34:54 2020
--test1-Tested:      5 @ Tue May 19 14:34:54 2020
--test1-Tested:      6 @ Tue May 19 14:34:54 2020
--test1-Tested:      7 @ Tue May 19 14:34:54 2020
--test1-Tested:      8 @ Tue May 19 14:34:54 2020
--test1-Tested:      9 @ Tue May 19 14:34:54 2020
--test1-Tested:     10 @ Tue May 19 14:34:54 2020
--test1-Tested:    100 @ Tue May 19 14:34:54 2020
--test1-Ready:     950 @ Tue May 19 14:34:54 2020
-Seconds taken: 0.0036 (261276.13 p/s)
+-test1-Tested:      1 @ Tue Aug  2 12:02:19 2022
+-test1-Tested:      2 @ Tue Aug  2 12:02:19 2022
+-test1-Tested:      3 @ Tue Aug  2 12:02:19 2022
+-test1-Tested:      4 @ Tue Aug  2 12:02:19 2022
+-test1-Tested:      5 @ Tue Aug  2 12:02:19 2022
+-test1-Tested:      6 @ Tue Aug  2 12:02:19 2022
+-test1-Tested:      7 @ Tue Aug  2 12:02:19 2022
+-test1-Tested:      8 @ Tue Aug  2 12:02:19 2022
+-test1-Tested:      9 @ Tue Aug  2 12:02:19 2022
+-test1-Tested:     10 @ Tue Aug  2 12:02:19 2022
+-test1-Tested:    100 @ Tue Aug  2 12:02:19 2022
+-test1-Ready:     950 @ Tue Aug  2 12:02:19 2022
+Seconds taken: 0.0081 (117487.01 p/s)
 
 overall accuracy:        0.962105  (914/950)
 Examine datafile 'dimin.test' gave the following results:
@@ -1108,9 +1108,9 @@ Number of Features: 12
 InputFormat       : C4.5
 
 -test2-Phase 1: Reading Datafile: dimin.train
--test2-Start:          0 @ Tue May 19 14:34:55 2020
--test2-Finished:    2999 @ Tue May 19 14:34:55 2020
--test2-Calculating Entropy         Tue May 19 14:34:55 2020
+-test2-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test2-Finished:    2999 @ Tue Aug  2 12:02:19 2022
+-test2-Calculating Entropy         Tue Aug  2 12:02:19 2022
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -1129,31 +1129,31 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--test2-Preparation took 0 seconds, 5 milliseconds and 319 microseconds
+-test2-Preparation took 0 seconds, 13 milliseconds and 256 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -test2-Phase 2: Learning from Datafile: dimin.train
--test2-Start:          0 @ Tue May 19 14:34:55 2020
--test2-Finished:     100 @ Tue May 19 14:34:55 2020
+-test2-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test2-Finished:     100 @ Tue Aug  2 12:02:19 2022
 
 Size of InstanceBase = 954 Nodes, (38160 bytes), 26.62 % compression
--test2-Learning took 0 seconds, 0 milliseconds and 256 microseconds
+-test2-Learning took 0 seconds, 0 milliseconds and 607 microseconds
 -test2-Phase 2: Appending from Datafile: dimin.train (starting at line 101)
--test2-Start:        101 @ Tue May 19 14:34:55 2020
--test2-Learning:     100 @ Tue May 19 14:34:55 2020	 added:9
--test2-Learning:     101 @ Tue May 19 14:34:55 2020	 added:0
--test2-Learning:     102 @ Tue May 19 14:34:55 2020	 added:0
--test2-Learning:     103 @ Tue May 19 14:34:55 2020	 added:0
--test2-Learning:     104 @ Tue May 19 14:34:55 2020	 added:0
--test2-Learning:     105 @ Tue May 19 14:34:55 2020	 added:0
--test2-Learning:     106 @ Tue May 19 14:34:55 2020	 added:0
--test2-Learning:     107 @ Tue May 19 14:34:55 2020	 added:0
--test2-Learning:     108 @ Tue May 19 14:34:55 2020	 added:0
--test2-Learning:     109 @ Tue May 19 14:34:55 2020	 added:0
--test2-Learning:     110 @ Tue May 19 14:34:55 2020	 added:0
--test2-Learning:     200 @ Tue May 19 14:34:55 2020	 added:5
--test2-Learning:    1100 @ Tue May 19 14:34:55 2020	 added:65
--test2-Finished:    2898 @ Tue May 19 14:34:55 2020
+-test2-Start:        101 @ Tue Aug  2 12:02:19 2022
+-test2-Learning:     100 @ Tue Aug  2 12:02:19 2022	 added:9
+-test2-Learning:     101 @ Tue Aug  2 12:02:19 2022	 added:0
+-test2-Learning:     102 @ Tue Aug  2 12:02:19 2022	 added:0
+-test2-Learning:     103 @ Tue Aug  2 12:02:19 2022	 added:0
+-test2-Learning:     104 @ Tue Aug  2 12:02:19 2022	 added:0
+-test2-Learning:     105 @ Tue Aug  2 12:02:19 2022	 added:0
+-test2-Learning:     106 @ Tue Aug  2 12:02:19 2022	 added:0
+-test2-Learning:     107 @ Tue Aug  2 12:02:19 2022	 added:0
+-test2-Learning:     108 @ Tue Aug  2 12:02:19 2022	 added:0
+-test2-Learning:     109 @ Tue Aug  2 12:02:19 2022	 added:0
+-test2-Learning:     110 @ Tue Aug  2 12:02:19 2022	 added:0
+-test2-Learning:     200 @ Tue Aug  2 12:02:19 2022	 added:5
+-test2-Learning:    1100 @ Tue Aug  2 12:02:19 2022	 added:65
+-test2-Finished:    2898 @ Tue Aug  2 12:02:19 2022
 in total added 173 new entries
 
 Size of InstanceBase = 2232 Nodes, (89280 bytes), 32.40 % compression
@@ -1198,19 +1198,19 @@ Feature 10	 : 0.044544230779268
 Feature 11	 : 0.185449683494634
 Feature 12	 : 0.324719540921155
 
--test2-Tested:      1 @ Tue May 19 14:34:55 2020
--test2-Tested:      2 @ Tue May 19 14:34:55 2020
--test2-Tested:      3 @ Tue May 19 14:34:55 2020
--test2-Tested:      4 @ Tue May 19 14:34:55 2020
--test2-Tested:      5 @ Tue May 19 14:34:55 2020
--test2-Tested:      6 @ Tue May 19 14:34:55 2020
--test2-Tested:      7 @ Tue May 19 14:34:55 2020
--test2-Tested:      8 @ Tue May 19 14:34:55 2020
--test2-Tested:      9 @ Tue May 19 14:34:55 2020
--test2-Tested:     10 @ Tue May 19 14:34:55 2020
--test2-Tested:    100 @ Tue May 19 14:34:55 2020
--test2-Ready:     950 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0200 (47540.41 p/s)
+-test2-Tested:      1 @ Tue Aug  2 12:02:19 2022
+-test2-Tested:      2 @ Tue Aug  2 12:02:19 2022
+-test2-Tested:      3 @ Tue Aug  2 12:02:19 2022
+-test2-Tested:      4 @ Tue Aug  2 12:02:19 2022
+-test2-Tested:      5 @ Tue Aug  2 12:02:19 2022
+-test2-Tested:      6 @ Tue Aug  2 12:02:19 2022
+-test2-Tested:      7 @ Tue Aug  2 12:02:19 2022
+-test2-Tested:      8 @ Tue Aug  2 12:02:19 2022
+-test2-Tested:      9 @ Tue Aug  2 12:02:19 2022
+-test2-Tested:     10 @ Tue Aug  2 12:02:19 2022
+-test2-Tested:    100 @ Tue Aug  2 12:02:19 2022
+-test2-Ready:     950 @ Tue Aug  2 12:02:19 2022
+Seconds taken: 0.0264 (35961.69 p/s)
 
 overall accuracy:        0.940000  (893/950), of which 15 exact matches 
 There were 43 ties of which 31 (72.09%) were correctly resolved
@@ -2182,18 +2182,18 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 
-Tested:      1 @ Tue May 19 14:34:55 2020
-Tested:      2 @ Tue May 19 14:34:55 2020
-Tested:      3 @ Tue May 19 14:34:55 2020
-Tested:      4 @ Tue May 19 14:34:55 2020
-Tested:      5 @ Tue May 19 14:34:55 2020
-Tested:      6 @ Tue May 19 14:34:55 2020
-Tested:      7 @ Tue May 19 14:34:55 2020
-Tested:      8 @ Tue May 19 14:34:55 2020
-Tested:      9 @ Tue May 19 14:34:55 2020
-Tested:     10 @ Tue May 19 14:34:55 2020
-Ready:      10 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0002 (56179.78 p/s)
+Tested:      1 @ Tue Aug  2 12:02:19 2022
+Tested:      2 @ Tue Aug  2 12:02:19 2022
+Tested:      3 @ Tue Aug  2 12:02:19 2022
+Tested:      4 @ Tue Aug  2 12:02:19 2022
+Tested:      5 @ Tue Aug  2 12:02:19 2022
+Tested:      6 @ Tue Aug  2 12:02:19 2022
+Tested:      7 @ Tue Aug  2 12:02:19 2022
+Tested:      8 @ Tue Aug  2 12:02:19 2022
+Tested:      9 @ Tue Aug  2 12:02:19 2022
+Tested:     10 @ Tue Aug  2 12:02:19 2022
+Ready:      10 @ Tue Aug  2 12:02:19 2022
+Seconds taken: 0.0003 (39682.54 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile 'small_2.train' gave the following results:
@@ -2208,18 +2208,18 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 
-Tested:      1 @ Tue May 19 14:34:55 2020
-Tested:      2 @ Tue May 19 14:34:55 2020
-Tested:      3 @ Tue May 19 14:34:55 2020
-Tested:      4 @ Tue May 19 14:34:55 2020
-Tested:      5 @ Tue May 19 14:34:55 2020
-Tested:      6 @ Tue May 19 14:34:55 2020
-Tested:      7 @ Tue May 19 14:34:55 2020
-Tested:      8 @ Tue May 19 14:34:55 2020
-Tested:      9 @ Tue May 19 14:34:55 2020
-Tested:     10 @ Tue May 19 14:34:55 2020
-Ready:      10 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0002 (64102.56 p/s)
+Tested:      1 @ Tue Aug  2 12:02:19 2022
+Tested:      2 @ Tue Aug  2 12:02:19 2022
+Tested:      3 @ Tue Aug  2 12:02:19 2022
+Tested:      4 @ Tue Aug  2 12:02:19 2022
+Tested:      5 @ Tue Aug  2 12:02:19 2022
+Tested:      6 @ Tue Aug  2 12:02:19 2022
+Tested:      7 @ Tue Aug  2 12:02:19 2022
+Tested:      8 @ Tue Aug  2 12:02:19 2022
+Tested:      9 @ Tue Aug  2 12:02:19 2022
+Tested:     10 @ Tue Aug  2 12:02:19 2022
+Ready:      10 @ Tue Aug  2 12:02:19 2022
+Seconds taken: 0.0002 (47169.81 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile 'small_3.train' gave the following results:
@@ -2234,18 +2234,18 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 
-Tested:      1 @ Tue May 19 14:34:55 2020
-Tested:      2 @ Tue May 19 14:34:55 2020
-Tested:      3 @ Tue May 19 14:34:55 2020
-Tested:      4 @ Tue May 19 14:34:55 2020
-Tested:      5 @ Tue May 19 14:34:55 2020
-Tested:      6 @ Tue May 19 14:34:55 2020
-Tested:      7 @ Tue May 19 14:34:55 2020
-Tested:      8 @ Tue May 19 14:34:55 2020
-Tested:      9 @ Tue May 19 14:34:55 2020
-Tested:     10 @ Tue May 19 14:34:55 2020
-Ready:      10 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0001 (68965.52 p/s)
+Tested:      1 @ Tue Aug  2 12:02:19 2022
+Tested:      2 @ Tue Aug  2 12:02:19 2022
+Tested:      3 @ Tue Aug  2 12:02:19 2022
+Tested:      4 @ Tue Aug  2 12:02:19 2022
+Tested:      5 @ Tue Aug  2 12:02:19 2022
+Tested:      6 @ Tue Aug  2 12:02:19 2022
+Tested:      7 @ Tue Aug  2 12:02:19 2022
+Tested:      8 @ Tue Aug  2 12:02:19 2022
+Tested:      9 @ Tue Aug  2 12:02:19 2022
+Tested:     10 @ Tue Aug  2 12:02:19 2022
+Ready:      10 @ Tue Aug  2 12:02:19 2022
+Seconds taken: 0.0002 (50000.00 p/s)
 
 overall accuracy:        0.900000  (9/10)
 Examine datafile 'small_4.train' gave the following results:
@@ -2260,18 +2260,18 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 
-Tested:      1 @ Tue May 19 14:34:55 2020
-Tested:      2 @ Tue May 19 14:34:55 2020
-Tested:      3 @ Tue May 19 14:34:55 2020
-Tested:      4 @ Tue May 19 14:34:55 2020
-Tested:      5 @ Tue May 19 14:34:55 2020
-Tested:      6 @ Tue May 19 14:34:55 2020
-Tested:      7 @ Tue May 19 14:34:55 2020
-Tested:      8 @ Tue May 19 14:34:55 2020
-Tested:      9 @ Tue May 19 14:34:55 2020
-Tested:     10 @ Tue May 19 14:34:55 2020
-Ready:      10 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0002 (66225.17 p/s)
+Tested:      1 @ Tue Aug  2 12:02:19 2022
+Tested:      2 @ Tue Aug  2 12:02:19 2022
+Tested:      3 @ Tue Aug  2 12:02:19 2022
+Tested:      4 @ Tue Aug  2 12:02:19 2022
+Tested:      5 @ Tue Aug  2 12:02:19 2022
+Tested:      6 @ Tue Aug  2 12:02:19 2022
+Tested:      7 @ Tue Aug  2 12:02:19 2022
+Tested:      8 @ Tue Aug  2 12:02:19 2022
+Tested:      9 @ Tue Aug  2 12:02:19 2022
+Tested:     10 @ Tue Aug  2 12:02:19 2022
+Ready:      10 @ Tue Aug  2 12:02:19 2022
+Seconds taken: 0.0002 (42553.19 p/s)
 
 overall accuracy:        0.800000  (8/10)
 Examine datafile 'small_5.train' gave the following results:
@@ -2286,16 +2286,16 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 
-Tested:      1 @ Tue May 19 14:34:55 2020
-Tested:      2 @ Tue May 19 14:34:55 2020
-Tested:      3 @ Tue May 19 14:34:55 2020
-Tested:      4 @ Tue May 19 14:34:55 2020
-Tested:      5 @ Tue May 19 14:34:55 2020
-Tested:      6 @ Tue May 19 14:34:55 2020
-Tested:      7 @ Tue May 19 14:34:55 2020
-Tested:      8 @ Tue May 19 14:34:55 2020
-Ready:       8 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0002 (50000.00 p/s)
+Tested:      1 @ Tue Aug  2 12:02:19 2022
+Tested:      2 @ Tue Aug  2 12:02:19 2022
+Tested:      3 @ Tue Aug  2 12:02:19 2022
+Tested:      4 @ Tue Aug  2 12:02:19 2022
+Tested:      5 @ Tue Aug  2 12:02:19 2022
+Tested:      6 @ Tue Aug  2 12:02:19 2022
+Tested:      7 @ Tue Aug  2 12:02:19 2022
+Tested:      8 @ Tue Aug  2 12:02:19 2022
+Ready:       8 @ Tue Aug  2 12:02:19 2022
+Seconds taken: 0.0002 (44444.44 p/s)
 
 overall accuracy:        1.000000  (8/8)
 Current Experiment Settings :
@@ -2340,22 +2340,22 @@ Number of Features: 12
 InputFormat       : C4.5
 
 -test4-Phase 1: Reading Datafile: dimin.train
--test4-Start:          0 @ Tue May 19 14:34:55 2020
--test4-Finished:    2999 @ Tue May 19 14:34:55 2020
--test4-Calculating Entropy         Tue May 19 14:34:55 2020
--test4-Preparation took 0 seconds, 5 milliseconds and 205 microseconds
+-test4-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test4-Finished:    2999 @ Tue Aug  2 12:02:19 2022
+-test4-Calculating Entropy         Tue Aug  2 12:02:19 2022
+-test4-Preparation took 0 seconds, 13 milliseconds and 636 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -test4-Phase 2: Building multi index on Datafile: dimin.train
--test4-Start:          0 @ Tue May 19 14:34:55 2020
--test4-Finished:    2999 @ Tue May 19 14:34:55 2020
+-test4-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test4-Finished:    2999 @ Tue Aug  2 12:02:19 2022
 -test4-
 Phase 3: Learning from Datafile: dimin.train
--test4-Start:          0 @ Tue May 19 14:34:55 2020
--test4-Finished:    2999 @ Tue May 19 14:34:55 2020
+-test4-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test4-Finished:    2999 @ Tue Aug  2 12:02:19 2022
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--test4-Learning took 0 seconds, 15 milliseconds and 822 microseconds
+-test4-Learning took 0 seconds, 33 milliseconds and 47 microseconds
 Examine datafile 'dimin.test' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
@@ -2382,19 +2382,19 @@ Total Size of value-matrices 12736 Bytes
 
 Weighting     : GainRatio
 
--test4-Tested:      1 @ Tue May 19 14:34:55 2020
--test4-Tested:      2 @ Tue May 19 14:34:55 2020
--test4-Tested:      3 @ Tue May 19 14:34:55 2020
--test4-Tested:      4 @ Tue May 19 14:34:55 2020
--test4-Tested:      5 @ Tue May 19 14:34:55 2020
--test4-Tested:      6 @ Tue May 19 14:34:55 2020
--test4-Tested:      7 @ Tue May 19 14:34:55 2020
--test4-Tested:      8 @ Tue May 19 14:34:55 2020
--test4-Tested:      9 @ Tue May 19 14:34:55 2020
--test4-Tested:     10 @ Tue May 19 14:34:55 2020
--test4-Tested:    100 @ Tue May 19 14:34:55 2020
--test4-Ready:     950 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0266 (35652.63 p/s)
+-test4-Tested:      1 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      2 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      3 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      4 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      5 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      6 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      7 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      8 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      9 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:     10 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:    100 @ Tue Aug  2 12:02:19 2022
+-test4-Ready:     950 @ Tue Aug  2 12:02:19 2022
+Seconds taken: 0.0340 (27940.35 p/s)
 
 overall accuracy:        0.963158  (915/950), of which 62 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
@@ -2426,19 +2426,19 @@ Total Size of value-matrices 12736 Bytes
 
 Weighting     : GainRatio
 
--test4-Tested:      1 @ Tue May 19 14:34:55 2020
--test4-Tested:      2 @ Tue May 19 14:34:55 2020
--test4-Tested:      3 @ Tue May 19 14:34:55 2020
--test4-Tested:      4 @ Tue May 19 14:34:55 2020
--test4-Tested:      5 @ Tue May 19 14:34:55 2020
--test4-Tested:      6 @ Tue May 19 14:34:55 2020
--test4-Tested:      7 @ Tue May 19 14:34:55 2020
--test4-Tested:      8 @ Tue May 19 14:34:55 2020
--test4-Tested:      9 @ Tue May 19 14:34:55 2020
--test4-Tested:     10 @ Tue May 19 14:34:55 2020
--test4-Tested:    100 @ Tue May 19 14:34:55 2020
--test4-Ready:     950 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0269 (35314.67 p/s)
+-test4-Tested:      1 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      2 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      3 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      4 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      5 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      6 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      7 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      8 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      9 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:     10 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:    100 @ Tue Aug  2 12:02:19 2022
+-test4-Ready:     950 @ Tue Aug  2 12:02:19 2022
+Seconds taken: 0.0352 (26984.80 p/s)
 
 overall accuracy:        0.963158  (915/950), of which 62 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
@@ -2470,19 +2470,19 @@ Total Size of value-matrices 12736 Bytes
 
 Weighting     : GainRatio
 
--test4-Tested:      1 @ Tue May 19 14:34:55 2020
--test4-Tested:      2 @ Tue May 19 14:34:55 2020
--test4-Tested:      3 @ Tue May 19 14:34:55 2020
--test4-Tested:      4 @ Tue May 19 14:34:55 2020
--test4-Tested:      5 @ Tue May 19 14:34:55 2020
--test4-Tested:      6 @ Tue May 19 14:34:55 2020
--test4-Tested:      7 @ Tue May 19 14:34:55 2020
--test4-Tested:      8 @ Tue May 19 14:34:55 2020
--test4-Tested:      9 @ Tue May 19 14:34:55 2020
--test4-Tested:     10 @ Tue May 19 14:34:55 2020
--test4-Tested:    100 @ Tue May 19 14:34:55 2020
--test4-Ready:     950 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0273 (34836.82 p/s)
+-test4-Tested:      1 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      2 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      3 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      4 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      5 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      6 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      7 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      8 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      9 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:     10 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:    100 @ Tue Aug  2 12:02:19 2022
+-test4-Ready:     950 @ Tue Aug  2 12:02:19 2022
+Seconds taken: 0.0357 (26618.10 p/s)
 
 overall accuracy:        0.963158  (915/950), of which 62 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
@@ -2514,19 +2514,19 @@ Total Size of value-matrices 12736 Bytes
 
 Weighting     : GainRatio
 
--test4-Tested:      1 @ Tue May 19 14:34:55 2020
--test4-Tested:      2 @ Tue May 19 14:34:55 2020
--test4-Tested:      3 @ Tue May 19 14:34:55 2020
--test4-Tested:      4 @ Tue May 19 14:34:55 2020
--test4-Tested:      5 @ Tue May 19 14:34:55 2020
--test4-Tested:      6 @ Tue May 19 14:34:55 2020
--test4-Tested:      7 @ Tue May 19 14:34:55 2020
--test4-Tested:      8 @ Tue May 19 14:34:55 2020
--test4-Tested:      9 @ Tue May 19 14:34:55 2020
--test4-Tested:     10 @ Tue May 19 14:34:55 2020
--test4-Tested:    100 @ Tue May 19 14:34:55 2020
--test4-Ready:     950 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0274 (34665.21 p/s)
+-test4-Tested:      1 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      2 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      3 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      4 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      5 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      6 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      7 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      8 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      9 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:     10 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:    100 @ Tue Aug  2 12:02:19 2022
+-test4-Ready:     950 @ Tue Aug  2 12:02:19 2022
+Seconds taken: 0.0387 (24537.66 p/s)
 
 overall accuracy:        0.963158  (915/950), of which 62 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
@@ -2558,19 +2558,19 @@ Total Size of value-matrices 12736 Bytes
 
 Weighting     : GainRatio
 
--test4-Tested:      1 @ Tue May 19 14:34:55 2020
--test4-Tested:      2 @ Tue May 19 14:34:55 2020
--test4-Tested:      3 @ Tue May 19 14:34:55 2020
--test4-Tested:      4 @ Tue May 19 14:34:55 2020
--test4-Tested:      5 @ Tue May 19 14:34:55 2020
--test4-Tested:      6 @ Tue May 19 14:34:55 2020
--test4-Tested:      7 @ Tue May 19 14:34:55 2020
--test4-Tested:      8 @ Tue May 19 14:34:55 2020
--test4-Tested:      9 @ Tue May 19 14:34:55 2020
--test4-Tested:     10 @ Tue May 19 14:34:55 2020
--test4-Tested:    100 @ Tue May 19 14:34:55 2020
--test4-Ready:     950 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0293 (32369.08 p/s)
+-test4-Tested:      1 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      2 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      3 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      4 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      5 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      6 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      7 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      8 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:      9 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:     10 @ Tue Aug  2 12:02:19 2022
+-test4-Tested:    100 @ Tue Aug  2 12:02:19 2022
+-test4-Ready:     950 @ Tue Aug  2 12:02:19 2022
+Seconds taken: 0.0392 (24259.45 p/s)
 
 overall accuracy:        0.963158  (915/950), of which 62 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
@@ -3531,22 +3531,22 @@ Number of Features: 12
 InputFormat       : C4.5
 
 -test5-Phase 1: Reading Datafile: dimin.train
--test5-Start:          0 @ Tue May 19 14:34:55 2020
--test5-Finished:    2999 @ Tue May 19 14:34:55 2020
--test5-Calculating Entropy         Tue May 19 14:34:55 2020
--test5-Preparation took 0 seconds, 5 milliseconds and 266 microseconds
+-test5-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test5-Finished:    2999 @ Tue Aug  2 12:02:19 2022
+-test5-Calculating Entropy         Tue Aug  2 12:02:19 2022
+-test5-Preparation took 0 seconds, 13 milliseconds and 636 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -test5-Phase 2: Building multi index on Datafile: dimin.train
--test5-Start:          0 @ Tue May 19 14:34:55 2020
--test5-Finished:    2999 @ Tue May 19 14:34:55 2020
+-test5-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test5-Finished:    2999 @ Tue Aug  2 12:02:19 2022
 -test5-
 Phase 3: Learning from Datafile: dimin.train
--test5-Start:          0 @ Tue May 19 14:34:55 2020
--test5-Finished:    2999 @ Tue May 19 14:34:55 2020
+-test5-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test5-Finished:    2999 @ Tue Aug  2 12:02:19 2022
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--test5-Learning took 0 seconds, 17 milliseconds and 705 microseconds
+-test5-Learning took 0 seconds, 33 milliseconds and 431 microseconds
 Classify OK on =,=,=,=,+,k,e,=,-,r,@,l,T
 # k=1	{ T 1.00000 }	0.00000000000000
 # k=2	{ T 1.00000 }	0.00318629024734
@@ -3605,22 +3605,22 @@ Number of Features: 12
 InputFormat       : C4.5
 
 -test6-Phase 1: Reading Datafile: dimin.train
--test6-Start:          0 @ Tue May 19 14:34:55 2020
--test6-Finished:    2999 @ Tue May 19 14:34:55 2020
--test6-Calculating Entropy         Tue May 19 14:34:55 2020
--test6-Preparation took 0 seconds, 5 milliseconds and 261 microseconds
+-test6-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test6-Finished:    2999 @ Tue Aug  2 12:02:19 2022
+-test6-Calculating Entropy         Tue Aug  2 12:02:19 2022
+-test6-Preparation took 0 seconds, 16 milliseconds and 605 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -test6-Phase 2: Building multi index on Datafile: dimin.train
--test6-Start:          0 @ Tue May 19 14:34:55 2020
--test6-Finished:    2999 @ Tue May 19 14:34:55 2020
+-test6-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test6-Finished:    2999 @ Tue Aug  2 12:02:19 2022
 -test6-
 Phase 3: Learning from Datafile: dimin.train
--test6-Start:          0 @ Tue May 19 14:34:55 2020
--test6-Finished:    2999 @ Tue May 19 14:34:55 2020
+-test6-Start:          0 @ Tue Aug  2 12:02:19 2022
+-test6-Finished:    2999 @ Tue Aug  2 12:02:19 2022
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--test6-Learning took 0 seconds, 16 milliseconds and 756 microseconds
+-test6-Learning took 0 seconds, 38 milliseconds and 158 microseconds
 resulting target: K
 resulting Distribution: { E 0.125000, K 0.875000 }
 E 0.125000 OR E 0.125000
@@ -7637,9 +7637,9 @@ HANDLE_OCCURRENCES   : 0
 CLIP_FACTOR          : 10
 
 -exp1-Phase 1: Reading Datafile: ./dimin.train
--exp1-Start:          0 @ Tue May 19 14:34:55 2020
--exp1-Finished:    2999 @ Tue May 19 14:34:55 2020
--exp1-Calculating Entropy         Tue May 19 14:34:55 2020
+-exp1-Start:          0 @ Tue Aug  2 12:02:20 2022
+-exp1-Finished:    2999 @ Tue Aug  2 12:02:20 2022
+-exp1-Calculating Entropy         Tue Aug  2 12:02:20 2022
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -7658,19 +7658,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--exp1-Preparation took 0 seconds, 5 milliseconds and 361 microseconds
+-exp1-Preparation took 0 seconds, 16 milliseconds and 911 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -exp1-Phase 2: Building multi index on Datafile: ./dimin.train
--exp1-Start:          0 @ Tue May 19 14:34:55 2020
--exp1-Finished:    2999 @ Tue May 19 14:34:55 2020
+-exp1-Start:          0 @ Tue Aug  2 12:02:20 2022
+-exp1-Finished:    2999 @ Tue Aug  2 12:02:20 2022
 -exp1-
 Phase 3: Learning from Datafile: ./dimin.train
--exp1-Start:          0 @ Tue May 19 14:34:55 2020
--exp1-Finished:    2999 @ Tue May 19 14:34:55 2020
+-exp1-Start:          0 @ Tue Aug  2 12:02:20 2022
+-exp1-Finished:    2999 @ Tue Aug  2 12:02:20 2022
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--exp1-Learning took 0 seconds, 16 milliseconds and 224 microseconds
+-exp1-Learning took 0 seconds, 38 milliseconds and 416 microseconds
 TSE script, executing line: 46
 === exp1.save tree.tmp
 -exp1-Writing Instance-Base in: tree.tmp
@@ -7776,21 +7776,21 @@ Feature 8	 : 0.097198760323500
 Feature 9	 : 0.045752381467022
 Feature 10	 : 0.213887591411729
 Feature 11	 : 0.669704582861074
-Feature 12	 : 1.278076245847893
+Feature 12	 : 1.278076245847894
 
--exp1-Tested:      1 @ Tue May 19 14:34:55 2020
--exp1-Tested:      2 @ Tue May 19 14:34:55 2020
--exp1-Tested:      3 @ Tue May 19 14:34:55 2020
--exp1-Tested:      4 @ Tue May 19 14:34:55 2020
--exp1-Tested:      5 @ Tue May 19 14:34:55 2020
--exp1-Tested:      6 @ Tue May 19 14:34:55 2020
--exp1-Tested:      7 @ Tue May 19 14:34:55 2020
--exp1-Tested:      8 @ Tue May 19 14:34:55 2020
--exp1-Tested:      9 @ Tue May 19 14:34:55 2020
--exp1-Tested:     10 @ Tue May 19 14:34:55 2020
--exp1-Tested:    100 @ Tue May 19 14:34:55 2020
--exp1-Ready:     950 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0238 (39875.76 p/s)
+-exp1-Tested:      1 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      2 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      3 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      4 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      5 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      6 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      7 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      8 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      9 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:     10 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:    100 @ Tue Aug  2 12:02:20 2022
+-exp1-Ready:     950 @ Tue Aug  2 12:02:20 2022
+Seconds taken: 0.0353 (26927.44 p/s)
 
 overall accuracy:        0.966316  (918/950), of which 39 exact matches 
 There were 6 ties of which 5 (83.33%) were correctly resolved
@@ -7871,21 +7871,21 @@ Feature 8	 : 0.097198760323500
 Feature 9	 : 0.045752381467022
 Feature 10	 : 0.213887591411729
 Feature 11	 : 0.669704582861074
-Feature 12	 : 1.278076245847893
+Feature 12	 : 1.278076245847894
 
--exp1-Tested:      1 @ Tue May 19 14:34:55 2020
--exp1-Tested:      2 @ Tue May 19 14:34:55 2020
--exp1-Tested:      3 @ Tue May 19 14:34:55 2020
--exp1-Tested:      4 @ Tue May 19 14:34:55 2020
--exp1-Tested:      5 @ Tue May 19 14:34:55 2020
--exp1-Tested:      6 @ Tue May 19 14:34:55 2020
--exp1-Tested:      7 @ Tue May 19 14:34:55 2020
--exp1-Tested:      8 @ Tue May 19 14:34:55 2020
--exp1-Tested:      9 @ Tue May 19 14:34:55 2020
--exp1-Tested:     10 @ Tue May 19 14:34:55 2020
--exp1-Tested:    100 @ Tue May 19 14:34:55 2020
--exp1-Ready:     950 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0347 (27363.33 p/s)
+-exp1-Tested:      1 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      2 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      3 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      4 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      5 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      6 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      7 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      8 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:      9 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:     10 @ Tue Aug  2 12:02:20 2022
+-exp1-Tested:    100 @ Tue Aug  2 12:02:20 2022
+-exp1-Ready:     950 @ Tue Aug  2 12:02:20 2022
+Seconds taken: 0.0463 (20497.99 p/s)
 
 overall accuracy:        0.961053  (913/950), of which 62 exact matches 
 There were 7 ties of which 6 (85.71%) were correctly resolved
@@ -7967,19 +7967,19 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
--exp2-Tested:      1 @ Tue May 19 14:34:55 2020
--exp2-Tested:      2 @ Tue May 19 14:34:55 2020
--exp2-Tested:      3 @ Tue May 19 14:34:55 2020
--exp2-Tested:      4 @ Tue May 19 14:34:55 2020
--exp2-Tested:      5 @ Tue May 19 14:34:55 2020
--exp2-Tested:      6 @ Tue May 19 14:34:55 2020
--exp2-Tested:      7 @ Tue May 19 14:34:55 2020
--exp2-Tested:      8 @ Tue May 19 14:34:55 2020
--exp2-Tested:      9 @ Tue May 19 14:34:55 2020
--exp2-Tested:     10 @ Tue May 19 14:34:55 2020
--exp2-Tested:    100 @ Tue May 19 14:34:55 2020
--exp2-Ready:     950 @ Tue May 19 14:34:55 2020
-Seconds taken: 0.0249 (38189.42 p/s)
+-exp2-Tested:      1 @ Tue Aug  2 12:02:20 2022
+-exp2-Tested:      2 @ Tue Aug  2 12:02:20 2022
+-exp2-Tested:      3 @ Tue Aug  2 12:02:20 2022
+-exp2-Tested:      4 @ Tue Aug  2 12:02:20 2022
+-exp2-Tested:      5 @ Tue Aug  2 12:02:20 2022
+-exp2-Tested:      6 @ Tue Aug  2 12:02:20 2022
+-exp2-Tested:      7 @ Tue Aug  2 12:02:20 2022
+-exp2-Tested:      8 @ Tue Aug  2 12:02:20 2022
+-exp2-Tested:      9 @ Tue Aug  2 12:02:20 2022
+-exp2-Tested:     10 @ Tue Aug  2 12:02:20 2022
+-exp2-Tested:    100 @ Tue Aug  2 12:02:20 2022
+-exp2-Ready:     950 @ Tue Aug  2 12:02:20 2022
+Seconds taken: 0.0448 (21199.21 p/s)
 
 overall accuracy:        0.967368  (919/950), of which 39 exact matches 
 There were 5 ties of which 4 (80.00%) were correctly resolved
@@ -7997,24 +7997,24 @@ Number of Features: 12
 InputFormat       : C4.5
 
 -exp-Phase 1: Reading Datafile: tests/one_line
--exp-Start:          0 @ Tue May 19 14:34:55 2020
--exp-Finished:       1 @ Tue May 19 14:34:55 2020
--exp-Calculating Entropy         Tue May 19 14:34:55 2020
--exp-Preparation took 0 seconds, 0 milliseconds and 56 microseconds
+-exp-Start:          0 @ Tue Aug  2 12:02:20 2022
+-exp-Finished:       1 @ Tue Aug  2 12:02:20 2022
+-exp-Calculating Entropy         Tue Aug  2 12:02:20 2022
+-exp-Preparation took 0 seconds, 0 milliseconds and 86 microseconds
 Warning:-exp-Training file contains only 1 class.
 Warning:-exp-The following feature(s) have only 1 value: 1-12
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 >
 -exp-Phase 2: Building multi index on Datafile: tests/one_line
--exp-Start:          0 @ Tue May 19 14:34:55 2020
--exp-Finished:       1 @ Tue May 19 14:34:55 2020
+-exp-Start:          0 @ Tue Aug  2 12:02:20 2022
+-exp-Finished:       1 @ Tue Aug  2 12:02:20 2022
 -exp-
 Phase 3: Learning from Datafile: tests/one_line
--exp-Start:          0 @ Tue May 19 14:34:55 2020
--exp-Finished:       1 @ Tue May 19 14:34:55 2020
+-exp-Start:          0 @ Tue Aug  2 12:02:20 2022
+-exp-Finished:       1 @ Tue Aug  2 12:02:20 2022
 
 Size of InstanceBase = 13 Nodes, (520 bytes), 0.00 % compression
--exp-Learning took 0 seconds, 0 milliseconds and 67 microseconds
+-exp-Learning took 0 seconds, 0 milliseconds and 80 microseconds
 TSE script, executing line: 15
 === exp.classify "+,zw,A,rt,-,k,O,p,-,n,O,n,E" 
 classify: +,zw,A,rt,-,k,O,p,-,n,O,n,E ==> T

@@ -1,18 +1,18 @@
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:22:36 2019
+Tue Aug  2 12:02:03 2022
 
 Examine datafile 'tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:22:36 2019
-Finished:    2999 @ Mon Sep  2 15:22:36 2019
-Calculating Entropy         Mon Sep  2 15:22:36 2019
+Start:          0 @ Tue Aug  2 12:02:03 2022
+Finished:    2999 @ Tue Aug  2 12:02:03 2022
+Calculating Entropy         Tue Aug  2 12:02:03 2022
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -31,24 +31,24 @@ Feats	Vals	X-square	Variance	InfoGain	GainRatio
    11     18	2807.0418	0.23399815	0.66970458	0.18507018
    12     43	7160.3682	0.59689631	1.2780762	0.32537181
 
-Preparation took 0 seconds, 6 milliseconds and 115 microseconds
+Preparation took 0 seconds, 14 milliseconds and 975 microseconds
 Saving Weights in tests/dimin.wgt
 Saving Probability Arrays in tests/dimin.prob
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:22:36 2019
+Tue Aug  2 12:02:03 2022
 
 Examine datafile 'tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:22:36 2019
-Finished:    2999 @ Mon Sep  2 15:22:36 2019
-Calculating Entropy         Mon Sep  2 15:22:36 2019
+Start:          0 @ Tue Aug  2 12:02:03 2022
+Finished:    2999 @ Tue Aug  2 12:02:03 2022
+Calculating Entropy         Tue Aug  2 12:02:03 2022
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -67,7 +67,7 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 6 milliseconds and 651 microseconds
+Preparation took 0 seconds, 13 milliseconds and 705 microseconds
 Reading weights from tests/dimin.wgt
 Calculated weights replaced by:
 Feature 1	 : 0.02489153561762
@@ -85,15 +85,15 @@ Feature 12	 : 0.325371814230901
 Feature Permutation based on weightfile :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:22:36 2019
-Finished:    2999 @ Mon Sep  2 15:22:36 2019
+Start:          0 @ Tue Aug  2 12:02:03 2022
+Finished:    2999 @ Tue Aug  2 12:02:03 2022
 
 Phase 3: Learning from Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:22:36 2019
-Finished:    2999 @ Mon Sep  2 15:22:36 2019
+Start:          0 @ Tue Aug  2 12:02:03 2022
+Finished:    2999 @ Tue Aug  2 12:02:03 2022
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 16 milliseconds and 946 microseconds
+Learning took 0 seconds, 32 milliseconds and 381 microseconds
 Reading weights from tests/dimin.wgt
 
 Starting to test using Leave One Out
@@ -129,20 +129,20 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Mon Sep  2 15:22:36 2019
-Tested:      2 @ Mon Sep  2 15:22:36 2019
-Tested:      3 @ Mon Sep  2 15:22:36 2019
-Tested:      4 @ Mon Sep  2 15:22:36 2019
-Tested:      5 @ Mon Sep  2 15:22:36 2019
-Tested:      6 @ Mon Sep  2 15:22:36 2019
-Tested:      7 @ Mon Sep  2 15:22:36 2019
-Tested:      8 @ Mon Sep  2 15:22:36 2019
-Tested:      9 @ Mon Sep  2 15:22:36 2019
-Tested:     10 @ Mon Sep  2 15:22:36 2019
-Tested:    100 @ Mon Sep  2 15:22:36 2019
-Tested:   1000 @ Mon Sep  2 15:22:36 2019
-Ready:    2999 @ Mon Sep  2 15:22:36 2019
-Seconds taken: 0.7261 (4130.50 p/s)
+Tested:      1 @ Tue Aug  2 12:02:03 2022
+Tested:      2 @ Tue Aug  2 12:02:03 2022
+Tested:      3 @ Tue Aug  2 12:02:03 2022
+Tested:      4 @ Tue Aug  2 12:02:03 2022
+Tested:      5 @ Tue Aug  2 12:02:03 2022
+Tested:      6 @ Tue Aug  2 12:02:03 2022
+Tested:      7 @ Tue Aug  2 12:02:03 2022
+Tested:      8 @ Tue Aug  2 12:02:03 2022
+Tested:      9 @ Tue Aug  2 12:02:03 2022
+Tested:     10 @ Tue Aug  2 12:02:03 2022
+Tested:    100 @ Tue Aug  2 12:02:03 2022
+Tested:   1000 @ Tue Aug  2 12:02:03 2022
+Ready:    2999 @ Tue Aug  2 12:02:04 2022
+Seconds taken: 0.8447 (3550.21 p/s)
 
 overall accuracy:        0.974992  (2924/2999), of which 193 exact matches 
 There were 22 ties of which 19 (86.36%) were correctly resolved
@@ -458,21 +458,21 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,kl,O,g,-,d,i,r,T,T { T 3.00000 }        0.0059128823442215
 ---
 > =,=,=,=,+,kl,O,g,-,d,i,r,T,T { T 3.00000 }        0.0059128823442214
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:22:36 2019
+Tue Aug  2 12:02:04 2022
 
 Examine datafile 'tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:22:36 2019
-Finished:    2999 @ Mon Sep  2 15:22:36 2019
-Calculating Entropy         Mon Sep  2 15:22:36 2019
+Start:          0 @ Tue Aug  2 12:02:04 2022
+Finished:    2999 @ Tue Aug  2 12:02:04 2022
+Calculating Entropy         Tue Aug  2 12:02:04 2022
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -491,19 +491,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 6 milliseconds and 158 microseconds
+Preparation took 0 seconds, 13 milliseconds and 521 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:22:36 2019
-Finished:    2999 @ Mon Sep  2 15:22:36 2019
+Start:          0 @ Tue Aug  2 12:02:04 2022
+Finished:    2999 @ Tue Aug  2 12:02:04 2022
 
 Phase 3: Learning from Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:22:36 2019
-Finished:    2999 @ Mon Sep  2 15:22:37 2019
+Start:          0 @ Tue Aug  2 12:02:04 2022
+Finished:    2999 @ Tue Aug  2 12:02:04 2022
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 16 milliseconds and 758 microseconds
+Learning took 0 seconds, 32 milliseconds and 907 microseconds
 Reading Probability Arrays from tests/dimin.prob
 
 Starting to test using Leave One Out
@@ -539,20 +539,20 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Mon Sep  2 15:22:37 2019
-Tested:      2 @ Mon Sep  2 15:22:37 2019
-Tested:      3 @ Mon Sep  2 15:22:37 2019
-Tested:      4 @ Mon Sep  2 15:22:37 2019
-Tested:      5 @ Mon Sep  2 15:22:37 2019
-Tested:      6 @ Mon Sep  2 15:22:37 2019
-Tested:      7 @ Mon Sep  2 15:22:37 2019
-Tested:      8 @ Mon Sep  2 15:22:37 2019
-Tested:      9 @ Mon Sep  2 15:22:37 2019
-Tested:     10 @ Mon Sep  2 15:22:37 2019
-Tested:    100 @ Mon Sep  2 15:22:37 2019
-Tested:   1000 @ Mon Sep  2 15:22:37 2019
-Ready:    2999 @ Mon Sep  2 15:22:37 2019
-Seconds taken: 0.7154 (4192.03 p/s)
+Tested:      1 @ Tue Aug  2 12:02:04 2022
+Tested:      2 @ Tue Aug  2 12:02:04 2022
+Tested:      3 @ Tue Aug  2 12:02:04 2022
+Tested:      4 @ Tue Aug  2 12:02:04 2022
+Tested:      5 @ Tue Aug  2 12:02:04 2022
+Tested:      6 @ Tue Aug  2 12:02:04 2022
+Tested:      7 @ Tue Aug  2 12:02:04 2022
+Tested:      8 @ Tue Aug  2 12:02:04 2022
+Tested:      9 @ Tue Aug  2 12:02:04 2022
+Tested:     10 @ Tue Aug  2 12:02:04 2022
+Tested:    100 @ Tue Aug  2 12:02:04 2022
+Tested:   1000 @ Tue Aug  2 12:02:04 2022
+Ready:    2999 @ Tue Aug  2 12:02:05 2022
+Seconds taken: 0.8274 (3624.50 p/s)
 
 overall accuracy:        0.975325  (2925/2999), of which 193 exact matches 
 There were 22 ties of which 19 (86.36%) were correctly resolved
@@ -570,6 +570,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < +,br,O,=,-,d,@,=,-,l,A,p,J,J { J 3.00000 }        0.021633731103123
 ---
 > +,br,O,=,-,d,@,=,-,l,A,p,J,J { J 3.00000 }        0.021633731103124
+57c57
+< -,r,@,=,-,b,@,=,-,dr,K,f,J,J { J 3.00000 }        0.0083807492503890
+---
+> -,r,@,=,-,b,@,=,-,dr,K,f,J,J { J 3.00000 }        0.0083807492503891
 101c101
 < -,r,A,=,+,p,O,rd,-,b,u,k,J,J { J 3.00000 }        0.049074745163127
 ---
@@ -578,18 +582,14 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < +,=,A,n,-,t,i,=,-,d,e,l,T,T { T 3.00000 }        0.024351971312950
 ---
 > +,=,A,n,-,t,i,=,-,d,e,l,T,T { T 3.00000 }        0.024351971312949
-123c123
-< +,b,I,=,-,t,@,r,-,pr,a,t,J,J { J 3.00000 }        0.0082506642231552
----
-> +,b,I,=,-,t,@,r,-,pr,a,t,J,J { J 3.00000 }        0.0082506642231551
 139c139
 < =,=,=,=,=,=,=,=,+,sx,A,lm,P,P { P 3.00000 }        0.0061441906259219
 ---
 > =,=,=,=,=,=,=,=,+,sx,A,lm,P,P { P 3.00000 }        0.0061441906259220
-155c155
-< +,=,K,s,-,f,A,=,-,br,i,k,J,J { J 3.00000 }        0.019650933827948
+145c145
+< =,=,=,=,+,l,o,n,-,w,E,t,J,J { J 3.00000 }        0.016671344768581
 ---
-> +,=,K,s,-,f,A,=,-,br,i,k,J,J { J 3.00000 }        0.019650933827947
+> =,=,=,=,+,l,o,n,-,w,E,t,J,J { J 3.00000 }        0.016671344768582
 189c189
 < -,t,i,=,-,s,@,=,+,r,i,=,T,T { T 3.00000 }        0.0072509757073501
 ---
@@ -614,6 +614,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,=,=,=,=,+,b,I,nt,J,J { J 5.00000 }        0.0054814848000807
 ---
 > =,=,=,=,=,=,=,=,+,b,I,nt,J,J { J 5.00000 }        0.0054814848000808
+281c281
+< +,p,a,=,-,t,@,rs,-,f,A,t,J,J { J 3.00000 }        0.021130896678682
+---
+> +,p,a,=,-,t,@,rs,-,f,A,t,J,J { J 3.00000 }        0.021130896678683
 324c324
 < =,=,=,=,+,n,a,=,-,G,@,l,T,T { T 3.00000 }        0.0051443716495462
 ---
@@ -622,6 +626,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < -,v,@,r,+,st,O,=,-,p,I,N,K,K { E 1.00000, K 3.00000 }        0.0050717305343897
 ---
 > -,v,@,r,+,st,O,=,-,p,I,N,K,K { E 1.00000, K 3.00000 }        0.0050717305343898
+342c342
+< =,=,=,=,=,=,=,=,+,b,O,l,E,E { E 3.00000 }        0.0049291388375404
+---
+> =,=,=,=,=,=,=,=,+,b,O,l,E,E { E 3.00000 }        0.0049291388375405
 353c353
 < =,=,=,=,+,m,A,s,-,k,@,r,T,T { T 3.00000 }        0.0053158415163543
 ---
@@ -630,6 +638,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,b,O,rz,-,dr,A,Nk,J,J { J 3.00000 }        0.0098001724889175
 ---
 > =,=,=,=,+,b,O,rz,-,dr,A,Nk,J,J { J 3.00000 }        0.0098001724889176
+388c388
+< +,d,O,n,-,d,@,r,-,b,e,st,J,J { J 3.00000 }        0.022370507944337
+---
+> +,d,O,n,-,d,@,r,-,b,e,st,J,J { J 3.00000 }        0.022370507944338
 399,400c399,400
 < =,=,=,=,+,r,|,=,-,t,@,r,T,T { T 3.00000 }        0.00092942900659363
 < =,=,=,=,+,b,L,=,-,t,@,n,T,T { T 3.00000 }        0.0086357173786738
@@ -644,10 +656,6 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,-,b,y,=,+,r,e,l,T,T { T 3.00000 }        0.0096259646775813
 ---
 > =,=,=,=,-,b,y,=,+,r,e,l,T,T { T 3.00000 }        0.0096259646775814
-450c450
-< +,f,e,=,-,t,a,=,-,f,@,l,T,T { T 3.00000 }        0.0096054010634479
----
-> +,f,e,=,-,t,a,=,-,f,@,l,T,T { T 3.00000 }        0.0096054010634480
 460c460
 < =,=,=,=,+,t,O,rn,-,m,E,s,J,J { J 3.00000 }        0.047975977639767
 ---
@@ -664,6 +672,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,fr,},t,-,s,@,l,T,T { T 3.00000 }        0.0043781804305448
 ---
 > =,=,=,=,+,fr,},t,-,s,@,l,T,T { T 3.00000 }        0.0043781804305449
+501c501
+< =,=,=,=,+,k,A,st,-,r,A,nt,J,J { J 3.00000 }        0.0096350510927742
+---
+> =,=,=,=,+,k,A,st,-,r,A,nt,J,J { J 3.00000 }        0.0096350510927743
 513c513
 < =,=,=,=,-,f,o,=,+,r,E,l,E,E { E 3.00000 }        0.0034195868845032
 ---
@@ -700,6 +712,14 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,d,O,k,-,t,@,r,T,T { T 3.00000 }        0.0096595907051280
 ---
 > =,=,=,=,+,d,O,k,-,t,@,r,T,T { T 3.00000 }        0.0096595907051281
+679c679
+< -,t,@,r,+,kl,a,s,-,f,E,rs,J,J { J 3.00000 }        0.028913634383221
+---
+> -,t,@,r,+,kl,a,s,-,f,E,rs,J,J { J 3.00000 }        0.028913634383222
+681c681
+< +,dr,},=,-,p,@,l,-,fl,E,s,J,J { J 3.00000 }        0.033304261528753
+---
+> +,dr,},=,-,p,@,l,-,fl,E,s,J,J { J 3.00000 }        0.033304261528754
 693,694c693,694
 < =,=,=,=,+,fl,I,=,-,k,@,r,T,T { T 3.00000 }        0.0050538591545351
 < +,=,E,rf,-,x,@,=,-,n,a,m,P,P { P 3.00000 }        0.073766836878238
@@ -714,6 +734,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < +,r,K,st,-,f,o,=,-,G,@,l,T,T { T 3.00000 }        0.067126471775685
 ---
 > +,r,K,st,-,f,o,=,-,G,@,l,T,T { T 3.00000 }        0.067126471775684
+724c724
+< =,=,=,=,+,l,O,x,-,pl,A,Nk,J,J { J 3.00000 }        0.0063349864450467
+---
+> =,=,=,=,+,l,O,x,-,pl,A,Nk,J,J { J 3.00000 }        0.0063349864450468
 737c737
 < =,=,=,=,+,r,E,m,-,h,O,k,J,J { J 3.00000 }        0.0037234848745144
 ---
@@ -726,6 +750,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < +,r,E,=,-,t,@,=,-,p,K,p,J,J { J 3.00000 }        0.013266030318982
 ---
 > +,r,E,=,-,t,@,=,-,p,K,p,J,J { J 3.00000 }        0.013266030318983
+886c886
+< =,=,=,=,=,=,=,=,+,kr,a,x,J,J { J 3.00000 }        0.0041956976023375
+---
+> =,=,=,=,=,=,=,=,+,kr,a,x,J,J { J 3.00000 }        0.0041956976023376
 897,898c897,898
 < =,=,=,=,+,l,},Gd,-,b,E,t,J,J { J 3.00000 }        0.052224990386163
 < +,p,E,=,-,n,@,=,-,b,A,k,J,J { J 3.00000 }        0.0072266906107485
@@ -736,6 +764,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,=,=,=,=,+,v,I,n,E,E { E 3.00000 }        0.0030846953971209
 ---
 > =,=,=,=,=,=,=,=,+,v,I,n,E,E { E 3.00000 }        0.0030846953971210
+946c946
+< =,=,=,=,=,=,=,=,+,spl,e,t,J,J { J 11.0000 }        0.042787294841883
+---
+> =,=,=,=,=,=,=,=,+,spl,e,t,J,J { J 11.0000 }        0.042787294841884
 963c963
 < =,=,=,=,+,d,E,k,-,s,@,l,T,T { T 3.00000 }        0.0028669373885439
 ---
@@ -756,10 +788,12 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,=,=,=,=,+,w,O,rm,P,P { P 3.00000 }        0.0033797870699318
 ---
 > =,=,=,=,=,=,=,=,+,w,O,rm,P,P { P 3.00000 }        0.0033797870699319
-1026c1026
+1026,1027c1026,1027
 < +,sx,I,lt,-,p,A,=,-,t,O,r,E,T { T 3.00000 }        0.053864092355701
+< =,=,=,=,+,k,i,m,-,bl,A,t,J,J { J 3.00000 }        0.0077037811554501
 ---
 > +,sx,I,lt,-,p,A,=,-,t,O,r,E,T { T 3.00000 }        0.053864092355700
+> =,=,=,=,+,k,i,m,-,bl,A,t,J,J { J 3.00000 }        0.0077037811554502
 1063c1063
 < =,=,=,=,+,m,a,=,-,d,@,=,T,T { T 3.00000 }        0.0047404191246059
 ---
@@ -780,14 +814,20 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < -,=,A,=,-,b,O,=,+,n,e,=,T,T { T 3.00000 }        0.0083123321661459
 ---
 > -,=,A,=,-,b,O,=,+,n,e,=,T,T { T 3.00000 }        0.0083123321661460
-1115c1115
+1114,1115c1114,1115
+< =,=,=,=,+,=,o,r,-,kn,O,p,J,J { J 3.00000 }        0.0096463396562456
 < =,=,=,=,-,h,u,=,+,r,a,=,T,T { T 3.00000 }        0.0074788532448180
 ---
+> =,=,=,=,+,=,o,r,-,kn,O,p,J,J { J 3.00000 }        0.0096463396562457
 > =,=,=,=,-,h,u,=,+,r,a,=,T,T { T 3.00000 }        0.0074788532448181
 1131c1131
 < =,=,=,=,=,=,=,=,+,kl,e,t,J,J { J 5.00000 }        0.0088365777745310
 ---
 > =,=,=,=,=,=,=,=,+,kl,e,t,J,J { J 5.00000 }        0.0088365777745311
+1133c1133
+< =,=,=,=,+,b,A,Ng,-,b,u,k,J,J { J 3.00000 }        0.0028558188851733
+---
+> =,=,=,=,+,b,A,Ng,-,b,u,k,J,J { J 3.00000 }        0.0028558188851734
 1146,1147c1146,1147
 < +,l,o,=,-,Z,@,=,-,b,A,nt,J,J { J 3.00000 }        0.015485347747145
 < =,=,=,=,+,p,K,=,-,l,@,r,T,T { T 3.00000 }        0.0062848881136244
@@ -800,14 +840,34 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 ---
 > +,h,},lp,-,m,o,=,-,t,O,r,T,T { T 2.00000, E 1.00000 }        0.064441457616462
 > =,=,=,=,+,zw,e,b,-,d,i,r,T,T { T 3.00000 }        0.035759417227780
+1180c1180
+< =,=,=,=,+,w,e,r,-,pr,a,t,J,J { J 3.00000 }        0.0062643222342754
+---
+> =,=,=,=,+,w,e,r,-,pr,a,t,J,J { J 3.00000 }        0.0062643222342755
 1185c1185
 < =,=,=,=,+,p,O,=,-,k,@,t,J,J { J 3.00000 }        0.0067478551157810
 ---
 > =,=,=,=,+,p,O,=,-,k,@,t,J,J { J 3.00000 }        0.0067478551157811
+1189c1189
+< -,m,i,=,+,n,e,r,-,Gl,A,s,J,J { J 3.00000 }        0.0076764708464778
+---
+> -,m,i,=,+,n,e,r,-,Gl,A,s,J,J { J 3.00000 }        0.0076764708464779
 1193c1193
 < -,x,e,=,-,v,@,=,+,r,K,=,T,T { T 3.00000 }        0.0035602241364842
 ---
 > -,x,e,=,-,v,@,=,+,r,K,=,T,T { T 3.00000 }        0.0035602241364843
+1198c1198
+< =,=,=,=,+,p,e,=,-,n,@,s,J,J { J 3.00000 }        0.0039279188060710
+---
+> =,=,=,=,+,p,e,=,-,n,@,s,J,J { J 3.00000 }        0.0039279188060711
+1228c1228
+< =,=,=,=,=,=,=,=,+,bl,A,t,J,J { J 4.00000 }        0.0061217832280905
+---
+> =,=,=,=,=,=,=,=,+,bl,A,t,J,J { J 4.00000 }        0.0061217832280906
+1249c1249
+< -,=,A,=,+,dr,E,s,-,k,a,rt,J,J { J 3.00000 }        0.0091083478620131
+---
+> -,=,A,=,+,dr,E,s,-,k,a,rt,J,J { J 3.00000 }        0.0091083478620132
 1279c1279
 < =,=,=,=,=,=,=,=,+,s,A,p,J,J { J 3.00000 }        0.0054953796199907
 ---
@@ -836,6 +896,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,st,E,m,-,pl,a,t,J,J { J 3.00000 }        0.0097155560327611
 ---
 > =,=,=,=,+,st,E,m,-,pl,a,t,J,J { J 3.00000 }        0.0097155560327612
+1437c1437
+< +,k,I,=,-,p,@,=,-,b,M,t,J,J { J 3.00000 }        0.025157338896302
+---
+> +,k,I,=,-,p,@,=,-,b,M,t,J,J { J 3.00000 }        0.025157338896303
 1439c1439
 < =,=,=,=,=,=,=,=,+,zw,e,r,T,T { T 3.00000 }        0.010085414198865
 ---
@@ -848,6 +912,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,h,a,g,-,b,e,n,T,T { T 3.00000 }        0.0084832898707648
 ---
 > =,=,=,=,+,h,a,g,-,b,e,n,T,T { T 3.00000 }        0.0084832898707649
+1502c1502
+< =,=,=,=,=,=,=,=,+,kr,o,s,J,J { J 3.00000 }        0.0041956976023375
+---
+> =,=,=,=,=,=,=,=,+,kr,o,s,J,J { J 3.00000 }        0.0041956976023376
 1510c1510
 < =,=,=,=,+,k,A,r,-,p,@,r,T,T { T 3.00000 }        0.0053745411418687
 ---
@@ -856,6 +924,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < +,=,A,v,-,d,e,=,-,l,I,N,K,K { K 3.00000 }        0.019618239837824
 ---
 > +,=,A,v,-,d,e,=,-,l,I,N,K,K { K 3.00000 }        0.019618239837825
+1548c1548
+< =,=,=,=,+,k,O,ks,-,m,a,t,J,J { J 3.00000 }        0.0091639248342745
+---
+> =,=,=,=,+,k,O,ks,-,m,a,t,J,J { J 3.00000 }        0.0091639248342746
 1568c1568
 < =,=,=,=,-,k,a,=,+,t,u,n,T,T { T 3.00000 }        0.0061330358069513
 ---
@@ -864,6 +936,18 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,r,I,m,-,p,@,l,T,T { T 3.00000 }        0.00092942900659363
 ---
 > =,=,=,=,+,r,I,m,-,p,@,l,T,T { T 3.00000 }        0.00092942900659364
+1601c1601
+< =,=,=,=,+,w,e,=,-,r,@,lt,J,J { J 3.00000 }        0.0066839263625068
+---
+> =,=,=,=,+,w,e,=,-,r,@,lt,J,J { J 3.00000 }        0.0066839263625069
+1605c1605
+< =,=,=,=,+,l,i,=,-,v,@,rt,J,J { J 3.00000 }        0.0074781023316022
+---
+> =,=,=,=,+,l,i,=,-,v,@,rt,J,J { J 3.00000 }        0.0074781023316023
+1620c1620
+< +,k,O,=,-,f,i,=,-,k,O,p,J,J { J 3.00000 }        0.0084444714780139
+---
+> +,k,O,=,-,f,i,=,-,k,O,p,J,J { J 3.00000 }        0.0084444714780140
 1624c1624
 < +,t,e,=,-,b,@,=,-,sx,L,t,J,J { J 3.00000 }        0.0094831518724808
 ---
@@ -884,6 +968,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,t,|,=,-,G,@,l,T,T { T 3.00000 }        0.0015793700030261
 ---
 > =,=,=,=,+,t,|,=,-,G,@,l,T,T { T 3.00000 }        0.0015793700030262
+1713c1713
+< +,b,o,r,-,d,@,=,-,kn,o,p,J,J { J 3.00000 }        0.037894709438867
+---
+> +,b,o,r,-,d,@,=,-,kn,o,p,J,J { J 3.00000 }        0.037894709438868
 1730c1730
 < +,z,O,nd,-,m,a,=,-,k,@,r,T,T { T 3.00000 }        0.0073428999294060
 ---
@@ -892,10 +980,18 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,sp,E,l,-,b,u,k,J,J { J 3.00000 }        0.0058894652832452
 ---
 > =,=,=,=,+,sp,E,l,-,b,u,k,J,J { J 3.00000 }        0.0058894652832453
+1753c1753
+< =,=,=,=,=,=,=,=,+,z,E,s,J,J { J 4.00000 }        0.0015437708628753
+---
+> =,=,=,=,=,=,=,=,+,z,E,s,J,J { J 4.00000 }        0.0015437708628754
 1761c1761
 < =,=,=,=,+,l,|,=,-,G,@,n,T,T { T 3.00000 }        0.0064320159558079
 ---
 > =,=,=,=,+,l,|,=,-,G,@,n,T,T { T 3.00000 }        0.0064320159558080
+1775c1775
+< +,sx,I,=,-,p,@,rs,-,kl,O,k,J,J { J 3.00000 }        0.016063044552540
+---
+> +,sx,I,=,-,p,@,rs,-,kl,O,k,J,J { J 3.00000 }        0.016063044552541
 1777c1777
 < =,=,=,=,+,tr,},=,-,f,@,l,T,T { T 3.00000 }        0.0016257513208754
 ---
@@ -904,6 +1000,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,=,A,N,-,k,@,r,T,T { T 3.00000 }        0.0054552821132333
 ---
 > =,=,=,=,+,=,A,N,-,k,@,r,T,T { T 3.00000 }        0.0054552821132334
+1785c1785
+< +,h,a,=,-,r,I,N,-,sp,e,t,J,J { J 3.00000 }        0.024900928787129
+---
+> +,h,a,=,-,r,I,N,-,sp,e,t,J,J { J 3.00000 }        0.024900928787130
 1795c1795
 < =,=,=,=,+,r,A,s,-,p,a,rt,J,J { J 3.00000 }        0.0092875951646761
 ---
@@ -922,6 +1022,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,g,E,N,-,st,@,r,T,T { T 3.00000 }        0.0066541540320365
 ---
 > =,=,=,=,+,g,E,N,-,st,@,r,T,T { T 3.00000 }        0.0066541540320366
+1843c1843
+< -,s,i,=,-,f,E,r,-,pl,A,nt,J,J { J 3.00000 }        0.022939041081883
+---
+> -,s,i,=,-,f,E,r,-,pl,A,nt,J,J { J 3.00000 }        0.022939041081884
 1875c1875
 < =,=,=,=,=,=,=,=,+,w,K,=,T,T { T 3.00000 }        0.0033869874852365
 ---
@@ -930,6 +1034,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,=,A,=,-,k,@,r,T,T { T 3.00000 }        0.0056999914053750
 ---
 > =,=,=,=,+,=,A,=,-,k,@,r,T,T { T 3.00000 }        0.0056999914053751
+1897c1897
+< +,tr,<,=,-,l,@,=,-,l,A,mp,J,J { J 3.00000 }        0.025416163592517
+---
+> +,tr,<,=,-,l,@,=,-,l,A,mp,J,J { J 3.00000 }        0.025416163592518
 1903c1903
 < =,=,=,=,+,w,a,=,-,j,@,r,T,T { T 3.00000 }        0.0028205594208053
 ---
@@ -938,14 +1046,18 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,=,=,=,=,+,sx,I,lt,J,J { J 6.00000 }        0.0035727957515645
 ---
 > =,=,=,=,=,=,=,=,+,sx,I,lt,J,J { J 6.00000 }        0.0035727957515646
-1911c1911
+1911,1912c1911,1912
 < =,=,=,=,-,m,A,=,+,tr,A,s,J,J { J 3.00000 }        0.017019801790578
+< -,b,o,=,-,n,@,=,-,m,E,s,J,J { J 3.00000 }        0.015822368862973
 ---
 > =,=,=,=,-,m,A,=,+,tr,A,s,J,J { J 3.00000 }        0.017019801790579
-1915c1915
+> -,b,o,=,-,n,@,=,-,m,E,s,J,J { J 3.00000 }        0.015822368862974
+1915,1916c1915,1916
 < -,m,e,=,-,x,a,=,+,n,i,k,J,J { J 3.00000 }        0.0048349185032786
+< =,=,=,=,=,=,=,=,+,z,A,k,J,J { J 8.00000 }        0.0015437708628753
 ---
 > -,m,e,=,-,x,a,=,+,n,i,k,J,J { J 3.00000 }        0.0048349185032787
+> =,=,=,=,=,=,=,=,+,z,A,k,J,J { J 8.00000 }        0.0015437708628754
 1922c1922
 < =,=,=,=,+,fr,a,=,-,z,@,=,T,T { T 3.00000 }        0.0076091816060285
 ---
@@ -954,22 +1066,36 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,m,E,lg,-,b,},s,J,J { J 3.00000 }        0.0067801549620712
 ---
 > =,=,=,=,+,m,E,lg,-,b,},s,J,J { J 3.00000 }        0.0067801549620713
+1935c1935
+< =,=,=,=,=,=,=,=,+,st,A,t,J,J { J 4.00000 }        0.0034716084774802
+---
+> =,=,=,=,=,=,=,=,+,st,A,t,J,J { J 4.00000 }        0.0034716084774803
 1940c1940
 < =,=,=,=,+,t,o,=,-,r,@,n,T,T { T 3.00000 }        0.0012365610101212
 ---
 > =,=,=,=,+,t,o,=,-,r,@,n,T,T { T 3.00000 }        0.0012365610101213
+1956c1956
+< +,t,A,N,-,g,a,=,-,sl,I,p,J,J { J 3.00000 }        0.048919029583695
+---
+> +,t,A,N,-,g,a,=,-,sl,I,p,J,J { J 3.00000 }        0.048919029583696
 1967c1967
 < =,=,=,=,+,v,a,=,-,d,@,m,P,P { P 3.00000 }        0.0096244822872487
 ---
 > =,=,=,=,+,v,a,=,-,d,@,m,P,P { P 3.00000 }        0.0096244822872488
-1970c1970
+1969,1970c1969,1970
+< +,m,O,=,-,p,@,=,-,bl,A,t,J,J { J 3.00000 }        0.0073874041529051
 < =,=,=,=,+,w,A,s,-,h,A,nt,J,J { J 3.00000 }        0.0051779079253154
 ---
+> +,m,O,=,-,p,@,=,-,bl,A,t,J,J { J 3.00000 }        0.0073874041529052
 > =,=,=,=,+,w,A,s,-,h,A,nt,J,J { J 3.00000 }        0.0051779079253155
 1979c1979
 < =,=,=,=,+,j,},=,-,fr,M,w,T,T { T 3.00000 }        0.032064432453941
 ---
 > =,=,=,=,+,j,},=,-,fr,M,w,T,T { T 3.00000 }        0.032064432453942
+1991c1991
+< +,m,O,=,-,k,a,=,-,k,O,p,J,J { J 3.00000 }        0.0084471590151545
+---
+> +,m,O,=,-,k,a,=,-,k,O,p,J,J { J 3.00000 }        0.0084471590151546
 1999c1999
 < =,=,=,=,+,xr,A,s,-,kl,O,k,J,J { J 3.00000 }        0.011571002871905
 ---
@@ -978,6 +1104,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,pr,I,=,-,k,@,l,T,T { T 3.00000 }        0.0025690532451672
 ---
 > =,=,=,=,+,pr,I,=,-,k,@,l,T,T { T 3.00000 }        0.0025690532451673
+2053c2053
+< -,t,@,r,+,kl,a,s,-,l,i,t,J,J { J 3.00000 }        0.031347662727569
+---
+> -,t,@,r,+,kl,a,s,-,l,i,t,J,J { J 3.00000 }        0.031347662727570
 2055c2055
 < =,=,=,=,+,n,A,xt,-,l,A,mp,J,J { J 3.00000 }        0.0080176069238847
 ---
@@ -986,14 +1116,22 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,v,O,l,-,G,@,r,T,T { T 4.00000 }        0.0089659629394805
 ---
 > =,=,=,=,+,v,O,l,-,G,@,r,T,T { T 4.00000 }        0.0089659629394806
-2110c2110
-< -,d,@,=,-,v,u,dz,-,b,e,n,T,T { T 3.00000 }        0.0076039044428814
+2084c2084
+< +,k,I,=,-,p,@,=,-,=,K,nt,J,J { J 3.00000 }        0.011519921012080
 ---
-> -,d,@,=,-,v,u,dz,-,b,e,n,T,T { T 3.00000 }        0.0076039044428815
+> +,k,I,=,-,p,@,=,-,=,K,nt,J,J { J 3.00000 }        0.011519921012081
 2133c2133
 < +,p,O,=,-,k,@,=,-,br,i,f,J,J { J 3.00000 }        0.0068380199092812
 ---
 > +,p,O,=,-,k,@,=,-,br,i,f,J,J { J 3.00000 }        0.0068380199092813
+2155c2155
+< =,=,=,=,+,sx,I,l,-,m,E,s,J,J { J 3.00000 }        0.0061892878834728
+---
+> =,=,=,=,+,sx,I,l,-,m,E,s,J,J { J 3.00000 }        0.0061892878834729
+2179c2179
+< =,=,=,=,=,=,=,=,+,l,L,k,J,J { J 3.00000 }        0.0064526729521104
+---
+> =,=,=,=,=,=,=,=,+,l,L,k,J,J { J 3.00000 }        0.0064526729521105
 2190c2190
 < =,=,=,=,+,fr,O,=,-,m,@,l,T,T { T 3.00000 }        0.0043781804305448
 ---
@@ -1014,6 +1152,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < +,v,e,=,-,n,},z,-,b,e,lt,J,J { J 4.00000 }        0.032972691388686
 ---
 > +,v,e,=,-,n,},z,-,b,e,lt,J,J { J 4.00000 }        0.032972691388687
+2315c2315
+< +,v,i,=,-,z,@,=,-,r,I,k,J,J { J 3.00000 }        0.016057145942543
+---
+> +,v,i,=,-,z,@,=,-,r,I,k,J,J { J 3.00000 }        0.016057145942544
 2320c2320
 < =,=,=,=,+,m,O,nt,-,h,A,rp,J,J { J 3.00000 }        0.0088396410398998
 ---
@@ -1048,6 +1190,10 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,-,r,o,=,+,b,K,n,T,T { T 3.00000 }        0.0036321107231356
 ---
 > =,=,=,=,-,r,o,=,+,b,K,n,T,T { T 3.00000 }        0.0036321107231357
+2538c2538
+< +,j,E,k,-,s,i,=,-,pl,a,t,J,J { J 3.00000 }        0.023086313371521
+---
+> +,j,E,k,-,s,i,=,-,pl,a,t,J,J { J 3.00000 }        0.023086313371522
 2555c2555
 < =,=,=,=,=,=,=,=,+,pr,I,k,J,J { J 3.00000 }        0.0046444254213618
 ---
@@ -1064,10 +1210,26 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,r,e,=,-,G,@,l,T,T { T 3.00000 }        0.00092942900659363
 ---
 > =,=,=,=,+,r,e,=,-,G,@,l,T,T { T 3.00000 }        0.00092942900659364
+2620c2620
+< +,b,),=,-,t,a,=,-,d,e,l,T,T { T 3.00000 }        0.033390304966286
+---
+> +,b,),=,-,t,a,=,-,d,e,l,T,T { T 3.00000 }        0.033390304966285
 2637c2637
 < =,=,=,=,+,dw,A,rz,-,b,A,lk,J,J { J 3.00000 }        0.030667584535055
 ---
 > =,=,=,=,+,dw,A,rz,-,b,A,lk,J,J { J 3.00000 }        0.030667584535056
+2649c2649
+< =,=,=,=,=,=,=,=,+,v,u,t,J,J { J 3.00000 }        0.0027167042176683
+---
+> =,=,=,=,=,=,=,=,+,v,u,t,J,J { J 3.00000 }        0.0027167042176684
+2678c2678
+< =,=,=,=,+,z,a,j,-,k,I,st,J,J { J 3.00000 }        0.0023218396046610
+---
+> =,=,=,=,+,z,a,j,-,k,I,st,J,J { J 3.00000 }        0.0023218396046611
+2739c2739
+< +,s,K,=,-,z,@,=,-,br,o,t,J,J { J 3.00000 }        0.014205561510235
+---
+> +,s,K,=,-,z,@,=,-,br,o,t,J,J { J 3.00000 }        0.014205561510236
 2757c2757
 < =,=,=,=,+,kr,M,=,-,w,@,l,T,T { T 3.00000 }        0.0075793299872196
 ---
@@ -1080,14 +1242,18 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < -,sx,i,=,+,d,A,=,-,m,@,r,T,T { T 3.00000 }        0.0058806719589596
 ---
 > -,sx,i,=,+,d,A,=,-,m,@,r,T,T { T 3.00000 }        0.0058806719589597
-2804c2804
-< +,=,A,x,-,t,@,r,-,p,o,rt,J,J { J 3.00000 }        0.019112443870012
----
-> +,=,A,x,-,t,@,r,-,p,o,rt,J,J { J 3.00000 }        0.019112443870011
 2815c2815
 < =,=,=,=,+,st,|,m,-,bl,A,t,J,J { J 3.00000 }        0.0077182091752607
 ---
 > =,=,=,=,+,st,|,m,-,bl,A,t,J,J { J 3.00000 }        0.0077182091752608
+2833c2833
+< =,=,=,=,+,k,A,lfs,-,l,A,p,J,J { J 3.00000 }        0.049334578972785
+---
+> =,=,=,=,+,k,A,lfs,-,l,A,p,J,J { J 3.00000 }        0.049334578972786
+2854c2854
+< =,=,=,=,+,t,e,=,-,k,u,k,J,J { J 3.00000 }        0.012762481362029
+---
+> =,=,=,=,+,t,e,=,-,k,u,k,J,J { J 3.00000 }        0.012762481362030
 2924,2925c2924,2925
 < =,=,=,=,+,kl,O,g,-,d,i,r,T,T { T 3.00000 }        0.0060162959781043
 < =,=,=,=,+,sp,a,n,-,d,@,r,T,T { T 3.00000 }        0.0045291461090230
@@ -1098,21 +1264,29 @@ There were 22 ties of which 19 (86.36%) were correctly resolved
 < =,=,=,=,+,tr,A,=,-,p,@,r,T,T { T 3.00000 }        0.0016257513208754
 ---
 > =,=,=,=,+,tr,A,=,-,p,@,r,T,T { T 3.00000 }        0.0016257513208755
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+2980c2980
+< =,=,=,=,=,=,=,=,+,x,o,t,J,J { J 3.00000 }        0.0074759633104747
+---
+> =,=,=,=,=,=,=,=,+,x,o,t,J,J { J 3.00000 }        0.0074759633104748
+2997c2997
+< +,h,a,=,-,v,@,m,-,pl,a,ts,J,J { J 3.00000 }        0.016503254464442
+---
+> +,h,a,=,-,v,@,m,-,pl,a,ts,J,J { J 3.00000 }        0.016503254464443
+TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:22:37 2019
+Tue Aug  2 12:02:05 2022
 
 Examine datafile 'tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:22:37 2019
-Finished:    2999 @ Mon Sep  2 15:22:37 2019
-Calculating Entropy         Mon Sep  2 15:22:37 2019
+Start:          0 @ Tue Aug  2 12:02:05 2022
+Finished:    2999 @ Tue Aug  2 12:02:05 2022
+Calculating Entropy         Tue Aug  2 12:02:05 2022
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -1131,7 +1305,7 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 5 milliseconds and 968 microseconds
+Preparation took 0 seconds, 13 milliseconds and 582 microseconds
 Reading weights from tests/dimin.wgt
 Calculated weights replaced by:
 Feature 1	 : 0.02489153561762
@@ -1149,15 +1323,15 @@ Feature 12	 : 0.325371814230901
 Feature Permutation based on weightfile :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:22:37 2019
-Finished:    2999 @ Mon Sep  2 15:22:37 2019
+Start:          0 @ Tue Aug  2 12:02:05 2022
+Finished:    2999 @ Tue Aug  2 12:02:05 2022
 
 Phase 3: Learning from Datafile: tests/dimin.train
-Start:          0 @ Mon Sep  2 15:22:37 2019
-Finished:    2999 @ Mon Sep  2 15:22:37 2019
+Start:          0 @ Tue Aug  2 12:02:05 2022
+Finished:    2999 @ Tue Aug  2 12:02:05 2022
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 17 milliseconds and 42 microseconds
+Learning took 0 seconds, 32 milliseconds and 574 microseconds
 Reading weights from tests/dimin.wgt
 Reading Probability Arrays from tests/dimin.prob
 
@@ -1194,20 +1368,20 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Mon Sep  2 15:22:37 2019
-Tested:      2 @ Mon Sep  2 15:22:37 2019
-Tested:      3 @ Mon Sep  2 15:22:37 2019
-Tested:      4 @ Mon Sep  2 15:22:37 2019
-Tested:      5 @ Mon Sep  2 15:22:37 2019
-Tested:      6 @ Mon Sep  2 15:22:37 2019
-Tested:      7 @ Mon Sep  2 15:22:37 2019
-Tested:      8 @ Mon Sep  2 15:22:37 2019
-Tested:      9 @ Mon Sep  2 15:22:37 2019
-Tested:     10 @ Mon Sep  2 15:22:37 2019
-Tested:    100 @ Mon Sep  2 15:22:37 2019
-Tested:   1000 @ Mon Sep  2 15:22:37 2019
-Ready:    2999 @ Mon Sep  2 15:22:38 2019
-Seconds taken: 0.5979 (5015.57 p/s)
+Tested:      1 @ Tue Aug  2 12:02:05 2022
+Tested:      2 @ Tue Aug  2 12:02:05 2022
+Tested:      3 @ Tue Aug  2 12:02:05 2022
+Tested:      4 @ Tue Aug  2 12:02:05 2022
+Tested:      5 @ Tue Aug  2 12:02:05 2022
+Tested:      6 @ Tue Aug  2 12:02:05 2022
+Tested:      7 @ Tue Aug  2 12:02:05 2022
+Tested:      8 @ Tue Aug  2 12:02:05 2022
+Tested:      9 @ Tue Aug  2 12:02:05 2022
+Tested:     10 @ Tue Aug  2 12:02:05 2022
+Tested:    100 @ Tue Aug  2 12:02:05 2022
+Tested:   1000 @ Tue Aug  2 12:02:05 2022
+Ready:    2999 @ Tue Aug  2 12:02:06 2022
+Seconds taken: 0.7206 (4161.94 p/s)
 
 overall accuracy:        0.975325  (2925/2999), of which 193 exact matches 
 There were 22 ties of which 19 (86.36%) were correctly resolved

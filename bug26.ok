@@ -1,18 +1,18 @@
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:22:38 2019
+Tue Aug  2 12:02:06 2022
 
 Examine datafile 'tests/bug26.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: tests/bug26.train
-Start:          0 @ Mon Sep  2 15:22:38 2019
-Finished:      29 @ Mon Sep  2 15:22:38 2019
-Calculating Entropy         Mon Sep  2 15:22:38 2019
+Start:          0 @ Tue Aug  2 12:02:06 2022
+Finished:      29 @ Tue Aug  2 12:02:06 2022
+Calculating Entropy         Tue Aug  2 12:02:06 2022
 Lines of data     : 29
 DB Entropy        : 0.97844933
 Number of Classes : 2
@@ -22,26 +22,26 @@ Feats	Vals	InfoGain	GainRatio
     2      5	0.062249179	0.030433063
     3      5	0.024392020	0.011399513 NUMERIC
 
-Preparation took 0 seconds, 0 milliseconds and 177 microseconds
+Preparation took 0 seconds, 0 milliseconds and 162 microseconds
 Feature Permutation based on GainRatio/Values :
 < 1, 2, 3 >
 Phase 2: Building multi index on Datafile: tests/bug26.train
-Start:          0 @ Mon Sep  2 15:22:38 2019
-Finished:      29 @ Mon Sep  2 15:22:38 2019
+Start:          0 @ Tue Aug  2 12:02:06 2022
+Finished:      29 @ Tue Aug  2 12:02:06 2022
 
 Phase 3: Learning from Datafile: tests/bug26.train
-Start:          0 @ Mon Sep  2 15:22:38 2019
-Finished:      29 @ Mon Sep  2 15:22:38 2019
+Start:          0 @ Tue Aug  2 12:02:06 2022
+Finished:      29 @ Tue Aug  2 12:02:06 2022
 
 Size of InstanceBase = 51 Nodes, (2040 bytes), 29.17 % compression
-Learning took 0 seconds, 0 milliseconds and 217 microseconds
+Learning took 0 seconds, 0 milliseconds and 261 microseconds
 Writing Instance-Base in: tests/bug26.tree
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:22:38 2019
+Tue Aug  2 12:02:06 2022
 
 Reading Instance-Base from: tests/bug26.tree
 
@@ -63,15 +63,15 @@ Feature 1	 : 0.120349398760858
 Feature 2	 : 0.030433063314477
 Feature 3	 : 0.011399512855398
 
-Tested:      1 @ Mon Sep  2 15:22:38 2019
-Tested:      2 @ Mon Sep  2 15:22:38 2019
-Tested:      3 @ Mon Sep  2 15:22:38 2019
-Tested:      4 @ Mon Sep  2 15:22:38 2019
-Tested:      5 @ Mon Sep  2 15:22:38 2019
-Tested:      6 @ Mon Sep  2 15:22:38 2019
-Tested:      7 @ Mon Sep  2 15:22:38 2019
-Ready:       7 @ Mon Sep  2 15:22:38 2019
-Seconds taken: 0.0001 (47297.30 p/s)
+Tested:      1 @ Tue Aug  2 12:02:06 2022
+Tested:      2 @ Tue Aug  2 12:02:06 2022
+Tested:      3 @ Tue Aug  2 12:02:06 2022
+Tested:      4 @ Tue Aug  2 12:02:06 2022
+Tested:      5 @ Tue Aug  2 12:02:06 2022
+Tested:      6 @ Tue Aug  2 12:02:06 2022
+Tested:      7 @ Tue Aug  2 12:02:06 2022
+Ready:       7 @ Tue Aug  2 12:02:06 2022
+Seconds taken: 0.0001 (52631.58 p/s)
 
 overall accuracy:        0.714286  (5/7), of which 2 exact matches 
 Examine datafile './tests/bug26.test' gave the following results:
@@ -90,15 +90,15 @@ Feature 1	 : 0.120349398760858
 Feature 2	 : 0.030433063314477
 Feature 3	 : 0.011399512855398
 
-Tested:      1 @ Mon Sep  2 15:22:38 2019
-Tested:      2 @ Mon Sep  2 15:22:38 2019
-Tested:      3 @ Mon Sep  2 15:22:38 2019
-Tested:      4 @ Mon Sep  2 15:22:38 2019
-Tested:      5 @ Mon Sep  2 15:22:38 2019
-Tested:      6 @ Mon Sep  2 15:22:38 2019
-Tested:      7 @ Mon Sep  2 15:22:38 2019
-Ready:       7 @ Mon Sep  2 15:22:38 2019
-Seconds taken: 0.0002 (46666.67 p/s)
+Tested:      1 @ Tue Aug  2 12:02:06 2022
+Tested:      2 @ Tue Aug  2 12:02:06 2022
+Tested:      3 @ Tue Aug  2 12:02:06 2022
+Tested:      4 @ Tue Aug  2 12:02:06 2022
+Tested:      5 @ Tue Aug  2 12:02:06 2022
+Tested:      6 @ Tue Aug  2 12:02:06 2022
+Tested:      7 @ Tue Aug  2 12:02:06 2022
+Ready:       7 @ Tue Aug  2 12:02:06 2022
+Seconds taken: 0.0002 (36082.47 p/s)
 
 overall accuracy:        0.714286  (5/7), of which 2 exact matches 
 Examine datafile './tests/bug26.test' gave the following results:
@@ -121,15 +121,15 @@ Feature 1	 : 0.120349398760858
 Feature 2	 : 0.030433063314477
 Feature 3	 : 0.011399512855398
 
-Tested:      1 @ Mon Sep  2 15:22:38 2019
-Tested:      2 @ Mon Sep  2 15:22:38 2019
-Tested:      3 @ Mon Sep  2 15:22:38 2019
-Tested:      4 @ Mon Sep  2 15:22:38 2019
-Tested:      5 @ Mon Sep  2 15:22:38 2019
-Tested:      6 @ Mon Sep  2 15:22:38 2019
-Tested:      7 @ Mon Sep  2 15:22:38 2019
-Ready:       7 @ Mon Sep  2 15:22:38 2019
-Seconds taken: 0.0001 (77777.78 p/s)
+Tested:      1 @ Tue Aug  2 12:02:06 2022
+Tested:      2 @ Tue Aug  2 12:02:06 2022
+Tested:      3 @ Tue Aug  2 12:02:06 2022
+Tested:      4 @ Tue Aug  2 12:02:06 2022
+Tested:      5 @ Tue Aug  2 12:02:06 2022
+Tested:      6 @ Tue Aug  2 12:02:06 2022
+Tested:      7 @ Tue Aug  2 12:02:06 2022
+Ready:       7 @ Tue Aug  2 12:02:06 2022
+Seconds taken: 0.0001 (61403.51 p/s)
 
 overall accuracy:        0.571429  (4/7), of which 3 exact matches 
 There was 1 tie of which 1 (100.00%) was correctly resolved
@@ -154,15 +154,15 @@ Feature 1	 : 0.120349398760858
 Feature 2	 : 0.030433063314477
 Feature 3	 : 0.011399512855398
 
-Tested:      1 @ Mon Sep  2 15:22:38 2019
-Tested:      2 @ Mon Sep  2 15:22:38 2019
-Tested:      3 @ Mon Sep  2 15:22:38 2019
-Tested:      4 @ Mon Sep  2 15:22:38 2019
-Tested:      5 @ Mon Sep  2 15:22:38 2019
-Tested:      6 @ Mon Sep  2 15:22:38 2019
-Tested:      7 @ Mon Sep  2 15:22:38 2019
-Ready:       7 @ Mon Sep  2 15:22:38 2019
-Seconds taken: 0.0001 (52631.58 p/s)
+Tested:      1 @ Tue Aug  2 12:02:06 2022
+Tested:      2 @ Tue Aug  2 12:02:06 2022
+Tested:      3 @ Tue Aug  2 12:02:06 2022
+Tested:      4 @ Tue Aug  2 12:02:06 2022
+Tested:      5 @ Tue Aug  2 12:02:06 2022
+Tested:      6 @ Tue Aug  2 12:02:06 2022
+Tested:      7 @ Tue Aug  2 12:02:06 2022
+Ready:       7 @ Tue Aug  2 12:02:06 2022
+Seconds taken: 0.0002 (46357.62 p/s)
 
 overall accuracy:        0.714286  (5/7), of which 2 exact matches 
 Examine datafile './tests/bug26.test' gave the following results:
@@ -185,15 +185,15 @@ Feature 1	 : 0.120349398760858
 Feature 2	 : 0.030433063314477
 Feature 3	 : 0.011399512855398
 
-Tested:      1 @ Mon Sep  2 15:22:38 2019
-Tested:      2 @ Mon Sep  2 15:22:38 2019
-Tested:      3 @ Mon Sep  2 15:22:38 2019
-Tested:      4 @ Mon Sep  2 15:22:38 2019
-Tested:      5 @ Mon Sep  2 15:22:38 2019
-Tested:      6 @ Mon Sep  2 15:22:38 2019
-Tested:      7 @ Mon Sep  2 15:22:38 2019
-Ready:       7 @ Mon Sep  2 15:22:38 2019
-Seconds taken: 0.0001 (77777.78 p/s)
+Tested:      1 @ Tue Aug  2 12:02:06 2022
+Tested:      2 @ Tue Aug  2 12:02:06 2022
+Tested:      3 @ Tue Aug  2 12:02:06 2022
+Tested:      4 @ Tue Aug  2 12:02:06 2022
+Tested:      5 @ Tue Aug  2 12:02:06 2022
+Tested:      6 @ Tue Aug  2 12:02:06 2022
+Tested:      7 @ Tue Aug  2 12:02:06 2022
+Ready:       7 @ Tue Aug  2 12:02:06 2022
+Seconds taken: 0.0001 (68627.45 p/s)
 
 overall accuracy:        0.571429  (4/7), of which 3 exact matches 
 There was 1 tie of which 1 (100.00%) was correctly resolved
@@ -219,15 +219,15 @@ Feature 1	 : 0.120349398760858
 Feature 2	 : 0.030433063314477
 Feature 3	 : 0.011399512855398
 
-Tested:      1 @ Mon Sep  2 15:22:38 2019
-Tested:      2 @ Mon Sep  2 15:22:38 2019
-Tested:      3 @ Mon Sep  2 15:22:38 2019
-Tested:      4 @ Mon Sep  2 15:22:38 2019
-Tested:      5 @ Mon Sep  2 15:22:38 2019
-Tested:      6 @ Mon Sep  2 15:22:38 2019
-Tested:      7 @ Mon Sep  2 15:22:38 2019
-Ready:       7 @ Mon Sep  2 15:22:38 2019
-Seconds taken: 0.0001 (53030.30 p/s)
+Tested:      1 @ Tue Aug  2 12:02:06 2022
+Tested:      2 @ Tue Aug  2 12:02:06 2022
+Tested:      3 @ Tue Aug  2 12:02:06 2022
+Tested:      4 @ Tue Aug  2 12:02:06 2022
+Tested:      5 @ Tue Aug  2 12:02:06 2022
+Tested:      6 @ Tue Aug  2 12:02:06 2022
+Tested:      7 @ Tue Aug  2 12:02:06 2022
+Ready:       7 @ Tue Aug  2 12:02:06 2022
+Seconds taken: 0.0001 (56451.61 p/s)
 
 overall accuracy:        0.571429  (4/7), of which 3 exact matches 
 There was 1 tie of which 1 (100.00%) was correctly resolved
@@ -240,7 +240,7 @@ B,rood,0,+,+ { + 4.00000, - 3.00000 }        0.011399512855398
 D,rood,8,-,+ { + 1.00000 }        0.011399512855398
 C,rood,3,+,- { + 1.00000, - 2.00000 }        0.0000000000000
 C,groen,3,+,+ { + 4.00000, - 3.00000 }        0.030433063314477
-A,groen,-4,-,- { - 2.00000 }        0.047532332597575
+A,groen,-4,-,- { - 2.00000 }        0.047532332597574
 A,grijs,kaas,-,- { - 3.00000 }        0.041832576169875
 B,rood,2,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
 B,rood,0,+,+ { + 2.00000, - 1.00000 }        0.0028498782138496
@@ -254,7 +254,7 @@ B,rood,0,+,+ { + 4.00000, - 3.00000 }        0.0000000000000
 D,rood,8,-,+ { + 1.00000 }        0.011399512855398
 C,rood,3,+,- { + 1.00000, - 2.00000 }        0.0000000000000
 C,groen,3,+,+ { + 1.00000 }        0.021490964064439
-A,groen,-4,-,- { - 2.00000 }        0.047532332597575
+A,groen,-4,-,- { - 2.00000 }        0.047532332597574
 A,grijs,kaas,-,- { - 3.00000 }        0.041832576169875
 B,rood,2,+,+ { + 2.00000, - 1.00000 }        0.0000000000000
 B,rood,0,+,+ { + 2.00000, - 1.00000 }        0.0028498782138496

@@ -1,18 +1,18 @@
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:19:51 2019
+Tue Aug  2 12:07:59 2022
 
 Examine datafile 'tests/hapax.smalltrain' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Sep  2 15:19:51 2019
-Finished:   28405 @ Mon Sep  2 15:19:51 2019
-Calculating Entropy         Mon Sep  2 15:19:51 2019
+Start:          0 @ Tue Aug  2 12:07:59 2022
+Finished:   28405 @ Tue Aug  2 12:07:59 2022
+Calculating Entropy         Tue Aug  2 12:07:59 2022
 Lines of data     : 28405
 DB Entropy        : 9.6917779
 Number of Classes : 4947
@@ -33,19 +33,19 @@ Feats	Vals	InfoGain	GainRatio
    13   4949	5.4111923	0.55835478
    14   4949	5.3881113	0.55597648
 
-Preparation took 0 seconds, 356 milliseconds and 171 microseconds
+Preparation took 0 seconds, 528 milliseconds and 723 microseconds
 Feature Permutation based on GainRatio/Values :
 < 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
 Phase 2: Building multi index on Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Sep  2 15:19:51 2019
-Finished:   28405 @ Mon Sep  2 15:19:51 2019
+Start:          0 @ Tue Aug  2 12:07:59 2022
+Finished:   28405 @ Tue Aug  2 12:08:00 2022
 
 Phase 3: Learning from Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Sep  2 15:19:51 2019
-Finished:   28405 @ Mon Sep  2 15:19:52 2019
+Start:          0 @ Tue Aug  2 12:08:00 2022
+Finished:   28405 @ Tue Aug  2 12:08:00 2022
 
 Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
-Learning took 0 seconds, 527 milliseconds and 838 microseconds
+Learning took 0 seconds, 945 milliseconds and 16 microseconds
 Examine datafile 'tests/hapax.smalltest' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -58,7 +58,7 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 Feature 1	 : 0.556045835795306
-Feature 2	 : 0.558467880783747
+Feature 2	 : 0.558467880783746
 Feature 3	 : 0.560307560110388
 Feature 4	 : 0.567901848648317
 Feature 5	 : 0.575818740110730
@@ -72,36 +72,36 @@ Feature 12	 : 0.560245296566752
 Feature 13	 : 0.558354776963652
 Feature 14	 : 0.555976477380017
 
-Tested:      1 @ Mon Sep  2 15:19:52 2019
-Tested:      2 @ Mon Sep  2 15:19:52 2019
-Tested:      3 @ Mon Sep  2 15:19:52 2019
-Tested:      4 @ Mon Sep  2 15:19:52 2019
-Tested:      5 @ Mon Sep  2 15:19:52 2019
-Tested:      6 @ Mon Sep  2 15:19:52 2019
-Tested:      7 @ Mon Sep  2 15:19:52 2019
-Tested:      8 @ Mon Sep  2 15:19:52 2019
-Tested:      9 @ Mon Sep  2 15:19:52 2019
-Tested:     10 @ Mon Sep  2 15:19:52 2019
-Ready:      86 @ Mon Sep  2 15:19:53 2019
-Seconds taken: 0.8542 (100.68 p/s)
+Tested:      1 @ Tue Aug  2 12:08:00 2022
+Tested:      2 @ Tue Aug  2 12:08:00 2022
+Tested:      3 @ Tue Aug  2 12:08:00 2022
+Tested:      4 @ Tue Aug  2 12:08:00 2022
+Tested:      5 @ Tue Aug  2 12:08:00 2022
+Tested:      6 @ Tue Aug  2 12:08:00 2022
+Tested:      7 @ Tue Aug  2 12:08:00 2022
+Tested:      8 @ Tue Aug  2 12:08:00 2022
+Tested:      9 @ Tue Aug  2 12:08:00 2022
+Tested:     10 @ Tue Aug  2 12:08:00 2022
+Ready:      86 @ Tue Aug  2 12:08:01 2022
+Seconds taken: 0.8127 (105.82 p/s)
 
 overall accuracy:        0.081395  (7/86)
 There were 14 ties of which 0 (0.00%) were correctly resolved
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:19:53 2019
+Tue Aug  2 12:08:01 2022
 
 Examine datafile 'tests/hapax.smalltrain' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
 
 Phase 1: Reading Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Sep  2 15:19:53 2019
-Finished:   28405 @ Mon Sep  2 15:19:53 2019
-Calculating Entropy         Mon Sep  2 15:19:53 2019
+Start:          0 @ Tue Aug  2 12:08:01 2022
+Finished:   28405 @ Tue Aug  2 12:08:02 2022
+Calculating Entropy         Tue Aug  2 12:08:02 2022
 Lines of data     : 28405
 DB Entropy        : 9.6917779
 Number of Classes : 4947
@@ -122,19 +122,19 @@ Feats	Vals	InfoGain	GainRatio
    13   4949	5.4111923	0.55835478
    14   4949	5.3881113	0.55597648
 
-Preparation took 0 seconds, 380 milliseconds and 221 microseconds
+Preparation took 0 seconds, 599 milliseconds and 383 microseconds
 Feature Permutation based on GainRatio/Values :
 < 7, 8, 6, 9, 5, 10, 4, 11, 3, 12, 2, 13, 1, 14 >
 Phase 2: Building multi index on Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Sep  2 15:19:53 2019
-Finished:   28405 @ Mon Sep  2 15:19:53 2019
+Start:          0 @ Tue Aug  2 12:08:02 2022
+Finished:   28405 @ Tue Aug  2 12:08:02 2022
 
 Phase 3: Learning from Datafile: tests/hapax.smalltrain
-Start:          0 @ Mon Sep  2 15:19:53 2019
-Finished:   28405 @ Mon Sep  2 15:19:54 2019
+Start:          0 @ Tue Aug  2 12:08:02 2022
+Finished:   28405 @ Tue Aug  2 12:08:03 2022
 
 Size of InstanceBase = 350821 Nodes, (14032840 bytes), 9.55 % compression
-Learning took 0 seconds, 570 milliseconds and 527 microseconds
+Learning took 0 seconds, 983 milliseconds and 454 microseconds
 Examine datafile 'tests/hapax.smalltest' gave the following results:
 Number of Features: 14
 InputFormat       : Columns
@@ -147,7 +147,7 @@ Global metric : Overlap
 Deviant Feature Metrics:(none)
 Weighting     : GainRatio
 Feature 1	 : 0.556045835795306
-Feature 2	 : 0.558467880783747
+Feature 2	 : 0.558467880783746
 Feature 3	 : 0.560307560110388
 Feature 4	 : 0.567901848648317
 Feature 5	 : 0.575818740110730
@@ -161,18 +161,18 @@ Feature 12	 : 0.560245296566752
 Feature 13	 : 0.558354776963652
 Feature 14	 : 0.555976477380017
 
-Tested:      1 @ Mon Sep  2 15:19:54 2019
-Tested:      2 @ Mon Sep  2 15:19:54 2019
-Tested:      3 @ Mon Sep  2 15:19:54 2019
-Tested:      4 @ Mon Sep  2 15:19:54 2019
-Tested:      5 @ Mon Sep  2 15:19:54 2019
-Tested:      6 @ Mon Sep  2 15:19:54 2019
-Tested:      7 @ Mon Sep  2 15:19:54 2019
-Tested:      8 @ Mon Sep  2 15:19:54 2019
-Tested:      9 @ Mon Sep  2 15:19:54 2019
-Tested:     10 @ Mon Sep  2 15:19:54 2019
-Ready:      86 @ Mon Sep  2 15:19:55 2019
-Seconds taken: 0.8947 (96.12 p/s)
+Tested:      1 @ Tue Aug  2 12:08:03 2022
+Tested:      2 @ Tue Aug  2 12:08:03 2022
+Tested:      3 @ Tue Aug  2 12:08:03 2022
+Tested:      4 @ Tue Aug  2 12:08:03 2022
+Tested:      5 @ Tue Aug  2 12:08:03 2022
+Tested:      6 @ Tue Aug  2 12:08:03 2022
+Tested:      7 @ Tue Aug  2 12:08:03 2022
+Tested:      8 @ Tue Aug  2 12:08:03 2022
+Tested:      9 @ Tue Aug  2 12:08:03 2022
+Tested:     10 @ Tue Aug  2 12:08:03 2022
+Ready:      86 @ Tue Aug  2 12:08:04 2022
+Seconds taken: 0.8007 (107.40 p/s)
 
 overall accuracy:        0.081395  (7/86)
 There were 14 ties of which 0 (0.00%) were correctly resolved
