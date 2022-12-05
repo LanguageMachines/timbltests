@@ -78,7 +78,7 @@ cat /tmp/server2.log
 
 rm -rf /tmp/server3.log
 $exec $doD --config=./tests/tcpserver.cfg +vCD --logfile=/tmp/server3.log --pidfile=/tmp/run/pid3 &
-sleep 20
+sleep 10
 
 \rm -f /tmp/dimin.out
 $client -n $lh -p 17000 < ./tests/dimin.test.scr > /tmp/dimin.out
