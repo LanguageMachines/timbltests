@@ -61,7 +61,7 @@ Tested:     10 @ Tue Nov 16 13:46:15 2021
 Ready:      15 @ Tue Nov 16 13:46:15 2021
 Seconds taken: 0.0002 (64102.56 p/s)
 
-overall accuracy:        0.933333  (14/15), of which 1 exact matches 
+overall accuracy:        0.933333  (14/15), of which 1 exact matches
 There was 1 tie of which 0 (0.00%) was correctly resolved
 काचं,माम्,sanskriet,sanskriet
 nopahinasti,śaknomyattum,sanskriet-t,sanskriet-t
@@ -77,7 +77,7 @@ nopahinasti,śaknomyattum,sanskriet-t,sanskriet-t
 thể ăn,mà không hại gì,vietnamees,vietnamees
 나는,있어요,koreaans,koreaans
 Би шил,идэй надад,mongools,mongools
-gráda,mañana,spaans,spaans
+gráda,mañana,spaans,spaans
 TiMBL 6.6 (c) CLST/ILK/CLIPS 1998 - 2021.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
@@ -325,5 +325,5 @@ Tested:     10 @ Tue Nov 16 13:46:15 2021
 Ready:      15 @ Tue Nov 16 13:46:15 2021
 Seconds taken: 0.0003 (55970.15 p/s)
 
-overall accuracy:        0.933333  (14/15), of which 1 exact matches 
+overall accuracy:        0.933333  (14/15), of which 1 exact matches
 There was 1 tie of which 0 (0.00%) was correctly resolved
