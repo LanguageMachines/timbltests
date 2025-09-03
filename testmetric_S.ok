@@ -1,18 +1,18 @@
-TiMBL 6.8 (c) CLST/ILK/CLIPS 1998 - 2022.
+TiMBL 6.11 (c) CLST/ILK/CLIPS 1998 - 2024.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Tue Aug  2 12:08:15 2022
+Wed Sep  3 10:54:51 2025
 
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/dimin.train
-Start:          0 @ Tue Aug  2 12:08:15 2022
-Finished:    2999 @ Tue Aug  2 12:08:15 2022
-Calculating Entropy         Tue Aug  2 12:08:15 2022
+Start:          0 @ Wed Sep  3 10:54:51 2025
+Finished:    2999 @ Wed Sep  3 10:54:51 2025
+Calculating Entropy         Wed Sep  3 10:54:51 2025
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -31,19 +31,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
-Preparation took 0 seconds, 13 milliseconds and 619 microseconds
+Preparation took 0 seconds, 14 milliseconds and 786 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 Phase 2: Building multi index on Datafile: ./tests/dimin.train
-Start:          0 @ Tue Aug  2 12:08:15 2022
-Finished:    2999 @ Tue Aug  2 12:08:15 2022
+Start:          0 @ Wed Sep  3 10:54:51 2025
+Finished:    2999 @ Wed Sep  3 10:54:51 2025
 
 Phase 3: Learning from Datafile: ./tests/dimin.train
-Start:          0 @ Tue Aug  2 12:08:15 2022
-Finished:    2999 @ Tue Aug  2 12:08:15 2022
+Start:          0 @ Wed Sep  3 10:54:51 2025
+Finished:    2999 @ Wed Sep  3 10:54:51 2025
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
-Learning took 0 seconds, 32 milliseconds and 578 microseconds
+Learning took 0 seconds, 37 milliseconds and 604 microseconds
 Examine datafile './tests/dimin.test' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
@@ -82,19 +82,19 @@ Feature 10	 : 0.042844587034556
 Feature 11	 : 0.185070180760327
 Feature 12	 : 0.325371814230901
 
-Tested:      1 @ Tue Aug  2 12:08:15 2022
-Tested:      2 @ Tue Aug  2 12:08:15 2022
-Tested:      3 @ Tue Aug  2 12:08:15 2022
-Tested:      4 @ Tue Aug  2 12:08:15 2022
-Tested:      5 @ Tue Aug  2 12:08:15 2022
-Tested:      6 @ Tue Aug  2 12:08:15 2022
-Tested:      7 @ Tue Aug  2 12:08:15 2022
-Tested:      8 @ Tue Aug  2 12:08:15 2022
-Tested:      9 @ Tue Aug  2 12:08:15 2022
-Tested:     10 @ Tue Aug  2 12:08:15 2022
-Tested:    100 @ Tue Aug  2 12:08:15 2022
-Ready:     950 @ Tue Aug  2 12:08:15 2022
-Seconds taken: 0.0406 (23385.19 p/s)
+Tested:      1 @ Wed Sep  3 10:54:51 2025
+Tested:      2 @ Wed Sep  3 10:54:51 2025
+Tested:      3 @ Wed Sep  3 10:54:51 2025
+Tested:      4 @ Wed Sep  3 10:54:51 2025
+Tested:      5 @ Wed Sep  3 10:54:51 2025
+Tested:      6 @ Wed Sep  3 10:54:51 2025
+Tested:      7 @ Wed Sep  3 10:54:51 2025
+Tested:      8 @ Wed Sep  3 10:54:51 2025
+Tested:      9 @ Wed Sep  3 10:54:51 2025
+Tested:     10 @ Wed Sep  3 10:54:51 2025
+Tested:    100 @ Wed Sep  3 10:54:51 2025
+Ready:     950 @ Wed Sep  3 10:54:52 2025
+Seconds taken: 0.0395 (24062.21 p/s)
 
 overall accuracy:        0.964211  (916/950), of which 62 exact matches 
 There were 7 ties of which 6 (85.71%) were correctly resolved
@@ -771,7 +771,7 @@ There were 7 ties of which 6 (85.71%) were correctly resolved
 -,=,a,=,+,l,A,rm,-,b,E,l,E,E { E 1.00000 }        0.0099537259033343
 +,d,i,n,-,t,a,=,-,f,@,l,T,T { T 1.00000 }        0.0015841818740009
 +,G,e,t,-,m,@,=,-,n,i,t,J,J { J 1.00000 }        0.0000000000000
-=,=,=,=,+,=,O,=,-,p,@,r,T,T { T 1.00000 }        0.00064016008336734
+=,=,=,=,+,=,O,=,-,p,@,r,T,T { T 1.00000 }        0.00064016008336735
 =,=,=,=,=,=,=,=,+,br,K,n,T,T { T 1.00000 }        0.0024501037222907
 =,=,=,=,=,=,=,=,+,v,I,lt,J,J { J 2.00000 }        0.0000000000000
 +,z,o,=,-,m,@,r,-,h,L,s,J,J { J 1.00000 }        0.00049325123500502
