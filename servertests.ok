@@ -1,20 +1,20 @@
 Testing Servers
-TiMBL Server 1.16 (c) CLTS/ILK/CLIPS 1998 - 2022.
+TiMBL Server 1.20 (c) CLTS/ILK/CLIPS 1998 - 2024.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.8
-Mon Nov  7 14:53:57 2022
-20221107:145357:359:tcp_server:trainName = ./tests/dimin.train
+based on timbl 6.11
+Wed Sep  3 19:28:04 2025
+20250903:192804:773:tcp_server:trainName = ./tests/dimin.train
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -default-Phase 1: Reading Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:53:57 2022
--default-Finished:    2999 @ Mon Nov  7 14:53:57 2022
--default-Calculating Entropy         Mon Nov  7 14:53:57 2022
+-default-Start:          0 @ Wed Sep  3 19:28:04 2025
+-default-Finished:    2999 @ Wed Sep  3 19:28:04 2025
+-default-Calculating Entropy         Wed Sep  3 19:28:04 2025
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -33,22 +33,22 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--default-Preparation took 0 seconds, 21 milliseconds and 518 microseconds
+-default-Preparation took 0 seconds, 16 milliseconds and 110 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -default-Phase 2: Building multi index on Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:53:57 2022
--default-Finished:    2999 @ Mon Nov  7 14:53:57 2022
+-default-Start:          0 @ Wed Sep  3 19:28:04 2025
+-default-Finished:    2999 @ Wed Sep  3 19:28:04 2025
 -default-
 Phase 3: Learning from Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:53:57 2022
--default-Finished:    2999 @ Mon Nov  7 14:53:57 2022
+-default-Start:          0 @ Wed Sep  3 19:28:04 2025
+-default-Finished:    2999 @ Wed Sep  3 19:28:04 2025
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--default-Learning took 0 seconds, 35 milliseconds and 211 microseconds
-20221107:145357:427:tcp_server:started experiment default with parameters: -f ./tests/dimin.train +v F -v S
-20221107:145357:427:tcp_server:Starting a tcp server on port 17345
-20221107:145357:427:tcp_server:switching logging to file /tmp/server1.log
+-default-Learning took 0 seconds, 37 milliseconds and 192 microseconds
+20250903:192804:833:tcp_server:started experiment default with parameters: -f ./tests/dimin.train +v F -v S
+20250903:192804:833:tcp_server:Starting a tcp server on port 17345
+20250903:192804:833:tcp_server:switching logging to file /tmp/server1.log
 Starting Client on node:kobus, port:17345
 ERROR { Unknown basename: dimin0}
 STATUS
@@ -61,6 +61,7 @@ DECAY                : Z
 DECAYPARAM_A         : 1.00000
 DECAYPARAM_B         : 1.00000
 DO_DIVERSIFY         : false
+DO_PRUNE             : false
 DO_SILLY             : false
 DO_SLOPPY_LOO        : false
 EXACT_MATCH          : false
@@ -108,6 +109,7 @@ DECAY                : Z
 DECAYPARAM_A         : 1.00000
 DECAYPARAM_B         : 1.00000
 DO_DIVERSIFY         : false
+DO_PRUNE             : false
 DO_SILLY             : false
 DO_SLOPPY_LOO        : false
 EXACT_MATCH          : false
@@ -1177,107 +1179,107 @@ Starting Client on node:kobus, port:17345
 =,=,=,=,-,x,A,r,+,n,a,l,T --> CATEGORY {T}
 =,=,=,=,=,=,=,=,+,h,o,rn,T --> CATEGORY {T}
 +,k,o,=,-,n,I,Ns,-,k,a,rs,J --> CATEGORY {J}
-20221107:145357:427:tcp_server:Started logging 
-20221107:145357:427:tcp_server:debugging is off
-20221107:145357:427:tcp_server:running as a dæmon
-20221107:145357:427:tcp_server:wrote PID=411649 to /tmp/run/pid1
-20221107:145357:427:tcp_server:Now running a tcp server on port 17345
-20221107:145407:361:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20221107:145407:361:tcp_server:Thread 139631888188992 on socket 5, started at: Mon Nov  7 14:54:07 2022
-20221107:145408:379:tcp_server:Thread 139631888188992 terminated, 13 instances processed 
-20221107:145408:379:tcp_server:Socket total = 0
-20221107:145408:379:tcp_server:Thread 139631888188992, terminated at: Mon Nov  7 14:54:08 2022
-20221107:145408:383:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20221107:145408:383:tcp_server:Thread 139631888188992 on socket 6, started at: Mon Nov  7 14:54:08 2022
-20221107:145409:618:tcp_server:Thread 139631888188992 terminated, 950 instances processed 
-20221107:145409:618:tcp_server:Socket total = 0
-20221107:145409:618:tcp_server:Thread 139631888188992, terminated at: Mon Nov  7 14:54:09 2022
-20221107:145409:621:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20221107:145409:621:tcp_server:Thread 139631888188992 on socket 5, started at: Mon Nov  7 14:54:09 2022
-20221107:145410:786:tcp_server:Thread 139631888188992 terminated, 950 instances processed 
-20221107:145410:786:tcp_server:Socket total = 0
-20221107:145410:786:tcp_server:Thread 139631888188992, terminated at: Mon Nov  7 14:54:10 2022
-20221107:145410:789:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20221107:145410:789:tcp_server:Thread 139631888188992 on socket 6, started at: Mon Nov  7 14:54:10 2022
-20221107:145411:942:tcp_server:Thread 139631888188992 terminated, 950 instances processed 
-20221107:145411:942:tcp_server:Socket total = 0
-20221107:145411:942:tcp_server:Thread 139631888188992, terminated at: Mon Nov  7 14:54:11 2022
-20221107:145411:945:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20221107:145411:945:tcp_server:Thread 139631888188992 on socket 5, started at: Mon Nov  7 14:54:11 2022
-20221107:145412:951:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20221107:145412:951:tcp_server:Thread 139631879796288 on socket 6, started at: Mon Nov  7 14:54:12 2022
-20221107:145413:018:tcp_server:Thread 139631888188992 terminated, 950 instances processed 
-20221107:145413:018:tcp_server:Socket total = 1
-20221107:145413:018:tcp_server:Thread 139631888188992, terminated at: Mon Nov  7 14:54:13 2022
-20221107:145413:962:tcp_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
-20221107:145413:963:tcp_server:Thread 139631888188992 on socket 7, started at: Mon Nov  7 14:54:13 2022
-20221107:145414:074:tcp_server:Thread 139631879796288 terminated, 950 instances processed 
-20221107:145414:074:tcp_server:Socket total = 1
-20221107:145414:074:tcp_server:Thread 139631879796288, terminated at: Mon Nov  7 14:54:14 2022
-20221107:145414:964:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20221107:145414:964:tcp_server:Thread 139631879796288 on socket 5, started at: Mon Nov  7 14:54:14 2022
-20221107:145415:136:tcp_server:Thread 139631888188992 terminated, 950 instances processed 
-20221107:145415:136:tcp_server:Socket total = 1
-20221107:145415:136:tcp_server:Thread 139631888188992, terminated at: Mon Nov  7 14:54:15 2022
-20221107:145415:958:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20221107:145415:958:tcp_server:Thread 139631888188992 on socket 6, started at: Mon Nov  7 14:54:15 2022
-20221107:145416:051:tcp_server:Thread 139631879796288 terminated, 950 instances processed 
-20221107:145416:051:tcp_server:Socket total = 1
-20221107:145416:051:tcp_server:Thread 139631879796288, terminated at: Mon Nov  7 14:54:16 2022
-20221107:145416:972:tcp_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
-20221107:145416:972:tcp_server:Thread 139631879796288 on socket 7, started at: Mon Nov  7 14:54:16 2022
-20221107:145417:086:tcp_server:Thread 139631888188992 terminated, 950 instances processed 
-20221107:145417:086:tcp_server:Socket total = 1
-20221107:145417:086:tcp_server:Thread 139631888188992, terminated at: Mon Nov  7 14:54:17 2022
-20221107:145417:964:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20221107:145417:964:tcp_server:Thread 139631888188992 on socket 5, started at: Mon Nov  7 14:54:17 2022
-20221107:145418:089:tcp_server:Thread 139631879796288 terminated, 950 instances processed 
-20221107:145418:089:tcp_server:Socket total = 1
-20221107:145418:089:tcp_server:Thread 139631879796288, terminated at: Mon Nov  7 14:54:18 2022
-20221107:145418:964:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20221107:145418:964:tcp_server:Thread 139631879796288 on socket 6, started at: Mon Nov  7 14:54:18 2022
-20221107:145419:059:tcp_server:Thread 139631888188992 terminated, 950 instances processed 
-20221107:145419:059:tcp_server:Socket total = 1
-20221107:145419:059:tcp_server:Thread 139631888188992, terminated at: Mon Nov  7 14:54:19 2022
-20221107:145419:977:tcp_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
-20221107:145419:977:tcp_server:Thread 139631888188992 on socket 7, started at: Mon Nov  7 14:54:19 2022
-20221107:145420:151:tcp_server:Thread 139631879796288 terminated, 950 instances processed 
-20221107:145420:151:tcp_server:Socket total = 1
-20221107:145420:151:tcp_server:Thread 139631879796288, terminated at: Mon Nov  7 14:54:20 2022
-20221107:145420:969:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20221107:145420:969:tcp_server:Thread 139631879796288 on socket 5, started at: Mon Nov  7 14:54:20 2022
-20221107:145421:094:tcp_server:Thread 139631888188992 terminated, 950 instances processed 
-20221107:145421:094:tcp_server:Socket total = 1
-20221107:145421:094:tcp_server:Thread 139631888188992, terminated at: Mon Nov  7 14:54:21 2022
-20221107:145421:971:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20221107:145421:971:tcp_server:Thread 139631888188992 on socket 6, started at: Mon Nov  7 14:54:21 2022
-20221107:145422:057:tcp_server:Thread 139631879796288 terminated, 950 instances processed 
-20221107:145422:058:tcp_server:Socket total = 1
-20221107:145422:058:tcp_server:Thread 139631879796288, terminated at: Mon Nov  7 14:54:22 2022
-20221107:145422:972:tcp_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
-20221107:145422:972:tcp_server:Thread 139631879796288 on socket 7, started at: Mon Nov  7 14:54:22 2022
-20221107:145423:053:tcp_server:Thread 139631888188992 terminated, 950 instances processed 
-20221107:145423:053:tcp_server:Socket total = 1
-20221107:145423:053:tcp_server:Thread 139631888188992, terminated at: Mon Nov  7 14:54:23 2022
-20221107:145424:071:tcp_server:Thread 139631879796288 terminated, 950 instances processed 
-20221107:145424:071:tcp_server:Socket total = 0
-20221107:145424:071:tcp_server:Thread 139631879796288, terminated at: Mon Nov  7 14:54:24 2022
-TiMBL Server 1.16 (c) CLTS/ILK/CLIPS 1998 - 2022.
+20250903:192804:834:tcp_server:Started logging 
+20250903:192804:834:tcp_server:debugging is off
+20250903:192804:834:tcp_server:running as a dæmon
+20250903:192804:834:tcp_server:wrote PID=118402 to /tmp/run/pid1
+20250903:192804:834:tcp_server:Now running a tcp server on port 17345
+20250903:192814:774:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20250903:192814:774:tcp_server:Thread 135234125297344 on socket 5, started at: Wed Sep  3 19:28:14 2025
+20250903:192815:809:tcp_server:Thread 135234125297344 terminated, 13 instances processed 
+20250903:192815:809:tcp_server:Socket total = 0
+20250903:192815:809:tcp_server:Thread 135234125297344, terminated at: Wed Sep  3 19:28:15 2025
+20250903:192815:814:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20250903:192815:815:tcp_server:Thread 135234125297344 on socket 6, started at: Wed Sep  3 19:28:15 2025
+20250903:192816:958:tcp_server:Thread 135234125297344 terminated, 950 instances processed 
+20250903:192816:958:tcp_server:Socket total = 0
+20250903:192816:958:tcp_server:Thread 135234125297344, terminated at: Wed Sep  3 19:28:16 2025
+20250903:192816:961:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20250903:192816:962:tcp_server:Thread 135234125297344 on socket 5, started at: Wed Sep  3 19:28:16 2025
+20250903:192818:107:tcp_server:Thread 135234125297344 terminated, 950 instances processed 
+20250903:192818:107:tcp_server:Socket total = 0
+20250903:192818:107:tcp_server:Thread 135234125297344, terminated at: Wed Sep  3 19:28:18 2025
+20250903:192818:111:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20250903:192818:111:tcp_server:Thread 135234125297344 on socket 6, started at: Wed Sep  3 19:28:18 2025
+20250903:192819:204:tcp_server:Thread 135234125297344 terminated, 950 instances processed 
+20250903:192819:204:tcp_server:Socket total = 0
+20250903:192819:204:tcp_server:Thread 135234125297344, terminated at: Wed Sep  3 19:28:19 2025
+20250903:192819:207:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20250903:192819:208:tcp_server:Thread 135234125297344 on socket 5, started at: Wed Sep  3 19:28:19 2025
+20250903:192820:214:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20250903:192820:214:tcp_server:Thread 135234116904640 on socket 6, started at: Wed Sep  3 19:28:20 2025
+20250903:192820:285:tcp_server:Thread 135234125297344 terminated, 950 instances processed 
+20250903:192820:285:tcp_server:Socket total = 1
+20250903:192820:285:tcp_server:Thread 135234125297344, terminated at: Wed Sep  3 19:28:20 2025
+20250903:192821:214:tcp_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
+20250903:192821:214:tcp_server:Thread 135234125297344 on socket 7, started at: Wed Sep  3 19:28:21 2025
+20250903:192821:285:tcp_server:Thread 135234116904640 terminated, 950 instances processed 
+20250903:192821:285:tcp_server:Socket total = 1
+20250903:192821:285:tcp_server:Thread 135234116904640, terminated at: Wed Sep  3 19:28:21 2025
+20250903:192822:220:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20250903:192822:220:tcp_server:Thread 135234116904640 on socket 5, started at: Wed Sep  3 19:28:22 2025
+20250903:192822:289:tcp_server:Thread 135234125297344 terminated, 950 instances processed 
+20250903:192822:289:tcp_server:Socket total = 1
+20250903:192822:289:tcp_server:Thread 135234125297344, terminated at: Wed Sep  3 19:28:22 2025
+20250903:192823:225:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20250903:192823:226:tcp_server:Thread 135234125297344 on socket 6, started at: Wed Sep  3 19:28:23 2025
+20250903:192823:310:tcp_server:Thread 135234116904640 terminated, 950 instances processed 
+20250903:192823:310:tcp_server:Socket total = 1
+20250903:192823:310:tcp_server:Thread 135234116904640, terminated at: Wed Sep  3 19:28:23 2025
+20250903:192824:230:tcp_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
+20250903:192824:230:tcp_server:Thread 135234116904640 on socket 7, started at: Wed Sep  3 19:28:24 2025
+20250903:192824:299:tcp_server:Thread 135234125297344 terminated, 950 instances processed 
+20250903:192824:299:tcp_server:Socket total = 1
+20250903:192824:299:tcp_server:Thread 135234125297344, terminated at: Wed Sep  3 19:28:24 2025
+20250903:192825:240:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20250903:192825:240:tcp_server:Thread 135234125297344 on socket 5, started at: Wed Sep  3 19:28:25 2025
+20250903:192825:366:tcp_server:Thread 135234116904640 terminated, 950 instances processed 
+20250903:192825:366:tcp_server:Socket total = 1
+20250903:192825:366:tcp_server:Thread 135234116904640, terminated at: Wed Sep  3 19:28:25 2025
+20250903:192826:233:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20250903:192826:234:tcp_server:Thread 135234116904640 on socket 6, started at: Wed Sep  3 19:28:26 2025
+20250903:192826:305:tcp_server:Thread 135234125297344 terminated, 950 instances processed 
+20250903:192826:305:tcp_server:Socket total = 1
+20250903:192826:305:tcp_server:Thread 135234125297344, terminated at: Wed Sep  3 19:28:26 2025
+20250903:192827:239:tcp_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
+20250903:192827:239:tcp_server:Thread 135234125297344 on socket 7, started at: Wed Sep  3 19:28:27 2025
+20250903:192827:323:tcp_server:Thread 135234116904640 terminated, 950 instances processed 
+20250903:192827:323:tcp_server:Socket total = 1
+20250903:192827:323:tcp_server:Thread 135234116904640, terminated at: Wed Sep  3 19:28:27 2025
+20250903:192828:245:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20250903:192828:245:tcp_server:Thread 135234116904640 on socket 5, started at: Wed Sep  3 19:28:28 2025
+20250903:192828:315:tcp_server:Thread 135234125297344 terminated, 950 instances processed 
+20250903:192828:315:tcp_server:Socket total = 1
+20250903:192828:315:tcp_server:Thread 135234125297344, terminated at: Wed Sep  3 19:28:28 2025
+20250903:192829:250:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20250903:192829:250:tcp_server:Thread 135234125297344 on socket 6, started at: Wed Sep  3 19:28:29 2025
+20250903:192829:323:tcp_server:Thread 135234116904640 terminated, 950 instances processed 
+20250903:192829:323:tcp_server:Socket total = 1
+20250903:192829:323:tcp_server:Thread 135234116904640, terminated at: Wed Sep  3 19:28:29 2025
+20250903:192830:254:tcp_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
+20250903:192830:254:tcp_server:Thread 135234116904640 on socket 7, started at: Wed Sep  3 19:28:30 2025
+20250903:192830:322:tcp_server:Thread 135234125297344 terminated, 950 instances processed 
+20250903:192830:322:tcp_server:Socket total = 1
+20250903:192830:322:tcp_server:Thread 135234125297344, terminated at: Wed Sep  3 19:28:30 2025
+20250903:192831:401:tcp_server:Thread 135234116904640 terminated, 950 instances processed 
+20250903:192831:401:tcp_server:Socket total = 0
+20250903:192831:401:tcp_server:Thread 135234116904640, terminated at: Wed Sep  3 19:28:31 2025
+TiMBL Server 1.20 (c) CLTS/ILK/CLIPS 1998 - 2024.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.8
-Mon Nov  7 14:54:33 2022
-20221107:145433:994:tcp_server:trainName = ./tests/dimin.train
+based on timbl 6.11
+Wed Sep  3 19:28:41 2025
+20250903:192841:280:tcp_server:trainName = ./tests/dimin.train
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -default-Phase 1: Reading Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:54:33 2022
--default-Finished:    2999 @ Mon Nov  7 14:54:34 2022
--default-Calculating Entropy         Mon Nov  7 14:54:34 2022
+-default-Start:          0 @ Wed Sep  3 19:28:41 2025
+-default-Finished:    2999 @ Wed Sep  3 19:28:41 2025
+-default-Calculating Entropy         Wed Sep  3 19:28:41 2025
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -1296,22 +1298,22 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--default-Preparation took 0 seconds, 13 milliseconds and 15 microseconds
+-default-Preparation took 0 seconds, 14 milliseconds and 998 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 -default-Phase 2: Building multi index on Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:54:34 2022
--default-Finished:    2999 @ Mon Nov  7 14:54:34 2022
+-default-Start:          0 @ Wed Sep  3 19:28:41 2025
+-default-Finished:    2999 @ Wed Sep  3 19:28:41 2025
 -default-
 Phase 3: Learning from Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:54:34 2022
--default-Finished:    2999 @ Mon Nov  7 14:54:34 2022
+-default-Start:          0 @ Wed Sep  3 19:28:41 2025
+-default-Finished:    2999 @ Wed Sep  3 19:28:41 2025
 
 Size of InstanceBase = 191 Nodes, (7640 bytes), 99.50 % compression
--default-Learning took 0 seconds, 36 milliseconds and 968 microseconds
-20221107:145434:047:tcp_server:started experiment default with parameters: -f ./tests/dimin.train -a 1 +D  +v F -v S
-20221107:145434:048:tcp_server:Starting a tcp server on port 17346
-20221107:145434:048:tcp_server:switching logging to file /tmp/server2.log
+-default-Learning took 0 seconds, 40 milliseconds and 95 microseconds
+20250903:192841:337:tcp_server:started experiment default with parameters: -f ./tests/dimin.train -a 1 +D  +v F -v S
+20250903:192841:337:tcp_server:Starting a tcp server on port 17346
+20250903:192841:338:tcp_server:switching logging to file /tmp/server2.log
 Starting Client on node:kobus, port:17346
 ERROR { Unknown basename: dimin0}
 STATUS
@@ -1324,6 +1326,7 @@ DECAY                : Z
 DECAYPARAM_A         : 1.00000
 DECAYPARAM_B         : 1.00000
 DO_DIVERSIFY         : false
+DO_PRUNE             : false
 DO_SILLY             : false
 DO_SLOPPY_LOO        : false
 EXACT_MATCH          : false
@@ -1371,6 +1374,7 @@ DECAY                : Z
 DECAYPARAM_A         : 1.00000
 DECAYPARAM_B         : 1.00000
 DO_DIVERSIFY         : false
+DO_PRUNE             : false
 DO_SILLY             : false
 DO_SLOPPY_LOO        : false
 EXACT_MATCH          : false
@@ -2366,119 +2370,119 @@ Starting Client on node:kobus, port:17346
 =,=,=,=,-,x,A,r,+,n,a,l,T --> CATEGORY {T}
 =,=,=,=,=,=,=,=,+,h,o,rn,T --> CATEGORY {T}
 +,k,o,=,-,n,I,Ns,-,k,a,rs,J --> CATEGORY {J}
-20221107:145434:048:tcp_server:Started logging 
-20221107:145434:048:tcp_server:debugging is off
-20221107:145434:048:tcp_server:running as a dæmon
-20221107:145434:048:tcp_server:wrote PID=411795 to /tmp/run/pid2
-20221107:145434:048:tcp_server:Now running a tcp server on port 17346
-20221107:145439:008:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20221107:145439:008:tcp_server:Thread 139631116695104 on socket 5, started at: Mon Nov  7 14:54:39 2022
-20221107:145440:029:tcp_server:Thread 139631116695104 terminated, 13 instances processed 
-20221107:145440:029:tcp_server:Socket total = 0
-20221107:145440:029:tcp_server:Thread 139631116695104, terminated at: Mon Nov  7 14:54:40 2022
-20221107:145440:033:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20221107:145440:033:tcp_server:Thread 139631116695104 on socket 6, started at: Mon Nov  7 14:54:40 2022
-20221107:145441:114:tcp_server:Thread 139631116695104 terminated, 950 instances processed 
-20221107:145441:114:tcp_server:Socket total = 0
-20221107:145441:114:tcp_server:Thread 139631116695104, terminated at: Mon Nov  7 14:54:41 2022
-TiMBL Server 1.16 (c) CLTS/ILK/CLIPS 1998 - 2022.
+20250903:192841:338:tcp_server:Started logging 
+20250903:192841:338:tcp_server:debugging is off
+20250903:192841:338:tcp_server:running as a dæmon
+20250903:192841:338:tcp_server:wrote PID=118469 to /tmp/run/pid2
+20250903:192841:338:tcp_server:Now running a tcp server on port 17346
+20250903:192846:287:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20250903:192846:287:tcp_server:Thread 139138514810560 on socket 5, started at: Wed Sep  3 19:28:46 2025
+20250903:192847:302:tcp_server:Thread 139138514810560 terminated, 13 instances processed 
+20250903:192847:302:tcp_server:Socket total = 0
+20250903:192847:302:tcp_server:Thread 139138514810560, terminated at: Wed Sep  3 19:28:47 2025
+20250903:192847:308:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20250903:192847:308:tcp_server:Thread 139138514810560 on socket 6, started at: Wed Sep  3 19:28:47 2025
+20250903:192848:363:tcp_server:Thread 139138514810560 terminated, 950 instances processed 
+20250903:192848:363:tcp_server:Socket total = 0
+20250903:192848:363:tcp_server:Thread 139138514810560, terminated at: Wed Sep  3 19:28:48 2025
+TiMBL Server 1.20 (c) CLTS/ILK/CLIPS 1998 - 2024.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.8
-Mon Nov  7 14:54:51 2022
-20221107:145451:141:tcp_server:trainName = dimin.train
+based on timbl 6.11
+Wed Sep  3 19:28:58 2025
+20250903:192858:372:tcp_server:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin0-Phase 1: Reading Datafile: dimin.train
--dimin0-Start:          0 @ Mon Nov  7 14:54:51 2022
--dimin0-Finished:    2999 @ Mon Nov  7 14:54:51 2022
--dimin0-Calculating Entropy         Mon Nov  7 14:54:51 2022
--dimin0-Preparation took 0 seconds, 24 milliseconds and 993 microseconds
+-dimin0-Start:          0 @ Wed Sep  3 19:28:58 2025
+-dimin0-Finished:    2999 @ Wed Sep  3 19:28:58 2025
+-dimin0-Calculating Entropy         Wed Sep  3 19:28:58 2025
+-dimin0-Preparation took 0 seconds, 15 milliseconds and 677 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -dimin0-Phase 2: Building multi index on Datafile: dimin.train
--dimin0-Start:          0 @ Mon Nov  7 14:54:51 2022
--dimin0-Finished:    2999 @ Mon Nov  7 14:54:51 2022
+-dimin0-Start:          0 @ Wed Sep  3 19:28:58 2025
+-dimin0-Finished:    2999 @ Wed Sep  3 19:28:58 2025
 -dimin0-
 Phase 3: Learning from Datafile: dimin.train
--dimin0-Start:          0 @ Mon Nov  7 14:54:51 2022
--dimin0-Finished:    2999 @ Mon Nov  7 14:54:51 2022
+-dimin0-Start:          0 @ Wed Sep  3 19:28:58 2025
+-dimin0-Finished:    2999 @ Wed Sep  3 19:28:58 2025
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--dimin0-Learning took 0 seconds, 36 milliseconds and 475 microseconds
-20221107:145451:219:tcp_server:started experiment dimin0 with parameters: -aIB1 +vdi+db+n -f dimin.train
-20221107:145451:219:tcp_server:trainName = dimin.train
+-dimin0-Learning took 0 seconds, 42 milliseconds and 21 microseconds
+20250903:192858:432:tcp_server:started experiment dimin0 with parameters: -aIB1 +vdi+db+n -f dimin.train
+20250903:192858:432:tcp_server:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin1-Phase 1: Reading Datafile: dimin.train
--dimin1-Start:          0 @ Mon Nov  7 14:54:51 2022
--dimin1-Finished:    2999 @ Mon Nov  7 14:54:51 2022
--dimin1-Calculating Entropy         Mon Nov  7 14:54:51 2022
--dimin1-Preparation took 0 seconds, 12 milliseconds and 850 microseconds
+-dimin1-Start:          0 @ Wed Sep  3 19:28:58 2025
+-dimin1-Finished:    2999 @ Wed Sep  3 19:28:58 2025
+-dimin1-Calculating Entropy         Wed Sep  3 19:28:58 2025
+-dimin1-Preparation took 0 seconds, 16 milliseconds and 542 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 -dimin1-Phase 2: Building multi index on Datafile: dimin.train
--dimin1-Start:          0 @ Mon Nov  7 14:54:51 2022
--dimin1-Finished:    2999 @ Mon Nov  7 14:54:51 2022
+-dimin1-Start:          0 @ Wed Sep  3 19:28:58 2025
+-dimin1-Finished:    2999 @ Wed Sep  3 19:28:58 2025
 -dimin1-
 Phase 3: Learning from Datafile: dimin.train
--dimin1-Start:          0 @ Mon Nov  7 14:54:51 2022
--dimin1-Finished:    2999 @ Mon Nov  7 14:54:51 2022
+-dimin1-Start:          0 @ Wed Sep  3 19:28:58 2025
+-dimin1-Finished:    2999 @ Wed Sep  3 19:28:58 2025
 
 Size of InstanceBase = 191 Nodes, (7640 bytes), 99.50 % compression
--dimin1-Learning took 0 seconds, 36 milliseconds and 944 microseconds
-20221107:145451:272:tcp_server:started experiment dimin1 with parameters: -aIGTREE +vdi+db +D -f dimin.train
-20221107:145451:272:tcp_server:trainName = dimin.train
+-dimin1-Learning took 0 seconds, 42 milliseconds and 622 microseconds
+20250903:192858:495:tcp_server:started experiment dimin1 with parameters: -aIGTREE +vdi+db +D -f dimin.train
+20250903:192858:495:tcp_server:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin2-Phase 1: Reading Datafile: dimin.train
--dimin2-Start:          0 @ Mon Nov  7 14:54:51 2022
--dimin2-Finished:    2999 @ Mon Nov  7 14:54:51 2022
--dimin2-Calculating Entropy         Mon Nov  7 14:54:51 2022
--dimin2-Preparation took 0 seconds, 12 milliseconds and 935 microseconds
+-dimin2-Start:          0 @ Wed Sep  3 19:28:58 2025
+-dimin2-Finished:    2999 @ Wed Sep  3 19:28:58 2025
+-dimin2-Calculating Entropy         Wed Sep  3 19:28:58 2025
+-dimin2-Preparation took 0 seconds, 14 milliseconds and 888 microseconds
 Feature Permutation based on GainRatio :
 < 12, 11, 4, 5, 9, 8, 10, 7, 2, 1, 6, 3 >
 -dimin2-Phase 2: Building multi index on Datafile: dimin.train
--dimin2-Start:          0 @ Mon Nov  7 14:54:51 2022
--dimin2-Finished:    2999 @ Mon Nov  7 14:54:51 2022
+-dimin2-Start:          0 @ Wed Sep  3 19:28:58 2025
+-dimin2-Finished:    2999 @ Wed Sep  3 19:28:58 2025
 -dimin2-
 Phase 3: Learning from Datafile: dimin.train
--dimin2-Start:          0 @ Mon Nov  7 14:54:51 2022
--dimin2-Finished:    2999 @ Mon Nov  7 14:54:51 2022
+-dimin2-Start:          0 @ Wed Sep  3 19:28:58 2025
+-dimin2-Finished:    2999 @ Wed Sep  3 19:28:58 2025
 
 Size of InstanceBase = 22705 Nodes, (908200 bytes), 40.69 % compression
--dimin2-Learning took 0 seconds, 34 milliseconds and 702 microseconds
-20221107:145451:323:tcp_server:started experiment dimin2 with parameters: -aTRIBL +vdi+db+n -q3 -f dimin.train
-20221107:145451:323:tcp_server:trainName = dimin.train
+-dimin2-Learning took 0 seconds, 39 milliseconds and 920 microseconds
+20250903:192858:552:tcp_server:started experiment dimin2 with parameters: -aTRIBL +vdi+db+n -q3 -f dimin.train
+20250903:192858:553:tcp_server:trainName = dimin.train
 Examine datafile 'dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -dimin3-Phase 1: Reading Datafile: dimin.train
--dimin3-Start:          0 @ Mon Nov  7 14:54:51 2022
--dimin3-Finished:    2999 @ Mon Nov  7 14:54:51 2022
--dimin3-Calculating Entropy         Mon Nov  7 14:54:51 2022
--dimin3-Preparation took 0 seconds, 12 milliseconds and 828 microseconds
+-dimin3-Start:          0 @ Wed Sep  3 19:28:58 2025
+-dimin3-Finished:    2999 @ Wed Sep  3 19:28:58 2025
+-dimin3-Calculating Entropy         Wed Sep  3 19:28:58 2025
+-dimin3-Preparation took 0 seconds, 14 milliseconds and 625 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -dimin3-Phase 2: Building multi index on Datafile: dimin.train
--dimin3-Start:          0 @ Mon Nov  7 14:54:51 2022
--dimin3-Finished:    2999 @ Mon Nov  7 14:54:51 2022
+-dimin3-Start:          0 @ Wed Sep  3 19:28:58 2025
+-dimin3-Finished:    2999 @ Wed Sep  3 19:28:58 2025
 -dimin3-
 Phase 3: Learning from Datafile: dimin.train
--dimin3-Start:          0 @ Mon Nov  7 14:54:51 2022
--dimin3-Finished:    2999 @ Mon Nov  7 14:54:51 2022
+-dimin3-Start:          0 @ Wed Sep  3 19:28:58 2025
+-dimin3-Finished:    2999 @ Wed Sep  3 19:28:58 2025
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--dimin3-Learning took 0 seconds, 35 milliseconds and 181 microseconds
+-dimin3-Learning took 0 seconds, 39 milliseconds and 898 microseconds
 -dimin3-Reading matrices from ./tests/dimin.mat
 -dimin3-read ValueMatrix for feature 1
 -dimin3-read ValueMatrix for feature 2
@@ -2492,9 +2496,9 @@ Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
 -dimin3-read ValueMatrix for feature 10
 -dimin3-read ValueMatrix for feature 11
 -dimin3-read ValueMatrix for feature 12
-20221107:145451:376:tcp_server:started experiment dimin3 with parameters: -aIB1 +vdi+db+n -mM -f dimin.train --matrixin=./tests/dimin.mat
-20221107:145451:376:tcp_server:Starting a tcp server on port 17000
-20221107:145451:376:tcp_server:switching logging to file /tmp/server3.log
+20250903:192858:611:tcp_server:started experiment dimin3 with parameters: -aIB1 +vdi+db+n -mM -f dimin.train --matrixin=./tests/dimin.mat
+20250903:192858:611:tcp_server:Starting a tcp server on port 17000
+20250903:192858:611:tcp_server:switching logging to file /tmp/server3.log
 Starting Client on node:kobus, port:17000
 selected base: 'dimin0'
 STATUS
@@ -2507,6 +2511,7 @@ DECAY                : Z
 DECAYPARAM_A         : 1.00000
 DECAYPARAM_B         : 1.00000
 DO_DIVERSIFY         : false
+DO_PRUNE             : false
 DO_SILLY             : false
 DO_SLOPPY_LOO        : false
 EXACT_MATCH          : false
@@ -2575,6 +2580,7 @@ DECAY                : Z
 DECAYPARAM_A         : 1.00000
 DECAYPARAM_B         : 1.00000
 DO_DIVERSIFY         : false
+DO_PRUNE             : false
 DO_SILLY             : false
 DO_SLOPPY_LOO        : false
 EXACT_MATCH          : false
@@ -2632,10 +2638,10 @@ ENDNEIGHBORS
 ERROR { option-error: invalid option 'M': valid options: C:d:G::k:l:L:p:Qv:x }
 ERROR { A preceding error prevents any operation on this Timbl Object
 reading input from: ./tests/dimin.test
-writing output to: /tmp/dimin0.out
-Starting Client on node:kobus, port:17000
 reading input from: ./tests/dimin.test
 writing output to: /tmp/dimin2.out
+Starting Client on node:kobus, port:17000
+writing output to: /tmp/dimin0.out
 Starting Client on node:kobus, port:17000
 =,=,=,=,=,=,=,=,+,p,e,=,T --> CATEGORY {T} DISTRIBUTION { T 1.00000 } DISTANCE {0} NEIGHBORS 
 # k=1, 1 Neighbor(s) at distance: 	0.0000000000000
@@ -13605,47 +13611,47 @@ ENDNEIGHBORS
 # k=1, 1 Neighbor(s) at distance: 	0.26904542822415
 #	=,=,=,=,=,=,=,=,+,k,a,rs,{ J 1.00000 }
 ENDNEIGHBORS 
-20221107:145451:376:tcp_server:Started logging 
-20221107:145451:377:tcp_server:debugging is off
-20221107:145451:377:tcp_server:running as a dæmon
-20221107:145451:377:tcp_server:wrote PID=411856 to /tmp/run/pid3
-20221107:145451:377:tcp_server:Now running a tcp server on port 17000
-20221107:145511:149:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20221107:145511:149:tcp_server:Thread 140528054216256 on socket 5, started at: Mon Nov  7 14:55:11 2022
-20221107:145511:151:tcp_server:5 Thread 140528054216256 on Socket 5 started.
-20221107:145511:199:tcp_server:5 Thread 140528054216256 on Socket 5 started.
-20221107:145511:201:tcp_server:5 Thread 140528054216256 on Socket 5 started.
-20221107:145511:206:tcp_server:Thread 140528054216256 terminated, 13 instances processed 
-20221107:145511:206:tcp_server:Socket total = 0
-20221107:145511:207:tcp_server:Thread 140528054216256, terminated at: Mon Nov  7 14:55:11 2022
-20221107:145511:212:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20221107:145511:212:tcp_server:Thread 140528054216256 on socket 6, started at: Mon Nov  7 14:55:11 2022
-20221107:145511:212:tcp_server:6 Thread 140528054216256 on Socket 6 started.
-20221107:145511:218:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20221107:145511:218:tcp_server:Thread 140527974479424 on socket 5, started at: Mon Nov  7 14:55:11 2022
-20221107:145511:218:tcp_server:5 Thread 140527974479424 on Socket 5 started.
-20221107:145511:971:tcp_server:Thread 140528054216256 terminated, 950 instances processed 
-20221107:145511:971:tcp_server:Socket total = 1
-20221107:145511:971:tcp_server:Thread 140528054216256, terminated at: Mon Nov  7 14:55:11 2022
-20221107:145512:010:tcp_server:Thread 140527974479424 terminated, 950 instances processed 
-20221107:145512:010:tcp_server:Socket total = 0
-20221107:145512:010:tcp_server:Thread 140527974479424, terminated at: Mon Nov  7 14:55:12 2022
-TiMBL Server 1.16 (c) CLTS/ILK/CLIPS 1998 - 2022.
+20250903:192858:612:tcp_server:Started logging 
+20250903:192858:612:tcp_server:debugging is off
+20250903:192858:612:tcp_server:running as a dæmon
+20250903:192858:612:tcp_server:wrote PID=118489 to /tmp/run/pid3
+20250903:192858:612:tcp_server:Now running a tcp server on port 17000
+20250903:192908:387:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20250903:192908:388:tcp_server:Thread 128419551508160 on socket 5, started at: Wed Sep  3 19:29:08 2025
+20250903:192908:390:tcp_server:5 Thread 128419551508160 on Socket 5 started.
+20250903:192908:436:tcp_server:5 Thread 128419551508160 on Socket 5 started.
+20250903:192908:439:tcp_server:5 Thread 128419551508160 on Socket 5 started.
+20250903:192908:445:tcp_server:Thread 128419551508160 terminated, 13 instances processed 
+20250903:192908:445:tcp_server:Socket total = 0
+20250903:192908:445:tcp_server:Thread 128419551508160, terminated at: Wed Sep  3 19:29:08 2025
+20250903:192908:452:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20250903:192908:452:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20250903:192908:452:tcp_server:Thread 128419551508160 on socket 6, started at: Wed Sep  3 19:29:08 2025
+20250903:192908:452:tcp_server:Thread 128419543115456 on socket 5, started at: Wed Sep  3 19:29:08 2025
+20250903:192908:453:tcp_server:6 Thread 128419551508160 on Socket 6 started.
+20250903:192908:453:tcp_server:5 Thread 128419543115456 on Socket 5 started.
+20250903:192908:910:tcp_server:Thread 128419551508160 terminated, 950 instances processed 
+20250903:192908:910:tcp_server:Socket total = 1
+20250903:192908:910:tcp_server:Thread 128419551508160, terminated at: Wed Sep  3 19:29:08 2025
+20250903:192908:959:tcp_server:Thread 128419543115456 terminated, 950 instances processed 
+20250903:192908:959:tcp_server:Socket total = 0
+20250903:192908:959:tcp_server:Thread 128419543115456, terminated at: Wed Sep  3 19:29:08 2025
+TiMBL Server 1.20 (c) CLTS/ILK/CLIPS 1998 - 2024.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.8
-Mon Nov  7 14:55:21 2022
-20221107:145521:217:tcp_server:trainName = ./tests/dimin.train
+based on timbl 6.11
+Wed Sep  3 19:29:18 2025
+20250903:192918:478:tcp_server:trainName = ./tests/dimin.train
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -default-Phase 1: Reading Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:55:21 2022
--default-Finished:    2999 @ Mon Nov  7 14:55:21 2022
--default-Calculating Entropy         Mon Nov  7 14:55:21 2022
+-default-Start:          0 @ Wed Sep  3 19:29:18 2025
+-default-Finished:    2999 @ Wed Sep  3 19:29:18 2025
+-default-Calculating Entropy         Wed Sep  3 19:29:18 2025
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -13664,22 +13670,22 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--default-Preparation took 0 seconds, 13 milliseconds and 850 microseconds
+-default-Preparation took 0 seconds, 14 milliseconds and 156 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 12, 7, 4, 3, 10, 8, 2, 6, 1 >
 -default-Phase 2: Building multi index on Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:55:21 2022
--default-Finished:    2999 @ Mon Nov  7 14:55:21 2022
+-default-Start:          0 @ Wed Sep  3 19:29:18 2025
+-default-Finished:    2999 @ Wed Sep  3 19:29:18 2025
 -default-
 Phase 3: Learning from Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:55:21 2022
--default-Finished:    2999 @ Mon Nov  7 14:55:21 2022
+-default-Start:          0 @ Wed Sep  3 19:29:18 2025
+-default-Finished:    2999 @ Wed Sep  3 19:29:18 2025
 
 Size of InstanceBase = 18721 Nodes, (748840 bytes), 46.99 % compression
--default-Learning took 0 seconds, 37 milliseconds and 828 microseconds
-20221107:145521:272:tcp_server:started experiment default with parameters: -f ./tests/dimin.train -m O:I1 +v F -v S
-20221107:145521:273:tcp_server:Starting a tcp server on port 17347
-20221107:145521:273:tcp_server:switching logging to file /tmp/server4.log
+-default-Learning took 0 seconds, 36 milliseconds and 615 microseconds
+20250903:192918:531:tcp_server:started experiment default with parameters: -f ./tests/dimin.train -m O:I1 +v F -v S
+20250903:192918:531:tcp_server:Starting a tcp server on port 17347
+20250903:192918:531:tcp_server:switching logging to file /tmp/server4.log
 Starting Client on node:kobus, port:17347
 ERROR { Unknown basename: dimin0}
 STATUS
@@ -13692,6 +13698,7 @@ DECAY                : Z
 DECAYPARAM_A         : 1.00000
 DECAYPARAM_B         : 1.00000
 DO_DIVERSIFY         : false
+DO_PRUNE             : false
 DO_SILLY             : false
 DO_SLOPPY_LOO        : false
 EXACT_MATCH          : false
@@ -13739,6 +13746,7 @@ DECAY                : Z
 DECAYPARAM_A         : 1.00000
 DECAYPARAM_B         : 1.00000
 DO_DIVERSIFY         : false
+DO_PRUNE             : false
 DO_SILLY             : false
 DO_SLOPPY_LOO        : false
 EXACT_MATCH          : false
@@ -13805,32 +13813,32 @@ CATEGORY {T} DISTRIBUTION { T 2.00000 } DISTANCE {0.0428446} MATCH_DEPTH {12} NE
 ENDNEIGHBORS
 ERROR { option-error: invalid option 'M': valid options: C:d:G::k:l:L:p:Qv:x }
 ERROR { A preceding error prevents any operation on this Timbl Object
-20221107:145521:273:tcp_server:Started logging 
-20221107:145521:273:tcp_server:debugging is off
-20221107:145521:273:tcp_server:running as a dæmon
-20221107:145521:274:tcp_server:wrote PID=412163 to /tmp/run/pid4
-20221107:145521:274:tcp_server:Now running a tcp server on port 17347
-20221107:145526:219:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20221107:145526:219:tcp_server:Thread 140390410671680 on socket 5, started at: Mon Nov  7 14:55:26 2022
-20221107:145527:237:tcp_server:Thread 140390410671680 terminated, 13 instances processed 
-20221107:145527:237:tcp_server:Socket total = 0
-20221107:145527:237:tcp_server:Thread 140390410671680, terminated at: Mon Nov  7 14:55:27 2022
-TiMBL Server 1.16 (c) CLTS/ILK/CLIPS 1998 - 2022.
+20250903:192918:531:tcp_server:Started logging 
+20250903:192918:531:tcp_server:debugging is off
+20250903:192918:531:tcp_server:running as a dæmon
+20250903:192918:532:tcp_server:wrote PID=118517 to /tmp/run/pid4
+20250903:192918:532:tcp_server:Now running a tcp server on port 17347
+20250903:192923:487:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20250903:192923:487:tcp_server:Thread 124924370876096 on socket 5, started at: Wed Sep  3 19:29:23 2025
+20250903:192924:507:tcp_server:Thread 124924370876096 terminated, 13 instances processed 
+20250903:192924:507:tcp_server:Socket total = 0
+20250903:192924:507:tcp_server:Thread 124924370876096, terminated at: Wed Sep  3 19:29:24 2025
+TiMBL Server 1.20 (c) CLTS/ILK/CLIPS 1998 - 2024.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.8
-Mon Nov  7 14:55:27 2022
-20221107:145527:244:tcp_server:trainName = ./tests/dimin.train
+based on timbl 6.11
+Wed Sep  3 19:29:24 2025
+20250903:192924:515:tcp_server:trainName = ./tests/dimin.train
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -default-Phase 1: Reading Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:55:27 2022
--default-Finished:    2999 @ Mon Nov  7 14:55:27 2022
--default-Calculating Entropy         Mon Nov  7 14:55:27 2022
+-default-Start:          0 @ Wed Sep  3 19:29:24 2025
+-default-Finished:    2999 @ Wed Sep  3 19:29:24 2025
+-default-Calculating Entropy         Wed Sep  3 19:29:24 2025
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -13849,19 +13857,19 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--default-Preparation took 0 seconds, 12 milliseconds and 956 microseconds
+-default-Preparation took 0 seconds, 14 milliseconds and 383 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 10, 8, 2, 6, 3 >
 -default-Phase 2: Building multi index on Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:55:27 2022
--default-Finished:    2999 @ Mon Nov  7 14:55:27 2022
+-default-Start:          0 @ Wed Sep  3 19:29:24 2025
+-default-Finished:    2999 @ Wed Sep  3 19:29:24 2025
 -default-
 Phase 3: Learning from Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:55:27 2022
--default-Finished:    2999 @ Mon Nov  7 14:55:27 2022
+-default-Start:          0 @ Wed Sep  3 19:29:24 2025
+-default-Finished:    2999 @ Wed Sep  3 19:29:24 2025
 
 Size of InstanceBase = 17355 Nodes, (694200 bytes), 50.86 % compression
--default-Learning took 0 seconds, 34 milliseconds and 860 microseconds
+-default-Learning took 0 seconds, 38 milliseconds and 2 microseconds
 -default-Reading matrices from ./tests/dimin.mat
 -default-read ValueMatrix for feature 1
 -default-read ValueMatrix for feature 2
@@ -13875,9 +13883,9 @@ Warning:-default-Ignoring entry for feature 3 which is NOT set to a storable met
 -default-read ValueMatrix for feature 10
 -default-read ValueMatrix for feature 11
 -default-read ValueMatrix for feature 12
-20221107:145527:296:tcp_server:started experiment default with parameters: -f ./tests/dimin.train -m M:I3 --matrixin=./tests/dimin.mat +v F -v S
-20221107:145527:297:tcp_server:Starting a tcp server on port 17348
-20221107:145527:297:tcp_server:switching logging to file /tmp/server5.log
+20250903:192924:571:tcp_server:started experiment default with parameters: -f ./tests/dimin.train -m M:I3 --matrixin=./tests/dimin.mat +v F -v S
+20250903:192924:571:tcp_server:Starting a tcp server on port 17348
+20250903:192924:571:tcp_server:switching logging to file /tmp/server5.log
 Starting Client on node:kobus, port:17348
 ERROR { Unknown basename: dimin0}
 STATUS
@@ -13890,6 +13898,7 @@ DECAY                : Z
 DECAYPARAM_A         : 1.00000
 DECAYPARAM_B         : 1.00000
 DO_DIVERSIFY         : false
+DO_PRUNE             : false
 DO_SILLY             : false
 DO_SLOPPY_LOO        : false
 EXACT_MATCH          : false
@@ -13937,6 +13946,7 @@ DECAY                : Z
 DECAYPARAM_A         : 1.00000
 DECAYPARAM_B         : 1.00000
 DO_DIVERSIFY         : false
+DO_PRUNE             : false
 DO_SILLY             : false
 DO_SLOPPY_LOO        : false
 EXACT_MATCH          : false
@@ -14000,32 +14010,32 @@ CATEGORY {T} DISTRIBUTION { T 1.00000 } DISTANCE {0.00728985} MATCH_DEPTH {12} N
 ENDNEIGHBORS
 ERROR { option-error: invalid option 'M': valid options: C:d:G::k:l:L:p:Qv:x }
 ERROR { A preceding error prevents any operation on this Timbl Object
-20221107:145527:297:tcp_server:Started logging 
-20221107:145527:297:tcp_server:debugging is off
-20221107:145527:297:tcp_server:running as a dæmon
-20221107:145527:297:tcp_server:wrote PID=412185 to /tmp/run/pid5
-20221107:145527:297:tcp_server:Now running a tcp server on port 17348
-20221107:145532:258:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20221107:145532:258:tcp_server:Thread 140062532630080 on socket 5, started at: Mon Nov  7 14:55:32 2022
-20221107:145533:280:tcp_server:Thread 140062532630080 terminated, 13 instances processed 
-20221107:145533:280:tcp_server:Socket total = 0
-20221107:145533:280:tcp_server:Thread 140062532630080, terminated at: Mon Nov  7 14:55:33 2022
-TiMBL Server 1.16 (c) CLTS/ILK/CLIPS 1998 - 2022.
+20250903:192924:572:tcp_server:Started logging 
+20250903:192924:572:tcp_server:debugging is off
+20250903:192924:572:tcp_server:running as a dæmon
+20250903:192924:572:tcp_server:wrote PID=118528 to /tmp/run/pid5
+20250903:192924:572:tcp_server:Now running a tcp server on port 17348
+20250903:192929:522:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20250903:192929:522:tcp_server:Thread 137711077816000 on socket 5, started at: Wed Sep  3 19:29:29 2025
+20250903:192930:542:tcp_server:Thread 137711077816000 terminated, 13 instances processed 
+20250903:192930:542:tcp_server:Socket total = 0
+20250903:192930:542:tcp_server:Thread 137711077816000, terminated at: Wed Sep  3 19:29:30 2025
+TiMBL Server 1.20 (c) CLTS/ILK/CLIPS 1998 - 2024.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.8
-Mon Nov  7 14:55:33 2022
-20221107:145533:286:tcp_server:trainName = ./tests/dimin.train
+based on timbl 6.11
+Wed Sep  3 19:29:30 2025
+20250903:192930:551:tcp_server:trainName = ./tests/dimin.train
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -default-Phase 1: Reading Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:55:33 2022
--default-Finished:    2999 @ Mon Nov  7 14:55:33 2022
--default-Calculating Entropy         Mon Nov  7 14:55:33 2022
+-default-Start:          0 @ Wed Sep  3 19:29:30 2025
+-default-Finished:    2999 @ Wed Sep  3 19:29:30 2025
+-default-Calculating Entropy         Wed Sep  3 19:29:30 2025
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -14044,22 +14054,22 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--default-Preparation took 0 seconds, 13 milliseconds and 124 microseconds
+-default-Preparation took 0 seconds, 14 milliseconds and 119 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -default-Phase 2: Building multi index on Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:55:33 2022
--default-Finished:    2999 @ Mon Nov  7 14:55:33 2022
+-default-Start:          0 @ Wed Sep  3 19:29:30 2025
+-default-Finished:    2999 @ Wed Sep  3 19:29:30 2025
 -default-
 Phase 3: Learning from Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:55:33 2022
--default-Finished:    2999 @ Mon Nov  7 14:55:33 2022
+-default-Start:          0 @ Wed Sep  3 19:29:30 2025
+-default-Finished:    2999 @ Wed Sep  3 19:29:30 2025
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--default-Learning took 0 seconds, 34 milliseconds and 462 microseconds
-20221107:145533:338:tcp_server:started experiment default with parameters: -f ./tests/dimin.train +v F -v S
-20221107:145533:338:tcp_server:Starting a tcp server on port 17349
-20221107:145533:338:tcp_server:switching logging to file /tmp/server6.log
+-default-Learning took 0 seconds, 36 milliseconds and 447 microseconds
+20250903:192930:604:tcp_server:started experiment default with parameters: -f ./tests/dimin.train +v F -v S
+20250903:192930:604:tcp_server:Starting a tcp server on port 17349
+20250903:192930:604:tcp_server:switching logging to file /tmp/server6.log
 Starting Client on node:kobus, port:17349
 OK
 CATEGORY {T} DISTRIBUTION { T 1.00000 } DISTANCE {0}
@@ -14099,42 +14109,42 @@ CATEGORY {J} DISTRIBUTION { J 4.00000 } DISTANCE {0.0428446} NEIGHBORS
 #	=,=,=,=,=,=,=,=,+,sx,L,t,{ J 1.00000 }
 #	=,=,=,=,=,=,=,=,+,fl,L,t,{ J 1.00000 }
 ENDNEIGHBORS
-20221107:145533:338:tcp_server:Started logging 
-20221107:145533:338:tcp_server:debugging is off
-20221107:145533:338:tcp_server:running as a dæmon
-20221107:145533:338:tcp_server:wrote PID=413209 to /tmp/run/pid6
-20221107:145533:338:tcp_server:Now running a tcp server on port 17349
-20221107:145543:293:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20221107:145543:293:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20221107:145543:293:tcp_server:Thread 140226858833472 on socket 5, started at: Mon Nov  7 14:55:43 2022
-20221107:145543:293:tcp_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
-20221107:145543:293:tcp_server:Thread 140226850440768 on socket 6, started at: Mon Nov  7 14:55:43 2022
-20221107:145543:293:tcp_server:Thread 140226842048064 on socket 7, started at: Mon Nov  7 14:55:43 2022
-20221107:145544:305:tcp_server:Thread 140226858833472 terminated, 5 instances processed 
-20221107:145544:305:tcp_server:Socket total = 2
-20221107:145544:305:tcp_server:Thread 140226858833472, terminated at: Mon Nov  7 14:55:44 2022
-20221107:145544:305:tcp_server:Thread 140226842048064 terminated, 5 instances processed 
-20221107:145544:305:tcp_server:Socket total = 1
-20221107:145544:305:tcp_server:Thread 140226842048064, terminated at: Mon Nov  7 14:55:44 2022
-20221107:145544:305:tcp_server:Thread 140226850440768 terminated, 5 instances processed 
-20221107:145544:305:tcp_server:Socket total = 0
-20221107:145544:305:tcp_server:Thread 140226850440768, terminated at: Mon Nov  7 14:55:44 2022
-TiMBL Server 1.16 (c) CLTS/ILK/CLIPS 1998 - 2022.
+20250903:192930:604:tcp_server:Started logging 
+20250903:192930:604:tcp_server:debugging is off
+20250903:192930:604:tcp_server:running as a dæmon
+20250903:192930:605:tcp_server:wrote PID=118540 to /tmp/run/pid6
+20250903:192930:605:tcp_server:Now running a tcp server on port 17349
+20250903:192940:557:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20250903:192940:557:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20250903:192940:557:tcp_server:Thread 133942514546368 on socket 5, started at: Wed Sep  3 19:29:40 2025
+20250903:192940:557:tcp_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
+20250903:192940:557:tcp_server:Thread 133942506153664 on socket 6, started at: Wed Sep  3 19:29:40 2025
+20250903:192940:557:tcp_server:Thread 133942497760960 on socket 7, started at: Wed Sep  3 19:29:40 2025
+20250903:192941:567:tcp_server:Thread 133942506153664 terminated, 5 instances processed 
+20250903:192941:567:tcp_server:Socket total = 2
+20250903:192941:567:tcp_server:Thread 133942506153664, terminated at: Wed Sep  3 19:29:41 2025
+20250903:192941:567:tcp_server:Thread 133942497760960 terminated, 5 instances processed 
+20250903:192941:567:tcp_server:Socket total = 1
+20250903:192941:567:tcp_server:Thread 133942497760960, terminated at: Wed Sep  3 19:29:41 2025
+20250903:192941:568:tcp_server:Thread 133942514546368 terminated, 5 instances processed 
+20250903:192941:568:tcp_server:Socket total = 0
+20250903:192941:568:tcp_server:Thread 133942514546368, terminated at: Wed Sep  3 19:29:41 2025
+TiMBL Server 1.20 (c) CLTS/ILK/CLIPS 1998 - 2024.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-based on timbl 6.8
-Mon Nov  7 14:55:47 2022
-20221107:145547:321:tcp_server:trainName = ./tests/dimin.train
+based on timbl 6.11
+Wed Sep  3 19:29:44 2025
+20250903:192944:586:tcp_server:trainName = ./tests/dimin.train
 Examine datafile './tests/dimin.train' gave the following results:
 Number of Features: 12
 InputFormat       : C4.5
 
 -default-Phase 1: Reading Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:55:47 2022
--default-Finished:    2999 @ Mon Nov  7 14:55:47 2022
--default-Calculating Entropy         Mon Nov  7 14:55:47 2022
+-default-Start:          0 @ Wed Sep  3 19:29:44 2025
+-default-Finished:    2999 @ Wed Sep  3 19:29:44 2025
+-default-Calculating Entropy         Wed Sep  3 19:29:44 2025
 Lines of data     : 2999
 DB Entropy        : 1.6178929
 Number of Classes : 5
@@ -14153,22 +14163,22 @@ Feats	Vals	InfoGain	GainRatio
    11     18	0.66970458	0.18507018
    12     43	1.2780762	0.32537181
 
--default-Preparation took 0 seconds, 21 milliseconds and 103 microseconds
+-default-Preparation took 0 seconds, 14 milliseconds and 147 microseconds
 Feature Permutation based on GainRatio/Values :
 < 9, 5, 11, 1, 12, 7, 4, 3, 10, 8, 2, 6 >
 -default-Phase 2: Building multi index on Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:55:47 2022
--default-Finished:    2999 @ Mon Nov  7 14:55:47 2022
+-default-Start:          0 @ Wed Sep  3 19:29:44 2025
+-default-Finished:    2999 @ Wed Sep  3 19:29:44 2025
 -default-
 Phase 3: Learning from Datafile: ./tests/dimin.train
--default-Start:          0 @ Mon Nov  7 14:55:47 2022
--default-Finished:    2999 @ Mon Nov  7 14:55:47 2022
+-default-Start:          0 @ Wed Sep  3 19:29:44 2025
+-default-Finished:    2999 @ Wed Sep  3 19:29:44 2025
 
 Size of InstanceBase = 19231 Nodes, (769240 bytes), 49.77 % compression
--default-Learning took 0 seconds, 35 milliseconds and 169 microseconds
-20221107:145547:389:tcp_server:started experiment default with parameters: -f ./tests/dimin.train +v di+cf -G  +v F -v S
-20221107:145547:389:tcp_server:Starting a tcp server on port 17350
-20221107:145547:389:tcp_server:switching logging to file /tmp/server7.log
+-default-Learning took 0 seconds, 37 milliseconds and 26 microseconds
+20250903:192944:640:tcp_server:started experiment default with parameters: -f ./tests/dimin.train +v di+cf -G  +v F -v S
+20250903:192944:640:tcp_server:Starting a tcp server on port 17350
+20250903:192944:640:tcp_server:switching logging to file /tmp/server7.log
 Starting Client on node:kobus, port:17350
 OK
 CATEGORY {T} DISTRIBUTION { T 1.00000 } DISTANCE {0} CONFIDENCE {1}
@@ -14208,23 +14218,23 @@ CATEGORY {J} DISTRIBUTION { J 1.00000 } DISTANCE {0.0428446} CONFIDENCE {1.00000
 #	=,=,=,=,=,=,=,=,+,sx,L,t,{ J 1.00000 }
 #	=,=,=,=,=,=,=,=,+,fl,L,t,{ J 1.00000 }
 ENDNEIGHBORS
-20221107:145547:389:tcp_server:Started logging 
-20221107:145547:389:tcp_server:debugging is off
-20221107:145547:389:tcp_server:running as a dæmon
-20221107:145547:390:tcp_server:wrote PID=413229 to /tmp/run/pid7
-20221107:145547:390:tcp_server:Now running a tcp server on port 17350
-20221107:145557:320:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
-20221107:145557:320:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
-20221107:145557:320:tcp_server:Thread 139932493665856 on socket 5, started at: Mon Nov  7 14:55:57 2022
-20221107:145557:320:tcp_server:Thread 139932485273152 on socket 6, started at: Mon Nov  7 14:55:57 2022
-20221107:145557:320:tcp_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
-20221107:145557:320:tcp_server:Thread 139932476880448 on socket 7, started at: Mon Nov  7 14:55:57 2022
-20221107:145558:329:tcp_server:Thread 139932493665856 terminated, 5 instances processed 
-20221107:145558:329:tcp_server:Socket total = 2
-20221107:145558:329:tcp_server:Thread 139932493665856, terminated at: Mon Nov  7 14:55:58 2022
-20221107:145558:330:tcp_server:Thread 139932485273152 terminated, 5 instances processed 
-20221107:145558:330:tcp_server:Socket total = 1
-20221107:145558:330:tcp_server:Thread 139932485273152, terminated at: Mon Nov  7 14:55:58 2022
-20221107:145558:330:tcp_server:Thread 139932476880448 terminated, 5 instances processed 
-20221107:145558:330:tcp_server:Socket total = 0
-20221107:145558:330:tcp_server:Thread 139932476880448, terminated at: Mon Nov  7 14:55:58 2022
+20250903:192944:640:tcp_server:Started logging 
+20250903:192944:640:tcp_server:debugging is off
+20250903:192944:640:tcp_server:running as a dæmon
+20250903:192944:641:tcp_server:wrote PID=118568 to /tmp/run/pid7
+20250903:192944:641:tcp_server:Now running a tcp server on port 17350
+20250903:192954:587:tcp_server:Accepting Connection #5 from remote host: localhost [127.0.0.1]
+20250903:192954:587:tcp_server:Accepting Connection #6 from remote host: localhost [127.0.0.1]
+20250903:192954:587:tcp_server:Thread 127455394264768 on socket 5, started at: Wed Sep  3 19:29:54 2025
+20250903:192954:587:tcp_server:Accepting Connection #7 from remote host: localhost [127.0.0.1]
+20250903:192954:587:tcp_server:Thread 127455385872064 on socket 6, started at: Wed Sep  3 19:29:54 2025
+20250903:192954:587:tcp_server:Thread 127455301990080 on socket 7, started at: Wed Sep  3 19:29:54 2025
+20250903:192955:596:tcp_server:Thread 127455385872064 terminated, 5 instances processed 
+20250903:192955:596:tcp_server:Socket total = 2
+20250903:192955:596:tcp_server:Thread 127455385872064, terminated at: Wed Sep  3 19:29:55 2025
+20250903:192955:597:tcp_server:Thread 127455301990080 terminated, 5 instances processed 
+20250903:192955:597:tcp_server:Socket total = 1
+20250903:192955:597:tcp_server:Thread 127455301990080, terminated at: Wed Sep  3 19:29:55 2025
+20250903:192955:597:tcp_server:Thread 127455394264768 terminated, 5 instances processed 
+20250903:192955:597:tcp_server:Socket total = 0
+20250903:192955:597:tcp_server:Thread 127455394264768, terminated at: Wed Sep  3 19:29:55 2025
