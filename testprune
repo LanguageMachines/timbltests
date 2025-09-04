@@ -3,7 +3,7 @@
 # defaults:
 #
 
-$comm -a0 -f ./tests/c45example.train --Treeorder=IGO -I tree0 -D
-$comm -a1 -f ./tests/c45example.train --Treeorder=IGO -I tree1 -D
+$comm -a0 -f ./tests/c45example.train --Treeorder=GRO -I tree0 -D
+$comm -a1 -f ./tests/c45example.train -I tree1 -D
 $comm -a0 --prune -i tree0 -I tree2 -D
 diff tree1 tree2

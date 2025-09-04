@@ -30,7 +30,8 @@ export comm="$VG $timbl_bin/timbl"
 
 for file in apitest testexemplar testencoding testnormalisation testnumerics \
     	    testbeaming testweighting testdecay testindirect testsimilarity \
-	    testloo testcv testexpand testib2 testbinary testsparse testocc
+	    testloo testcv testexpand testib2 testbinary testsparse testocc \
+	    testprune
 do ./testone.sh $file
 done
 
