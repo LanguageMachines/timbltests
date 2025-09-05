@@ -7,5 +7,7 @@ $comm -f ./tests/c45example.train --Treeorder=GRO -I tree0 -D
 $comm -a1 -f ./tests/c45example.train -I tree1 -D
 $comm --prune -i tree0 -I tree2 -D
 diff tree1 tree2
+diff tree1.wgt tree2.wgt
 $comm -f ./tests/c45example.train --Treeorder=GRO --prune -I tree3 -D
 diff tree2 tree3
+diff tree2.wgt tree3.wgt
