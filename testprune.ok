@@ -3,20 +3,20 @@ Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Sep  4 15:11:07 2025
+Sat Sep  6 22:50:19 2025
 
 Examine datafile './tests/c45example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/c45example.train
-Start:          0 @ Thu Sep  4 15:11:07 2025
+Start:          0 @ Sat Sep  6 22:50:19 2025
 Warning: datafile, skipped line #5
 dit,is,te,lang,4.
 Warning: datafile, skipped line #7
 te,kort,6.
-Finished:       7 @ Thu Sep  4 15:11:07 2025
-Calculating Entropy         Thu Sep  4 15:11:07 2025
+Finished:       7 @ Sat Sep  6 22:50:19 2025
+Calculating Entropy         Sat Sep  6 22:50:19 2025
 Lines of data     : 5
 SkippedLines      : 2
 DB Entropy        : 2.3219281
@@ -27,43 +27,43 @@ Feats	Vals	InfoGain	GainRatio
     2      4	1.9219281	1.0000000
     3      5	2.3219281	1.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 160 microseconds
+Preparation took 0 seconds, 0 milliseconds and 159 microseconds
 Feature Permutation based on GainRatio :
 < 1, 2, 3 >
 Phase 2: Building multi index on Datafile: ./tests/c45example.train
-Start:          0 @ Thu Sep  4 15:11:07 2025
+Start:          0 @ Sat Sep  6 22:50:19 2025
 Warning: datafile, skipped line #5
 dit,is,te,lang,4.
 Warning: datafile, skipped line #7
 te,kort,6.
-Finished:       5 @ Thu Sep  4 15:11:07 2025
+Finished:       5 @ Sat Sep  6 22:50:19 2025
 
 Phase 3: Learning from Datafile: ./tests/c45example.train
-Start:          0 @ Thu Sep  4 15:11:07 2025
-Finished:       5 @ Thu Sep  4 15:11:07 2025
+Start:          0 @ Sat Sep  6 22:50:19 2025
+Finished:       5 @ Sat Sep  6 22:50:19 2025
 
 Size of InstanceBase = 20 Nodes, (800 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 150 microseconds
+Learning took 0 seconds, 0 milliseconds and 151 microseconds
 Writing Instance-Base in: tree0
 TiMBL 6.11 (c) CLST/ILK/CLIPS 1998 - 2024.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Sep  4 15:11:07 2025
+Sat Sep  6 22:50:19 2025
 
 Examine datafile './tests/c45example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/c45example.train
-Start:          0 @ Thu Sep  4 15:11:07 2025
+Start:          0 @ Sat Sep  6 22:50:19 2025
 Warning: datafile, skipped line #5
 dit,is,te,lang,4.
 Warning: datafile, skipped line #7
 te,kort,6.
-Finished:       7 @ Thu Sep  4 15:11:07 2025
-Calculating Entropy         Thu Sep  4 15:11:07 2025
+Finished:       7 @ Sat Sep  6 22:50:19 2025
+Calculating Entropy         Sat Sep  6 22:50:19 2025
 Lines of data     : 5
 SkippedLines      : 2
 DB Entropy        : 2.3219281
@@ -74,23 +74,23 @@ Feats	Vals	InfoGain	GainRatio
     2      4	1.9219281	1.0000000
     3      5	2.3219281	1.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 154 microseconds
+Preparation took 0 seconds, 0 milliseconds and 215 microseconds
 Feature Permutation based on GainRatio :
 < 1, 2, 3 >
 Phase 2: Building multi index on Datafile: ./tests/c45example.train
-Start:          0 @ Thu Sep  4 15:11:07 2025
+Start:          0 @ Sat Sep  6 22:50:19 2025
 Warning: datafile, skipped line #5
 dit,is,te,lang,4.
 Warning: datafile, skipped line #7
 te,kort,6.
-Finished:       5 @ Thu Sep  4 15:11:07 2025
+Finished:       5 @ Sat Sep  6 22:50:19 2025
 
 Phase 3: Learning from Datafile: ./tests/c45example.train
-Start:          0 @ Thu Sep  4 15:11:07 2025
-Finished:       5 @ Thu Sep  4 15:11:07 2025
+Start:          0 @ Sat Sep  6 22:50:19 2025
+Finished:       5 @ Sat Sep  6 22:50:19 2025
 
 Size of InstanceBase = 4 Nodes, (160 bytes), 80.00 % compression
-Learning took 0 seconds, 0 milliseconds and 164 microseconds
+Learning took 0 seconds, 0 milliseconds and 133 microseconds
 Writing Instance-Base in: tree1
 Saving Weights in tree1.wgt
 TiMBL 6.11 (c) CLST/ILK/CLIPS 1998 - 2024.
@@ -98,33 +98,42 @@ Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Sep  4 15:11:07 2025
+Sat Sep  6 22:50:19 2025
 
 Reading Instance-Base from: tree0
 
 Size of InstanceBase = 20 Nodes, (800 bytes), 0.00 % compression
 Feature Permutation based on Data File Ordering :
 < 1, 2, 3 >
+DB Entropy        : 2.32192809
+Number of Classes : 5
+
+Feats	Vals	InfoGain	GainRatio
+    1      5	2.32192809	1.00000000
+    2      4	1.92192809	1.00000000
+    3      5	2.32192809	1.00000000
+
+Saving Weights in tree2.wgt
 Writing Instance-Base in: tree2
 TiMBL 6.11 (c) CLST/ILK/CLIPS 1998 - 2024.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Thu Sep  4 15:11:07 2025
+Sat Sep  6 22:50:19 2025
 
 Examine datafile './tests/c45example.train' gave the following results:
 Number of Features: 3
 InputFormat       : C4.5
 
 Phase 1: Reading Datafile: ./tests/c45example.train
-Start:          0 @ Thu Sep  4 15:11:07 2025
+Start:          0 @ Sat Sep  6 22:50:19 2025
 Warning: datafile, skipped line #5
 dit,is,te,lang,4.
 Warning: datafile, skipped line #7
 te,kort,6.
-Finished:       7 @ Thu Sep  4 15:11:07 2025
-Calculating Entropy         Thu Sep  4 15:11:07 2025
+Finished:       7 @ Sat Sep  6 22:50:19 2025
+Calculating Entropy         Sat Sep  6 22:50:19 2025
 Lines of data     : 5
 SkippedLines      : 2
 DB Entropy        : 2.3219281
@@ -135,21 +144,23 @@ Feats	Vals	InfoGain	GainRatio
     2      4	1.9219281	1.0000000
     3      5	2.3219281	1.0000000
 
-Preparation took 0 seconds, 0 milliseconds and 133 microseconds
+Preparation took 0 seconds, 0 milliseconds and 174 microseconds
+Saving Weights in tree3.wgt
 Feature Permutation based on GainRatio :
 < 1, 2, 3 >
 Phase 2: Building multi index on Datafile: ./tests/c45example.train
-Start:          0 @ Thu Sep  4 15:11:07 2025
+Start:          0 @ Sat Sep  6 22:50:19 2025
 Warning: datafile, skipped line #5
 dit,is,te,lang,4.
 Warning: datafile, skipped line #7
 te,kort,6.
-Finished:       5 @ Thu Sep  4 15:11:07 2025
+Finished:       5 @ Sat Sep  6 22:50:19 2025
 
 Phase 3: Learning from Datafile: ./tests/c45example.train
-Start:          0 @ Thu Sep  4 15:11:07 2025
-Finished:       5 @ Thu Sep  4 15:11:07 2025
+Start:          0 @ Sat Sep  6 22:50:19 2025
+Finished:       5 @ Sat Sep  6 22:50:19 2025
 
 Size of InstanceBase = 20 Nodes, (800 bytes), 0.00 % compression
-Learning took 0 seconds, 0 milliseconds and 230 microseconds
+Learning took 0 seconds, 0 milliseconds and 129 microseconds
 Writing Instance-Base in: tree3
+Saving Weights in tree3.wgt
