@@ -3,80 +3,86 @@ Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Nov 12 09:13:36 2025
+Sun Nov 16 13:37:00 2025
 
-Examine datafile './tests/prune.train' gave the following results:
-Number of Features: 5
+Examine datafile './tests/kwart.train' gave the following results:
+Number of Features: 8
 InputFormat       : C4.5
 
-Phase 1: Reading Datafile: ./tests/prune.train
-Start:          0 @ Wed Nov 12 09:13:36 2025
-Finished:      36 @ Wed Nov 12 09:13:36 2025
-Calculating Entropy         Wed Nov 12 09:13:36 2025
-Lines of data     : 36
-DB Entropy        : 1.2516292
+Phase 1: Reading Datafile: ./tests/kwart.train
+Start:          0 @ Sun Nov 16 13:37:00 2025
+Finished:   50000 @ Sun Nov 16 13:37:01 2025
+Calculating Entropy         Sun Nov 16 13:37:01 2025
+Lines of data     : 50000
+DB Entropy        : 1.1247965
 Number of Classes : 3
 
 Feats	Vals	InfoGain	GainRatio
-    1     33	1.1405181	0.22795506
-    2     33	1.2516292	0.25016281
-    3     32	1.2516292	0.25297178
-    4     31	1.1195490	0.22983125
-    5     14	0.68478550	0.19473879
+    1   8067	0.52454004	0.053005251
+    2   8067	0.93109789	0.094089873
+    3   7766	0.61039767	0.063779732
+    4   7837	0.27307385	0.028360141
+    5     44	0.24028503	0.055559394
+    6     44	0.83198581	0.19237255
+    7     44	0.32499390	0.074939666
+    8     44	0.048351684	0.011172195
 
-Preparation took 0 seconds, 0 milliseconds and 305 microseconds
+Preparation took 0 seconds, 313 milliseconds and 5 microseconds
 Feature Permutation based on GainRatio :
-< 3, 2, 4, 1, 5 >
-Phase 2: Building multi index on Datafile: ./tests/prune.train
-Start:          0 @ Wed Nov 12 09:13:36 2025
-Finished:      36 @ Wed Nov 12 09:13:36 2025
+< 6, 2, 7, 3, 5, 1, 4, 8 >
+Phase 2: Building multi index on Datafile: ./tests/kwart.train
+Start:          0 @ Sun Nov 16 13:37:01 2025
+Finished:   50000 @ Sun Nov 16 13:37:01 2025
 
-Phase 3: Learning from Datafile: ./tests/prune.train
-Start:          0 @ Wed Nov 12 09:13:36 2025
-Finished:      36 @ Wed Nov 12 09:13:36 2025
+Phase 3: Learning from Datafile: ./tests/kwart.train
+Start:          0 @ Sun Nov 16 13:37:01 2025
+Finished:   50000 @ Sun Nov 16 13:37:01 2025
 
-Size of InstanceBase = 212 Nodes, (8480 bytes), 1.85 % compression
-Learning took 0 seconds, 0 milliseconds and 490 microseconds
+Size of InstanceBase = 284326 Nodes, (11373040 bytes), 34.50 % compression
+Learning took 0 seconds, 813 milliseconds and 455 microseconds
 Writing Instance-Base in: tree0
 TiMBL 6.11 (c) CLST/ILK/CLIPS 1998 - 2024.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Nov 12 09:13:36 2025
+Sun Nov 16 13:37:02 2025
 
-Examine datafile './tests/prune.train' gave the following results:
-Number of Features: 5
+Examine datafile './tests/kwart.train' gave the following results:
+Number of Features: 8
 InputFormat       : C4.5
 
-Phase 1: Reading Datafile: ./tests/prune.train
-Start:          0 @ Wed Nov 12 09:13:36 2025
-Finished:      36 @ Wed Nov 12 09:13:36 2025
-Calculating Entropy         Wed Nov 12 09:13:36 2025
-Lines of data     : 36
-DB Entropy        : 1.2516292
+Phase 1: Reading Datafile: ./tests/kwart.train
+Start:          0 @ Sun Nov 16 13:37:02 2025
+Finished:   50000 @ Sun Nov 16 13:37:02 2025
+Calculating Entropy         Sun Nov 16 13:37:02 2025
+Lines of data     : 50000
+DB Entropy        : 1.1247965
 Number of Classes : 3
 
 Feats	Vals	InfoGain	GainRatio
-    1     33	1.1405181	0.22795506
-    2     33	1.2516292	0.25016281
-    3     32	1.2516292	0.25297178
-    4     31	1.1195490	0.22983125
-    5     14	0.68478550	0.19473879
+    1   8067	0.52454004	0.053005251
+    2   8067	0.93109789	0.094089873
+    3   7766	0.61039767	0.063779732
+    4   7837	0.27307385	0.028360141
+    5     44	0.24028503	0.055559394
+    6     44	0.83198581	0.19237255
+    7     44	0.32499390	0.074939666
+    8     44	0.048351684	0.011172195
 
-Preparation took 0 seconds, 0 milliseconds and 298 microseconds
+Preparation took 0 seconds, 310 milliseconds and 562 microseconds
 Feature Permutation based on GainRatio :
-< 3, 2, 4, 1, 5 >
-Phase 2: Building multi index on Datafile: ./tests/prune.train
-Start:          0 @ Wed Nov 12 09:13:36 2025
-Finished:      36 @ Wed Nov 12 09:13:36 2025
+< 6, 2, 7, 3, 5, 1, 4, 8 >
+Phase 2: Building multi index on Datafile: ./tests/kwart.train
+Start:          0 @ Sun Nov 16 13:37:02 2025
+Finished:   50000 @ Sun Nov 16 13:37:02 2025
 
-Phase 3: Learning from Datafile: ./tests/prune.train
-Start:          0 @ Wed Nov 12 09:13:36 2025
-Finished:      36 @ Wed Nov 12 09:13:36 2025
+Phase 3: Learning from Datafile: ./tests/kwart.train
+Start:          0 @ Sun Nov 16 13:37:02 2025
+Finished:   50000 @ Sun Nov 16 13:37:03 2025
 
-Size of InstanceBase = 16 Nodes, (640 bytes), 92.59 % compression
-Learning took 0 seconds, 0 milliseconds and 491 microseconds
+Size of InstanceBase = 3068 Nodes, (122720 bytes), 99.29 % compression
+Learning took 0 seconds, 853 milliseconds and 274 microseconds
 Writing Instance-Base in: tree1
 Saving Weights in tree1.wgt
 TiMBL 6.11 (c) CLST/ILK/CLIPS 1998 - 2024.
@@ -84,65 +90,126 @@ Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Nov 12 09:13:36 2025
+Sun Nov 16 13:37:03 2025
 
 Reading Instance-Base from: tree0
 
-Size of InstanceBase = 212 Nodes, (8480 bytes), 1.85 % compression
+Size of InstanceBase = 284326 Nodes, (11373040 bytes), 34.50 % compression
 Feature Permutation based on Data File Ordering :
-< 3, 2, 4, 1, 5 >
-DB Entropy        : 1.25162917
+< 6, 2, 7, 3, 5, 1, 4, 8 >
+DB Entropy        : 1.12479654
 Number of Classes : 3
 
 Feats	Vals	InfoGain	GainRatio
-    1     33	1.14051806	0.22795506
-    2     33	1.25162917	0.25016281
-    3     32	1.25162917	0.25297178
-    4     31	1.11954896	0.22983125
-    5     14	0.68478550	0.19473879
+    1   8067	0.52454004	0.05300525
+    2   8067	0.93109789	0.09408987
+    3   7766	0.61039767	0.06377973
+    4   7837	0.27307385	0.02836014
+    5     44	0.24028503	0.05555939
+    6     44	0.83198581	0.19237255
+    7     44	0.32499390	0.07493967
+    8     44	0.04835168	0.01117220
 
 Saving Weights in tree2.wgt
 Writing Instance-Base in: tree2
-60,75c60,75
+17,20c17,20
+< 1	0.0530052512951103
+< 2	0.0940898731072543
+< 3	0.0637797318783694
+< 4	0.028360141319983
+---
+> 1	0.0530052512951098
+> 2	0.094089873107247
+> 3	0.0637797318783688
+> 4	0.0283601413199832
+24c24
+< 8	0.0111721953555273
+---
+> 8	0.0111721953555272
+28,29c28,29
+< 1	0.524540040047745
+< 2	0.931097886207974
+---
+> 1	0.524540040047744
+> 2	0.931097886207976
+31c31
+< 4	0.273073851786733
+---
+> 4	0.273073851786737
+35c35
+< 8	0.0483516838946036
+---
+> 8	0.0483516838946032
 TiMBL 6.11 (c) CLST/ILK/CLIPS 1998 - 2024.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Wed Nov 12 09:13:36 2025
+Sun Nov 16 13:37:03 2025
 
-Examine datafile './tests/prune.train' gave the following results:
-Number of Features: 5
+Examine datafile './tests/kwart.train' gave the following results:
+Number of Features: 8
 InputFormat       : C4.5
 
-Phase 1: Reading Datafile: ./tests/prune.train
-Start:          0 @ Wed Nov 12 09:13:36 2025
-Finished:      36 @ Wed Nov 12 09:13:36 2025
-Calculating Entropy         Wed Nov 12 09:13:36 2025
-Lines of data     : 36
-DB Entropy        : 1.2516292
+Phase 1: Reading Datafile: ./tests/kwart.train
+Start:          0 @ Sun Nov 16 13:37:03 2025
+Finished:   50000 @ Sun Nov 16 13:37:03 2025
+Calculating Entropy         Sun Nov 16 13:37:03 2025
+Lines of data     : 50000
+DB Entropy        : 1.1247965
 Number of Classes : 3
 
 Feats	Vals	InfoGain	GainRatio
-    1     33	1.1405181	0.22795506
-    2     33	1.2516292	0.25016281
-    3     32	1.2516292	0.25297178
-    4     31	1.1195490	0.22983125
-    5     14	0.68478550	0.19473879
+    1   8067	0.52454004	0.053005251
+    2   8067	0.93109789	0.094089873
+    3   7766	0.61039767	0.063779732
+    4   7837	0.27307385	0.028360141
+    5     44	0.24028503	0.055559394
+    6     44	0.83198581	0.19237255
+    7     44	0.32499390	0.074939666
+    8     44	0.048351684	0.011172195
 
-Preparation took 0 seconds, 0 milliseconds and 339 microseconds
+Preparation took 0 seconds, 300 milliseconds and 860 microseconds
 Saving Weights in tree3.wgt
 Feature Permutation based on GainRatio :
-< 3, 2, 4, 1, 5 >
-Phase 2: Building multi index on Datafile: ./tests/prune.train
-Start:          0 @ Wed Nov 12 09:13:36 2025
-Finished:      36 @ Wed Nov 12 09:13:36 2025
+< 6, 2, 7, 3, 5, 1, 4, 8 >
+Phase 2: Building multi index on Datafile: ./tests/kwart.train
+Start:          0 @ Sun Nov 16 13:37:03 2025
+Finished:   50000 @ Sun Nov 16 13:37:04 2025
 
-Phase 3: Learning from Datafile: ./tests/prune.train
-Start:          0 @ Wed Nov 12 09:13:36 2025
-Finished:      36 @ Wed Nov 12 09:13:36 2025
+Phase 3: Learning from Datafile: ./tests/kwart.train
+Start:          0 @ Sun Nov 16 13:37:04 2025
+Finished:   50000 @ Sun Nov 16 13:37:04 2025
 
-Size of InstanceBase = 212 Nodes, (8480 bytes), 1.85 % compression
-Learning took 0 seconds, 0 milliseconds and 449 microseconds
+Size of InstanceBase = 284326 Nodes, (11373040 bytes), 34.50 % compression
+Learning took 0 seconds, 798 milliseconds and 669 microseconds
 Writing Instance-Base in: tree3
 Saving Weights in tree3.wgt
+17,20c17,20
+< 1	0.0530052512951098
+< 2	0.094089873107247
+< 3	0.0637797318783688
+< 4	0.0283601413199832
+---
+> 1	0.0530052512951103
+> 2	0.0940898731072543
+> 3	0.0637797318783694
+> 4	0.028360141319983
+24c24
+< 8	0.0111721953555272
+---
+> 8	0.0111721953555273
+28,29c28,29
+< 1	0.524540040047744
+< 2	0.931097886207976
+---
+> 1	0.524540040047745
+> 2	0.931097886207974
+31c31
+< 4	0.273073851786737
+---
+> 4	0.273073851786733
+35c35
+< 8	0.0483516838946032
+---
+> 8	0.0483516838946036
