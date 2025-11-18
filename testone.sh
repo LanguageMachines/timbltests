@@ -25,18 +25,18 @@ fi
 for file in $1
 do if test -x $file
    then
-   	\rm -f $file.diff
-	\rm -f $file.tmp
-	\rm -f test*.out*
-   	echo -n "testing  $file "
-	./$file > $file.tmp 2>&1
-	./mydiff.sh $file.tmp $file.ok
-	if [ $? -ne 0 ];
-	then echo -e $FAIL;
-	cp md.tmp $file.diff;
-	echo "differences logged in $file.diff";
-	else echo -e $OK
-	fi
+       \rm -f $file.diff
+       \rm -f $file.tmp
+       \rm -f test*.out*
+       echo -n "testing  $file "
+       ./$file > $file.tmp 2>&1
+       ./mydiff.sh $file.tmp $file.ok
+       if [ $? -ne 0 ];
+       then echo -e $FAIL;
+	    cp md.tmp $file.diff;
+	    echo "differences logged in $file.diff";
+       else echo -e $OK
+       fi
    else
        echo "testfile '$1' not found"
    fi
