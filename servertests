@@ -4,6 +4,8 @@
 #
 
 echo Testing Servers
+killall timblserver
+
 exec="$VG $timbl_bin/timblserver"
 client="$VG $timbl_bin/timblclient"
 
@@ -29,6 +31,7 @@ $exec $doD -f ./tests/dimin.train -S 17345 --logfile=/tmp/server1.log --pidfile=
 sleep 10
 
 \rm -f /tmp/dimin.out
+\rm -f /tmp/dimin2*.out
 $client -n $lh -p 17345 < ./tests/dimin.test.scr > /tmp/dimin.out
 cat /tmp/dimin.out
 $client -n $lh -p 17345  -i ./tests/dimin.test -o /tmp/dimin2-1.out --batch
@@ -68,6 +71,7 @@ $exec $doD -f ./tests/dimin.train -a1 +D -S 17346 --logfile=/tmp/server2.log --p
 sleep 5
 
 \rm -f /tmp/dimin.out
+\rm -f /tmp/dimin2.out
 $client -n $lh -p 17346 < ./tests/dimin.test.scr > /tmp/dimin.out
 cat /tmp/dimin.out
 $client -n $lh -p 17346  -i ./tests/dimin.test -o /tmp/dimin2.out --batch
@@ -81,6 +85,8 @@ $exec $doD --config=./tests/tcpserver.cfg +vCD --logfile=/tmp/server3.log --pidf
 sleep 10
 
 \rm -f /tmp/dimin.out
+\rm -f /tmp/dimin0.out
+\rm -f /tmp/dimin2.out
 $client -n $lh -p 17000 < ./tests/dimin.test.scr > /tmp/dimin.out
 cat /tmp/dimin.out
 $client -n $lh -p 17000  -i ./tests/dimin.test -o /tmp/dimin0.out --batch -b dimin0 &
@@ -125,7 +131,7 @@ cat /tmp/dimin6-3.out
 kill `cat /tmp/run/pid6`
 cat /tmp/server6.log
 
-\rm -f /tmp/dimin6-*.out
+\rm -f /tmp/dimin7-*.out
 $exec $doD -f ./tests/dimin.train -S 17350 --logfile=/tmp/server7.log --pidfile=/tmp/run/pid7 +vdi+cf -G &
 sleep 10
 
