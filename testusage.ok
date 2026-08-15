@@ -1,25 +1,25 @@
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 7.0 (c) CLST/ILK/CLIPS 1998 - 2026.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:01:08 2019
+Sat Jul  4 12:58:48 2026
 
-TiMBL 6.4.14, compiled on Sep  2 2019, 09:19:45
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 7.0, compiled on Jul  1 2026, 12:45:36
+TiMBL 7.0 (c) CLST/ILK/CLIPS 1998 - 2026.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:01:08 2019
+Sat Jul  4 12:58:48 2026
 
-TiMBL 6.4.14, compiled on Sep  2 2019, 09:19:45
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 7.0, compiled on Jul  1 2026, 12:45:36
+TiMBL 7.0 (c) CLST/ILK/CLIPS 1998 - 2026.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:01:08 2019
+Sat Jul  4 12:58:48 2026
 
 usage: timbl -f data-file {-t test-file} [options]
 Algorithm and Metric options:
@@ -66,12 +66,14 @@ Algorithm and Metric options:
 -L n      : MVDM threshold at level n
 -R n      : solve ties at random with seed n
 -t  f     : test using file 'f'
--t leave_one_out: test with Leave One Out,using IB1
+-t leave_one_out test with Leave One Out,using IB1
  you may add -sloppy to speed up Leave One Out testing (see docs)
--t cross_validate: Cross Validate Test,using IB1
+-t cross_validate Cross Validate Test,using IB1
    @f     : test using files and options described in file 'f'
             Supported options: d e F k m o p q R t u v w x % -
             -t <file> is mandatory
+--prune   : convert an IB1 tree into an IGtree.
+            using -i to read an IB1 file and -I to output an IGtree
 Input options:
 -f f      : read from Datafile 'f'
 -f f      : OR: use filenames from 'f' for CV test
@@ -155,12 +157,12 @@ Internal representation options:
        1/S: using 1/SplitInfo
 +x or -x  : Do or don't use the exact match shortcut 
             (IB1 and IB2 only, default is -x)
-TiMBL 6.4.14 (c) CLST/ILK/CLIPS 1998 - 2019.
+TiMBL 7.0 (c) CLST/ILK/CLIPS 1998 - 2026.
 Tilburg Memory Based Learner
 Centre for Language and Speech Technology, Radboud University
 Induction of Linguistic Knowledge Research Group, Tilburg University
 CLiPS Computational Linguistics Group, University of Antwerp
-Mon Sep  2 15:01:08 2019
+Sat Jul  4 12:58:48 2026
 
 usage: timbl -f data-file {-t test-file} [options]
 Algorithm and Metric options:
@@ -207,12 +209,14 @@ Algorithm and Metric options:
 -L n      : MVDM threshold at level n
 -R n      : solve ties at random with seed n
 -t  f     : test using file 'f'
--t leave_one_out: test with Leave One Out,using IB1
+-t leave_one_out test with Leave One Out,using IB1
  you may add -sloppy to speed up Leave One Out testing (see docs)
--t cross_validate: Cross Validate Test,using IB1
+-t cross_validate Cross Validate Test,using IB1
    @f     : test using files and options described in file 'f'
             Supported options: d e F k m o p q R t u v w x % -
             -t <file> is mandatory
+--prune   : convert an IB1 tree into an IGtree.
+            using -i to read an IB1 file and -I to output an IGtree
 Input options:
 -f f      : read from Datafile 'f'
 -f f      : OR: use filenames from 'f' for CV test
